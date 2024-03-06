@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9495e2426dc60cc4ba40a53a473ec155, type: 3}
+  m_Name: Golden Clover +2
+  m_EditorClassIdentifier: 
+  itemSprite: {fileID: 636141720, guid: 7eed70f66e1ff144ab27d11f8cac96c6, type: 3}
+  zone: 4
+  legacyID: General-General-0-
+  level: 0
+  order: 1
+  maxStack: 10
+  maxWornCount: 1
+  price: 0
+  shortDesc: Increase additional gold rate by 80%
+  longDesc: Golden clover increases your goldrate
+  itemAbilities:
+  - abilityData:
+      ability: {fileID: 11400000, guid: c82d9d7f7ce757e43b9de47627e50a05, type: 2}
+      amount: 80
+    isPassive: 0
+  tagResists: []

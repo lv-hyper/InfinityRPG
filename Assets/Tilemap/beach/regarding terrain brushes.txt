@@ -1,0 +1,5 @@
+The sand-to-dirt, clifftop, and underwater autotiles use a corner-to-corner system.
+This system allows you to make smaller terrain shapes and transition to different textures at the corners without needing custom tiles for the purpose.
+It's more flexible than the traditional 15-tile system found in my other tilesets, and doesn't require any inside corner tiles as a result.
+If your game engine or mapping tool requires inside corners, you can use the provided "prefabs & samples" sheet to accomodate your terrain brushes.
+Likewise if your engine can't re-use or mirror tiles to make a shoreline/underwater terrain brush: USE THE PREFABS!

@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9495e2426dc60cc4ba40a53a473ec155, type: 3}
+  m_Name: Forest Pendant +1
+  m_EditorClassIdentifier: 
+  itemSprite: {fileID: -1919474317343591689, guid: 38b583c06ef440242bdb7faf1a4de221,
+    type: 3}
+  zone: 2
+  legacyID: General-DeepForest-0-Forest Pendant +1
+  level: 0
+  order: 21
+  maxStack: 1
+  maxWornCount: 1
+  price: 0
+  shortDesc: '[Passive] Gain HP From Attack (70%), HP +80%, All Stat +1.000.000'
+  longDesc: Very very rare pendant
+  itemAbilities:
+  - abilityData:
+      ability: {fileID: 11400000, guid: 4741220aabfc4fb4d968b50d110d8aeb, type: 2}
+      amount: 70
+    isPassive: 1
+  - abilityData:
+      ability: {fileID: 11400000, guid: 6e69fd54c8757ff40ade2863196c9eda, type: 2}
+      amount: 80
+    isPassive: 1
+  - abilityData:
+      ability: {fileID: 11400000, guid: 577b4532284206842ab2b756f5a50619, type: 2}
+      amount: 1000000
+    isPassive: 1
+  tagResists: []

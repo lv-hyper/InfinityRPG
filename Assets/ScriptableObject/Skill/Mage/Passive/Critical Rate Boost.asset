@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f42957d3e9aa9c8449ce09e613124560, type: 3}
+  m_Name: Critical Rate Boost
+  m_EditorClassIdentifier: 
+  skillSprite: {fileID: 3123343608066862713, guid: 9076f2cec3c3f304898963e22cf4fb27,
+    type: 3}
+  targetCharacterClassType: 1
+  upgradeCost: 2
+  defaultUpgradeCount: 0
+  maxUpgradeCount: 5
+  requiredLevel: 12
+  skillDescription: Passively obtain more critical rate
+  isClassSkill: 1
+  skillAbilities:
+  - abilityType: 7
+    amount: 8
+    abilityData:
+      ability: {fileID: 11400000, guid: f1248d63585cf814e9093fe35267e4ca, type: 2}
+      amount: 8
+    target: 1

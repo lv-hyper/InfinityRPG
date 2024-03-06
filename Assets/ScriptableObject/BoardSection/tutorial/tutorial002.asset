@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad7ed0c8e29ed4a48a5beb08063ad646, type: 3}
+  m_Name: tutorial002
+  m_EditorClassIdentifier: 
+  category: 0
+  order: 2
+  sectionTitle: Basic Progression Tip
+  description: Energy, item, and Village
+  content: "Note that you have limited energy to kill enemies! \n\nYou ll not able
+    to fight any enemy after you drain all energy.\n\nIt is recommended to win every
+    battle and get drop items from enemy or buy item from shop.\n\nYou can equip
+    or buy item from Menu -> Equipments.\n\nYou can see more tutorials on the village
+    which is on right side of spawn point!\r\n\nAnd you can also craft some items
+    there later."
+  boardSectionContent: {fileID: 0}

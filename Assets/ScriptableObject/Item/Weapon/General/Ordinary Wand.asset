@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8715b00cf657c664ea5bdc3b9ae562e1, type: 3}
+  m_Name: Ordinary Wand
+  m_EditorClassIdentifier: 
+  itemSprite: {fileID: -1176910504816116367, guid: 6b15bf20c5a2a604b945d058c786dcf3,
+    type: 3}
+  zone: 0
+  legacyID: Weapon-General-1-Ordinary Wand
+  level: 1
+  order: 1
+  maxStack: 1
+  maxWornCount: 1
+  price: 5000
+  shortDesc: An ordinary wand.
+  longDesc: An ordinary wand.
+  itemAbilities: []
+  tagResists: []
+  weaponType: 1
+  elemental: 0

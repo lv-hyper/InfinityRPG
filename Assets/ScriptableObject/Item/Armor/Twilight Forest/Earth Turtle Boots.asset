@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 590d37b38587ebb4d8c5c14b119511ed, type: 3}
+  m_Name: Earth Turtle Boots
+  m_EditorClassIdentifier: 
+  itemSprite: {fileID: -178102360, guid: 789119ede2ed04942b5c247c324f7a3e, type: 3}
+  zone: 14
+  legacyID: 
+  level: 0
+  order: 0
+  maxStack: 10
+  maxWornCount: 1
+  price: 0
+  shortDesc: 
+  longDesc: 
+  itemAbilities:
+  - abilityData:
+      ability: {fileID: 11400000, guid: 480eeac1ba90dfa408c47d451ea0cb7e, type: 2}
+      amount: 1300
+    isPassive: 0
+  - abilityData:
+      ability: {fileID: 11400000, guid: a0f41aa27f0cbdb45b0805d531073d8c, type: 2}
+      amount: 1600
+    isPassive: 0
+  - abilityData:
+      ability: {fileID: 11400000, guid: 64f80202e2c317948ba4bf877525d183, type: 2}
+      amount: 4990
+    isPassive: 0
+  - abilityData:
+      ability: {fileID: 11400000, guid: 00d41f330a8f0c349b2a0eda1a85f858, type: 2}
+      amount: 5
+    isPassive: 0
+  - abilityData:
+      ability: {fileID: 11400000, guid: b1317ac1d1a0dc145a39d4df1a7647dd, type: 2}
+      amount: 12
+    isPassive: 0
+  tagResists: []

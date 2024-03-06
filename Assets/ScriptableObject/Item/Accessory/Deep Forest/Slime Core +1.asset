@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9495e2426dc60cc4ba40a53a473ec155, type: 3}
+  m_Name: Slime Core +1
+  m_EditorClassIdentifier: 
+  itemSprite: {fileID: -4202723900029560843, guid: f2230cf6bbe9dd043972e3b437ad9a83,
+    type: 3}
+  zone: 2
+  legacyID: General-DeepForest-24000-Slime Core +1
+  level: 24000
+  order: 0
+  maxStack: 3
+  maxWornCount: 3
+  price: 0
+  shortDesc: '[Passive] Movement Speed +2'
+  longDesc: 
+  itemAbilities:
+  - abilityData:
+      ability: {fileID: 11400000, guid: 00d41f330a8f0c349b2a0eda1a85f858, type: 2}
+      amount: 2
+    isPassive: 1
+  tagResists: []

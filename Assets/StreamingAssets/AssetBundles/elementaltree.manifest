@@ -1,0 +1,43 @@
+ManifestFileVersion: 0
+CRC: 3325412891
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 13b379188adcd626c29377a744b1fb09
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7070f8136478a97d743a1ff23d4518c2
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: b4f021525dca7b0439fff4af190496dc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f42957d3e9aa9c8449ce09e613124560, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4ef2cff9f4c9a2245b2d4c258384f4b4, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5227ba7a208f16a4b98315737fb5221f, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Assembly-CSharp
+  ClassName: InGame.Data.ElementalTree/Tier
+- AssemblyName: Assembly-CSharp
+  ClassName: InGame.Data.ElementalTreeElement
+- AssemblyName: Assembly-CSharp
+  ClassName: InGame.Data.ElementalTreeElement/Category
+- AssemblyName: Assembly-CSharp
+  ClassName: InGame.Data.ElementalTreeElement/Dependency
+- AssemblyName: Assembly-CSharp
+  ClassName: InGame.Data.EnumElemental
+Assets:
+- Assets/ScriptableObject/ElementalTree/Nature.asset
+- Assets/ScriptableObject/ElementalTree/Water.asset
+- Assets/ScriptableObject/ElementalTree/Air.asset
+- Assets/ScriptableObject/ElementalTree/Fire.asset
+Dependencies:
+- D:/Unity/InfinityRPG/Assets/StreamingAssets/AssetBundles/skill

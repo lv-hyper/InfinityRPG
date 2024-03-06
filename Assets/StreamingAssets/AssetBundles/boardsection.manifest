@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 1862541525
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: cb9672c84262cf7bf94cddf84da1bbf3
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3e1b70bae3bfc6acf7c05348137ff931
+HashAppended: 0
+ClassTypes:
+- Class: 114
+  Script: {fileID: 11500000, guid: ad7ed0c8e29ed4a48a5beb08063ad646, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Assembly-CSharp
+  ClassName: InGame.UI.BoardSection/BoardSectionCategory
+Assets:
+- Assets/ScriptableObject/BoardSection/tutorial/tutorial001.asset
+- Assets/ScriptableObject/BoardSection/tutorial/tutorial000.asset
+- Assets/ScriptableObject/BoardSection/tutorial/tutorial002.asset
+Dependencies: []

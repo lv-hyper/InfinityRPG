@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad7ed0c8e29ed4a48a5beb08063ad646, type: 3}
+  m_Name: tutorial000
+  m_EditorClassIdentifier: 
+  category: 0
+  order: 0
+  sectionTitle: Welcome to InfintyRPG!
+  description: The Beggining of InfinityRPG
+  content: 'Welcome to InfintyRPG!
+
+
+
+    InfinityRPG is an (semi-)automatic turn-based
+    rpg game.
+
+
+
+    Click ''Start Battle'' to fight against enemy!'
+  boardSectionContent: {fileID: 0}

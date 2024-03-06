@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62c5b9e079ce82943931349fdc67ef8c, type: 3}
+  m_Name: Air Shield
+  m_EditorClassIdentifier: 
+  effectIcon: {fileID: -622903433, guid: 18276612bf6d8404786e10f8400729f9, type: 3}
+  duration: 15
+  abilities:
+  - abilityData:
+      ability: {fileID: 11400000, guid: 62841904735c4744cab8bf4b760e269a, type: 2}
+      amount: 25
+    target: 1
+  - abilityData:
+      ability: {fileID: 11400000, guid: 6e69fd54c8757ff40ade2863196c9eda, type: 2}
+      amount: 10
+    target: 1

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eb1083e257dec42a2a4bad8efd07d9, type: 3}
+  m_Name: Sand Crystal Bottle
+  m_EditorClassIdentifier: 
+  itemSprite: {fileID: -8294377232951689005, guid: 66cc13b398c62eb43bbb5989b09ebca2,
+    type: 3}
+  zone: 0
+  legacyID: Material-General-0-Sand Crystal Bottle
+  level: 0
+  order: 1
+  maxStack: 30
+  maxWornCount: 0
+  price: 0
+  shortDesc: Crystal Bottle
+  longDesc: Sand Slime food, often hidden in cacti, is used as a sacrifice.
+  itemAbilities: []
+  tagResists: []

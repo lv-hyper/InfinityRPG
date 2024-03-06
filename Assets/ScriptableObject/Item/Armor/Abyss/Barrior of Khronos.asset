@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a690dbe85943d2a4484a199a8b9f45af, type: 3}
+  m_Name: Barrior of Khronos
+  m_EditorClassIdentifier: 
+  itemSprite: {fileID: 2808977136407932608, guid: 9e5c7499e4bdcf3438fc87aa9c8a5759,
+    type: 3}
+  zone: 6
+  legacyID: Robe-Abyss-1050000000-Barrior of Khronos
+  level: 1050000000
+  order: 0
+  maxStack: 10
+  maxWornCount: 1
+  price: 0
+  shortDesc: Breastplate
+  longDesc: Obtained from Khronos
+  itemAbilities:
+  - abilityData:
+      ability: {fileID: 11400000, guid: 480eeac1ba90dfa408c47d451ea0cb7e, type: 2}
+      amount: 540
+    isPassive: 0
+  - abilityData:
+      ability: {fileID: 11400000, guid: a0f41aa27f0cbdb45b0805d531073d8c, type: 2}
+      amount: 540
+    isPassive: 0
+  - abilityData:
+      ability: {fileID: 11400000, guid: 2f5cdc4e3a87fd3479d1a25ce5ce7edf, type: 2}
+      amount: 30000000
+    isPassive: 0
+  tagResists: []

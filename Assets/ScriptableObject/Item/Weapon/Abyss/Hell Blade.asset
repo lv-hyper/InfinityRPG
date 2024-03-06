@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8715b00cf657c664ea5bdc3b9ae562e1, type: 3}
+  m_Name: Hell Blade
+  m_EditorClassIdentifier: 
+  itemSprite: {fileID: -1159329482476866350, guid: e2139081da95b9b4dbd5ee8ad9aa9029,
+    type: 3}
+  zone: 6
+  legacyID: Weapon-Abyss-123456789012-Hell Blade
+  level: 123456789012
+  order: 0
+  maxStack: 10
+  maxWornCount: 1
+  price: 0
+  shortDesc: Hell Blade
+  longDesc: Warden of Hell Fire left this weapon
+  itemAbilities:
+  - abilityData:
+      ability: {fileID: 11400000, guid: aebc45057930c2645bda0e6a09837dc1, type: 2}
+      amount: 3
+    isPassive: 0
+  tagResists: []
+  weaponType: 101
+  elemental: 0

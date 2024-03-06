@@ -1,0 +1,164 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ef2cff9f4c9a2245b2d4c258384f4b4, type: 3}
+  m_Name: Air
+  m_EditorClassIdentifier: Assembly-CSharp:InGame.UI:ElementalTree
+  tiers:
+  - radius: 160
+    angleOffset: 0
+    elements:
+    - dependency: []
+      category: 2
+      skill: {fileID: 11400000, guid: 162faa6bb4199aa4b8826f23414fe81b, type: 2}
+      upgradeCount: 1
+    - dependency: []
+      category: 5
+      skill: {fileID: 11400000, guid: cc8b59d99b124864286f31459e723769, type: 2}
+      upgradeCount: 1
+    - dependency: []
+      category: 4
+      skill: {fileID: 11400000, guid: c3f4addcf38a3064b8af2b039f21c8f6, type: 2}
+      upgradeCount: 1
+    - dependency: []
+      category: 5
+      skill: {fileID: 11400000, guid: 6ae22a283b9bede448cb4aa2f151f613, type: 2}
+      upgradeCount: 1
+  - radius: 256
+    angleOffset: -22.5
+    elements:
+    - dependency:
+      - tier: 0
+        order: 0
+      category: 2
+      skill: {fileID: 11400000, guid: 162faa6bb4199aa4b8826f23414fe81b, type: 2}
+      upgradeCount: 2
+    - dependency:
+      - tier: 0
+        order: 0
+      category: 5
+      skill: {fileID: 11400000, guid: fea7e3835d373274ebd9f979181de728, type: 2}
+      upgradeCount: 1
+    - dependency:
+      - tier: 0
+        order: 1
+      category: 2
+      skill: {fileID: 11400000, guid: dd25fa8c49a79804da98b05c92de49e7, type: 2}
+      upgradeCount: 1
+    - dependency:
+      - tier: 0
+        order: 1
+      category: 5
+      skill: {fileID: 11400000, guid: cc8b59d99b124864286f31459e723769, type: 2}
+      upgradeCount: 2
+    - dependency:
+      - tier: 0
+        order: 2
+      category: 4
+      skill: {fileID: 11400000, guid: c3f4addcf38a3064b8af2b039f21c8f6, type: 2}
+      upgradeCount: 2
+    - dependency:
+      - tier: 0
+        order: 2
+      category: 5
+      skill: {fileID: 11400000, guid: d75f5277be2c7a942ac87bb8f5e9a008, type: 2}
+      upgradeCount: 1
+    - dependency:
+      - tier: 0
+        order: 3
+      category: 4
+      skill: {fileID: 11400000, guid: 9b9927c5ed34b914b804ef20db99d742, type: 2}
+      upgradeCount: 1
+    - dependency:
+      - tier: 0
+        order: 3
+      category: 5
+      skill: {fileID: 11400000, guid: 6ae22a283b9bede448cb4aa2f151f613, type: 2}
+      upgradeCount: 2
+  - radius: 384
+    angleOffset: 0
+    elements:
+    - dependency:
+      - tier: 1
+        order: 0
+      - tier: 1
+        order: 1
+      category: 1
+      skill: {fileID: 11400000, guid: 3796c6ba846bc2a47acf6704015cbf26, type: 2}
+      upgradeCount: 1
+    - dependency:
+      - tier: 1
+        order: 1
+      - tier: 1
+        order: 2
+      category: 5
+      skill: {fileID: 11400000, guid: fea7e3835d373274ebd9f979181de728, type: 2}
+      upgradeCount: 2
+    - dependency:
+      - tier: 1
+        order: 2
+      - tier: 1
+        order: 3
+      category: 2
+      skill: {fileID: 11400000, guid: dd25fa8c49a79804da98b05c92de49e7, type: 2}
+      upgradeCount: 2
+    - dependency:
+      - tier: 1
+        order: 3
+      - tier: 1
+        order: 4
+      category: 5
+      skill: {fileID: 11400000, guid: cc8b59d99b124864286f31459e723769, type: 2}
+      upgradeCount: 3
+    - dependency:
+      - tier: 1
+        order: 4
+      - tier: 1
+        order: 5
+      category: 3
+      skill: {fileID: 11400000, guid: 577809ed7f3ce444486032078114e88a, type: 2}
+      upgradeCount: 1
+    - dependency:
+      - tier: 1
+        order: 5
+      - tier: 1
+        order: 6
+      category: 5
+      skill: {fileID: 11400000, guid: d75f5277be2c7a942ac87bb8f5e9a008, type: 2}
+      upgradeCount: 2
+    - dependency:
+      - tier: 1
+        order: 6
+      - tier: 1
+        order: 7
+      category: 4
+      skill: {fileID: 11400000, guid: 9b9927c5ed34b914b804ef20db99d742, type: 2}
+      upgradeCount: 2
+    - dependency:
+      - tier: 1
+        order: 7
+      - tier: 1
+        order: 0
+      category: 5
+      skill: {fileID: 11400000, guid: 6ae22a283b9bede448cb4aa2f151f613, type: 2}
+      upgradeCount: 3
+  elemental: 1
+  mainIcon: {fileID: 1429780580, guid: 47c2c0d06e58f124396c7c7ea680060b, type: 3}
+  offensiveSkillIcon: {fileID: -386798972, guid: 18276612bf6d8404786e10f8400729f9,
+    type: 3}
+  damagePassiveIcon: {fileID: -41922626, guid: 18276612bf6d8404786e10f8400729f9, type: 3}
+  defensiveSkillIcon: {fileID: -622903433, guid: 18276612bf6d8404786e10f8400729f9,
+    type: 3}
+  defencePassiveIcon: {fileID: 323568432, guid: 18276612bf6d8404786e10f8400729f9,
+    type: 3}
+  utilitySkillIcon: {fileID: 1469246551, guid: 18276612bf6d8404786e10f8400729f9, type: 3}
+  orbitColor: {r: 0.16470587, g: 0.8666667, b: 0.7455079, a: 1}
+  lineCoilor: {r: 0.05882353, g: 0.47058824, b: 0.31891027, a: 1}

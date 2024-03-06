@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: Harbor_Water 01
+  m_EditorClassIdentifier: 
+  m_AnimatedSprites:
+  - {fileID: 1348932284, guid: b2d06f56ea868334c9e8b1ce4e69f1e6, type: 3}
+  - {fileID: -49111473, guid: b2d06f56ea868334c9e8b1ce4e69f1e6, type: 3}
+  - {fileID: -492119313, guid: b2d06f56ea868334c9e8b1ce4e69f1e6, type: 3}
+  - {fileID: 1522414739, guid: b2d06f56ea868334c9e8b1ce4e69f1e6, type: 3}
+  - {fileID: -1173452994, guid: b2d06f56ea868334c9e8b1ce4e69f1e6, type: 3}
+  - {fileID: -1034387402, guid: b2d06f56ea868334c9e8b1ce4e69f1e6, type: 3}
+  - {fileID: 1547651186, guid: b2d06f56ea868334c9e8b1ce4e69f1e6, type: 3}
+  - {fileID: 638085696, guid: b2d06f56ea868334c9e8b1ce4e69f1e6, type: 3}
+  m_MinSpeed: 8
+  m_MaxSpeed: 8
+  m_AnimationStartTime: 0
+  m_TileColliderType: 0

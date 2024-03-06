@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f42957d3e9aa9c8449ce09e613124560, type: 3}
+  m_Name: Boost Dodge
+  m_EditorClassIdentifier: 
+  skillSprite: {fileID: 8357001489095750582, guid: 9076f2cec3c3f304898963e22cf4fb27,
+    type: 3}
+  targetCharacterClassType: 2
+  elementalType: 0
+  upgradeCost: 2
+  defaultUpgradeCount: 0
+  maxUpgradeCount: 5
+  requiredLevel: 12
+  skillDescription: Enhance your dodge
+  isClassSkill: 1
+  skillAbilities:
+  - abilityData:
+      ability: {fileID: 11400000, guid: 5d692101370ec7c4cb9b3b0d529bc4bd, type: 2}
+      amount: 7
+    target: 1

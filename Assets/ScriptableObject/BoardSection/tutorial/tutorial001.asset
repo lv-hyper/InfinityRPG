@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad7ed0c8e29ed4a48a5beb08063ad646, type: 3}
+  m_Name: tutorial001
+  m_EditorClassIdentifier: 
+  category: 0
+  order: 1
+  sectionTitle: You've killed first enemy!
+  description: How to distribute stat
+  content: "You've killed first enemy!\r\n\r\nYou gain some level and stat points
+    to upgrade your stat.\r\n\r\nGo Menu -> Stat Distribution and add some stat!\r\n\nYou
+    can also set your auto stat distribution on Menu -> Settings -> Auto stat distribution.\r\n\r\nFor
+    the detailed information about Status system, click question mark on the menu
+    'Stat distribution'. \r"
+  boardSectionContent: {fileID: 0}

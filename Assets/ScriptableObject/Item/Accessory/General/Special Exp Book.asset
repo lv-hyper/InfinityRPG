@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9495e2426dc60cc4ba40a53a473ec155, type: 3}
+  m_Name: Special Exp Book
+  m_EditorClassIdentifier: 
+  itemSprite: {fileID: 986173266, guid: 711b15312ddb2b54b9ad2d4632db530b, type: 3}
+  zone: 0
+  legacyID: 
+  level: 1
+  order: -1
+  maxStack: 1
+  maxWornCount: 1
+  price: 0
+  shortDesc: '[Passive] EXP +20%p'
+  longDesc: Gives you intelligence
+  itemAbilities:
+  - abilityData:
+      ability: {fileID: 11400000, guid: 789afb0f8c38a904486eb4ddab4e9b2c, type: 2}
+      amount: 20
+    isPassive: 1
+  tagResists: []

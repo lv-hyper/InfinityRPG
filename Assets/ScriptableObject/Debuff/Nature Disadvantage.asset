@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e4d3ba6ab5200d44a73c056beef1e37, type: 3}
+  m_Name: Nature Disadvantage
+  m_EditorClassIdentifier: 
+  effectIcon: {fileID: -2214249495721929474, guid: 7b196ebbc240bd4449dd305ea31cb84b,
+    type: 3}
+  duration: -1
+  abilities:
+  - abilityData:
+      ability: {fileID: 11400000, guid: 1ad4901e483f59f42a84b9dfea5d1c8e, type: 2}
+      amount: -20
+    target: 0

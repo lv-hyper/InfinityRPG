@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4f021525dca7b0439fff4af190496dc, type: 3}
+  m_Name: Magic Infusion
+  m_EditorClassIdentifier: 
+  skillSprite: {fileID: -1437066286381686483, guid: 9076f2cec3c3f304898963e22cf4fb27,
+    type: 3}
+  targetCharacterClassType: 1
+  upgradeCost: 2
+  defaultUpgradeCount: 0
+  maxUpgradeCount: 1
+  requiredLevel: 25
+  skillDescription: You're infusing strong magic
+  isClassSkill: 1
+  skillTurnCount: 1
+  skillCoolDown: 10
+  manaCost: 250
+  isAttackSkill: 0
+  skillType: 1
+  elemental:
+    elemental: 0
+    amount: 0
+  skillPercentDamage: 0
+  skillAnimation: {fileID: 0}
+  buffList:
+  - {fileID: 11400000, guid: 3dcc65ce89c472f4a8474334ba126272, type: 2}

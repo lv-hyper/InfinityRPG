@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af6335a62f6434f4a80877537e1fbad6, type: 3}
+  m_Name: Fire Fairy +1
+  m_EditorClassIdentifier: 
+  items:
+  - {fileID: 11400000, guid: 58cbdc2f663dc5547a3d0714fce0cf7f, type: 2}
+  - {fileID: 11400000, guid: 4507c34d15ec0cc4f8b33e1681a884e3, type: 2}
+  - {fileID: 11400000, guid: 9a69676687a8dec47ba019f77de8d522, type: 2}
+  - {fileID: 11400000, guid: 68caf1ddc931fb744a90f266e17b522e, type: 2}
+  itemSetEffects:
+  - itemCount: 2
+    itemAbilities:
+    - abilityData:
+        ability: {fileID: 11400000, guid: 26008c40dd9227848b65e02c7e79e1dd, type: 2}
+        amount: 22
+      isPassive: 0
+    - abilityData:
+        ability: {fileID: 11400000, guid: 480eeac1ba90dfa408c47d451ea0cb7e, type: 2}
+        amount: 1500
+      isPassive: 0
+    - abilityData:
+        ability: {fileID: 11400000, guid: a0f41aa27f0cbdb45b0805d531073d8c, type: 2}
+        amount: 1500
+      isPassive: 0
+    tagResists: []
+  - itemCount: 4
+    itemAbilities:
+    - abilityData:
+        ability: {fileID: 11400000, guid: 26008c40dd9227848b65e02c7e79e1dd, type: 2}
+        amount: 25
+      isPassive: 0
+    - abilityData:
+        ability: {fileID: 11400000, guid: 480eeac1ba90dfa408c47d451ea0cb7e, type: 2}
+        amount: 1700
+      isPassive: 0
+    - abilityData:
+        ability: {fileID: 11400000, guid: a0f41aa27f0cbdb45b0805d531073d8c, type: 2}
+        amount: 1700
+      isPassive: 0
+    tagResists: []

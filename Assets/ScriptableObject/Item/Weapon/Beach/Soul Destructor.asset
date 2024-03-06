@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8715b00cf657c664ea5bdc3b9ae562e1, type: 3}
+  m_Name: Soul Destructor
+  m_EditorClassIdentifier: 
+  itemSprite: {fileID: 3205098307713067860, guid: 39ac8d342677e524896169bbdc190f76,
+    type: 3}
+  zone: 4
+  legacyID: Weapon-Beach-0-Soul Destructor
+  level: 0
+  order: 21
+  maxStack: 10
+  maxWornCount: 1
+  price: 0
+  shortDesc: Soul Destructor
+  longDesc: More powerful soul extractor
+  itemAbilities:
+  - abilityData:
+      ability: {fileID: 11400000, guid: aebc45057930c2645bda0e6a09837dc1, type: 2}
+      amount: 2
+    isPassive: 0
+  - abilityData:
+      ability: {fileID: 11400000, guid: 14973c998a968324eba5d1189dfc6ace, type: 2}
+      amount: -100
+    isPassive: 0
+  tagResists: []
+  weaponType: 101
+  elemental: 0

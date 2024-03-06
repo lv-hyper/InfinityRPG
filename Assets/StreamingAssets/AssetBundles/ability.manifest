@@ -1,0 +1,136 @@
+ManifestFileVersion: 0
+CRC: 3538982440
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4ec77b536bbc97c6c9afb4a7e5f50b3f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 49d160ea5ea4f1157214adf1fe83c5e1
+HashAppended: 0
+ClassTypes:
+- Class: 114
+  Script: {fileID: 11500000, guid: dfdde81f97253ac45ab404ec3912f0d9, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 376b8184a7be2f14d8f04194c10c85d9, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2da2047d1c594384c9fb083cee827297, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 544cdaa57d3181d4aa702acd16b3dc9a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0901f55973d886048a7f965c79507194, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 83917afe5a9317346b60ab37b9d38c7c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e00b32403f05c674e9ca98c420707c87, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c623137764c9279448e01a142584229b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: aff2027ce216ccc48b69a0ae7874fe5f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8fb3e959f51fc1b4886119898c5ea513, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Assembly-CSharp
+  ClassName: InGame.Data.Ability.AdditionalStatDependencyElement
+Assets:
+- Assets/ScriptableObject/Ability/Utility Stat/Droprate/Base Droprate.asset
+- Assets/ScriptableObject/Ability/Elemental Stat/Defence/Additional Nature Defence.asset
+- Assets/ScriptableObject/Ability/Primary Stat/Dexiterity/Dexiterity Percent Point.asset
+- Assets/ScriptableObject/Ability/Primary Stat/Defence/All Defence/Defence Percent.asset
+- Assets/ScriptableObject/Ability/Primary Stat/All Stat/All Stat Percent Point.asset
+- Assets/ScriptableObject/Ability/ETC/Additional Double Hit.asset
+- Assets/ScriptableObject/Ability/ETC/Additional Max Defence.asset
+- Assets/ScriptableObject/Ability/Primary Stat/Dexiterity/Additional Dexiterity.asset
+- Assets/ScriptableObject/Ability/Elemental Stat/Damage/Base Nature Damage.asset
+- Assets/ScriptableObject/Ability/Primary Stat/Intelligence/Intelligence Percent.asset
+- Assets/ScriptableObject/Ability/Elemental Stat/Damage/Additional Water Damage.asset
+- Assets/ScriptableObject/Ability/Elemental Stat/Defence/Additional Water Defence.asset
+- Assets/ScriptableObject/Ability/ETC/Stamina.asset
+- Assets/ScriptableObject/Ability/Primary Stat/Endurance/Additional Endurance.asset
+- Assets/ScriptableObject/Ability/Primary Stat/Intelligence/Intelligence Percent
+  Point.asset
+- Assets/ScriptableObject/Ability/Elemental Stat/Defence/Base Fire Defence.asset
+- Assets/ScriptableObject/Ability/Primary Stat/Attack/Attack.asset
+- Assets/ScriptableObject/Ability/ETC/Surpass Death.asset
+- Assets/ScriptableObject/Ability/Primary Stat/Defence/Melee/Melee Defence.asset
+- Assets/ScriptableObject/Ability/Primary Stat/All Stat/Additional All Stat.asset
+- Assets/ScriptableObject/Ability/Utility Stat/Droprate/Droprate Multiplier.asset
+- Assets/ScriptableObject/Ability/ETC/Additional Critical Rate.asset
+- Assets/ScriptableObject/Ability/Primary Stat/Dexiterity/Dexiterity.asset
+- Assets/ScriptableObject/Ability/ETC/Recover by HP.asset
+- Assets/ScriptableObject/Ability/Elemental Stat/Damage/Additional Nature Damage.asset
+- Assets/ScriptableObject/Ability/ETC/Base Rate Stat/Reflect Damage.asset
+- Assets/ScriptableObject/Ability/ETC/Additional Reflect Damage.asset
+- Assets/ScriptableObject/Ability/ETC/Additional Stat Point.asset
+- Assets/ScriptableObject/Ability/Primary Stat/Vitality/Additional Vitality.asset
+- Assets/ScriptableObject/Ability/Elemental Stat/Defence/Base Nature Defence.asset
+- Assets/ScriptableObject/Ability/Primary Stat/Intelligence/Intelligence.asset
+- Assets/ScriptableObject/Ability/Primary Stat/Dexiterity/Dexiterity Percent.asset
+- Assets/ScriptableObject/Ability/Elemental Stat/Damage/Base Fire Damage.asset
+- Assets/ScriptableObject/Ability/ETC/Soul Extract.asset
+- Assets/ScriptableObject/Ability/Primary Stat/Attack/Attack Percent.asset
+- Assets/ScriptableObject/Ability/Primary Stat/Strength/Strength Percent.asset
+- Assets/ScriptableObject/Ability/Primary Stat/Strength/Additional Strength.asset
+- Assets/ScriptableObject/Ability/ETC/Delay Death.asset
+- Assets/ScriptableObject/Ability/Primary Stat/Defence/Ranged/Ranged Defence Percent
+  Point.asset
+- Assets/ScriptableObject/Ability/Primary Stat/Strength/Strength Percent Point.asset
+- Assets/ScriptableObject/Ability/ETC/Base Rate Stat/Critical Rate.asset
+- Assets/ScriptableObject/Ability/Primary Stat/Defence/Ranged/Additional Ranged Defence.asset
+- Assets/ScriptableObject/Ability/ETC/Additional Combo Rate.asset
+- Assets/ScriptableObject/Ability/Utility Stat/Gold/Base Gold Rate.asset
+- Assets/ScriptableObject/Ability/Primary Stat/Defence/Magical/Additional Magical
+  Defence.asset
+- Assets/ScriptableObject/Ability/ETC/Defence Break.asset
+- Assets/ScriptableObject/Ability/Primary Stat/Defence/Melee/Additional Melee Defence.asset
+- Assets/ScriptableObject/Ability/Utility Stat/Droprate/Additional Droprate.asset
+- Assets/ScriptableObject/Ability/ETC/Recover by Damage.asset
+- Assets/ScriptableObject/Ability/Elemental Stat/Defence/Additional Fire Defence.asset
+- Assets/ScriptableObject/Ability/Utility Stat/Gold/Gold Rate Multiplier.asset
+- Assets/ScriptableObject/Ability/Primary Stat/Intelligence/Additional Intelligence.asset
+- Assets/ScriptableObject/Ability/Primary Stat/Defence/Magical/Magical Defence Percent
+  Point.asset
+- Assets/ScriptableObject/Ability/Primary Stat/Endurance/Endurance Percent Point.asset
+- Assets/ScriptableObject/Ability/Elemental Stat/Damage/Additional Fire Damage.asset
+- Assets/ScriptableObject/Ability/Elemental Stat/Damage/Base Water Damage.asset
+- Assets/ScriptableObject/Ability/Elemental Stat/Defence/Base Air Defence.asset
+- Assets/ScriptableObject/Ability/ETC/Base Rate Stat/Avoid Rate.asset
+- Assets/ScriptableObject/Ability/Elemental Stat/Defence/Base Water Defence.asset
+- Assets/ScriptableObject/Ability/Primary Stat/All Stat/All Stat by Collection Count.asset
+- Assets/ScriptableObject/Ability/ETC/Additional Critical Damage.asset
+- Assets/ScriptableObject/Ability/ETC/Additional EXP Rate.asset
+- Assets/ScriptableObject/Ability/ETC/Base Rate Stat/Avoid Damage.asset
+- Assets/ScriptableObject/Ability/Primary Stat/Defence/All Defence/All Defence Percent
+  Point.asset
+- Assets/ScriptableObject/Ability/ETC/Additional Total Damage Reduction.asset
+- Assets/ScriptableObject/Ability/Utility Stat/Gold/Additional Gold Rate.asset
+- Assets/ScriptableObject/Ability/Primary Stat/Attack/Attack Percent Point.asset
+- Assets/ScriptableObject/Ability/Primary Stat/Endurance/Endurance Percent.asset
+- Assets/ScriptableObject/Ability/ETC/Additional Avoid Rate.asset
+- Assets/ScriptableObject/Ability/Primary Stat/Vitality/Vitality.asset
+- Assets/ScriptableObject/Ability/Primary Stat/Defence/All Defence/Additional Defence.asset
+- Assets/ScriptableObject/Ability/Primary Stat/Attack/Additional Attack.asset
+- Assets/ScriptableObject/Ability/Elemental Stat/Damage/Base Air Damage.asset
+- Assets/ScriptableObject/Ability/ETC/Base Rate Stat/Critical Damage.asset
+- Assets/ScriptableObject/Ability/Primary Stat/Endurance/Endurance.asset
+- Assets/ScriptableObject/Ability/ETC/Base Rate Stat/Double Hit.asset
+- Assets/ScriptableObject/Ability/ETC/Base Rate Stat/Total Damage Reduction.asset
+- Assets/ScriptableObject/Ability/Primary Stat/Vitality/Vitality Percent Point.asset
+- Assets/ScriptableObject/Ability/Primary Stat/Defence/Magical/Magical Defence.asset
+- Assets/ScriptableObject/Ability/Primary Stat/Vitality/Vitality Percent.asset
+- Assets/ScriptableObject/Ability/ETC/Base Rate Stat/Combo Rate.asset
+- Assets/ScriptableObject/Ability/Primary Stat/Defence/All Defence/Defence.asset
+- Assets/ScriptableObject/Ability/ETC/Additional Avoid Damage.asset
+- Assets/ScriptableObject/Ability/Elemental Stat/Defence/Additional Air Defence.asset
+- Assets/ScriptableObject/Ability/Elemental Stat/Damage/Additional Air Damage.asset
+- Assets/ScriptableObject/Ability/ETC/Defence Formula Exponential.asset
+- Assets/ScriptableObject/Ability/Primary Stat/Defence/Ranged/Ranged Defence.asset
+- Assets/ScriptableObject/Ability/ETC/Movement Speed.asset
+- Assets/ScriptableObject/Ability/Primary Stat/Defence/Melee/Melee Defence Percent
+  Point.asset
+- Assets/ScriptableObject/Ability/Primary Stat/All Stat/All Stat Percent.asset
+- Assets/ScriptableObject/Ability/Primary Stat/Strength/Strength.asset
+- Assets/ScriptableObject/Ability/ETC/Base Rate Stat/EXP.asset
+Dependencies: []

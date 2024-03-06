@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eb1083e257dec42a2a4bad8efd07d9, type: 3}
+  m_Name: Earth Slivers
+  m_EditorClassIdentifier: 
+  itemSprite: {fileID: 1616896215, guid: bfc09cd9c76526c4995ce8298926ed66, type: 3}
+  zone: 14
+  legacyID: 
+  level: 0
+  order: 0
+  maxStack: 99
+  maxWornCount: 0
+  price: 200000000000000
+  shortDesc: Material
+  longDesc: Use it on a runic altar to sacrifice.
+  itemAbilities: []
+  tagResists: []

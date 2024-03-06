@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c779848d9dd029409ca676b49e10a18, type: 3}
+  m_Name: New Rule Override Tile
+  m_EditorClassIdentifier: 
+  m_Tile: {fileID: 11400000, guid: d914ed5a69b28d847833a511a647a3a0, type: 2}
+  m_Advanced: 0
+  m_Sprites:
+  - m_OriginalSprite: {fileID: 8663764884977716864, guid: 171e386f715c0d14d95f7fd9a002ffe6,
+      type: 3}
+    m_OverrideSprite: {fileID: 4128440812860548352, guid: 171e386f715c0d14d95f7fd9a002ffe6,
+      type: 3}
+  - m_OriginalSprite: {fileID: 5953013016949115618, guid: 171e386f715c0d14d95f7fd9a002ffe6,
+      type: 3}
+    m_OverrideSprite: {fileID: -5754389006224797497, guid: 171e386f715c0d14d95f7fd9a002ffe6,
+      type: 3}
+  - m_OriginalSprite: {fileID: 9182689230624102997, guid: 171e386f715c0d14d95f7fd9a002ffe6,
+      type: 3}
+    m_OverrideSprite: {fileID: -2817610553946308414, guid: 171e386f715c0d14d95f7fd9a002ffe6,
+      type: 3}
+  - m_OriginalSprite: {fileID: -8857753496191899877, guid: 171e386f715c0d14d95f7fd9a002ffe6,
+      type: 3}
+    m_OverrideSprite: {fileID: -3041935410763915522, guid: 171e386f715c0d14d95f7fd9a002ffe6,
+      type: 3}
+  - m_OriginalSprite: {fileID: -354953251930064103, guid: 171e386f715c0d14d95f7fd9a002ffe6,
+      type: 3}
+    m_OverrideSprite: {fileID: -9055517739267954392, guid: 171e386f715c0d14d95f7fd9a002ffe6,
+      type: 3}
+  - m_OriginalSprite: {fileID: 820799868066455975, guid: 171e386f715c0d14d95f7fd9a002ffe6,
+      type: 3}
+    m_OverrideSprite: {fileID: -6580547291955953413, guid: 171e386f715c0d14d95f7fd9a002ffe6,
+      type: 3}
+  - m_OriginalSprite: {fileID: -2876476997868367373, guid: 171e386f715c0d14d95f7fd9a002ffe6,
+      type: 3}
+    m_OverrideSprite: {fileID: 638689245854364595, guid: 171e386f715c0d14d95f7fd9a002ffe6,
+      type: 3}
+  - m_OriginalSprite: {fileID: -5671269365297317241, guid: 171e386f715c0d14d95f7fd9a002ffe6,
+      type: 3}
+    m_OverrideSprite: {fileID: -3490263657378789077, guid: 171e386f715c0d14d95f7fd9a002ffe6,
+      type: 3}
+  - m_OriginalSprite: {fileID: 3562765661247063321, guid: 171e386f715c0d14d95f7fd9a002ffe6,
+      type: 3}
+    m_OverrideSprite: {fileID: 2907420362246282891, guid: 171e386f715c0d14d95f7fd9a002ffe6,
+      type: 3}
+  - m_OriginalSprite: {fileID: 2578440301481089628, guid: 171e386f715c0d14d95f7fd9a002ffe6,
+      type: 3}
+    m_OverrideSprite: {fileID: 7125253522840255702, guid: 171e386f715c0d14d95f7fd9a002ffe6,
+      type: 3}
+  - m_OriginalSprite: {fileID: -7452328168416044931, guid: 171e386f715c0d14d95f7fd9a002ffe6,
+      type: 3}
+    m_OverrideSprite: {fileID: -696301660482085960, guid: 171e386f715c0d14d95f7fd9a002ffe6,
+      type: 3}
+  - m_OriginalSprite: {fileID: 7679755468266039670, guid: 171e386f715c0d14d95f7fd9a002ffe6,
+      type: 3}
+    m_OverrideSprite: {fileID: -4238105694821658387, guid: 171e386f715c0d14d95f7fd9a002ffe6,
+      type: 3}
+  - m_OriginalSprite: {fileID: -3883577763939965923, guid: 171e386f715c0d14d95f7fd9a002ffe6,
+      type: 3}
+    m_OverrideSprite: {fileID: 2866518502823904900, guid: 171e386f715c0d14d95f7fd9a002ffe6,
+      type: 3}
+  m_OverrideTilingRules: []
+  m_OverrideDefault:
+    m_Enabled: 0
+    m_TilingRule:
+      m_Neighbors: 0000000000000000000000000000000000000000000000000000000000000000
+      m_Sprites:
+      - {fileID: 0}
+      m_GameObject: {fileID: 0}
+      m_AnimationSpeed: 1
+      m_PerlinScale: 0.5
+      m_RuleTransform: 0
+      m_Output: 0
+      m_ColliderType: 1
+      m_RandomTransform: 0

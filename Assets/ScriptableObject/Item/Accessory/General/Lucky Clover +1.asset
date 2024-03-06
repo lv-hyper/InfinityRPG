@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9495e2426dc60cc4ba40a53a473ec155, type: 3}
+  m_Name: Lucky Clover +1
+  m_EditorClassIdentifier: 
+  itemSprite: {fileID: -546587788756569176, guid: e4454d01dc9e646408678229437b23c0,
+    type: 3}
+  zone: 0
+  legacyID: General-General-1-Lucky Clover +1
+  level: 1
+  order: 6
+  maxStack: 10
+  maxWornCount: 1
+  price: 0
+  shortDesc: Droprate +80%p
+  longDesc: Lucky clover increases your droprate
+  itemAbilities:
+  - abilityData:
+      ability: {fileID: 11400000, guid: 477140b58d92b9b4493f58a0c7b38854, type: 2}
+      amount: 80
+    isPassive: 0
+  tagResists: []

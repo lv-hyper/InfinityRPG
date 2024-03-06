@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9495e2426dc60cc4ba40a53a473ec155, type: 3}
+  m_Name: STR Gem
+  m_EditorClassIdentifier: 
+  itemSprite: {fileID: -5819459297146353129, guid: 166373342ab7c1349a6bfe7cc1189287,
+    type: 3}
+  zone: 0
+  legacyID: General-General-1-STR Gem
+  level: 1
+  order: 1
+  maxStack: 1
+  maxWornCount: 1
+  price: 4000000
+  shortDesc: STR +100,000
+  longDesc: Gives you respective power
+  itemAbilities:
+  - abilityData:
+      ability: {fileID: 11400000, guid: 514815e8f1ecac84da9e874a14548929, type: 2}
+      amount: 100000
+    isPassive: 0
+  tagResists: []

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9495e2426dc60cc4ba40a53a473ec155, type: 3}
+  m_Name: Abyss Clock
+  m_EditorClassIdentifier: 
+  itemSprite: {fileID: -466392782016095842, guid: 9e5c7499e4bdcf3438fc87aa9c8a5759,
+    type: 3}
+  zone: 6
+  legacyID: General-Abyss-1050000000-Abyss Clock
+  level: 1050000000
+  order: 0
+  maxStack: 2
+  maxWornCount: 2
+  price: 0
+  shortDesc: Khronos' clock
+  longDesc: Tick tock.
+  itemAbilities:
+  - abilityData:
+      ability: {fileID: 11400000, guid: 577b4532284206842ab2b756f5a50619, type: 2}
+      amount: 222222222
+    isPassive: 0
+  tagResists: []

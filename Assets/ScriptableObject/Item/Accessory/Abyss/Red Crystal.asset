@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9495e2426dc60cc4ba40a53a473ec155, type: 3}
+  m_Name: Red Crystal
+  m_EditorClassIdentifier: 
+  itemSprite: {fileID: 7980404816445113212, guid: db3bdcc3981fd9c4c89d79ee1c341665,
+    type: 3}
+  zone: 6
+  legacyID: General-Abyss-222222222222-Dark Blue Crystal
+  level: 222222222222
+  order: 0
+  maxStack: 1
+  maxWornCount: 1
+  price: 0
+  shortDesc: '[Passive] Additional Stat point +1'
+  longDesc: Power of ocean and abyss inside this.
+  itemAbilities:
+  - abilityData:
+      ability: {fileID: 11400000, guid: a17bc760a478d704aa9081bbdae1956a, type: 2}
+      amount: 1
+    isPassive: 1
+  tagResists: []

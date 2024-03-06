@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9495e2426dc60cc4ba40a53a473ec155, type: 3}
+  m_Name: Flower Ring
+  m_EditorClassIdentifier: 
+  itemSprite: {fileID: 5640532705727379823, guid: dff88bacaabb1214396f35bbd23763bd,
+    type: 3}
+  zone: 1
+  legacyID: General-StartForest-5-Flower Ring
+  level: 5
+  order: 0
+  maxStack: 1
+  maxWornCount: 1
+  price: 100000
+  shortDesc: All stat +1000
+  longDesc: Flower ring gives you nature power
+  itemAbilities:
+  - abilityData:
+      ability: {fileID: 11400000, guid: 577b4532284206842ab2b756f5a50619, type: 2}
+      amount: 1000
+    isPassive: 0
+  tagResists: []

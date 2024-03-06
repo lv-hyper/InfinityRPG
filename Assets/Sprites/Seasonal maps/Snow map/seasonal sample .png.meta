@@ -1,0 +1,6947 @@
+fileFormatVersion: 2
+guid: ad3552fdcb16474449eb7b6ba6c0a7f4
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: seasonal sample _0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ec08fc8f441ce2468c9c52b2f1c7d88
+      internalID: 1669985242573893912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9bfbc452f5f8e74ca2d188ccb3bc8fc
+      internalID: 2725875807117577666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd17353a311b2e45aae4cbbdc0a8132
+      internalID: -6918031396382732074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _3
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3f63125ac7931d4db8021f89da8f92b
+      internalID: 5572213356560371913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _4
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 1, y: 3}
+        - {x: 0, y: 3}
+        - {x: 0, y: 2}
+        - {x: -1, y: 2}
+        - {x: -1, y: 1}
+        - {x: -2, y: 1}
+        - {x: -2, y: -1}
+        - {x: -4, y: -1}
+        - {x: -4, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -3}
+        - {x: -6, y: -3}
+        - {x: -6, y: -4}
+        - {x: -7, y: -4}
+        - {x: -7, y: -5}
+        - {x: -8, y: -5}
+        - {x: -8, y: -8}
+        - {x: 1, y: -8}
+        - {x: 1, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -4}
+        - {x: 3, y: -4}
+        - {x: 3, y: -3}
+        - {x: 4, y: -3}
+        - {x: 4, y: -2}
+        - {x: 3, y: -2}
+        - {x: 3, y: -1}
+        - {x: 4, y: -1}
+        - {x: 4, y: 0}
+        - {x: 6, y: 0}
+        - {x: 6, y: 2}
+        - {x: 8, y: 2}
+        - {x: 8, y: 4}
+        - {x: 1, y: 4}
+      - - {x: 1, y: 4}
+        - {x: 1, y: 4}
+        - {x: 1, y: 4}
+        - {x: 1, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 292d0a1355d2e5245a875ccff9e35ec7
+      internalID: -4168292681848678345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _5
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 8}
+        - {x: -4, y: 7}
+        - {x: -6, y: 7}
+        - {x: -6, y: 6}
+        - {x: -7, y: 6}
+        - {x: -7, y: 5}
+        - {x: -8, y: 5}
+        - {x: -8, y: 2}
+        - {x: -5, y: 2}
+        - {x: -5, y: 3}
+        - {x: -6, y: 3}
+        - {x: -6, y: 4}
+        - {x: -2, y: 4}
+        - {x: -2, y: 5}
+        - {x: -3, y: 5}
+        - {x: -3, y: 6}
+        - {x: 0, y: 6}
+        - {x: 0, y: 5}
+        - {x: 1, y: 5}
+        - {x: 1, y: 4}
+        - {x: 4, y: 4}
+        - {x: 4, y: 3}
+        - {x: 8, y: 3}
+        - {x: 8, y: 2}
+        - {x: 7, y: 2}
+        - {x: 7, y: 1}
+        - {x: 8, y: 1}
+        - {x: 8, y: 5}
+        - {x: 7, y: 5}
+        - {x: 7, y: 6}
+        - {x: 6, y: 6}
+        - {x: 6.0215683, y: 7}
+        - {x: 3, y: 7}
+        - {x: 3, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1734c5fb4fb9244eb62a7f91dabefaa
+      internalID: -6785942368890023972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _6
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 4}
+        - {x: 5, y: 3}
+        - {x: 3, y: 3}
+        - {x: 3, y: 2}
+        - {x: -5, y: 2}
+        - {x: -5, y: 3}
+        - {x: -6, y: 3}
+        - {x: -6, y: 4}
+        - {x: -8, y: 4}
+        - {x: -8, y: 1}
+        - {x: -7, y: 1}
+        - {x: -7, y: 0}
+        - {x: -4, y: 0}
+        - {x: -4, y: -2}
+        - {x: 0, y: -2}
+        - {x: 0, y: -3}
+        - {x: 1, y: -3}
+        - {x: 1, y: -2}
+        - {x: 2, y: -2}
+        - {x: 2, y: -1}
+        - {x: 3, y: -1}
+        - {x: 3, y: -2}
+        - {x: 4, y: -2}
+        - {x: 4, y: -1}
+        - {x: 5, y: -1}
+        - {x: 5, y: 0}
+        - {x: 4, y: 0}
+        - {x: 4, y: 1}
+        - {x: 7, y: 1}
+        - {x: 7, y: 2}
+        - {x: 8, y: 2}
+        - {x: 8, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 657cd79d304a8bc4c9e1eb9efe011bd3
+      internalID: -532194498167118495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _7
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 4}
+        - {x: -8, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: 0}
+        - {x: -4, y: 0}
+        - {x: -4, y: -1}
+        - {x: -3, y: -1}
+        - {x: -3, y: -2}
+        - {x: -4, y: -2}
+        - {x: -4, y: -3}
+        - {x: -3, y: -3}
+        - {x: -3, y: -4}
+        - {x: -2, y: -4}
+        - {x: -2, y: -6}
+        - {x: -1, y: -6}
+        - {x: -1, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: -5}
+        - {x: 7, y: -5}
+        - {x: 7, y: -4}
+        - {x: 6, y: -4}
+        - {x: 6, y: -3}
+        - {x: 5, y: -3}
+        - {x: 5, y: -2}
+        - {x: 4, y: -2}
+        - {x: 4, y: -1}
+        - {x: 2, y: -1}
+        - {x: 2, y: 1}
+        - {x: 1, y: 1}
+        - {x: 1, y: 2}
+        - {x: 0, y: 2}
+        - {x: 0, y: 3}
+        - {x: -1, y: 3}
+        - {x: -1, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0244ad5db452bd4e8095780547c1c2c
+      internalID: 4269221733895722430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _8
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cce7c30bc209b54bbec86983ff0b6f5
+      internalID: 614405981493626108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _9
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bdfe0f1d27f86945bfe15cc15591872
+      internalID: 2774253969844306674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _10
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d76fa90a6ac5d478bd4c2ca67ea306
+      internalID: 5086389132611810586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _11
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda19619c3e1ef5478ccb759815d9f52
+      internalID: -6215812225622776424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _12
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a8dd1cbeb5c1b646831a5dbec6ba8c6
+      internalID: -7585423134839838153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e684b2ebe5c12642bfd52cbc965b781
+      internalID: -2305156879320619840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _14
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f9b9b811f0e31347a8b6d5e8554cb7d
+      internalID: 3566597101959814176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _15
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cd9fa077b977174aa8c17639081e71a
+      internalID: 3329451030085451558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _16
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c15a968383fe2648a2be8f0f93e962c
+      internalID: 5223852561518967779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _17
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd7294ff9d0ef794cb0323176bef8a5f
+      internalID: -3771766713882178690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _18
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 1, y: 3}
+        - {x: 0, y: 3}
+        - {x: 0, y: 2}
+        - {x: -1, y: 2}
+        - {x: -1, y: 1}
+        - {x: -2, y: 1}
+        - {x: -2, y: -1}
+        - {x: -4, y: -1}
+        - {x: -4, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -3}
+        - {x: -6, y: -3}
+        - {x: -6, y: -4}
+        - {x: -7, y: -4}
+        - {x: -7, y: -5}
+        - {x: -8, y: -5}
+        - {x: -8, y: -8}
+        - {x: 1, y: -8}
+        - {x: 1, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -4}
+        - {x: 3, y: -4}
+        - {x: 3, y: -3}
+        - {x: 4, y: -3}
+        - {x: 4, y: -2}
+        - {x: 3, y: -2}
+        - {x: 3, y: -1}
+        - {x: 4, y: -1}
+        - {x: 4, y: 0}
+        - {x: 6, y: 0}
+        - {x: 6, y: 2}
+        - {x: 8, y: 2}
+        - {x: 8, y: 4}
+        - {x: 1, y: 4}
+      - - {x: 1, y: 4}
+        - {x: 1, y: 4}
+        - {x: 1, y: 4}
+        - {x: 1, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42fdc51de193d9149aada83e40dd412b
+      internalID: 3335212967020308486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: 2}
+        - {x: -7, y: 2}
+        - {x: -7, y: 1}
+        - {x: -2, y: 1}
+        - {x: -2, y: 2}
+        - {x: -3, y: 2}
+        - {x: -3, y: 3}
+        - {x: 1, y: 3}
+        - {x: 1, y: 4}
+        - {x: -1, y: 4}
+        - {x: -1, y: 5}
+        - {x: -2, y: 5}
+        - {x: -2, y: 6}
+        - {x: -1, y: 6}
+        - {x: -1, y: 7}
+        - {x: 0, y: 7}
+        - {x: 0, y: 8}
+        - {x: 1, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 122cb4361c87afc4a93636b50d671b9b
+      internalID: -3741147745031651387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _20
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: 8}
+        - {x: 0, y: 7}
+        - {x: 1, y: 7}
+        - {x: 1, y: 6}
+        - {x: 2, y: 6}
+        - {x: 2, y: 5}
+        - {x: 1, y: 5}
+        - {x: 1, y: 4}
+        - {x: -1, y: 4}
+        - {x: -1, y: 3}
+        - {x: 3, y: 3}
+        - {x: 3, y: 2}
+        - {x: 2, y: 2}
+        - {x: 2, y: 1}
+        - {x: 7, y: 1}
+        - {x: 7, y: 2}
+        - {x: 8, y: 2}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36e362e7a5b666f4c84970c47182e995
+      internalID: 8066273029722311569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _21
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 4}
+        - {x: -8, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: 0}
+        - {x: -4, y: 0}
+        - {x: -4, y: -1}
+        - {x: -3, y: -1}
+        - {x: -3, y: -2}
+        - {x: -4, y: -2}
+        - {x: -4, y: -3}
+        - {x: -3, y: -3}
+        - {x: -3, y: -4}
+        - {x: -2, y: -4}
+        - {x: -2, y: -6}
+        - {x: -1, y: -6}
+        - {x: -1, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: -5}
+        - {x: 7, y: -5}
+        - {x: 7, y: -4}
+        - {x: 6, y: -4}
+        - {x: 6, y: -3}
+        - {x: 5, y: -3}
+        - {x: 5, y: -2}
+        - {x: 4, y: -2}
+        - {x: 4, y: -1}
+        - {x: 2, y: -1}
+        - {x: 2, y: 1}
+        - {x: 1, y: 1}
+        - {x: 1, y: 2}
+        - {x: 0, y: 2}
+        - {x: 0, y: 3}
+        - {x: -1, y: 3}
+        - {x: -1, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0ab8bc13f6ba5346bd706b793a3398a
+      internalID: 6390082714393654480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _22
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f8acd13c7ebb874fb85a44bffaa4e77
+      internalID: -4668910783720435636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _23
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c2f57b8234191f41bb648f79a8310a8
+      internalID: -3324343507498748543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _24
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4a89dddebc49424a9a2a2bb32c92f25
+      internalID: 5479665320195632002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _25
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f79ca1eab82aced4d9dd5efa7402dcaa
+      internalID: -8034036850941060835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _26
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f639297603a32e948acba566fdadf415
+      internalID: -2011227669733919251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48dd43cc14a225a49abdac8452c0f916
+      internalID: 1436046668135233903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _28
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 551029ed822caa445a64b42343ba2fb3
+      internalID: 3292582763519406825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _29
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5bcff77c6657334c824e143415e752f
+      internalID: 2416626927705902857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _30
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02bb9b1359fff0648bad810274054a50
+      internalID: 6168664549719889202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _31
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05af68d63fcd4154691369e836e11806
+      internalID: -1669617692990204654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _32
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 1, y: -8}
+        - {x: 0, y: -8}
+        - {x: 0, y: -7}
+        - {x: 1, y: -7}
+        - {x: 1, y: -4}
+        - {x: 2, y: -4}
+        - {x: 2, y: -1}
+        - {x: 3, y: -1}
+        - {x: 3, y: 1}
+        - {x: 2, y: 1}
+        - {x: 2, y: 2}
+        - {x: 3, y: 2}
+        - {x: 3, y: 3}
+        - {x: 2, y: 3}
+        - {x: 2, y: 4}
+        - {x: 1, y: 4}
+        - {x: 1, y: 5}
+        - {x: 0, y: 5}
+        - {x: 0, y: 6}
+        - {x: -1, y: 6}
+        - {x: -1, y: 7}
+        - {x: 0, y: 7}
+        - {x: 0, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3420f0a471e26e4fbb684ed88793ccb
+      internalID: -7185663851362508072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _33
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: 8}
+        - {x: 0, y: 7}
+        - {x: 1, y: 7}
+        - {x: 1, y: 6}
+        - {x: 0, y: 6}
+        - {x: 0, y: 5}
+        - {x: -1, y: 5}
+        - {x: -1, y: 4}
+        - {x: -2, y: 4}
+        - {x: -2, y: 3}
+        - {x: -3, y: 3}
+        - {x: -3, y: 2}
+        - {x: -2, y: 2}
+        - {x: -2, y: 1}
+        - {x: -3, y: 1}
+        - {x: -3, y: -1}
+        - {x: -2, y: -1}
+        - {x: -2, y: -4}
+        - {x: -1, y: -4}
+        - {x: -1, y: -7}
+        - {x: 0, y: -7}
+        - {x: 0, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      - - {x: 0, y: 7}
+        - {x: 0, y: 7}
+        - {x: 0, y: 7}
+        - {x: 0, y: 7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17b3ca0b353b311429cacd763b44dfb9
+      internalID: -1605244743643905793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _34
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 673393487cb0f7945b991d68f4e6ba2b
+      internalID: -734948428374418585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _35
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a74503b6ebc53eb428219af682dc8048
+      internalID: 8771902006378276501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _36
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfc7d1a998e40104ca55c385b7fca7cf
+      internalID: 5347302369658695245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _37
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 163dea803580ba643bac4d7df1fa8847
+      internalID: 7513428098233129783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _38
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db3e79fe82886ed4cb8698c7c3bc9e82
+      internalID: -1066294492488208801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b98695532236efa43bf9afec0284bde8
+      internalID: -8496822999240933833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _40
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5992f93f28352e246ae180eb36577f7f
+      internalID: -3961443032502355677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _41
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df7562565d9a3f048ba8a637159f4858
+      internalID: -5327113616435402220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _42
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bdad52be333bb54a8d69475b61e4ce1
+      internalID: -7625310165459740964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _43
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2980fd5427acf44fa85eaaddd59cfd0
+      internalID: 2653551992175751191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _44
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 4}
+        - {x: 6, y: 4}
+        - {x: 6, y: 5}
+        - {x: 4, y: 5}
+        - {x: 4, y: 6}
+        - {x: 2, y: 6}
+        - {x: 2, y: 7}
+        - {x: 1, y: 7}
+        - {x: 1, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb0d67df990f38b4cb3dc4d10dcd98da
+      internalID: 4137463974026677285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _45
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 3}
+        - {x: -8, y: -8}
+        - {x: 0, y: -8}
+        - {x: 0, y: -6}
+        - {x: -1, y: -6}
+        - {x: -1, y: -4}
+        - {x: -3, y: -4}
+        - {x: -3, y: 1}
+        - {x: -4, y: 1}
+        - {x: -4, y: 2}
+        - {x: -5, y: 2}
+        - {x: -5, y: 3}
+      - - {x: -5, y: 2}
+        - {x: -5, y: 2}
+        - {x: -4, y: 2}
+        - {x: -4, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f12d752258558ca40a01f4c3097f0285
+      internalID: 1740930007294533817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _46
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 3}
+        - {x: 5, y: 2}
+        - {x: 4, y: 2}
+        - {x: 4, y: 1}
+        - {x: 3, y: 1}
+        - {x: 3, y: -4}
+        - {x: 1, y: -4}
+        - {x: 1, y: -6}
+        - {x: 0, y: -6}
+        - {x: 0, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca833fdf72820af4fac569a46903ed21
+      internalID: -4140179802447500929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _47
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -1, y: 8}
+        - {x: -1, y: 7}
+        - {x: -2, y: 7}
+        - {x: -2, y: 6}
+        - {x: -4, y: 6}
+        - {x: -4, y: 5}
+        - {x: -6, y: 5}
+        - {x: -6, y: 4}
+        - {x: -8, y: 4}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34bb3b4f9ba6a3d469ac87facd9e432a
+      internalID: -5608597157405366219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _48
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4cba8fcd1c8a994196dc003768497c3
+      internalID: 8047818394946462413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _49
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8516cabb6f1ddf4eb5de391f0b24015
+      internalID: -95612666353183405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _50
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d327a55e096b41499c35ad0e68a3308
+      internalID: 1213989427649391881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _51
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9178944f7ab6f824f96ebf6311f0b015
+      internalID: 593970639919703377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _52
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2810e66a704a80e4ea6c2e8f160afc5b
+      internalID: 249182824793207346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _53
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89c62acad93f69f4abe446f6358da99d
+      internalID: -321980439979562316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _54
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d5ba8be1b1a44f43a3d2c7548b2cec1
+      internalID: -6903321654600246278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _55
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a31adb60bf1f1df4cbbfe78c00c6fc4f
+      internalID: 4771147398608172605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _56
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f4bb7f1b48e344f98597500ff5e04d
+      internalID: -8517827087871548484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _57
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3f98f51fff0a1c49861f8a695d86eb4
+      internalID: 7923895497503325519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _58
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94d1cbb29d735764b93b877a1bd8e98c
+      internalID: -7342321176656061496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _59
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 4}
+        - {x: 6, y: 4}
+        - {x: 6, y: 5}
+        - {x: 4, y: 5}
+        - {x: 4, y: 6}
+        - {x: 2, y: 6}
+        - {x: 2, y: 7}
+        - {x: 1, y: 7}
+        - {x: 1, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed453386af1a9048aca229b53fdc254
+      internalID: 7498316920374570925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _60
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 7, y: 2}
+        - {x: 7, y: 3}
+        - {x: 6, y: 3}
+        - {x: 6, y: 4}
+        - {x: 5, y: 4}
+        - {x: 5, y: 3}
+        - {x: 4, y: 3}
+        - {x: 4, y: 2}
+        - {x: 3, y: 2}
+        - {x: 3, y: 1}
+        - {x: 2, y: 1}
+        - {x: -3, y: 1}
+        - {x: -4, y: 2}
+        - {x: -8, y: 2}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c5e732959af03d41b7c68c7766325c2
+      internalID: -4030085151103356576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _61
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 7, y: 3}
+        - {x: 7, y: 2}
+        - {x: 4, y: 2}
+        - {x: 4, y: 0}
+        - {x: -4, y: 0}
+        - {x: -4, y: -1}
+        - {x: -7, y: -1}
+        - {x: -7, y: 1}
+        - {x: -8, y: 1}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65cf496dbf0ecf04a9789fbc59efe8c8
+      internalID: 741248327742342853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _62
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -1, y: 8}
+        - {x: -1, y: 7}
+        - {x: -2, y: 7}
+        - {x: -2, y: 6}
+        - {x: -4, y: 6}
+        - {x: -4, y: 5}
+        - {x: -6, y: 5}
+        - {x: -6, y: 4}
+        - {x: -8, y: 4}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      - - {x: -2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6f5bf1c165799a4889513c9ade4c80c
+      internalID: 3636110720167221978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _63
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 910b59a3be667c740b0cc006a70c7a01
+      internalID: -8283615143570508119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _64
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2d23d1f4c6c36747b1600c29a6e1290
+      internalID: -1707490297386480416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _65
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aae40f5ea771d144b7c831383abd19b
+      internalID: 7650370753658663641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _66
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4124c63d53ef4d044b3fac3da973f64c
+      internalID: -8367235375759444734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _67
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 823e33dbb934adb46b95ed68bead916f
+      internalID: 898598025656267815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _68
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd5a5efd9f595df4395d7d4c0163e8ec
+      internalID: -9076838400782413016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d91ffe90a357ed488b60b869ac44af4
+      internalID: -512721189774808403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _70
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae70388b48e915143a78f2b358a0fd84
+      internalID: 8739692606693932666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _71
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f39b65abab395a14b9a700e0bc322625
+      internalID: 1056934541124665607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _72
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e746e110b90cc14893573ebef407218
+      internalID: -4748368914499545108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _73
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9b1b103c19229946bc1886edadc019c
+      internalID: 7069990977569551960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _74
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 994788eef443f9c459d2adebe6ee29cb
+      internalID: -4386825307147283146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _75
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9fb3febc3f8522498f575e332e7d409
+      internalID: -2595967035027224635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _76
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd2b710a05b16e444b155b08adbb0f7a
+      internalID: -6598015179234226022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _77
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6655149e341b1f428beed91412e196f
+      internalID: 3688980201962073521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _78
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a5a9e9f51aaf2942a65fbcc65e7a43f
+      internalID: -3968391627871857274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _79
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d21b67ab4e3017b4c82e5f2d8dd48475
+      internalID: -5670441486415924661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _80
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce8287bb96cd8740b331a2d665b1169
+      internalID: 2268015828509336747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _81
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2757797c9555c24ebc272d623145bdc
+      internalID: -8271172968866293162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _82
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8651234a641f81b4da31b5cda068d386
+      internalID: -2614370953357318471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _83
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5653fe27efa5fef4abc72fa237e1d7d5
+      internalID: 7053866396629119920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2853b598960611e47a92d6d050a1bcfe
+      internalID: -3723593689342128268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _85
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9181f558d877ac43b968512bfdbc415
+      internalID: -894111843908970451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _86
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9151841c01fe17542aa6a7f369f8b202
+      internalID: -12790573867705286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _87
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1945c9674dde4654ebb181e9be8f2fe2
+      internalID: -261018747047484713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _88
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 8}
+        - {x: 1, y: 8}
+        - {x: 0, y: 7}
+        - {x: 0, y: 2}
+        - {x: -1, y: 1}
+        - {x: -1, y: 4}
+        - {x: -2, y: 5}
+        - {x: -6, y: 5}
+        - {x: -7, y: 3}
+        - {x: -7, y: 0}
+        - {x: -4, y: 0}
+        - {x: -4, y: -1}
+        - {x: -4, y: -2}
+        - {x: -4, y: -3}
+        - {x: -3, y: -6}
+        - {x: -2, y: -7}
+        - {x: 3, y: -7}
+        - {x: 5, y: -5}
+        - {x: 5, y: -3}
+        - {x: 4, y: -1}
+        - {x: 3, y: 0}
+        - {x: 2, y: 1}
+        - {x: 4, y: 1}
+        - {x: 6, y: 4}
+        - {x: 6, y: 7}
+      - - {x: -1, y: 4}
+        - {x: -1, y: 4}
+        - {x: -1, y: 4}
+        - {x: -1, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7916d59a7d08dc5458131f320186000f
+      internalID: 7820829425964260573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _89
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91461533d86561b48bf225021f860428
+      internalID: -8349045884233725135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _90
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 077902dc6521aa943967b6a9aa133c9d
+      internalID: 3308528452106398899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _91
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43a383f7f92102e4a8a2b282ca2652b3
+      internalID: -1236795551551917788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _92
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b44510aece1c3384b94680e8237ff634
+      internalID: -929046741562945243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _93
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 963339b4466a6004b8010be6656afc19
+      internalID: 7010263878232972223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _94
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -6}
+        - {x: -7, y: -6}
+        - {x: -7, y: -4}
+        - {x: -6, y: -4}
+        - {x: -6, y: -5}
+        - {x: -6, y: -5}
+        - {x: -3, y: -5}
+        - {x: -3, y: -4}
+        - {x: -2, y: -4}
+        - {x: -2, y: -3}
+        - {x: -1, y: -3}
+        - {x: -1, y: -1}
+        - {x: 0, y: -1}
+        - {x: 0, y: -2}
+        - {x: 2, y: -2}
+        - {x: 2, y: -1}
+        - {x: 3, y: -1}
+        - {x: 3, y: -2}
+        - {x: 4, y: -2}
+        - {x: 4, y: 1}
+        - {x: 6, y: 1}
+        - {x: 6, y: 2}
+        - {x: 7, y: 2}
+        - {x: 7, y: 4}
+        - {x: 8, y: 4}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf8694aa2380d24d812462855acaaa5
+      internalID: -4549747064487811446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _95
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 8, y: 6}
+        - {x: 7, y: 6}
+        - {x: 7, y: 5}
+        - {x: 5, y: 5}
+        - {x: 4, y: 4}
+        - {x: 3, y: 5}
+        - {x: 2, y: 6}
+        - {x: 1, y: 7}
+        - {x: -1, y: 7}
+        - {x: -2, y: 6}
+        - {x: -2, y: 4}
+        - {x: -1, y: 3}
+        - {x: 0, y: 2}
+        - {x: -2, y: 2}
+        - {x: -2, y: 1}
+        - {x: -4, y: 1}
+        - {x: -5, y: 0}
+        - {x: -6, y: -1}
+        - {x: -6, y: -2}
+        - {x: -5, y: -3}
+        - {x: -4, y: -4}
+        - {x: 0, y: -4}
+        - {x: 2, y: -5}
+        - {x: 3, y: -6}
+        - {x: 5, y: -7}
+        - {x: 8, y: -7}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 058ac98df8b0dd648a714e39de91d022
+      internalID: 8128122819556008405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _96
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: -4, y: -8}
+        - {x: -3, y: -7}
+        - {x: -3, y: -5}
+        - {x: -2, y: -5}
+        - {x: -1, y: -6}
+        - {x: -1, y: -8}
+        - {x: 0, y: -8}
+        - {x: 1, y: -7}
+        - {x: 2, y: -6}
+        - {x: 2, y: -2}
+        - {x: 4, y: -3}
+        - {x: 5, y: -4}
+        - {x: 8, y: -4}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a97d61a3f30509248850f17e833220b5
+      internalID: 7315066268462350647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _97
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -6}
+        - {x: -5, y: -6}
+        - {x: -5, y: -7}
+        - {x: -4, y: -7}
+        - {x: -4, y: -6}
+        - {x: -3, y: -5}
+        - {x: -2, y: -6}
+        - {x: -1, y: -7}
+        - {x: 0, y: -7}
+        - {x: 0, y: -6}
+        - {x: 0, y: -4}
+        - {x: 2, y: -4}
+        - {x: 4, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: -3}
+        - {x: 4, y: -2}
+        - {x: 3, y: -1}
+        - {x: 1, y: 0}
+        - {x: 0, y: 1}
+        - {x: 0, y: 2}
+        - {x: 1, y: 3}
+        - {x: 4, y: 4}
+        - {x: 4, y: 5}
+        - {x: 3, y: 6}
+        - {x: 1, y: 7}
+        - {x: 0, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7251013067524f34a86bfc7661dc073f
+      internalID: -1187790002246699578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _98
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3859a885f9bc1054ab3aae856c598c68
+      internalID: 3307602359668752878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _99
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 960ef19e7282efe4f8af3e66b946b0e6
+      internalID: 2759974629850350118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _100
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d85014dfb7b83ab4a8062af9ea6b61b2
+      internalID: -9202194531278179355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _101
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f08b5bd55082a55429383f38525930af
+      internalID: 2747516191826400042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _102
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: 6}
+        - {x: 0, y: 5}
+        - {x: -2, y: 5}
+        - {x: -2, y: 4}
+        - {x: -3, y: 4}
+        - {x: -3, y: 3}
+        - {x: -4, y: 3}
+        - {x: -4, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: 1}
+        - {x: -7, y: 1}
+        - {x: -7, y: -3}
+        - {x: -7, y: -5}
+        - {x: -6, y: -5}
+        - {x: -6, y: -7}
+        - {x: -4, y: -7}
+        - {x: -4, y: -6}
+        - {x: 0, y: -6}
+        - {x: 0, y: -7}
+        - {x: 2, y: -7}
+        - {x: 6, y: -7}
+        - {x: 6, y: -6}
+        - {x: 7, y: -6}
+        - {x: 7, y: -5}
+        - {x: 8, y: -5}
+        - {x: 8, y: -3}
+        - {x: 7, y: -3}
+        - {x: 7, y: 0}
+        - {x: 6, y: 0}
+        - {x: 6, y: 1}
+        - {x: 5, y: 1}
+        - {x: 5, y: 4}
+        - {x: 4, y: 4}
+        - {x: 4, y: 5}
+        - {x: 3, y: 5}
+        - {x: 3, y: 6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 598d1590a11344f4698234ba633d7ab4
+      internalID: 332255579635594094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _103
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 1, y: -8}
+        - {x: 0, y: -8}
+        - {x: 0, y: -7}
+        - {x: 1, y: -7}
+        - {x: 1, y: -4}
+        - {x: 2, y: -4}
+        - {x: 2, y: -1}
+        - {x: 3, y: -1}
+        - {x: 3, y: 1}
+        - {x: 2, y: 1}
+        - {x: 2, y: 2}
+        - {x: 3, y: 2}
+        - {x: 3, y: 3}
+        - {x: 2, y: 3}
+        - {x: 2, y: 4}
+        - {x: 1, y: 4}
+        - {x: 1, y: 5}
+        - {x: 0, y: 5}
+        - {x: 0, y: 6}
+        - {x: -1, y: 6}
+        - {x: -1, y: 7}
+        - {x: 0, y: 7}
+        - {x: 0, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1fd749206c937c4ca1893e52b40c119
+      internalID: -9063078579634504280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _104
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 8}
+        - {x: -5, y: 6}
+        - {x: -6, y: 6}
+        - {x: -6, y: 5}
+        - {x: -4, y: 5}
+        - {x: -4, y: 3}
+        - {x: -5, y: 3}
+        - {x: -5, y: 2}
+        - {x: -2, y: 2}
+        - {x: -2, y: 0}
+        - {x: -3, y: 0}
+        - {x: -3, y: -1}
+        - {x: -2, y: -1}
+        - {x: -2, y: 0}
+        - {x: 0, y: 0}
+        - {x: 0, y: -3}
+        - {x: 1, y: -3}
+        - {x: 1, y: -2}
+        - {x: 2, y: -2}
+        - {x: 2, y: -4}
+        - {x: 3, y: -4}
+        - {x: 3, y: -5}
+        - {x: 5, y: -5}
+        - {x: 5, y: -6}
+        - {x: 8, y: -6}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b9c4ad579fcf624aadb92fa9ee2c8d3
+      internalID: 8945379260787256173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _105
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -6}
+        - {x: -5, y: -6}
+        - {x: 5, y: -6}
+        - {x: 8, y: -6}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e39caf59a64d13d4e85e1bfed15820de
+      internalID: 5191505907448168641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _106
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -5}
+        - {x: -6, y: -5}
+        - {x: -6, y: -6}
+        - {x: -5, y: -6}
+        - {x: -5, y: -5}
+        - {x: -4, y: -5}
+        - {x: -4, y: -4}
+        - {x: -3, y: -4}
+        - {x: -3, y: -7}
+        - {x: -1, y: -7}
+        - {x: -1, y: -6}
+        - {x: 0, y: -6}
+        - {x: 0, y: -7}
+        - {x: 1, y: -7}
+        - {x: 1, y: -8}
+        - {x: 2, y: -8}
+        - {x: 2, y: -7}
+        - {x: 4, y: -7}
+        - {x: 4, y: -6}
+        - {x: 5, y: -6}
+        - {x: 5, y: -5}
+        - {x: 6, y: -5}
+        - {x: 6, y: -6}
+        - {x: 8, y: -6}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52f1e7700fbc8bb45a971b8143546bee
+      internalID: -6331105258169563793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _107
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -6}
+        - {x: -5, y: -6}
+        - {x: -5, y: -5}
+        - {x: -4, y: -5}
+        - {x: -4, y: -4}
+        - {x: -2, y: -4}
+        - {x: -2, y: -2}
+        - {x: -1, y: -2}
+        - {x: -1, y: -3}
+        - {x: 0, y: -3}
+        - {x: 0, y: 0}
+        - {x: 2, y: 0}
+        - {x: 2, y: -1}
+        - {x: 3, y: -1}
+        - {x: 3, y: 0}
+        - {x: 2, y: 0}
+        - {x: 2, y: 2}
+        - {x: 5, y: 2}
+        - {x: 5, y: 3}
+        - {x: 4, y: 3}
+        - {x: 4, y: 5}
+        - {x: 6, y: 5}
+        - {x: 6, y: 6}
+        - {x: 5, y: 6}
+        - {x: 5, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ce93d50d51c2d40bc912f6ceb1059f
+      internalID: -6629784065978922956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _108
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: 8}
+        - {x: 0, y: 7}
+        - {x: 1, y: 7}
+        - {x: 1, y: 6}
+        - {x: 0, y: 6}
+        - {x: 0, y: 5}
+        - {x: -1, y: 5}
+        - {x: -1, y: 4}
+        - {x: -2, y: 4}
+        - {x: -2, y: 3}
+        - {x: -3, y: 3}
+        - {x: -3, y: 2}
+        - {x: -2, y: 2}
+        - {x: -2, y: 1}
+        - {x: -3, y: 1}
+        - {x: -3, y: -1}
+        - {x: -2, y: -1}
+        - {x: -2, y: -4}
+        - {x: -1, y: -4}
+        - {x: -1, y: -7}
+        - {x: 0, y: -7}
+        - {x: 0, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      - - {x: 0, y: 7}
+        - {x: 0, y: 7}
+        - {x: 0, y: 7}
+        - {x: 0, y: 7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 501c899ae1bf16d4990ccd6d1da42de2
+      internalID: -666950866642101144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _109
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fcfe25274c2f5548a631a91e325db4f
+      internalID: -215569216444814556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _110
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 3}
+        - {x: 5, y: 2}
+        - {x: 4, y: 2}
+        - {x: 4, y: 1}
+        - {x: 3, y: 1}
+        - {x: 3, y: -4}
+        - {x: 1, y: -4}
+        - {x: 1, y: -6}
+        - {x: 0, y: -6}
+        - {x: 0, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9178b219f6736df4786b87904e4b8201
+      internalID: 6338611671068376694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _111
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 7, y: 2}
+        - {x: 7, y: 3}
+        - {x: 6, y: 3}
+        - {x: 6, y: 4}
+        - {x: 5, y: 4}
+        - {x: 5, y: 3}
+        - {x: 4, y: 3}
+        - {x: 4, y: 2}
+        - {x: 3, y: 2}
+        - {x: 3, y: 1}
+        - {x: 2, y: 1}
+        - {x: -3, y: 1}
+        - {x: -4, y: 2}
+        - {x: -8, y: 2}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0a3b42883e9dbc41a677c9ef612bbd3
+      internalID: -8115407906499520915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _112
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 7, y: 3}
+        - {x: 7, y: 2}
+        - {x: 4, y: 2}
+        - {x: 4, y: 0}
+        - {x: -4, y: 0}
+        - {x: -4, y: -1}
+        - {x: -7, y: -1}
+        - {x: -7, y: 1}
+        - {x: -8, y: 1}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a2e291b991150c4cae6c95049b3fc67
+      internalID: -1708248499353959686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _113
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 7, y: 2}
+        - {x: 7, y: 3}
+        - {x: 6, y: 3}
+        - {x: 6, y: 4}
+        - {x: 5, y: 4}
+        - {x: 5, y: 3}
+        - {x: 4, y: 3}
+        - {x: 4, y: 2}
+        - {x: 3, y: 2}
+        - {x: 3, y: 1}
+        - {x: 2, y: 1}
+        - {x: 2, y: 3}
+        - {x: 1, y: 3}
+        - {x: 1, y: 4}
+        - {x: -1, y: 4}
+        - {x: -1, y: 5}
+        - {x: -2, y: 5}
+        - {x: -2, y: 4}
+        - {x: -3, y: 4}
+        - {x: -3, y: 3}
+        - {x: -4, y: 3}
+        - {x: -4, y: 2}
+        - {x: -8, y: 2}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d9f207733d031146b1ff010cb771147
+      internalID: 279084937669669059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _114
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89ca8a34c3394cf499e75e48779ecc68
+      internalID: 8524577280810106282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _115
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70c1948d7a7d40040a98330f89362452
+      internalID: -4145921530087951678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _116
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbfcfadfc2ad61046a8cb5d944bf805c
+      internalID: 5358818371227276646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _117
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46c736cdeff59de4cb6e74ebdc953736
+      internalID: 3158180648438411273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _118
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 6, y: -1}
+        - {x: 6, y: 0}
+        - {x: 5, y: 0}
+        - {x: 5, y: 3}
+        - {x: 4, y: 3}
+        - {x: 4, y: 5}
+        - {x: 3, y: 5}
+        - {x: 3, y: 6}
+        - {x: 2, y: 6}
+        - {x: 2, y: 7}
+        - {x: 0, y: 7}
+        - {x: 0, y: 8}
+        - {x: -5, y: 8}
+        - {x: -5, y: 7}
+        - {x: -6, y: 7}
+        - {x: -6, y: 6}
+        - {x: -7, y: 6}
+        - {x: -7, y: 5}
+        - {x: -8, y: 5}
+        - {x: -8, y: -6}
+        - {x: -6, y: -6}
+        - {x: -6, y: -7}
+        - {x: -3, y: -7}
+        - {x: -3, y: -8}
+        - {x: 4, y: -8}
+        - {x: 4, y: -7}
+        - {x: 5, y: -7}
+        - {x: 5, y: -6}
+        - {x: 6, y: -6}
+        - {x: 6, y: -7}
+        - {x: 7, y: -7}
+        - {x: 7, y: -5}
+        - {x: 6, y: -5}
+        - {x: 6, y: -4}
+        - {x: 6, y: -3}
+        - {x: 7, y: -3}
+        - {x: 7, y: -1}
+      - - {x: 3, y: 5}
+        - {x: 3, y: 5}
+        - {x: 3, y: 5}
+        - {x: 3, y: 5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: de4a34178f0a4534a8fb9f825f37ea85
+      internalID: -4369154876949902012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _119
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 4}
+        - {x: 6, y: 4}
+        - {x: 6, y: 5}
+        - {x: 4, y: 5}
+        - {x: 4, y: 6}
+        - {x: 2, y: 6}
+        - {x: 2, y: 7}
+        - {x: 1, y: 7}
+        - {x: 1, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42a5e3e89e807c8479adfe3a85b908b4
+      internalID: 5151478858720144488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _120
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 3}
+        - {x: -8, y: -8}
+        - {x: 0, y: -8}
+        - {x: 0, y: -6}
+        - {x: -1, y: -6}
+        - {x: -1, y: -4}
+        - {x: -3, y: -4}
+        - {x: -3, y: 1}
+        - {x: -4, y: 1}
+        - {x: -4, y: 2}
+        - {x: -5, y: 2}
+        - {x: -5, y: 3}
+      - - {x: -5, y: 2}
+        - {x: -5, y: 2}
+        - {x: -4, y: 2}
+        - {x: -4, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b7ba140e8fd97d48846b756db78a435
+      internalID: -8515925461485005559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _121
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 0, y: -8}
+        - {x: 0, y: -7}
+        - {x: 2, y: -7}
+        - {x: 2, y: -6}
+        - {x: 1, y: -6}
+        - {x: 1, y: -4}
+        - {x: 0, y: -4}
+        - {x: 0, y: 0}
+        - {x: -1, y: 0}
+        - {x: -1, y: 2}
+        - {x: -4, y: 2}
+        - {x: -4, y: 3}
+        - {x: -3, y: 3}
+        - {x: -3, y: 4}
+        - {x: -2, y: 4}
+        - {x: -2, y: 5}
+        - {x: -1, y: 5}
+        - {x: -1, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 7}
+        - {x: 1, y: 7}
+        - {x: 1, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3a652571aa682a4889e18f2518c059f
+      internalID: 4671655963059296763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _122
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -1, y: 8}
+        - {x: -1, y: 7}
+        - {x: 2, y: 7}
+        - {x: 2, y: 6}
+        - {x: 1, y: 6}
+        - {x: 1, y: 5}
+        - {x: 0, y: 5}
+        - {x: 0, y: 4}
+        - {x: 2, y: 4}
+        - {x: 2, y: 3}
+        - {x: 3, y: 3}
+        - {x: 3, y: 2}
+        - {x: 4, y: 2}
+        - {x: 4, y: 0}
+        - {x: 3, y: 0}
+        - {x: 3, y: 1}
+        - {x: 2, y: 1}
+        - {x: 2, y: -1}
+        - {x: 1, y: -1}
+        - {x: 1, y: -2}
+        - {x: 0, y: -2}
+        - {x: 0, y: -4}
+        - {x: -1, y: -4}
+        - {x: -1, y: -6}
+        - {x: -2, y: -6}
+        - {x: -2, y: -7}
+        - {x: -1, y: -7}
+        - {x: -1, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      - - {x: -2, y: -6}
+        - {x: -2, y: -6}
+        - {x: -2, y: -6}
+        - {x: -2, y: -6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4cb18d7d0d3c59469cefc95b98cfde7
+      internalID: 5324764284386080701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _123
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 3}
+        - {x: 5, y: 2}
+        - {x: 4, y: 2}
+        - {x: 4, y: 1}
+        - {x: 3, y: 1}
+        - {x: 3, y: -4}
+        - {x: 1, y: -4}
+        - {x: 1, y: -6}
+        - {x: 0, y: -6}
+        - {x: 0, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb696126e974d1d49a964f762bdaf065
+      internalID: -3186580393719250330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _124
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -1, y: 8}
+        - {x: -1, y: 7}
+        - {x: -2, y: 7}
+        - {x: -2, y: 6}
+        - {x: -4, y: 6}
+        - {x: -4, y: 5}
+        - {x: -6, y: 5}
+        - {x: -6, y: 4}
+        - {x: -8, y: 4}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d381cd1bab6f2394ea10a24635786516
+      internalID: 4987077766964713315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _125
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 7, y: 3}
+        - {x: 7, y: 2}
+        - {x: 4, y: 2}
+        - {x: 4, y: 0}
+        - {x: -4, y: 0}
+        - {x: -4, y: -1}
+        - {x: -7, y: -1}
+        - {x: -7, y: 1}
+        - {x: -8, y: 1}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6930280973f65514ea001e6712e872df
+      internalID: -507713428005858824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _126
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -1, y: 8}
+        - {x: -1, y: 7}
+        - {x: -2, y: 7}
+        - {x: -2, y: 6}
+        - {x: -4, y: 6}
+        - {x: -4, y: 5}
+        - {x: -6, y: 5}
+        - {x: -6, y: 4}
+        - {x: -8, y: 4}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      - - {x: -2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36d974ce1c1d6a045ad6b58f3aee3c10
+      internalID: 1943580434474569093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _127
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9dffc4cf73dec24682cf268f90810f3
+      internalID: 6395013635700970155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _128
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e3163be35fa12746af5809203db38d0
+      internalID: 1621561839146982271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _129
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ed096987f3a55347a3213c2a809cfe1
+      internalID: 1250273819942713693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _130
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04966fa9cd9627b4994a7345007779d3
+      internalID: 1071330662891941583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _131
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 8}
+        - {x: -5, y: 8}
+        - {x: -6, y: 5}
+        - {x: -6, y: 1}
+        - {x: -6, y: -2}
+        - {x: -5, y: -4}
+        - {x: -3, y: -6}
+        - {x: 0, y: -6}
+        - {x: 2, y: -6}
+        - {x: 6, y: -3}
+        - {x: 7, y: -1}
+        - {x: 7, y: 4}
+        - {x: 7, y: 5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f07c1742f91f969499bbb2c379ce0a49
+      internalID: 2650470051846634593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _132
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -6, y: 8}
+        - {x: -7, y: 4}
+        - {x: -7, y: 0}
+        - {x: -6, y: -4}
+        - {x: -3, y: -6}
+        - {x: 0, y: -7}
+        - {x: 8, y: -7}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de1afa75b2eab743bd4733c404633e9
+      internalID: 3412274151513987207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _133
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -7}
+        - {x: -1, y: -7}
+        - {x: 4, y: -4}
+        - {x: 7, y: -1}
+        - {x: 7, y: 0}
+        - {x: 5, y: 4}
+        - {x: 2, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2344d0c4d23eebf4392e2af8a228d222
+      internalID: 9005621844818243343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _134
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 7, y: 1}
+        - {x: 7, y: 6}
+        - {x: 6, y: 6}
+        - {x: 6, y: 7}
+        - {x: 0, y: 7}
+        - {x: 0, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 5}
+        - {x: -3, y: 5}
+        - {x: -3, y: 4}
+        - {x: -4, y: 4}
+        - {x: -4, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: 1}
+        - {x: -7, y: 1}
+        - {x: -7, y: -4}
+        - {x: -5, y: -4}
+        - {x: -5, y: -6}
+        - {x: -3, y: -6}
+        - {x: -3, y: -8}
+        - {x: 7, y: -8}
+        - {x: 7, y: -7}
+        - {x: 8, y: -7}
+        - {x: 8, y: 1}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb87a096993b9bd47a0356ef18063a16
+      internalID: 9170836676287128387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _135
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d9662129470fce429e8dc3030af799c
+      internalID: 663525032920188177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _136
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -6}
+        - {x: -7, y: -6}
+        - {x: -7, y: -5}
+        - {x: -6, y: -5}
+        - {x: -6, y: -6}
+        - {x: -5, y: -6}
+        - {x: -5, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 4}
+        - {x: 6, y: 4}
+        - {x: 6, y: 5}
+        - {x: 4, y: 5}
+        - {x: 4, y: 6}
+        - {x: 2, y: 6}
+        - {x: 2, y: 7}
+        - {x: 1, y: 7}
+        - {x: 1, y: 8}
+      - - {x: -7, y: -6}
+        - {x: -7, y: -6}
+        - {x: -7, y: -6}
+        - {x: -7, y: -6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26feda862ca524f4798452f2fde2fcef
+      internalID: 6345678541526099022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _137
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 7, y: 2}
+        - {x: 7, y: 3}
+        - {x: 6, y: 3}
+        - {x: 6, y: 4}
+        - {x: 5, y: 4}
+        - {x: 5, y: 3}
+        - {x: 4, y: 3}
+        - {x: 4, y: 2}
+        - {x: 3, y: 2}
+        - {x: 3, y: 1}
+        - {x: 2, y: 1}
+        - {x: -3, y: 1}
+        - {x: -4, y: 2}
+        - {x: -8, y: 2}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 616a8140dcec4ee468e2daaa2642d391
+      internalID: 7684355237624549541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _138
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 7, y: 3}
+        - {x: 7, y: 2}
+        - {x: 4, y: 2}
+        - {x: 4, y: 0}
+        - {x: -4, y: 0}
+        - {x: -4, y: -1}
+        - {x: -7, y: -1}
+        - {x: -7, y: 1}
+        - {x: -8, y: 1}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 247ae4d8f82cf6949ba16d582a9c6e0e
+      internalID: -4306497663710890283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _139
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -1, y: 8}
+        - {x: -1, y: 7}
+        - {x: -2, y: 7}
+        - {x: -2, y: 6}
+        - {x: -4, y: 6}
+        - {x: -4, y: 5}
+        - {x: -6, y: 5}
+        - {x: -6, y: 4}
+        - {x: -8, y: 4}
+        - {x: -8, y: -8}
+        - {x: 5, y: -8}
+        - {x: 5, y: -6}
+        - {x: 6, y: -6}
+        - {x: 6, y: -5}
+        - {x: 7, y: -5}
+        - {x: 7, y: -6}
+        - {x: 8, y: -6}
+        - {x: 8, y: 8}
+      - - {x: -2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdebbf144f45d964386fabe6bc5382b2
+      internalID: 2455940020544235737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _140
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -6}
+        - {x: -7, y: -6}
+        - {x: -7, y: -4}
+        - {x: -6, y: -4}
+        - {x: -6, y: -5}
+        - {x: -6, y: -5}
+        - {x: -3, y: -5}
+        - {x: -3, y: -4}
+        - {x: -2, y: -4}
+        - {x: -2, y: -3}
+        - {x: -1, y: -3}
+        - {x: -1, y: -1}
+        - {x: 0, y: -1}
+        - {x: 0, y: -2}
+        - {x: 2, y: -2}
+        - {x: 2, y: -1}
+        - {x: 3, y: -1}
+        - {x: 3, y: -2}
+        - {x: 4, y: -2}
+        - {x: 4, y: 1}
+        - {x: 6, y: 1}
+        - {x: 6, y: 2}
+        - {x: 7, y: 2}
+        - {x: 7, y: 4}
+        - {x: 8, y: 4}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dd2819b25a3cf643aa12c974421d639
+      internalID: -893843852098683800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _141
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d74720cfd922d60459fed4df319e555c
+      internalID: 61202235664339710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _142
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df36a88f3cadbc4abbe38335092e037
+      internalID: -7683918974287134950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _143
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a837894e7ae13f346b19aca609dd9cdc
+      internalID: -9212527265799661122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _144
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ec86b0a0170bf64a9d8b4f470456dbd
+      internalID: -1712572934190943227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _145
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c25a593565533144e9e4a22a86c3b534
+      internalID: 1534644652109989165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _146
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbdf1c0ed63e0f249bd694c1dd123452
+      internalID: -4963194734526648406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _147
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f12cad4a172495f4298c7f87bce0135c
+      internalID: 8233237166752490018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _148
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d1c75dd6a671234bb05d95aae294a51
+      internalID: -1116736896133271479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _149
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 8}
+        - {x: -5, y: 6}
+        - {x: -6, y: 6}
+        - {x: -6, y: 5}
+        - {x: -4, y: 5}
+        - {x: -4, y: 3}
+        - {x: -5, y: 3}
+        - {x: -5, y: 2}
+        - {x: -2, y: 2}
+        - {x: -2, y: 0}
+        - {x: -3, y: 0}
+        - {x: -3, y: -1}
+        - {x: -2, y: -1}
+        - {x: -2, y: 0}
+        - {x: 0, y: 0}
+        - {x: 0, y: -3}
+        - {x: 1, y: -3}
+        - {x: 1, y: -2}
+        - {x: 2, y: -2}
+        - {x: 2, y: -4}
+        - {x: 3, y: -4}
+        - {x: 3, y: -5}
+        - {x: 5, y: -5}
+        - {x: 5, y: -6}
+        - {x: 8, y: -6}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd49cd881f542a43bd1c5f7cf1d1ebb
+      internalID: -7147686094617651452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _150
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -6}
+        - {x: -5, y: -6}
+        - {x: 5, y: -6}
+        - {x: 8, y: -6}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca9609b4bab9f5e479d8a307528d3dd7
+      internalID: 1021137200281179360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _151
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -5}
+        - {x: -6, y: -5}
+        - {x: -6, y: -6}
+        - {x: -5, y: -6}
+        - {x: -5, y: -5}
+        - {x: -4, y: -5}
+        - {x: -4, y: -4}
+        - {x: -3, y: -4}
+        - {x: -3, y: -7}
+        - {x: -1, y: -7}
+        - {x: -1, y: -6}
+        - {x: 0, y: -6}
+        - {x: 0, y: -7}
+        - {x: 1, y: -7}
+        - {x: 1, y: -8}
+        - {x: 2, y: -8}
+        - {x: 2, y: -7}
+        - {x: 4, y: -7}
+        - {x: 4, y: -6}
+        - {x: 5, y: -6}
+        - {x: 5, y: -5}
+        - {x: 6, y: -5}
+        - {x: 6, y: -6}
+        - {x: 8, y: -6}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84848c4b1fe0e5b4789deeec005402dc
+      internalID: 3148950452061000656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _152
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -6}
+        - {x: -5, y: -6}
+        - {x: -5, y: -5}
+        - {x: -4, y: -5}
+        - {x: -4, y: -4}
+        - {x: -2, y: -4}
+        - {x: -2, y: -2}
+        - {x: -1, y: -2}
+        - {x: -1, y: -3}
+        - {x: 0, y: -3}
+        - {x: 0, y: 0}
+        - {x: 2, y: 0}
+        - {x: 2, y: -1}
+        - {x: 3, y: -1}
+        - {x: 3, y: 0}
+        - {x: 2, y: 0}
+        - {x: 2, y: 2}
+        - {x: 5, y: 2}
+        - {x: 5, y: 3}
+        - {x: 4, y: 3}
+        - {x: 4, y: 5}
+        - {x: 6, y: 5}
+        - {x: 6, y: 6}
+        - {x: 5, y: 6}
+        - {x: 5, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c655f3c6f2af04fb8b2d74e0ac478b
+      internalID: -4434240529796192649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _153
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9b0746fe659f724d94b45ca8016aada
+      internalID: -4877657827761987493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _154
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 5, y: -8}
+        - {x: 5, y: -6}
+        - {x: 6, y: -6}
+        - {x: 6, y: -5}
+        - {x: 8, y: -4}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a89dfdbb249be4e4b8ad0f915f55182b
+      internalID: -2637744337288403993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _155
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -4}
+        - {x: 8, y: 2}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b84a38d8f44bd73409801c3820fbfd19
+      internalID: 8848853496631367818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _156
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: 1}
+        - {x: -5, y: 1}
+        - {x: -5, y: 0}
+        - {x: -4, y: 0}
+        - {x: -4, y: -2}
+        - {x: -3, y: -2}
+        - {x: -3, y: -3}
+        - {x: -2, y: -3}
+        - {x: -2, y: -4}
+        - {x: -1, y: -4}
+        - {x: -1, y: -4}
+        - {x: 0, y: -4}
+        - {x: 0, y: -3}
+        - {x: 1, y: -3}
+        - {x: 1, y: -2}
+        - {x: 2, y: -2}
+        - {x: 2, y: -5}
+        - {x: 3, y: -5}
+        - {x: 7, y: -5}
+        - {x: 7, y: -6}
+        - {x: 8, y: -6}
+        - {x: 8, y: 8}
+      - - {x: -3, y: -2}
+        - {x: -3, y: -2}
+        - {x: -3, y: -2}
+        - {x: -3, y: -2}
+      - - {x: 7, y: -6}
+        - {x: 7, y: -6}
+        - {x: 7, y: -6}
+        - {x: 7, y: -6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccd99b28fcac977409a5105a40a02a69
+      internalID: -481877109308914238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _157
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -6}
+        - {x: -5, y: -6}
+        - {x: 5, y: -6}
+        - {x: 8, y: -6}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca7afea9740a41246b7c967417daf356
+      internalID: -7830114485266450806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _158
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0a97aad1c72da74ea6460165bff5b15
+      internalID: 9160203499588959792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _159
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b85da96263abaca449216ac556af9fc5
+      internalID: -9178798908916490583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _160
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4790418ed37b9a43861df7ad148cc20
+      internalID: -1299731766322202781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _161
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27f3e0f2c77c06542908ee68ad68f170
+      internalID: -6724886059608943137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _162
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -7, y: 8}
+        - {x: -7, y: 6}
+        - {x: -6, y: 6}
+        - {x: -6, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 3}
+        - {x: -4, y: 3}
+        - {x: -4, y: 2}
+        - {x: -2, y: 2}
+        - {x: -2, y: 1}
+        - {x: 1, y: 1}
+        - {x: 1, y: 0}
+        - {x: 6, y: 0}
+        - {x: 6, y: -1}
+        - {x: 8, y: -1}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f56d9d8ec82a2c1468472c172da80896
+      internalID: -164659575552439223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _163
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -1}
+        - {x: -6, y: -1}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -3}
+        - {x: -4, y: -3}
+        - {x: -4, y: -4}
+        - {x: -3, y: -4}
+        - {x: -3, y: -6}
+        - {x: -2, y: -6}
+        - {x: -2, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      - - {x: -4, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d51301b642f1fe4d8c78b777b74ee06
+      internalID: 1730945947526784567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _164
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 683760ae0593e72449035e719cdcd1b8
+      internalID: -7491370861764852653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _165
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd978c8a43fdcd4c9b970b5c52a1907
+      internalID: -7453022697475879722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _166
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 2, y: -8}
+        - {x: 2, y: -6}
+        - {x: 3, y: -6}
+        - {x: 3, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: -3}
+        - {x: 6, y: -3}
+        - {x: 6, y: -2}
+        - {x: 7, y: -2}
+        - {x: 7, y: -1}
+        - {x: 8, y: -1}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66ea602fc52495245ba19aad5e9371a3
+      internalID: -6221189700265992024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _167
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -1}
+        - {x: -6, y: -1}
+        - {x: -6, y: 0}
+        - {x: -1, y: 0}
+        - {x: -1, y: 1}
+        - {x: 2, y: 1}
+        - {x: 2, y: 2}
+        - {x: 4, y: 2}
+        - {x: 4, y: 3}
+        - {x: 5, y: 3}
+        - {x: 5, y: 4}
+        - {x: 6, y: 4}
+        - {x: 6, y: 6}
+        - {x: 7, y: 6}
+        - {x: 7, y: 8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dfad2880f46a1d47be0587571a00d05
+      internalID: -7670575421153438826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _168
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -5}
+        - {x: -6, y: -5}
+        - {x: -6, y: -6}
+        - {x: -5, y: -6}
+        - {x: -5, y: -5}
+        - {x: -4, y: -5}
+        - {x: -4, y: -4}
+        - {x: -3, y: -4}
+        - {x: -3, y: -7}
+        - {x: -1, y: -7}
+        - {x: -1, y: -6}
+        - {x: 0, y: -6}
+        - {x: 0, y: -7}
+        - {x: 1, y: -7}
+        - {x: 1, y: -8}
+        - {x: 2, y: -8}
+        - {x: 2, y: -7}
+        - {x: 4, y: -7}
+        - {x: 4, y: -6}
+        - {x: 5, y: -6}
+        - {x: 5, y: -5}
+        - {x: 6, y: -5}
+        - {x: 6, y: -6}
+        - {x: 8, y: -6}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34277ddde7d5604429bc28789f574ff8
+      internalID: 9011251094182155866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _169
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -6}
+        - {x: -7, y: -6}
+        - {x: -7, y: -4}
+        - {x: -6, y: -4}
+        - {x: -6, y: -5}
+        - {x: -3, y: -5}
+        - {x: -3, y: -4}
+        - {x: -2, y: -4}
+        - {x: -2, y: -3}
+        - {x: -1, y: -3}
+        - {x: -1, y: -1}
+        - {x: 0, y: -1}
+        - {x: 0, y: -2}
+        - {x: 2, y: -2}
+        - {x: 2, y: -1}
+        - {x: 3, y: -1}
+        - {x: 3, y: -2}
+        - {x: 4, y: -2}
+        - {x: 4, y: 1}
+        - {x: 6, y: 1}
+        - {x: 6, y: 2}
+        - {x: 7, y: 2}
+        - {x: 7, y: 4}
+        - {x: 8, y: 4}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83616a00410f8124e96fecce123b0aad
+      internalID: 8519896443246251027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _170
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7473a1d37019ed40ab8b007a098d66c
+      internalID: -1872224937247015271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _171
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 777eebe4bbdd5a944a5bbc922923597e
+      internalID: 7691897331826288593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _172
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6965999e2d974174099aca73d3671c19
+      internalID: 1631962492872324164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _173
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eabd2d3b3d469db46ac5a61114a7842a
+      internalID: -6568182488618232177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _174
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: -2}
+        - {x: 8, y: -8}
+        - {x: 8, y: -2}
+        - {x: 7, y: -1}
+        - {x: 6, y: -1}
+        - {x: 6, y: 0}
+        - {x: 0, y: 0}
+        - {x: 0, y: 4}
+        - {x: -1, y: 4}
+        - {x: -1, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 7}
+        - {x: -4, y: 8}
+        - {x: -8, y: 8}
+      - - {x: 0, y: 4}
+        - {x: 0, y: 4}
+        - {x: 0, y: 4}
+        - {x: 0, y: 4}
+      - - {x: 6, y: -1}
+        - {x: 7, y: -1}
+        - {x: 8, y: -2}
+        - {x: 7, y: -1}
+        - {x: 6, y: -1}
+        - {x: 6, y: 0}
+      - - {x: 7, y: -1}
+        - {x: 7, y: -1}
+        - {x: 7, y: -1}
+        - {x: 7, y: -1}
+      - - {x: 8, y: -2}
+        - {x: 7, y: -1}
+        - {x: 7, y: -1}
+        - {x: 8, y: -2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 153524cd8f0ebe6408d597fb2db3ce3f
+      internalID: 5562860435257587129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _175
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67cb558fee8bfeb41bbf332a40aedd1e
+      internalID: -2086838400800454193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _176
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebea924286e748f4db9fa1f846841102
+      internalID: -7146346844875156491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _177
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 663fa6b5b916ddd49b39db7670bc5ff9
+      internalID: -2117745640818627091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _178
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: 0}
+        - {x: -7, y: 0}
+        - {x: -7, y: -1}
+        - {x: -6, y: -1}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -3}
+        - {x: -5, y: -3}
+        - {x: -5, y: -4}
+        - {x: -6, y: -4}
+        - {x: -6, y: -5}
+        - {x: -7, y: -5}
+        - {x: -7, y: -6}
+        - {x: -8, y: -6}
+        - {x: -8, y: -8}
+        - {x: 1, y: -8}
+        - {x: 0, y: -8}
+        - {x: 0, y: -7}
+        - {x: 1, y: -7}
+        - {x: 1, y: -4}
+        - {x: 2, y: -4}
+        - {x: 2, y: -1}
+        - {x: 3, y: -1}
+        - {x: 3, y: 1}
+        - {x: 2, y: 1}
+        - {x: 2, y: 2}
+        - {x: 3, y: 2}
+        - {x: 3, y: 3}
+        - {x: 2, y: 3}
+        - {x: 2, y: 4}
+        - {x: 1, y: 4}
+        - {x: 1, y: 5}
+        - {x: 0, y: 5}
+        - {x: 0, y: 6}
+        - {x: -1, y: 6}
+        - {x: -1, y: 7}
+        - {x: 0, y: 7}
+        - {x: 0, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: feac74d306ece024389abb3e1d5a9ffa
+      internalID: 2793586087574635847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _179
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2, y: 8}
+        - {x: -2, y: 5}
+        - {x: -1, y: 5}
+        - {x: -1, y: 3}
+        - {x: 1, y: 3}
+        - {x: 1, y: 1}
+        - {x: 2, y: 1}
+        - {x: 2, y: 0}
+        - {x: 4, y: 0}
+        - {x: 4, y: -1}
+        - {x: 8, y: -1}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1887ef0d006a8dc45a1acb07befe0370
+      internalID: -7278828908015110244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _180
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -1}
+        - {x: -5, y: -1}
+        - {x: -5, y: 0}
+        - {x: -2, y: 0}
+        - {x: -2, y: 1}
+        - {x: 5, y: 1}
+        - {x: 5, y: 1}
+        - {x: 5, y: 0}
+        - {x: 7, y: 0}
+        - {x: 7, y: -1}
+        - {x: 8, y: -1}
+        - {x: 8, y: 8}
+      - - {x: 5, y: 0}
+        - {x: 5, y: 0}
+        - {x: 5, y: 0}
+        - {x: 5, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3adb2759ea4d3f54599fe8ff60293951
+      internalID: -7514242767849004433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _181
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -1}
+        - {x: -6, y: -1}
+        - {x: -6, y: -2}
+        - {x: -2, y: -2}
+        - {x: 0, y: -2}
+        - {x: 0, y: -3}
+        - {x: 2, y: -3}
+        - {x: 2, y: -2}
+        - {x: 6, y: -2}
+        - {x: 6, y: -1}
+        - {x: 8, y: -1}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac15668636c9a1a45813ce16681cfea7
+      internalID: 6337553928717279070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _182
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -1}
+        - {x: -4, y: -1}
+        - {x: -4, y: 0}
+        - {x: -2, y: 0}
+        - {x: -2, y: 1}
+        - {x: -1, y: 1}
+        - {x: -1, y: 3}
+        - {x: 1, y: 3}
+        - {x: 1, y: 5}
+        - {x: 2, y: 5}
+        - {x: 2, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36f98cb441b53d443a88dc3873ef6d41
+      internalID: -2738668417887418247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _183
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: 8}
+        - {x: 0, y: 7}
+        - {x: 1, y: 7}
+        - {x: 1, y: 6}
+        - {x: 0, y: 6}
+        - {x: 0, y: 5}
+        - {x: -1, y: 5}
+        - {x: -1, y: 4}
+        - {x: -2, y: 4}
+        - {x: -2, y: 3}
+        - {x: -3, y: 3}
+        - {x: -3, y: 2}
+        - {x: -2, y: 2}
+        - {x: -2, y: 1}
+        - {x: -3, y: 1}
+        - {x: -3, y: -1}
+        - {x: -2, y: -1}
+        - {x: -2, y: -4}
+        - {x: -1, y: -4}
+        - {x: -1, y: -7}
+        - {x: 0, y: -7}
+        - {x: 0, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: -5}
+        - {x: 7, y: -5}
+        - {x: 7, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: -3}
+        - {x: 6, y: -3}
+        - {x: 6, y: -2}
+        - {x: 7, y: -2}
+        - {x: 7, y: -1}
+        - {x: 8, y: -1}
+        - {x: 8, y: 8}
+      - - {x: 8, y: -5}
+        - {x: 8, y: -5}
+        - {x: 8, y: -5}
+        - {x: 8, y: -5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41dc4ddac554247409b170dcff35b115
+      internalID: 5326922970688544354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _184
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46af256444e3d8e42a8ba563af5eb450
+      internalID: 678075589426260595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _185
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afdc5485a1ebb0b4a9945cbdc9ebf7f8
+      internalID: -7096422301498337550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _186
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff5dc1729af77447839efa31dfe07b3
+      internalID: -8281346416214891684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _187
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 4}
+        - {x: 6, y: 4}
+        - {x: 6, y: 5}
+        - {x: 4, y: 5}
+        - {x: 4, y: 6}
+        - {x: 2, y: 6}
+        - {x: 2, y: 7}
+        - {x: 1, y: 7}
+        - {x: 1, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b7fd2055d8a0c44cb8d7eebfa2fedc3
+      internalID: 438522211879875547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _188
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 3}
+        - {x: -8, y: -8}
+        - {x: 0, y: -8}
+        - {x: 0, y: -6}
+        - {x: -1, y: -6}
+        - {x: -1, y: -4}
+        - {x: -3, y: -4}
+        - {x: -3, y: 1}
+        - {x: -4, y: 1}
+        - {x: -4, y: 2}
+        - {x: -5, y: 2}
+        - {x: -5, y: 3}
+      - - {x: -5, y: 2}
+        - {x: -5, y: 2}
+        - {x: -4, y: 2}
+        - {x: -4, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 213f1b2b3577eab44b8ab5598a889e98
+      internalID: -623996462666382937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _189
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: 0}
+        - {x: -7, y: 0}
+        - {x: -7, y: -1}
+        - {x: -6, y: -1}
+        - {x: -6, y: -3}
+        - {x: -5, y: -3}
+        - {x: -5, y: -4}
+        - {x: -6, y: -4}
+        - {x: -6, y: -5}
+        - {x: -7, y: -5}
+        - {x: -7, y: -6}
+        - {x: -8, y: -6}
+        - {x: -8, y: -8}
+        - {x: 0, y: -8}
+        - {x: 0, y: -7}
+        - {x: 2, y: -7}
+        - {x: 2, y: -6}
+        - {x: 1, y: -6}
+        - {x: 1, y: -4}
+        - {x: 0, y: -4}
+        - {x: 0, y: 0}
+        - {x: -1, y: 0}
+        - {x: -1, y: 2}
+        - {x: -4, y: 2}
+        - {x: -4, y: 3}
+        - {x: -3, y: 3}
+        - {x: -3, y: 4}
+        - {x: -2, y: 4}
+        - {x: -2, y: 5}
+        - {x: -1, y: 5}
+        - {x: -1, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 7}
+        - {x: 1, y: 7}
+        - {x: 1, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e69c487f85a2f4439554e9b0eccab24
+      internalID: 4300491602468503373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _190
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -1, y: 8}
+        - {x: -1, y: 7}
+        - {x: 2, y: 7}
+        - {x: 2, y: 6}
+        - {x: 1, y: 6}
+        - {x: 1, y: 5}
+        - {x: 0, y: 5}
+        - {x: 0, y: 4}
+        - {x: 2, y: 4}
+        - {x: 2, y: 3}
+        - {x: 3, y: 3}
+        - {x: 3, y: 2}
+        - {x: 4, y: 2}
+        - {x: 4, y: 0}
+        - {x: 3, y: 0}
+        - {x: 3, y: 1}
+        - {x: 2, y: 1}
+        - {x: 2, y: -1}
+        - {x: 1, y: -1}
+        - {x: 1, y: -2}
+        - {x: 0, y: -2}
+        - {x: 0, y: -4}
+        - {x: -1, y: -4}
+        - {x: -1, y: -6}
+        - {x: -2, y: -6}
+        - {x: -2, y: -7}
+        - {x: -1, y: -7}
+        - {x: -1, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09119b53fe4635040ab223d651f838ab
+      internalID: -515369444107975308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _191
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 3}
+        - {x: 5, y: 2}
+        - {x: 4, y: 2}
+        - {x: 4, y: 1}
+        - {x: 3, y: 1}
+        - {x: 3, y: -4}
+        - {x: 1, y: -4}
+        - {x: 1, y: -6}
+        - {x: 0, y: -6}
+        - {x: 0, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2f48ba6e7f08734e92f5cae18476d0b
+      internalID: -9012002063527903364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _192
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -1, y: 8}
+        - {x: -1, y: 7}
+        - {x: -2, y: 7}
+        - {x: -2, y: 6}
+        - {x: -4, y: 6}
+        - {x: -4, y: 5}
+        - {x: -6, y: 5}
+        - {x: -6, y: 4}
+        - {x: -8, y: 4}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f68a6f254dc44cb4ba5be87677d66ebd
+      internalID: -6838685961796848669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _193
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cf8dcb3516ce34459993794d0ea2a40
+      internalID: 7380156163860693021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _194
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbcebaf6ad84ad944bb3a88e7510062e
+      internalID: 3048796730571645915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _195
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f44ae0bd16ed2d479fb54c0b14ee90d
+      internalID: 5922880608338713292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _196
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fe7025e56b2aec468026dc81439bf3c
+      internalID: -3705811752545890645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _197
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d195f27f67fe0a34c9e4c8a31a040ec9
+      internalID: 4463609506612332954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _198
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 2, y: -8}
+        - {x: 2, y: -5}
+        - {x: -4, y: -3}
+        - {x: -6, y: 7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24101afaffc8779429ce3b2c709aaac1
+      internalID: 2529589563694303749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _199
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20ceb785a31c5ed419d1cdeb900aac32
+      internalID: 4987082402878727183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _200
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 659ae9ad69f251f41bf026db87194bcd
+      internalID: -1855584232461755652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _201
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9453b70644ee98a48a4187693e89032c
+      internalID: -5111632611480615990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _202
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -7, y: 8}
+        - {x: -7, y: 6}
+        - {x: -6, y: 6}
+        - {x: -6, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 3}
+        - {x: -4, y: 3}
+        - {x: -4, y: 2}
+        - {x: -2, y: 2}
+        - {x: -2, y: 1}
+        - {x: 1, y: 1}
+        - {x: 1, y: 0}
+        - {x: 6, y: 0}
+        - {x: 6, y: -1}
+        - {x: 8, y: -1}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5a7158c3545aef4a8ed31ae9571b696
+      internalID: -4532362334504006996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _203
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -1}
+        - {x: -6, y: -1}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -3}
+        - {x: -4, y: -3}
+        - {x: -4, y: -4}
+        - {x: -3, y: -4}
+        - {x: -3, y: -6}
+        - {x: -2, y: -6}
+        - {x: -2, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 4}
+        - {x: 6, y: 4}
+        - {x: 6, y: 5}
+        - {x: 4, y: 5}
+        - {x: 4, y: 6}
+        - {x: 2, y: 6}
+        - {x: 2, y: 7}
+        - {x: 1, y: 7}
+        - {x: 1, y: 8}
+      - - {x: -4, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16335ba5f58ca364ca7147e1be2f41b0
+      internalID: 5217921896788988468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _204
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 7, y: 2}
+        - {x: 7, y: 3}
+        - {x: 6, y: 3}
+        - {x: 6, y: 4}
+        - {x: 5, y: 4}
+        - {x: 5, y: 3}
+        - {x: 4, y: 3}
+        - {x: 4, y: 2}
+        - {x: 3, y: 2}
+        - {x: 3, y: 1}
+        - {x: 2, y: 1}
+        - {x: -3, y: 1}
+        - {x: -4, y: 2}
+        - {x: -8, y: 2}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25b5c4c6021c21941a474c6903015425
+      internalID: -369526655011511425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _205
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 7, y: 3}
+        - {x: 7, y: 2}
+        - {x: 4, y: 2}
+        - {x: 4, y: 0}
+        - {x: -4, y: 0}
+        - {x: -4, y: -1}
+        - {x: -7, y: -1}
+        - {x: -7, y: 1}
+        - {x: -8, y: 1}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5ab98cb988e50049aa5718bcde14e3f
+      internalID: -6158140915405440244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _206
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -1, y: 8}
+        - {x: -1, y: 7}
+        - {x: -2, y: 7}
+        - {x: -2, y: 6}
+        - {x: -4, y: 6}
+        - {x: -4, y: 5}
+        - {x: -6, y: 5}
+        - {x: -6, y: 4}
+        - {x: -8, y: 4}
+        - {x: -8, y: -8}
+        - {x: 2, y: -8}
+        - {x: 2, y: -6}
+        - {x: 3, y: -6}
+        - {x: 3, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: -3}
+        - {x: 6, y: -3}
+        - {x: 6, y: -2}
+        - {x: 7, y: -2}
+        - {x: 7, y: -1}
+        - {x: 8, y: -1}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbc75231395aec0458169ade4fb5ebaa
+      internalID: 8658564117372266480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _207
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -1}
+        - {x: -6, y: -1}
+        - {x: -6, y: 0}
+        - {x: -1, y: 0}
+        - {x: -1, y: 1}
+        - {x: 2, y: 1}
+        - {x: 2, y: 2}
+        - {x: 4, y: 2}
+        - {x: 4, y: 3}
+        - {x: 5, y: 3}
+        - {x: 5, y: 4}
+        - {x: 6, y: 4}
+        - {x: 6, y: 6}
+        - {x: 7, y: 6}
+        - {x: 7, y: 8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c14b6080a8ee1740b3a26f6b21bded5
+      internalID: 1189603147937925160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _208
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2edffc562a47cb468b6a5415b7ecfb1
+      internalID: -514973873767615975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _209
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8374162708a82a642b5863e8351b65eb
+      internalID: 1729701581700272284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _210
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da927562c4748f458b831e9a8bb75b1
+      internalID: 4318363857810743626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _211
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fcf1a3dafd3c024a96b4a2da0999f41
+      internalID: 9102821939081123264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _212
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72ec33982f3e25e40987bb2dbd5683cb
+      internalID: 2388858924163500788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _213
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -6}
+        - {x: -7, y: -6}
+        - {x: -4, y: -3}
+        - {x: -5, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63409ed87ea81d84e8b99e8b61d7a25e
+      internalID: -1727459315008719785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _214
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -6, y: 8}
+        - {x: -7, y: 7}
+        - {x: -8, y: 5}
+        - {x: -8, y: 1}
+        - {x: -7, y: 0}
+        - {x: 6, y: -7}
+        - {x: 8, y: -7}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3626df7cee41ef84a986e7394f87ad40
+      internalID: -184169373708910446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _215
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -7}
+        - {x: -7, y: -7}
+        - {x: -6, y: -7}
+        - {x: 1, y: -7}
+        - {x: 4, y: -6}
+        - {x: 7, y: -3}
+        - {x: 7, y: -2}
+        - {x: 7, y: 5}
+        - {x: 6, y: 6}
+        - {x: 5, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82bd7a7a0a3f59e4dbcc522ff8eac31f
+      internalID: -7494102956868249215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _216
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2, y: 8}
+        - {x: -2, y: 5}
+        - {x: -1, y: 5}
+        - {x: -1, y: 3}
+        - {x: 1, y: 3}
+        - {x: 1, y: 1}
+        - {x: 2, y: 1}
+        - {x: 2, y: 0}
+        - {x: 4, y: 0}
+        - {x: 4, y: -1}
+        - {x: 8, y: -1}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab96b381353d1af459bf024d38f2a717
+      internalID: -6801767481973915493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _217
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -1}
+        - {x: -5, y: -1}
+        - {x: -5, y: 0}
+        - {x: -2, y: 0}
+        - {x: -2, y: 1}
+        - {x: 5, y: 1}
+        - {x: 5, y: 1}
+        - {x: 5, y: 0}
+        - {x: 7, y: 0}
+        - {x: 7, y: -1}
+        - {x: 8, y: -1}
+        - {x: 8, y: 8}
+      - - {x: 5, y: 0}
+        - {x: 5, y: 0}
+        - {x: 5, y: 0}
+        - {x: 5, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e02393a0d0dc83b4d8381bd4ec025ca9
+      internalID: -6516387147701019231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _218
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -1}
+        - {x: -6, y: -1}
+        - {x: -6, y: -2}
+        - {x: -2, y: -2}
+        - {x: 0, y: -2}
+        - {x: 0, y: -3}
+        - {x: 2, y: -3}
+        - {x: 2, y: -2}
+        - {x: 6, y: -2}
+        - {x: 6, y: -1}
+        - {x: 8, y: -1}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb3994927d4b82489abb7b4426259b8
+      internalID: 3084146995932006020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _219
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -1}
+        - {x: -4, y: -1}
+        - {x: -4, y: 0}
+        - {x: -2, y: 0}
+        - {x: -2, y: 1}
+        - {x: -1, y: 1}
+        - {x: -1, y: 3}
+        - {x: 1, y: 3}
+        - {x: 1, y: 5}
+        - {x: 2, y: 5}
+        - {x: 2, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b85a6a93873ad4c8ba4a55401e73e4
+      internalID: 8699387267966281407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _220
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e5244f1c25e57144a69524214a3fa83
+      internalID: -1385340226621385213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _221
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae411d795ecbeb34a97368ed7d8cc2d3
+      internalID: -3832296146743105523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _222
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3901a1e449ad9b0459ad622ed8a4d541
+      internalID: 6151991576509854653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _223
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d3cae37b17d4f34395dab783567ca46
+      internalID: 2522702085143848074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample _224
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eaea054ad33a2848a7947d7871bd4e4
+      internalID: 6382188987817292157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      seasonal sample _0: 1669985242573893912
+      seasonal sample _1: 2725875807117577666
+      seasonal sample _10: 5086389132611810586
+      seasonal sample _100: -9202194531278179355
+      seasonal sample _101: 2747516191826400042
+      seasonal sample _102: 332255579635594094
+      seasonal sample _103: -9063078579634504280
+      seasonal sample _104: 8945379260787256173
+      seasonal sample _105: 5191505907448168641
+      seasonal sample _106: -6331105258169563793
+      seasonal sample _107: -6629784065978922956
+      seasonal sample _108: -666950866642101144
+      seasonal sample _109: -215569216444814556
+      seasonal sample _11: -6215812225622776424
+      seasonal sample _110: 6338611671068376694
+      seasonal sample _111: -8115407906499520915
+      seasonal sample _112: -1708248499353959686
+      seasonal sample _113: 279084937669669059
+      seasonal sample _114: 8524577280810106282
+      seasonal sample _115: -4145921530087951678
+      seasonal sample _116: 5358818371227276646
+      seasonal sample _117: 3158180648438411273
+      seasonal sample _118: -4369154876949902012
+      seasonal sample _119: 5151478858720144488
+      seasonal sample _12: -7585423134839838153
+      seasonal sample _120: -8515925461485005559
+      seasonal sample _121: 4671655963059296763
+      seasonal sample _122: 5324764284386080701
+      seasonal sample _123: -3186580393719250330
+      seasonal sample _124: 4987077766964713315
+      seasonal sample _125: -507713428005858824
+      seasonal sample _126: 1943580434474569093
+      seasonal sample _127: 6395013635700970155
+      seasonal sample _128: 1621561839146982271
+      seasonal sample _129: 1250273819942713693
+      seasonal sample _13: -2305156879320619840
+      seasonal sample _130: 1071330662891941583
+      seasonal sample _131: 2650470051846634593
+      seasonal sample _132: 3412274151513987207
+      seasonal sample _133: 9005621844818243343
+      seasonal sample _134: 9170836676287128387
+      seasonal sample _135: 663525032920188177
+      seasonal sample _136: 6345678541526099022
+      seasonal sample _137: 7684355237624549541
+      seasonal sample _138: -4306497663710890283
+      seasonal sample _139: 2455940020544235737
+      seasonal sample _14: 3566597101959814176
+      seasonal sample _140: -893843852098683800
+      seasonal sample _141: 61202235664339710
+      seasonal sample _142: -7683918974287134950
+      seasonal sample _143: -9212527265799661122
+      seasonal sample _144: -1712572934190943227
+      seasonal sample _145: 1534644652109989165
+      seasonal sample _146: -4963194734526648406
+      seasonal sample _147: 8233237166752490018
+      seasonal sample _148: -1116736896133271479
+      seasonal sample _149: -7147686094617651452
+      seasonal sample _15: 3329451030085451558
+      seasonal sample _150: 1021137200281179360
+      seasonal sample _151: 3148950452061000656
+      seasonal sample _152: -4434240529796192649
+      seasonal sample _153: -4877657827761987493
+      seasonal sample _154: -2637744337288403993
+      seasonal sample _155: 8848853496631367818
+      seasonal sample _156: -481877109308914238
+      seasonal sample _157: -7830114485266450806
+      seasonal sample _158: 9160203499588959792
+      seasonal sample _159: -9178798908916490583
+      seasonal sample _16: 5223852561518967779
+      seasonal sample _160: -1299731766322202781
+      seasonal sample _161: -6724886059608943137
+      seasonal sample _162: -164659575552439223
+      seasonal sample _163: 1730945947526784567
+      seasonal sample _164: -7491370861764852653
+      seasonal sample _165: -7453022697475879722
+      seasonal sample _166: -6221189700265992024
+      seasonal sample _167: -7670575421153438826
+      seasonal sample _168: 9011251094182155866
+      seasonal sample _169: 8519896443246251027
+      seasonal sample _17: -3771766713882178690
+      seasonal sample _170: -1872224937247015271
+      seasonal sample _171: 7691897331826288593
+      seasonal sample _172: 1631962492872324164
+      seasonal sample _173: -6568182488618232177
+      seasonal sample _174: 5562860435257587129
+      seasonal sample _175: -2086838400800454193
+      seasonal sample _176: -7146346844875156491
+      seasonal sample _177: -2117745640818627091
+      seasonal sample _178: 2793586087574635847
+      seasonal sample _179: -7278828908015110244
+      seasonal sample _18: 3335212967020308486
+      seasonal sample _180: -7514242767849004433
+      seasonal sample _181: 6337553928717279070
+      seasonal sample _182: -2738668417887418247
+      seasonal sample _183: 5326922970688544354
+      seasonal sample _184: 678075589426260595
+      seasonal sample _185: -7096422301498337550
+      seasonal sample _186: -8281346416214891684
+      seasonal sample _187: 438522211879875547
+      seasonal sample _188: -623996462666382937
+      seasonal sample _189: 4300491602468503373
+      seasonal sample _19: -3741147745031651387
+      seasonal sample _190: -515369444107975308
+      seasonal sample _191: -9012002063527903364
+      seasonal sample _192: -6838685961796848669
+      seasonal sample _193: 7380156163860693021
+      seasonal sample _194: 3048796730571645915
+      seasonal sample _195: 5922880608338713292
+      seasonal sample _196: -3705811752545890645
+      seasonal sample _197: 4463609506612332954
+      seasonal sample _198: 2529589563694303749
+      seasonal sample _199: 4987082402878727183
+      seasonal sample _2: -6918031396382732074
+      seasonal sample _20: 8066273029722311569
+      seasonal sample _200: -1855584232461755652
+      seasonal sample _201: -5111632611480615990
+      seasonal sample _202: -4532362334504006996
+      seasonal sample _203: 5217921896788988468
+      seasonal sample _204: -369526655011511425
+      seasonal sample _205: -6158140915405440244
+      seasonal sample _206: 8658564117372266480
+      seasonal sample _207: 1189603147937925160
+      seasonal sample _208: -514973873767615975
+      seasonal sample _209: 1729701581700272284
+      seasonal sample _21: 6390082714393654480
+      seasonal sample _210: 4318363857810743626
+      seasonal sample _211: 9102821939081123264
+      seasonal sample _212: 2388858924163500788
+      seasonal sample _213: -1727459315008719785
+      seasonal sample _214: -184169373708910446
+      seasonal sample _215: -7494102956868249215
+      seasonal sample _216: -6801767481973915493
+      seasonal sample _217: -6516387147701019231
+      seasonal sample _218: 3084146995932006020
+      seasonal sample _219: 8699387267966281407
+      seasonal sample _22: -4668910783720435636
+      seasonal sample _220: -1385340226621385213
+      seasonal sample _221: -3832296146743105523
+      seasonal sample _222: 6151991576509854653
+      seasonal sample _223: 2522702085143848074
+      seasonal sample _224: 6382188987817292157
+      seasonal sample _23: -3324343507498748543
+      seasonal sample _24: 5479665320195632002
+      seasonal sample _25: -8034036850941060835
+      seasonal sample _26: -2011227669733919251
+      seasonal sample _27: 1436046668135233903
+      seasonal sample _28: 3292582763519406825
+      seasonal sample _29: 2416626927705902857
+      seasonal sample _3: 5572213356560371913
+      seasonal sample _30: 6168664549719889202
+      seasonal sample _31: -1669617692990204654
+      seasonal sample _32: -7185663851362508072
+      seasonal sample _33: -1605244743643905793
+      seasonal sample _34: -734948428374418585
+      seasonal sample _35: 8771902006378276501
+      seasonal sample _36: 5347302369658695245
+      seasonal sample _37: 7513428098233129783
+      seasonal sample _38: -1066294492488208801
+      seasonal sample _39: -8496822999240933833
+      seasonal sample _4: -4168292681848678345
+      seasonal sample _40: -3961443032502355677
+      seasonal sample _41: -5327113616435402220
+      seasonal sample _42: -7625310165459740964
+      seasonal sample _43: 2653551992175751191
+      seasonal sample _44: 4137463974026677285
+      seasonal sample _45: 1740930007294533817
+      seasonal sample _46: -4140179802447500929
+      seasonal sample _47: -5608597157405366219
+      seasonal sample _48: 8047818394946462413
+      seasonal sample _49: -95612666353183405
+      seasonal sample _5: -6785942368890023972
+      seasonal sample _50: 1213989427649391881
+      seasonal sample _51: 593970639919703377
+      seasonal sample _52: 249182824793207346
+      seasonal sample _53: -321980439979562316
+      seasonal sample _54: -6903321654600246278
+      seasonal sample _55: 4771147398608172605
+      seasonal sample _56: -8517827087871548484
+      seasonal sample _57: 7923895497503325519
+      seasonal sample _58: -7342321176656061496
+      seasonal sample _59: 7498316920374570925
+      seasonal sample _6: -532194498167118495
+      seasonal sample _60: -4030085151103356576
+      seasonal sample _61: 741248327742342853
+      seasonal sample _62: 3636110720167221978
+      seasonal sample _63: -8283615143570508119
+      seasonal sample _64: -1707490297386480416
+      seasonal sample _65: 7650370753658663641
+      seasonal sample _66: -8367235375759444734
+      seasonal sample _67: 898598025656267815
+      seasonal sample _68: -9076838400782413016
+      seasonal sample _69: -512721189774808403
+      seasonal sample _7: 4269221733895722430
+      seasonal sample _70: 8739692606693932666
+      seasonal sample _71: 1056934541124665607
+      seasonal sample _72: -4748368914499545108
+      seasonal sample _73: 7069990977569551960
+      seasonal sample _74: -4386825307147283146
+      seasonal sample _75: -2595967035027224635
+      seasonal sample _76: -6598015179234226022
+      seasonal sample _77: 3688980201962073521
+      seasonal sample _78: -3968391627871857274
+      seasonal sample _79: -5670441486415924661
+      seasonal sample _8: 614405981493626108
+      seasonal sample _80: 2268015828509336747
+      seasonal sample _81: -8271172968866293162
+      seasonal sample _82: -2614370953357318471
+      seasonal sample _83: 7053866396629119920
+      seasonal sample _84: -3723593689342128268
+      seasonal sample _85: -894111843908970451
+      seasonal sample _86: -12790573867705286
+      seasonal sample _87: -261018747047484713
+      seasonal sample _88: 7820829425964260573
+      seasonal sample _89: -8349045884233725135
+      seasonal sample _9: 2774253969844306674
+      seasonal sample _90: 3308528452106398899
+      seasonal sample _91: -1236795551551917788
+      seasonal sample _92: -929046741562945243
+      seasonal sample _93: 7010263878232972223
+      seasonal sample _94: -4549747064487811446
+      seasonal sample _95: 8128122819556008405
+      seasonal sample _96: 7315066268462350647
+      seasonal sample _97: -1187790002246699578
+      seasonal sample _98: 3307602359668752878
+      seasonal sample _99: 2759974629850350118
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

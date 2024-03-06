@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 590d37b38587ebb4d8c5c14b119511ed, type: 3}
+  m_Name: Bear Leather Shoes +1
+  m_EditorClassIdentifier: 
+  itemSprite: {fileID: 21300000, guid: 449d2992ac4c17b4cb22e43470ddb9c7, type: 3}
+  zone: 2
+  legacyID: Greave-DeepForest-4222200-Bear Leather Shoes +1
+  level: 4222200
+  order: 0
+  maxStack: 10
+  maxWornCount: 1
+  price: 350000000
+  shortDesc: Shoes
+  longDesc: Made of stone golem leather
+  itemAbilities:
+  - abilityData:
+      ability: {fileID: 11400000, guid: 64f80202e2c317948ba4bf877525d183, type: 2}
+      amount: 111
+    isPassive: 0
+  - abilityData:
+      ability: {fileID: 11400000, guid: 480eeac1ba90dfa408c47d451ea0cb7e, type: 2}
+      amount: 70
+    isPassive: 0
+  - abilityData:
+      ability: {fileID: 11400000, guid: a0f41aa27f0cbdb45b0805d531073d8c, type: 2}
+      amount: 70
+    isPassive: 0
+  tagResists: []

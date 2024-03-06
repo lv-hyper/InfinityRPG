@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af6335a62f6434f4a80877537e1fbad6, type: 3}
+  m_Name: Nature
+  m_EditorClassIdentifier: 
+  items:
+  - {fileID: 11400000, guid: 18ccc99598b81914ab984791d99530a6, type: 2}
+  - {fileID: 11400000, guid: 0c645fe38d1ff8e449986aef13298f68, type: 2}
+  - {fileID: 11400000, guid: efba961bd161c9947bcc22ab361ac4d4, type: 2}
+  - {fileID: 11400000, guid: 518dda37ce3070e4e9234867de3768bf, type: 2}
+  itemSetEffects:
+  - itemCount: 2
+    itemAbilities:
+    - abilityData:
+        ability: {fileID: 11400000, guid: b1317ac1d1a0dc145a39d4df1a7647dd, type: 2}
+        amount: 10
+      isPassive: 0
+    - abilityData:
+        ability: {fileID: 11400000, guid: 480eeac1ba90dfa408c47d451ea0cb7e, type: 2}
+        amount: 1000
+      isPassive: 0
+    - abilityData:
+        ability: {fileID: 11400000, guid: a0f41aa27f0cbdb45b0805d531073d8c, type: 2}
+        amount: 1000
+      isPassive: 0
+    tagResists: []
+  - itemCount: 4
+    itemAbilities:
+    - abilityData:
+        ability: {fileID: 11400000, guid: b1317ac1d1a0dc145a39d4df1a7647dd, type: 2}
+        amount: 10
+      isPassive: 0
+    - abilityData:
+        ability: {fileID: 11400000, guid: 480eeac1ba90dfa408c47d451ea0cb7e, type: 2}
+        amount: 1000
+      isPassive: 0
+    - abilityData:
+        ability: {fileID: 11400000, guid: a0f41aa27f0cbdb45b0805d531073d8c, type: 2}
+        amount: 1000
+      isPassive: 0
+    tagResists: []

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eb1083e257dec42a2a4bad8efd07d9, type: 3}
+  m_Name: Acid Slime Core
+  m_EditorClassIdentifier: 
+  itemSprite: {fileID: -787977731127235238, guid: ff8446263742eaa4898952ed92345ad3,
+    type: 3}
+  zone: 7
+  legacyID: Material-DragonCave-10555555555-Acid Slime Core
+  level: 10555555555
+  order: 0
+  maxStack: 30
+  maxWornCount: 0
+  price: 0
+  shortDesc: Core
+  longDesc: This core empowers your gear instead of dissolving it
+  itemAbilities: []
+  tagResists: []

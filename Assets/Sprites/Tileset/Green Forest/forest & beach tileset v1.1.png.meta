@@ -1,0 +1,4435 @@
+fileFormatVersion: 2
+guid: bda7dbcbd2b8e0545a4b9d830f344e3e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3442192827373855305
+    second: forest & beach tileset v1.1_0
+  - first:
+      213: -6453848909588382894
+    second: forest & beach tileset v1.1_1
+  - first:
+      213: 4047436961077396867
+    second: forest & beach tileset v1.1_2
+  - first:
+      213: 3450897042331857826
+    second: forest & beach tileset v1.1_3
+  - first:
+      213: 4626673877709953016
+    second: forest & beach tileset v1.1_4
+  - first:
+      213: 6004584033634757301
+    second: forest & beach tileset v1.1_5
+  - first:
+      213: 2628222522570748633
+    second: forest & beach tileset v1.1_6
+  - first:
+      213: 6299247757253985476
+    second: forest & beach tileset v1.1_7
+  - first:
+      213: -9059846524793122617
+    second: forest & beach tileset v1.1_8
+  - first:
+      213: 3833120269446888734
+    second: forest & beach tileset v1.1_9
+  - first:
+      213: -618464212755071391
+    second: forest & beach tileset v1.1_10
+  - first:
+      213: 2261753370485981631
+    second: forest & beach tileset v1.1_11
+  - first:
+      213: -5662131014435326127
+    second: forest & beach tileset v1.1_12
+  - first:
+      213: -5742443294431412214
+    second: forest & beach tileset v1.1_13
+  - first:
+      213: -6433427021684434219
+    second: forest & beach tileset v1.1_14
+  - first:
+      213: 9085867047216333899
+    second: forest & beach tileset v1.1_15
+  - first:
+      213: 1014647760294807348
+    second: forest & beach tileset v1.1_16
+  - first:
+      213: 8452949988269878781
+    second: forest & beach tileset v1.1_17
+  - first:
+      213: -7460050413910570109
+    second: forest & beach tileset v1.1_18
+  - first:
+      213: 3643459294221354896
+    second: forest & beach tileset v1.1_19
+  - first:
+      213: 1777332289923173314
+    second: forest & beach tileset v1.1_20
+  - first:
+      213: -6292607371775071856
+    second: forest & beach tileset v1.1_21
+  - first:
+      213: -731616655726093537
+    second: forest & beach tileset v1.1_22
+  - first:
+      213: 2031837316165089148
+    second: forest & beach tileset v1.1_23
+  - first:
+      213: -3955846245625445565
+    second: forest & beach tileset v1.1_24
+  - first:
+      213: 7876640013329053316
+    second: forest & beach tileset v1.1_25
+  - first:
+      213: -8311233682127699589
+    second: forest & beach tileset v1.1_26
+  - first:
+      213: 4262436951849887127
+    second: forest & beach tileset v1.1_27
+  - first:
+      213: 8372927395876524944
+    second: forest & beach tileset v1.1_28
+  - first:
+      213: 1231128144123425065
+    second: forest & beach tileset v1.1_29
+  - first:
+      213: -9042367881722345397
+    second: forest & beach tileset v1.1_30
+  - first:
+      213: 4217043997488552258
+    second: forest & beach tileset v1.1_31
+  - first:
+      213: 6215325736991086805
+    second: forest & beach tileset v1.1_32
+  - first:
+      213: -1018121140555556390
+    second: forest & beach tileset v1.1_33
+  - first:
+      213: 4136199795561373722
+    second: forest & beach tileset v1.1_34
+  - first:
+      213: -3511705585694929187
+    second: forest & beach tileset v1.1_35
+  - first:
+      213: 6647469806912032519
+    second: forest & beach tileset v1.1_36
+  - first:
+      213: 555326230461752767
+    second: forest & beach tileset v1.1_37
+  - first:
+      213: 4740202958020749894
+    second: forest & beach tileset v1.1_38
+  - first:
+      213: -7686387075393891523
+    second: forest & beach tileset v1.1_39
+  - first:
+      213: 8156882550095233462
+    second: forest & beach tileset v1.1_40
+  - first:
+      213: 5598206318896656325
+    second: forest & beach tileset v1.1_41
+  - first:
+      213: -2980362954095045343
+    second: forest & beach tileset v1.1_42
+  - first:
+      213: 3073967994936732653
+    second: forest & beach tileset v1.1_43
+  - first:
+      213: -4932152381160154067
+    second: forest & beach tileset v1.1_44
+  - first:
+      213: -2928304056606618196
+    second: forest & beach tileset v1.1_45
+  - first:
+      213: 8320307115878346565
+    second: forest & beach tileset v1.1_46
+  - first:
+      213: 5228417097425745235
+    second: forest & beach tileset v1.1_47
+  - first:
+      213: -7330737550113464838
+    second: forest & beach tileset v1.1_48
+  - first:
+      213: 5159778937607579299
+    second: forest & beach tileset v1.1_49
+  - first:
+      213: -7520242068094742567
+    second: forest & beach tileset v1.1_50
+  - first:
+      213: 6504198180744628842
+    second: forest & beach tileset v1.1_51
+  - first:
+      213: 9146843835992597775
+    second: forest & beach tileset v1.1_52
+  - first:
+      213: -9180709930179861945
+    second: forest & beach tileset v1.1_53
+  - first:
+      213: -3107138688882993007
+    second: forest & beach tileset v1.1_54
+  - first:
+      213: 3910382959194108329
+    second: forest & beach tileset v1.1_55
+  - first:
+      213: -4829041855379693201
+    second: forest & beach tileset v1.1_56
+  - first:
+      213: -6579699362016211379
+    second: forest & beach tileset v1.1_57
+  - first:
+      213: 2538201477782931207
+    second: forest & beach tileset v1.1_58
+  - first:
+      213: 5551366761807050755
+    second: forest & beach tileset v1.1_59
+  - first:
+      213: 6006694224669403989
+    second: forest & beach tileset v1.1_60
+  - first:
+      213: -797763737851315187
+    second: forest & beach tileset v1.1_61
+  - first:
+      213: 3989192406884515067
+    second: forest & beach tileset v1.1_62
+  - first:
+      213: -8533757679688943807
+    second: forest & beach tileset v1.1_63
+  - first:
+      213: 7919027793615366987
+    second: forest & beach tileset v1.1_64
+  - first:
+      213: 4798275721638513850
+    second: forest & beach tileset v1.1_65
+  - first:
+      213: 5334942827879966183
+    second: forest & beach tileset v1.1_66
+  - first:
+      213: 5414506394680397188
+    second: forest & beach tileset v1.1_67
+  - first:
+      213: -4012149040689789601
+    second: forest & beach tileset v1.1_68
+  - first:
+      213: -2194054796822547690
+    second: forest & beach tileset v1.1_69
+  - first:
+      213: 6532602210379727073
+    second: forest & beach tileset v1.1_70
+  - first:
+      213: -3396998959602799248
+    second: forest & beach tileset v1.1_71
+  - first:
+      213: 8816726986491740174
+    second: forest & beach tileset v1.1_72
+  - first:
+      213: -6288642692042547271
+    second: forest & beach tileset v1.1_73
+  - first:
+      213: 6574227688173911215
+    second: forest & beach tileset v1.1_74
+  - first:
+      213: 4528159549495788489
+    second: forest & beach tileset v1.1_75
+  - first:
+      213: 5918836695726095375
+    second: forest & beach tileset v1.1_76
+  - first:
+      213: 8159045628151753681
+    second: forest & beach tileset v1.1_77
+  - first:
+      213: -5511187718190456835
+    second: forest & beach tileset v1.1_78
+  - first:
+      213: 8750065721806662050
+    second: forest & beach tileset v1.1_79
+  - first:
+      213: -5994450235446884479
+    second: forest & beach tileset v1.1_80
+  - first:
+      213: -6168846257462429741
+    second: forest & beach tileset v1.1_81
+  - first:
+      213: -3961876062775537243
+    second: forest & beach tileset v1.1_82
+  - first:
+      213: 4641208213863421617
+    second: forest & beach tileset v1.1_83
+  - first:
+      213: 7775865125452435994
+    second: forest & beach tileset v1.1_84
+  - first:
+      213: 125115587142655628
+    second: forest & beach tileset v1.1_85
+  - first:
+      213: -933527101751679390
+    second: forest & beach tileset v1.1_86
+  - first:
+      213: 1817373153784835555
+    second: forest & beach tileset v1.1_87
+  - first:
+      213: 5316310568081687172
+    second: forest & beach tileset v1.1_88
+  - first:
+      213: 6351933076526335438
+    second: forest & beach tileset v1.1_89
+  - first:
+      213: 1682230885340107227
+    second: forest & beach tileset v1.1_90
+  - first:
+      213: -5446860874098222805
+    second: forest & beach tileset v1.1_91
+  - first:
+      213: 3848992281751086115
+    second: forest & beach tileset v1.1_92
+  - first:
+      213: 8331550592681072792
+    second: forest & beach tileset v1.1_93
+  - first:
+      213: 568450561114036793
+    second: forest & beach tileset v1.1_94
+  - first:
+      213: 1960846851480145302
+    second: forest & beach tileset v1.1_95
+  - first:
+      213: -4773475764613787657
+    second: forest & beach tileset v1.1_96
+  - first:
+      213: 121069072294720268
+    second: forest & beach tileset v1.1_97
+  - first:
+      213: 8991153881648906208
+    second: forest & beach tileset v1.1_98
+  - first:
+      213: 8464884403233666390
+    second: forest & beach tileset v1.1_99
+  - first:
+      213: 1870991847004856331
+    second: forest & beach tileset v1.1_100
+  - first:
+      213: 6360323896424414134
+    second: forest & beach tileset v1.1_101
+  - first:
+      213: 5206628871374509122
+    second: forest & beach tileset v1.1_102
+  - first:
+      213: -5921698662767071037
+    second: forest & beach tileset v1.1_103
+  - first:
+      213: 4075192068777236577
+    second: forest & beach tileset v1.1_104
+  - first:
+      213: 1320254359729325116
+    second: forest & beach tileset v1.1_105
+  - first:
+      213: -1614877245330685879
+    second: forest & beach tileset v1.1_106
+  - first:
+      213: 8890435022129790019
+    second: forest & beach tileset v1.1_107
+  - first:
+      213: 1719082550728718425
+    second: forest & beach tileset v1.1_108
+  - first:
+      213: -1299698444338792288
+    second: forest & beach tileset v1.1_109
+  - first:
+      213: 827220162246459435
+    second: forest & beach tileset v1.1_110
+  - first:
+      213: 8517467019437495145
+    second: forest & beach tileset v1.1_111
+  - first:
+      213: -7177685404311186109
+    second: forest & beach tileset v1.1_112
+  - first:
+      213: 3962647128519404047
+    second: forest & beach tileset v1.1_113
+  - first:
+      213: -6743136275311502366
+    second: forest & beach tileset v1.1_114
+  - first:
+      213: 5291354454535233716
+    second: forest & beach tileset v1.1_115
+  - first:
+      213: -839287248152068538
+    second: forest & beach tileset v1.1_116
+  - first:
+      213: -1269986628544783197
+    second: forest & beach tileset v1.1_117
+  - first:
+      213: -3122620907311056726
+    second: forest & beach tileset v1.1_118
+  - first:
+      213: 2244188202122279081
+    second: forest & beach tileset v1.1_119
+  - first:
+      213: -5052506807443408117
+    second: forest & beach tileset v1.1_120
+  - first:
+      213: 2023831290565304959
+    second: forest & beach tileset v1.1_121
+  - first:
+      213: -3387267592718108700
+    second: forest & beach tileset v1.1_122
+  - first:
+      213: 4257576531534487870
+    second: forest & beach tileset v1.1_123
+  - first:
+      213: 5353758637904838122
+    second: forest & beach tileset v1.1_124
+  - first:
+      213: -7658832376487175845
+    second: forest & beach tileset v1.1_125
+  - first:
+      213: 3274861792453274597
+    second: forest & beach tileset v1.1_126
+  - first:
+      213: -9046295051393374598
+    second: forest & beach tileset v1.1_127
+  - first:
+      213: 7836145858333551041
+    second: forest & beach tileset v1.1_128
+  - first:
+      213: 8869259091516907772
+    second: forest & beach tileset v1.1_129
+  - first:
+      213: 3163149861529435280
+    second: forest & beach tileset v1.1_130
+  - first:
+      213: -7227025719181622619
+    second: forest & beach tileset v1.1_131
+  - first:
+      213: -448377717608824875
+    second: forest & beach tileset v1.1_132
+  - first:
+      213: 4219347738892214175
+    second: forest & beach tileset v1.1_133
+  - first:
+      213: 1553529795706153986
+    second: forest & beach tileset v1.1_134
+  - first:
+      213: -3206721769429403762
+    second: forest & beach tileset v1.1_135
+  - first:
+      213: 1254058928059148196
+    second: forest & beach tileset v1.1_136
+  - first:
+      213: 8013149883949273755
+    second: forest & beach tileset v1.1_137
+  - first:
+      213: 2919374078185924474
+    second: forest & beach tileset v1.1_138
+  - first:
+      213: -7079189874278001789
+    second: forest & beach tileset v1.1_139
+  - first:
+      213: -5527312942381871839
+    second: forest & beach tileset v1.1_140
+  - first:
+      213: -5128185942159075302
+    second: forest & beach tileset v1.1_141
+  - first:
+      213: 2863160045958180313
+    second: forest & beach tileset v1.1_142
+  - first:
+      213: 4335350678555491030
+    second: forest & beach tileset v1.1_143
+  - first:
+      213: -7170621138287640915
+    second: forest & beach tileset v1.1_144
+  - first:
+      213: 3097317003627261658
+    second: forest & beach tileset v1.1_145
+  - first:
+      213: -1678955977121879342
+    second: forest & beach tileset v1.1_146
+  - first:
+      213: -8146131520885237612
+    second: forest & beach tileset v1.1_147
+  - first:
+      213: 3194605231568401113
+    second: forest & beach tileset v1.1_148
+  - first:
+      213: -1884154277591893596
+    second: forest & beach tileset v1.1_149
+  - first:
+      213: -7751651352152139049
+    second: forest & beach tileset v1.1_150
+  - first:
+      213: -8693396484021741247
+    second: forest & beach tileset v1.1_151
+  - first:
+      213: 5824448427457880179
+    second: forest & beach tileset v1.1_152
+  - first:
+      213: -8640309957054161537
+    second: forest & beach tileset v1.1_153
+  - first:
+      213: -742458799452242814
+    second: forest & beach tileset v1.1_154
+  - first:
+      213: 2179840707163897418
+    second: forest & beach tileset v1.1_155
+  - first:
+      213: 7427689943625230970
+    second: forest & beach tileset v1.1_156
+  - first:
+      213: -4348622849987251327
+    second: forest & beach tileset v1.1_157
+  - first:
+      213: 2948721741442833442
+    second: forest & beach tileset v1.1_158
+  - first:
+      213: -1871304383870207279
+    second: forest & beach tileset v1.1_159
+  - first:
+      213: -6039306621894070801
+    second: forest & beach tileset v1.1_160
+  - first:
+      213: -1993537516398546061
+    second: forest & beach tileset v1.1_161
+  - first:
+      213: 4862231079154027632
+    second: forest & beach tileset v1.1_162
+  - first:
+      213: 6177157828569045806
+    second: forest & beach tileset v1.1_163
+  - first:
+      213: 5986122308485342481
+    second: forest & beach tileset v1.1_164
+  - first:
+      213: 6276783989368330268
+    second: forest & beach tileset v1.1_165
+  - first:
+      213: 1282502656760270839
+    second: forest & beach tileset v1.1_166
+  - first:
+      213: -7925430627939295161
+    second: forest & beach tileset v1.1_167
+  - first:
+      213: -6432422889687262305
+    second: forest & beach tileset v1.1_168
+  - first:
+      213: 1395676090092173644
+    second: forest & beach tileset v1.1_169
+  - first:
+      213: 1868989326515835118
+    second: forest & beach tileset v1.1_170
+  - first:
+      213: -5135803290728940906
+    second: forest & beach tileset v1.1_171
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 106.5
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 16384
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 16384
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 16384
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9422404932025cf20800000000000000
+      internalID: 3442192827373855305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25b31f55c925f66a0800000000000000
+      internalID: -6453848909588382894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3850ecbc8726b2830800000000000000
+      internalID: 4047436961077396867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a3f2ac839c04ef20800000000000000
+      internalID: 3450897042331857826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f71b7ce06f353040800000000000000
+      internalID: 4626673877709953016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ba28cc6d51945350800000000000000
+      internalID: 6004584033634757301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d2b2889572597420800000000000000
+      internalID: 2628222522570748633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c4cc4bd57c6b6750800000000000000
+      internalID: 6299247757253985476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c0162a3695f44280800000000000000
+      internalID: -9059846524793122617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d3bb9839af13530800000000000000
+      internalID: 3833120269446888734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16e31744316ca67f0800000000000000
+      internalID: -618464212755071391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_11
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb10c5905bc536f10800000000000000
+      internalID: 2261753370485981631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_12
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1573cd477d11c61b0800000000000000
+      internalID: -5662131014435326127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_13
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a00879c9f3ebe40b0800000000000000
+      internalID: -5742443294431412214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da9914a530e7b6a0800000000000000
+      internalID: -6433427021684434219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_15
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b44c1c1c0fb771e70800000000000000
+      internalID: 9085867047216333899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_16
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 437848c13c0c41e00800000000000000
+      internalID: 1014647760294807348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_17
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfde7fa8a39ee4570800000000000000
+      internalID: 8452949988269878781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_18
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38bca507ca3987890800000000000000
+      internalID: -7460050413910570109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_19
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 097c8a99cea209230800000000000000
+      internalID: 3643459294221354896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cbc3bc0d4a5aa810800000000000000
+      internalID: 1777332289923173314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_21
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 099a75e5fea2ca8a0800000000000000
+      internalID: -6292607371775071856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_22
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1bdfa32786c8d5f0800000000000000
+      internalID: -731616655726093537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_23
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c77376f1649823c10800000000000000
+      internalID: 2031837316165089148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_24
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 343ce6f6cc20a19c0800000000000000
+      internalID: -3955846245625445565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_25
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4863b122c527f4d60800000000000000
+      internalID: 7876640013329053316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_26
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b71448b300198ac80800000000000000
+      internalID: -8311233682127699589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_27
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 795e28803d7372b30800000000000000
+      internalID: 4262436951849887127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_28
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0935b59da1d923470800000000000000
+      internalID: 8372927395876524944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_29
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92176773688d51110800000000000000
+      internalID: 1231128144123425065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b48c981f15e038280800000000000000
+      internalID: -9042367881722345397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_31
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2499f704c23f58a30800000000000000
+      internalID: 4217043997488552258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_32
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d852bcd3d5414650800000000000000
+      internalID: 6215325736991086805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_33
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad9ded68738eed1f0800000000000000
+      internalID: -1018121140555556390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_34
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a10aa7eaccbb66930800000000000000
+      internalID: 4136199795561373722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_35
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde06e8206ae34fc0800000000000000
+      internalID: -3511705585694929187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_36
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f4020d19e804c50800000000000000
+      internalID: 6647469806912032519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_37
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb5212da34ae4b700800000000000000
+      internalID: 555326230461752767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_38
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64a2514c97598c140800000000000000
+      internalID: 4740202958020749894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_39
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d335efcdda7745590800000000000000
+      internalID: -7686387075393891523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b142095671133170800000000000000
+      internalID: 8156882550095233462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_41
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cfae298cf2d0bd40800000000000000
+      internalID: 5598206318896656325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_42
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1255e631faf93a6d0800000000000000
+      internalID: -2980362954095045343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_43
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: debaf15da9de8aa20800000000000000
+      internalID: 3073967994936732653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_44
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c1ade7a897d8bb0800000000000000
+      internalID: -4932152381160154067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_45
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cad80afa9f29c57d0800000000000000
+      internalID: -2928304056606618196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_46
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f65103d3ba77370800000000000000
+      internalID: 8320307115878346565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_47
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 355f3a516a11f8840800000000000000
+      internalID: 5228417097425745235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd9edfb90df34a90800000000000000
+      internalID: -7330737550113464838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_49
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a664a72b973b9740800000000000000
+      internalID: 5159778937607579299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_50
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df834adeabb2a790800000000000000
+      internalID: -7520242068094742567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_51
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6a8600e8cd834a50800000000000000
+      internalID: 6504198180744628842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_52
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f056f4cb10e10fe70800000000000000
+      internalID: 9146843835992597775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_53
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7426ab1c5f0979080800000000000000
+      internalID: -9180709930179861945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_54
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 198914523d931e4d0800000000000000
+      internalID: -3107138688882993007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_55
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a171825598744630800000000000000
+      internalID: 3910382959194108329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f61a994940ccbfcb0800000000000000
+      internalID: -4829041855379693201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_57
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ec82e7a4630b4a0800000000000000
+      internalID: -6579699362016211379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_58
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7078f9bcbc0893320800000000000000
+      internalID: 2538201477782931207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_59
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3087b6f48aa6a0d40800000000000000
+      internalID: 5551366761807050755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_60
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55b6fcf82901c5350800000000000000
+      internalID: 6006694224669403989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_61
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0c3fae6b16cde4f0800000000000000
+      internalID: -797763737851315187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_62
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfc7901cb557c5730800000000000000
+      internalID: 3989192406884515067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_63
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 147f0e6aa90029980800000000000000
+      internalID: -8533757679688943807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ba3ec42d906ed60800000000000000
+      internalID: 7919027793615366987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_65
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc05a2b856e69240800000000000000
+      internalID: 4798275721638513850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_66
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e5adc87c36890a40800000000000000
+      internalID: 5334942827879966183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_67
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d8101f0e0342b40800000000000000
+      internalID: 5414506394680397188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_68
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f55c2cb64bbf158c0800000000000000
+      internalID: -4012149040689789601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_69
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61376a179c62d81e0800000000000000
+      internalID: -2194054796822547690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_70
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e08d90691778aa50800000000000000
+      internalID: 6532602210379727073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_71
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07de08eb17f6bd0d0800000000000000
+      internalID: -3396998959602799248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e00c07f2b7e4b5a70800000000000000
+      internalID: 8816726986491740174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_73
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bf927d4ac04ab8a0800000000000000
+      internalID: -6288642692042547271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_74
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: facb42a20495c3b50800000000000000
+      internalID: 6574227688173911215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_75
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c34df97e1147de30800000000000000
+      internalID: 4528159549495788489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_76
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0cfc4c8d9ee32250800000000000000
+      internalID: 5918836695726095375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_77
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1db603435c0ca3170800000000000000
+      internalID: 8159045628151753681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_78
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dff13c648f35483b0800000000000000
+      internalID: -5511187718190456835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_79
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a9ab950a6a7e6970800000000000000
+      internalID: 8750065721806662050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1878e64554f6fcca0800000000000000
+      internalID: -5994450235446884479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_81
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d734f5430bd36aa0800000000000000
+      internalID: -6168846257462429741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_82
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a1142a36b69409c0800000000000000
+      internalID: -3961876062775537243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_83
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b654f3c742e86040800000000000000
+      internalID: 4641208213863421617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_84
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a12d0ff122c69eb60800000000000000
+      internalID: 7775865125452435994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_85
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e908fa6ff7cb100800000000000000
+      internalID: 125115587142655628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_86
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26624e70c027b03f0800000000000000
+      internalID: -933527101751679390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_87
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ed2da7214b983910800000000000000
+      internalID: 1817373153784835555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4820a2e6b4457c940800000000000000
+      internalID: 5316310568081687172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_89
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec50867aa79962850800000000000000
+      internalID: 6351933076526335438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_90
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd153eec31c785710800000000000000
+      internalID: 1682230885340107227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_91
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b29d66ac4ecd864b0800000000000000
+      internalID: -5446860874098222805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_92
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3246ef0661e5a6530800000000000000
+      internalID: 3848992281751086115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_93
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89853f02f1d9f9370800000000000000
+      internalID: 8331550592681072792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_94
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ad29706ca83e700800000000000000
+      internalID: 568450561114036793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_95
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69dca6982d3563b10800000000000000
+      internalID: 1960846851480145302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff4242451531cdb0800000000000000
+      internalID: -4773475764613787657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_97
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c03b9670eaf1ea100800000000000000
+      internalID: 121069072294720268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_98
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0efbe8471def6cc70800000000000000
+      internalID: 8991153881648906208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_99
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 655bc7f048f497570800000000000000
+      internalID: 8464884403233666390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_100
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0060620c2917f910800000000000000
+      internalID: 1870991847004856331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_101
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bb3ec6a2e8644850800000000000000
+      internalID: 6360323896424414134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_102
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24412936f59a14840800000000000000
+      internalID: 5206628871374509122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_103
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c0fcd2d076e1dda0800000000000000
+      internalID: -5921698662767071037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_104
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 168d4f2689dfd8830800000000000000
+      internalID: 4075192068777236577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_105
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c34c3dc585c725210800000000000000
+      internalID: 1320254359729325116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_106
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 940043c83bdc699e0800000000000000
+      internalID: -1614877245330685879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_107
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34cfcb09c8b216b70800000000000000
+      internalID: 8890435022129790019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_108
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 958f1c7c8786bd710800000000000000
+      internalID: 1719082550728718425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_109
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a8fe06a62b86fde0800000000000000
+      internalID: -1299698444338792288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_110
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b20cdb1da50ea7b00800000000000000
+      internalID: 827220162246459435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_111
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9635daf602f143670800000000000000
+      internalID: 8517467019437495145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 345968e572db36c90800000000000000
+      internalID: -7177685404311186109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_113
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0aee9181962ef630800000000000000
+      internalID: 3962647128519404047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_114
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ebd106c8419b62a0800000000000000
+      internalID: -6743136275311502366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_115
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b0e04377daae6940800000000000000
+      internalID: 5291354454535233716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_116
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64e716dc1b04a54f0800000000000000
+      internalID: -839287248152068538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_117
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ac9718d3e9106ee0800000000000000
+      internalID: -1269986628544783197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_118
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa8348344d83aa4d0800000000000000
+      internalID: -3122620907311056726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_119
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a8fe949745f42f10800000000000000
+      internalID: 2244188202122279081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0bb715f3d3e1e9b0800000000000000
+      internalID: -5052506807443408117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_121
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f72277706d7161c10800000000000000
+      internalID: 2023831290565304959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_122
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e738d822120ef0d0800000000000000
+      internalID: -3387267592718108700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_123
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e31272e3c43f51b30800000000000000
+      internalID: 4257576531534487870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_124
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed3f71ad1f5c4a40800000000000000
+      internalID: 5353758637904838122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_125
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b599835288c56b590800000000000000
+      internalID: -7658832376487175845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_126
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eb2da30375a27d20800000000000000
+      internalID: 3274861792453274597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_127
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a76e250849a157280800000000000000
+      internalID: -9046295051393374598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_128
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c9ae16f3259fbc60800000000000000
+      internalID: 7836145858333551041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_129
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf0e4c20720f51b70800000000000000
+      internalID: 8869259091516907772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_130
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09cb9cb3a04c5eb20800000000000000
+      internalID: 3163149861529435280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_131
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a24199166274bb90800000000000000
+      internalID: -7227025719181622619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_132
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dfb9b867da07c9f0800000000000000
+      internalID: -448377717608824875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_133
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9f9488d9622e8a30800000000000000
+      internalID: 4219347738892214175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_134
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20cec054e1f3f8510800000000000000
+      internalID: 1553529795706153986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_135
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e87f5a76a8f6f73d0800000000000000
+      internalID: -3206721769429403762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_136
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a76f5663ff476110800000000000000
+      internalID: 1254058928059148196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_137
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9252cc2d5d643f60800000000000000
+      internalID: 8013149883949273755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_138
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7761c0b143b38820800000000000000
+      internalID: 2919374078185924474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_139
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3831e16015aa1cd90800000000000000
+      internalID: -7079189874278001789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_140
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12dc8e2f92a0b43b0800000000000000
+      internalID: -5527312942381871839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_141
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a18d47f4e0605d8b0800000000000000
+      internalID: -5128185942159075302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_142
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ddad6264ecfbb720800000000000000
+      internalID: 2863160045958180313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_143
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6da7c04f8724a2c30800000000000000
+      internalID: 4335350678555491030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_144
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dae3579f016dc7c90800000000000000
+      internalID: -7170621138287640915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_145
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adeeafd8761ebfa20800000000000000
+      internalID: 3097317003627261658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_146
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2daa12e2f6623b8e0800000000000000
+      internalID: -1678955977121879342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_147
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 498d504ba8023fe80800000000000000
+      internalID: -8146131520885237612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_148
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d23d394884855c20800000000000000
+      internalID: 3194605231568401113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_149
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a93a1ecaa32ad5e0800000000000000
+      internalID: -1884154277591893596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_150
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7da9b4c4a2a9c6490800000000000000
+      internalID: -7751651352152139049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_151
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 149114615f9da5780800000000000000
+      internalID: -8693396484021741247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_152
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 370a53b4cf894d050800000000000000
+      internalID: 5824448427457880179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_153
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d14845fd3771880800000000000000
+      internalID: -8640309957054161537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_154
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28c3946d7a142b5f0800000000000000
+      internalID: -742458799452242814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_155
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4eb079e299504e10800000000000000
+      internalID: 2179840707163897418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_156
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7ae58f66a4741760800000000000000
+      internalID: 7427689943625230970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_157
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 183fc54de8696a3c0800000000000000
+      internalID: -4348622849987251327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_158
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22cdb240dc6fbe820800000000000000
+      internalID: 2948721741442833442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_159
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1daf8c4d39ac706e0800000000000000
+      internalID: -1871304383870207279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_160
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fede65000a2103ca0800000000000000
+      internalID: -6039306621894070801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_161
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37376a8e0388554e0800000000000000
+      internalID: -1993537516398546061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_162
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c07d0c76d1a7340800000000000000
+      internalID: 4862231079154027632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_163
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b916d215ca9b550800000000000000
+      internalID: 6177157828569045806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_164
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1156f43168af21350800000000000000
+      internalID: 5986122308485342481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_165
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c18982258cd9b1750800000000000000
+      internalID: 6276783989368330268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_166
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ffc0bf0f5d5cc110800000000000000
+      internalID: 1282502656760270839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_167
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7406da9a5d6330290800000000000000
+      internalID: -7925430627939295161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_168
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b591756717bb6a0800000000000000
+      internalID: -6432422889687262305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_169
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c49337362007e5310800000000000000
+      internalID: 1395676090092173644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_170
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee019ffd3ebffe910800000000000000
+      internalID: 1868989326515835118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest & beach tileset v1.1_171
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ab1d32e16f9b8b0800000000000000
+      internalID: -5135803290728940906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      forest & beach tileset v1.1_21: -6292607371775071856
+      forest & beach tileset v1.1_10: -618464212755071391
+      forest & beach tileset v1.1_2: 4047436961077396867
+      forest & beach tileset v1.1_65: 4798275721638513850
+      forest & beach tileset v1.1_34: 4136199795561373722
+      forest & beach tileset v1.1_38: 4740202958020749894
+      forest & beach tileset v1.1_94: 568450561114036793
+      forest & beach tileset v1.1_51: 6504198180744628842
+      forest & beach tileset v1.1_22: -731616655726093537
+      forest & beach tileset v1.1_32: 6215325736991086805
+      forest & beach tileset v1.1_90: 1682230885340107227
+      forest & beach tileset v1.1_59: 5551366761807050755
+      forest & beach tileset v1.1_12: -5662131014435326127
+      forest & beach tileset v1.1_66: 5334942827879966183
+      forest & beach tileset v1.1_1: -6453848909588382894
+      forest & beach tileset v1.1_72: 8816726986491740174
+      forest & beach tileset v1.1_61: -797763737851315187
+      forest & beach tileset v1.1_112: -7177685404311186109
+      forest & beach tileset v1.1_140: -5527312942381871839
+      forest & beach tileset v1.1_30: -9042367881722345397
+      forest & beach tileset v1.1_50: -7520242068094742567
+      forest & beach tileset v1.1_23: 2031837316165089148
+      forest & beach tileset v1.1_133: 4219347738892214175
+      forest & beach tileset v1.1_160: -6039306621894070801
+      forest & beach tileset v1.1_163: 6177157828569045806
+      forest & beach tileset v1.1_161: -1993537516398546061
+      forest & beach tileset v1.1_11: 2261753370485981631
+      forest & beach tileset v1.1_39: -7686387075393891523
+      forest & beach tileset v1.1_47: 5228417097425745235
+      forest & beach tileset v1.1_128: 7836145858333551041
+      forest & beach tileset v1.1_15: 9085867047216333899
+      forest & beach tileset v1.1_71: -3396998959602799248
+      forest & beach tileset v1.1_96: -4773475764613787657
+      forest & beach tileset v1.1_64: 7919027793615366987
+      forest & beach tileset v1.1_102: 5206628871374509122
+      forest & beach tileset v1.1_78: -5511187718190456835
+      forest & beach tileset v1.1_49: 5159778937607579299
+      forest & beach tileset v1.1_79: 8750065721806662050
+      forest & beach tileset v1.1_151: -8693396484021741247
+      forest & beach tileset v1.1_113: 3962647128519404047
+      forest & beach tileset v1.1_86: -933527101751679390
+      forest & beach tileset v1.1_91: -5446860874098222805
+      forest & beach tileset v1.1_129: 8869259091516907772
+      forest & beach tileset v1.1_116: -839287248152068538
+      forest & beach tileset v1.1_159: -1871304383870207279
+      forest & beach tileset v1.1_20: 1777332289923173314
+      forest & beach tileset v1.1_25: 7876640013329053316
+      forest & beach tileset v1.1_120: -5052506807443408117
+      forest & beach tileset v1.1_85: 125115587142655628
+      forest & beach tileset v1.1_56: -4829041855379693201
+      forest & beach tileset v1.1_109: -1299698444338792288
+      forest & beach tileset v1.1_74: 6574227688173911215
+      forest & beach tileset v1.1_55: 3910382959194108329
+      forest & beach tileset v1.1_75: 4528159549495788489
+      forest & beach tileset v1.1_6: 2628222522570748633
+      forest & beach tileset v1.1_131: -7227025719181622619
+      forest & beach tileset v1.1_7: 6299247757253985476
+      forest & beach tileset v1.1_73: -6288642692042547271
+      forest & beach tileset v1.1_146: -1678955977121879342
+      forest & beach tileset v1.1_132: -448377717608824875
+      forest & beach tileset v1.1_110: 827220162246459435
+      forest & beach tileset v1.1_169: 1395676090092173644
+      forest & beach tileset v1.1_135: -3206721769429403762
+      forest & beach tileset v1.1_157: -4348622849987251327
+      forest & beach tileset v1.1_27: 4262436951849887127
+      forest & beach tileset v1.1_52: 9146843835992597775
+      forest & beach tileset v1.1_76: 5918836695726095375
+      forest & beach tileset v1.1_97: 121069072294720268
+      forest & beach tileset v1.1_114: -6743136275311502366
+      forest & beach tileset v1.1_83: 4641208213863421617
+      forest & beach tileset v1.1_41: 5598206318896656325
+      forest & beach tileset v1.1_115: 5291354454535233716
+      forest & beach tileset v1.1_3: 3450897042331857826
+      forest & beach tileset v1.1_127: -9046295051393374598
+      forest & beach tileset v1.1_121: 2023831290565304959
+      forest & beach tileset v1.1_87: 1817373153784835555
+      forest & beach tileset v1.1_44: -4932152381160154067
+      forest & beach tileset v1.1_48: -7330737550113464838
+      forest & beach tileset v1.1_126: 3274861792453274597
+      forest & beach tileset v1.1_93: 8331550592681072792
+      forest & beach tileset v1.1_16: 1014647760294807348
+      forest & beach tileset v1.1_36: 6647469806912032519
+      forest & beach tileset v1.1_103: -5921698662767071037
+      forest & beach tileset v1.1_167: -7925430627939295161
+      forest & beach tileset v1.1_35: -3511705585694929187
+      forest & beach tileset v1.1_166: 1282502656760270839
+      forest & beach tileset v1.1_19: 3643459294221354896
+      forest & beach tileset v1.1_111: 8517467019437495145
+      forest & beach tileset v1.1_168: -6432422889687262305
+      forest & beach tileset v1.1_82: -3961876062775537243
+      forest & beach tileset v1.1_37: 555326230461752767
+      forest & beach tileset v1.1_107: 8890435022129790019
+      forest & beach tileset v1.1_147: -8146131520885237612
+      forest & beach tileset v1.1_8: -9059846524793122617
+      forest & beach tileset v1.1_152: 5824448427457880179
+      forest & beach tileset v1.1_60: 6006694224669403989
+      forest & beach tileset v1.1_155: 2179840707163897418
+      forest & beach tileset v1.1_149: -1884154277591893596
+      forest & beach tileset v1.1_138: 2919374078185924474
+      forest & beach tileset v1.1_119: 2244188202122279081
+      forest & beach tileset v1.1_69: -2194054796822547690
+      forest & beach tileset v1.1_117: -1269986628544783197
+      forest & beach tileset v1.1_24: -3955846245625445565
+      forest & beach tileset v1.1_43: 3073967994936732653
+      forest & beach tileset v1.1_58: 2538201477782931207
+      forest & beach tileset v1.1_101: 6360323896424414134
+      forest & beach tileset v1.1_170: 1868989326515835118
+      forest & beach tileset v1.1_153: -8640309957054161537
+      forest & beach tileset v1.1_144: -7170621138287640915
+      forest & beach tileset v1.1_62: 3989192406884515067
+      forest & beach tileset v1.1_124: 5353758637904838122
+      forest & beach tileset v1.1_13: -5742443294431412214
+      forest & beach tileset v1.1_141: -5128185942159075302
+      forest & beach tileset v1.1_63: -8533757679688943807
+      forest & beach tileset v1.1_162: 4862231079154027632
+      forest & beach tileset v1.1_53: -9180709930179861945
+      forest & beach tileset v1.1_130: 3163149861529435280
+      forest & beach tileset v1.1_89: 6351933076526335438
+      forest & beach tileset v1.1_68: -4012149040689789601
+      forest & beach tileset v1.1_40: 8156882550095233462
+      forest & beach tileset v1.1_171: -5135803290728940906
+      forest & beach tileset v1.1_106: -1614877245330685879
+      forest & beach tileset v1.1_45: -2928304056606618196
+      forest & beach tileset v1.1_125: -7658832376487175845
+      forest & beach tileset v1.1_142: 2863160045958180313
+      forest & beach tileset v1.1_5: 6004584033634757301
+      forest & beach tileset v1.1_145: 3097317003627261658
+      forest & beach tileset v1.1_165: 6276783989368330268
+      forest & beach tileset v1.1_150: -7751651352152139049
+      forest & beach tileset v1.1_81: -6168846257462429741
+      forest & beach tileset v1.1_4: 4626673877709953016
+      forest & beach tileset v1.1_99: 8464884403233666390
+      forest & beach tileset v1.1_134: 1553529795706153986
+      forest & beach tileset v1.1_67: 5414506394680397188
+      forest & beach tileset v1.1_143: 4335350678555491030
+      forest & beach tileset v1.1_28: 8372927395876524944
+      forest & beach tileset v1.1_77: 8159045628151753681
+      forest & beach tileset v1.1_9: 3833120269446888734
+      forest & beach tileset v1.1_98: 8991153881648906208
+      forest & beach tileset v1.1_123: 4257576531534487870
+      forest & beach tileset v1.1_100: 1870991847004856331
+      forest & beach tileset v1.1_105: 1320254359729325116
+      forest & beach tileset v1.1_95: 1960846851480145302
+      forest & beach tileset v1.1_154: -742458799452242814
+      forest & beach tileset v1.1_156: 7427689943625230970
+      forest & beach tileset v1.1_137: 8013149883949273755
+      forest & beach tileset v1.1_54: -3107138688882993007
+      forest & beach tileset v1.1_122: -3387267592718108700
+      forest & beach tileset v1.1_164: 5986122308485342481
+      forest & beach tileset v1.1_42: -2980362954095045343
+      forest & beach tileset v1.1_29: 1231128144123425065
+      forest & beach tileset v1.1_14: -6433427021684434219
+      forest & beach tileset v1.1_26: -8311233682127699589
+      forest & beach tileset v1.1_57: -6579699362016211379
+      forest & beach tileset v1.1_0: 3442192827373855305
+      forest & beach tileset v1.1_70: 6532602210379727073
+      forest & beach tileset v1.1_84: 7775865125452435994
+      forest & beach tileset v1.1_139: -7079189874278001789
+      forest & beach tileset v1.1_148: 3194605231568401113
+      forest & beach tileset v1.1_108: 1719082550728718425
+      forest & beach tileset v1.1_136: 1254058928059148196
+      forest & beach tileset v1.1_92: 3848992281751086115
+      forest & beach tileset v1.1_80: -5994450235446884479
+      forest & beach tileset v1.1_17: 8452949988269878781
+      forest & beach tileset v1.1_104: 4075192068777236577
+      forest & beach tileset v1.1_18: -7460050413910570109
+      forest & beach tileset v1.1_46: 8320307115878346565
+      forest & beach tileset v1.1_118: -3122620907311056726
+      forest & beach tileset v1.1_88: 5316310568081687172
+      forest & beach tileset v1.1_158: 2948721741442833442
+      forest & beach tileset v1.1_31: 4217043997488552258
+      forest & beach tileset v1.1_33: -1018121140555556390
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

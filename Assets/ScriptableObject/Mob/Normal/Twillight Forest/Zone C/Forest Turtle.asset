@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd75eaf169c10cb4abd33a108262ee8f, type: 3}
+  m_Name: Forest Turtle
+  m_EditorClassIdentifier: 
+  mobSprite: {fileID: 21300000, guid: 61ef854ca776b3f47a7f11808e8b3635, type: 3}
+  imageOffset: {x: 0, y: 0}
+  description: 
+  mobClass: 2
+  elementalDamage:
+  - elemental: 2
+    amount: 100
+  elementalDefence: []
+  integratedElementalDefence: 66
+  lv: 245000000000
+  difficulty: normal
+  hpRate: 2
+  atkRate: 1.3
+  expRate: 1
+  goldRate: 1
+  defReqRate: 1.5
+  hidden: 0
+  skills: []
+  customHP: -1
+  customATK: -1
+  maxDefenceRatio: 2
+  dropTable:
+  - item: {fileID: 11400000, guid: 25498229176237d4899166995c9fc00f, type: 2}
+    probablity: 0.025
+  tagList: []
+  minLv: 0
+  maxLv: 0

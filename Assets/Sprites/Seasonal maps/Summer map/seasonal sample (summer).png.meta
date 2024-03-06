@@ -1,0 +1,7206 @@
+fileFormatVersion: 2
+guid: 9f8a71acfa39fb942a4aa26491f2d532
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: seasonal sample (summer)_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 843617c241feb3743bf016ddfb805d43
+      internalID: -391777729433082743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6225faf9d8195c44ead192cfa1d46b2b
+      internalID: 5867471388032223271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4caf1e9644c46ba40a7c022b83396730
+      internalID: -5752448685037451257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_3
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a20060fd3ef86774595b0df494738e0e
+      internalID: -7647638842431624709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_4
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 1, y: 3}
+        - {x: 0, y: 3}
+        - {x: 0, y: 2}
+        - {x: -1, y: 2}
+        - {x: -1, y: 1}
+        - {x: -2, y: 1}
+        - {x: -2, y: -1}
+        - {x: -4, y: -1}
+        - {x: -4, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -3}
+        - {x: -6, y: -3}
+        - {x: -6, y: -4}
+        - {x: -7, y: -4}
+        - {x: -7, y: -5}
+        - {x: -8, y: -5}
+        - {x: -8, y: -8}
+        - {x: 1, y: -8}
+        - {x: 1, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -4}
+        - {x: 3, y: -4}
+        - {x: 3, y: -3}
+        - {x: 4, y: -3}
+        - {x: 4, y: -2}
+        - {x: 3, y: -2}
+        - {x: 3, y: -1}
+        - {x: 4, y: -1}
+        - {x: 4, y: 0}
+        - {x: 6, y: 0}
+        - {x: 6, y: 2}
+        - {x: 8, y: 2}
+        - {x: 8, y: 4}
+        - {x: 1, y: 4}
+      - - {x: 1, y: 4}
+        - {x: 1, y: 4}
+        - {x: 1, y: 4}
+        - {x: 1, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce3722cd3c418f946822c3adf353c084
+      internalID: 7581406311073668558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_5
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 8}
+        - {x: -4, y: 7}
+        - {x: -6, y: 7}
+        - {x: -6, y: 6}
+        - {x: -7, y: 6}
+        - {x: -7, y: 5}
+        - {x: -8, y: 5}
+        - {x: -8, y: 2}
+        - {x: -5, y: 2}
+        - {x: -5, y: 3}
+        - {x: -6, y: 3}
+        - {x: -6, y: 4}
+        - {x: -2, y: 4}
+        - {x: -2, y: 5}
+        - {x: -3, y: 5}
+        - {x: -3, y: 6}
+        - {x: 0, y: 6}
+        - {x: 0, y: 5}
+        - {x: 1, y: 5}
+        - {x: 1, y: 4}
+        - {x: 4, y: 4}
+        - {x: 4, y: 3}
+        - {x: 8, y: 3}
+        - {x: 8, y: 2}
+        - {x: 7, y: 2}
+        - {x: 7, y: 1}
+        - {x: 8, y: 1}
+        - {x: 8, y: 5}
+        - {x: 7, y: 5}
+        - {x: 7, y: 6}
+        - {x: 6, y: 6}
+        - {x: 6.0215683, y: 7}
+        - {x: 3, y: 7}
+        - {x: 3, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9efd5f0163b7c344c94b5e74164a0615
+      internalID: -7681358533950015425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_6
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 4}
+        - {x: 5, y: 3}
+        - {x: 3, y: 3}
+        - {x: 3, y: 2}
+        - {x: -5, y: 2}
+        - {x: -5, y: 3}
+        - {x: -6, y: 3}
+        - {x: -6, y: 4}
+        - {x: -8, y: 4}
+        - {x: -8, y: 1}
+        - {x: -7, y: 1}
+        - {x: -7, y: 0}
+        - {x: -4, y: 0}
+        - {x: -4, y: -2}
+        - {x: 0, y: -2}
+        - {x: 0, y: -3}
+        - {x: 1, y: -3}
+        - {x: 1, y: -2}
+        - {x: 2, y: -2}
+        - {x: 2, y: -1}
+        - {x: 3, y: -1}
+        - {x: 3, y: -2}
+        - {x: 4, y: -2}
+        - {x: 4, y: -1}
+        - {x: 5, y: -1}
+        - {x: 5, y: 0}
+        - {x: 4, y: 0}
+        - {x: 4, y: 1}
+        - {x: 7, y: 1}
+        - {x: 7, y: 2}
+        - {x: 8, y: 2}
+        - {x: 8, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a940f7a1a5c9e02439a0aeda85ee1644
+      internalID: -3223036886290883187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_7
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 4}
+        - {x: -8, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: 0}
+        - {x: -4, y: 0}
+        - {x: -4, y: -1}
+        - {x: -3, y: -1}
+        - {x: -3, y: -2}
+        - {x: -4, y: -2}
+        - {x: -4, y: -3}
+        - {x: -3, y: -3}
+        - {x: -3, y: -4}
+        - {x: -2, y: -4}
+        - {x: -2, y: -6}
+        - {x: -1, y: -6}
+        - {x: -1, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: -5}
+        - {x: 7, y: -5}
+        - {x: 7, y: -4}
+        - {x: 6, y: -4}
+        - {x: 6, y: -3}
+        - {x: 5, y: -3}
+        - {x: 5, y: -2}
+        - {x: 4, y: -2}
+        - {x: 4, y: -1}
+        - {x: 2, y: -1}
+        - {x: 2, y: 1}
+        - {x: 1, y: 1}
+        - {x: 1, y: 2}
+        - {x: 0, y: 2}
+        - {x: 0, y: 3}
+        - {x: -1, y: 3}
+        - {x: -1, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1437d78b92b56c842a034c62e95ce555
+      internalID: 633138045320429780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_8
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc5dc27cc5b25b54e940c0c8e5f8de27
+      internalID: -1161041825887474124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_9
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21db6bc6a3e600f42bd0a7fc37a92015
+      internalID: 1269142096553511272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_10
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a69f8cee695117945a7ffe429caec1ef
+      internalID: -6190979962329115662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_11
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50c68fc7fa84c1c458488e5552bd1e16
+      internalID: 2155888814266850756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_12
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eecda919f7d11c4db9fa09c09ed16cc
+      internalID: -16508291255659922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 033c078a2e0d3124e89060761fcb5377
+      internalID: -4196288842256427282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_14
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38f7611aedc106b4fae975092b501e0c
+      internalID: 1470978933581425109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_15
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d764464bf93a9de41aa4fc03684fb6df
+      internalID: 8283623105986611378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_16
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3323d2cf2a474534ebb4a847460800b9
+      internalID: -1808613972756260820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_17
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4324b828552296447aef6478d99d4667
+      internalID: 171890465496475741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_18
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 1, y: 3}
+        - {x: 0, y: 3}
+        - {x: 0, y: 2}
+        - {x: -1, y: 2}
+        - {x: -1, y: 1}
+        - {x: -2, y: 1}
+        - {x: -2, y: -1}
+        - {x: -4, y: -1}
+        - {x: -4, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -3}
+        - {x: -6, y: -3}
+        - {x: -6, y: -4}
+        - {x: -7, y: -4}
+        - {x: -7, y: -5}
+        - {x: -8, y: -5}
+        - {x: -8, y: -8}
+        - {x: 1, y: -8}
+        - {x: 1, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -4}
+        - {x: 3, y: -4}
+        - {x: 3, y: -3}
+        - {x: 4, y: -3}
+        - {x: 4, y: -2}
+        - {x: 3, y: -2}
+        - {x: 3, y: -1}
+        - {x: 4, y: -1}
+        - {x: 4, y: 0}
+        - {x: 6, y: 0}
+        - {x: 6, y: 2}
+        - {x: 8, y: 2}
+        - {x: 8, y: 4}
+        - {x: 1, y: 4}
+      - - {x: 1, y: 4}
+        - {x: 1, y: 4}
+        - {x: 1, y: 4}
+        - {x: 1, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a74ce45eb42834591d000e2c7f53df
+      internalID: 7255547281957382975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: 2}
+        - {x: -7, y: 2}
+        - {x: -7, y: 1}
+        - {x: -2, y: 1}
+        - {x: -2, y: 2}
+        - {x: -3, y: 2}
+        - {x: -3, y: 3}
+        - {x: 1, y: 3}
+        - {x: 1, y: 4}
+        - {x: -1, y: 4}
+        - {x: -1, y: 5}
+        - {x: -2, y: 5}
+        - {x: -2, y: 6}
+        - {x: -1, y: 6}
+        - {x: -1, y: 7}
+        - {x: 0, y: 7}
+        - {x: 0, y: 8}
+        - {x: 1, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c5b40bd5b6dd246b35e75f34074dd9
+      internalID: -2497771003774938082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_20
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: 8}
+        - {x: 0, y: 7}
+        - {x: 1, y: 7}
+        - {x: 1, y: 6}
+        - {x: 2, y: 6}
+        - {x: 2, y: 5}
+        - {x: 1, y: 5}
+        - {x: 1, y: 4}
+        - {x: -1, y: 4}
+        - {x: -1, y: 3}
+        - {x: 3, y: 3}
+        - {x: 3, y: 2}
+        - {x: 2, y: 2}
+        - {x: 2, y: 1}
+        - {x: 7, y: 1}
+        - {x: 7, y: 2}
+        - {x: 8, y: 2}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f21c35cc2cabf1a4f96c7f9a820a3b18
+      internalID: 543756393340160301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_21
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 4}
+        - {x: -8, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: 0}
+        - {x: -4, y: 0}
+        - {x: -4, y: -1}
+        - {x: -3, y: -1}
+        - {x: -3, y: -2}
+        - {x: -4, y: -2}
+        - {x: -4, y: -3}
+        - {x: -3, y: -3}
+        - {x: -3, y: -4}
+        - {x: -2, y: -4}
+        - {x: -2, y: -6}
+        - {x: -1, y: -6}
+        - {x: -1, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: -5}
+        - {x: 7, y: -5}
+        - {x: 7, y: -4}
+        - {x: 6, y: -4}
+        - {x: 6, y: -3}
+        - {x: 5, y: -3}
+        - {x: 5, y: -2}
+        - {x: 4, y: -2}
+        - {x: 4, y: -1}
+        - {x: 2, y: -1}
+        - {x: 2, y: 1}
+        - {x: 1, y: 1}
+        - {x: 1, y: 2}
+        - {x: 0, y: 2}
+        - {x: 0, y: 3}
+        - {x: -1, y: 3}
+        - {x: -1, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99a5693d86c204e4fb7d8b1e3afef235
+      internalID: -4955123796594587568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_22
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 044a1bfa18bcf094ea1a9a2f059fd217
+      internalID: 8398631910404750333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_23
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4e38d2d8f9e1dc47964ac8b6e8b5333
+      internalID: 1567862753970588033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_24
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe35b9c959db2c04c872c0055e193b25
+      internalID: -8204765146283076997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_25
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d43589b91f0c43499e49a0a08d9e2a2
+      internalID: -4868028242751394140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_26
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70611a4287a78de40a87677d8f8b488a
+      internalID: 4081415798336174500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 712281bac3b091341a117dca392f8964
+      internalID: 8755882842492268414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_28
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 774de19c5199da24dbbd4639eb6c122f
+      internalID: 8887686715962646050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_29
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4016ffa791c4f3746a7027fc08a5faee
+      internalID: -5640290912732788162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_30
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c9a581bfffd9794f8b0bd8920f4e719
+      internalID: -5882831285978668476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_31
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10c851bfbdc68ea49b46b321c76bd4df
+      internalID: -892740945404630434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_32
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 1, y: -8}
+        - {x: 0, y: -8}
+        - {x: 0, y: -7}
+        - {x: 1, y: -7}
+        - {x: 1, y: -4}
+        - {x: 2, y: -4}
+        - {x: 2, y: -1}
+        - {x: 3, y: -1}
+        - {x: 3, y: 1}
+        - {x: 2, y: 1}
+        - {x: 2, y: 2}
+        - {x: 3, y: 2}
+        - {x: 3, y: 3}
+        - {x: 2, y: 3}
+        - {x: 2, y: 4}
+        - {x: 1, y: 4}
+        - {x: 1, y: 5}
+        - {x: 0, y: 5}
+        - {x: 0, y: 6}
+        - {x: -1, y: 6}
+        - {x: -1, y: 7}
+        - {x: 0, y: 7}
+        - {x: 0, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc318ebaeaa27204bab57eee68468bdb
+      internalID: 4934187595499376542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_33
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: 8}
+        - {x: 0, y: 7}
+        - {x: 1, y: 7}
+        - {x: 1, y: 6}
+        - {x: 0, y: 6}
+        - {x: 0, y: 5}
+        - {x: -1, y: 5}
+        - {x: -1, y: 4}
+        - {x: -2, y: 4}
+        - {x: -2, y: 3}
+        - {x: -3, y: 3}
+        - {x: -3, y: 2}
+        - {x: -2, y: 2}
+        - {x: -2, y: 1}
+        - {x: -3, y: 1}
+        - {x: -3, y: -1}
+        - {x: -2, y: -1}
+        - {x: -2, y: -4}
+        - {x: -1, y: -4}
+        - {x: -1, y: -7}
+        - {x: 0, y: -7}
+        - {x: 0, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      - - {x: 0, y: 7}
+        - {x: 0, y: 7}
+        - {x: 0, y: 7}
+        - {x: 0, y: 7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18013b06bbecc7d46acdd45933e63400
+      internalID: 1821397709715960639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_34
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ef277777df37874e93325ab737b253e
+      internalID: -1804629293556012530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_35
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42af521c03ef82d4e920f907f0b26894
+      internalID: 1290751551047846271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_36
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad94303d22a8e1741b0116dd3727656a
+      internalID: 3705130860476515690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_37
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 484562904168d444f95b566637a739e4
+      internalID: 7399664243300590404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_38
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1c3f5bc4f2e7134f8ba2beb939b64a7
+      internalID: -1583980295006335448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31338004fa96d054d821c4a8cd5c78f9
+      internalID: 15419381746481387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_40
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1eb74115c6913049824bc1b58452d56
+      internalID: -5524673963021200847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_41
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1bcb5e1503ac574ba6c30fa8092a081
+      internalID: -8486982438929317571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_42
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aea93c319fae9704cb4f7caac12a3952
+      internalID: -4620469741188919779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_43
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 078ebe78974c57c4bb9fc81e7b434565
+      internalID: -1804719368439786967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_44
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 4}
+        - {x: 6, y: 4}
+        - {x: 6, y: 5}
+        - {x: 4, y: 5}
+        - {x: 4, y: 6}
+        - {x: 2, y: 6}
+        - {x: 2, y: 7}
+        - {x: 1, y: 7}
+        - {x: 1, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbd43c39f7f773047a52e4afe3843a55
+      internalID: 5608505183318815903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_45
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 3}
+        - {x: -8, y: -8}
+        - {x: 0, y: -8}
+        - {x: 0, y: -6}
+        - {x: -1, y: -6}
+        - {x: -1, y: -4}
+        - {x: -3, y: -4}
+        - {x: -3, y: 1}
+        - {x: -4, y: 1}
+        - {x: -4, y: 2}
+        - {x: -5, y: 2}
+        - {x: -5, y: 3}
+      - - {x: -5, y: 2}
+        - {x: -5, y: 2}
+        - {x: -4, y: 2}
+        - {x: -4, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 137d2bfb6ca8d2646a7a42b6bbad708c
+      internalID: 2458411170100686299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_46
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 3}
+        - {x: 5, y: 2}
+        - {x: 4, y: 2}
+        - {x: 4, y: 1}
+        - {x: 3, y: 1}
+        - {x: 3, y: -4}
+        - {x: 1, y: -4}
+        - {x: 1, y: -6}
+        - {x: 0, y: -6}
+        - {x: 0, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c78bea92591ede14ab26816b7a0848f1
+      internalID: 5727133619068906359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_47
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -1, y: 8}
+        - {x: -1, y: 7}
+        - {x: -2, y: 7}
+        - {x: -2, y: 6}
+        - {x: -4, y: 6}
+        - {x: -4, y: 5}
+        - {x: -6, y: 5}
+        - {x: -6, y: 4}
+        - {x: -8, y: 4}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7ebe7620967da04c8c119dab6fc553b
+      internalID: 400782236318649301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_48
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b595b9e9ebe28ea4c8f4903712d18926
+      internalID: -6824509041121087247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_49
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972450816de8853459aa6beb7904b378
+      internalID: 3742361338595394278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_50
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 939b33f078cd810458513cd9a4d17a17
+      internalID: 3376292716571755583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_51
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f366bc3371975f4194f5ff17bf954a9
+      internalID: -9101081054300346112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_52
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2596cd4ce37d4394990a2b74fc479463
+      internalID: -3992088791143559267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_53
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d295ad336d1ca7443a0a4d33dc882bce
+      internalID: -167796678502276134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_54
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9db10074477b03b4881edf51a91480a3
+      internalID: -453117610134786995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_55
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79abd1cddadb60d44a851d7abbd139a7
+      internalID: 2988460976503471114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_56
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5153ae881b1abe44b7524c5817a3f1a
+      internalID: 4762745859177830274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_57
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aff3a57ff8fa72e41a29280240cb46df
+      internalID: 8507978123546463088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_58
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: 7}
+        - {x: -7, y: 7}
+        - {x: -7, y: 5}
+        - {x: -6, y: 5}
+        - {x: -6, y: 3}
+        - {x: -5, y: 3}
+        - {x: -5, y: -1}
+        - {x: -6, y: -1}
+        - {x: -6, y: -3}
+        - {x: -7, y: -3}
+        - {x: -7, y: -5}
+        - {x: -8, y: -5}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a6d286fc3245274fb16a233744e2b8d
+      internalID: 3100802496668108717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_59
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 4}
+        - {x: 6, y: 4}
+        - {x: 6, y: 5}
+        - {x: 4, y: 5}
+        - {x: 4, y: 6}
+        - {x: 2, y: 6}
+        - {x: 2, y: 7}
+        - {x: 1, y: 7}
+        - {x: 1, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb3f00c715a9fcd4997c6ffef2042c65
+      internalID: 5268792648410330600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_60
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 7, y: 2}
+        - {x: 7, y: 3}
+        - {x: 6, y: 3}
+        - {x: 6, y: 4}
+        - {x: 5, y: 4}
+        - {x: 5, y: 3}
+        - {x: 4, y: 3}
+        - {x: 4, y: 2}
+        - {x: 3, y: 2}
+        - {x: 3, y: 1}
+        - {x: 2, y: 1}
+        - {x: 2, y: 3}
+        - {x: 1, y: 3}
+        - {x: 1, y: 4}
+        - {x: -1, y: 4}
+        - {x: -1, y: 5}
+        - {x: -2, y: 5}
+        - {x: -2, y: 4}
+        - {x: -3, y: 4}
+        - {x: -3, y: 3}
+        - {x: -4, y: 3}
+        - {x: -4, y: 2}
+        - {x: -8, y: 2}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e30afbec84a057247884f2d23f3678f2
+      internalID: 194102004071060010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_61
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 7, y: 3}
+        - {x: 7, y: 2}
+        - {x: 4, y: 2}
+        - {x: 4, y: 0}
+        - {x: -4, y: 0}
+        - {x: -4, y: -1}
+        - {x: -7, y: -1}
+        - {x: -7, y: 1}
+        - {x: -8, y: 1}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 172e8268bc7ef704282791bf80e47551
+      internalID: 1962009868089425547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_62
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -1, y: 8}
+        - {x: -1, y: 7}
+        - {x: -2, y: 7}
+        - {x: -2, y: 6}
+        - {x: -4, y: 6}
+        - {x: -4, y: 5}
+        - {x: -6, y: 5}
+        - {x: -6, y: 4}
+        - {x: -8, y: 4}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      - - {x: -2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d2c30a309d8f242a722089ddf6c5d0
+      internalID: -3286721445526999944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_63
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: -5}
+        - {x: 7, y: -5}
+        - {x: 7, y: -3}
+        - {x: 6, y: -3}
+        - {x: 6, y: -1}
+        - {x: 5, y: -1}
+        - {x: 5, y: 3}
+        - {x: 6, y: 3}
+        - {x: 6, y: 5}
+        - {x: 7, y: 5}
+        - {x: 7, y: 7}
+        - {x: 8, y: 7}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa32f9143ba6ff4fad9688a5f9b3d34
+      internalID: -7688532173307421389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_64
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d5e31c2752bd784e88003954ddabcef
+      internalID: -8665078065984004674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_65
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 435afe6bf0324c54c9aebe863af7c720
+      internalID: -3369892516483991677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_66
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf9370feb25861e49997df1a4f36c4a0
+      internalID: 8472906731631155818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_67
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f958de8a0a3874d88fbd10f8252bd3
+      internalID: -314222727349857876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_68
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c0d4a5e809eea541a399889eec93e5b
+      internalID: 8203792750736151043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da2ae9787ed97e74b9409c5a49dcd7cf
+      internalID: -6087925338070448639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_70
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e14077ce861e384fa1b970c6fd32c6c
+      internalID: 617868770637194822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_71
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c4d9ecbe47d31548ace27bd02e1bcb0
+      internalID: -2584887897975315294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_72
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbc934f6c8f4954439b7f9e841fe94f0
+      internalID: 2713111720025541495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_73
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1105df77c0847d64f80fa68b18359bb5
+      internalID: 8375955033366368480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_74
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: 6}
+        - {x: -7, y: 6}
+        - {x: -7, y: 4}
+        - {x: -6, y: 4}
+        - {x: -6, y: 2}
+        - {x: -5, y: 2}
+        - {x: -5, y: -3}
+        - {x: -6, y: -3}
+        - {x: -6, y: -5}
+        - {x: -7, y: -5}
+        - {x: -7, y: -7}
+        - {x: -8, y: -7}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b242a91a7c73f41a213dde382d95f7
+      internalID: 8144162730291377359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_75
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 181404b27664dcd46925ef6161a381f4
+      internalID: 7016367260819251647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_76
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea7c3cdd94cddd49aecce99cafff1c0
+      internalID: -7289699926151883663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_77
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f032a1803cfef9b4e8681aaedea96bb1
+      internalID: 2187685004821808865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_78
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5670cb5700a584f42b73f3496067cb0d
+      internalID: -6491038382508761250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_79
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: -7}
+        - {x: 7, y: -7}
+        - {x: 7, y: -5}
+        - {x: 6, y: -5}
+        - {x: 6, y: -3}
+        - {x: 5, y: -3}
+        - {x: 5, y: 2}
+        - {x: 6, y: 2}
+        - {x: 6, y: 4}
+        - {x: 7, y: 4}
+        - {x: 7, y: 6}
+        - {x: 8, y: 6}
+        - {x: 8, y: 8}
+      - - {x: 6, y: -3}
+        - {x: 6, y: -3}
+        - {x: 6, y: -5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ace87495a88baf8459c1f41106e8ec48
+      internalID: -1390006380896942860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_80
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f99e8767454ceb488b1f3e78c60dab9
+      internalID: -5133655798174180072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_81
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a10d6b7e961f53b4d9a81a62d3d44135
+      internalID: 2729368793897200986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_82
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9027ae79012069448f3ab80ea3cabf9
+      internalID: 3419581111201485057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_83
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cba4bd8c83fc5b41be662c13245f12c
+      internalID: -2657916790391612457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f19bdd01ffa02104d9ba3e0ba5d9bf40
+      internalID: 636582295430167087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_85
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2772c2d2b654b940ab52bdb80e4acda
+      internalID: 4944963075421246134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_86
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e82fc26e099812458f133b8a305218c
+      internalID: -2135322185177572516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_87
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 163f5ac7d8d56e84c85f15a2c9ecb7c3
+      internalID: 2228041480940757974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_88
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 8}
+        - {x: 1, y: 8}
+        - {x: 0, y: 7}
+        - {x: 0, y: 2}
+        - {x: -1, y: 1}
+        - {x: -1, y: 4}
+        - {x: -2, y: 5}
+        - {x: -6, y: 5}
+        - {x: -7, y: 3}
+        - {x: -7, y: 0}
+        - {x: -4, y: 0}
+        - {x: -4, y: -1}
+        - {x: -4, y: -2}
+        - {x: -4, y: -3}
+        - {x: -3, y: -6}
+        - {x: -2, y: -7}
+        - {x: 3, y: -7}
+        - {x: 5, y: -5}
+        - {x: 5, y: -3}
+        - {x: 4, y: -1}
+        - {x: 3, y: 0}
+        - {x: 2, y: 1}
+        - {x: 4, y: 1}
+        - {x: 6, y: 4}
+        - {x: 6, y: 7}
+      - - {x: -1, y: 4}
+        - {x: -1, y: 4}
+        - {x: -1, y: 4}
+        - {x: -1, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: efbc774ebc796ef45abdf5d61a77ae6f
+      internalID: 2075407526077344088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_89
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: 4}
+        - {x: -7, y: 4}
+        - {x: -7, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: 1}
+        - {x: -4, y: 1}
+        - {x: -4, y: -2}
+        - {x: -3, y: -2}
+        - {x: -3, y: -1}
+        - {x: -2, y: -1}
+        - {x: -2, y: -2}
+        - {x: 0, y: -2}
+        - {x: 0, y: -1}
+        - {x: 1, y: -1}
+        - {x: 1, y: -3}
+        - {x: 2, y: -3}
+        - {x: 2, y: -4}
+        - {x: 3, y: -4}
+        - {x: 3, y: -5}
+        - {x: 6, y: -5}
+        - {x: 6, y: -4}
+        - {x: 7, y: -4}
+        - {x: 7, y: -6}
+        - {x: 8, y: -6}
+        - {x: 8, y: 8}
+      - - {x: 1, y: -3}
+        - {x: 1, y: -3}
+        - {x: 1, y: -3}
+        - {x: 1, y: -3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3327ee8b7ccee249811d6e267fcfb99
+      internalID: -5512368912338912797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_90
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -6}
+        - {x: -7, y: -6}
+        - {x: -7, y: -5}
+        - {x: -6, y: -5}
+        - {x: -6, y: -6}
+        - {x: -5, y: -6}
+        - {x: -5, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4258fe9c9dafb948a5c961584779da8
+      internalID: 1346800811740012733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_91
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25f8080b70984fa47a1b26810ea57c1d
+      internalID: -7394665006912335190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_92
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72ca6eed86378384eb9003c16cd56a5d
+      internalID: 7536294630134156690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_93
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 5, y: -8}
+        - {x: 5, y: -6}
+        - {x: 6, y: -6}
+        - {x: 6, y: -5}
+        - {x: 7, y: -5}
+        - {x: 7, y: -6}
+        - {x: 8, y: -6}
+        - {x: 8, y: 8}
+      - - {x: 6, y: -5}
+        - {x: 6, y: -5}
+        - {x: 6, y: -5}
+        - {x: 6, y: -5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7b0e2c94867f5f468c83ae82dcd34d0
+      internalID: -6206807560516990659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_94
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -6}
+        - {x: -7, y: -6}
+        - {x: -7, y: -4}
+        - {x: -6, y: -4}
+        - {x: -6, y: -5}
+        - {x: -6, y: -5}
+        - {x: -3, y: -5}
+        - {x: -3, y: -4}
+        - {x: -2, y: -4}
+        - {x: -2, y: -3}
+        - {x: -1, y: -3}
+        - {x: -1, y: -1}
+        - {x: 0, y: -1}
+        - {x: 0, y: -2}
+        - {x: 2, y: -2}
+        - {x: 2, y: -1}
+        - {x: 3, y: -1}
+        - {x: 3, y: -2}
+        - {x: 4, y: -2}
+        - {x: 4, y: 1}
+        - {x: 6, y: 1}
+        - {x: 6, y: 2}
+        - {x: 7, y: 2}
+        - {x: 7, y: 4}
+        - {x: 8, y: 4}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53e97048988cbeb47b1fa7ff421da97f
+      internalID: 2843115857125961329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_95
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 7, y: 6}
+        - {x: 7, y: 5}
+        - {x: 5, y: 5}
+        - {x: 5, y: 6}
+        - {x: 4, y: 6}
+        - {x: 4, y: 7}
+        - {x: 1, y: 7}
+        - {x: 1, y: 6}
+        - {x: -1, y: 6}
+        - {x: -1, y: 5}
+        - {x: 0, y: 5}
+        - {x: 0, y: 4}
+        - {x: 2, y: 4}
+        - {x: 2, y: 3}
+        - {x: 3, y: 3}
+        - {x: 3, y: 2}
+        - {x: 1, y: 2}
+        - {x: 1, y: 1}
+        - {x: -2, y: 1}
+        - {x: -2, y: 0}
+        - {x: -3, y: 0}
+        - {x: -3, y: -2}
+        - {x: -1, y: -2}
+        - {x: -1, y: -1}
+        - {x: 2, y: -1}
+        - {x: 3, y: -1}
+        - {x: 3, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: -5}
+        - {x: 5, y: -5}
+        - {x: 5, y: -4}
+        - {x: 6, y: -4}
+        - {x: 6, y: -3}
+        - {x: 7, y: -3}
+        - {x: 7, y: -6}
+        - {x: 8, y: -6}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b5b7dcce7ec33a48814b762b5bd7efc
+      internalID: -6597296469772230533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_96
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -7}
+        - {x: -3, y: -7}
+        - {x: -3, y: -6}
+        - {x: -2.0296326, y: -6}
+        - {x: -2, y: -5}
+        - {x: 0, y: -5}
+        - {x: 0, y: -6}
+        - {x: 0, y: -7}
+        - {x: 0, y: -8}
+        - {x: 4, y: -8}
+        - {x: 4, y: -7}
+        - {x: 5, y: -7}
+        - {x: 5, y: -6}
+        - {x: 6, y: -6}
+        - {x: 6, y: -4}
+        - {x: 7, y: -4}
+        - {x: 7, y: -5}
+        - {x: 8, y: -5}
+        - {x: 8, y: 8}
+      - - {x: -2, y: -6}
+        - {x: -2, y: -6}
+        - {x: -2, y: -6}
+        - {x: -2, y: -6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d521f2a98cbb814aa0e2f61cb4bcd38
+      internalID: 7978151836422679498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_97
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 7}
+        - {x: -4, y: 6}
+        - {x: -5, y: 6}
+        - {x: -5, y: 5}
+        - {x: -7, y: 5}
+        - {x: -7, y: 7}
+        - {x: -8, y: 7}
+        - {x: -8, y: -5}
+        - {x: -6, y: -5}
+        - {x: -6, y: -6}
+        - {x: -4, y: -6}
+        - {x: -4, y: -7}
+        - {x: -3, y: -7}
+        - {x: -3, y: -8}
+        - {x: -1, y: -8}
+        - {x: -1, y: -7}
+        - {x: -2, y: -7}
+        - {x: -2, y: -5}
+        - {x: -3, y: -5}
+        - {x: -3, y: -4}
+        - {x: -4, y: -3}
+        - {x: 0, y: -3}
+        - {x: 0, y: -2}
+        - {x: 1, y: -2}
+        - {x: 1, y: -1}
+        - {x: -3, y: -1}
+        - {x: -3, y: 0}
+        - {x: -4, y: 0}
+        - {x: -4, y: 1}
+        - {x: -5, y: 1}
+        - {x: -5, y: 2}
+        - {x: -4, y: 2}
+        - {x: -4, y: 3}
+        - {x: -3, y: 3}
+        - {x: -3, y: 4}
+        - {x: -1, y: 4}
+        - {x: -1, y: 5}
+        - {x: 0, y: 5}
+        - {x: 0, y: 6}
+        - {x: -1, y: 6}
+        - {x: -1, y: 7}
+      - - {x: -4, y: -6}
+        - {x: -4, y: -6}
+        - {x: -4, y: -6}
+        - {x: -4, y: -6}
+      - - {x: -4, y: 6}
+        - {x: -4, y: 6}
+        - {x: -4, y: 6}
+        - {x: -4, y: 6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6baee6aaf3bf9b84c9f214016952da84
+      internalID: -4613365091772766459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_98
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f27b86072fe5d1c428c9a8edff3b51a4
+      internalID: -7300655410495333178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_99
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16a6e27c123f1ce4d876dc034e3e9f06
+      internalID: 4129143163593289023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_100
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f37866413212604f888401741526529
+      internalID: 4417652495632768019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_101
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1db889120f8c4245869c40f24403148
+      internalID: -4139947648966084105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_102
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: 6}
+        - {x: 0, y: 5}
+        - {x: -2, y: 5}
+        - {x: -2, y: 4}
+        - {x: -3, y: 4}
+        - {x: -3, y: 3}
+        - {x: -4, y: 3}
+        - {x: -4, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: 1}
+        - {x: -7, y: 1}
+        - {x: -7, y: -3}
+        - {x: -7, y: -5}
+        - {x: -6, y: -5}
+        - {x: -6, y: -7}
+        - {x: -4, y: -7}
+        - {x: -4, y: -6}
+        - {x: 0, y: -6}
+        - {x: 0, y: -7}
+        - {x: 2, y: -7}
+        - {x: 6, y: -7}
+        - {x: 6, y: -6}
+        - {x: 7, y: -6}
+        - {x: 7, y: -5}
+        - {x: 8, y: -5}
+        - {x: 8, y: -3}
+        - {x: 7, y: -3}
+        - {x: 7, y: 0}
+        - {x: 6, y: 0}
+        - {x: 6, y: 1}
+        - {x: 5, y: 1}
+        - {x: 5, y: 4}
+        - {x: 4, y: 4}
+        - {x: 4, y: 5}
+        - {x: 3, y: 5}
+        - {x: 3, y: 6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 758294f353edfe84b8015c38285f120c
+      internalID: 5552654430974573489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_103
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 1, y: -8}
+        - {x: 0, y: -8}
+        - {x: 0, y: -7}
+        - {x: 1, y: -7}
+        - {x: 1, y: -4}
+        - {x: 2, y: -4}
+        - {x: 2, y: -1}
+        - {x: 3, y: -1}
+        - {x: 3, y: 1}
+        - {x: 2, y: 1}
+        - {x: 2, y: 2}
+        - {x: 3, y: 2}
+        - {x: 3, y: 3}
+        - {x: 2, y: 3}
+        - {x: 2, y: 4}
+        - {x: 1, y: 4}
+        - {x: 1, y: 5}
+        - {x: 0, y: 5}
+        - {x: 0, y: 6}
+        - {x: -1, y: 6}
+        - {x: -1, y: 7}
+        - {x: 0, y: 7}
+        - {x: 0, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac866c401305234a978bfab69b04ed1
+      internalID: 2457407732390544210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_104
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 8}
+        - {x: -5, y: 6}
+        - {x: -6, y: 6}
+        - {x: -6, y: 5}
+        - {x: -4, y: 5}
+        - {x: -4, y: 3}
+        - {x: -5, y: 3}
+        - {x: -5, y: 2}
+        - {x: -2, y: 2}
+        - {x: -2, y: 0}
+        - {x: -3, y: 0}
+        - {x: -3, y: -1}
+        - {x: -2, y: -1}
+        - {x: -2, y: 0}
+        - {x: 0, y: 0}
+        - {x: 0, y: -3}
+        - {x: 1, y: -3}
+        - {x: 1, y: -2}
+        - {x: 2, y: -2}
+        - {x: 2, y: -4}
+        - {x: 3, y: -4}
+        - {x: 3, y: -5}
+        - {x: 5, y: -5}
+        - {x: 5, y: -6}
+        - {x: 8, y: -6}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da6baebd7f0ee34c8daf10a02018135
+      internalID: 6377885218474901846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_105
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -6}
+        - {x: -5, y: -6}
+        - {x: 5, y: -6}
+        - {x: 8, y: -6}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: afaff0e00b7f3d445bb0f223f75f9b92
+      internalID: -8306357051845782062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_106
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -5}
+        - {x: -6, y: -5}
+        - {x: -6, y: -6}
+        - {x: -5, y: -6}
+        - {x: -5, y: -5}
+        - {x: -4, y: -5}
+        - {x: -4, y: -4}
+        - {x: -3, y: -4}
+        - {x: -3, y: -7}
+        - {x: -1, y: -7}
+        - {x: -1, y: -6}
+        - {x: 0, y: -6}
+        - {x: 0, y: -7}
+        - {x: 1, y: -7}
+        - {x: 1, y: -8}
+        - {x: 2, y: -8}
+        - {x: 2, y: -7}
+        - {x: 4, y: -7}
+        - {x: 4, y: -6}
+        - {x: 5, y: -6}
+        - {x: 5, y: -5}
+        - {x: 6, y: -5}
+        - {x: 6, y: -6}
+        - {x: 8, y: -6}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a16c57f1f87ea69499a42b59aae8b630
+      internalID: 8740184179927492796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_107
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -6}
+        - {x: -5, y: -6}
+        - {x: -5, y: -5}
+        - {x: -4, y: -5}
+        - {x: -4, y: -4}
+        - {x: -2, y: -4}
+        - {x: -2, y: -2}
+        - {x: -1, y: -2}
+        - {x: -1, y: -3}
+        - {x: 0, y: -3}
+        - {x: 0, y: 0}
+        - {x: 2, y: 0}
+        - {x: 2, y: -1}
+        - {x: 3, y: -1}
+        - {x: 3, y: 0}
+        - {x: 2, y: 0}
+        - {x: 2, y: 2}
+        - {x: 5, y: 2}
+        - {x: 5, y: 3}
+        - {x: 4, y: 3}
+        - {x: 4, y: 5}
+        - {x: 6, y: 5}
+        - {x: 6, y: 6}
+        - {x: 5, y: 6}
+        - {x: 5, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b942be0550481dc44bd06d837e0375ee
+      internalID: -25480496739524537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_108
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: 8}
+        - {x: 0, y: 7}
+        - {x: 1, y: 7}
+        - {x: 1, y: 6}
+        - {x: 0, y: 6}
+        - {x: 0, y: 5}
+        - {x: -1, y: 5}
+        - {x: -1, y: 4}
+        - {x: -2, y: 4}
+        - {x: -2, y: 3}
+        - {x: -3, y: 3}
+        - {x: -3, y: 2}
+        - {x: -2, y: 2}
+        - {x: -2, y: 1}
+        - {x: -3, y: 1}
+        - {x: -3, y: -1}
+        - {x: -2, y: -1}
+        - {x: -2, y: -4}
+        - {x: -1, y: -4}
+        - {x: -1, y: -7}
+        - {x: 0, y: -7}
+        - {x: 0, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      - - {x: 0, y: 7}
+        - {x: 0, y: 7}
+        - {x: 0, y: 7}
+        - {x: 0, y: 7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17aab9d3f175ceb4696c4855848eaf5a
+      internalID: 1151446082068276809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_109
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f6e031b8704dcb4880dca53dfc79ad1
+      internalID: 3617207854035215798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_110
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 3}
+        - {x: 5, y: 2}
+        - {x: 4, y: 2}
+        - {x: 4, y: 1}
+        - {x: 3, y: 1}
+        - {x: 3, y: -4}
+        - {x: 1, y: -4}
+        - {x: 1, y: -6}
+        - {x: 0, y: -6}
+        - {x: 0, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe0ba119d05ecb64d9a55a66c1505030
+      internalID: -4698102813234009016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_111
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 7, y: 2}
+        - {x: 7, y: 3}
+        - {x: 6, y: 3}
+        - {x: 6, y: 4}
+        - {x: 5, y: 4}
+        - {x: 5, y: 3}
+        - {x: 4, y: 3}
+        - {x: 4, y: 2}
+        - {x: 3, y: 2}
+        - {x: 3, y: 1}
+        - {x: 2, y: 1}
+        - {x: 2, y: 3}
+        - {x: 1, y: 3}
+        - {x: 1, y: 4}
+        - {x: -1, y: 4}
+        - {x: -1, y: 5}
+        - {x: -2, y: 5}
+        - {x: -2, y: 4}
+        - {x: -3, y: 4}
+        - {x: -3, y: 3}
+        - {x: -4, y: 3}
+        - {x: -4, y: 2}
+        - {x: -8, y: 2}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: abce0c21615f48e499e94485806dbeb7
+      internalID: -485039482706408538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_112
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 7, y: 3}
+        - {x: 7, y: 2}
+        - {x: 4, y: 2}
+        - {x: 4, y: 0}
+        - {x: -4, y: 0}
+        - {x: -4, y: -1}
+        - {x: -7, y: -1}
+        - {x: -7, y: 1}
+        - {x: -8, y: 1}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b6a1bfbc05e72042a345feea195bc33
+      internalID: -5719554379575995317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_113
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 7, y: 2}
+        - {x: 7, y: 3}
+        - {x: 6, y: 3}
+        - {x: 6, y: 4}
+        - {x: 5, y: 4}
+        - {x: 5, y: 3}
+        - {x: 4, y: 3}
+        - {x: 4, y: 2}
+        - {x: 3, y: 2}
+        - {x: 3, y: 1}
+        - {x: 2, y: 1}
+        - {x: 2, y: 3}
+        - {x: 1, y: 3}
+        - {x: 1, y: 4}
+        - {x: -1, y: 4}
+        - {x: -1, y: 5}
+        - {x: -2, y: 5}
+        - {x: -2, y: 4}
+        - {x: -3, y: 4}
+        - {x: -3, y: 3}
+        - {x: -4, y: 3}
+        - {x: -4, y: 2}
+        - {x: -8, y: 2}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02979e378019add49820bc77f4cc8143
+      internalID: -7793600061992927807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_114
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c932264ea7ef324a897a48a80db307b
+      internalID: 1900514326338136002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_115
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d001f8a2a17f08747b03d3b64f0631f7
+      internalID: 1780453533999511802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_116
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81bf9dd91b0c7f64480846e1db7950b8
+      internalID: 1523211189303270890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_117
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae5377c5db0d78041ad19da183615e68
+      internalID: 3561013724745664938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_118
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 6, y: -1}
+        - {x: 6, y: 0}
+        - {x: 5, y: 0}
+        - {x: 5, y: 3}
+        - {x: 4, y: 3}
+        - {x: 4, y: 5}
+        - {x: 3, y: 5}
+        - {x: 3, y: 6}
+        - {x: 2, y: 6}
+        - {x: 2, y: 7}
+        - {x: 0, y: 7}
+        - {x: 0, y: 8}
+        - {x: -5, y: 8}
+        - {x: -5, y: 7}
+        - {x: -6, y: 7}
+        - {x: -6, y: 6}
+        - {x: -7, y: 6}
+        - {x: -7, y: 5}
+        - {x: -8, y: 5}
+        - {x: -8, y: -6}
+        - {x: -6, y: -6}
+        - {x: -6, y: -7}
+        - {x: -3, y: -7}
+        - {x: -3, y: -8}
+        - {x: 4, y: -8}
+        - {x: 4, y: -7}
+        - {x: 5, y: -7}
+        - {x: 5, y: -6}
+        - {x: 6, y: -6}
+        - {x: 6, y: -7}
+        - {x: 7, y: -7}
+        - {x: 7, y: -5}
+        - {x: 6, y: -5}
+        - {x: 6, y: -4}
+        - {x: 6, y: -3}
+        - {x: 7, y: -3}
+        - {x: 7, y: -1}
+      - - {x: 3, y: 5}
+        - {x: 3, y: 5}
+        - {x: 3, y: 5}
+        - {x: 3, y: 5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb0b3896a6cda6499e8e2bbd94e6813
+      internalID: 5626455398469775145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_119
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 4}
+        - {x: 6, y: 4}
+        - {x: 6, y: 5}
+        - {x: 4, y: 5}
+        - {x: 4, y: 6}
+        - {x: 2, y: 6}
+        - {x: 2, y: 7}
+        - {x: 1, y: 7}
+        - {x: 1, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cefaca003c582744bb664cf1581e0fd3
+      internalID: 878510426293839155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_120
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 3}
+        - {x: -8, y: -8}
+        - {x: 0, y: -8}
+        - {x: 0, y: -6}
+        - {x: -1, y: -6}
+        - {x: -1, y: -4}
+        - {x: -3, y: -4}
+        - {x: -3, y: 1}
+        - {x: -4, y: 1}
+        - {x: -4, y: 2}
+        - {x: -5, y: 2}
+        - {x: -5, y: 3}
+      - - {x: -5, y: 2}
+        - {x: -5, y: 2}
+        - {x: -4, y: 2}
+        - {x: -4, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d27c6002789d23d4da83ae9e88c7e8bc
+      internalID: 7846497570230685309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_121
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 0, y: -8}
+        - {x: 0, y: -7}
+        - {x: 2, y: -7}
+        - {x: 2, y: -6}
+        - {x: 1, y: -6}
+        - {x: 1, y: -4}
+        - {x: 0, y: -4}
+        - {x: 0, y: 0}
+        - {x: -1, y: 0}
+        - {x: -1, y: 2}
+        - {x: -4, y: 2}
+        - {x: -4, y: 3}
+        - {x: -3, y: 3}
+        - {x: -3, y: 4}
+        - {x: -2, y: 4}
+        - {x: -2, y: 5}
+        - {x: -1, y: 5}
+        - {x: -1, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 7}
+        - {x: 1, y: 7}
+        - {x: 1, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a318f95da4051d44095f7cba281a05b9
+      internalID: -1154058380691460189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_122
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -1, y: 8}
+        - {x: -1, y: 7}
+        - {x: 2, y: 7}
+        - {x: 2, y: 6}
+        - {x: 1, y: 6}
+        - {x: 1, y: 5}
+        - {x: 0, y: 5}
+        - {x: 0, y: 4}
+        - {x: 2, y: 4}
+        - {x: 2, y: 3}
+        - {x: 3, y: 3}
+        - {x: 3, y: 2}
+        - {x: 4, y: 2}
+        - {x: 4, y: 0}
+        - {x: 3, y: 0}
+        - {x: 3, y: 1}
+        - {x: 2, y: 1}
+        - {x: 2, y: -1}
+        - {x: 1, y: -1}
+        - {x: 1, y: -2}
+        - {x: 0, y: -2}
+        - {x: 0, y: -4}
+        - {x: -1, y: -4}
+        - {x: -1, y: -6}
+        - {x: -2, y: -6}
+        - {x: -2, y: -7}
+        - {x: -1, y: -7}
+        - {x: -1, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      - - {x: -2, y: -6}
+        - {x: -2, y: -6}
+        - {x: -2, y: -6}
+        - {x: -2, y: -6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35e71290b0affe042b7bc7d7cc5937b5
+      internalID: 6768676871771768691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_123
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 3}
+        - {x: 5, y: 2}
+        - {x: 4, y: 2}
+        - {x: 4, y: 1}
+        - {x: 3, y: 1}
+        - {x: 3, y: -4}
+        - {x: 1, y: -4}
+        - {x: 1, y: -6}
+        - {x: 0, y: -6}
+        - {x: 0, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae14bdeb0dfad58488f3f2c1eb2d0fc1
+      internalID: 4918661920123126046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_124
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -1, y: 8}
+        - {x: -1, y: 7}
+        - {x: -2, y: 7}
+        - {x: -2, y: 6}
+        - {x: -4, y: 6}
+        - {x: -4, y: 5}
+        - {x: -6, y: 5}
+        - {x: -6, y: 4}
+        - {x: -8, y: 4}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba59d22640d0c3446a78aec89c40dcf7
+      internalID: 5650609852534639131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_125
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 7, y: 3}
+        - {x: 7, y: 2}
+        - {x: 4, y: 2}
+        - {x: 4, y: 0}
+        - {x: -4, y: 0}
+        - {x: -4, y: -1}
+        - {x: -7, y: -1}
+        - {x: -7, y: 1}
+        - {x: -8, y: 1}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2af3ec5c82e04e4f9e8e1ec629e4fbb
+      internalID: 7800327155367235523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_126
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -1, y: 8}
+        - {x: -1, y: 7}
+        - {x: -2, y: 7}
+        - {x: -2, y: 6}
+        - {x: -4, y: 6}
+        - {x: -4, y: 5}
+        - {x: -6, y: 5}
+        - {x: -6, y: 4}
+        - {x: -8, y: 4}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      - - {x: -2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84e7e239667bca84487fb2d293bf2215
+      internalID: 8294841961185131165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_127
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a8e56ea0ebe5249a23c9f99de813af
+      internalID: -5488269369295185801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_128
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed001fc8d64b6d94f8378819357ba554
+      internalID: -2174632261404176375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_129
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba7243cd93976e8439d21ad8380c158e
+      internalID: 7170361907302486778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_130
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bac341e5d75472844beab47ed9b3cfb9
+      internalID: -321376665268871493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_131
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: 7}
+        - {x: -7, y: 7}
+        - {x: -7, y: 4}
+        - {x: -8, y: 4}
+        - {x: -8, y: 2}
+        - {x: -7, y: 2}
+        - {x: -7, y: 1}
+        - {x: -6, y: 1}
+        - {x: -6, y: -2}
+        - {x: -4, y: -4}
+        - {x: -2, y: -6}
+        - {x: 0, y: -6}
+        - {x: 3, y: -5}
+        - {x: 4, y: -5}
+        - {x: 5, y: -5}
+        - {x: 6, y: -3}
+        - {x: 7, y: -1}
+        - {x: 7, y: 4}
+        - {x: 8, y: 4}
+        - {x: 8, y: 8}
+      - - {x: 3, y: -5}
+        - {x: 0, y: -6}
+        - {x: 3, y: -5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e21b2934d6a359478e0178e400606e0
+      internalID: -423325715608892552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_132
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7, y: 8}
+        - {x: -7, y: 0}
+        - {x: -6, y: 0}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -3}
+        - {x: -4, y: -3}
+        - {x: -4, y: -4}
+        - {x: -1, y: -6}
+        - {x: 2, y: -6}
+        - {x: 2, y: -7}
+        - {x: 8, y: -7}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f286e72941267547a67374100e79bb7
+      internalID: 1024251639740555913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_133
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -7}
+        - {x: -2, y: -7}
+        - {x: 0, y: -6}
+        - {x: 2, y: -5}
+        - {x: 3, y: -5}
+        - {x: 6, y: -2}
+        - {x: 6, y: -1}
+        - {x: 7, y: -1}
+        - {x: 7, y: 5}
+        - {x: 6, y: 5}
+        - {x: 6, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21655e2dc162e7848819315501823fc0
+      internalID: -3659401725747076142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_134
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 7, y: 1}
+        - {x: 7, y: 6}
+        - {x: 6, y: 6}
+        - {x: 6, y: 7}
+        - {x: 0, y: 7}
+        - {x: 0, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 5}
+        - {x: -3, y: 5}
+        - {x: -3, y: 4}
+        - {x: -4, y: 4}
+        - {x: -4, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: 1}
+        - {x: -7, y: 1}
+        - {x: -7, y: -4}
+        - {x: -5, y: -4}
+        - {x: -5, y: -6}
+        - {x: -3, y: -6}
+        - {x: -3, y: -8}
+        - {x: 7, y: -8}
+        - {x: 7, y: -7}
+        - {x: 8, y: -7}
+        - {x: 8, y: 1}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 297b75d5badf068409959a98306d1cab
+      internalID: -3632561174464117000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_135
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: 4}
+        - {x: -7, y: 4}
+        - {x: -7, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: 1}
+        - {x: -4, y: 1}
+        - {x: -4, y: -2}
+        - {x: -3, y: -2}
+        - {x: -3, y: -1}
+        - {x: -2, y: -1}
+        - {x: -2, y: -2}
+        - {x: 0, y: -2}
+        - {x: 0, y: -1}
+        - {x: 1, y: -1}
+        - {x: 1, y: -3}
+        - {x: 2, y: -3}
+        - {x: 2, y: -4}
+        - {x: 3, y: -4}
+        - {x: 3, y: -5}
+        - {x: 6, y: -5}
+        - {x: 6, y: -4}
+        - {x: 7, y: -4}
+        - {x: 7, y: -6}
+        - {x: 8, y: -6}
+        - {x: 8, y: 8}
+      - - {x: 1, y: -3}
+        - {x: 1, y: -3}
+        - {x: 1, y: -3}
+        - {x: 1, y: -3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21bdb6938fee30844978ea6afe7eef6e
+      internalID: -3650414692615749443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_136
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -6}
+        - {x: -7, y: -6}
+        - {x: -7, y: -5}
+        - {x: -6, y: -5}
+        - {x: -6, y: -6}
+        - {x: -5, y: -6}
+        - {x: -5, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 4}
+        - {x: 6, y: 4}
+        - {x: 6, y: 5}
+        - {x: 4, y: 5}
+        - {x: 4, y: 6}
+        - {x: 2, y: 6}
+        - {x: 2, y: 7}
+        - {x: 1, y: 7}
+        - {x: 1, y: 8}
+      - - {x: -7, y: -6}
+        - {x: -7, y: -6}
+        - {x: -7, y: -6}
+        - {x: -7, y: -6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb97f32ecbbc0744b91d7599decc7253
+      internalID: -1423382944074509145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_137
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 7, y: 2}
+        - {x: 7, y: 3}
+        - {x: 6, y: 3}
+        - {x: 6, y: 4}
+        - {x: 5, y: 4}
+        - {x: 5, y: 3}
+        - {x: 4, y: 3}
+        - {x: 4, y: 2}
+        - {x: 3, y: 2}
+        - {x: 3, y: 1}
+        - {x: 2, y: 1}
+        - {x: 2, y: 3}
+        - {x: 1, y: 3}
+        - {x: 1, y: 4}
+        - {x: -1, y: 4}
+        - {x: -1, y: 5}
+        - {x: -2, y: 5}
+        - {x: -2, y: 4}
+        - {x: -3, y: 4}
+        - {x: -3, y: 3}
+        - {x: -4, y: 3}
+        - {x: -4, y: 2}
+        - {x: -8, y: 2}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa857953a596d924bab3e1b6f8575a51
+      internalID: -7101747360046365129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_138
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 7, y: 3}
+        - {x: 7, y: 2}
+        - {x: 4, y: 2}
+        - {x: 4, y: 0}
+        - {x: -4, y: 0}
+        - {x: -4, y: -1}
+        - {x: -7, y: -1}
+        - {x: -7, y: 1}
+        - {x: -8, y: 1}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83c659a516ae4f744bd1f86676594d77
+      internalID: -5087021117760465405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_139
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -1, y: 8}
+        - {x: -1, y: 7}
+        - {x: -2, y: 7}
+        - {x: -2, y: 6}
+        - {x: -4, y: 6}
+        - {x: -4, y: 5}
+        - {x: -6, y: 5}
+        - {x: -6, y: 4}
+        - {x: -8, y: 4}
+        - {x: -8, y: -8}
+        - {x: 5, y: -8}
+        - {x: 5, y: -6}
+        - {x: 6, y: -6}
+        - {x: 6, y: -5}
+        - {x: 7, y: -5}
+        - {x: 7, y: -6}
+        - {x: 8, y: -6}
+        - {x: 8, y: 8}
+      - - {x: -2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca0f5300bbf6887459fe76e4b1fa6b74
+      internalID: 675279452695188987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_140
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -6}
+        - {x: -7, y: -6}
+        - {x: -7, y: -4}
+        - {x: -6, y: -4}
+        - {x: -6, y: -5}
+        - {x: -6, y: -5}
+        - {x: -3, y: -5}
+        - {x: -3, y: -4}
+        - {x: -2, y: -4}
+        - {x: -2, y: -3}
+        - {x: -1, y: -3}
+        - {x: -1, y: -1}
+        - {x: 0, y: -1}
+        - {x: 0, y: -2}
+        - {x: 2, y: -2}
+        - {x: 2, y: -1}
+        - {x: 3, y: -1}
+        - {x: 3, y: -2}
+        - {x: 4, y: -2}
+        - {x: 4, y: 1}
+        - {x: 6, y: 1}
+        - {x: 6, y: 2}
+        - {x: 7, y: 2}
+        - {x: 7, y: 4}
+        - {x: 8, y: 4}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0930948ea197d574ea47649980312c92
+      internalID: 4006605681761915151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_141
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd69af0899a273944ad6a5ddf8ed498b
+      internalID: -4112156096191910095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_142
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f562741f287314c9cf8a35815262a9
+      internalID: 548612661057909005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_143
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e18cdb8d914660046868bbe42b2adfeb
+      internalID: -3537516318363552864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_144
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94a14d21090af80499883aea64c32fd5
+      internalID: 387806844547145351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_145
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64583a43e24ef9645a082dd6f8447ba6
+      internalID: 3754418548009102561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_146
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aef843bb0e69fe44987476c9242ece5
+      internalID: 7565685764664008973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_147
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f85befe070c4b3e47adf523e820658d5
+      internalID: -2267716390871158199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_148
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e0e45e3715d994468c51328f7aa0ad6
+      internalID: 8876331018164631326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_149
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 8}
+        - {x: -5, y: 6}
+        - {x: -6, y: 6}
+        - {x: -6, y: 5}
+        - {x: -4, y: 5}
+        - {x: -4, y: 3}
+        - {x: -5, y: 3}
+        - {x: -5, y: 2}
+        - {x: -2, y: 2}
+        - {x: -2, y: 0}
+        - {x: -3, y: 0}
+        - {x: -3, y: -1}
+        - {x: -2, y: -1}
+        - {x: -2, y: 0}
+        - {x: 0, y: 0}
+        - {x: 0, y: -3}
+        - {x: 1, y: -3}
+        - {x: 1, y: -2}
+        - {x: 2, y: -2}
+        - {x: 2, y: -4}
+        - {x: 3, y: -4}
+        - {x: 3, y: -5}
+        - {x: 5, y: -5}
+        - {x: 5, y: -6}
+        - {x: 8, y: -6}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a0eccfae74d40445bd0e390a7badf8b
+      internalID: -1489550171014552036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_150
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -6}
+        - {x: -5, y: -6}
+        - {x: 5, y: -6}
+        - {x: 8, y: -6}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0272953d29c80b545a779a2789ce4927
+      internalID: 9140358084847125306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_151
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -5}
+        - {x: -6, y: -5}
+        - {x: -6, y: -6}
+        - {x: -5, y: -6}
+        - {x: -5, y: -5}
+        - {x: -4, y: -5}
+        - {x: -4, y: -4}
+        - {x: -3, y: -4}
+        - {x: -3, y: -7}
+        - {x: -1, y: -7}
+        - {x: -1, y: -6}
+        - {x: 0, y: -6}
+        - {x: 0, y: -7}
+        - {x: 1, y: -7}
+        - {x: 1, y: -8}
+        - {x: 2, y: -8}
+        - {x: 2, y: -7}
+        - {x: 4, y: -7}
+        - {x: 4, y: -6}
+        - {x: 5, y: -6}
+        - {x: 5, y: -5}
+        - {x: 6, y: -5}
+        - {x: 6, y: -6}
+        - {x: 8, y: -6}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f240da2f274a4843bbb9e19cf1d8fa5
+      internalID: -2110838562166778398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_152
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -6}
+        - {x: -5, y: -6}
+        - {x: -5, y: -5}
+        - {x: -4, y: -5}
+        - {x: -4, y: -4}
+        - {x: -2, y: -4}
+        - {x: -2, y: -2}
+        - {x: -1, y: -2}
+        - {x: -1, y: -3}
+        - {x: 0, y: -3}
+        - {x: 0, y: 0}
+        - {x: 2, y: 0}
+        - {x: 2, y: -1}
+        - {x: 3, y: -1}
+        - {x: 3, y: 0}
+        - {x: 2, y: 0}
+        - {x: 2, y: 2}
+        - {x: 5, y: 2}
+        - {x: 5, y: 3}
+        - {x: 4, y: 3}
+        - {x: 4, y: 5}
+        - {x: 6, y: 5}
+        - {x: 6, y: 6}
+        - {x: 5, y: 6}
+        - {x: 5, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1932312b5d0de3e4baa86aee70199d2a
+      internalID: 6323745204504592563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_153
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4af4e65519afdb242b83d793ba5e4b07
+      internalID: -1146193738325870061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_154
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 5, y: -8}
+        - {x: 5, y: -6}
+        - {x: 6, y: -6}
+        - {x: 6, y: -5}
+        - {x: 8, y: -4}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 523165e03f710314eb497ff7cdc5535d
+      internalID: -4656906781176299070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_155
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -4}
+        - {x: 8, y: 2}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9261e4dc517d59459671cb1a9390a7f
+      internalID: 2487222329892342677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_156
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: 2}
+        - {x: -6, y: 2}
+        - {x: -6, y: 1}
+        - {x: -5, y: 1}
+        - {x: -5, y: 0}
+        - {x: -4, y: 0}
+        - {x: -4, y: -2}
+        - {x: -3, y: -2}
+        - {x: -3, y: -3}
+        - {x: -2, y: -3}
+        - {x: -2, y: -4}
+        - {x: -1, y: -4}
+        - {x: -1, y: -4}
+        - {x: 0, y: -4}
+        - {x: 0, y: -3}
+        - {x: 1, y: -3}
+        - {x: 1, y: -2}
+        - {x: 2, y: -2}
+        - {x: 2, y: -5}
+        - {x: 3, y: -5}
+        - {x: 7, y: -5}
+        - {x: 7, y: -6}
+        - {x: 8, y: -6}
+        - {x: 8, y: 8}
+      - - {x: -3, y: -2}
+        - {x: -3, y: -2}
+        - {x: -3, y: -2}
+        - {x: -3, y: -2}
+      - - {x: 7, y: -6}
+        - {x: 7, y: -6}
+        - {x: 7, y: -6}
+        - {x: 7, y: -6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfca6d3616fdf0c449e5ba36407430ec
+      internalID: 4394080062751677664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_157
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -6}
+        - {x: -5, y: -6}
+        - {x: 5, y: -6}
+        - {x: 8, y: -6}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d8c193fbda6b0f449b9ed24a62e24f9
+      internalID: 6148064929984934049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_158
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d4ebfce443801e4db6e75f6302fc8f7
+      internalID: -1952454009281761852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_159
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c574e2a87adddd44a51912ace27fa84
+      internalID: 5774704522595253364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_160
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb63edd0d2f2f504c8912505be13f0cd
+      internalID: -2644853996507898760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_161
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 195f520850c09c04bbfdebcbba975667
+      internalID: -4548892284369979842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_162
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -7, y: 8}
+        - {x: -7, y: 6}
+        - {x: -6, y: 6}
+        - {x: -6, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 3}
+        - {x: -4, y: 3}
+        - {x: -4, y: 2}
+        - {x: -2, y: 2}
+        - {x: -2, y: 1}
+        - {x: 1, y: 1}
+        - {x: 1, y: 0}
+        - {x: 6, y: 0}
+        - {x: 6, y: -1}
+        - {x: 8, y: -1}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c1df3dbc0cad74e94d9d47c32081d8
+      internalID: -8082872462669911427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_163
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -1}
+        - {x: -6, y: -1}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -3}
+        - {x: -4, y: -3}
+        - {x: -4, y: -4}
+        - {x: -3, y: -4}
+        - {x: -3, y: -6}
+        - {x: -2, y: -6}
+        - {x: -2, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      - - {x: -4, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: efa38294eb76c54408fef16241a2c1f7
+      internalID: -284158236995679628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_164
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c366899671759cd4885a988fdb7e2ed2
+      internalID: 9196718258442608196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_165
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c0e44739a009c042a615b5441fb3c85
+      internalID: 8895918420017825394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_166
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 2, y: -8}
+        - {x: 2, y: -6}
+        - {x: 3, y: -6}
+        - {x: 3, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: -3}
+        - {x: 6, y: -3}
+        - {x: 6, y: -2}
+        - {x: 7, y: -2}
+        - {x: 7, y: -1}
+        - {x: 8, y: -1}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 397cab477a155cc459b78356fe4b9c98
+      internalID: 5638632861024328368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_167
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -1}
+        - {x: -6, y: -1}
+        - {x: -6, y: 0}
+        - {x: -1, y: 0}
+        - {x: -1, y: 1}
+        - {x: 2, y: 1}
+        - {x: 2, y: 2}
+        - {x: 4, y: 2}
+        - {x: 4, y: 3}
+        - {x: 5, y: 3}
+        - {x: 5, y: 4}
+        - {x: 6, y: 4}
+        - {x: 6, y: 6}
+        - {x: 7, y: 6}
+        - {x: 7, y: 8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2f4b302a6ac0a746b93d25dfaf97e4a
+      internalID: 8879885012707351213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_168
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -5}
+        - {x: -6, y: -5}
+        - {x: -6, y: -6}
+        - {x: -5, y: -6}
+        - {x: -5, y: -5}
+        - {x: -4, y: -5}
+        - {x: -4, y: -4}
+        - {x: -3, y: -4}
+        - {x: -3, y: -7}
+        - {x: -1, y: -7}
+        - {x: -1, y: -6}
+        - {x: 0, y: -6}
+        - {x: 0, y: -7}
+        - {x: 1, y: -7}
+        - {x: 1, y: -8}
+        - {x: 2, y: -8}
+        - {x: 2, y: -7}
+        - {x: 4, y: -7}
+        - {x: 4, y: -6}
+        - {x: 5, y: -6}
+        - {x: 5, y: -5}
+        - {x: 6, y: -5}
+        - {x: 6, y: -6}
+        - {x: 8, y: -6}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1998cccc7460c4346a29ab08ac065769
+      internalID: 7223137651804688906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_169
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -6}
+        - {x: -7, y: -6}
+        - {x: -7, y: -4}
+        - {x: -6, y: -4}
+        - {x: -6, y: -5}
+        - {x: -3, y: -5}
+        - {x: -3, y: -4}
+        - {x: -2, y: -4}
+        - {x: -2, y: -3}
+        - {x: -1, y: -3}
+        - {x: -1, y: -1}
+        - {x: 0, y: -1}
+        - {x: 0, y: -2}
+        - {x: 2, y: -2}
+        - {x: 2, y: -1}
+        - {x: 3, y: -1}
+        - {x: 3, y: -2}
+        - {x: 4, y: -2}
+        - {x: 4, y: 1}
+        - {x: 6, y: 1}
+        - {x: 6, y: 2}
+        - {x: 7, y: 2}
+        - {x: 7, y: 4}
+        - {x: 8, y: 4}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4808e2ba1967a3d42be4bf225facd69c
+      internalID: 3754265539162224825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_170
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba25da8052cd1e41bdfdb5c14862e17
+      internalID: -1097518972360713053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_171
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf023ddca8486624dabfeb7c5eed8ab7
+      internalID: -8626358895610856464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_172
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b018298cbafa5a42954309c9b62d8bc
+      internalID: -1364171869641611900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_173
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b08e42e2a1092b449947aa2c03aeae3
+      internalID: 4498186171818533627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_174
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: -2}
+        - {x: 8, y: -8}
+        - {x: 8, y: -2}
+        - {x: 7, y: -1}
+        - {x: 6, y: -1}
+        - {x: 6, y: 0}
+        - {x: 0, y: 0}
+        - {x: 0, y: 4}
+        - {x: -1, y: 4}
+        - {x: -1, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 7}
+        - {x: -4, y: 8}
+        - {x: -8, y: 8}
+      - - {x: 0, y: 4}
+        - {x: 0, y: 4}
+        - {x: 0, y: 4}
+        - {x: 0, y: 4}
+      - - {x: 6, y: -1}
+        - {x: 7, y: -1}
+        - {x: 8, y: -2}
+        - {x: 7, y: -1}
+        - {x: 6, y: -1}
+        - {x: 6, y: 0}
+      - - {x: 7, y: -1}
+        - {x: 7, y: -1}
+        - {x: 7, y: -1}
+        - {x: 7, y: -1}
+      - - {x: 8, y: -2}
+        - {x: 7, y: -1}
+        - {x: 7, y: -1}
+        - {x: 8, y: -2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8244dd0b106bc44abbbb4aabb87a93b
+      internalID: 3127409328010616704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_175
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f72cedfb07fac4ebc8b15cff2ac637
+      internalID: -2875272760543658804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_176
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c25acddbdafe644bb6f3edf1c5e0b5e
+      internalID: -1458558910747407982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_177
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ac6ed24b14f9904ebdfdb5b0fcd17d1
+      internalID: 7487976771520019045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_178
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: 0}
+        - {x: -7, y: 0}
+        - {x: -7, y: -1}
+        - {x: -6, y: -1}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -3}
+        - {x: -5, y: -3}
+        - {x: -5, y: -4}
+        - {x: -6, y: -4}
+        - {x: -6, y: -5}
+        - {x: -7, y: -5}
+        - {x: -7, y: -6}
+        - {x: -8, y: -6}
+        - {x: -8, y: -8}
+        - {x: 1, y: -8}
+        - {x: 0, y: -8}
+        - {x: 0, y: -7}
+        - {x: 1, y: -7}
+        - {x: 1, y: -4}
+        - {x: 2, y: -4}
+        - {x: 2, y: -1}
+        - {x: 3, y: -1}
+        - {x: 3, y: 1}
+        - {x: 2, y: 1}
+        - {x: 2, y: 2}
+        - {x: 3, y: 2}
+        - {x: 3, y: 3}
+        - {x: 2, y: 3}
+        - {x: 2, y: 4}
+        - {x: 1, y: 4}
+        - {x: 1, y: 5}
+        - {x: 0, y: 5}
+        - {x: 0, y: 6}
+        - {x: -1, y: 6}
+        - {x: -1, y: 7}
+        - {x: 0, y: 7}
+        - {x: 0, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff27984488ba702439c49d4176db888c
+      internalID: 6587106774869402373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_179
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2, y: 8}
+        - {x: -2, y: 5}
+        - {x: -1, y: 5}
+        - {x: -1, y: 3}
+        - {x: 1, y: 3}
+        - {x: 1, y: 1}
+        - {x: 2, y: 1}
+        - {x: 2, y: 0}
+        - {x: 4, y: 0}
+        - {x: 4, y: -1}
+        - {x: 8, y: -1}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51dca6f7e7715494f83d46ddaed3c4e3
+      internalID: 6048612587521179862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_180
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -1}
+        - {x: -5, y: -1}
+        - {x: -5, y: 0}
+        - {x: -2, y: 0}
+        - {x: -2, y: 1}
+        - {x: 5, y: 1}
+        - {x: 5, y: 1}
+        - {x: 5, y: 0}
+        - {x: 7, y: 0}
+        - {x: 7, y: -1}
+        - {x: 8, y: -1}
+        - {x: 8, y: 8}
+      - - {x: 5, y: 0}
+        - {x: 5, y: 0}
+        - {x: 5, y: 0}
+        - {x: 5, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b38fea4d0cd07d4dbf2d97683cf75b8
+      internalID: -901244571106879072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_181
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -1}
+        - {x: -6, y: -1}
+        - {x: -6, y: -2}
+        - {x: -2, y: -2}
+        - {x: 0, y: -2}
+        - {x: 0, y: -3}
+        - {x: 2, y: -3}
+        - {x: 2, y: -2}
+        - {x: 6, y: -2}
+        - {x: 6, y: -1}
+        - {x: 8, y: -1}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 024abb4f8d1f6b049aafcd7afde9e276
+      internalID: 5196766010654113947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_182
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -1}
+        - {x: -4, y: -1}
+        - {x: -4, y: 0}
+        - {x: -2, y: 0}
+        - {x: -2, y: 1}
+        - {x: -1, y: 1}
+        - {x: -1, y: 3}
+        - {x: 1, y: 3}
+        - {x: 1, y: 5}
+        - {x: 2, y: 5}
+        - {x: 2, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3286f39992bf0ad418b065d41d8f3a4d
+      internalID: -2144206026212973719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_183
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: 8}
+        - {x: 0, y: 7}
+        - {x: 1, y: 7}
+        - {x: 1, y: 6}
+        - {x: 0, y: 6}
+        - {x: 0, y: 5}
+        - {x: -1, y: 5}
+        - {x: -1, y: 4}
+        - {x: -2, y: 4}
+        - {x: -2, y: 3}
+        - {x: -3, y: 3}
+        - {x: -3, y: 2}
+        - {x: -2, y: 2}
+        - {x: -2, y: 1}
+        - {x: -3, y: 1}
+        - {x: -3, y: -1}
+        - {x: -2, y: -1}
+        - {x: -2, y: -4}
+        - {x: -1, y: -4}
+        - {x: -1, y: -7}
+        - {x: 0, y: -7}
+        - {x: 0, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: -5}
+        - {x: 7, y: -5}
+        - {x: 7, y: -4}
+        - {x: 5, y: -4}
+        - {x: 5, y: -3}
+        - {x: 6, y: -3}
+        - {x: 6, y: -2}
+        - {x: 7, y: -2}
+        - {x: 7, y: -1}
+        - {x: 8, y: -1}
+        - {x: 8, y: 8}
+      - - {x: 8, y: -5}
+        - {x: 8, y: -5}
+        - {x: 8, y: -5}
+        - {x: 8, y: -5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cffec7037d6d2ea4fa580ad234d3c978
+      internalID: -6888511495017664660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_184
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 054ba92b81df63645a95091adcc8b5cd
+      internalID: -2748679500586054316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_185
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6740d45efd827b04eb68a0cb0bb79efe
+      internalID: 7160827289777422272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_186
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc85d38f67e1ed7439277d92b4e63fcb
+      internalID: -594218321695924672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_187
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 4}
+        - {x: 6, y: 4}
+        - {x: 6, y: 5}
+        - {x: 4, y: 5}
+        - {x: 4, y: 6}
+        - {x: 2, y: 6}
+        - {x: 2, y: 7}
+        - {x: 1, y: 7}
+        - {x: 1, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cd04def32effcc4b84cee09ed5e8353
+      internalID: 5046455800214101551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_188
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 3}
+        - {x: -8, y: -8}
+        - {x: 0, y: -8}
+        - {x: 0, y: -6}
+        - {x: -1, y: -6}
+        - {x: -1, y: -4}
+        - {x: -3, y: -4}
+        - {x: -3, y: 1}
+        - {x: -4, y: 1}
+        - {x: -4, y: 2}
+        - {x: -5, y: 2}
+        - {x: -5, y: 3}
+      - - {x: -5, y: 2}
+        - {x: -5, y: 2}
+        - {x: -4, y: 2}
+        - {x: -4, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d584ba2dc3a2bee44bd363bec125a120
+      internalID: 9135117736616780241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_189
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: 0}
+        - {x: -7, y: 0}
+        - {x: -7, y: -1}
+        - {x: -6, y: -1}
+        - {x: -6, y: -3}
+        - {x: -5, y: -3}
+        - {x: -5, y: -4}
+        - {x: -6, y: -4}
+        - {x: -6, y: -5}
+        - {x: -7, y: -5}
+        - {x: -7, y: -6}
+        - {x: -8, y: -6}
+        - {x: -8, y: -8}
+        - {x: 0, y: -8}
+        - {x: 0, y: -7}
+        - {x: 2, y: -7}
+        - {x: 2, y: -6}
+        - {x: 1, y: -6}
+        - {x: 1, y: -4}
+        - {x: 0, y: -4}
+        - {x: 0, y: 0}
+        - {x: -1, y: 0}
+        - {x: -1, y: 2}
+        - {x: -4, y: 2}
+        - {x: -4, y: 3}
+        - {x: -3, y: 3}
+        - {x: -3, y: 4}
+        - {x: -2, y: 4}
+        - {x: -2, y: 5}
+        - {x: -1, y: 5}
+        - {x: -1, y: 6}
+        - {x: -2, y: 6}
+        - {x: -2, y: 7}
+        - {x: 1, y: 7}
+        - {x: 1, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b58974f2aff514e97e5ae2204e2b86
+      internalID: 936310617557129352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_190
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -1, y: 8}
+        - {x: -1, y: 7}
+        - {x: 2, y: 7}
+        - {x: 2, y: 6}
+        - {x: 1, y: 6}
+        - {x: 1, y: 5}
+        - {x: 0, y: 5}
+        - {x: 0, y: 4}
+        - {x: 2, y: 4}
+        - {x: 2, y: 3}
+        - {x: 3, y: 3}
+        - {x: 3, y: 2}
+        - {x: 4, y: 2}
+        - {x: 4, y: 0}
+        - {x: 3, y: 0}
+        - {x: 3, y: 1}
+        - {x: 2, y: 1}
+        - {x: 2, y: -1}
+        - {x: 1, y: -1}
+        - {x: 1, y: -2}
+        - {x: 0, y: -2}
+        - {x: 0, y: -4}
+        - {x: -1, y: -4}
+        - {x: -1, y: -6}
+        - {x: -2, y: -6}
+        - {x: -2, y: -7}
+        - {x: -1, y: -7}
+        - {x: -1, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6527286e73a5f2a4ea35d14af3464557
+      internalID: 925473706329117131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_191
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 3}
+        - {x: 5, y: 2}
+        - {x: 4, y: 2}
+        - {x: 4, y: 1}
+        - {x: 3, y: 1}
+        - {x: 3, y: -4}
+        - {x: 1, y: -4}
+        - {x: 1, y: -6}
+        - {x: 0, y: -6}
+        - {x: 0, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb72baf20a2e45c49b269224242b98ff
+      internalID: 6615936601068547746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_192
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -1, y: 8}
+        - {x: -1, y: 7}
+        - {x: -2, y: 7}
+        - {x: -2, y: 6}
+        - {x: -4, y: 6}
+        - {x: -4, y: 5}
+        - {x: -6, y: 5}
+        - {x: -6, y: 4}
+        - {x: -8, y: 4}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1072d953bd6fc984d838a3a3a5a673c1
+      internalID: 7395901697733770191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_193
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc50d5e22494b074a91d0658ed7d6b49
+      internalID: 2393493273184242982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_194
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81808e6ff558fde4394e91e7ad0ddf6f
+      internalID: 2236020737705091115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_195
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 866602e9c8f23cd43b1be68b0443a0f6
+      internalID: -2594160413013233280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_196
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb832b6c21b448a4d8733b7e2814da67
+      internalID: 2530520169349043914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_197
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fba9d463c6aac6d4f90e33cd007daa44
+      internalID: 2882123874748047856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_198
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: -6}
+        - {x: 1, y: -5}
+        - {x: -4, y: -2}
+        - {x: -6, y: 2}
+        - {x: -6, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb22be414dce33c4c80840d4c8fe4811
+      internalID: 7007242378227225253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_199
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c7fa9be30efd854d9f07e4759d37f61
+      internalID: -4273953980627041215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_200
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe12cb1711813040b3805e2cd9ecd04
+      internalID: -8079302987877131961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_201
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e6a1e4f55c8b5499e66db218548c99
+      internalID: -9185960534329088151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_202
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -7, y: 8}
+        - {x: -7, y: 6}
+        - {x: -6, y: 6}
+        - {x: -6, y: 4}
+        - {x: -5, y: 4}
+        - {x: -5, y: 3}
+        - {x: -4, y: 3}
+        - {x: -4, y: 2}
+        - {x: -2, y: 2}
+        - {x: -2, y: 1}
+        - {x: 1, y: 1}
+        - {x: 1, y: 0}
+        - {x: 6, y: 0}
+        - {x: 6, y: -1}
+        - {x: 8, y: -1}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd88eb7caccacaf41afa114e2704ca6b
+      internalID: 2796401029803421829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_203
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -1}
+        - {x: -6, y: -1}
+        - {x: -6, y: -2}
+        - {x: -5, y: -2}
+        - {x: -5, y: -3}
+        - {x: -4, y: -3}
+        - {x: -4, y: -4}
+        - {x: -3, y: -4}
+        - {x: -3, y: -6}
+        - {x: -2, y: -6}
+        - {x: -2, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 4}
+        - {x: 6, y: 4}
+        - {x: 6, y: 5}
+        - {x: 4, y: 5}
+        - {x: 4, y: 6}
+        - {x: 2, y: 6}
+        - {x: 2, y: 7}
+        - {x: 1, y: 7}
+        - {x: 1, y: 8}
+      - - {x: -4, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -4}
+        - {x: -4, y: -4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c778763529742ac49a45bdc89a8346d7
+      internalID: -8703982708611705776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_204
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 7, y: 2}
+        - {x: 7, y: 3}
+        - {x: 6, y: 3}
+        - {x: 6, y: 4}
+        - {x: 5, y: 4}
+        - {x: 5, y: 3}
+        - {x: 4, y: 3}
+        - {x: 4, y: 2}
+        - {x: 3, y: 2}
+        - {x: 3, y: 1}
+        - {x: 2, y: 1}
+        - {x: 2, y: 3}
+        - {x: 1, y: 3}
+        - {x: 1, y: 4}
+        - {x: -1, y: 4}
+        - {x: -1, y: 5}
+        - {x: -2, y: 5}
+        - {x: -2, y: 4}
+        - {x: -3, y: 4}
+        - {x: -3, y: 3}
+        - {x: -4, y: 3}
+        - {x: -4, y: 2}
+        - {x: -8, y: 2}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1aa591bb033dd242be2530950d01490
+      internalID: -5589982533728670708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_205
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 7, y: 3}
+        - {x: 7, y: 2}
+        - {x: 4, y: 2}
+        - {x: 4, y: 0}
+        - {x: -4, y: 0}
+        - {x: -4, y: -1}
+        - {x: -7, y: -1}
+        - {x: -7, y: 1}
+        - {x: -8, y: 1}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea851e75d6834394c8aaceb217f8e27f
+      internalID: -208404588640077039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_206
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -1, y: 8}
+        - {x: -1, y: 7}
+        - {x: -2, y: 7}
+        - {x: -2, y: 6}
+        - {x: -4, y: 6}
+        - {x: -4, y: 5}
+        - {x: -6, y: 5}
+        - {x: -6, y: 4}
+        - {x: -8, y: 4}
+        - {x: -8, y: -8}
+        - {x: 2, y: -8}
+        - {x: 2, y: -6}
+        - {x: 3, y: -6}
+        - {x: 3, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: -3}
+        - {x: 6, y: -3}
+        - {x: 6, y: -2}
+        - {x: 7, y: -2}
+        - {x: 7, y: -1}
+        - {x: 8, y: -1}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a18a0465f7d6dfb4c89e8768e209c395
+      internalID: -3062143944385657523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_207
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -1}
+        - {x: -6, y: -1}
+        - {x: -6, y: 0}
+        - {x: -1, y: 0}
+        - {x: -1, y: 1}
+        - {x: 2, y: 1}
+        - {x: 2, y: 2}
+        - {x: 4, y: 2}
+        - {x: 4, y: 3}
+        - {x: 5, y: 3}
+        - {x: 5, y: 4}
+        - {x: 6, y: 4}
+        - {x: 6, y: 6}
+        - {x: 7, y: 6}
+        - {x: 7, y: 8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ca553d8cd03cdf499757c2688be2485
+      internalID: 2018769170858008390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_208
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 462db058d5944cf49b64cdaa5d915d2d
+      internalID: -1978846466067608749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_209
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d696646910491a84d92ae3eff12c4999
+      internalID: 8495455400721480022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_210
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1776b1349a093ac44835e2c5719a65a2
+      internalID: 6722520460414430734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_211
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bee524b01f86af4459a139d79d23f12b
+      internalID: 280957038608190778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_212
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca491983956d9845b1bd06117d768d5
+      internalID: -6769724648448284821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_213
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7, y: 8}
+        - {x: -8, y: 8}
+        - {x: -8, y: -6}
+        - {x: -6, y: -6}
+        - {x: -5, y: -5}
+        - {x: -5, y: 7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54d055a36e282a945938e45eca8d211a
+      internalID: -5675175487030286668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_214
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -6, y: 8}
+        - {x: -6, y: 7}
+        - {x: -7, y: 7}
+        - {x: -7, y: 5}
+        - {x: -8, y: 5}
+        - {x: -8, y: 2}
+        - {x: -7, y: 0}
+        - {x: -4, y: -2}
+        - {x: -4, y: -5}
+        - {x: -3, y: -6}
+        - {x: 0, y: -6}
+        - {x: 3, y: -7}
+        - {x: 4, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfa8875e25dd6cc4799bbd1e3a9dd0cc
+      internalID: 5863486954291050276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_215
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: -5, y: -8}
+        - {x: -5, y: -7}
+        - {x: -2, y: -7}
+        - {x: 4, y: -6}
+        - {x: 6, y: -4}
+        - {x: 7, y: -3}
+        - {x: 7, y: 3}
+        - {x: 6, y: 3}
+        - {x: 6, y: 6}
+        - {x: 5, y: 6}
+        - {x: 5, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 011d09a225e20314e87e851783a29dfe
+      internalID: -7708551470704933279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_216
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2, y: 8}
+        - {x: -2, y: 5}
+        - {x: -1, y: 5}
+        - {x: -1, y: 3}
+        - {x: 1, y: 3}
+        - {x: 1, y: 1}
+        - {x: 2, y: 1}
+        - {x: 2, y: 0}
+        - {x: 4, y: 0}
+        - {x: 4, y: -1}
+        - {x: 8, y: -1}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f43b5f7bed8d545b213bc7ea6be7b0
+      internalID: 5631194386246349385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_217
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -1}
+        - {x: -5, y: -1}
+        - {x: -5, y: 0}
+        - {x: -2, y: 0}
+        - {x: -2, y: 1}
+        - {x: 5, y: 1}
+        - {x: 5, y: 1}
+        - {x: 5, y: 0}
+        - {x: 7, y: 0}
+        - {x: 7, y: -1}
+        - {x: 8, y: -1}
+        - {x: 8, y: 8}
+      - - {x: 5, y: 0}
+        - {x: 5, y: 0}
+        - {x: 5, y: 0}
+        - {x: 5, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0397964f00fa86d488ca7cb0e1748c50
+      internalID: 3407918473206862107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_218
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -1}
+        - {x: -6, y: -1}
+        - {x: -6, y: -2}
+        - {x: -2, y: -2}
+        - {x: 0, y: -2}
+        - {x: 0, y: -3}
+        - {x: 2, y: -3}
+        - {x: 2, y: -2}
+        - {x: 6, y: -2}
+        - {x: 6, y: -1}
+        - {x: 8, y: -1}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c489b199030343c448b22a82d6717948
+      internalID: -1134536919165291917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_219
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -1}
+        - {x: -4, y: -1}
+        - {x: -4, y: 0}
+        - {x: -2, y: 0}
+        - {x: -2, y: 1}
+        - {x: -1, y: 1}
+        - {x: -1, y: 3}
+        - {x: 1, y: 3}
+        - {x: 1, y: 5}
+        - {x: 2, y: 5}
+        - {x: 2, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c98fa52311dab34abc2bd47db327891
+      internalID: 6988590545650188489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_220
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98484d4360211ec4ab5791e992c96e59
+      internalID: 8171668587203426594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_221
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac5cbda8b9923674a87f4d30bcba1459
+      internalID: 5803779879816694480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_222
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 596b47a16519dab44aa569b065cf0b2b
+      internalID: 8694622911118309877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_223
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6acae85653dc044ab5cf1278c082b0a
+      internalID: 6776368435499316404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seasonal sample (summer)_224
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41b409384b5fe52458efd81107fcb88e
+      internalID: -984297414941886556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      seasonal sample (summer)_0: -391777729433082743
+      seasonal sample (summer)_1: 5867471388032223271
+      seasonal sample (summer)_10: -6190979962329115662
+      seasonal sample (summer)_100: 4417652495632768019
+      seasonal sample (summer)_101: -4139947648966084105
+      seasonal sample (summer)_102: 5552654430974573489
+      seasonal sample (summer)_103: 2457407732390544210
+      seasonal sample (summer)_104: 6377885218474901846
+      seasonal sample (summer)_105: -8306357051845782062
+      seasonal sample (summer)_106: 8740184179927492796
+      seasonal sample (summer)_107: -25480496739524537
+      seasonal sample (summer)_108: 1151446082068276809
+      seasonal sample (summer)_109: 3617207854035215798
+      seasonal sample (summer)_11: 2155888814266850756
+      seasonal sample (summer)_110: -4698102813234009016
+      seasonal sample (summer)_111: -485039482706408538
+      seasonal sample (summer)_112: -5719554379575995317
+      seasonal sample (summer)_113: -7793600061992927807
+      seasonal sample (summer)_114: 1900514326338136002
+      seasonal sample (summer)_115: 1780453533999511802
+      seasonal sample (summer)_116: 1523211189303270890
+      seasonal sample (summer)_117: 3561013724745664938
+      seasonal sample (summer)_118: 5626455398469775145
+      seasonal sample (summer)_119: 878510426293839155
+      seasonal sample (summer)_12: -16508291255659922
+      seasonal sample (summer)_120: 7846497570230685309
+      seasonal sample (summer)_121: -1154058380691460189
+      seasonal sample (summer)_122: 6768676871771768691
+      seasonal sample (summer)_123: 4918661920123126046
+      seasonal sample (summer)_124: 5650609852534639131
+      seasonal sample (summer)_125: 7800327155367235523
+      seasonal sample (summer)_126: 8294841961185131165
+      seasonal sample (summer)_127: -5488269369295185801
+      seasonal sample (summer)_128: -2174632261404176375
+      seasonal sample (summer)_129: 7170361907302486778
+      seasonal sample (summer)_13: -4196288842256427282
+      seasonal sample (summer)_130: -321376665268871493
+      seasonal sample (summer)_131: -423325715608892552
+      seasonal sample (summer)_132: 1024251639740555913
+      seasonal sample (summer)_133: -3659401725747076142
+      seasonal sample (summer)_134: -3632561174464117000
+      seasonal sample (summer)_135: -3650414692615749443
+      seasonal sample (summer)_136: -1423382944074509145
+      seasonal sample (summer)_137: -7101747360046365129
+      seasonal sample (summer)_138: -5087021117760465405
+      seasonal sample (summer)_139: 675279452695188987
+      seasonal sample (summer)_14: 1470978933581425109
+      seasonal sample (summer)_140: 4006605681761915151
+      seasonal sample (summer)_141: -4112156096191910095
+      seasonal sample (summer)_142: 548612661057909005
+      seasonal sample (summer)_143: -3537516318363552864
+      seasonal sample (summer)_144: 387806844547145351
+      seasonal sample (summer)_145: 3754418548009102561
+      seasonal sample (summer)_146: 7565685764664008973
+      seasonal sample (summer)_147: -2267716390871158199
+      seasonal sample (summer)_148: 8876331018164631326
+      seasonal sample (summer)_149: -1489550171014552036
+      seasonal sample (summer)_15: 8283623105986611378
+      seasonal sample (summer)_150: 9140358084847125306
+      seasonal sample (summer)_151: -2110838562166778398
+      seasonal sample (summer)_152: 6323745204504592563
+      seasonal sample (summer)_153: -1146193738325870061
+      seasonal sample (summer)_154: -4656906781176299070
+      seasonal sample (summer)_155: 2487222329892342677
+      seasonal sample (summer)_156: 4394080062751677664
+      seasonal sample (summer)_157: 6148064929984934049
+      seasonal sample (summer)_158: -1952454009281761852
+      seasonal sample (summer)_159: 5774704522595253364
+      seasonal sample (summer)_16: -1808613972756260820
+      seasonal sample (summer)_160: -2644853996507898760
+      seasonal sample (summer)_161: -4548892284369979842
+      seasonal sample (summer)_162: -8082872462669911427
+      seasonal sample (summer)_163: -284158236995679628
+      seasonal sample (summer)_164: 9196718258442608196
+      seasonal sample (summer)_165: 8895918420017825394
+      seasonal sample (summer)_166: 5638632861024328368
+      seasonal sample (summer)_167: 8879885012707351213
+      seasonal sample (summer)_168: 7223137651804688906
+      seasonal sample (summer)_169: 3754265539162224825
+      seasonal sample (summer)_17: 171890465496475741
+      seasonal sample (summer)_170: -1097518972360713053
+      seasonal sample (summer)_171: -8626358895610856464
+      seasonal sample (summer)_172: -1364171869641611900
+      seasonal sample (summer)_173: 4498186171818533627
+      seasonal sample (summer)_174: 3127409328010616704
+      seasonal sample (summer)_175: -2875272760543658804
+      seasonal sample (summer)_176: -1458558910747407982
+      seasonal sample (summer)_177: 7487976771520019045
+      seasonal sample (summer)_178: 6587106774869402373
+      seasonal sample (summer)_179: 6048612587521179862
+      seasonal sample (summer)_18: 7255547281957382975
+      seasonal sample (summer)_180: -901244571106879072
+      seasonal sample (summer)_181: 5196766010654113947
+      seasonal sample (summer)_182: -2144206026212973719
+      seasonal sample (summer)_183: -6888511495017664660
+      seasonal sample (summer)_184: -2748679500586054316
+      seasonal sample (summer)_185: 7160827289777422272
+      seasonal sample (summer)_186: -594218321695924672
+      seasonal sample (summer)_187: 5046455800214101551
+      seasonal sample (summer)_188: 9135117736616780241
+      seasonal sample (summer)_189: 936310617557129352
+      seasonal sample (summer)_19: -2497771003774938082
+      seasonal sample (summer)_190: 925473706329117131
+      seasonal sample (summer)_191: 6615936601068547746
+      seasonal sample (summer)_192: 7395901697733770191
+      seasonal sample (summer)_193: 2393493273184242982
+      seasonal sample (summer)_194: 2236020737705091115
+      seasonal sample (summer)_195: -2594160413013233280
+      seasonal sample (summer)_196: 2530520169349043914
+      seasonal sample (summer)_197: 2882123874748047856
+      seasonal sample (summer)_198: 7007242378227225253
+      seasonal sample (summer)_199: -4273953980627041215
+      seasonal sample (summer)_2: -5752448685037451257
+      seasonal sample (summer)_20: 543756393340160301
+      seasonal sample (summer)_200: -8079302987877131961
+      seasonal sample (summer)_201: -9185960534329088151
+      seasonal sample (summer)_202: 2796401029803421829
+      seasonal sample (summer)_203: -8703982708611705776
+      seasonal sample (summer)_204: -5589982533728670708
+      seasonal sample (summer)_205: -208404588640077039
+      seasonal sample (summer)_206: -3062143944385657523
+      seasonal sample (summer)_207: 2018769170858008390
+      seasonal sample (summer)_208: -1978846466067608749
+      seasonal sample (summer)_209: 8495455400721480022
+      seasonal sample (summer)_21: -4955123796594587568
+      seasonal sample (summer)_210: 6722520460414430734
+      seasonal sample (summer)_211: 280957038608190778
+      seasonal sample (summer)_212: -6769724648448284821
+      seasonal sample (summer)_213: -5675175487030286668
+      seasonal sample (summer)_214: 5863486954291050276
+      seasonal sample (summer)_215: -7708551470704933279
+      seasonal sample (summer)_216: 5631194386246349385
+      seasonal sample (summer)_217: 3407918473206862107
+      seasonal sample (summer)_218: -1134536919165291917
+      seasonal sample (summer)_219: 6988590545650188489
+      seasonal sample (summer)_22: 8398631910404750333
+      seasonal sample (summer)_220: 8171668587203426594
+      seasonal sample (summer)_221: 5803779879816694480
+      seasonal sample (summer)_222: 8694622911118309877
+      seasonal sample (summer)_223: 6776368435499316404
+      seasonal sample (summer)_224: -984297414941886556
+      seasonal sample (summer)_23: 1567862753970588033
+      seasonal sample (summer)_24: -8204765146283076997
+      seasonal sample (summer)_25: -4868028242751394140
+      seasonal sample (summer)_26: 4081415798336174500
+      seasonal sample (summer)_27: 8755882842492268414
+      seasonal sample (summer)_28: 8887686715962646050
+      seasonal sample (summer)_29: -5640290912732788162
+      seasonal sample (summer)_3: -7647638842431624709
+      seasonal sample (summer)_30: -5882831285978668476
+      seasonal sample (summer)_31: -892740945404630434
+      seasonal sample (summer)_32: 4934187595499376542
+      seasonal sample (summer)_33: 1821397709715960639
+      seasonal sample (summer)_34: -1804629293556012530
+      seasonal sample (summer)_35: 1290751551047846271
+      seasonal sample (summer)_36: 3705130860476515690
+      seasonal sample (summer)_37: 7399664243300590404
+      seasonal sample (summer)_38: -1583980295006335448
+      seasonal sample (summer)_39: 15419381746481387
+      seasonal sample (summer)_4: 7581406311073668558
+      seasonal sample (summer)_40: -5524673963021200847
+      seasonal sample (summer)_41: -8486982438929317571
+      seasonal sample (summer)_42: -4620469741188919779
+      seasonal sample (summer)_43: -1804719368439786967
+      seasonal sample (summer)_44: 5608505183318815903
+      seasonal sample (summer)_45: 2458411170100686299
+      seasonal sample (summer)_46: 5727133619068906359
+      seasonal sample (summer)_47: 400782236318649301
+      seasonal sample (summer)_48: -6824509041121087247
+      seasonal sample (summer)_49: 3742361338595394278
+      seasonal sample (summer)_5: -7681358533950015425
+      seasonal sample (summer)_50: 3376292716571755583
+      seasonal sample (summer)_51: -9101081054300346112
+      seasonal sample (summer)_52: -3992088791143559267
+      seasonal sample (summer)_53: -167796678502276134
+      seasonal sample (summer)_54: -453117610134786995
+      seasonal sample (summer)_55: 2988460976503471114
+      seasonal sample (summer)_56: 4762745859177830274
+      seasonal sample (summer)_57: 8507978123546463088
+      seasonal sample (summer)_58: 3100802496668108717
+      seasonal sample (summer)_59: 5268792648410330600
+      seasonal sample (summer)_6: -3223036886290883187
+      seasonal sample (summer)_60: 194102004071060010
+      seasonal sample (summer)_61: 1962009868089425547
+      seasonal sample (summer)_62: -3286721445526999944
+      seasonal sample (summer)_63: -7688532173307421389
+      seasonal sample (summer)_64: -8665078065984004674
+      seasonal sample (summer)_65: -3369892516483991677
+      seasonal sample (summer)_66: 8472906731631155818
+      seasonal sample (summer)_67: -314222727349857876
+      seasonal sample (summer)_68: 8203792750736151043
+      seasonal sample (summer)_69: -6087925338070448639
+      seasonal sample (summer)_7: 633138045320429780
+      seasonal sample (summer)_70: 617868770637194822
+      seasonal sample (summer)_71: -2584887897975315294
+      seasonal sample (summer)_72: 2713111720025541495
+      seasonal sample (summer)_73: 8375955033366368480
+      seasonal sample (summer)_74: 8144162730291377359
+      seasonal sample (summer)_75: 7016367260819251647
+      seasonal sample (summer)_76: -7289699926151883663
+      seasonal sample (summer)_77: 2187685004821808865
+      seasonal sample (summer)_78: -6491038382508761250
+      seasonal sample (summer)_79: -1390006380896942860
+      seasonal sample (summer)_8: -1161041825887474124
+      seasonal sample (summer)_80: -5133655798174180072
+      seasonal sample (summer)_81: 2729368793897200986
+      seasonal sample (summer)_82: 3419581111201485057
+      seasonal sample (summer)_83: -2657916790391612457
+      seasonal sample (summer)_84: 636582295430167087
+      seasonal sample (summer)_85: 4944963075421246134
+      seasonal sample (summer)_86: -2135322185177572516
+      seasonal sample (summer)_87: 2228041480940757974
+      seasonal sample (summer)_88: 2075407526077344088
+      seasonal sample (summer)_89: -5512368912338912797
+      seasonal sample (summer)_9: 1269142096553511272
+      seasonal sample (summer)_90: 1346800811740012733
+      seasonal sample (summer)_91: -7394665006912335190
+      seasonal sample (summer)_92: 7536294630134156690
+      seasonal sample (summer)_93: -6206807560516990659
+      seasonal sample (summer)_94: 2843115857125961329
+      seasonal sample (summer)_95: -6597296469772230533
+      seasonal sample (summer)_96: 7978151836422679498
+      seasonal sample (summer)_97: -4613365091772766459
+      seasonal sample (summer)_98: -7300655410495333178
+      seasonal sample (summer)_99: 4129143163593289023
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9495e2426dc60cc4ba40a53a473ec155, type: 3}
+  m_Name: Great Fury of Arman
+  m_EditorClassIdentifier: 
+  itemSprite: {fileID: 2384265137401290145, guid: 9e5c7499e4bdcf3438fc87aa9c8a5759,
+    type: 3}
+  zone: 6
+  legacyID: General-Abyss-333333333-Great Fury of Arman
+  level: 333333333
+  order: 0
+  maxStack: 10
+  maxWornCount: 2
+  price: 0
+  shortDesc: Furious power
+  longDesc: Furious power grants you power!
+  itemAbilities:
+  - abilityData:
+      ability: {fileID: 11400000, guid: f453bf97e7fe4054ba64ab6f3fe940a8, type: 2}
+      amount: 100000000
+    isPassive: 0
+  - abilityData:
+      ability: {fileID: 11400000, guid: 2f5cdc4e3a87fd3479d1a25ce5ce7edf, type: 2}
+      amount: 100000000
+    isPassive: 0
+  tagResists: []

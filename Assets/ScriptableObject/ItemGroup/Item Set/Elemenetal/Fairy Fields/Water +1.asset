@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af6335a62f6434f4a80877537e1fbad6, type: 3}
+  m_Name: Water +1
+  m_EditorClassIdentifier: 
+  items:
+  - {fileID: 11400000, guid: 67649af018d7d1b47b7dec442e5b83d5, type: 2}
+  - {fileID: 11400000, guid: fddf9fc98b86dfa45bc64f70f9a7c006, type: 2}
+  - {fileID: 11400000, guid: a7a6b6c68515cae40a9854f1c6d404a7, type: 2}
+  - {fileID: 11400000, guid: f64af987c78de814a979da9a2a09b5ae, type: 2}
+  itemSetEffects:
+  - itemCount: 2
+    itemAbilities:
+    - abilityData:
+        ability: {fileID: 11400000, guid: 48d57c3dbeeac7b41842f70a5a0807c2, type: 2}
+        amount: 18
+      isPassive: 0
+    - abilityData:
+        ability: {fileID: 11400000, guid: 480eeac1ba90dfa408c47d451ea0cb7e, type: 2}
+        amount: 1400
+      isPassive: 0
+    - abilityData:
+        ability: {fileID: 11400000, guid: a0f41aa27f0cbdb45b0805d531073d8c, type: 2}
+        amount: 1400
+      isPassive: 0
+    tagResists: []
+  - itemCount: 4
+    itemAbilities:
+    - abilityData:
+        ability: {fileID: 11400000, guid: 48d57c3dbeeac7b41842f70a5a0807c2, type: 2}
+        amount: 20
+      isPassive: 0
+    - abilityData:
+        ability: {fileID: 11400000, guid: 480eeac1ba90dfa408c47d451ea0cb7e, type: 2}
+        amount: 1500
+      isPassive: 0
+    - abilityData:
+        ability: {fileID: 11400000, guid: a0f41aa27f0cbdb45b0805d531073d8c, type: 2}
+        amount: 1500
+      isPassive: 0
+    tagResists: []

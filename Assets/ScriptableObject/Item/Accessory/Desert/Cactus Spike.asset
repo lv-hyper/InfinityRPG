@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9495e2426dc60cc4ba40a53a473ec155, type: 3}
+  m_Name: Cactus Spike
+  m_EditorClassIdentifier: 
+  itemSprite: {fileID: 5009252554461591537, guid: e831ee1edea549649a7aeb10a71709f6,
+    type: 3}
+  zone: 8
+  legacyID: General-Desert-5400000000-Cactus Spike
+  level: 5400000000
+  order: 0
+  maxStack: 10
+  maxWornCount: 1
+  price: 0
+  shortDesc: Spike
+  longDesc: Cactus' spike is very spiky
+  itemAbilities: []
+  tagResists:
+  - Toxic

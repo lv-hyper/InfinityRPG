@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eb1083e257dec42a2a4bad8efd07d9, type: 3}
+  m_Name: Scythe Penguin Chip
+  m_EditorClassIdentifier: 
+  itemSprite: {fileID: -310083732, guid: 4dc3a2a4b323385418d43dcbed2a01a6, type: 3}
+  zone: 0
+  legacyID: 
+  level: 1
+  order: 0
+  maxStack: 10
+  maxWornCount: 0
+  price: 0
+  shortDesc: Material
+  longDesc: Scythe Penguin chip, it has been discovered that whoever carries this
+    chip becomes more aggressive.
+  itemAbilities: []
+  tagResists: []

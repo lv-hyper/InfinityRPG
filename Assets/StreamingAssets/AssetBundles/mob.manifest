@@ -1,0 +1,882 @@
+ManifestFileVersion: 0
+CRC: 1820780787
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9725f0a442b79f6b6c6b022141598494
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 912ce858ed6f6526a80084614c8c99ad
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9495e2426dc60cc4ba40a53a473ec155, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d0d77133b170acf49a06ed500770a584, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 590d37b38587ebb4d8c5c14b119511ed, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a690dbe85943d2a4484a199a8b9f45af, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c7957a1f6aedc364684aa2de1f99748c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fd75eaf169c10cb4abd33a108262ee8f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8715b00cf657c664ea5bdc3b9ae562e1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 82cbb87e29eccc54e8f3d5521b05b988, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 30eb1083e257dec42a2a4bad8efd07d9, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fcd0cba9d37c1734f97da892cf4257e6, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Assembly-CSharp
+  ClassName: InGame.Data.DropProperty
+- AssemblyName: Assembly-CSharp
+  ClassName: InGame.Data.ElementalElement
+- AssemblyName: Assembly-CSharp
+  ClassName: InGame.Data.EnumElemental
+- AssemblyName: Assembly-CSharp
+  ClassName: InGame.Data.Mob.Boss/ElementalSoulData
+Assets:
+- Assets/ScriptableObject/Mob/Hard/Elemental/Fairy Fields/Water/Frost Slime [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Start Forest/Zone 2/Fangrot [Hard].asset
+- Assets/ScriptableObject/Mob/Instance Boss/Crab Shores/Gemstone Kraken [Hidden].asset
+- Assets/ScriptableObject/Mob/Normal/Deep Forest/Zone I/Dark Crow.asset
+- Assets/ScriptableObject/Mob/Hard/Deep Forest/Zone F/Hornet Warrior [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Beach/Zone A/Hermit Crab.asset
+- Assets/ScriptableObject/Mob/Hard/Twillight Forest/Boss/Earth Turtle [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Frozen Shores/Zone A/Ice Avian.asset
+- Assets/ScriptableObject/Mob/Hard/Frozen Shores/Zone B/Ice Kindred [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Abyss/Zone A/Water Slime B.asset
+- Assets/ScriptableObject/Mob/Instance Boss/Twilight Forest/Jubokko Tree [Hidden].asset
+- Assets/ScriptableObject/Mob/Hard/Desert/Zone D/Egypt Mage [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Beach/Zone B/Star Shell.asset
+- Assets/ScriptableObject/Mob/Hard/Frozen Shores/Zone E/Frost Gorilla [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Dragon Cave/Boss/Tiamat.asset
+- Assets/ScriptableObject/Mob/Normal/Beach/Boss/Desert Portal.asset
+- Assets/ScriptableObject/Mob/Normal/Fire Lord Cave/Boss/Ifrit.asset
+- Assets/ScriptableObject/Mob/Normal/Start Forest/Zone 2/Fangrot.asset
+- Assets/ScriptableObject/Mob/Hard/Dragon Cave/Zone B/Brown Dragon [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Hidden Cave A/Boss/Undead King Berthelot.asset
+- Assets/ScriptableObject/Mob/Normal/Fire Lord Cave/Zone E/Flame Knight.asset
+- Assets/ScriptableObject/Mob/Normal/Frozen Shores/Boss/Frost Wolf.asset
+- Assets/ScriptableObject/Mob/Normal/Toxic Swamp/Boss/Acid Slime.asset
+- Assets/ScriptableObject/Mob/Hard/Ocean/Zone F/Fish B [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Elemental/Fairy Fields/Light/Light Gemstone
+  C.asset
+- Assets/ScriptableObject/Mob/Hard/Fire Lord Cave/Zone E/Fire SaberTooth [Hard].asset
+- Assets/ScriptableObject/Mob/Instance Boss/Floating Castle/Wind Delusion [Hidden].asset
+- Assets/ScriptableObject/Mob/Hard/Start Forest/Zone 3/Mothy [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Christmas Map/Boss/Scythe Penguin.asset
+- Assets/ScriptableObject/Mob/Hard/Deep Forest/Boss/Dryad Queen [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Desert/Boss/Rock Bunny.asset
+- Assets/ScriptableObject/Mob/Normal/Start Forest/Boss/Slime King.asset
+- Assets/ScriptableObject/Mob/Hard/Toxic Swamp/Zone C/Toxic Frog B [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Twillight Forest/Zone A/Earth Mandrake [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Desert/Boss/Desert Parasand [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Fire Lord Cave/Boss/Fire Lion [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Deep Forest/Boss/Dryad Queen.asset
+- Assets/ScriptableObject/Mob/Hard/Toxic Swamp/Boss/Superior Toxic Carnivorous Plant
+  [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Dragon Cave/Zone E/Red Wyvern.asset
+- Assets/ScriptableObject/Mob/Normal/Elemental/Fairy Fields/Nature/Earth Snake.asset
+- Assets/ScriptableObject/Mob/Hard/Floating Castle/Zone C/Wind Willowisp [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Deep Forest/Zone E/Red Ant Knight.asset
+- Assets/ScriptableObject/Mob/Hard/Deep Forest/Boss/Junior Hydra [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Start Forest/Zone 2/Kawabun [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Floating Castle/Zone D/Storm Hawl.asset
+- Assets/ScriptableObject/Mob/Normal/Start Forest/Zone 1/White Flower.asset
+- Assets/ScriptableObject/Mob/Hard/Deep Forest/Zone I/Colossal Bat [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Ocean/Zone D/Jellyfish.asset
+- Assets/ScriptableObject/Mob/Normal/Ocean/Zone F/Fish B.asset
+- Assets/ScriptableObject/Mob/Hard/Frozen Shores/Zone C/Water Boitata [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Beach/Zone B/Stars.asset
+- Assets/ScriptableObject/Mob/Hard/Dragon Cave/Zone G/Blue Wyvern [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Floating Castle/Zone E/Wind Golem.asset
+- Assets/ScriptableObject/Mob/Normal/Christmas Map/Zone E/Saber Soldier.asset
+- Assets/ScriptableObject/Mob/Hard/Fire Lord Cave/Boss/Mimic [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Deep Forest/Zone E/Black Ant Protector [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Desert/Zone A/Cactus.asset
+- Assets/ScriptableObject/Mob/Normal/Start Forest/Zone 3/Sliiime.asset
+- Assets/ScriptableObject/Mob/Hard/Elemental/Fairy Fields/Nature/Earth Snake [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Twillight Forest/Boss/Earth Dragon Terraos [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Start Forest/Zone 1/Blue Flower.asset
+- Assets/ScriptableObject/Mob/Hard/Dragon Cave/Zone B/Brown Wyvern [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Elemental/Fairy Fields/Boss/Fire Orb [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Floating Castle/Zone B/Wind Mantis [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Toxic Swamp/Zone B/Toxic Shroom A [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Ocean/Zone A/Sea Horse [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Beach/Zone C/Urchin.asset
+- Assets/ScriptableObject/Mob/Instance Boss/Fire Lord Cave/Fire Demon [Hidden].asset
+- Assets/ScriptableObject/Mob/Normal/Abyss/Boss/Titan Aquos.asset
+- Assets/ScriptableObject/Mob/Hard/Start Forest/Zone 2/Sliime [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Toxic Swamp/Zone A/Toxic Cactus [Hard].asset
+- Assets/ScriptableObject/Mob/Instance Boss/Toxic Swamp/Toxic Slime [Hard] [Hidden].asset
+- Assets/ScriptableObject/Mob/Normal/Twillight Forest/Zone E/Earth Scorpion.asset
+- Assets/ScriptableObject/Mob/Hard/Floating Castle/Boss/GemStone Dragon Wind [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Elemental/Castle Bridge/Magical Spear Soldier.asset
+- Assets/ScriptableObject/Mob/Normal/Ocean/Zone C/Fatoad.asset
+- Assets/ScriptableObject/Mob/Hard/Start Forest/Zone 4/Grasshopper [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Twillight Forest/Boss/Earth Drake [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Hidden Cave A/Boss/Undead King Berthelot [Hard].asset
+- Assets/ScriptableObject/Mob/Instance Boss/Crab Shores/Mirror Mimic [Hidden].asset
+- Assets/ScriptableObject/Mob/Hard/Deep Forest/Zone F/Spike Hopper [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Elemental/Fairy Fields/Air/Air Spirit [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Start Forest/Zone 4/Tree [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Hidden Cave A/Boss/Diamond Dog.asset
+- Assets/ScriptableObject/Mob/Hard/Elemental/Fairy Fields/Air/Air Slime [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Deep Forest/Zone G/Dryad Archer [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Start Forest/Zone 5/Caterpillar B [Hard].asset
+- Assets/ScriptableObject/Mob/Instance Boss/Frozen Shores/Frozen Werewolf [Hard]
+  [Hidden].asset
+- Assets/ScriptableObject/Mob/Hard/Twillight Forest/Zone B/Earth Bull [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Beach/Boss/Green Lobster.asset
+- Assets/ScriptableObject/Mob/Hard/Desert/Zone A/Cactus [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Deep Forest/Zone A/Blue Seeker [Hard].asset
+- Assets/ScriptableObject/Mob/Instance Boss/Twilight Forest/Earth Capricorn [Hidden].asset
+- Assets/ScriptableObject/Mob/Hard/Hidden Cave A/Boss/Mage Dagon [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Beach/Zone B/Red Spider Crab.asset
+- Assets/ScriptableObject/Mob/Hard/Hidden Cave A/Zone/Brown Wyvern [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Twillight Forest/Boss/Earth Taurus [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Elemental/Fairy Fields/Fire/Fire Dragonspawn.asset
+- Assets/ScriptableObject/Mob/Normal/Elemental/Fairy Fields/Water/Ice Spike.asset
+- Assets/ScriptableObject/Mob/Normal/Start Forest/Zone 2/Slime.asset
+- Assets/ScriptableObject/Mob/Hard/Fire Lord Cave/Zone D/Fire Salamander [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Ocean/Zone E/Mermaid Warrior Sasha.asset
+- Assets/ScriptableObject/Mob/Hard/Abyss/Zone D/Astral Lich [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Abyss/Zone D/Electroctopus.asset
+- Assets/ScriptableObject/Mob/Normal/Start Forest/Zone 3/Mothy.asset
+- Assets/ScriptableObject/Mob/Normal/Elemental/Fairy Fields/Air/Air Slime.asset
+- Assets/ScriptableObject/Mob/Normal/Hidden Cave A/Boss/Samurai Skeleton.asset
+- Assets/ScriptableObject/Mob/Hard/Start Forest/Boss/Cave Portal [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Hidden Cave A/Boss/Cerberus Ptolemaios.asset
+- Assets/ScriptableObject/Mob/Normal/Elemental/Fairy Fields/Fire/Fire Slime.asset
+- Assets/ScriptableObject/Mob/Hard/Start Forest/Zone 3/Deer [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Abyss/Boss/Big Fish [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Deep Forest/Zone G/Screamer Mandrake [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Deep Forest/Zone H/Forest Spora.asset
+- Assets/ScriptableObject/Mob/Normal/Toxic Swamp/Boss/Superior Skull.asset
+- Assets/ScriptableObject/Mob/Hard/Start Forest/Zone 4/Spider [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Toxic Swamp/Boss/Superior Skull [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Ocean/Zone E/Mermaid Warrior Arliette.asset
+- Assets/ScriptableObject/Mob/Normal/Deep Forest/Zone E/Black Ant Mage.asset
+- Assets/ScriptableObject/Mob/Normal/Beach/Zone C/Red Shell Claw.asset
+- Assets/ScriptableObject/Mob/Hard/Ocean/Zone F/Fish A [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Deep Forest/Zone F/Lunar Butterfly [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Floating Castle/Zone D/Air Harpy [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Abyss/Boss/Khronos.asset
+- Assets/ScriptableObject/Mob/Instance Boss/Floating Castle/Wind Kitsune [Hard] [Hidden].asset
+- Assets/ScriptableObject/Mob/Normal/Elemental/Fairy Fields/Boss/Air Orb.asset
+- Assets/ScriptableObject/Mob/Hard/Deep Forest/Zone G/Dryad Warrior [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Start Forest/Zone 2/Slime Caster.asset
+- Assets/ScriptableObject/Mob/Normal/Twillight Forest/Boss/Earth Turtle.asset
+- Assets/ScriptableObject/Mob/Normal/Elemental/Fairy Fields/Fire/Fire Snake.asset
+- Assets/ScriptableObject/Mob/Normal/Elemental/Fairy Fields/Boss/Nature Orb.asset
+- Assets/ScriptableObject/Mob/Normal/Hidden Cave A/Zone/Green Wyvern.asset
+- Assets/ScriptableObject/Mob/Hard/Beach/Zone A/Hermit Crab [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Frozen Shores/Zone A/Ice Glacier.asset
+- Assets/ScriptableObject/Mob/Hard/Elemental/Fairy Fields/Boss/Water Orb [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Toxic Swamp/Boss/Giant Toxic Root.asset
+- Assets/ScriptableObject/Mob/Normal/Elemental/Fairy Fields/Water/Cold Slime.asset
+- Assets/ScriptableObject/Mob/Normal/Desert/Boss/Rock Lizard.asset
+- Assets/ScriptableObject/Mob/Hard/Ocean/Zone C/Fatoad [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Dragon Cave/Zone D/Roaming Salamander.asset
+- Assets/ScriptableObject/Mob/Normal/Deep Forest/Zone E/Black Ant Archer.asset
+- Assets/ScriptableObject/Mob/Instance Boss/Forest Lake/Digital Witch [Hidden].asset
+- Assets/ScriptableObject/Mob/Hard/Frozen Shores/Boss/Frost Wolf [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Desert/Zone D/Egypt Mage.asset
+- Assets/ScriptableObject/Mob/Hard/Deep Forest/Zone I/Fire Wolf [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Ocean/Zone A/Sea Horse.asset
+- Assets/ScriptableObject/Mob/Hard/Fire Lord Cave/Zone B/Fire Kindred [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Deep Forest/Zone I/Fire Wolf.asset
+- Assets/ScriptableObject/Mob/Normal/Toxic Swamp/Zone B/Toxic Shroom C.asset
+- Assets/ScriptableObject/Mob/Hard/Beach/Boss/Blue Lobster [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Deep Forest/Zone F/Hercules.asset
+- Assets/ScriptableObject/Mob/Normal/Beach/Zone D/Sea Shrimp.asset
+- Assets/ScriptableObject/Mob/Normal/Floating Castle/Zone D/Air Harpy.asset
+- Assets/ScriptableObject/Mob/Normal/Ocean/Zone F/Fish A.asset
+- Assets/ScriptableObject/Mob/Instance Boss/Crab Shores/Golden Chicken [Hidden].asset
+- Assets/ScriptableObject/Mob/Hard/Desert/Zone C/Desert Cobra [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Elemental/Fairy Fields/Air/Wind Snake [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Beach/Boss/Turtle Golem.asset
+- Assets/ScriptableObject/Mob/Hard/Ocean/Zone C/Sea Turtle [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Floating Castle/Boss/Wind Titan [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Elemental/Fairy Fields/Air/Gale Slime.asset
+- Assets/ScriptableObject/Mob/Hard/Toxic Swamp/Boss/Acid Slime [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Deep Forest/Boss/Dryad Yggdrasil.asset
+- Assets/ScriptableObject/Mob/Normal/Elemental/Fairy Fields/Nature/Earth Leaf Imp.asset
+- Assets/ScriptableObject/Mob/Normal/Frozen Shores/Zone D/Ice Ape.asset
+- Assets/ScriptableObject/Mob/Normal/Floating Castle/Zone C/Wind Orb.asset
+- Assets/ScriptableObject/Mob/Hard/Beach/Zone B/Stars [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Frozen Shores/Zone B/Ice Kindred.asset
+- Assets/ScriptableObject/Mob/Normal/Twillight Forest/Zone B/Earth Rock Golem.asset
+- Assets/ScriptableObject/Mob/Normal/Deep Forest/Boss/Superior Ice Mantis.asset
+- Assets/ScriptableObject/Mob/Normal/Floating Castle/Boss/Wind Lion.asset
+- Assets/ScriptableObject/Mob/Normal/Start Forest/Boss/Superior Fairy.asset
+- Assets/ScriptableObject/Mob/Normal/Start Forest/Boss/Arcane Golem [Hidden].asset
+- Assets/ScriptableObject/Mob/Normal/Start Forest/Zone 1/Mobun.asset
+- Assets/ScriptableObject/Mob/Hard/Elemental/Fairy Fields/Fire/Fire Wisp [Hard].asset
+- Assets/ScriptableObject/Mob/Instance Boss/Fairy Field/Fallen Angel [Hard] [Hidden].asset
+- Assets/ScriptableObject/Mob/Normal/Deep Forest/Boss/Turtle Rukkha.asset
+- Assets/ScriptableObject/Mob/Hard/Deep Forest/Zone B/Forest Darkluff [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Fire Lord Cave/Zone C/Fire Ghost A [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Deep Forest/Zone D/Black Colossal Snake [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Frozen Shores/Boss/Ice Titan [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Toxic Swamp/Zone B/Toxic Shroom B [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Dragon Cave/Boss/Tiamat [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Ocean/Zone D/Shelltacke [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Start Forest/Boss/Superior Fairy [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Village/Swarm of Books [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Beach/Boss/Red Emperor Crab [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Dragon Cave/Boss/Emperor Hydra.asset
+- Assets/ScriptableObject/Mob/Normal/Ocean/Zone C/Horntle.asset
+- Assets/ScriptableObject/Mob/Normal/Deep Forest/Boss/Slime Golem.asset
+- Assets/ScriptableObject/Mob/Instance Boss/Floating Castle/Warden of Hell Wind [Hard]
+  [Hidden].asset
+- Assets/ScriptableObject/Mob/Hard/Dragon Cave/Zone H/White Dragon [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Floating Castle/Zone E/Wind Manticore [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Floating Castle/Boss/Ultimate Wind Dragon [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Toxic Swamp/Zone C/Toxic Frog A.asset
+- Assets/ScriptableObject/Mob/Normal/Christmas Map/Zone C/Gingerbread Golem.asset
+- Assets/ScriptableObject/Mob/Hard/Beach/Zone C/Urchin [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Ocean/Boss/Superior Spheria [Hidden].asset
+- Assets/ScriptableObject/Mob/Hard/Elemental/Fairy Fields/Water/Ice Wisp [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Floating Castle/Zone C/Wind Gazer [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Start Forest/Zone 5/Sliiiime.asset
+- Assets/ScriptableObject/Mob/Normal/Start Forest/Zone 2/Sliime.asset
+- Assets/ScriptableObject/Mob/Normal/Dragon Cave/Zone B/Brown Wyvern.asset
+- Assets/ScriptableObject/Mob/Normal/Hidden Cave A/Boss/Daidarabotchi.asset
+- Assets/ScriptableObject/Mob/Normal/Deep Forest/Zone G/Dryad Archer.asset
+- Assets/ScriptableObject/Mob/Hard/Start Forest/Zone 1/Blue Flower [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Start Forest/Zone 5/Dragonfly A [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Fire Lord Cave/Zone D/Fire Wolf.asset
+- Assets/ScriptableObject/Mob/Normal/Frozen Shores/Zone E/Ice Maiden.asset
+- Assets/ScriptableObject/Mob/Instance Boss/Floating Castle/Titan Vaporio [Hard]
+  [Hidden].asset
+- Assets/ScriptableObject/Mob/Hard/Dragon Cave/Zone F/Green Dragon [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Floating Castle/Zone A/Wind Fairy [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Elemental/Castle Bridge/Warrior Soldier.asset
+- Assets/ScriptableObject/Mob/Hard/Fire Lord Cave/Zone A/Fire Bat [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Forest Lake/Boss/Toxic Swamp Portal [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Elemental/Fairy Fields/Water/Ice Cave Bat [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Hidden Cave A/Boss/Mage Dagon.asset
+- Assets/ScriptableObject/Mob/Normal/Abyss/Zone B/Abyss Blue Dragon.asset
+- Assets/ScriptableObject/Mob/Normal/Deep Forest/Boss/Ant Queen.asset
+- Assets/ScriptableObject/Mob/Normal/Deep Forest/Zone F/Spike Hopper.asset
+- Assets/ScriptableObject/Mob/Instance Boss/Twilight Forest/Obsidian Golem [Hard]
+  [Hidden].asset
+- Assets/ScriptableObject/Mob/Instance Boss/Abyss/Mutant Fish [Hidden].asset
+- Assets/ScriptableObject/Mob/Normal/Christmas Map/Zone B/Christmas Gift A.asset
+- Assets/ScriptableObject/Mob/Normal/Deep Forest/Boss/Parrot King.asset
+- Assets/ScriptableObject/Mob/Normal/Twillight Forest/Zone C/Earth Wolf.asset
+- Assets/ScriptableObject/Mob/Normal/Deep Forest/Zone H/Bug Originator.asset
+- Assets/ScriptableObject/Mob/Normal/Christmas Map/Zone B/Christmas Gift C.asset
+- Assets/ScriptableObject/Mob/Hard/Elemental/Fairy Fields/Boss/Fire Fairy [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Ocean/Boss/Calamity Urmica [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Hidden Cave A/Zone/Red Wyvern [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Start Forest/Zone 1/White Flower [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Dragon Cave/Zone G/Blue Dragon.asset
+- Assets/ScriptableObject/Mob/Hard/Dragon Cave/Zone E/Red Dragon [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Twillight Forest/Zone E/Earth Spider [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Floating Castle/Boss/GemStone Dragon Wind.asset
+- Assets/ScriptableObject/Mob/Normal/Christmas Map/Zone C/Christmas Cookie.asset
+- Assets/ScriptableObject/Mob/Hard/Elemental/Fairy Fields/Light/Light Gemstone B
+  [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Fire Lord Cave/Zone B/Fire Bull.asset
+- Assets/ScriptableObject/Mob/Normal/Floating Castle/Zone A/Wind Fairy.asset
+- Assets/ScriptableObject/Mob/Normal/Beach/Zone B/Blue Spider Crab.asset
+- Assets/ScriptableObject/Mob/Normal/Elemental/Fairy Fields/Water/Ice Wisp.asset
+- Assets/ScriptableObject/Mob/Hard/Deep Forest/Zone D/Colossal Snake [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Frozen Shores/Boss/Ice Turtle [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Deep Forest/Zone A/Garuda Guarunix.asset
+- Assets/ScriptableObject/Mob/Hard/Deep Forest/Zone A/Avian [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Start Forest/Zone 1/Red Flower.asset
+- Assets/ScriptableObject/Mob/Normal/Toxic Swamp/Zone D/Toxic Root.asset
+- Assets/ScriptableObject/Mob/Hard/Dragon Cave/Zone A/Dragon Egg C [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Frozen Shores/Boss/Gemstone Dragon Water [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Deep Forest/Zone I/Colossal Bat.asset
+- Assets/ScriptableObject/Mob/Hard/Ocean/Zone B/Octopus [Hard].asset
+- Assets/ScriptableObject/Mob/Instance Boss/Twilight Forest/Metal Golem [Hard] [Hidden].asset
+- Assets/ScriptableObject/Mob/Hard/Frozen Shores/Zone A/Water Gem [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Floating Castle/Zone D/Wind Dodo.asset
+- Assets/ScriptableObject/Mob/Normal/Twillight Forest/Zone B/Earth Bull.asset
+- Assets/ScriptableObject/Mob/Hard/Start Forest/Zone 4/Waterstrider [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Ocean/Zone A/Sea Lurker [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Christmas Map/Boss/Invincible Mimic.asset
+- Assets/ScriptableObject/Mob/Hard/Elemental/Fairy Fields/Boss/Nature Orb [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Deep Forest/Zone C/Death Worm A [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Hidden Cave A/Boss/Crystal Golem [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Elemental/Bridge/Magical Spear Guardian.asset
+- Assets/ScriptableObject/Mob/Normal/Deep Forest/Zone C/Death Worm B.asset
+- Assets/ScriptableObject/Mob/Instance Boss/Frozen Shores/Pisces [Hard] [Hidden].asset
+- Assets/ScriptableObject/Mob/Normal/Start Forest/Zone 2/Kawabun.asset
+- Assets/ScriptableObject/Mob/Hard/Desert/Boss/Rock Bunny [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Twillight Forest/Zone C/Forest Turtle [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Deep Forest/Boss/Ant Queen [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Fire Lord Cave/Zone E/Flame Knight [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Start Forest/Zone 1/Mobun [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Elemental/Fairy Fields/Boss/Water Fairy [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Ocean/Zone D/Spheria.asset
+- Assets/ScriptableObject/Mob/Instance Boss/Frozen Shores/Yukino [Hard] [Hidden].asset
+- Assets/ScriptableObject/Mob/Normal/Deep Forest/Zone D/Black Colossal Snake.asset
+- Assets/ScriptableObject/Mob/Instance Boss/Desert/Sand Slime [Hard] [Hidden].asset
+- Assets/ScriptableObject/Mob/Normal/Elemental/Bridge/Boss/Fairy Field Portal.asset
+- Assets/ScriptableObject/Mob/Normal/Deep Forest/Zone C/Spiked Caterpillar.asset
+- Assets/ScriptableObject/Mob/Hard/Beach/Boss/Blue Emperor Crab [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Desert/Zone C/Desert Cobra.asset
+- Assets/ScriptableObject/Mob/Normal/Christmas Map/Zone B/Christmas Gift B.asset
+- Assets/ScriptableObject/Mob/Normal/Start Forest/Boss/Forest Panda.asset
+- Assets/ScriptableObject/Mob/Hard/Deep Forest/Zone C/Centipede [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Hidden Cave A/Boss/Assassin Garland [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Forest Lake/Boss/Toxic Swamp Portal.asset
+- Assets/ScriptableObject/Mob/Hard/Twillight Forest/Zone C/Earth Griphon [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Floating Castle/Zone E/Forest Dryad [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Twillight Forest/Zone E/Earth Giant Lobster.asset
+- Assets/ScriptableObject/Mob/Normal/Toxic Swamp/Zone A/Toxic Carnivorous Plant.asset
+- Assets/ScriptableObject/Mob/Normal/Beach/Zone C/Dark Shell.asset
+- Assets/ScriptableObject/Mob/Instance Boss/Fire Lord Cave/Flare Fairy [Hard] [Hidden].asset
+- Assets/ScriptableObject/Mob/Hard/Fire Lord Cave/Zone B/Fire Bull [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Start Forest/Zone 3/Green Spider [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Twillight Forest/Zone A/Nature Gem.asset
+- Assets/ScriptableObject/Mob/Hard/Toxic Swamp/Zone C/Toxic Feathered Snake [Hard].asset
+- Assets/ScriptableObject/Mob/Instance Boss/Blossom Valley/Arcane Golem [Hard] [Hidden].asset
+- Assets/ScriptableObject/Mob/Hard/Floating Castle/Zone D/Wind Dodo [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Deep Forest/Zone G/Cape Sundew.asset
+- Assets/ScriptableObject/Mob/Normal/Start Forest/Zone 4/Imperial Widow.asset
+- Assets/ScriptableObject/Mob/Hard/Start Forest/Zone 1/Blue Slime [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Deep Forest/Zone I/Cave Dweller Worm.asset
+- Assets/ScriptableObject/Mob/Hard/Beach/Zone C/Dark Star [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Dragon Cave/Zone A/Dragon Egg D.asset
+- Assets/ScriptableObject/Mob/Hard/Dragon Cave/Zone D/Gargoyle Grifos [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Deep Forest/Zone E/Black Ant Knight [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Frozen Shores/Zone D/Ice Wolf [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Deep Forest/Zone B/Tridentpupa [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Dragon Cave/Zone E/Red Wyvern [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Deep Forest/Boss/Colossal Dark Crow [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Abyss/Zone D/Betafish [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Frozen Shores/Boss/Ice Turtle.asset
+- Assets/ScriptableObject/Mob/Normal/Elemental/Fairy Fields/Water/Frost Slime.asset
+- Assets/ScriptableObject/Mob/Hard/Deep Forest/Zone B/Forest Sprout [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Elemental/Fairy Fields/Air/Wind Wisp.asset
+- Assets/ScriptableObject/Mob/Hard/Floating Castle/Boss/Air Guardian [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Beach/Zone B/Star Shell [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Elemental/Fairy Fields/Fire/Fire Pumice Rock [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Frozen Shores/Boss/Gemstone Dragon Water.asset
+- Assets/ScriptableObject/Mob/Normal/Deep Forest/Zone A/Blue Seeker.asset
+- Assets/ScriptableObject/Mob/Hard/Beach/Zone A/Spore [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Deep Forest/Zone I/Ice Mantis.asset
+- Assets/ScriptableObject/Mob/Instance Boss/Forest Lake/Lake Witch [Hard] [Hidden].asset
+- Assets/ScriptableObject/Mob/Hard/Deep Forest/Zone A/Avian Elephant [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Deep Forest/Zone I/Dark Crow [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Deep Forest/Zone F/Eyehopper.asset
+- Assets/ScriptableObject/Mob/Hard/Start Forest/Boss/Superior Shroomy [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Fire Lord Cave/Zone A/Fire Gem [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Hidden Cave A/Zone/Red Wyvern.asset
+- Assets/ScriptableObject/Mob/Hard/Deep Forest/Zone H/Bug Originator [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Frozen Shores/Zone D/Ice Ape [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Deep Forest/Zone B/Horn Willow [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Ocean/Zone E/Mermaid [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Ocean/Zone A/Sea Crab [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Deep Forest/Zone A/Avian Elephant.asset
+- Assets/ScriptableObject/Mob/Normal/Deep Forest/Zone B/Forest Golem.asset
+- Assets/ScriptableObject/Mob/Hard/Dragon Cave/Zone D/Wingless Dragon [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Toxic Swamp/Zone A/Toxic Carnivorous Plant [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Elemental/Fairy Fields/Water/Ice Snake.asset
+- Assets/ScriptableObject/Mob/Normal/Floating Castle/Zone B/Wind Harpy.asset
+- Assets/ScriptableObject/Mob/Normal/Abyss/Zone D/Betafish.asset
+- Assets/ScriptableObject/Mob/Normal/Twillight Forest/Boss/Earth Taurus.asset
+- Assets/ScriptableObject/Mob/Normal/Floating Castle/Zone C/Wind Gazer.asset
+- Assets/ScriptableObject/Mob/Normal/Deep Forest/Zone I/Mini Hydra.asset
+- Assets/ScriptableObject/Mob/Hard/Abyss/Boss/Father Time [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Deep Forest/Zone H/Dryad Mini.asset
+- Assets/ScriptableObject/Mob/Normal/Deep Forest/Zone F/Hornet Warrior.asset
+- Assets/ScriptableObject/Mob/Normal/Fire Lord Cave/Zone A/Fire Bat.asset
+- Assets/ScriptableObject/Mob/Hard/Deep Forest/Boss/Zeograth [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Christmas Map/Zone C/Gingerbread Thrower.asset
+- Assets/ScriptableObject/Mob/Hard/Frozen Shores/Zone A/Ice Avian [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Fire Lord Cave/Boss/Mimic.asset
+- Assets/ScriptableObject/Mob/Hard/Toxic Swamp/Boss/Superior Toxic Shroom [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Deep Forest/Zone C/Death Worm A.asset
+- Assets/ScriptableObject/Mob/Normal/Floating Castle/Zone B/Wind Mantis.asset
+- Assets/ScriptableObject/Mob/Hard/Abyss/Zone C/Armes [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Floating Castle/Boss/Air Guardian.asset
+- Assets/ScriptableObject/Mob/Hard/Elemental/Fairy Fields/Air/Gale Slime [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Deep Forest/Zone C/Spiked Caterpillar [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Toxic Swamp/Boss/Superior Maneater Plant [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Abyss/Boss/Big Fish.asset
+- Assets/ScriptableObject/Mob/Hard/Twillight Forest/Zone D/Death Worm [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Christmas Map/Zone D/Hunter Penguin.asset
+- Assets/ScriptableObject/Mob/Hard/Twillight Forest/Zone A/Nature Gem [Hard].asset
+- Assets/ScriptableObject/Mob/Instance Boss/Fire Lord Cave/Fire Harpy [Hidden].asset
+- Assets/ScriptableObject/Mob/Normal/Deep Forest/Boss/Colossal Dark Crow.asset
+- Assets/ScriptableObject/Mob/Hard/Beach/Boss/Green Emperor Crab [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Deep Forest/Zone G/Cape Sundew [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Beach/Boss/Blue Emperor Crab.asset
+- Assets/ScriptableObject/Mob/Normal/Abyss/Zone C/Armes.asset
+- Assets/ScriptableObject/Mob/Hard/Ocean/Zone B/Octi [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Deep Forest/Zone D/Lamia.asset
+- Assets/ScriptableObject/Mob/Normal/Elemental/Fairy Fields/Fire/Blaze Slime.asset
+- Assets/ScriptableObject/Mob/Normal/Start Forest/Boss/Cave Portal.asset
+- Assets/ScriptableObject/Mob/Normal/Twillight Forest/Zone D/Hellhound Garm.asset
+- Assets/ScriptableObject/Mob/Normal/Fire Lord Cave/Zone C/Fire Ghost B.asset
+- Assets/ScriptableObject/Mob/Hard/Start Forest/Zone 3/Sliiime [Hard].asset
+- Assets/ScriptableObject/Mob/Instance Boss/Fairy Field/Light Angel [Hidden].asset
+- Assets/ScriptableObject/Mob/Instance Boss/Floating Castle/Wind Cyclops [Hard] [Hidden].asset
+- Assets/ScriptableObject/Mob/Hard/Frozen Shores/Zone B/Ice Bull [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Desert/Zone D/Small Sphinx.asset
+- Assets/ScriptableObject/Mob/Normal/Toxic Swamp/Zone C/Toxic Frog B.asset
+- Assets/ScriptableObject/Mob/Normal/Start Forest/Zone 1/Blue Slime.asset
+- Assets/ScriptableObject/Mob/Normal/Deep Forest/Boss/Dragon Cave Portal.asset
+- Assets/ScriptableObject/Mob/Normal/Elemental/Fairy Fields/Boss/Fire Orb.asset
+- Assets/ScriptableObject/Mob/Normal/Desert/Zone D/Junior Hieracosphinx.asset
+- Assets/ScriptableObject/Mob/Normal/Fire Lord Cave/Zone B/Fire Kindred.asset
+- Assets/ScriptableObject/Mob/Normal/Floating Castle/Boss/Ultimate Wind Dragon.asset
+- Assets/ScriptableObject/Mob/Hard/Hidden Cave A/Zone/Yellow Wyvern [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Elemental/Fairy Fields/Boss/Fire Fairy.asset
+- Assets/ScriptableObject/Mob/Hard/Dragon Cave/Boss/Leviathan [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Deep Forest/Zone G/Dryad Mage [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Fire Lord Cave/Zone B/Fire Golem.asset
+- Assets/ScriptableObject/Mob/Hard/Desert/Zone B/Junior Rock Bunny [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Frozen Shores/Zone D/Ice Mushroom.asset
+- Assets/ScriptableObject/Mob/Normal/Floating Castle/Zone E/Forest Dryad.asset
+- Assets/ScriptableObject/Mob/Normal/Start Forest/Zone 4/Waterstrider.asset
+- Assets/ScriptableObject/Mob/Normal/Christmas Map/Zone D/Saber Soldier.asset
+- Assets/ScriptableObject/Mob/Normal/Deep Forest/Zone E/Black Ant Knight.asset
+- Assets/ScriptableObject/Mob/Hard/Beach/Boss/Desert Portal [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Deep Forest/Zone C/Insect Dragon [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Deep Forest/Boss/Feral Kitsune [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Fire Lord Cave/Zone C/Fire Gazer [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Beach/Zone C/Green Shell Claw [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Fire Lord Cave/Zone D/Fire Mushroom.asset
+- Assets/ScriptableObject/Mob/Instance Boss/Twilight Forest/Moon Golem [Hard] [Hidden].asset
+- Assets/ScriptableObject/Mob/Normal/Ocean/Zone E/Mermaid Warrior Sion.asset
+- Assets/ScriptableObject/Mob/Hard/Deep Forest/Boss/Superior Fire Wolf [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Elemental/Fairy Fields/Air/Air Spirit.asset
+- Assets/ScriptableObject/Mob/Hard/Abyss/Zone B/Biofish [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Dragon Cave/Zone A/Dragon Egg E.asset
+- Assets/ScriptableObject/Mob/Hard/Floating Castle/Zone A/Wind Gem [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Start Forest/Zone 5/Caterpillar A.asset
+- Assets/ScriptableObject/Mob/Normal/Hidden Cave A/Zone/Yellow Wyvern.asset
+- Assets/ScriptableObject/Mob/Normal/Deep Forest/Zone C/Insect Dragon.asset
+- Assets/ScriptableObject/Mob/Hard/Elemental/Fairy Fields/Water/Ice Slime [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Beach/Zone B/Blue Spider Crab [Hard].asset
+- Assets/ScriptableObject/Mob/Instance Boss/Deep Caves/Wolfbull Demon [Hidden].asset
+- Assets/ScriptableObject/Mob/Normal/Ocean/Zone D/Shelltacke.asset
+- Assets/ScriptableObject/Mob/Normal/Floating Castle/Zone C/Wind Willowisp.asset
+- Assets/ScriptableObject/Mob/Normal/Deep Forest/Zone E/Black Ant Berserker.asset
+- Assets/ScriptableObject/Mob/Hard/Dragon Cave/Zone A/Dragon Egg A [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Elemental/Fairy Fields/Air/Wind Snake.asset
+- Assets/ScriptableObject/Mob/Hard/Deep Forest/Zone H/Dryad Mini [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Hidden Cave A/Boss/Divine Portal.asset
+- Assets/ScriptableObject/Mob/Normal/Deep Forest/Zone B/Tridentpupa.asset
+- Assets/ScriptableObject/Mob/Hard/Floating Castle/Boss/Wind Lion [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Elemental/Fairy Fields/Water/Ice Cave Bat.asset
+- Assets/ScriptableObject/Mob/Normal/Dragon Cave/Boss/Leviathan.asset
+- Assets/ScriptableObject/Mob/Normal/Ocean/Zone C/Tortoad.asset
+- Assets/ScriptableObject/Mob/Normal/Dragon Cave/Zone D/Wingless Dragon.asset
+- Assets/ScriptableObject/Mob/Normal/Abyss/Boss/Abyss Dragon.asset
+- Assets/ScriptableObject/Mob/Normal/Desert/Zone B/Junior Rock Bunny.asset
+- Assets/ScriptableObject/Mob/Normal/Beach/Boss/Green Emperor Crab.asset
+- Assets/ScriptableObject/Mob/Normal/Fire Lord Cave/Zone C/Fire Ghost A.asset
+- Assets/ScriptableObject/Mob/Hard/Deep Forest/Boss/Corrupted Stone Bear [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Frozen Shores/Zone E/Frost Gorilla.asset
+- Assets/ScriptableObject/Mob/Hard/Dragon Cave/Zone C/Darkness Dragon [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Christmas Map/Zone E/Rifle Soldier.asset
+- Assets/ScriptableObject/Mob/Instance Boss/Toxic Swamp/Toxic Skeleton Lord [Hard]
+  [Hidden].asset
+- Assets/ScriptableObject/Mob/Hard/Fire Lord Cave/Boss/Fire Turtle [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Elemental/Castle Bridge/Archer Soldier.asset
+- Assets/ScriptableObject/Mob/Instance Boss/Abyss/Corrupted Titan Aquos [Hard] [Hidden].asset
+- Assets/ScriptableObject/Mob/Hard/Ocean/Boss/Superior Spheria [Hard] [Hidden].asset
+- Assets/ScriptableObject/Mob/Normal/Christmas Map/Boss/Sled Goblin.asset
+- Assets/ScriptableObject/Mob/Hard/Beach/Zone C/Red Shell Claw [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Deep Forest/Zone D/Colossal Scorpion.asset
+- Assets/ScriptableObject/Mob/Hard/Elemental/Bridge/Magical Spear Guardian [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Elemental/Fairy Fields/Fire/Fire Slime [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Abyss/Zone A/Water Slime A.asset
+- Assets/ScriptableObject/Mob/Normal/Frozen Shores/Zone B/Ice Bull.asset
+- Assets/ScriptableObject/Mob/Normal/Fire Lord Cave/Zone A/Fire Sheep.asset
+- Assets/ScriptableObject/Mob/Hard/Deep Forest/Zone H/Rose Knight [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Start Forest/Zone 2/Fairy Filia.asset
+- Assets/ScriptableObject/Mob/Normal/Ocean/Zone C/Sea Turtle.asset
+- Assets/ScriptableObject/Mob/Normal/Start Forest/Zone 4/Grasshopper.asset
+- Assets/ScriptableObject/Mob/Normal/Deep Forest/Zone E/Black Ant Protector.asset
+- Assets/ScriptableObject/Mob/Normal/Christmas Map/Zone E/Hunter Penguin.asset
+- Assets/ScriptableObject/Mob/Normal/Desert/Zone A/Sand Snake.asset
+- Assets/ScriptableObject/Mob/Hard/Deep Forest/Zone A/Garuda Guarunix [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Fire Lord Cave/Boss/Fire Lord Titan.asset
+- Assets/ScriptableObject/Mob/Hard/Deep Forest/Zone E/Black Ant Berserker [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Start Forest/Zone 5/Caterpillar A [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Deep Forest/Zone B/Horn Willow.asset
+- Assets/ScriptableObject/Mob/Normal/Deep Forest/Zone D/Red Colossal Snake.asset
+- Assets/ScriptableObject/Mob/Normal/Dragon Cave/Zone C/Darkness Dragon.asset
+- Assets/ScriptableObject/Mob/Hard/Abyss/Boss/Abyss Dragon [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Beach/Zone C/Dark Star.asset
+- Assets/ScriptableObject/Mob/Hard/Deep Forest/Zone A/Silver Avian [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Desert/Zone A/Sand Tentacle [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Hidden Cave A/Boss/Divine Portal [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Twillight Forest/Zone E/Earth Giant Lobster [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Deep Forest/Zone G/Dryad Mage.asset
+- Assets/ScriptableObject/Mob/Normal/Village/Swarm of Books.asset
+- Assets/ScriptableObject/Mob/Hard/Ocean/Zone C/Tortoad [Hard].asset
+- Assets/ScriptableObject/Mob/Instance Boss/Blossom Valley/Corrupted Mushroom [Hidden].asset
+- Assets/ScriptableObject/Mob/Hard/Hidden Cave A/Boss/Daidarabotchi [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Dragon Cave/Zone H/White Dragon Lord.asset
+- Assets/ScriptableObject/Mob/Normal/Elemental/Fairy Fields/Fire/Flare Slime.asset
+- Assets/ScriptableObject/Mob/Normal/Frozen Shores/Zone B/Ice Golem.asset
+- Assets/ScriptableObject/Mob/Hard/Start Forest/Zone 3/Shroomy [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Fire Lord Cave/Boss/Ifrit [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Dragon Cave/Boss/Emperor Hydra [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Elemental/Fairy Fields/Water/Ice Slime.asset
+- Assets/ScriptableObject/Mob/Hard/Start Forest/Boss/Slime King [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Elemental/Fairy Fields/Light/Light Gemstone
+  B.asset
+- Assets/ScriptableObject/Mob/Hard/Deep Forest/Zone F/Eyehopper [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Elemental/Fairy Fields/Air/Storm Slime [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Floating Castle/Zone A/Wind Razor.asset
+- Assets/ScriptableObject/Mob/Normal/Twillight Forest/Zone B/Earth Lion.asset
+- Assets/ScriptableObject/Mob/Hard/Abyss/Zone A/Water Slime A [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Frozen Shores/Zone B/Ice Golem [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Start Forest/Boss/Superior Shroomy.asset
+- Assets/ScriptableObject/Mob/Normal/Hidden Cave A/Zone/Brown Wyvern.asset
+- Assets/ScriptableObject/Mob/Normal/Dragon Cave/Zone C/Venom Dragon.asset
+- Assets/ScriptableObject/Mob/Normal/Toxic Swamp/Zone A/Toxic Cactus.asset
+- Assets/ScriptableObject/Mob/Hard/Abyss/Zone B/Abyss Blue Dragon [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Elemental/Fairy Fields/Boss/Water Orb.asset
+- Assets/ScriptableObject/Mob/Hard/Fire Lord Cave/Zone D/Fire Wolf [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Dragon Cave/Zone A/Dragon Egg A.asset
+- Assets/ScriptableObject/Mob/Normal/Beach/Zone C/Blue Shell Claw.asset
+- Assets/ScriptableObject/Mob/Hard/Start Forest/Zone 5/Dragonfly B [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Dragon Cave/Zone A/Dragon Egg B.asset
+- Assets/ScriptableObject/Mob/Hard/Beach/Boss/Red Lobster [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Desert/Boss/The Hieracosphinx.asset
+- Assets/ScriptableObject/Mob/Normal/Start Forest/Zone 4/Tree.asset
+- Assets/ScriptableObject/Mob/Hard/Dragon Cave/Boss/Earth Dragon [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Deep Forest/Zone G/Dryad Warrior.asset
+- Assets/ScriptableObject/Mob/Normal/Elemental/Fairy Fields/Nature/Gemstone Slime.asset
+- Assets/ScriptableObject/Mob/Normal/Ocean/Zone B/Octopus.asset
+- Assets/ScriptableObject/Mob/Normal/Floating Castle/Zone E/Wind Manticore.asset
+- Assets/ScriptableObject/Mob/Hard/Hidden Cave A/Boss/Diamond Dog [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Start Forest/Zone 2/Slime Caster [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Ocean/Boss/Calamity Urmica.asset
+- Assets/ScriptableObject/Mob/Hard/Elemental/Fairy Fields/Boss/Air Orb [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Ocean/Zone B/Shark [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Christmas Map/Boss/Flying Deer.asset
+- Assets/ScriptableObject/Mob/Hard/Twillight Forest/Zone E/Earth Scorpion [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Dragon Cave/Boss/Kouryuu.asset
+- Assets/ScriptableObject/Mob/Normal/Start Forest/Zone 4/Mantis.asset
+- Assets/ScriptableObject/Mob/Normal/Start Forest/Zone 3/Green Spider.asset
+- Assets/ScriptableObject/Mob/Normal/Elemental/Fairy Fields/Nature/Earth Wisp.asset
+- Assets/ScriptableObject/Mob/Hard/Elemental/Bridge/Boss/Fairy Field Portal [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Elemental/Fairy Fields/Light/Light Gemstone C
+  [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Abyss/Zone C/Armon [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Elemental/Fairy Fields/Fire/Blaze Slime [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Start Forest/Boss/Forest Tree.asset
+- Assets/ScriptableObject/Mob/Hard/Frozen Shores/Zone A/Ice Glacier [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Toxic Swamp/Zone B/Toxic Shroom A.asset
+- Assets/ScriptableObject/Mob/Hard/Toxic Swamp/Boss/Giant Toxic Root [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Ocean/Zone B/Octi.asset
+- Assets/ScriptableObject/Mob/Hard/Beach/Boss/Crab King Karkinos [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Deep Forest/Zone I/Ice Mantis [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Fire Lord Cave/Zone E/Fire Maiden [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Start Forest/Boss/Forest Panda [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Fire Lord Cave/Boss/Gemstone Dragon Fire [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Start Forest/Zone 5/Panda.asset
+- Assets/ScriptableObject/Mob/Normal/Twillight Forest/Zone C/Earth Griphon.asset
+- Assets/ScriptableObject/Mob/Normal/Dragon Cave/Zone F/Green Wyvern.asset
+- Assets/ScriptableObject/Mob/Instance Boss/Frozen Shores/Poseidon [Hidden].asset
+- Assets/ScriptableObject/Mob/Normal/Elemental/Fairy Fields/Air/Storm Slime.asset
+- Assets/ScriptableObject/Mob/Normal/Fire Lord Cave/Boss/Fire Turtle.asset
+- Assets/ScriptableObject/Mob/Hard/Dragon Cave/Zone H/White Dragon Lord [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Deep Forest/Zone B/Forest Ogre [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Elemental/Fairy Fields/Light/Light Gemstone
+  A.asset
+- Assets/ScriptableObject/Mob/Normal/Desert/Zone B/Junior Rock Lizard.asset
+- Assets/ScriptableObject/Mob/Normal/Frozen Shores/Zone E/Ice Ogre.asset
+- Assets/ScriptableObject/Mob/Hard/Toxic Swamp/Zone B/Toxic Shroom C [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Hidden Cave A/Boss/Behemoth.asset
+- Assets/ScriptableObject/Mob/Instance Boss/Dragon Cave/Skeleton Dragon Quolot [Hard]
+  [Hidden].asset
+- Assets/ScriptableObject/Mob/Hard/Abyss/Zone D/Electroctopus [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Beach/Boss/Red Lobster.asset
+- Assets/ScriptableObject/Mob/Hard/Start Forest/Zone 2/Fairy Filia [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Beach/Zone B/Spikestar.asset
+- Assets/ScriptableObject/Mob/Normal/Deep Forest/Boss/Zeograth.asset
+- Assets/ScriptableObject/Mob/Hard/Dragon Cave/Zone F/Green Wyvern [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Toxic Swamp/Boss/Superior Maneater Plant.asset
+- Assets/ScriptableObject/Mob/Hard/Ocean/Zone D/Jellyfish [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Abyss/Zone A/Ice Slime [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Dragon Cave/Boss/Zalaras.asset
+- Assets/ScriptableObject/Mob/Hard/Desert/Zone D/Junior Hieracosphinx [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Toxic Swamp/Boss/Superior Toxic Carnivorous
+  Plant.asset
+- Assets/ScriptableObject/Mob/Instance Boss/Forest Lake/Dryad Tree [Hidden].asset
+- Assets/ScriptableObject/Mob/Normal/Hidden Cave A/Boss/Crystal Golem.asset
+- Assets/ScriptableObject/Mob/Hard/Beach/Zone B/Spikestar [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Deep Forest/Zone H/Forest Spora [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Desert/Zone D/Small Sphinx [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Twillight Forest/Zone C/Forest Turtle.asset
+- Assets/ScriptableObject/Mob/Hard/Beach/Zone C/Blue Shell Claw [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Deep Forest/Zone I/Forest Catermoth [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Deep Forest/Boss/Feral Kitsune.asset
+- Assets/ScriptableObject/Mob/Hard/Hidden Cave A/Boss/Behemoth [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Elemental/Fairy Fields/Nature/Nature Slime [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Fire Lord Cave/Zone C/Fire Gazer.asset
+- Assets/ScriptableObject/Mob/Normal/Beach/Zone B/Green Spider Crab.asset
+- Assets/ScriptableObject/Mob/Normal/Deep Forest/Zone A/Silver Avian.asset
+- Assets/ScriptableObject/Mob/Hard/Elemental/Fairy Fields/Fire/Fire Snake [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Frozen Shores/Zone C/Water Gazer [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Dragon Cave/Zone C/Venom Dragon [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Frozen Shores/Zone C/Water Willowisp.asset
+- Assets/ScriptableObject/Mob/Normal/Start Forest/Zone 5/Dragonfly B.asset
+- Assets/ScriptableObject/Mob/Normal/Dragon Cave/Zone H/White Dragon.asset
+- Assets/ScriptableObject/Mob/Hard/Ocean/Boss/Mermaid Warrior Undeen [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Beach/Zone A/Seagull.asset
+- Assets/ScriptableObject/Mob/Hard/Deep Forest/Zone E/Ant Lion [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Deep Forest/Zone I/Cave Dweller Worm [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Elemental/Fairy Fields/Water/Ice Spike [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Dragon Cave/Zone A/Dragon Egg B [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Twillight Forest/Zone D/Hellhound Garm [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Twillight Forest/Zone B/Earth Lion [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Christmas Map/Boss/Polar Bear.asset
+- Assets/ScriptableObject/Mob/Hard/Deep Forest/Zone E/Black Ant Archer [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Hidden Cave A/Zone/Blue Wyvern [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Deep Forest/Zone C/Death Worm B [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Deep Forest/Boss/Corrupted Stone Bear.asset
+- Assets/ScriptableObject/Mob/Instance Boss/Frozen Shores/Ice Yeti [Hard] [Hidden].asset
+- Assets/ScriptableObject/Mob/Instance Boss/Twilight Forest/Diamond Golem [Hard]
+  [Hidden].asset
+- Assets/ScriptableObject/Mob/Normal/Deep Forest/Boss/Superior Fire Wolf.asset
+- Assets/ScriptableObject/Mob/Hard/Deep Forest/Zone D/Colossal Scorpion [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Toxic Swamp/Zone C/Toxic Frog A [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Beach/Zone A/Pelican [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Dragon Cave/Zone G/Blue Wyvern.asset
+- Assets/ScriptableObject/Mob/Normal/Twillight Forest/Zone A/Earth Mandrake.asset
+- Assets/ScriptableObject/Mob/Normal/Frozen Shores/Zone C/Water Gazer.asset
+- Assets/ScriptableObject/Mob/Normal/Beach/Boss/Blue Lobster.asset
+- Assets/ScriptableObject/Mob/Normal/Dragon Cave/Zone D/Gargoyle Grifos.asset
+- Assets/ScriptableObject/Mob/Hard/Beach/Zone C/Dark Shell [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Floating Castle/Zone A/Wind Razor [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Ocean/Boss/Abismos [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Fire Lord Cave/Boss/Gemstone Dragon Fire.asset
+- Assets/ScriptableObject/Mob/Normal/Abyss/Zone C/Arman.asset
+- Assets/ScriptableObject/Mob/Hard/Elemental/Fairy Fields/Nature/Earth Wisp [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Dragon Cave/Zone A/Dragon Egg C.asset
+- Assets/ScriptableObject/Mob/Hard/Fire Lord Cave/Zone A/Fire Sheep [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Ocean/Zone A/Sea Crab.asset
+- Assets/ScriptableObject/Mob/Hard/Deep Forest/Zone C/Forest Fairy Dragon [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Floating Castle/Zone D/Storm Hawl [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Hidden Cave A/Zone/Blue Wyvern.asset
+- Assets/ScriptableObject/Mob/Hard/Elemental/Fairy Fields/Boss/Air Fairy [Hard].asset
+- Assets/ScriptableObject/Mob/Instance Boss/Floating Castle/Pacific Kobold [Hidden].asset
+- Assets/ScriptableObject/Mob/Normal/Dragon Cave/Zone E/Red Dragon.asset
+- Assets/ScriptableObject/Mob/Hard/Hidden Cave A/Zone/Green Wyvern [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Abyss/Zone A/Water Slime B [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Desert/Boss/Rock Lizard [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Elemental/Fairy Fields/Nature/Gemstone Slime [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Twillight Forest/Zone E/Earth Spider.asset
+- Assets/ScriptableObject/Mob/Normal/Hidden Cave A/Boss/Assassin Garland.asset
+- Assets/ScriptableObject/Mob/Hard/Dragon Cave/Boss/Kouryuu [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Ocean/Zone F/Fish C [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Ocean/Zone E/Mermaid Warrior Arliette [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Hidden Cave A/Boss/Samurai Skeleton [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Elemental/Bridge/Archer Guardian.asset
+- Assets/ScriptableObject/Mob/Normal/Ocean/Zone F/Fish C.asset
+- Assets/ScriptableObject/Mob/Hard/Elemental/Fairy Fields/Nature/Earth Bush Wisp
+  [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Desert/Boss/The Hieracosphinx [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Elemental/Fairy Fields/Nature/Earth Bush Wisp.asset
+- Assets/ScriptableObject/Mob/Normal/Deep Forest/Zone I/Forest Catermoth.asset
+- Assets/ScriptableObject/Mob/Normal/Ocean/Zone E/Mermaid.asset
+- Assets/ScriptableObject/Mob/Hard/Beach/Zone A/Seagull [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Fire Lord Cave/Zone D/Fire Salamander.asset
+- Assets/ScriptableObject/Mob/Hard/Elemental/Fairy Fields/Air/Wind Wisp [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Frozen Shores/Zone E/Ice Ogre [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Start Forest/Zone 5/Caterpillar B.asset
+- Assets/ScriptableObject/Mob/Normal/Dragon Cave/Zone F/Green Dragon.asset
+- Assets/ScriptableObject/Mob/Normal/Twillight Forest/Boss/Earth Dragon Terraos.asset
+- Assets/ScriptableObject/Mob/Normal/Elemental/Fairy Fields/Boss/Air Fairy.asset
+- Assets/ScriptableObject/Mob/Hard/Fire Lord Cave/Zone B/Fire Golem [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Beach/Zone A/Pelican.asset
+- Assets/ScriptableObject/Mob/Instance Boss/Fire Lord Cave/Fire Spirit Tsuki [Hard]
+  [Hidden].asset
+- Assets/ScriptableObject/Mob/Normal/Elemental/Fairy Fields/Fire/Fire Pumice Rock.asset
+- Assets/ScriptableObject/Mob/Normal/Ocean/Zone A/Sea Lurker.asset
+- Assets/ScriptableObject/Mob/Normal/Ocean/Boss/Abismos.asset
+- Assets/ScriptableObject/Mob/Normal/Hidden Cave A/Boss/Radulac The Voildvod.asset
+- Assets/ScriptableObject/Mob/Hard/Deep Forest/Boss/Parrot King [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Elemental/Bridge/Archer Guardian [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Deep Forest/Zone F/Hercules [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Start Forest/Zone 3/Deer.asset
+- Assets/ScriptableObject/Mob/Hard/Twillight Forest/Zone B/Earth Rock Golem [Hard].asset
+- Assets/ScriptableObject/Mob/Instance Boss/Fire Lord Cave/Fire Greek [Hard] [Hidden].asset
+- Assets/ScriptableObject/Mob/Hard/Fire Lord Cave/Zone C/Fire Ghost B [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Frozen Shores/Boss/Ice Lion [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Frozen Shores/Zone E/Ice Maiden [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Deep Forest/Zone H/Forest Uzu [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Twillight Forest/Boss/Earth Gemstone Golem [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Toxic Swamp/Zone C/Toxic Feathered Snake.asset
+- Assets/ScriptableObject/Mob/Normal/Start Forest/Zone 5/Dragonfly A.asset
+- Assets/ScriptableObject/Mob/Hard/Deep Forest/Boss/Dryad Yggdrasil [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Abyss/Zone A/Ice Slime.asset
+- Assets/ScriptableObject/Mob/Normal/Deep Forest/Zone H/Forest Uzu.asset
+- Assets/ScriptableObject/Mob/Hard/Fire Lord Cave/Zone D/Fire Mushroom [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Toxic Swamp/Zone A/Toxic Maneater Plant.asset
+- Assets/ScriptableObject/Mob/Hard/Deep Forest/Boss/Slime Golem [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Start Forest/Zone 5/Sliiiime [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Frozen Shores/Boss/Ice Titan.asset
+- Assets/ScriptableObject/Mob/Hard/Start Forest/Zone 5/Panda [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Ocean/Zone E/Mermaid Warrior Sasha [Hard].asset
+- Assets/ScriptableObject/Mob/Instance Boss/Forest Lake/Sacred Owl [Hard] [Hidden].asset
+- Assets/ScriptableObject/Mob/Normal/Frozen Shores/Zone C/Water Boitata.asset
+- Assets/ScriptableObject/Mob/Normal/Beach/Zone A/Spore.asset
+- Assets/ScriptableObject/Mob/Normal/Deep Forest/Zone G/Screamer Mandrake.asset
+- Assets/ScriptableObject/Mob/Normal/Frozen Shores/Zone A/Water Gem.asset
+- Assets/ScriptableObject/Mob/Hard/Desert/Boss/Egypt Crocodile [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Floating Castle/Zone B/Wind Harpy [Hard].asset
+- Assets/ScriptableObject/Mob/Instance Boss/Abyss/Warden of Hell Fire [Hard] [Hidden].asset
+- Assets/ScriptableObject/Mob/Normal/Beach/Zone C/Green Shell Claw.asset
+- Assets/ScriptableObject/Mob/Normal/Twillight Forest/Boss/Earth Gemstone Golem.asset
+- Assets/ScriptableObject/Mob/Hard/Ocean/Zone D/Spheria [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Frozen Shores/Zone D/Ice Wolf.asset
+- Assets/ScriptableObject/Mob/Hard/Deep Forest/Zone B/Forest Golem [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Ocean/Zone C/Horntle [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Abyss/Boss/Titan Aquos [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Floating Castle/Zone B/Wind Bunny [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Dragon Cave/Zone G/Blue Dragon [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Start Forest/Zone 3/Shroom.asset
+- Assets/ScriptableObject/Mob/Hard/Hidden Cave A/Boss/Cerberus Ptolemaios [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Deep Forest/Zone E/Red Ant Knight [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Dragon Cave/Zone A/Dragon Egg D [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Abyss/Boss/Khronos [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Toxic Swamp/Zone D/Toxic Root [Hard].asset
+- Assets/ScriptableObject/Mob/Instance Boss/Blossom Valley/Golden Slime King [Hidden].asset
+- Assets/ScriptableObject/Mob/Hard/Elemental/Fairy Fields/Nature/Diamond Slime [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Beach/Zone B/Water Turtle.asset
+- Assets/ScriptableObject/Mob/Normal/Deep Forest/Zone D/Colossal Snake.asset
+- Assets/ScriptableObject/Mob/Normal/Deep Forest/Zone A/Avian.asset
+- Assets/ScriptableObject/Mob/Hard/Deep Forest/Zone D/Lamia [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Beach/Boss/Green Lobster [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Deep Forest/Zone C/Centipede.asset
+- Assets/ScriptableObject/Mob/Normal/Ocean/Zone B/Shark.asset
+- Assets/ScriptableObject/Mob/Normal/Deep Forest/Zone E/Ant Lion.asset
+- Assets/ScriptableObject/Mob/Normal/Twillight Forest/Zone D/Death Worm.asset
+- Assets/ScriptableObject/Mob/Hard/Beach/Zone B/Green Spider Crab [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Floating Castle/Zone C/Wind Orb [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Frozen Shores/Zone C/Water Willowisp [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Floating Castle/Zone A/Wind Gem.asset
+- Assets/ScriptableObject/Mob/Normal/Beach/Boss/Crab King Karkinos.asset
+- Assets/ScriptableObject/Mob/Normal/Fire Lord Cave/Zone A/Fire Gem.asset
+- Assets/ScriptableObject/Mob/Normal/Elemental/Fairy Fields/Air/Wind Avian.asset
+- Assets/ScriptableObject/Mob/Normal/Elemental/Fairy Fields/Fire/Fire Wisp.asset
+- Assets/ScriptableObject/Mob/Normal/Christmas Map/Boss/Ginger Bomber.asset
+- Assets/ScriptableObject/Mob/Normal/Deep Forest/Zone B/Forest Sprout.asset
+- Assets/ScriptableObject/Mob/Instance Boss/Fire Lord Cave/Magma Golem [Hard] [Hidden].asset
+- Assets/ScriptableObject/Mob/Normal/Elemental/Bridge/Warrior Guardian.asset
+- Assets/ScriptableObject/Mob/Hard/Toxic Swamp/Zone C/Toxic Frog C [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Elemental/Fairy Fields/Nature/Diamond Slime.asset
+- Assets/ScriptableObject/Mob/Hard/Dragon Cave/Boss/Zalaras [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Beach/Zone B/Water Turtle [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Floating Castle/Boss/Wind Titan.asset
+- Assets/ScriptableObject/Mob/Normal/Deep Forest/Zone B/Forest Ogre.asset
+- Assets/ScriptableObject/Mob/Hard/Desert/Boss/Triple Cactus [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Twillight Forest/Zone D/Constrictor Boa.asset
+- Assets/ScriptableObject/Mob/Hard/Elemental/Fairy Fields/Water/Cold Slime [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Deep Forest/Boss/Dragon Cave Portal [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Twillight Forest/Boss/Earth Drake.asset
+- Assets/ScriptableObject/Mob/Normal/Start Forest/Zone 1/Noxluff.asset
+- Assets/ScriptableObject/Mob/Hard/Deep Forest/Boss/Superior Ice Mantis [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Abyss/Zone B/Biofish.asset
+- Assets/ScriptableObject/Mob/Hard/Elemental/Fairy Fields/Nature/Earth Leaf Imp [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Christmas Map/Boss/Darkness Claus.asset
+- Assets/ScriptableObject/Mob/Hard/Hidden Cave A/Boss/Radulac The Voildvod [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Christmas Map/Zone D/Rifle Soldier.asset
+- Assets/ScriptableObject/Mob/Hard/Start Forest/Boss/Forest Tree [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Twillight Forest/Zone A/Earth Bat [Hard].asset
+- Assets/ScriptableObject/Mob/Instance Boss/Dragon Cave/Tiger Dragon [Hard] [Hidden].asset
+- Assets/ScriptableObject/Mob/Normal/Frozen Shores/Boss/Ice Lion.asset
+- Assets/ScriptableObject/Mob/Normal/Fire Lord Cave/Boss/Fire Lion.asset
+- Assets/ScriptableObject/Mob/Instance Boss/Ocean/Warrior Shark [Hard] [Hidden].asset
+- Assets/ScriptableObject/Mob/Normal/Desert/Zone C/Desert Lickitoad.asset
+- Assets/ScriptableObject/Mob/Hard/Elemental/Fairy Fields/Boss/Nature Fairy [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Fire Lord Cave/Boss/Fire Lord Titan [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Deep Forest/Boss/Turtle Rukkha [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Deep Forest/Zone C/Forest Fairy Dragon.asset
+- Assets/ScriptableObject/Mob/Hard/Elemental/Fairy Fields/Fire/Fire Dragonspawn [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Beach/Zone B/Red Spider Crab [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Elemental/Fairy Fields/Light/Light Gemstone A
+  [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Elemental/Fairy Fields/Fire/Flare Slime [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Deep Forest/Zone B/Forest Darkluff.asset
+- Assets/ScriptableObject/Mob/Normal/Fire Lord Cave/Zone E/Fire Maiden.asset
+- Assets/ScriptableObject/Mob/Hard/Elemental/Fairy Fields/Air/Wind Avian [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Dragon Cave/Zone D/Roaming Salamander [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Toxic Swamp/Zone C/Toxic Frog C.asset
+- Assets/ScriptableObject/Mob/Hard/Elemental/Bridge/Warrior Guardian [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Twillight Forest/Zone C/Earth Wolf [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Christmas Map/Zone A/Fighter Snowman.asset
+- Assets/ScriptableObject/Mob/Normal/Floating Castle/Zone B/Wind Bunny.asset
+- Assets/ScriptableObject/Mob/Instance Boss/Frozen Shores/Ydro Dragon [Hidden].asset
+- Assets/ScriptableObject/Mob/Normal/Elemental/Fairy Fields/Nature/Nature Slime.asset
+- Assets/ScriptableObject/Mob/Normal/Desert/Zone A/Sand Tentacle.asset
+- Assets/ScriptableObject/Mob/Normal/Dragon Cave/Boss/Earth Dragon.asset
+- Assets/ScriptableObject/Mob/Hard/Deep Forest/Zone D/Red Colossal Snake [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Fire Lord Cave/Zone E/Fire SaberTooth.asset
+- Assets/ScriptableObject/Mob/Normal/Start Forest/Zone 4/Spider.asset
+- Assets/ScriptableObject/Mob/Hard/Desert/Zone C/Desert Lickitoad [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Toxic Swamp/Zone B/Toxic Shroom B.asset
+- Assets/ScriptableObject/Mob/Normal/Desert/Boss/Triple Cactus.asset
+- Assets/ScriptableObject/Mob/Hard/Toxic Swamp/Zone A/Toxic Maneater Plant [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Toxic Swamp/Boss/Superior Toxic Shroom.asset
+- Assets/ScriptableObject/Mob/Normal/Desert/Boss/Desert Parasand.asset
+- Assets/ScriptableObject/Mob/Normal/Twillight Forest/Zone A/Earth Bat.asset
+- Assets/ScriptableObject/Mob/Hard/Twillight Forest/Zone D/Constrictor Boa [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Deep Forest/Zone H/Rose Knight.asset
+- Assets/ScriptableObject/Mob/Normal/Ocean/Boss/Mermaid Warrior Undeen.asset
+- Assets/ScriptableObject/Mob/Normal/Deep Forest/Zone F/Lunar Butterfly.asset
+- Assets/ScriptableObject/Mob/Hard/Deep Forest/Zone E/Black Ant Mage [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Desert/Zone B/Junior Rock Lizard [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Desert/Zone A/Sand Snake [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Abyss/Zone B/Piranos [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Elemental/Fairy Fields/Boss/Nature Fairy.asset
+- Assets/ScriptableObject/Mob/Hard/Floating Castle/Zone E/Wind Golem [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Frozen Shores/Zone D/Ice Mushroom [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Deep Forest/Boss/Junior Hydra.asset
+- Assets/ScriptableObject/Mob/Hard/Ocean/Zone E/Mermaid Warrior Sion [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Start Forest/Zone 4/Mantis [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Christmas Map/Zone A/Thrower Bear.asset
+- Assets/ScriptableObject/Mob/Hard/Deep Forest/Zone I/Mini Hydra [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Beach/Boss/Red Emperor Crab.asset
+- Assets/ScriptableObject/Mob/Instance Boss/Desert/Desert Skeleton Drake [Hard] [Hidden].asset
+- Assets/ScriptableObject/Mob/Instance Boss/Crab Shores/Crystal Slime [Hidden].asset
+- Assets/ScriptableObject/Mob/Hard/Beach/Boss/Turtle Golem [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Desert/Zone C/Junior Egypt Crocodile [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Start Forest/Zone 1/Noxluff [Hard].asset
+- Assets/ScriptableObject/Mob/Instance Boss/Deep Caves/Corrupted Crow [Hidden].asset
+- Assets/ScriptableObject/Mob/Normal/Abyss/Zone B/Piranos.asset
+- Assets/ScriptableObject/Mob/Normal/Desert/Boss/Egypt Crocodile.asset
+- Assets/ScriptableObject/Mob/Normal/Dragon Cave/Zone B/Brown Dragon.asset
+- Assets/ScriptableObject/Mob/Hard/Start Forest/Zone 1/Red Flower [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Abyss/Zone C/Arman [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Christmas Map/Zone A/Magic Swordman.asset
+- Assets/ScriptableObject/Mob/Hard/Elemental/Fairy Fields/Water/Ice Snake [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Abyss/Zone D/Astral Lich.asset
+- Assets/ScriptableObject/Mob/Normal/Elemental/Fairy Fields/Boss/Water Fairy.asset
+- Assets/ScriptableObject/Mob/Normal/Abyss/Zone C/Armon.asset
+- Assets/ScriptableObject/Mob/Hard/Start Forest/Zone 4/Imperial Widow [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Start Forest/Zone 2/Slime [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Desert/Zone C/Junior Egypt Crocodile.asset
+- Assets/ScriptableObject/Mob/Hard/Start Forest/Zone 3/Shroom [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Dragon Cave/Zone A/Dragon Egg E [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Start Forest/Zone 3/Shroomy.asset
+Dependencies:
+- D:/Unity/InfinityRPG/Assets/StreamingAssets/AssetBundles/item
+- D:/Unity/InfinityRPG/Assets/StreamingAssets/AssetBundles/skill

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5227ba7a208f16a4b98315737fb5221f, type: 3}
+  m_Name: Death Surpassion -Water-
+  m_EditorClassIdentifier: 
+  skillSprite: {fileID: 0}
+  targetCharacterClassType: 2147483647
+  elementalType: 4
+  upgradeCost: 0
+  defaultUpgradeCount: 0
+  maxUpgradeCount: 2
+  requiredLevel: 0
+  skillDescription: 
+  isClassSkill: 0
+  skillAbilities:
+  - abilityData:
+      ability: {fileID: 11400000, guid: b48f06c85446611469b861950f481bd1, type: 2}
+      amount: 1
+    target: 1
+  elemental: 4

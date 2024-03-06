@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd75eaf169c10cb4abd33a108262ee8f, type: 3}
+  m_Name: Shroomy
+  m_EditorClassIdentifier: 
+  mobSprite: {fileID: 21300000, guid: 7450fe35aef27a446a776d97e3c74d25, type: 3}
+  imageOffset: {x: 0, y: 0}
+  description: 
+  mobClass: 2
+  elementalDamage: []
+  elementalDefence: []
+  integratedElementalDefence: -1
+  lv: 2000
+  difficulty: normal
+  hpRate: 1
+  atkRate: 1
+  expRate: 1
+  goldRate: 1
+  defReqRate: 1
+  hidden: 0
+  skills: []
+  customHP: 0
+  customATK: 0
+  maxDefenceRatio: 2
+  dropTable: []
+  tagList: []
+  minLv: 2000
+  maxLv: 2500

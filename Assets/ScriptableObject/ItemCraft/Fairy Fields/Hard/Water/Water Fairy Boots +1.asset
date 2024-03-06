@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f5122020541a8e4191df2daefc1dd8d, type: 3}
+  m_Name: Water Fairy Boots +1
+  m_EditorClassIdentifier: 
+  ingredients:
+  - item: {fileID: 11400000, guid: 741175441d3b7214e897b18ac6f2773d, type: 2}
+    quantity: 1
+  - item: {fileID: 11400000, guid: 85a62c9f8c3e2a440b1667b25ed2900d, type: 2}
+    quantity: 1
+  - item: {fileID: 11400000, guid: fddf9fc98b86dfa45bc64f70f9a7c006, type: 2}
+    quantity: 1
+  result: {fileID: 11400000, guid: e34985551a97d074aa93487e3950bde9, type: 2}

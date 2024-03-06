@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af6335a62f6434f4a80877537e1fbad6, type: 3}
+  m_Name: Twillight Forest
+  m_EditorClassIdentifier: 
+  items:
+  - {fileID: 11400000, guid: 5adbb5fdb4d825141826c28e158ba787, type: 2}
+  - {fileID: 11400000, guid: 73ba4e9342f16a64c8183c8128efb02f, type: 2}
+  - {fileID: 11400000, guid: 4b356a04834e0f54a808b1c5d031093f, type: 2}
+  - {fileID: 11400000, guid: 97681517bb29d4943bde715ab5cfb179, type: 2}
+  - {fileID: 11400000, guid: d42d0475af67d204db29ad97738224dc, type: 2}
+  - {fileID: 11400000, guid: 0918de24a75f0d147adb7bf3107c7861, type: 2}
+  - {fileID: 11400000, guid: d70d612b6eb467344841fac10fcff35e, type: 2}
+  - {fileID: 11400000, guid: de6aeaf954cb0fd4ea249c87b2364c7f, type: 2}
+  itemSetEffects:
+  - itemCount: 2
+    itemAbilities:
+    - abilityData:
+        ability: {fileID: 11400000, guid: b1317ac1d1a0dc145a39d4df1a7647dd, type: 2}
+        amount: 16
+      isPassive: 0
+    - abilityData:
+        ability: {fileID: 11400000, guid: 480eeac1ba90dfa408c47d451ea0cb7e, type: 2}
+        amount: 1300
+      isPassive: 0
+    - abilityData:
+        ability: {fileID: 11400000, guid: a0f41aa27f0cbdb45b0805d531073d8c, type: 2}
+        amount: 1300
+      isPassive: 0
+    tagResists: []
+  - itemCount: 4
+    itemAbilities:
+    - abilityData:
+        ability: {fileID: 11400000, guid: b1317ac1d1a0dc145a39d4df1a7647dd, type: 2}
+        amount: 16
+      isPassive: 0
+    - abilityData:
+        ability: {fileID: 11400000, guid: 480eeac1ba90dfa408c47d451ea0cb7e, type: 2}
+        amount: 1300
+      isPassive: 0
+    - abilityData:
+        ability: {fileID: 11400000, guid: a0f41aa27f0cbdb45b0805d531073d8c, type: 2}
+        amount: 1300
+      isPassive: 0
+    tagResists: []

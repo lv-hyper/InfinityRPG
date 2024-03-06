@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 532fcfd52ad804c4e827a9df8bce62ab, type: 3}
+  m_Name: Drain
+  m_EditorClassIdentifier: 
+  skillSprite: {fileID: 3777243347615782747, guid: 9076f2cec3c3f304898963e22cf4fb27,
+    type: 3}
+  targetCharacterClassType: 1
+  upgradeCost: 2
+  defaultUpgradeCount: 0
+  maxUpgradeCount: 1
+  requiredLevel: 16
+  skillDescription: Drain enemies life
+  isClassSkill: 1
+  skillTurnCount: 1
+  skillCoolDown: 5
+  manaCost: 10
+  isAttackSkill: 1
+  skillType: 1
+  elemental: 0
+  skillPercentDamage: 1
+  skillAnimation: {fileID: 0}
+  percentage: 1

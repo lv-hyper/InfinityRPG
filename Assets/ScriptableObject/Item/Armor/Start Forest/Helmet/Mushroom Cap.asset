@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7957a1f6aedc364684aa2de1f99748c, type: 3}
+  m_Name: Mushroom Cap
+  m_EditorClassIdentifier: 
+  itemSprite: {fileID: -5293297910336582718, guid: dff88bacaabb1214396f35bbd23763bd,
+    type: 3}
+  zone: 1
+  legacyID: Helmet-StartForest-2500-Mushroom Cap
+  level: 2500
+  order: 0
+  maxStack: 10
+  maxWornCount: 1
+  price: 200000
+  shortDesc: Cap
+  longDesc: Looks Delicious!
+  itemAbilities:
+  - abilityData:
+      ability: {fileID: 11400000, guid: 480eeac1ba90dfa408c47d451ea0cb7e, type: 2}
+      amount: 25
+    isPassive: 0
+  - abilityData:
+      ability: {fileID: 11400000, guid: 1e5287b90b2253e4d8c72a9f23c8bee7, type: 2}
+      amount: 2200
+    isPassive: 0
+  tagResists: []

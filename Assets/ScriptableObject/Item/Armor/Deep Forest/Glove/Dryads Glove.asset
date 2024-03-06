@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0d77133b170acf49a06ed500770a584, type: 3}
+  m_Name: Dryads Glove
+  m_EditorClassIdentifier: 
+  itemSprite: {fileID: 2669219891523302391, guid: f2230cf6bbe9dd043972e3b437ad9a83,
+    type: 3}
+  zone: 2
+  legacyID: Glove-DeepForest-135000-Dryads Glove
+  level: 135000
+  order: 0
+  maxStack: 10
+  maxWornCount: 1
+  price: 0
+  shortDesc: Glove
+  longDesc: Dryads Glove
+  itemAbilities:
+  - abilityData:
+      ability: {fileID: 11400000, guid: 14973c998a968324eba5d1189dfc6ace, type: 2}
+      amount: 50
+    isPassive: 0
+  tagResists: []

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9495e2426dc60cc4ba40a53a473ec155, type: 3}
+  m_Name: Great Fury of Armon +1
+  m_EditorClassIdentifier: 
+  itemSprite: {fileID: -1996578577766772005, guid: 9b52161a09218964a91a3c02ff91fb4e,
+    type: 3}
+  zone: 6
+  legacyID: General-Abyss-66666666666-Great Fury of Armon +1
+  level: 66666666666
+  order: 0
+  maxStack: 10
+  maxWornCount: 1
+  price: 0
+  shortDesc: Furious power
+  longDesc: Furious power grants you power!
+  itemAbilities:
+  - abilityData:
+      ability: {fileID: 11400000, guid: 6e69fd54c8757ff40ade2863196c9eda, type: 2}
+      amount: 15
+    isPassive: 1
+  - abilityData:
+      ability: {fileID: 11400000, guid: 514815e8f1ecac84da9e874a14548929, type: 2}
+      amount: 5000000000
+    isPassive: 0
+  tagResists: []

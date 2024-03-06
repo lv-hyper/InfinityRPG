@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b6a3c629f405e4ab0f4b43b45a7d73, type: 3}
+  m_Name: Arcane Shield
+  m_EditorClassIdentifier: 
+  skillSprite: {fileID: 3193482625238471252, guid: 9076f2cec3c3f304898963e22cf4fb27,
+    type: 3}
+  targetCharacterClassType: 1
+  upgradeCost: 2
+  defaultUpgradeCount: 0
+  maxUpgradeCount: 3
+  requiredLevel: 21
+  skillDescription: Reduce damage you took
+  isClassSkill: 1
+  skillAbilities:
+  - abilityData:
+      ability: {fileID: 11400000, guid: 671f220738f5af34888eb9e1d9c4d3e8, type: 2}
+      amount: 5
+    target: 1
+  ratio: 0.5

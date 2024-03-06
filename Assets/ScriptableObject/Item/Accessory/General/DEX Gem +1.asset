@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9495e2426dc60cc4ba40a53a473ec155, type: 3}
+  m_Name: DEX Gem +1
+  m_EditorClassIdentifier: 
+  itemSprite: {fileID: -226546483770819954, guid: 166373342ab7c1349a6bfe7cc1189287,
+    type: 3}
+  zone: 0
+  legacyID: General-General-1-DEX Gem +1
+  level: 1
+  order: 3
+  maxStack: 1
+  maxWornCount: 1
+  price: 0
+  shortDesc: DEX +250,000
+  longDesc: Gives you respective power
+  itemAbilities:
+  - abilityData:
+      ability: {fileID: 11400000, guid: f453bf97e7fe4054ba64ab6f3fe940a8, type: 2}
+      amount: 250000
+    isPassive: 0
+  tagResists: []

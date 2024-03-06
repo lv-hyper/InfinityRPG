@@ -1,0 +1,224 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Main.unity
+    guid: 7293b2a3be5c9de4ea91fe29c90eac6b
+  - enabled: 1
+    path: Assets/Scenes/Ingame.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Normal/test004.unity
+    guid: f3d4eb47a9b2c0a4f847742a7508a816
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Normal/test005.unity
+    guid: d19c514cf7a5d004e90e77ac404b3041
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Hard/startForest_h04.unity
+    guid: ee923c84a855e3d4694dc86e018e9c95
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Hard/startForest_h05.unity
+    guid: 15f9b3d9f644c5b4f8a4b837c0b01932
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Normal/Hidden Cave/hiddenCave000.unity
+    guid: a0f055c27dc41a54bba1849a9fcfbb49
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Hard/Hidden Cave/hiddenCave_h00.unity
+    guid: b8efbe55aa460bd4195e4374e76e839e
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Normal/Ocean/ocean000.unity
+    guid: f2f89babe499da64fb8e56326dfe72bd
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Normal/Ocean/abyss000.unity
+    guid: f9b53805a8fd7b0448387207e7a56902
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Hard/Ocean/ocean_h00.unity
+    guid: ea34238cad7b4c948bcbcf47bb3f5d92
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Hard/Ocean/abyss_h00.unity
+    guid: f2d36220f62b2d6488abab9bfc87814f
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Hard/Desert/desert_h00.unity
+    guid: 80fd5810c01b87245a0c5adf9206e3b5
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Hard/Toxic Swamp/toxicSwamp_h00.unity
+    guid: 2dc854fc2e71f2648b804cd942ea337b
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Hard/Dragon Cave/dragonCave_h00.unity
+    guid: 21158567065c214489a5a74d834d73d8
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Hard/Dragon Cave/dragonCave_h01.unity
+    guid: 76f93f051cdb2f14d97cb0afc5e7774b
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Hard/Dragon Cave/dragonCave_h02.unity
+    guid: 13ac9ee1ab9716d4a8c8e3b117c23b2f
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Normal/Fairy Fields/fairy_field_0.unity
+    guid: 3dc70801ae5cf8b44b522c5e62981f56
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Normal/Fairy Fields/fairy_field_1.unity
+    guid: 99769da94bb7bd642880ee39810f155e
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Normal/Fairy Fields/fairy_field_2.unity
+    guid: 0f1c1ad4fcb852547ad80cc4dab6da1e
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Normal/Bridge/bridge000.unity
+    guid: 21205ab605feca04c93f6477d35c2ffd
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Normal/Dragon Cave/dragonCave000.unity
+    guid: f5074cac798b0924b81115897c3222b9
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Normal/Dragon Cave/dragonCave001.unity
+    guid: b80364d5b484ee44684eb361ccf7fa8e
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Normal/Desert/desert000.unity
+    guid: 82a8f6a1de941714fa659c1540f7d6c7
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Normal/Toxic Swamp/toxicSwamp000.unity
+    guid: 81a81d532ae499d46885b18e5b0cefc5
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Normal/Frozen Shores/frozenShores000.unity
+    guid: 862505b557c6e6c499d7a65b37ae67e3
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Normal/Frozen Shores/frozenShores001.unity
+    guid: 40365db0b33cce643b31281e289dca21
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Normal/Twilight Forest/twillightForest000.unity
+    guid: 796c3e83ffa953d48bf5c67d9ea12ab1
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Normal/Twilight Forest/twillightForest001.unity
+    guid: f3838c35c017d574cbe446d164b02324
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Normal/Fire Lord Cave/fireLordCave000.unity
+    guid: 2f06e82ee12e478428b2f8da21a16aad
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Normal/Fire Lord Cave/fireLordCave001.unity
+    guid: 2f3491d4fb0a6074b831497ec7f5a837
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Normal/Floating Castle/floatingCastle000.unity
+    guid: 902e206c917a3bf4c9c17dcc6f750ed7
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Normal/Floating Castle/floatingCastle001.unity
+    guid: a9c659f1e2ee36140bcaf63cdfb5590e
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Normal/Village Remake/village_000.unity
+    guid: d7547ff5e6c94be4fb2571599f2cf360
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Normal/Village Remake/village_001.unity
+    guid: 54b6745d0ac19024bb8038050be145fc
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Normal/Village Remake/village_002.unity
+    guid: 73b6651e4e7e16440a67096b886dddbc
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Normal/Village Remake/village_003.unity
+    guid: fe2fa9a9d117167499194fd2628d120c
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Hard/Village Remake/village_h_000.unity
+    guid: ba28c456e807ddc4db7c5207aeaea3f6
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Hard/Village Remake/village_h_001.unity
+    guid: 5fbd1212e5250fe458d8d9af84e282fd
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Hard/Village Remake/village_h_002.unity
+    guid: 48a9e87efa2f6b44db36d1d03cd1e50d
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Hard/Village Remake/village_h_003.unity
+    guid: 10e3088f6f9c9c447a0c2b9b711e8486
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Normal/Blossom Valley/Blossom_Valley_000.unity
+    guid: cdb27eb812dec9f4eb8138fbcae266ad
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Normal/Blossom Valley/Blossom_Valley_001.unity
+    guid: 96a5973bb940c95418c6f23dab7dfbd4
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Normal/Blossom Valley/Blossom_Valley_002.unity
+    guid: 0ad817bc5347a3641904664f18e10f6f
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Hard/Blossom Valley/BlossomValleyH_000.unity
+    guid: 4d2f4edeadcfd7b488b22ec27c532139
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Hard/Blossom Valley/BlossomValleyH_001.unity
+    guid: 6e2081a1d6a39f74c9e4224d1571450e
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Hard/Blossom Valley/BlossomValleyH_001_Copy.unity
+    guid: 562a3221a48ab7f428ae1c74bb07cd8e
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Hard/Blossom Valley/BlossomValleyH_002.unity
+    guid: 06e3c3df052d6be4abc9acc6256a7c06
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Normal/Crab Shores/Crab_Shores_001.unity
+    guid: f0afe1ad944b97041a473a1d05b7e780
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Normal/Crab Shores/Crab_Shores_002.unity
+    guid: 805dbed4cc9d0e945a0c6c51dd73d6b2
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Hard/Crab Shores/CrabShoresH_001.unity
+    guid: 00fade7363270bb4c996039cce1b8b4e
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Hard/Crab Shores/CrabShoresH_002.unity
+    guid: 3e00b856aa078a440b96b5ea3ff781ee
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Normal/Forest Lake/Forest_Lake_000.unity
+    guid: 8f0e0053bed8ced419029eb61c7f31a6
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Normal/Forest Lake/Forest_Lake_001.unity
+    guid: 2ebdea51a7a4bd54cad7be1ae204ca62
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Normal/Forest Lake/Forest_Lake_002.unity
+    guid: 1012a434e7a966e47beaa66a11fa1e34
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Hard/Forest Lake/ForestLakeH_000.unity
+    guid: 0640dfacb2b214c48a9c184816436798
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Hard/Forest Lake/ForestLakeH_001.unity
+    guid: f781d0a7fd40eef479336e632e501b2d
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Hard/Forest Lake/ForestLakeH_002.unity
+    guid: 5b965de23d7041c43a758e85bf844def
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Normal/Christmas_000.unity
+    guid: 2d7953d828ad72d4597822492260b29b
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Hard/Bridge/bridge_h_000.unity
+    guid: 96b45ebe2c3c782428d08ca9555ba258
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Hard/Bridge/BridgeH_000_Copy.unity
+    guid: defd4ba7e8210d94db33410bb54bf0b2
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Hard/Fairy Fields/fairy_field_h_0.unity
+    guid: 672187525b69a1f4881994eedf13fb63
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Hard/Fairy Fields/fairy_field_h_1.unity
+    guid: 441c3abebade6704f83e540e6b6c63ec
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Hard/Fairy Fields/fairy_field_h_2.unity
+    guid: 3e98415e6d1dee943a88593b3256f6e4
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Normal/The Tower/Tower_000.unity
+    guid: f7894e1d84480624a974decf8d142054
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Normal/The Tower/Tower_001.unity
+    guid: 0e38954942896bb41a559af0464c915d
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Hard/Fire Lord Cave/fireLordCaveH_000.unity
+    guid: 362ca74ed49eb57488b57c7f3f6d049e
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Hard/Floating Castle/floatingCastleH_000.unity
+    guid: c83b409917c45a643ab688d0973e97d3
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Hard/Floating Castle/floatingCastleH_001.unity
+    guid: e2d61cef94ab15c499abc1ab025298a1
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Hard/Frozen Shores/frozenShoresH_000.unity
+    guid: 0912abaa616c3f24ba72b55682f6295b
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Hard/Twilight Forest/twillightForestH_000.unity
+    guid: 3de681405f7796744b178a5f033c4f13
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Hard/Twilight Forest/twillightForestH_001.unity
+    guid: 1269e409cf403fe479796abf51de94f0
+  m_configObjects: {}

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9495e2426dc60cc4ba40a53a473ec155, type: 3}
+  m_Name: Critical Dice
+  m_EditorClassIdentifier: 
+  itemSprite: {fileID: 1304278719, guid: e346c14bb38360b4881367661a8fb1d9, type: 3}
+  zone: 0
+  legacyID: General-General-0-
+  level: 20000000
+  order: 0
+  maxStack: 1
+  maxWornCount: 1
+  price: 0
+  shortDesc: Additional Critical Rate +15%
+  longDesc: This dice increase your critical rate
+  itemAbilities:
+  - abilityData:
+      ability: {fileID: 11400000, guid: f1248d63585cf814e9093fe35267e4ca, type: 2}
+      amount: 15
+    isPassive: 0
+  tagResists: []

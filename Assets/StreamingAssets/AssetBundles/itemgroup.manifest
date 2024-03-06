@@ -1,0 +1,96 @@
+ManifestFileVersion: 0
+CRC: 2812334413
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a2d1e0a4a0522c8ac3f75d2a3c8cc596
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1678192ab284252596bd8529fb37127d
+HashAppended: 0
+ClassTypes:
+- Class: 114
+  Script: {fileID: 11500000, guid: 9495e2426dc60cc4ba40a53a473ec155, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d0d77133b170acf49a06ed500770a584, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 590d37b38587ebb4d8c5c14b119511ed, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: af6335a62f6434f4a80877537e1fbad6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a690dbe85943d2a4484a199a8b9f45af, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 376b8184a7be2f14d8f04194c10c85d9, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c7957a1f6aedc364684aa2de1f99748c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2da2047d1c594384c9fb083cee827297, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4e58e466b6adfec4bb06e8f0f0a4119b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c623137764c9279448e01a142584229b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: aff2027ce216ccc48b69a0ae7874fe5f, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Assembly-CSharp
+  ClassName: InGame.Data.Ability.AbilityData
+- AssemblyName: Assembly-CSharp
+  ClassName: InGame.Data.Ability.AdditionalStatDependencyElement
+- AssemblyName: Assembly-CSharp
+  ClassName: InGame.Data.Item.Group.ItemSetEffectElement
+- AssemblyName: Assembly-CSharp
+  ClassName: InGame.Data.Item.ItemAbility
+Assets:
+- Assets/ScriptableObject/ItemGroup/Item Set/Forest Cave +1.asset
+- Assets/ScriptableObject/ItemGroup/Item Set/Abyss.asset
+- Assets/ScriptableObject/ItemGroup/Item Set/Elemenetal/Fairy Fields/Water Fairy
+  +1.asset
+- Assets/ScriptableObject/ItemGroup/Item Set/Elemenetal/Twillight Forest.asset
+- Assets/ScriptableObject/ItemGroup/Item Set/Dryad.asset
+- Assets/ScriptableObject/ItemGroup/Item Set/Elemenetal/Fairy Fields/Fire Fairy +1.asset
+- Assets/ScriptableObject/ItemGroup/Item Set/Toxic.asset
+- Assets/ScriptableObject/ItemGroup/Item Set/Beach.asset
+- Assets/ScriptableObject/ItemGroup/Item Set/Forest +1.asset
+- Assets/ScriptableObject/ItemGroup/Item Set/Deep Abyss.asset
+- Assets/ScriptableObject/ItemGroup/Item Set/Elemenetal/Fairy Fields/Nature Fairy.asset
+- Assets/ScriptableObject/ItemGroup/Item Set/Elemenetal/Fairy Fields/Air.asset
+- Assets/ScriptableObject/ItemGroup/Item Set/Upper Cave +1.asset
+- Assets/ScriptableObject/ItemGroup/Item Set/Elemenetal/Floating Castle.asset
+- Assets/ScriptableObject/ItemGroup/Item Set/The Ancient.asset
+- Assets/ScriptableObject/ItemGroup/Item Set/Elemenetal/Fairy Fields/Nature.asset
+- Assets/ScriptableObject/ItemGroup/Item Set/Forest.asset
+- Assets/ScriptableObject/ItemGroup/Item Set/Dragon.asset
+- Assets/ScriptableObject/ItemGroup/Item Set/Elemenetal/Fairy Fields/Fire Fairy.asset
+- Assets/ScriptableObject/ItemGroup/Item Set/Leviathan.asset
+- Assets/ScriptableObject/ItemGroup/Item Set/Elemenetal/Fairy Fields/Fire.asset
+- Assets/ScriptableObject/ItemGroup/Item Set/Elemenetal/Fairy Fields/Fire +1.asset
+- Assets/ScriptableObject/ItemGroup/Item Set/Elemenetal/Fairy Fields/Water Fairy.asset
+- Assets/ScriptableObject/ItemGroup/Item Set/Golden Drops.asset
+- Assets/ScriptableObject/ItemGroup/Item Set/Insect.asset
+- Assets/ScriptableObject/ItemGroup/Item Set/Elemenetal/Fairy Fields/Nature Fairy
+  +1.asset
+- Assets/ScriptableObject/ItemGroup/Item Set/Upper Cave.asset
+- Assets/ScriptableObject/ItemGroup/Item Set/Cursed Dragon.asset
+- Assets/ScriptableObject/ItemGroup/Item Set/Elemenetal/Fire Lord Cave.asset
+- Assets/ScriptableObject/ItemGroup/Superior Order/Test.asset
+- Assets/ScriptableObject/ItemGroup/Item Set/Toxic +1.asset
+- Assets/ScriptableObject/ItemGroup/Item Set/Elemenetal/Fairy Fields/Nature +1.asset
+- Assets/ScriptableObject/ItemGroup/Item Set/Elemenetal/Fairy Fields/Water.asset
+- Assets/ScriptableObject/ItemGroup/Item Set/Cursed Toxic.asset
+- Assets/ScriptableObject/ItemGroup/Item Set/Elemenetal/Frozen Shores.asset
+- Assets/ScriptableObject/ItemGroup/Item Set/Desert.asset
+- Assets/ScriptableObject/ItemGroup/Item Set/Abyss +1.asset
+- Assets/ScriptableObject/ItemGroup/Item Set/Forest Cave.asset
+- Assets/ScriptableObject/ItemGroup/Item Set/Cursed Desert.asset
+- Assets/ScriptableObject/ItemGroup/Item Set/Elemenetal/Fairy Fields/Air Fairy.asset
+- Assets/ScriptableObject/ItemGroup/Item Set/Elemenetal/Fairy Fields/Water +1.asset
+- Assets/ScriptableObject/ItemGroup/Item Set/Elemenetal/Fairy Fields/Air Fairy +1.asset
+- Assets/ScriptableObject/ItemGroup/Item Set/Elemenetal/Fairy Fields/Air +1.asset
+- Assets/ScriptableObject/ItemGroup/Item Set/Insect +1.asset
+- Assets/ScriptableObject/ItemGroup/Item Set/Egypt.asset
+- Assets/ScriptableObject/ItemGroup/Item Set/Dryad +1.asset
+Dependencies:
+- D:/Unity/InfinityRPG/Assets/StreamingAssets/AssetBundles/ability
+- D:/Unity/InfinityRPG/Assets/StreamingAssets/AssetBundles/item

@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0d77133b170acf49a06ed500770a584, type: 3}
+  m_Name: Golden Glove
+  m_EditorClassIdentifier: 
+  itemSprite: {fileID: 702003138, guid: 911724a8469d396448b7dc12379967cf, type: 3}
+  zone: 0
+  legacyID: 
+  level: 700000000
+  order: 0
+  maxStack: 10
+  maxWornCount: 1
+  price: 700000000
+  shortDesc: Glove
+  longDesc: Shiny Glove
+  itemAbilities:
+  - abilityData:
+      ability: {fileID: 11400000, guid: 14973c998a968324eba5d1189dfc6ace, type: 2}
+      amount: 65
+    isPassive: 0
+  - abilityData:
+      ability: {fileID: 11400000, guid: 480eeac1ba90dfa408c47d451ea0cb7e, type: 2}
+      amount: 10
+    isPassive: 0
+  - abilityData:
+      ability: {fileID: 11400000, guid: a0f41aa27f0cbdb45b0805d531073d8c, type: 2}
+      amount: 30
+    isPassive: 0
+  - abilityData:
+      ability: {fileID: 11400000, guid: 31d1fb08458b12841beb71919ea63e99, type: 2}
+      amount: -43.76
+    isPassive: 0
+  - abilityData:
+      ability: {fileID: 11400000, guid: 477140b58d92b9b4493f58a0c7b38854, type: 2}
+      amount: 100
+    isPassive: 0
+  tagResists: []

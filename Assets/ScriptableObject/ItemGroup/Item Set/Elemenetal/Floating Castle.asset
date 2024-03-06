@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af6335a62f6434f4a80877537e1fbad6, type: 3}
+  m_Name: Floating Castle
+  m_EditorClassIdentifier: 
+  items:
+  - {fileID: 11400000, guid: 4d0216c52f4872949b680dad591fbf35, type: 2}
+  - {fileID: 11400000, guid: 5675f4ec606501843bbe498b571e440d, type: 2}
+  - {fileID: 11400000, guid: 45c77c6a8ceb4a545aec8cd2dabc34f0, type: 2}
+  - {fileID: 11400000, guid: 1df28de740c6db548a3eb0fa799c0a77, type: 2}
+  - {fileID: 11400000, guid: bac2480eb87ea1443a027a939f087b91, type: 2}
+  - {fileID: 11400000, guid: 19fef5c847916ca47a65de24d0e5da54, type: 2}
+  - {fileID: 11400000, guid: d4a8496bd782c5549b2f9d5a02e838f0, type: 2}
+  - {fileID: 11400000, guid: e68bc3e9ce3dc5a4a951322abab3b913, type: 2}
+  itemSetEffects:
+  - itemCount: 2
+    itemAbilities:
+    - abilityData:
+        ability: {fileID: 11400000, guid: 62841904735c4744cab8bf4b760e269a, type: 2}
+        amount: 16
+      isPassive: 0
+    - abilityData:
+        ability: {fileID: 11400000, guid: 480eeac1ba90dfa408c47d451ea0cb7e, type: 2}
+        amount: 1300
+      isPassive: 0
+    - abilityData:
+        ability: {fileID: 11400000, guid: a0f41aa27f0cbdb45b0805d531073d8c, type: 2}
+        amount: 1300
+      isPassive: 0
+    tagResists: []
+  - itemCount: 4
+    itemAbilities:
+    - abilityData:
+        ability: {fileID: 11400000, guid: 62841904735c4744cab8bf4b760e269a, type: 2}
+        amount: 16
+      isPassive: 0
+    - abilityData:
+        ability: {fileID: 11400000, guid: 480eeac1ba90dfa408c47d451ea0cb7e, type: 2}
+        amount: 1300
+      isPassive: 0
+    - abilityData:
+        ability: {fileID: 11400000, guid: a0f41aa27f0cbdb45b0805d531073d8c, type: 2}
+        amount: 1300
+      isPassive: 0
+    tagResists: []

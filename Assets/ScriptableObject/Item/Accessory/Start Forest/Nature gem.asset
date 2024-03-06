@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9495e2426dc60cc4ba40a53a473ec155, type: 3}
+  m_Name: Nature gem
+  m_EditorClassIdentifier: 
+  itemSprite: {fileID: -827147992407909036, guid: dff88bacaabb1214396f35bbd23763bd,
+    type: 3}
+  zone: 1
+  legacyID: General-StartForest-2800-Nature gem
+  level: 2800
+  order: 0
+  maxStack: 1
+  maxWornCount: 1
+  price: 250000
+  shortDesc: Gain HP From Attack (20%)
+  longDesc: Gives you nature power
+  itemAbilities:
+  - abilityData:
+      ability: {fileID: 11400000, guid: 4741220aabfc4fb4d968b50d110d8aeb, type: 2}
+      amount: 20
+    isPassive: 0
+  tagResists: []

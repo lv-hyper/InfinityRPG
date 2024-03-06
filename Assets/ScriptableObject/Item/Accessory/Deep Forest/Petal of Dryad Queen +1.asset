@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9495e2426dc60cc4ba40a53a473ec155, type: 3}
+  m_Name: Petal of Dryad Queen +1
+  m_EditorClassIdentifier: 
+  itemSprite: {fileID: 3937458843442380805, guid: 38b583c06ef440242bdb7faf1a4de221,
+    type: 3}
+  zone: 2
+  legacyID: General-DeepForest-17500000-Petal of Dryad Queen +1
+  level: 17500000
+  order: 0
+  maxStack: 10
+  maxWornCount: 1
+  price: 0
+  shortDesc: Gain HP From Attack (80%), HP +20%
+  longDesc: Dropped from Dryad Queen. Gives Regenerative Petal's Power.
+  itemAbilities:
+  - abilityData:
+      ability: {fileID: 11400000, guid: 4741220aabfc4fb4d968b50d110d8aeb, type: 2}
+      amount: 80
+    isPassive: 0
+  - abilityData:
+      ability: {fileID: 11400000, guid: 6e69fd54c8757ff40ade2863196c9eda, type: 2}
+      amount: 20
+    isPassive: 0
+  tagResists: []

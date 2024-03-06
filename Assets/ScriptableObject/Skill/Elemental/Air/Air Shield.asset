@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4f021525dca7b0439fff4af190496dc, type: 3}
+  m_Name: Air Shield
+  m_EditorClassIdentifier: 
+  skillSprite: {fileID: -622903433, guid: 18276612bf6d8404786e10f8400729f9, type: 3}
+  targetCharacterClassType: 2147483647
+  elementalType: 1
+  upgradeCost: 0
+  defaultUpgradeCount: 0
+  maxUpgradeCount: 1
+  requiredLevel: 0
+  skillDescription: 
+  isClassSkill: 0
+  skillTurnCount: 15
+  skillCoolDown: 12
+  manaCost: 1000
+  isAttackSkill: 0
+  skillType: 0
+  skillPercentDamage: 0
+  skillAnimation: {fileID: 0}
+  buffList:
+  - {fileID: 11400000, guid: b7af7f99eecec42489f41f2378c2f4b0, type: 2}

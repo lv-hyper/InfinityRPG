@@ -1,0 +1,687 @@
+ManifestFileVersion: 0
+CRC: 685580930
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 04c1ca9e8a5790c1a8ff51441f501d3d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 86cf1918f0b24e4ba1dfea592877ee96
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9495e2426dc60cc4ba40a53a473ec155, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d0d77133b170acf49a06ed500770a584, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 590d37b38587ebb4d8c5c14b119511ed, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a690dbe85943d2a4484a199a8b9f45af, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 376b8184a7be2f14d8f04194c10c85d9, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c7957a1f6aedc364684aa2de1f99748c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2da2047d1c594384c9fb083cee827297, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8715b00cf657c664ea5bdc3b9ae562e1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 30eb1083e257dec42a2a4bad8efd07d9, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 83917afe5a9317346b60ab37b9d38c7c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e00b32403f05c674e9ca98c420707c87, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c623137764c9279448e01a142584229b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: aff2027ce216ccc48b69a0ae7874fe5f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8fb3e959f51fc1b4886119898c5ea513, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Assembly-CSharp
+  ClassName: InGame.Data.Ability.AbilityData
+- AssemblyName: Assembly-CSharp
+  ClassName: InGame.Data.Ability.AdditionalStatDependencyElement
+- AssemblyName: Assembly-CSharp
+  ClassName: InGame.Data.EnumElemental
+- AssemblyName: Assembly-CSharp
+  ClassName: InGame.Data.Item.ItemAbility
+- AssemblyName: Assembly-CSharp
+  ClassName: InGame.Data.Item.Weapon/WeaponType
+Assets:
+- Assets/ScriptableObject/Item/Weapon/Deep Forest/Spore Bow +1.asset
+- Assets/ScriptableObject/Item/Accessory/Deep Forest/Feather of King Parrot.asset
+- Assets/ScriptableObject/Item/Armor/Desert/Rock Helmet.asset
+- Assets/ScriptableObject/Item/Armor/Toxic Swamp/Toxic Plant Helmet +1.asset
+- Assets/ScriptableObject/Item/Armor/Frozen Shores/Ice Titan Gloves.asset
+- Assets/ScriptableObject/Item/Material/Christmas Map/Flying Deer Chip.asset
+- Assets/ScriptableObject/Item/Armor/Start Forest/Robe/Slime Breastplate.asset
+- Assets/ScriptableObject/Item/Weapon/Fairy Fields/Air Fairy Bow.asset
+- Assets/ScriptableObject/Item/Weapon/Ocean/Spheria Staff +1.asset
+- Assets/ScriptableObject/Item/Weapon/Deep Forest/Forest Staff.asset
+- Assets/ScriptableObject/Item/Weapon/General/Blossom Bow.asset
+- Assets/ScriptableObject/Item/Weapon/Beach/Turtle Golem Bow +1.asset
+- Assets/ScriptableObject/Item/Weapon/Fairy Fields/Fire Fairy Sword.asset
+- Assets/ScriptableObject/Item/Material/Fire Lord Cave/Fire Slivers.asset
+- Assets/ScriptableObject/Item/Armor/Hidden Cave A/Voidvod Glove +1.asset
+- Assets/ScriptableObject/Item/Armor/Deep Forest/Helmet/Parrot Hat +1.asset
+- Assets/ScriptableObject/Item/Armor/Fairy Fields/Hard/Air Elemental Gloves +1.asset
+- Assets/ScriptableObject/Item/Weapon/Beach/Shell Claw Bow +1.asset
+- Assets/ScriptableObject/Item/Weapon/General/Green Runed Bow.asset
+- Assets/ScriptableObject/Item/Armor/Fairy Fields/Air Elemental Helmet.asset
+- Assets/ScriptableObject/Item/Armor/Desert/Rock Boots.asset
+- Assets/ScriptableObject/Item/Accessory/Abyss/Great Fury of Armon.asset
+- Assets/ScriptableObject/Item/Armor/Deep Forest/Robe/Zeograth Breastplate +1.asset
+- Assets/ScriptableObject/Item/Armor/Fairy Fields/Hard/Air Elemental Helmet +1.asset
+- Assets/ScriptableObject/Item/Accessory/Fire Lord Cave/Elemental Key -Fire-.asset
+- Assets/ScriptableObject/Item/Armor/Fairy Fields/Hard/Air Fairy Armor +1.asset
+- Assets/ScriptableObject/Item/Armor/Start Forest/Glove/Slime Glove.asset
+- Assets/ScriptableObject/Item/Weapon/Fire Lord Cave/Fire Soul Sword.asset
+- Assets/ScriptableObject/Item/Armor/Dragon Cave/Tiamat Helm.asset
+- Assets/ScriptableObject/Item/Weapon/Fairy Fields/Air Elemental Sword.asset
+- Assets/ScriptableObject/Item/Weapon/Fairy Fields/Hard/Air Fairy Sword +1.asset
+- Assets/ScriptableObject/Item/Material/Fairy Fields/Hard/Essence of Fire +1.asset
+- Assets/ScriptableObject/Item/Weapon/Start Forest/Forest Bow.asset
+- Assets/ScriptableObject/Item/Accessory/Abyss/Ultimate Abyss Clock.asset
+- Assets/ScriptableObject/Item/Accessory/Abyss/Red Crystal.asset
+- Assets/ScriptableObject/Item/Armor/Fairy Fields/Hard/Water Fairy Helmet +1.asset
+- Assets/ScriptableObject/Item/Weapon/Twilight Forest/Ultimate Gemstone Sword.asset
+- Assets/ScriptableObject/Item/Accessory/Abyss/Soul Shield.asset
+- Assets/ScriptableObject/Item/Armor/Drop Rate Set/Helmet/Golden Cap.asset
+- Assets/ScriptableObject/Item/Armor/The Ancient/Ancient Glove.asset
+- Assets/ScriptableObject/Item/Weapon/Beach/Dark Star Staff.asset
+- Assets/ScriptableObject/Item/Armor/Fairy Fields/Hard/Water Elemental Helmet +1.asset
+- Assets/ScriptableObject/Item/Accessory/Abyss/Great Fury of Arman.asset
+- Assets/ScriptableObject/Item/Armor/Fire Lord Cave/Fire Lion Helmet.asset
+- Assets/ScriptableObject/Item/Accessory/General/Lucky Clover +2.asset
+- Assets/ScriptableObject/Item/Weapon/Frozen Shores/Absolute Ice Bow.asset
+- Assets/ScriptableObject/Item/Weapon/Fairy Fields/Air Fairy Sword.asset
+- Assets/ScriptableObject/Item/Accessory/General/Special Exp Book.asset
+- Assets/ScriptableObject/Item/Armor/Fairy Fields/Hard/Fire Fairy Armor +1.asset
+- Assets/ScriptableObject/Item/Weapon/Deep Forest/Dryad Bow +1.asset
+- Assets/ScriptableObject/Item/Accessory/General/INT Gem +2.asset
+- Assets/ScriptableObject/Item/Weapon/Fairy Fields/Hard/Fire Fairy Staff +1.asset
+- Assets/ScriptableObject/Item/Armor/Floating Castle/Wind Titan Armor.asset
+- Assets/ScriptableObject/Item/Armor/The Ancient/Ancient Helmet.asset
+- Assets/ScriptableObject/Item/Weapon/Ocean/Mermaid Axe.asset
+- Assets/ScriptableObject/Item/Material/Beach/Pelican Feather.asset
+- Assets/ScriptableObject/Item/Armor/Fairy Fields/Hard/Nature Fairy Boots +1.asset
+- Assets/ScriptableObject/Item/Weapon/Frozen Shores/Ice Golem Staff.asset
+- Assets/ScriptableObject/Item/Weapon/Deep Forest/Ice Mantis Blade +1.asset
+- Assets/ScriptableObject/Item/Accessory/Toxic Swamp/Toxic Pendant.asset
+- Assets/ScriptableObject/Item/Armor/Toxic Swamp/Toxic Plant Glove +1.asset
+- Assets/ScriptableObject/Item/Material/Beach/Scale of Karkinos.asset
+- Assets/ScriptableObject/Item/Weapon/Deep Forest/Witch Staff.asset
+- Assets/ScriptableObject/Item/Weapon/Frozen Shores/Ice Kindred Sword.asset
+- Assets/ScriptableObject/Item/Material/Beach/Red Emperor Essence.asset
+- Assets/ScriptableObject/Item/Weapon/Twilight Forest/Hard Stone Bow.asset
+- Assets/ScriptableObject/Item/Weapon/Ocean/Calamity Bow.asset
+- Assets/ScriptableObject/Item/Weapon/Ocean/Spheria Staff.asset
+- Assets/ScriptableObject/Item/Armor/The Ancient/Ancient Armor.asset
+- Assets/ScriptableObject/Item/Material/Beach/Water Turtle Soul.asset
+- Assets/ScriptableObject/Item/Material/Fairy Fields/Air Fairy Fragment.asset
+- Assets/ScriptableObject/Item/Weapon/Fairy Fields/Hard/Nature Elemental Staff +1.asset
+- Assets/ScriptableObject/Item/Material/Fairy Fields/Hard/Essence of Air +1.asset
+- Assets/ScriptableObject/Item/Accessory/Start Forest/Nature gem.asset
+- Assets/ScriptableObject/Item/Material/Fairy Fields/Essence of Air.asset
+- Assets/ScriptableObject/Item/Armor/Beach/Robe/Karkinos Breastplate.asset
+- Assets/ScriptableObject/Item/Material/Frozen Shores/Water Soul.asset
+- Assets/ScriptableObject/Item/Accessory/Deep Forest/Dryad Pendant.asset
+- Assets/ScriptableObject/Item/Weapon/Fire Lord Cave/Magma Staff.asset
+- Assets/ScriptableObject/Item/Armor/Deep Forest/Helmet/Ant Cap +1.asset
+- Assets/ScriptableObject/Item/Armor/Twilight Forest/Earth Taurus Armor.asset
+- Assets/ScriptableObject/Item/Accessory/General/STR Gem +2.asset
+- Assets/ScriptableObject/Item/Weapon/Ocean/Octi Bow +1.asset
+- Assets/ScriptableObject/Item/Material/Fairy Fields/Hard/Nature Fairy Fragment +1.asset
+- Assets/ScriptableObject/Item/Accessory/Twilight Forest/Nature Elemental Gem.asset
+- Assets/ScriptableObject/Item/Armor/Deep Forest/Greave/Dryads Shoes +1.asset
+- Assets/ScriptableObject/Item/Weapon/Deep Forest/Dark Crow Dagger.asset
+- Assets/ScriptableObject/Item/Material/Toxic Swamp/Acid Slime Core.asset
+- Assets/ScriptableObject/Item/Accessory/General/VIT Gem +2.asset
+- Assets/ScriptableObject/Item/Weapon/Fairy Fields/Hard/Water Elemental Staff +1.asset
+- Assets/ScriptableObject/Item/Armor/Fairy Fields/Air Fairy Helmet.asset
+- Assets/ScriptableObject/Item/Weapon/Deep Forest/Parrot King Bow +1.asset
+- Assets/ScriptableObject/Item/Accessory/General/EXP Book +1.asset
+- Assets/ScriptableObject/Item/Material/Ocean/Scale of Abismos +1.asset
+- Assets/ScriptableObject/Item/Accessory/Frozen Shores/Water Elemental Gem.asset
+- Assets/ScriptableObject/Item/Weapon/Deep Forest/Dark Crow Bow.asset
+- Assets/ScriptableObject/Item/Weapon/Dragon Cave/Cursed Tiamat Sword.asset
+- Assets/ScriptableObject/Item/Weapon/Dragon Cave/Leviathan Sword.asset
+- Assets/ScriptableObject/Item/Armor/Desert/Egypt Armor.asset
+- Assets/ScriptableObject/Item/Weapon/Deep Forest/Stone Bear Bow.asset
+- Assets/ScriptableObject/Item/Armor/Fairy Fields/Hard/Nature Fairy Helmet +1.asset
+- Assets/ScriptableObject/Item/Armor/Deep Forest/Greave/Frozen Step +1.asset
+- Assets/ScriptableObject/Item/Armor/Fairy Fields/Water Elemental Boots.asset
+- Assets/ScriptableObject/Item/Armor/Toxic Swamp/Toxic Plant Boots.asset
+- Assets/ScriptableObject/Item/Weapon/Start Forest/Dark Slimy Staff.asset
+- Assets/ScriptableObject/Item/Weapon/Fairy Fields/Air Fairy Staff.asset
+- Assets/ScriptableObject/Item/Weapon/Start Forest/Bamboo Sword.asset
+- Assets/ScriptableObject/Item/Accessory/General/DEX Gem.asset
+- Assets/ScriptableObject/Item/Material/Fire Lord Cave/Fire Soul.asset
+- Assets/ScriptableObject/Item/Armor/Ocean/Urmica Shoes +1.asset
+- Assets/ScriptableObject/Item/Armor/Floating Castle/Wind Lion Helmet.asset
+- Assets/ScriptableObject/Item/Armor/Hidden Cave A/Daidarabotchi Boots.asset
+- Assets/ScriptableObject/Item/Weapon/Fire Lord Cave/Magma Sword.asset
+- Assets/ScriptableObject/Item/Accessory/General/DEX Gem +2.asset
+- Assets/ScriptableObject/Item/Armor/Toxic Swamp/Toxic Plant Helmet.asset
+- Assets/ScriptableObject/Item/Weapon/Fire Lord Cave/Absolute Fire Staff.asset
+- Assets/ScriptableObject/Item/Weapon/Start Forest/Tree Sword.asset
+- Assets/ScriptableObject/Item/Armor/Deep Forest/Robe/Zeograth Breastplate.asset
+- Assets/ScriptableObject/Item/Weapon/Frozen Shores/Absolute Ice Staff.asset
+- Assets/ScriptableObject/Item/Armor/Fairy Fields/Water Elemental Helmet.asset
+- Assets/ScriptableObject/Item/Armor/Abyss/Aquos Helmet.asset
+- Assets/ScriptableObject/Item/Material/Christmas Map/Polar Bear Chip.asset
+- Assets/ScriptableObject/Item/Material/Far Forest/Stone Bear Piece.asset
+- Assets/ScriptableObject/Item/Weapon/The Ancient/Ancient Bow.asset
+- Assets/ScriptableObject/Item/Material/Floating Castle/Air Necklace Strap.asset
+- Assets/ScriptableObject/Item/Weapon/Twilight Forest/Hard Stone Sword.asset
+- Assets/ScriptableObject/Item/Accessory/Deep Forest/Petal of Dryad Queen +1.asset
+- Assets/ScriptableObject/Item/Material/Abyss/Electrical Energy +1.asset
+- Assets/ScriptableObject/Item/Weapon/Fairy Fields/Nature Elemental Sword.asset
+- Assets/ScriptableObject/Item/Accessory/General/INT Gem.asset
+- Assets/ScriptableObject/Item/Armor/Ocean/Mermaid Glove +1.asset
+- Assets/ScriptableObject/Item/Weapon/Deep Forest/Rose Sword +1.asset
+- Assets/ScriptableObject/Item/Weapon/Start Forest/Fairy Wand.asset
+- Assets/ScriptableObject/Item/Weapon/Fire Lord Cave/Fire Soul Bow.asset
+- Assets/ScriptableObject/Item/Armor/Deep Forest/Greave/Ant Shoes +1.asset
+- Assets/ScriptableObject/Item/Accessory/Hidden Cave/Rainbow Gem +1.asset
+- Assets/ScriptableObject/Item/Armor/Ocean/Jellyfish Helmet +1.asset
+- Assets/ScriptableObject/Item/Armor/Fairy Fields/Nature Elemental Armor.asset
+- Assets/ScriptableObject/Item/Armor/Fairy Fields/Nature Fairy Boots.asset
+- Assets/ScriptableObject/Item/Accessory/Deep Forest/Slime Core +1.asset
+- Assets/ScriptableObject/Item/Weapon/Fairy Fields/Water Elemental Sword.asset
+- Assets/ScriptableObject/Item/Armor/Twilight Forest/Earth Turtle Gloves.asset
+- Assets/ScriptableObject/Item/Weapon/Beach/Star Bow +1.asset
+- Assets/ScriptableObject/Item/Armor/Fairy Fields/Water Fairy Helmet.asset
+- Assets/ScriptableObject/Item/Armor/Hidden Cave A/Voidvod Glove.asset
+- Assets/ScriptableObject/Item/Weapon/Deep Forest/Toxic Bow.asset
+- Assets/ScriptableObject/Item/Weapon/Deep Forest/Fire Blade +1.asset
+- Assets/ScriptableObject/Item/Accessory/General/EXP Book.asset
+- Assets/ScriptableObject/Item/Armor/Dragon Cave/Cursed Hydra Armor.asset
+- Assets/ScriptableObject/Item/Accessory/Deep Forest/Soul of Kitsune +1.asset
+- Assets/ScriptableObject/Item/Accessory/Abyss/Rainbow Crystal.asset
+- Assets/ScriptableObject/Item/Accessory/General/END Gem +2.asset
+- Assets/ScriptableObject/Item/Armor/Floating Castle/Wind Lion Armor.asset
+- Assets/ScriptableObject/Item/Armor/Deep Forest/Robe/Dark Crow Armor.asset
+- Assets/ScriptableObject/Item/Accessory/Desert/Cactus Spike.asset
+- Assets/ScriptableObject/Item/Armor/Start Forest/Greave/Slime Boots.asset
+- Assets/ScriptableObject/Item/Armor/Deep Forest/Greave/Ant Shoes.asset
+- Assets/ScriptableObject/Item/Accessory/Abyss/Great Fury of Armes +1.asset
+- Assets/ScriptableObject/Item/Armor/Abyss/Swiftness of Abyss.asset
+- Assets/ScriptableObject/Item/Armor/Fire Lord Cave/Fire Titan Gloves.asset
+- Assets/ScriptableObject/Item/Weapon/Abyss/Hell Blade.asset
+- Assets/ScriptableObject/Item/Armor/Toxic Swamp/Cursed Skull Helmet.asset
+- Assets/ScriptableObject/Item/Weapon/Fairy Fields/Air Elemental Bow.asset
+- Assets/ScriptableObject/Item/Weapon/Dragon Cave/Emperior Hydra Staff.asset
+- Assets/ScriptableObject/Item/Armor/Frozen Shores/Ice Lion Helmet.asset
+- Assets/ScriptableObject/Item/Weapon/Dragon Cave/Kouryuu Bow.asset
+- Assets/ScriptableObject/Item/Weapon/Fairy Fields/Hard/Nature Fairy Bow +1.asset
+- Assets/ScriptableObject/Item/Armor/Fairy Fields/Air Elemental Gloves.asset
+- Assets/ScriptableObject/Item/Weapon/Hidden Cave A/Assassin Sword.asset
+- Assets/ScriptableObject/Item/Accessory/General/END Gem +4.asset
+- Assets/ScriptableObject/Item/Weapon/Fairy Fields/Nature Elemental Staff.asset
+- Assets/ScriptableObject/Item/Material/Abyss/Soul of Betafish +1.asset
+- Assets/ScriptableObject/Item/Weapon/Fairy Fields/Fire Elemental Bow.asset
+- Assets/ScriptableObject/Item/Weapon/General/Blue Runed Bow.asset
+- Assets/ScriptableObject/Item/Weapon/Fairy Fields/Hard/Nature Fairy Staff +1.asset
+- Assets/ScriptableObject/Item/Material/Fairy Fields/Hard/Essence of Water +1.asset
+- Assets/ScriptableObject/Item/Armor/Fairy Fields/Hard/Air Elemental Boots +1.asset
+- Assets/ScriptableObject/Item/Armor/Dragon Cave/Leviathan Glove.asset
+- Assets/ScriptableObject/Item/Armor/Fairy Fields/Fire Elemental Boots.asset
+- Assets/ScriptableObject/Item/Weapon/General/Magic Orb.asset
+- Assets/ScriptableObject/Item/Armor/Fairy Fields/Hard/Water Elemental Armor +1.asset
+- Assets/ScriptableObject/Item/Material/Ocean/Piece of Sea Horse.asset
+- Assets/ScriptableObject/Item/Armor/Deep Forest/Robe/Kitsune Armor.asset
+- Assets/ScriptableObject/Item/Armor/Drop Rate Set/Glove/Golden Glove.asset
+- Assets/ScriptableObject/Item/Accessory/Floating Castle/Air Elemental Gem.asset
+- Assets/ScriptableObject/Item/Accessory/General/Divine Material.asset
+- Assets/ScriptableObject/Item/Armor/Fairy Fields/Nature Elemental Helmet.asset
+- Assets/ScriptableObject/Item/Material/Frozen Shores/Water Slivers.asset
+- Assets/ScriptableObject/Item/Weapon/Deep Forest/Parrot King Bow.asset
+- Assets/ScriptableObject/Item/Material/Twilight Forest/Nature Necklace Strap.asset
+- Assets/ScriptableObject/Item/Weapon/Floating Castle/Pure Wind Sword.asset
+- Assets/ScriptableObject/Item/Accessory/Dragon Cave/Earth Pendant.asset
+- Assets/ScriptableObject/Item/Material/Fairy Fields/Hard/Fire Fairy Fragment +1.asset
+- Assets/ScriptableObject/Item/Weapon/Beach/Soul Destructor.asset
+- Assets/ScriptableObject/Item/Weapon/Deep Forest/Fire Wand.asset
+- Assets/ScriptableObject/Item/Armor/Fairy Fields/Water Fairy Boots.asset
+- Assets/ScriptableObject/Item/Accessory/Toxic Swamp/Skull Horn.asset
+- Assets/ScriptableObject/Item/Weapon/Abyss/Magic of Arman +1.asset
+- Assets/ScriptableObject/Item/Weapon/Deep Forest/Blue Seeker Bow +1.asset
+- Assets/ScriptableObject/Item/Weapon/Fairy Fields/Water Elemental Bow.asset
+- Assets/ScriptableObject/Item/Weapon/Floating Castle/Wind Bunny Staff.asset
+- Assets/ScriptableObject/Item/Armor/Fairy Fields/Nature Elemental Boots.asset
+- Assets/ScriptableObject/Item/Weapon/Hidden Cave A/Assassin Sword +1.asset
+- Assets/ScriptableObject/Item/Weapon/Desert/Swiftness of Rock bunny.asset
+- Assets/ScriptableObject/Item/Weapon/Desert/Luxury Staff.asset
+- Assets/ScriptableObject/Item/Accessory/General/INT Gem +1.asset
+- Assets/ScriptableObject/Item/Armor/Toxic Swamp/Toxic Plant Boots +1.asset
+- Assets/ScriptableObject/Item/Armor/Deep Forest/Helmet/Hydra Cap +1.asset
+- Assets/ScriptableObject/Item/Armor/Floating Castle/Air Guardian Gloves.asset
+- Assets/ScriptableObject/Item/Armor/Floating Castle/Wind Titan Helmet.asset
+- Assets/ScriptableObject/Item/Material/Fairy Fields/Hard/Air Fairy Fragment +1.asset
+- Assets/ScriptableObject/Item/Material/Floating Castle/Air Soul.asset
+- Assets/ScriptableObject/Item/Armor/Desert/Egypt Glove.asset
+- Assets/ScriptableObject/Item/Accessory/Abyss/Limit Breaker.asset
+- Assets/ScriptableObject/Item/Armor/Fairy Fields/Fire Fairy Gloves.asset
+- Assets/ScriptableObject/Item/Material/Christmas Map/Sled Goblin Chip.asset
+- Assets/ScriptableObject/Item/Armor/Deep Forest/Glove/Void Flame +1.asset
+- Assets/ScriptableObject/Item/Weapon/Beach/Spikestar Fragment.asset
+- Assets/ScriptableObject/Item/Weapon/Ocean/Abismos Trident.asset
+- Assets/ScriptableObject/Item/Armor/Deep Forest/Greave/Frozen Step.asset
+- Assets/ScriptableObject/Item/Weapon/Deep Forest/Fire Blade.asset
+- Assets/ScriptableObject/Item/Accessory/Dragon Cave/Hydra Core.asset
+- Assets/ScriptableObject/Item/Weapon/Beach/Spikestar Fragment +1.asset
+- Assets/ScriptableObject/Item/Material/Fairy Fields/Essence of Water.asset
+- Assets/ScriptableObject/Item/Armor/Hidden Cave A/Samurai Robe.asset
+- Assets/ScriptableObject/Item/Accessory/Beach/Yellow Crystal.asset
+- Assets/ScriptableObject/Item/Armor/Deep Forest/Helmet/Hydra Cap.asset
+- Assets/ScriptableObject/Item/Accessory/Beach/Golden Clover +2.asset
+- Assets/ScriptableObject/Item/Accessory/Start Forest/Flower Ring.asset
+- Assets/ScriptableObject/Item/Armor/Desert/Parasand Glove.asset
+- Assets/ScriptableObject/Item/Weapon/Fairy Fields/Water Elemental Staff.asset
+- Assets/ScriptableObject/Item/Weapon/Beach/Urchin Spike +1.asset
+- Assets/ScriptableObject/Item/Weapon/Frozen Shores/Ice Bull Bow.asset
+- Assets/ScriptableObject/Item/Accessory/Abyss/Great Fury of Arman +1.asset
+- Assets/ScriptableObject/Item/Material/Hidden/Toxic Crystal Bottle.asset
+- Assets/ScriptableObject/Item/Armor/Deep Forest/Glove/Zeograth Glove +1.asset
+- Assets/ScriptableObject/Item/Armor/Toxic Swamp/Toxic Plant Glove.asset
+- Assets/ScriptableObject/Item/Weapon/Fire Lord Cave/Absolute Fire Bow.asset
+- Assets/ScriptableObject/Item/Material/Dragon Cave/Core of Kouryuu.asset
+- Assets/ScriptableObject/Item/Armor/Beach/Helmet/Turtle Helmet.asset
+- Assets/ScriptableObject/Item/Weapon/Floating Castle/Pure Wind Bow.asset
+- Assets/ScriptableObject/Item/Armor/Desert/Parasand Barrier.asset
+- Assets/ScriptableObject/Item/Weapon/Frozen Shores/Pure Ice Sword.asset
+- Assets/ScriptableObject/Item/Armor/Fairy Fields/Air Fairy Gloves.asset
+- Assets/ScriptableObject/Item/Armor/Fairy Fields/Fire Fairy Helmet.asset
+- Assets/ScriptableObject/Item/Weapon/Fairy Fields/Hard/Water Elemental Sword +1.asset
+- Assets/ScriptableObject/Item/Weapon/Deep Forest/Ant Knight Sword.asset
+- Assets/ScriptableObject/Item/Weapon/Fairy Fields/Hard/Nature Elemental Sword +1.asset
+- Assets/ScriptableObject/Item/Accessory/General/INT Gem +3.asset
+- Assets/ScriptableObject/Item/Weapon/Fairy Fields/Water Fairy Sword.asset
+- Assets/ScriptableObject/Item/Weapon/Deep Forest/Ant Mage Wand +1.asset
+- Assets/ScriptableObject/Item/Material/Fairy Fields/Essence of Fire.asset
+- Assets/ScriptableObject/Item/Armor/Fairy Fields/Fire Fairy Armor.asset
+- Assets/ScriptableObject/Item/Armor/Twilight Forest/Gemstone Helmet.asset
+- Assets/ScriptableObject/Item/Armor/Fairy Fields/Hard/Fire Fairy Gloves +1.asset
+- Assets/ScriptableObject/Item/Weapon/Fairy Fields/Water Fairy Staff.asset
+- Assets/ScriptableObject/Item/Material/Start Forest/Arcane Material +1.asset
+- Assets/ScriptableObject/Item/Armor/Dragon Cave/Cursed Zalaras Gloves.asset
+- Assets/ScriptableObject/Item/Armor/Fairy Fields/Air Elemental Armor.asset
+- Assets/ScriptableObject/Item/Weapon/Frozen Shores/Pure Ice Bow.asset
+- Assets/ScriptableObject/Item/Armor/Deep Forest/Robe/Corrupted Breastplate.asset
+- Assets/ScriptableObject/Item/Weapon/Deep Forest/Dark Crow Dagger +1.asset
+- Assets/ScriptableObject/Item/Material/Hidden/Empty Crystal Bottle.asset
+- Assets/ScriptableObject/Item/Weapon/Fairy Fields/Hard/Fire Elemental Sword +1.asset
+- Assets/ScriptableObject/Item/Armor/Fairy Fields/Water Fairy Gloves.asset
+- Assets/ScriptableObject/Item/Material/Frozen Shores/Crystal Fragment.asset
+- Assets/ScriptableObject/Item/Armor/Fairy Fields/Hard/Nature Fairy Gloves +1.asset
+- Assets/ScriptableObject/Item/Material/Fairy Fields/Fire Fairy Fragment.asset
+- Assets/ScriptableObject/Item/Accessory/General/EXP Book +7.asset
+- Assets/ScriptableObject/Item/Material/Fairy Fields/Water Fairy Fragment.asset
+- Assets/ScriptableObject/Item/Weapon/Dragon Cave/Darkness Bow.asset
+- Assets/ScriptableObject/Item/Accessory/Twilight Forest/Elemental Key -NAture-.asset
+- Assets/ScriptableObject/Item/Material/Ocean/Scale of Mermaid.asset
+- Assets/ScriptableObject/Item/Armor/Fairy Fields/Hard/Fire Fairy Helmet +1.asset
+- Assets/ScriptableObject/Item/Weapon/Deep Forest/Toxic Staff.asset
+- Assets/ScriptableObject/Item/Weapon/Ocean/True Power of Mermaid.asset
+- Assets/ScriptableObject/Item/Weapon/Ocean/Mermaid Staff.asset
+- Assets/ScriptableObject/Item/Armor/Fairy Fields/Hard/Nature Elemental Helmet +1.asset
+- Assets/ScriptableObject/Item/Weapon/Deep Forest/Rose Sword.asset
+- Assets/ScriptableObject/Item/Weapon/General/Ordinary Sword.asset
+- Assets/ScriptableObject/Item/Material/Abyss/Hourglass.asset
+- Assets/ScriptableObject/Item/Accessory/Ocean/Rainbow Gem +3.asset
+- Assets/ScriptableObject/Item/Weapon/General/Superior Sword.asset
+- Assets/ScriptableObject/Item/Armor/Ocean/Mermaid Plate +1.asset
+- Assets/ScriptableObject/Item/Weapon/Fire Lord Cave/Absolute Fire Sword.asset
+- Assets/ScriptableObject/Item/Weapon/General/Sharp Axe.asset
+- Assets/ScriptableObject/Item/Weapon/Deep Forest/Dryad Staff.asset
+- Assets/ScriptableObject/Item/Weapon/Desert/Cursed Rock Staff.asset
+- Assets/ScriptableObject/Item/Weapon/Ocean/Octi Bow.asset
+- Assets/ScriptableObject/Item/Weapon/Ocean/Mermaid Sword.asset
+- Assets/ScriptableObject/Item/Armor/Ocean/Jellyfish Helmet.asset
+- Assets/ScriptableObject/Item/Accessory/Desert/Desert Pendant.asset
+- Assets/ScriptableObject/Item/Armor/Floating Castle/Wind Titan Gloves.asset
+- Assets/ScriptableObject/Item/Armor/Hidden Cave A/Golden Crown.asset
+- Assets/ScriptableObject/Item/Material/Fairy Fields/Hard/Water Fairy Fragment +1.asset
+- Assets/ScriptableObject/Item/Accessory/Frozen Shores/Water Necklace.asset
+- Assets/ScriptableObject/Item/Armor/Twilight Forest/Earth Turtle Boots.asset
+- Assets/ScriptableObject/Item/Material/Twilight Forest/Earth Slivers.asset
+- Assets/ScriptableObject/Item/Weapon/Abyss/Sword of Armes.asset
+- Assets/ScriptableObject/Item/Weapon/Fairy Fields/Hard/Air Elemental Staff +1.asset
+- Assets/ScriptableObject/Item/Accessory/General/END Gem +1.asset
+- Assets/ScriptableObject/Item/Accessory/General/VIT Gem +4.asset
+- Assets/ScriptableObject/Item/Accessory/General/VIT Gem +1.asset
+- Assets/ScriptableObject/Item/Weapon/Deep Forest/Dryad Bow.asset
+- Assets/ScriptableObject/Item/Weapon/Floating Castle/Air Soul Staff.asset
+- Assets/ScriptableObject/Item/Weapon/Toxic Swamp/Skull Sword.asset
+- Assets/ScriptableObject/Item/Material/Christmas Map/Ginger Bomber Chip.asset
+- Assets/ScriptableObject/Item/Armor/Fairy Fields/Hard/Fire Elemental Helmet +1.asset
+- Assets/ScriptableObject/Item/Armor/Deep Forest/Robe/Kitsune Armor +1.asset
+- Assets/ScriptableObject/Item/Weapon/Fairy Fields/Hard/Fire Fairy Sword +1.asset
+- Assets/ScriptableObject/Item/Weapon/Beach/Star Bow.asset
+- Assets/ScriptableObject/Item/Armor/Deep Forest/Robe/Dryads Clothes +1.asset
+- Assets/ScriptableObject/Item/Weapon/Abyss/Eye of Armon.asset
+- Assets/ScriptableObject/Item/Armor/Fairy Fields/Nature Fairy Gloves.asset
+- Assets/ScriptableObject/Item/Weapon/Fairy Fields/Nature Fairy Bow.asset
+- Assets/ScriptableObject/Item/Accessory/Deep Forest/Forest Pendant +1.asset
+- Assets/ScriptableObject/Item/Armor/Hidden Cave A/Samurai Robe +1.asset
+- Assets/ScriptableObject/Item/Armor/Start Forest/Greave/Root Boots.asset
+- Assets/ScriptableObject/Item/Accessory/General/DEX Gem +3.asset
+- Assets/ScriptableObject/Item/Weapon/Hidden Cave A/Dagon Wand +1.asset
+- Assets/ScriptableObject/Item/Armor/Start Forest/Helmet/Mushroom Cap.asset
+- Assets/ScriptableObject/Item/Accessory/Deep Forest/Petal of Dryad Queen.asset
+- Assets/ScriptableObject/Item/Weapon/Beach/Kraken Staff.asset
+- Assets/ScriptableObject/Item/Material/Start Forest/Arcane Material.asset
+- Assets/ScriptableObject/Item/Armor/Fairy Fields/Air Fairy Armor.asset
+- Assets/ScriptableObject/Item/Weapon/Floating Castle/Pure Wind Staff.asset
+- Assets/ScriptableObject/Item/Weapon/Start Forest/Wooden Bow.asset
+- Assets/ScriptableObject/Item/Accessory/General/Lucky Clover.asset
+- Assets/ScriptableObject/Item/Material/Fairy Fields/Hard/Essence of Nature +1.asset
+- Assets/ScriptableObject/Item/Weapon/Deep Forest/Dark Crow Bow +1.asset
+- Assets/ScriptableObject/Item/Accessory/Deep Forest/Golden Clover.asset
+- Assets/ScriptableObject/Item/Accessory/Hidden Cave/Rainbow Gem +2.asset
+- Assets/ScriptableObject/Item/Weapon/Fairy Fields/Hard/Air Elemental Bow +1.asset
+- Assets/ScriptableObject/Item/Armor/Fairy Fields/Hard/Nature Elemental Boots +1.asset
+- Assets/ScriptableObject/Item/Material/Beach/Golden Egg.asset
+- Assets/ScriptableObject/Item/Material/Ocean/Essence of Octi.asset
+- Assets/ScriptableObject/Item/Armor/Fairy Fields/Hard/Water Fairy Gloves +1.asset
+- Assets/ScriptableObject/Item/Armor/Start Forest/Glove/Arcane Glove.asset
+- Assets/ScriptableObject/Item/Weapon/Floating Castle/Air Soul Bow.asset
+- Assets/ScriptableObject/Item/Armor/Hidden Cave A/Daidarabotchi Boots +1.asset
+- Assets/ScriptableObject/Item/Weapon/Fairy Fields/Fire Elemental Sword.asset
+- Assets/ScriptableObject/Item/Armor/Fairy Fields/Air Elemental Boots.asset
+- Assets/ScriptableObject/Item/Armor/Deep Forest/Helmet/Parrot Hat.asset
+- Assets/ScriptableObject/Item/Weapon/Fairy Fields/Hard/Air Fairy Bow +1.asset
+- Assets/ScriptableObject/Item/Accessory/General/STR Gem +1.asset
+- Assets/ScriptableObject/Item/Weapon/Ocean/Abismos Trident +1.asset
+- Assets/ScriptableObject/Item/Accessory/Abyss/Blue Crystal.asset
+- Assets/ScriptableObject/Item/Weapon/Fire Lord Cave/Pure Fire Bow.asset
+- Assets/ScriptableObject/Item/Accessory/Start Forest/Golden Clover +1.asset
+- Assets/ScriptableObject/Item/Weapon/Desert/Desert Spike Sword.asset
+- Assets/ScriptableObject/Item/Weapon/Beach/Urchin Spike.asset
+- Assets/ScriptableObject/Item/Armor/Deep Forest/Glove/Dryads Glove +1.asset
+- Assets/ScriptableObject/Item/Weapon/Fairy Fields/Hard/Fire Elemental Bow +1.asset
+- Assets/ScriptableObject/Item/Armor/Deep Forest/Glove/Dryads Glove.asset
+- Assets/ScriptableObject/Item/Weapon/General/Dark Sword.asset
+- Assets/ScriptableObject/Item/Material/Hidden/Sacred Crystal Bottle.asset
+- Assets/ScriptableObject/Item/Weapon/General/Gold Runed Bow.asset
+- Assets/ScriptableObject/Item/Armor/Deep Forest/Robe/Dark Crow Armor +1.asset
+- Assets/ScriptableObject/Item/Weapon/Twilight Forest/Ultimate Gemstone Staff.asset
+- Assets/ScriptableObject/Item/Weapon/Deep Forest/Toxic Staff +1.asset
+- Assets/ScriptableObject/Item/Weapon/Deep Forest/Ice Mantis Bow +1.asset
+- Assets/ScriptableObject/Item/Weapon/Floating Castle/Absolute Air Bow.asset
+- Assets/ScriptableObject/Item/Weapon/Fairy Fields/Hard/Fire Elemental Staff +1.asset
+- Assets/ScriptableObject/Item/Accessory/Floating Castle/Air Necklace.asset
+- Assets/ScriptableObject/Item/Weapon/General/Blossom Sword.asset
+- Assets/ScriptableObject/Item/Material/Abyss/Piece of Astral Lich.asset
+- Assets/ScriptableObject/Item/Armor/Fairy Fields/Water Elemental Armor.asset
+- Assets/ScriptableObject/Item/Armor/Ocean/Urmica Shoes.asset
+- Assets/ScriptableObject/Item/Material/Fairy Fields/Angel fragment.asset
+- Assets/ScriptableObject/Item/Armor/Hidden Cave A/Golden Crown +1.asset
+- Assets/ScriptableObject/Item/Weapon/Deep Forest/Spore Bow.asset
+- Assets/ScriptableObject/Item/Material/Desert/Ruby of Crocodile.asset
+- Assets/ScriptableObject/Item/Material/Far Forest/Leaf of Dryad.asset
+- Assets/ScriptableObject/Item/Weapon/Fairy Fields/Hard/Water Fairy Staff +1.asset
+- Assets/ScriptableObject/Item/Armor/Drop Rate Set/Robe/Golden Robe.asset
+- Assets/ScriptableObject/Item/Weapon/Twilight Forest/Earth Drake Staff.asset
+- Assets/ScriptableObject/Item/Material/Ocean/Cursed Mermaid Ring.asset
+- Assets/ScriptableObject/Item/Accessory/Abyss/Great Fury of Armes.asset
+- Assets/ScriptableObject/Item/Armor/Floating Castle/Air Guardian Boots.asset
+- Assets/ScriptableObject/Item/Weapon/Hidden Cave A/Behemoth Bow +1.asset
+- Assets/ScriptableObject/Item/Material/Fairy Fields/Essence of Nature.asset
+- Assets/ScriptableObject/Item/Weapon/Twilight Forest/Plant Sword.asset
+- Assets/ScriptableObject/Item/Armor/Fairy Fields/Hard/Water Elemental Boots +1.asset
+- Assets/ScriptableObject/Item/Weapon/General/Blossom Staff.asset
+- Assets/ScriptableObject/Item/Weapon/General/Ordinary Wand.asset
+- Assets/ScriptableObject/Item/Material/Far Forest/Silver Avian Feather.asset
+- Assets/ScriptableObject/Item/Material/Fire Lord Cave/Fire Necklace Strap.asset
+- Assets/ScriptableObject/Item/Weapon/Dragon Cave/Kouryuu Staff.asset
+- Assets/ScriptableObject/Item/Weapon/Abyss/Magic of Arman.asset
+- Assets/ScriptableObject/Item/Armor/Dragon Cave/Dragon Glove.asset
+- Assets/ScriptableObject/Item/Weapon/Hidden Cave A/Dagon Wand.asset
+- Assets/ScriptableObject/Item/Weapon/Deep Forest/Ant Mage Wand.asset
+- Assets/ScriptableObject/Item/Accessory/Toxic Swamp/Maneater eye.asset
+- Assets/ScriptableObject/Item/Accessory/General/VIT Gem +3.asset
+- Assets/ScriptableObject/Item/Weapon/Floating Castle/Absolute Air Sword.asset
+- Assets/ScriptableObject/Item/Weapon/Hidden Cave A/Behemoth Bow.asset
+- Assets/ScriptableObject/Item/Armor/Fairy Fields/Hard/Fire Elemental Boots +1.asset
+- Assets/ScriptableObject/Item/Armor/Start Forest/Robe/Wooden Breastplate.asset
+- Assets/ScriptableObject/Item/Accessory/General/EXP Book +3.asset
+- Assets/ScriptableObject/Item/Armor/Toxic Swamp/Toxic Plant Breastplate.asset
+- Assets/ScriptableObject/Item/Accessory/Infinite Amulet.asset
+- Assets/ScriptableObject/Item/Weapon/Twilight Forest/Ultimate Gemstone Bow.asset
+- Assets/ScriptableObject/Item/Armor/Fire Lord Cave/Fire Lion Armor.asset
+- Assets/ScriptableObject/Item/Material/Twilight Forest/Dark Nature Gem.asset
+- Assets/ScriptableObject/Item/Armor/Fairy Fields/Hard/Air Fairy Gloves +1.asset
+- Assets/ScriptableObject/Item/Material/Christmas Map/Christmas Invitation.asset
+- Assets/ScriptableObject/Item/Armor/Start Forest/Helmet/Corrupted Cap.asset
+- Assets/ScriptableObject/Item/Weapon/Fairy Fields/Fire Elemental Staff.asset
+- Assets/ScriptableObject/Item/Accessory/Fire Lord Cave/Fire Necklace.asset
+- Assets/ScriptableObject/Item/Material/Hidden/Earth Crystal Bottle.asset
+- Assets/ScriptableObject/Item/Accessory/Ocean/Rainbow Gem +4.asset
+- Assets/ScriptableObject/Item/Accessory/General/EXP Book +8.asset
+- Assets/ScriptableObject/Item/Accessory/Beach/Wrath Mirror.asset
+- Assets/ScriptableObject/Item/Armor/Fairy Fields/Fire Elemental Armor.asset
+- Assets/ScriptableObject/Item/Accessory/General/END Gem +3.asset
+- Assets/ScriptableObject/Item/Weapon/Abyss/Sword of Armes +1.asset
+- Assets/ScriptableObject/Item/Weapon/Fairy Fields/Hard/Air Fairy Staff +1.asset
+- Assets/ScriptableObject/Item/Weapon/Beach/Red Lobster Sword.asset
+- Assets/ScriptableObject/Item/Weapon/Abyss/Deep Abyss Bow.asset
+- Assets/ScriptableObject/Item/Weapon/Abyss/Time of Khronos.asset
+- Assets/ScriptableObject/Item/Armor/Fairy Fields/Water Elemental Gloves.asset
+- Assets/ScriptableObject/Item/Weapon/Hidden Cave A/Soul Extractor.asset
+- Assets/ScriptableObject/Item/Material/Ocean/Scale of Abismos.asset
+- Assets/ScriptableObject/Item/Armor/Ocean/Mermaid Plate.asset
+- Assets/ScriptableObject/Item/Material/Start Forest/Corrupted gem.asset
+- Assets/ScriptableObject/Item/Weapon/Start Forest/Flower Mace.asset
+- Assets/ScriptableObject/Item/Weapon/Frozen Shores/Water Soul Staff.asset
+- Assets/ScriptableObject/Item/Accessory/Twilight Forest/Nature Necklace.asset
+- Assets/ScriptableObject/Item/Armor/Desert/Cursed Rock Helmet.asset
+- Assets/ScriptableObject/Item/Armor/Deep Forest/Glove/Void Flame.asset
+- Assets/ScriptableObject/Item/Armor/Start Forest/Helmet/Slime Helmet.asset
+- Assets/ScriptableObject/Item/Weapon/Fairy Fields/Hard/Water Elemental Bow +1.asset
+- Assets/ScriptableObject/Item/Weapon/Fire Lord Cave/Pure Fire Sword.asset
+- Assets/ScriptableObject/Item/Material/Frozen Shores/Water Necklace Strap.asset
+- Assets/ScriptableObject/Item/Weapon/Fire Lord Cave/Magma Bow.asset
+- Assets/ScriptableObject/Item/Armor/Dragon Cave/Tiamat Boots.asset
+- Assets/ScriptableObject/Item/Accessory/Ocean/Symbol of Collection.asset
+- Assets/ScriptableObject/Item/Armor/Deep Forest/Glove/Turtle Glove.asset
+- Assets/ScriptableObject/Item/Armor/Ocean/Aqua Armor.asset
+- Assets/ScriptableObject/Item/Weapon/Start Forest/Shroomy Bow.asset
+- Assets/ScriptableObject/Item/Material/Ocean/Shark Fin.asset
+- Assets/ScriptableObject/Item/Weapon/Deep Forest/Dryad Staff +1.asset
+- Assets/ScriptableObject/Item/Armor/Deep Forest/Robe/Dryads Clothes.asset
+- Assets/ScriptableObject/Item/Armor/Fairy Fields/Hard/Water Elemental Gloves +1.asset
+- Assets/ScriptableObject/Item/Armor/Fire Lord Cave/Fire Turtle Boots.asset
+- Assets/ScriptableObject/Item/Weapon/Ocean/Calamity Bow +1.asset
+- Assets/ScriptableObject/Item/Armor/Dragon Cave/Dragon Robe.asset
+- Assets/ScriptableObject/Item/Material/Ocean/Jellyfish Tentacle +1.asset
+- Assets/ScriptableObject/Item/Weapon/Deep Forest/Ice Mantis Bow.asset
+- Assets/ScriptableObject/Item/Armor/Desert/Cursed Sand Gloves.asset
+- Assets/ScriptableObject/Item/Armor/Deep Forest/Helmet/Ant Cap.asset
+- Assets/ScriptableObject/Item/Weapon/Floating Castle/Absolute Air Staff.asset
+- Assets/ScriptableObject/Item/Armor/Desert/Egypt Boots.asset
+- Assets/ScriptableObject/Item/Accessory/Deep Forest/Critical Dice.asset
+- Assets/ScriptableObject/Item/Weapon/Frozen Shores/Water Soul Sword.asset
+- Assets/ScriptableObject/Item/Weapon/Twilight Forest/Hard Stone Staff.asset
+- Assets/ScriptableObject/Item/Armor/Deep Forest/Glove/Zeograth Glove.asset
+- Assets/ScriptableObject/Item/Accessory/General/EXP Book +2.asset
+- Assets/ScriptableObject/Item/Armor/Deep Forest/Greave/Wolfbull Boots.asset
+- Assets/ScriptableObject/Item/Accessory/General/Lucky Clover +1.asset
+- Assets/ScriptableObject/Item/Weapon/The Ancient/Ancient Sword.asset
+- Assets/ScriptableObject/Item/Material/Dragon Cave/Leviathan Scale.asset
+- Assets/ScriptableObject/Item/Armor/Fairy Fields/Water Fairy Armor.asset
+- Assets/ScriptableObject/Item/Armor/Fairy Fields/Fire Elemental Gloves.asset
+- Assets/ScriptableObject/Item/Armor/Ocean/Shark Shoes.asset
+- Assets/ScriptableObject/Item/Weapon/Fairy Fields/Fire Fairy Bow.asset
+- Assets/ScriptableObject/Item/Armor/Abyss/Destruction of Big Fish.asset
+- Assets/ScriptableObject/Item/Material/Frozen Shores/Dark Water Gem.asset
+- Assets/ScriptableObject/Item/Weapon/Frozen Shores/Pure Ice Staff.asset
+- Assets/ScriptableObject/Item/Weapon/Abyss/Anger of Big Fish.asset
+- Assets/ScriptableObject/Item/Armor/Toxic Swamp/Toxic Plant Breastplate +1.asset
+- Assets/ScriptableObject/Item/Accessory/Beach/Turtle Golem Pendant.asset
+- Assets/ScriptableObject/Item/Armor/Twilight Forest/Gemstone Gloves.asset
+- Assets/ScriptableObject/Item/Weapon/Frozen Shores/Water Soul Bow.asset
+- Assets/ScriptableObject/Item/Accessory/Dragon Cave/Dark Dragon Core.asset
+- Assets/ScriptableObject/Item/Weapon/Beach/Green Lobster Bow.asset
+- Assets/ScriptableObject/Item/Armor/Deep Forest/Greave/Bear Leather Shoes.asset
+- Assets/ScriptableObject/Item/Weapon/Deep Forest/Dryad Scythe +1.asset
+- Assets/ScriptableObject/Item/Armor/Dragon Cave/Cursed Zalaras Boots.asset
+- Assets/ScriptableObject/Item/Armor/Fairy Fields/Hard/Water Fairy Boots +1.asset
+- Assets/ScriptableObject/Item/Armor/Beach/Glove/Emperor Crab Glove.asset
+- Assets/ScriptableObject/Item/Armor/Dragon Cave/Leviathan Helm.asset
+- Assets/ScriptableObject/Item/Material/Beach/Sea Beach Star.asset
+- Assets/ScriptableObject/Item/Armor/Fire Lord Cave/Fire Titan Boots.asset
+- Assets/ScriptableObject/Item/Accessory/Ocean/Mermaid Ring.asset
+- Assets/ScriptableObject/Item/Armor/Frozen Shores/Ice Titan Helmet.asset
+- Assets/ScriptableObject/Item/Armor/Fire Lord Cave/Fire Titan Helmet.asset
+- Assets/ScriptableObject/Item/Weapon/Fire Lord Cave/Pure Fire Staff.asset
+- Assets/ScriptableObject/Item/Weapon/Fairy Fields/Hard/Water Fairy Sword +1.asset
+- Assets/ScriptableObject/Item/Material/Floating Castle/Dark Air Gem.asset
+- Assets/ScriptableObject/Item/Weapon/Twilight Forest/Plant Bow.asset
+- Assets/ScriptableObject/Item/Weapon/Frozen Shores/Absolute Ice Sword.asset
+- Assets/ScriptableObject/Item/Weapon/General/Sharp Spear.asset
+- Assets/ScriptableObject/Item/Weapon/Deep Forest/Dryad Scythe.asset
+- Assets/ScriptableObject/Item/Accessory/Fairy Fields/Holy Necklace.asset
+- Assets/ScriptableObject/Item/Armor/Beach/Greave/Sea Shrimp Shoes.asset
+- Assets/ScriptableObject/Item/Armor/Desert/Egypt Helm.asset
+- Assets/ScriptableObject/Item/Weapon/Fairy Fields/Fire Fairy Staff.asset
+- Assets/ScriptableObject/Item/Weapon/General/Ordinary Bow.asset
+- Assets/ScriptableObject/Item/Accessory/Deep Forest/Rainbow Gem.asset
+- Assets/ScriptableObject/Item/Weapon/Twilight Forest/Earth Drake Bow.asset
+- Assets/ScriptableObject/Item/Armor/Desert/Cursed Rock Armor.asset
+- Assets/ScriptableObject/Item/Armor/Start Forest/Glove/Fairy Glove.asset
+- Assets/ScriptableObject/Item/Weapon/Fairy Fields/Hard/Air Elemental Sword +1.asset
+- Assets/ScriptableObject/Item/Armor/The Ancient/Ancient Boots.asset
+- Assets/ScriptableObject/Item/Armor/Dragon Cave/Leviathan Robe.asset
+- Assets/ScriptableObject/Item/Armor/Drop Rate Set/Greave/Golden Shoes.asset
+- Assets/ScriptableObject/Item/Accessory/Start Forest/Green Crystal.asset
+- Assets/ScriptableObject/Item/Armor/Deep Forest/Helmet/Dryads Horn.asset
+- Assets/ScriptableObject/Item/Weapon/Deep Forest/Ice Mantis Blade.asset
+- Assets/ScriptableObject/Item/Weapon/Deep Forest/Blue Seeker Bow.asset
+- Assets/ScriptableObject/Item/Accessory/General/EXP Book +6.asset
+- Assets/ScriptableObject/Item/Weapon/Abyss/Abyss Soul Blade.asset
+- Assets/ScriptableObject/Item/Armor/Fire Lord Cave/Fire Turtle Gloves.asset
+- Assets/ScriptableObject/Item/Weapon/Twilight Forest/Earth Drake Sword.asset
+- Assets/ScriptableObject/Item/Armor/Twilight Forest/Gemstone Boots.asset
+- Assets/ScriptableObject/Item/Accessory/General/VIT Gem.asset
+- Assets/ScriptableObject/Item/Weapon/Fairy Fields/Hard/Water Fairy Bow +1.asset
+- Assets/ScriptableObject/Item/Material/Ocean/Horn of Urmica.asset
+- Assets/ScriptableObject/Item/Weapon/Deep Forest/Fire Wand +1.asset
+- Assets/ScriptableObject/Item/Armor/Ocean/Mermaid Glove.asset
+- Assets/ScriptableObject/Item/Armor/Fairy Fields/Fire Elemental Helmet.asset
+- Assets/ScriptableObject/Item/Weapon/Fairy Fields/Nature Fairy Sword.asset
+- Assets/ScriptableObject/Item/Weapon/Floating Castle/Air Soul Sword.asset
+- Assets/ScriptableObject/Item/Accessory/General/STR Gem.asset
+- Assets/ScriptableObject/Item/Armor/Toxic Swamp/Cursed Toxic Gloves.asset
+- Assets/ScriptableObject/Item/Weapon/Fairy Fields/Hard/Nature Fairy Sword +1.asset
+- Assets/ScriptableObject/Item/Material/Abyss/Electrical Energy.asset
+- Assets/ScriptableObject/Item/Weapon/The Ancient/Ancient Staff.asset
+- Assets/ScriptableObject/Item/Weapon/Toxic Swamp/Maneater Wand.asset
+- Assets/ScriptableObject/Item/Accessory/Frozen Shores/Elemental Key -Water-.asset
+- Assets/ScriptableObject/Item/Weapon/Fairy Fields/Hard/Fire Fairy Bow +1.asset
+- Assets/ScriptableObject/Item/Material/Beach/Blue Emperor Essence.asset
+- Assets/ScriptableObject/Item/Weapon/Deep Forest/Forest Staff +1.asset
+- Assets/ScriptableObject/Item/Accessory/Deep Forest/Feather of King Parrot +1.asset
+- Assets/ScriptableObject/Item/Armor/Fairy Fields/Nature Elemental Gloves.asset
+- Assets/ScriptableObject/Item/Armor/Frozen Shores/Ice Turtle Gloves.asset
+- Assets/ScriptableObject/Item/Material/Christmas Map/Scythe Penguin Chip.asset
+- Assets/ScriptableObject/Item/Weapon/Ocean/Calamity of Sea.asset
+- Assets/ScriptableObject/Item/Weapon/Beach/Dark Star Staff +1.asset
+- Assets/ScriptableObject/Item/Weapon/Fairy Fields/Hard/Nature Elemental Bow +1.asset
+- Assets/ScriptableObject/Item/Material/Twilight Forest/Nature Soul.asset
+- Assets/ScriptableObject/Item/Armor/Toxic Swamp/Cursed Toxic Boots.asset
+- Assets/ScriptableObject/Item/Accessory/Deep Forest/Forest Pendant.asset
+- Assets/ScriptableObject/Item/Material/Far Forest/Leaf of Dryad +1.asset
+- Assets/ScriptableObject/Item/Armor/Abyss/Barrior of Khronos.asset
+- Assets/ScriptableObject/Item/Armor/Toxic Swamp/Cursed Skull Armor.asset
+- Assets/ScriptableObject/Item/Armor/Fairy Fields/Hard/Nature Elemental Armor +1.asset
+- Assets/ScriptableObject/Item/Material/Abyss/Abyss Stone.asset
+- Assets/ScriptableObject/Item/Armor/Fairy Fields/Hard/Nature Elemental Gloves +1.asset
+- Assets/ScriptableObject/Item/Armor/Fairy Fields/Hard/Fire Fairy Boots +1.asset
+- Assets/ScriptableObject/Item/Weapon/General/Dark Wand.asset
+- Assets/ScriptableObject/Item/Armor/Frozen Shores/Ice Turtle Boots.asset
+- Assets/ScriptableObject/Item/Armor/Deep Forest/Greave/Bear Leather Shoes +1.asset
+- Assets/ScriptableObject/Item/Weapon/Beach/Star Shell Wand +1.asset
+- Assets/ScriptableObject/Item/Weapon/Fairy Fields/Nature Elemental Bow.asset
+- Assets/ScriptableObject/Item/Material/Fairy Fields/Nature Fairy Fragment.asset
+- Assets/ScriptableObject/Item/Armor/Deep Forest/Helmet/Dryads Horn +1.asset
+- Assets/ScriptableObject/Item/Material/Ocean/Horn of Urmica +1.asset
+- Assets/ScriptableObject/Item/Accessory/General/EXP Book +5.asset
+- Assets/ScriptableObject/Item/Armor/Frozen Shores/Ice Titan Boots.asset
+- Assets/ScriptableObject/Item/Armor/Twilight Forest/Earth Taurus Helmet.asset
+- Assets/ScriptableObject/Item/Armor/Dragon Cave/Cursed Hydra Helmet.asset
+- Assets/ScriptableObject/Item/Material/Ocean/Jellyfish Tentacle.asset
+- Assets/ScriptableObject/Item/Armor/Fairy Fields/Air Fairy Boots.asset
+- Assets/ScriptableObject/Item/Accessory/Fire Lord Cave/Fire Elemental Gem.asset
+- Assets/ScriptableObject/Item/Weapon/Fairy Fields/Nature Fairy Staff.asset
+- Assets/ScriptableObject/Item/Weapon/Beach/Turtle Golem Bow.asset
+- Assets/ScriptableObject/Item/Armor/Fairy Fields/Hard/Fire Elemental Armor +1.asset
+- Assets/ScriptableObject/Item/Accessory/Deep Forest/Soul of Kitsune.asset
+- Assets/ScriptableObject/Item/Weapon/Floating Castle/Wind Harpy Bow.asset
+- Assets/ScriptableObject/Item/Weapon/Deep Forest/Ant Knight Sword +1.asset
+- Assets/ScriptableObject/Item/Armor/Fairy Fields/Hard/Air Elemental Armor +1.asset
+- Assets/ScriptableObject/Item/Accessory/General/DEX Gem +1.asset
+- Assets/ScriptableObject/Item/Weapon/Abyss/Deep Abyss Staff.asset
+- Assets/ScriptableObject/Item/Weapon/Fairy Fields/Water Fairy Bow.asset
+- Assets/ScriptableObject/Item/Armor/Twilight Forest/Gemstone Armor.asset
+- Assets/ScriptableObject/Item/Weapon/Toxic Swamp/Acid Slime Bow.asset
+- Assets/ScriptableObject/Item/Armor/Fairy Fields/Hard/Water Fairy Armor +1.asset
+- Assets/ScriptableObject/Item/Weapon/General/Golden Sword.asset
+- Assets/ScriptableObject/Item/Weapon/General/Red Wand.asset
+- Assets/ScriptableObject/Item/Accessory/Floating Castle/Elemental Key -Air-.asset
+- Assets/ScriptableObject/Item/Material/Abyss/Piece of Astral Lich +1.asset
+- Assets/ScriptableObject/Item/Weapon/Beach/Blue Lobster Wand.asset
+- Assets/ScriptableObject/Item/Armor/Fairy Fields/Hard/Air Fairy Helmet +1.asset
+- Assets/ScriptableObject/Item/Armor/Desert/Cursed Sand Boots.asset
+- Assets/ScriptableObject/Item/Armor/Fairy Fields/Hard/Air Fairy Boots +1.asset
+- Assets/ScriptableObject/Item/Accessory/Start Forest/Slime Core.asset
+- Assets/ScriptableObject/Item/Accessory/Abyss/Abyss Clock.asset
+- Assets/ScriptableObject/Item/Weapon/General/Dark Bow.asset
+- Assets/ScriptableObject/Item/Material/Beach/Green Emperor Essence.asset
+- Assets/ScriptableObject/Item/Accessory/Abyss/Abyss Clock +1.asset
+- Assets/ScriptableObject/Item/Armor/Dragon Cave/Leviathan Boots.asset
+- Assets/ScriptableObject/Item/Armor/Abyss/Mutant Helmet.asset
+- Assets/ScriptableObject/Item/Armor/Floating Castle/Wind Titan Boots.asset
+- Assets/ScriptableObject/Item/Armor/Frozen Shores/Ice Lion Armor.asset
+- Assets/ScriptableObject/Item/Armor/Fairy Fields/Fire Fairy Boots.asset
+- Assets/ScriptableObject/Item/Weapon/Twilight Forest/Plant Staff.asset
+- Assets/ScriptableObject/Item/Armor/Fairy Fields/Nature Fairy Armor.asset
+- Assets/ScriptableObject/Item/Accessory/Abyss/Great Fury of Armon +1.asset
+- Assets/ScriptableObject/Item/Armor/Fairy Fields/Hard/Nature Fairy Armor +1.asset
+- Assets/ScriptableObject/Item/Weapon/Fairy Fields/Air Elemental Staff.asset
+- Assets/ScriptableObject/Item/Armor/Deep Forest/Glove/Turtle Glove +1.asset
+- Assets/ScriptableObject/Item/Material/Hidden/Sand Crystal Bottle.asset
+- Assets/ScriptableObject/Item/Weapon/Floating Castle/Wind Mantis Sword.asset
+- Assets/ScriptableObject/Item/Armor/Fire Lord Cave/Fire Titan Armor.asset
+- Assets/ScriptableObject/Item/Weapon/Beach/Shell Claw Bow.asset
+- Assets/ScriptableObject/Item/Weapon/Beach/Star Shell Wand.asset
+- Assets/ScriptableObject/Item/Material/Christmas Map/Darkness Claus Chip.asset
+- Assets/ScriptableObject/Item/Material/Fire Lord Cave/Dark Fire Gem.asset
+- Assets/ScriptableObject/Item/Accessory/Desert/Rock Bunny Tail.asset
+- Assets/ScriptableObject/Item/Material/Floating Castle/Wind Slivers.asset
+- Assets/ScriptableObject/Item/Armor/Deep Forest/Greave/Dryads Shoes.asset
+- Assets/ScriptableObject/Item/Armor/Frozen Shores/Ice Titan Armor.asset
+- Assets/ScriptableObject/Item/Weapon/Deep Forest/Ant Archer Bow +1.asset
+- Assets/ScriptableObject/Item/Weapon/Fire Lord Cave/Fire Soul Staff.asset
+- Assets/ScriptableObject/Item/Accessory/Abyss/Dark Blue Crystal.asset
+- Assets/ScriptableObject/Item/Weapon/Toxic Swamp/Cursed Toxic Mushroom Bow.asset
+- Assets/ScriptableObject/Item/Weapon/Deep Forest/Toxic Bow +1.asset
+- Assets/ScriptableObject/Item/Weapon/Deep Forest/Ant Archer Bow.asset
+- Assets/ScriptableObject/Item/Accessory/Desert/Hieracosphinx Chocker.asset
+- Assets/ScriptableObject/Item/Armor/Fairy Fields/Nature Fairy Helmet.asset
+- Assets/ScriptableObject/Item/Weapon/Abyss/Eye of Armon +1.asset
+- Assets/ScriptableObject/Item/Accessory/General/EXP Book +4.asset
+- Assets/ScriptableObject/Item/Accessory/General/STR Gem +3.asset
+- Assets/ScriptableObject/Item/Weapon/Dragon Cave/Kouryuu Sword.asset
+- Assets/ScriptableObject/Item/Armor/Fairy Fields/Hard/Fire Elemental Gloves  +1.asset
+- Assets/ScriptableObject/Item/Accessory/General/END Gem.asset
+Dependencies:
+- D:/Unity/InfinityRPG/Assets/StreamingAssets/AssetBundles/ability

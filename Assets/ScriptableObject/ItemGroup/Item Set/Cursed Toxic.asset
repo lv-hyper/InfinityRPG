@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af6335a62f6434f4a80877537e1fbad6, type: 3}
+  m_Name: Cursed Toxic
+  m_EditorClassIdentifier: 
+  items:
+  - {fileID: 11400000, guid: b37aa66cc7196d344b50306f84979083, type: 2}
+  - {fileID: 11400000, guid: c14fb9d0d92dc2e4fac4bf534d725c58, type: 2}
+  - {fileID: 11400000, guid: dbd1729eb4e58ff428b72670c2401cff, type: 2}
+  - {fileID: 11400000, guid: 9d83b143a885cf14eadfe48323b4b806, type: 2}
+  itemSetEffects:
+  - itemCount: 2
+    itemAbilities:
+    - abilityData:
+        ability: {fileID: 11400000, guid: 14973c998a968324eba5d1189dfc6ace, type: 2}
+        amount: 170
+      isPassive: 0
+    - abilityData:
+        ability: {fileID: 11400000, guid: 577b4532284206842ab2b756f5a50619, type: 2}
+        amount: 2400000
+      isPassive: 0
+    tagResists: []
+  - itemCount: 4
+    itemAbilities:
+    - abilityData:
+        ability: {fileID: 11400000, guid: 480eeac1ba90dfa408c47d451ea0cb7e, type: 2}
+        amount: 170
+      isPassive: 0
+    - abilityData:
+        ability: {fileID: 11400000, guid: a0f41aa27f0cbdb45b0805d531073d8c, type: 2}
+        amount: 90
+      isPassive: 0
+    - abilityData:
+        ability: {fileID: 11400000, guid: 40743308b3929a9498ee4cb4423b7b8f, type: 2}
+        amount: 2
+      isPassive: 0
+    tagResists: []
