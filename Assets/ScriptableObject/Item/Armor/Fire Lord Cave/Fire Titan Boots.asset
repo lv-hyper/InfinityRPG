@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 590d37b38587ebb4d8c5c14b119511ed, type: 3}
   m_Name: Fire Titan Boots
   m_EditorClassIdentifier: 
-  itemSprite: {fileID: -1979454258, guid: 789119ede2ed04942b5c247c324f7a3e, type: 3}
+  itemSprite: {fileID: -374280562, guid: 07f85983dbd5b83468f5c4fbf3e826ae, type: 3}
   zone: 12
-  legacyID: 
+  legacyID: Greave-FireLordCave-0-Fire Titan Boots
   level: 0
   order: 1
   maxStack: 10
@@ -41,6 +41,6 @@ MonoBehaviour:
     isPassive: 0
   - abilityData:
       ability: {fileID: 11400000, guid: 26008c40dd9227848b65e02c7e79e1dd, type: 2}
-      amount: 15
+      amount: 27
     isPassive: 0
   tagResists: []

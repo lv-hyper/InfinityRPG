@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 30eb1083e257dec42a2a4bad8efd07d9, type: 3}
-  m_Name: Scale of Abismos +1
+  m_Name: Scale Of Abismos +1
   m_EditorClassIdentifier: 
   itemSprite: {fileID: -662871286125015502, guid: f00d70c7385ec054098e2bfc3336cc71,
     type: 3}
   zone: 5
-  legacyID: Material-Ocean-1750000000-Scale of Abismos +1
+  legacyID: Material-Ocean-1750000000-Scale Of Abismos +1
   level: 1750000000
   order: 0
-  maxStack: 30
+  maxStack: 99
   maxWornCount: 0
   price: 0
   shortDesc: Scale

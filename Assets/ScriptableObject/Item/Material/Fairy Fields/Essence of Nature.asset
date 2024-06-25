@@ -10,15 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 30eb1083e257dec42a2a4bad8efd07d9, type: 3}
-  m_Name: Essence of Nature
+  m_Name: Essence Of Nature
   m_EditorClassIdentifier: 
-  itemSprite: {fileID: -875032247691796775, guid: e2139081da95b9b4dbd5ee8ad9aa9029,
-    type: 3}
+  itemSprite: {fileID: -416861269, guid: 5ec0ab1f3e194174c8c250e0aa24adf7, type: 3}
   zone: 10
-  legacyID: 
+  legacyID: Material-FairyField-330000000001-Essence Of Nature
   level: 330000000001
   order: 0
-  maxStack: 100
+  maxStack: 99
   maxWornCount: 0
   price: 0
   shortDesc: Material

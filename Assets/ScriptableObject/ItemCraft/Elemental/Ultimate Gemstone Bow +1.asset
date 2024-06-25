@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f5122020541a8e4191df2daefc1dd8d, type: 3}
+  m_Name: Ultimate Gemstone Bow +1
+  m_EditorClassIdentifier: 
+  ingredients:
+  - item: {fileID: 11400000, guid: 08aed9aa05e3a714b8b36a32b02c3d43, type: 2}
+    quantity: 1
+  - item: {fileID: 11400000, guid: 1b5e70a051d78ce4c840c7e34c1f1adc, type: 2}
+    quantity: 1
+  result: {fileID: 11400000, guid: 86b1fd9c4f84dd94394c82a8fdd55f23, type: 2}

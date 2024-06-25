@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcd0cba9d37c1734f97da892cf4257e6, type: 3}
   m_Name: Invincible Mimic
   m_EditorClassIdentifier: 
-  mobSprite: {fileID: 21300000, guid: 172e9543d21342948bfb562c1e41bae2, type: 3}
+  mobSprite: {fileID: 21300000, guid: 835b74ca89d67d6479ea41cdc043db04, type: 3}
   imageOffset: {x: 0, y: 0}
   description: 
   mobClass: 0
   elementalDamage: []
   elementalDefence: []
   integratedElementalDefence: -1
-  lv: 987654310123456789
+  lv: 987654310000000
   difficulty: normal
   hpRate: 1
   atkRate: 1
@@ -35,6 +35,6 @@ MonoBehaviour:
   - item: {fileID: 11400000, guid: 44b9f17a0704e804dbdfa4dc0dcde7b6, type: 2}
     probablity: 0.07
   tagList: []
-  soulLv: 4
+  soulLv: 6
   progressionLevel: 0
   elementalSoulDrops: []

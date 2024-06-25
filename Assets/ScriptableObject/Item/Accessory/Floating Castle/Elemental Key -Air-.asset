@@ -14,14 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 1942499519, guid: fd332b99117f6b44cb73c3b777c07431, type: 3}
   zone: 11
-  legacyID: General-General-0-
+  legacyID: General-FloatingCastle-0-Elemental Key -Air-
   level: 0
   order: 0
   maxStack: 10
   maxWornCount: 1
   price: 0
-  shortDesc: 
-  longDesc: 
+  shortDesc: Air Key
+  longDesc: Gives resistence to Titans. Resist doesn't stack.
   itemAbilities:
   - abilityData:
       ability: {fileID: 11400000, guid: 9233d82060af7de458e2e6782161b13d, type: 2}

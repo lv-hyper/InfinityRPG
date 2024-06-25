@@ -38,11 +38,15 @@ namespace Gpm.Common.Log
             return log.ToString();
         }
 
-        /// <summary>
-        /// 1. 디버그 로그
-        /// 2. 함수 흐름에 관한 로그
-        /// 3. 데이터 로그
         /// </summary>
+        /// <summary>
+        /// Debug log message.
+        /// </summary>
+        /// <param name="message">required</param>
+        /// <param name="serviceName">required</param>
+        /// <param name="classType">required</param>
+        /// <param name="methodName">optional</param>
+        /// <returns>[GPM][ServiceName][ClassName::MethodName] message</returns>
         public static void Debug(object message, string serviceName, Type classType,
 #if CSHARP_7_3_OR_NEWER
             [CallerMemberName]
@@ -65,9 +69,15 @@ namespace Gpm.Common.Log
             UnityEngine.Debug.Log(MakeLog(message, serviceName, classType, methodName));
         }
 
-        /// <summary>
-        /// 애플리케이션 흐름에는 영향이 없으나 제한되거나 권장하지 않는 흐름에 대한 로그
         /// </summary>
+        /// <summary>
+        /// Warning log message.
+        /// </summary>
+        /// <param name="message">required</param>
+        /// <param name="serviceName">required</param>
+        /// <param name="classType">required</param>
+        /// <param name="methodName">optional</param>
+        /// <returns>[GPM][ServiceName][ClassName::MethodName] message</returns>
         public static void Warn(object message, string serviceName, Type classType,
 #if CSHARP_7_3_OR_NEWER
             [CallerMemberName] 
@@ -90,9 +100,15 @@ namespace Gpm.Common.Log
             UnityEngine.Debug.LogWarning(MakeLog(message, serviceName, classType, methodName));
         }
 
-        /// <summary>
-        /// 애플리케이션 흐름에 치명적인 영향이 있는 오류
         /// </summary>
+        /// <summary>
+        /// Error log message.
+        /// </summary>
+        /// <param name="message">required</param>
+        /// <param name="serviceName">required</param>
+        /// <param name="classType">required</param>
+        /// <param name="methodName">optional</param>
+        /// <returns>[GPM][ServiceName][ClassName::MethodName] message</returns>
         public static void Error(object message, string serviceName, Type classType,
 #if CSHARP_7_3_OR_NEWER
             [CallerMemberName] 
@@ -113,6 +129,29 @@ namespace Gpm.Common.Log
             }
 
             UnityEngine.Debug.LogError(MakeLog(message, serviceName, classType, methodName));
+        }
+
+        /// </summary>
+        /// <summary>
+        /// Exception log message.
+        /// </summary>
+        /// <param name="message">exception</param>
+        public static void Exception(Exception exception)
+        {
+            if (GpmCommon.DebugLogEnabled == false)
+            {
+                if (LogEnabled == false)
+                {
+                    return;
+                }
+
+                if (LogLevel < LogLevelType.ERROR)
+                {
+                    return;
+                }
+            }
+
+            UnityEngine.Debug.LogException(exception);
         }
     }
 }

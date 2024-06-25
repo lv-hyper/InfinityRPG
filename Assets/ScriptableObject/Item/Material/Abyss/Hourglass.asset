@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 883027557, guid: 7444df92974aff347b737b1602f63cf0, type: 3}
   zone: 0
-  legacyID: 
+  legacyID: Material-General-0-Hourglass
   level: 0
   order: 0
-  maxStack: 30
+  maxStack: 99
   maxWornCount: 0
   price: 0
   shortDesc: Material

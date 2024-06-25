@@ -14,14 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 986173266, guid: 711b15312ddb2b54b9ad2d4632db530b, type: 3}
   zone: 0
-  legacyID: 
+  legacyID: General-General-1-Special Exp Book
   level: 1
   order: -1
   maxStack: 1
   maxWornCount: 1
   price: 0
   shortDesc: '[Passive] EXP +20%p'
-  longDesc: Gives you intelligence
+  longDesc: Contains forbidden Experience
   itemAbilities:
   - abilityData:
       ability: {fileID: 11400000, guid: 789afb0f8c38a904486eb4ddab4e9b2c, type: 2}

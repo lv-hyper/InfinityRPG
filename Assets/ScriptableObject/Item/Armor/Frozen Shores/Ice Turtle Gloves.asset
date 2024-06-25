@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0d77133b170acf49a06ed500770a584, type: 3}
   m_Name: Ice Turtle Gloves
   m_EditorClassIdentifier: 
-  itemSprite: {fileID: -163039873, guid: 789119ede2ed04942b5c247c324f7a3e, type: 3}
+  itemSprite: {fileID: 375802130, guid: 3343b71f911332942a21ad314874de03, type: 3}
   zone: 13
-  legacyID: 
+  legacyID: Glove-FrozenShores-0-Ice Turtle Gloves
   level: 0
   order: 0
   maxStack: 10
@@ -37,6 +37,6 @@ MonoBehaviour:
     isPassive: 0
   - abilityData:
       ability: {fileID: 11400000, guid: 48d57c3dbeeac7b41842f70a5a0807c2, type: 2}
-      amount: 12
+      amount: 15
     isPassive: 0
   tagResists: []

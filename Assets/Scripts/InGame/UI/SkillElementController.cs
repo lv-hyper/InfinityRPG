@@ -58,8 +58,11 @@ namespace InGame.UI
 
             if (currentCharacterSkill != null) currentCharacterSkillID = currentCharacterSkill.GetSkillID();
 
+            var elementalType = skill.GetSkill().GetElementalType();
 
-            if (skill.GetCount() == 0)
+
+            if (skill.GetCount() == 0 && (elementalType == EnumElemental.None || 
+                    InGame.Data.ElementalSoulData.GetInstance().GetGainedSoulCount(elementalType) <= 0))
             {
                 selectButton.interactable = false;
                 selectButtonText.text = "No Skill";
@@ -70,38 +73,51 @@ namespace InGame.UI
                 skillDescContent.text = "This skill is not obtained. You probably can get this skill by some action.";
 
                 skillUpgradeCount.text = "0/?";
-            }
-            else if (currentEquipmentSet.isSkillEquiped(_skill))
-            {
-                var equippedSkill = currentEquipmentSet.GetSkill(skillListController.GetCurrentChoice());
 
-                string equippedSkillID = "";
-                string currentSkillID = ""; 
-
-                if(equippedSkill != null)
-                    equippedSkillID = equippedSkill.GetSkillID();
-
-                if(_skill.GetSkillID() != null)
-                    currentSkillID = _skill.GetSkillID();
-
-                if (equippedSkillID == currentSkillID && equippedSkillID != "")
-                {
-                    selectButton.interactable = true;
-
-                    selectButtonText.text = "Unselect";
-                }
-                else
-                {
-                    selectButton.interactable = false;
-
-                    selectButtonText.text = "Selected";
-                }
             }
             else
             {
-                selectButton.interactable = true;
+                if (skill.GetCount() == 0)
+                {
+                    image.color = new Color(0.1f, 0.1f, 0.1f);
+                }
+                else
+                {
+                    image.color = Color.white;
+                }
+                
+                if (currentEquipmentSet.isSkillEquiped(_skill))
+                {
+                    var equippedSkill = currentEquipmentSet.GetSkill(skillListController.GetCurrentChoice());
 
-                selectButtonText.text = "Select";
+                    string equippedSkillID = "";
+                    string currentSkillID = ""; 
+
+                    if(equippedSkill != null)
+                        equippedSkillID = equippedSkill.GetSkillID();
+
+                    if(_skill.GetSkillID() != null)
+                        currentSkillID = _skill.GetSkillID();
+
+                    if (equippedSkillID == currentSkillID && equippedSkillID != "")
+                    {
+                        selectButton.interactable = true;
+
+                        selectButtonText.text = "Unselect";
+                    }
+                    else
+                    {
+                        selectButton.interactable = false;
+
+                        selectButtonText.text = "Selected";
+                    }
+                }
+                else
+                {
+                    selectButton.interactable = true;
+
+                    selectButtonText.text = "Select";
+                }
             }
             
         }

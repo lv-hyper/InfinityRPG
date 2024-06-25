@@ -1,8 +1,10 @@
+using System;
 using InGame.Data.BattleEffect;
 using System.Collections.Generic;
 using System.Linq;
 using System.Numerics;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 namespace InGame.Data.BattleInstance
 {
@@ -44,21 +46,8 @@ namespace InGame.Data.BattleInstance
 
             BigInteger rawDamage = RollDamage();
 
-
-            float sum = 0;
-
-            for (var _elemental = EnumElemental.Air; _elemental <= EnumElemental.Count - 1; ++_elemental)
-            {
-                var diff = GetElementalDamage(_elemental) * (1 - (instance.GetElementalDefence(_elemental) / 100.0f));
-                if (diff < 0) diff = 0;
-                sum += diff;
-            }
-
-            double elementalBonus = sum / 100.0f;
-            elementalBonus += 1;
-
             instance.Damage(
-                this, 
+                this, +
                 (BigInteger)(GetTotalElementalDamageBonus(instance) * (double)rawDamage), 
                 false, 
                 ""
@@ -235,8 +224,13 @@ namespace InGame.Data.BattleInstance
 
             for (var _elemental = EnumElemental.Air; _elemental <= EnumElemental.Count - 1; ++_elemental)
             {
-                var diff = GetElementalDamage(_elemental) * (1 - (instance.GetElementalDefence(_elemental) / 100.0f));
+                var diff = GetElementalDamage(_elemental) - instance.GetElementalDefence(_elemental);
+
                 if (diff < 0) diff = 0;
+                //if (diff < 0) diff = 0;
+
+                // sigmoid
+                //diff = 100.0f / (1 + Mathf.Exp(-(diff - 50.0f) / 8.33f));
                 sum += diff;
             }
 

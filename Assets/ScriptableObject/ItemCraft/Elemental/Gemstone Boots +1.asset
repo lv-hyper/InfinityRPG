@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f5122020541a8e4191df2daefc1dd8d, type: 3}
+  m_Name: Gemstone Boots +1
+  m_EditorClassIdentifier: 
+  ingredients:
+  - item: {fileID: 11400000, guid: 1fd6dcad5e3e2b44cb66098ef646b07f, type: 2}
+    quantity: 1
+  - item: {fileID: 11400000, guid: 64f633d45ee0e8c418103c3bc629950c, type: 2}
+    quantity: 1
+  result: {fileID: 11400000, guid: 0918de24a75f0d147adb7bf3107c7861, type: 2}

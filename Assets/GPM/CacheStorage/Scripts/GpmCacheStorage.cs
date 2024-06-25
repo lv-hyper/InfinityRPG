@@ -1,357 +1,878 @@
-using System;
-using System.Collections;
-using Gpm.Common;
-using Gpm.Common.Util;
-
 namespace Gpm.CacheStorage
 {
+    using System;
+    using Internal;
+
+    /// <summary>
+    /// The GpmCacheStorage class is core of CacheStorage service.
+    /// </summary>
     public static class GpmCacheStorage
     {
         public const string NAME = "GpmCacheStorage";
-        public const string VERSION = "1.0.1";
+        public const string VERSION = "1.3.1";
 
-        private static CacheStorageConfig cacheConfig;
-        private static CachePackage cachePackage = new CachePackage();
-
-        public static long updateTime = 0;
-
-        public static CacheStorageConfig Config
+        /// <summary>
+        /// This function will know that CacheStorage has been initialized.
+        /// If not initialized, the CacheStorage function will not work.
+        /// @since Added 1.2.0.
+        /// </summary>
+        /// <returns>Whether CacheStorage has been initialized.</returns>
+        /// <example> 
+        /// Example Usage : 
+        /// <code>
+        /// public void InitializedSample()
+        /// {
+        ///     bool Initialized = GpmCacheStorage.Initialized;
+        ///     Debug.Log(string.Format("Initialized:{0}", Initialized));
+        /// }
+        /// </code>
+        /// </example>
+        public static bool Initialized
         {
             get
             {
-                if (cacheConfig == null)
-                {
-                    LoadConfig();
-                }
-
-                return cacheConfig;
+                return CacheStorageImplement.Initialized;
             }
         }
 
-        public static CachePackage Package
+        /// <summary>
+        /// This function to initialize CacheStorage with parameter.
+        /// If this function is not called, the CacheStorage function will not work.
+        /// @since Added 1.2.0.
+        /// </summary>
+        /// <param name="maxCount">
+        /// The maxCount is maximum number of CacheStorage.
+        /// A value of 0 is unlimited.
+        /// </param>
+        /// <param name="maxSize">
+        /// The maxSize is maximum capacity of CacheStorage.
+        /// A value of 0 is unlimited.
+        /// </param>
+        /// <param name="reRequestTime">
+        /// The reRequestTime is the frequency of revalidation requests. 
+        /// If the time set when requesting cache has passed, It is revalidated. 
+        /// base is seconds. 
+        /// A value of 0 is ignored.
+        /// </param>
+        /// <param name="defaultRequestType">
+        /// The defaultRequestType is basically the type used when calling Request.
+        /// Validate content according to RequestType.
+        /// * ALWAYS
+        ///     * Validate that data has changed on the server at every request.
+        /// * FIRSTPLAY
+        ///     * It is revalidated once every time the app is launched.
+        /// * ONCE
+        ///     * No revalidation within the validity period.
+        /// * LOCAL
+        ///     * Uses cached data.
+        /// </param>
+        /// <param name="unusedPeriodTime">
+        /// Caches that have not been used for the number of seconds set by the unusedPeriodTime are automatically discarded.
+        /// Automatic deletion works only when unusedPeriodTime and removeCycle are greater than 0.
+        /// </param>
+        /// <param name="removeCycle">
+        /// Removes the cache of the destination to be removed every corresponding number of seconds. 
+        /// Reduce the impact by limiting deleting many files at once.
+        /// Automatic deletion works only when unusedPeriodTime and removeCycle are greater than 0.
+        /// </param>
+        /// <example> 
+        /// Example Usage : 
+        /// <code>
+        /// public void InitializeSample()
+        /// {
+        ///     int maxCount = 10000;
+        ///     int maxSize = 5 * 1024 * 1024; // 5 MB
+        ///     double reRequestTime = 30 * 24 * 60 * 60; // 30 Days
+        ///     CacheRequestType defaultRequestType = CacheRequestType.FIRSTPLAY;
+        ///     double unusedPeriodTime = 365 * 24 * 60 * 60; // 1 Years
+        ///     double removeCycle = 1; // 1 Seconds
+        ///     
+        ///     GpmCacheStorage.Initialize(maxCount, maxSize, reRequestTime, defaultRequestType, unusedPeriodTime, removeCycle);
+        /// }
+        /// </code>
+        /// </example>
+        public static void Initialize(int maxCount, int maxSize, double reRequestTime, CacheRequestType defaultRequestType, double unusedPeriodTime, double removeCycle)
         {
-            get
-            {
-                if (cachePackage == null)
-                {
-                    LoadPackage();
-                }
-
-                return cachePackage;
-            }
+            CacheStorageImplement.Initialize(maxCount, maxSize, reRequestTime, defaultRequestType, unusedPeriodTime, removeCycle);
         }
 
-
-        public static event Action onChangeCache;
-
+        /// <summary>
+        /// Get the number of caches used.
+        /// </summary>
+        /// <returns>The number of caches used.</returns>
+        /// <example> 
+        /// Example Usage : 
+        /// <code>
+        /// public void GetCacheCountSample()
+        /// {
+        ///     int cacheCount = GpmCacheStorage.GetCacheCount();
+        ///     Debug.Log(string.Format("cacheCount : {0}", cacheCount));
+        /// }
+        /// </code>
+        /// </example>
         public static int GetCacheCount()
         {
-            return Package.cacheStorage.Count;
+            return CacheStorageImplement.GetCacheCount();
         }
 
-        public static long GetCacheSize()
-        {
-            return Package.cachedSize;
-        }
-
-        public static void ClearCache()
-        {
-            Package.RemoveAll();
-        }
-
-        public static void SetMaxCount(int count = 0, bool applyStorage = true)
-        {
-            Config.SetMaxCount(count);
-
-            if (applyStorage == true &&
-                count > 0)
-            {
-                Package.SecuringStorageCount();
-            }
-        }
-
+        /// <summary>
+        /// Get the maximum number of caches to manage.
+        /// </summary>
+        /// <returns>The maximum number of caches to manage.</returns>
+        /// <example> 
+        /// Example Usage : 
+        /// <code>
+        /// public void GetMaxCountSample()
+        /// {
+        ///     int cacheMaxCount = GpmCacheStorage.GetMaxCount();
+        ///     Debug.Log(string.Format("cacheMaxCount : {0}", cacheMaxCount));
+        /// }
+        /// </code>
+        /// </example>
         public static int GetMaxCount()
         {
-            return Config.GetMaxCount();
+            return CacheStorageImplement.GetMaxCount();
         }
 
-        public static void SetMaxSize(long size = 0, bool applyStorage = true)
+        /// <summary>
+        /// Get the size of the cache capacity used.
+        /// </summary>
+        /// <returns>The size of the cache capacity used.</returns>
+        /// <example> 
+        /// Example Usage : 
+        /// <code>
+        /// public void GetCacheSizeSample()
+        /// {
+        ///     long cacheSize = GpmCacheStorage.GetCacheSize();
+        ///     Debug.Log(string.Format("cacheSize : {0}", cacheSize));
+        /// }
+        /// </code>
+        /// </example>
+        public static long GetCacheSize()
         {
-            Config.SetMaxSize(size);
-
-            if (applyStorage == true &&
-                size > 0)
-            {
-                Package.SecuringStorage(size);
-            }
+            return CacheStorageImplement.GetCacheSize();
         }
 
+        /// <summary>
+        /// Get the size of the maximum cache capacity to manage.
+        /// </summary>
+        /// <returns>The size of the maximum cache capacity to manage.</returns>
+        /// <example> 
+        /// Example Usage : 
+        /// <code>
+        /// public void GetMaxSizeSample()
+        /// {
+        ///     long cacheMaxSize = GpmCacheStorage.GetMaxSize();
+        ///     Debug.Log(string.Format("cacheMaxSize : {0}", cacheMaxSize));
+        /// }
+        /// </code>
+        /// </example>
         public static long GetMaxSize()
         {
-            return Config.GetMaxSize();
+            return CacheStorageImplement.GetMaxSize();
         }
 
-        public static bool CheckReRequest(StringToValue<DateTime> responseTime)
-        {
-            return CheckReRequest(GetReRequestTime(), responseTime);
-        }
-
-        public static bool CheckReRequest(double reRequestTime, StringToValue<DateTime> responseTime)
-        {
-            if (reRequestTime > 0 &&
-                responseTime.IsValid() == true)
-            {
-                if ((DateTime.UtcNow - responseTime).Seconds > reRequestTime)
-                {
-                    return true;
-                }
-            }
-
-            return false;
-        }
-
-        public static void SetReRequestTime(double value)
-        {
-            Config.SetReRequestTime(value);
-        }
-
+        /// <summary>
+        /// Get the period time to be revalidated.
+        /// If the time set when requesting cache has passed, It is revalidated. 
+        /// base is seconds. 
+        /// A value of 0 is ignored.
+        /// </summary>
+        /// <returns>the period time to be revalidated.</returns>
+        /// <example> 
+        /// Example Usage : 
+        /// <code>
+        /// public void GetReRequestTimeSample()
+        /// {
+        ///     double reRequestTime = GpmCacheStorage.GetReRequestTime();
+        ///     Debug.Log(string.Format("reRequestTime : {0} seconds", reRequestTime));
+        /// }
+        /// </code>
+        /// </example>
         public static double GetReRequestTime()
         {
-            return Config.GetReRequestTime();
+            return CacheStorageImplement.GetReRequestTime();
         }
 
-        public static void SetUnusedPeriodTime(double value)
-        {
-            Config.SetUnusedPeriodTime(value);
-        }
-
-        public static double GetUnusedPeriodTime()
-        {
-            return Config.GetUnusedPeriodTime();
-        }
-
-        public static void SetRemoveCycle(double value)
-        {
-            Config.SetRemoveCycle(value);
-        }
-
-        public static double GetRemoveCycle()
-        {
-            return Config.GetRemoveCycle();
-        }
-
+        /// <summary>
+        /// Get the RequestType to use by default when requesting.
+        /// Validate content according to RequestType.
+        /// * ALWAYS
+        ///     * Validate that data has changed on the server at every request.
+        /// * FIRSTPLAY
+        ///     * It is revalidated once every time the app is launched.
+        /// * ONCE
+        ///     * No revalidation within the validity period.
+        /// * LOCAL
+        ///     * Uses cached data.
+        /// </summary>
+        /// <returns>the period time to be revalidated.</returns>
+        /// <example> 
+        /// Example Usage : 
+        /// <code>
+        /// public void GetCacheRequestTypeSample()
+        /// {
+        ///     CacheRequestType cacheRequestType = GpmCacheStorage.GetCacheRequestType();
+        ///     Debug.Log(string.Format("cacheRequestType : {0}", cacheRequestType));
+        /// }
+        /// </code>
+        /// </example>
         public static CacheRequestType GetCacheRequestType()
         {
-            return Config.GetCacheRequestType();
+            return CacheStorageImplement.GetCacheRequestType();
         }
 
-        public static void SetCacheRequestType(CacheRequestType value)
+        /// <summary>
+        /// Get the cache duration time to automatically delete.
+        /// Caches that have not been used for the number of seconds set by the unusedPeriodTime are automatically discarded.
+        /// Automatic deletion works only when unusedPeriodTime and removeCycle are greater than 0.
+        /// </summary>
+        /// <returns>The cache duration time to automatically delete.</returns>
+        /// <example> 
+        /// Example Usage : 
+        /// <code>
+        /// public void GetUnusedPeriodTimeSample()
+        /// {
+        ///     double unusedPeriodTime = GpmCacheStorage.GetUnusedPeriodTime();
+        ///     Debug.Log(string.Format("unusedPeriodTime : {0} seconds", unusedPeriodTime));
+        /// }
+        /// </code>
+        /// </example>
+        public static double GetUnusedPeriodTime()
         {
-            Config.SetCacheRequestType(value);
+            return CacheStorageImplement.GetUnusedPeriodTime();
         }
 
-        static GpmCacheStorage()
+        /// <summary>
+        /// Get cycles that are automatically deleted.
+        /// Removes the cache of the destination to be removed every corresponding number of seconds. 
+        /// Reduce the impact by limiting deleting many files at once.
+        /// Automatic deletion works only when unusedPeriodTime and removeCycle are greater than 0.
+        /// </summary>
+        /// <returns>The cache duration time to automatically delete.</returns>
+        /// <example> 
+        /// Example Usage : 
+        /// <code>
+        /// public void GetRemoveCycleSample()
+        /// {
+        ///     double removeCycle = GpmCacheStorage.GetRemoveCycle();
+        ///     Debug.Log(string.Format("removeCycle : {0} seconds", removeCycle));
+        /// }
+        /// </code>
+        /// </example>
+        public static double GetRemoveCycle()
         {
-            initialize();
+            return CacheStorageImplement.GetUnusedPeriodTime();
         }
 
-        public static void SetCachePath(string path)
+        /// <summary>
+        /// Get the size of the cache capacity to be deleted.
+        /// </summary>
+        /// <returns>The size of the cache capacity to be deleted.</returns>
+        /// <example> 
+        /// Example Usage : 
+        /// <code>
+        /// public void GetRemoveCacheSizeSample()
+        /// {
+        ///     long removeCacheSize = GpmCacheStorage.GetRemoveCacheSize();
+        ///     Debug.Log(string.Format("removeCacheSize : {0}", removeCacheSize));
+        /// }
+        /// </code>
+        /// </example>
+        public static long GetRemoveCacheSize()
         {
-            Config.SetCachePath(path);
+            return CacheStorageImplement.GetRemoveCacheSize();
         }
 
-        public static string GetCachePath()
+        /// <summary>
+        /// This function requests web data to be cached.
+        /// </summary>
+        /// <param name="url">The url is the web address to request.</param>
+        /// <param name="onResult">This is a callback function that receives the results of cached data.</param>
+        /// <returns>Cache information being requested.</returns>
+        /// <example> 
+        /// Example Usage : 
+        /// <code>
+        /// public void RequestSample()
+        /// {
+        ///     string url;
+        ///     GpmCacheStorage.Request(url, (result) =>
+        ///     {
+        ///         if (result.IsSuccess() == true)
+        ///         {
+        ///             bytes[] data = result.Data;
+        ///         }
+        ///     });
+        /// }
+        /// </code>
+        /// </example>
+        /// 
+        public static CacheRequestOperation Request(string url, Action<GpmCacheResult> onResult)
         {
-            return Config.GetCachePath();
+            return Request(url, GetCacheRequestType(), onResult);
         }
 
-        public static CacheInfo Request(string url, Action<GpmCacheResult> onResult)
-        {
-            return Request(url, Config.GetCacheRequestType(), onResult);
-        }
-
-        public static CacheInfo Request(string url, CacheRequestType requestType, Action<GpmCacheResult> onResult)
+        /// <summary>
+        /// This function requests web data to be cached.
+        /// </summary>
+        /// <param name="url">The url is the web address to request.</param>
+        /// <param name="requestType">
+        /// RequestType is the type that validates the content when requesting it.
+        /// The defaultRequestType set in Initialize is ignored.
+        /// Validate content according to RequestType.
+        /// * ALWAYS
+        ///     * Validate that data has changed on the server at every request.
+        /// * FIRSTPLAY
+        ///     * It is revalidated once every time the app is launched.
+        /// * ONCE
+        ///     * No revalidation within the validity period.
+        /// * LOCAL
+        ///     * Uses cached data.
+        /// </param>
+        /// <param name="onResult">This is a callback function that receives the results of cached data.</param>
+        /// <returns>Cache information being requested.</returns>
+        /// <example> 
+        /// Example Usage : 
+        /// <code>
+        /// public void RequestSample()
+        /// {
+        ///     string url;
+        ///     GpmCacheStorage.Request(url, CacheRequestType.ALWAYS, (result) =>
+        ///     {
+        ///         if (result.IsSuccess() == true)
+        ///         {
+        ///             bytes[] data = result.Data;
+        ///         }
+        ///     });
+        /// }
+        /// </code>
+        /// </example>
+        public static CacheRequestOperation Request(string url, CacheRequestType requestType, Action<GpmCacheResult> onResult)
         {
             return Request(url, requestType, 0, onResult);
         }
 
-        public static CacheInfo Request(string url, double reRequestTime, Action<GpmCacheResult> onResult)
+        /// <summary>
+        /// This function requests web data to be cached.
+        /// </summary>
+        /// <param name="url">The url is the web address to request.</param>
+        /// <param name="reRequestTime">
+        /// The period time to be revalidated.
+        /// If the time set when requesting cache has passed, It is revalidated. 
+        /// base is seconds. 
+        /// If the value is about 0, the reRequestTime set in the Initialize function is used.
+        /// </param>
+        /// <param name="onResult">This is a callback function that receives the results of cached data.</param>
+        /// <returns>Cache information being requested.</returns>
+        /// <example> 
+        /// Example Usage : 
+        /// <code>
+        /// public void RequestSample()
+        /// {
+        ///     string url;
+        ///     double reRequestTime = 30 * 24 * 60 * 60; // 30 Days
+        ///     GpmCacheStorage.Request(url, reRequestTime, (result) =>
+        ///     {
+        ///         if (result.IsSuccess() == true)
+        ///         {
+        ///             bytes[] data = result.Data;
+        ///         }
+        ///     });
+        /// }
+        /// </code>
+        /// </example>
+        public static CacheRequestOperation Request(string url, double reRequestTime, Action<GpmCacheResult> onResult)
         {
-            return Request(url, Config.GetCacheRequestType(), reRequestTime, onResult);
+            return Request(url, GetCacheRequestType(), reRequestTime, onResult);
         }
 
-        public static CacheInfo Request(string url, CacheRequestType requestType, double reRequestTime, Action<GpmCacheResult> onResult)
+        /// <summary>
+        /// This function requests web data to be cached.
+        /// </summary>
+        /// <param name="url">The url is the web address to request.</param>
+        /// <param name="requestType">
+        /// RequestType is the type that validates the content when requesting it.
+        /// The defaultRequestType set in Initialize is ignored.
+        /// Validate content according to RequestType.
+        /// * ALWAYS
+        ///     * Validate that data has changed on the server at every request.
+        /// * FIRSTPLAY
+        ///     * It is revalidated once every time the app is launched.
+        /// * ONCE
+        ///     * No revalidation within the validity period.
+        /// * LOCAL
+        ///     * Uses cached data.
+        /// </param>
+        /// <param name="reRequestTime">
+        /// The period time to be revalidated.
+        /// If the time set when requesting cache has passed, It is revalidated. 
+        /// base is seconds. 
+        /// If the value is about 0, the reRequestTime set in the Initialize function is used.
+        /// </param>
+        /// <param name="onResult">This is a callback function that receives the results of cached data.</param>
+        /// <returns>Cache information being requested.</returns>
+        /// <example> 
+        /// Example Usage : 
+        /// <code>
+        /// public void RequestSample()
+        /// {
+        ///     string url;
+        ///     double reRequestTime = 30 * 24 * 60 * 60; // 30 Days
+        ///     GpmCacheStorage.Request(url, CacheRequestType.ALWAYS, reRequestTime, (result) =>
+        ///     {
+        ///         if (result.IsSuccess() == true)
+        ///         {
+        ///             bytes[] data = result.Data;
+        ///         }
+        ///     });
+        /// }
+        /// </code>
+        /// </example>
+        public static CacheRequestOperation Request(string url, CacheRequestType requestType, double reRequestTime, Action<GpmCacheResult> onResult)
         {
-            return Package.Request(url, requestType, reRequestTime, onResult);
+            return CacheStorageImplement.Request(url, requestType, reRequestTime, onResult);
         }
 
-        public static CacheInfo RequestHttpCache(string url, Action<GpmCacheResult> onResult)
+        /// <summary>
+        /// This function requests web data to be cached.
+        /// Equivalent to Request function with CacheRequestType of ALWAYS.
+        /// </summary>
+        /// <param name="url">The url is the web address to request.</param>
+        /// <param name="onResult">This is a callback function that receives the results of cached data.</param>
+        /// <returns>Cache information being requested.</returns>
+        /// <example> 
+        /// Example Usage : 
+        /// <code>
+        /// public void RequestHttpCacheSample()
+        /// {
+        ///     string url;
+        ///     GpmCacheStorage.RequestHttpCache(url, (result) =>
+        ///     {
+        ///         if (result.IsSuccess() == true)
+        ///         {
+        ///             bytes[] data = result.Data;
+        ///         }
+        ///     });
+        /// }
+        /// </code>
+        /// </example>
+        public static CacheRequestOperation RequestHttpCache(string url, Action<GpmCacheResult> onResult)
         {
-            return Request(url, CacheRequestType.ALWAYS, onResult);
+            return CacheStorageImplement.RequestHttpCache(url, onResult);
         }
 
-        public static CacheInfo RequestLocalCache(string url, Action<GpmCacheResult> onResult)
+        /// <summary>
+        /// This function request already cached data by url. Fails if not cached.
+        /// </summary>
+        /// <param name="url">The url is the web address to request.</param>
+        /// <param name="onResult">This is a callback function that receives the results of cached data.</param>
+        /// <returns>Cache information being requested.</returns>
+        /// <example> 
+        /// Example Usage : 
+        /// <code>
+        /// public void RequestLocalCacheSample()
+        /// {
+        ///     string url;
+        ///     GpmCacheStorage.RequestLocalCache(url, (result) =>
+        ///     {
+        ///         if (result.IsSuccess() == true)
+        ///         {
+        ///             bytes[] data = result.Data;
+        ///         }
+        ///     });
+        /// }
+        /// </code>
+        /// </example>
+        public static CacheRequestOperation RequestLocalCache(string url, Action<GpmCacheResult> onResult)
         {
-            return Package.RequestLocal(url, onResult);
+            return CacheStorageImplement.RequestLocalCache(url, onResult);
         }
 
-        public static CacheInfo GetCachedTexture(string url, Action<CachedTexture> onResult)
+        /// <summary>
+        /// This function request an already cached texture by url. If the texture is loaded after running the app, it will be reused.
+        /// </summary>
+        /// <param name="url">The url is the web address to request.</param>
+        /// <param name="onResult">This is a callback function that receives the results of cached data.</param>
+        /// <returns>Cache information being requested.</returns>
+        /// <example> 
+        /// Example Usage : 
+        /// <code>
+        /// public void GetCachedTextureSample()
+        /// {
+        ///     string url;
+        ///     GpmCacheStorage.GetCachedTexture(url, (cachedTexture) =>
+        ///     {
+        ///         if (cachedTexture != null)
+        ///         {
+        ///             Texture texture = cachedTexture.texture;
+        ///         }
+        ///     });
+        /// }
+        /// </code>
+        /// </example>
+        public static CacheRequestOperation GetCachedTexture(string url, Action<CachedTexture> onResult)
         {
-            CacheInfo info = Package.GetCacheInfo(url);
-            if (info != null)
-            {
-                CachedTexture cachedTexture = CachedTextureManager.Get(info);
-                if (cachedTexture != null)
-                {
-                    onResult(cachedTexture);
-                    return info;
-                }
-            }
-
-            return RequestLocalCache(url, (result) =>
-            {
-                if (result.IsSuccess() == true)
-                {
-                    onResult(CachedTextureManager.Cache(result.Info, false, result.Data));
-                }
-                else
-                {
-                    onResult(null);
-                }
-            });
+            return CacheStorageImplement.GetCachedTexture(url, onResult);
         }
 
-        public static CacheInfo RequestTexture(string url, Action<CachedTexture> onResult)
+        /// <summary>
+        /// This function Request cached data by url. 
+        /// If the texture is loaded after running the app, it will be reused. 
+        /// If the cached data and web data are the same data, the cached texture is loaded and used.
+        /// </summary>
+        /// <param name="url">The url is the web address to request.</param>
+        /// <param name="onResult">This is a callback function that receives the results of cached data.</param>
+        /// <returns>Cache information being requested.</returns>
+        /// <example> 
+        /// Example Usage : 
+        /// <code>
+        /// public void RequestTextureSample()
+        /// {
+        ///     string url;
+        ///     GpmCacheStorage.RequestTexture(url, (cachedTexture) =>
+        ///     {
+        ///         if (cachedTexture != null)
+        ///         {
+        ///             Texture texture = cachedTexture.texture;
+        ///         }
+        ///     });
+        /// }
+        /// </code>
+        /// </example>
+        public static CacheRequestOperation RequestTexture(string url, Action<CachedTexture> onResult)
         {
-            return RequestTexture(url, 0, onResult);
+            return RequestTexture(url, GetCacheRequestType(), 0, false, onResult);
         }
 
-        public static CacheInfo RequestTexture(string url, double reRequestTime, Action<CachedTexture> onResult)
+        /// <summary>
+        /// This function Request cached data by url. 
+        /// If the texture is loaded after running the app, it will be reused. 
+        /// If the cached data and web data are the same data, the cached texture is loaded and used.
+        /// </summary>
+        /// <param name="url">The url is the web address to request.</param>
+        /// <param name="preLoad">
+        /// The preLoad is Read pre-stored cache before verifying on the web.
+        /// If the content has changed since validation, The onResult is called again 
+        /// </param>
+        /// <param name="onResult">This is a callback function that receives the results of cached data.</param>
+        /// <returns>Cache information being requested.</returns>
+        /// <example> 
+        /// Example Usage : 
+        /// <code>
+        /// public void RequestTextureSample()
+        /// {
+        ///     string url;
+        ///     bool preLoad = true;
+        ///     GpmCacheStorage.RequestTexture(url, preLoad, (cachedTexture) =>
+        ///     {
+        ///         if (cachedTexture != null)
+        ///         {
+        ///             Texture texture = cachedTexture.texture;
+        ///         }
+        ///     });
+        /// }
+        /// </code>
+        /// </example>
+        public static CacheRequestOperation RequestTexture(string url, bool preLoad, Action<CachedTexture> onResult)
         {
-            CacheInfo info = Package.GetCacheInfo(url);
-            if (info != null)
-            {
-                if (info.NeedRequest(reRequestTime) == false)
-                {
-                    CachedTexture cachedTexture = CachedTextureManager.Get(info);
-                    if (cachedTexture != null)
-                    {
-                        if (cachedTexture.requested == true)
-                        {
-                            onResult(cachedTexture);
-                            return info;
-                        }
-                    }
-                }   
-            }
-
-            info = RequestHttpCache(url, (result) =>
-            {
-                if (result.IsSuccess() == true)
-                {
-                    onResult(CachedTextureManager.Cache(result.Info, true, result.Data));
-                }
-                else
-                {
-                    onResult(null);
-                }
-            });
-
-            return info;
+            return RequestTexture(url, GetCacheRequestType(), 0, preLoad, onResult);
         }
 
-        internal static void initialize()
+        /// <summary>
+        /// This function Request cached data by url. 
+        /// If the texture is loaded after running the app, it will be reused. 
+        /// If the cached data and web data are the same data, the cached texture is loaded and used.
+        /// </summary>
+        /// <param name="url">The url is the web address to request.</param>
+        /// <param name="reRequestTime">
+        /// The period time to be revalidated.
+        /// If the time set when requesting cache has passed, It is revalidated. 
+        /// base is seconds. 
+        /// If the value is about 0, the reRequestTime set in the Initialize function is used.
+        /// </param>
+        /// <param name="onResult">This is a callback function that receives the results of cached data.</param>
+        /// <returns>Cache information being requested.</returns>
+        /// <example> 
+        /// Example Usage : 
+        /// <code>
+        /// public void RequestTextureSample()
+        /// {
+        ///     string url;
+        ///     double reRequestTime = 30 * 24 * 60 * 60; // 30 Days
+        ///     GpmCacheStorage.RequestTexture(url, reRequestTime, (cachedTexture) =>
+        ///     {
+        ///         if (cachedTexture != null)
+        ///         {
+        ///             Texture texture = cachedTexture.texture;
+        ///         }
+        ///     });
+        /// }
+        /// </code>
+        /// </example>
+        public static CacheRequestOperation RequestTexture(string url, double reRequestTime, Action<CachedTexture> onResult)
         {
-            GpmJsonMapper.RegisterExporter<StringToValue<int>>((sv, w) => w.Write(sv.GetText()));
-            GpmJsonMapper.RegisterImporter<string, StringToValue<int>>(value => new StringToValue<int>(value));
-            GpmJsonMapper.RegisterImporter<int, StringToValue<int>>(value => new StringToValue<int>(value));
-
-            GpmJsonMapper.RegisterExporter<StringToValue<DateTime>>((sv, w) => w.Write(sv.GetValue().Ticks));
-            GpmJsonMapper.RegisterImporter<long, StringToValue<DateTime>>(value => new StringToValue<DateTime>(new DateTime(value)));
-            GpmJsonMapper.RegisterImporter<string, StringToValue<DateTime>>(value => new StringToValue<DateTime>(value));
-
-            updateTime = DateTime.UtcNow.Ticks;
-            
-            LoadConfig();
-            LoadPackage();
-
-            ManagedCoroutine.Start(UpdateRoutine());
+            return RequestTexture(url, GetCacheRequestType(), reRequestTime, false, onResult);
         }
 
-        internal static CacheStorageConfig LoadConfig()
+        /// <summary>
+        /// This function Request cached data by url. 
+        /// If the texture is loaded after running the app, it will be reused. 
+        /// If the cached data and web data are the same data, the cached texture is loaded and used.
+        /// </summary>
+        /// <param name="url">The url is the web address to request.</param>
+        /// <param name="reRequestTime">
+        /// The period time to be revalidated.
+        /// If the time set when requesting cache has passed, It is revalidated. 
+        /// base is seconds. 
+        /// If the value is about 0, the reRequestTime set in the Initialize function is used.
+        /// </param>
+        /// <param name="preLoad">
+        /// The preLoad is Read pre-stored cache before verifying on the web.
+        /// If the content has changed since validation, The onResult is called again 
+        /// </param>
+        /// <param name="onResult">This is a callback function that receives the results of cached data.</param>
+        /// <returns>Cache information being requested.</returns>
+        /// <example> 
+        /// Example Usage : 
+        /// <code>
+        /// public void RequestTextureSample()
+        /// {
+        ///     string url;
+        ///     double reRequestTime = 30 * 24 * 60 * 60; // 30 Days
+        ///     bool preLoad = true;
+        ///     GpmCacheStorage.RequestTexture(url, reRequestTime, preLoad, (cachedTexture) =>
+        ///     {
+        ///         if (cachedTexture != null)
+        ///         {
+        ///             Texture texture = cachedTexture.texture;
+        ///         }
+        ///     });
+        /// }
+        /// </code>
+        /// </example>
+        public static CacheRequestOperation RequestTexture(string url, double reRequestTime, bool preLoad, Action<CachedTexture> onResult)
         {
-            cacheConfig = CacheStorageConfig.Load();
-            if (cacheConfig == null)
-            {
-                cacheConfig = new CacheStorageConfig();
-            }
-            return cacheConfig;
+            return RequestTexture(url, GetCacheRequestType(), reRequestTime, preLoad, onResult);
         }
 
-        internal static CachePackage LoadPackage()
+        /// <summary>
+        /// This function Request cached data by url. 
+        /// If the texture is loaded after running the app, it will be reused. 
+        /// If the cached data and web data are the same data, the cached texture is loaded and used.
+        /// </summary>
+        /// <param name="url">The url is the web address to request.</param>
+        /// <param name="requestType">
+        /// RequestType is the type that validates the content when requesting it.
+        /// The defaultRequestType set in Initialize is ignored.
+        /// Validate content according to RequestType.
+        /// * ALWAYS
+        ///     * Validate that data has changed on the server at every request.
+        /// * FIRSTPLAY
+        ///     * It is revalidated once every time the app is launched.
+        /// * ONCE
+        ///     * No revalidation within the validity period.
+        /// * LOCAL
+        ///     * Uses cached data.
+        /// </param>
+        /// <param name="onResult">This is a callback function that receives the results of cached data.</param>
+        /// <returns>Cache information being requested.</returns>
+        /// <example> 
+        /// Example Usage : 
+        /// <code>
+        /// public void RequestTextureSample()
+        /// {
+        ///     string url;
+        ///     CacheRequestType requestType = CacheRequestType.ALWAYS
+        ///     GpmCacheStorage.RequestTexture(url, requestType, (cachedTexture) =>
+        ///     {
+        ///         if (cachedTexture != null)
+        ///         {
+        ///             Texture texture = cachedTexture.texture;
+        ///         }
+        ///     });
+        /// }
+        /// </code>
+        /// </example>
+        public static CacheRequestOperation RequestTexture(string url, CacheRequestType requestType, Action<CachedTexture> onResult)
         {
-            cachePackage = CachePackage.Load();
-            if (cachePackage == null)
-            {
-                cachePackage = new CachePackage();
-            }
-
-            return cachePackage;
+            return RequestTexture(url, requestType, 0, false, onResult);
         }
 
-        internal static void UpdatePackage(bool immediately = false)
+        /// <summary>
+        /// This function Request cached data by url. 
+        /// If the texture is loaded after running the app, it will be reused. 
+        /// If the cached data and web data are the same data, the cached texture is loaded and used.
+        /// </summary>
+        /// <param name="url">The url is the web address to request.</param>
+        /// <param name="requestType">
+        /// RequestType is the type that validates the content when requesting it.
+        /// The defaultRequestType set in Initialize is ignored.
+        /// Validate content according to RequestType.
+        /// * ALWAYS
+        ///     * Validate that data has changed on the server at every request.
+        /// * FIRSTPLAY
+        ///     * It is revalidated once every time the app is launched.
+        /// * ONCE
+        ///     * No revalidation within the validity period.
+        /// * LOCAL
+        ///     * Uses cached data.
+        /// </param>
+        /// <param name="preLoad">
+        /// The preLoad is Read pre-stored cache before verifying on the web.
+        /// If the content has changed since validation, The onResult is called again 
+        /// </param>
+        /// <param name="onResult">This is a callback function that receives the results of cached data.</param>
+        /// <returns>Cache information being requested.</returns>
+        /// <example> 
+        /// Example Usage : 
+        /// <code>
+        /// public void RequestTextureSample()
+        /// {
+        ///     string url;
+        ///     CacheRequestType requestType = CacheRequestType.ALWAYS
+        ///     bool preLoad = true;
+        ///     GpmCacheStorage.RequestTexture(url, requestType, preLoad, (cachedTexture) =>
+        ///     {
+        ///         if (cachedTexture != null)
+        ///         {
+        ///             Texture texture = cachedTexture.texture;
+        ///         }
+        ///     });
+        /// }
+        /// </code>
+        /// </example>
+        public static CacheRequestOperation RequestTexture(string url, CacheRequestType requestType, bool preLoad, Action<CachedTexture> onResult)
         {
-            if (immediately == true)
-            {
-                SavePackage();
-            }
-            else
-            {
-                if (Package.IsDirty() == false)
-                {
-                    Package.SetDirty(true);
-                }
-            }
+            return RequestTexture(url, requestType, 0, preLoad, onResult);
         }
 
-        private static IEnumerator UpdateRoutine()
+        /// <summary>
+        /// This function Request cached data by url. 
+        /// If the texture is loaded after running the app, it will be reused. 
+        /// If the cached data and web data are the same data, the cached texture is loaded and used.
+        /// </summary>
+        /// <param name="url">The url is the web address to request.</param>
+        /// <param name="requestType">
+        /// RequestType is the type that validates the content when requesting it.
+        /// The defaultRequestType set in Initialize is ignored.
+        /// Validate content according to RequestType.
+        /// * ALWAYS
+        ///     * Validate that data has changed on the server at every request.
+        /// * FIRSTPLAY
+        ///     * It is revalidated once every time the app is launched.
+        /// * ONCE
+        ///     * No revalidation within the validity period.
+        /// * LOCAL
+        ///     * Uses cached data.
+        /// </param>
+        /// <param name="reRequestTime">
+        /// The period time to be revalidated.
+        /// If the time set when requesting cache has passed, It is revalidated. 
+        /// base is seconds. 
+        /// If the value is about 0, the reRequestTime set in the Initialize function is used.
+        /// </param>
+        /// <param name="preLoad">
+        /// The preLoad is Read pre-stored cache before verifying on the web.
+        /// If the content has changed since validation, The onResult is called again 
+        /// </param>
+        /// <param name="onResult">This is a callback function that receives the results of cached data.</param>
+        /// <returns>Cache information being requested.</returns>
+        /// <example> 
+        /// Example Usage : 
+        /// <code>
+        /// public void RequestTextureSample()
+        /// {
+        ///     string url;
+        ///     CacheRequestType requestType = CacheRequestType.ALWAYS
+        ///     double reRequestTime = 30 * 24 * 60 * 60; // 30 Days
+        ///     bool preLoad = true;
+        ///     GpmCacheStorage.RequestTexture(url, requestType, reRequestTime, preLoad, (cachedTexture) =>
+        ///     {
+        ///         if (cachedTexture != null)
+        ///         {
+        ///             Texture texture = cachedTexture.texture;
+        ///         }
+        ///     });
+        /// }
+        /// </code>
+        /// </example>
+        public static CacheRequestOperation RequestTexture(string url, CacheRequestType requestType, double reRequestTime, bool preLoad, Action<CachedTexture> onResult)
         {
-            while (cachePackage != null)
-            {
-                updateTime = DateTime.UtcNow.Ticks;
-
-                Package.Update();
-
-                AutoDeleteUnusedCache();
-
-                if (Package.IsDirty() == true)
-                {
-                    SavePackage();
-
-                    Package.SetDirty(false);
-                }
-
-                yield return null;
-            }
-            
+            return CacheStorageImplement.RequestTexture(url, requestType, reRequestTime, preLoad, onResult);
         }
 
-        internal static void SavePackage()
+        /// <summary>
+        /// This function remove the all managed cache.
+        /// </summary>
+        /// <example> 
+        /// Example Usage : 
+        /// <code>
+        /// public void ClearCacheSample()
+        /// {
+        ///     GpmCacheStorage.ClearCache();
+        /// }
+        /// </code>
+        /// </example>
+        public static void ClearCache()
         {
-            Package.Save();
-
-            if (onChangeCache != null)
-            {
-                onChangeCache();
-            }
+            CacheStorageImplement.ClearCache();
         }
 
-        internal static void AutoDeleteUnusedCache()
+        /// <summary>
+        /// This function remove the managed cache.
+        /// </summary>
+        /// @since Added 1.3.0.
+        /// <param name="url">The url is the web address to request.</param>
+        /// <example> 
+        /// Example Usage : 
+        /// <code>
+        /// public void RemoveCacheSample()
+        /// {
+        ///     string url;
+        ///     GpmCacheStorage.RemoveCache(url);
+        /// }
+        /// </code>
+        /// </example>
+        public static bool RemoveCache(string url)
         {
-            if (Config.GetUnusedPeriodTime() > 0)
-            {
-                Package.SecuringStorageLastAccess(Config.GetUnusedPeriodTime());
-            }
+            return CacheStorageImplement.RemoveCache(url);
+        }
+
+        /// <summary>
+        /// This function adds an event when the cache changes.
+        /// </summary>
+        /// <example> 
+        /// Example Usage : 
+        /// <code>
+        /// public void AddChangeCacheEvnetSample()
+        /// {
+        ///     GpmCacheStorage.AddChangeCacheEvnet( () =>
+        ///     {
+        ///         Debug.Log("ChangeCache");
+        ///     });
+        /// }
+        /// </code>
+        /// </example>
+        public static void AddChangeCacheEvnet(Action callback)
+        {
+            CacheStorageImplement.AddChangeCacheEvnet(callback);
+        }
+
+        /// <summary>
+        /// This function clears the event when the cache is changed.
+        /// </summary>
+        /// <example> 
+        /// Example Usage : 
+        /// <code>
+        /// public void ClearChangeCacheEventSample()
+        /// {
+        ///     GpmCacheStorage.ClearChangeCacheEvent();
+        /// }
+        /// </code>
+        /// </example>
+        public static void ClearChangeCacheEvent()
+        {
+            CacheStorageImplement.ClearChangeCacheEvent();
         }
     }
 }

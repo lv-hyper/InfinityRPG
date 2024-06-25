@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 755199797, guid: 493789e235557e140b4563c1b6b20ca7, type: 3}
   zone: 10
-  legacyID: 
+  legacyID: Glove-FairyField-135000000000-Air Elemental Gloves +1
   level: 135000000000
   order: 0
   maxStack: 10
@@ -37,6 +37,6 @@ MonoBehaviour:
     isPassive: 0
   - abilityData:
       ability: {fileID: 11400000, guid: 62841904735c4744cab8bf4b760e269a, type: 2}
-      amount: 16
+      amount: 40
     isPassive: 0
   tagResists: []

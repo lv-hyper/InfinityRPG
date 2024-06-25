@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e00b32403f05c674e9ca98c420707c87, type: 3}
   m_Name: Base Nature Damage
   m_EditorClassIdentifier: 
-  desc: Nature Damage {0:N0}%
+  desc: Nature Damage {0:N0}p
   additionalStatDependency:
   - {fileID: 11400000, guid: 39a205e34d7241d488da80b475bfc527, type: 2}
-  percentPointStatDependency: []
+  percentPointStatDependency:
+  - {fileID: 11400000, guid: c9e3d29555679a34ebfee18956c06dff, type: 2}
   percentStatDependency: []

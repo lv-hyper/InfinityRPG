@@ -10,18 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9495e2426dc60cc4ba40a53a473ec155, type: 3}
-  m_Name: Elemental Key -Nature-
+  m_Name: Elemental Key -NAture-
   m_EditorClassIdentifier: 
   itemSprite: {fileID: -19684100, guid: fd332b99117f6b44cb73c3b777c07431, type: 3}
   zone: 14
-  legacyID: General-General-0-
+  legacyID: General-TwilightForest-0-Elemental Key -Nature-
   level: 0
   order: 0
   maxStack: 10
   maxWornCount: 1
   price: 0
-  shortDesc: 
-  longDesc: 
+  shortDesc: Nature Key
+  longDesc: Gives resistence to Titans. Resist doesn't stack.
   itemAbilities:
   - abilityData:
       ability: {fileID: 11400000, guid: 39a205e34d7241d488da80b475bfc527, type: 2}

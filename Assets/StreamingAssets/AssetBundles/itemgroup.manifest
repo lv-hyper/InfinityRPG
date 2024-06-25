@@ -1,12 +1,15 @@
 ManifestFileVersion: 0
-CRC: 2812334413
+CRC: 2025058170
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: a2d1e0a4a0522c8ac3f75d2a3c8cc596
+    Hash: dfab916fd61b26953a0b4057a507e504
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 1678192ab284252596bd8529fb37127d
+    Hash: 0b9c8a15e1f738af1425eab29ab6774f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: dfab916fd61b26953a0b4057a507e504
 HashAppended: 0
 ClassTypes:
 - Class: 114
@@ -47,23 +50,29 @@ Assets:
 - Assets/ScriptableObject/ItemGroup/Item Set/Abyss.asset
 - Assets/ScriptableObject/ItemGroup/Item Set/Elemenetal/Fairy Fields/Water Fairy
   +1.asset
-- Assets/ScriptableObject/ItemGroup/Item Set/Elemenetal/Twillight Forest.asset
+- Assets/ScriptableObject/ItemGroup/Item Set/Elemenetal/Gemstone.asset
 - Assets/ScriptableObject/ItemGroup/Item Set/Dryad.asset
 - Assets/ScriptableObject/ItemGroup/Item Set/Elemenetal/Fairy Fields/Fire Fairy +1.asset
-- Assets/ScriptableObject/ItemGroup/Item Set/Toxic.asset
+- Assets/ScriptableObject/ItemGroup/Item Set/Elemenetal/Twillight Forest.asset
 - Assets/ScriptableObject/ItemGroup/Item Set/Beach.asset
 - Assets/ScriptableObject/ItemGroup/Item Set/Forest +1.asset
+- Assets/ScriptableObject/ItemGroup/Item Set/Toxic.asset
+- Assets/ScriptableObject/ItemGroup/Item Set/Elemenetal/Hard mode/Floating Castle
+  +1.asset
 - Assets/ScriptableObject/ItemGroup/Item Set/Deep Abyss.asset
 - Assets/ScriptableObject/ItemGroup/Item Set/Elemenetal/Fairy Fields/Nature Fairy.asset
 - Assets/ScriptableObject/ItemGroup/Item Set/Elemenetal/Fairy Fields/Air.asset
 - Assets/ScriptableObject/ItemGroup/Item Set/Upper Cave +1.asset
+- Assets/ScriptableObject/ItemGroup/Item Set/Elemenetal/Hard mode/Gemstone +1.asset
 - Assets/ScriptableObject/ItemGroup/Item Set/Elemenetal/Floating Castle.asset
+- Assets/ScriptableObject/ItemGroup/Item Set/Elemenetal/Fire Titan.asset
 - Assets/ScriptableObject/ItemGroup/Item Set/The Ancient.asset
 - Assets/ScriptableObject/ItemGroup/Item Set/Elemenetal/Fairy Fields/Nature.asset
 - Assets/ScriptableObject/ItemGroup/Item Set/Forest.asset
 - Assets/ScriptableObject/ItemGroup/Item Set/Dragon.asset
 - Assets/ScriptableObject/ItemGroup/Item Set/Elemenetal/Fairy Fields/Fire Fairy.asset
 - Assets/ScriptableObject/ItemGroup/Item Set/Leviathan.asset
+- Assets/ScriptableObject/ItemGroup/Item Set/Elemenetal/Hard mode/Ice Titan +1.asset
 - Assets/ScriptableObject/ItemGroup/Item Set/Elemenetal/Fairy Fields/Fire.asset
 - Assets/ScriptableObject/ItemGroup/Item Set/Elemenetal/Fairy Fields/Fire +1.asset
 - Assets/ScriptableObject/ItemGroup/Item Set/Elemenetal/Fairy Fields/Water Fairy.asset
@@ -77,20 +86,30 @@ Assets:
 - Assets/ScriptableObject/ItemGroup/Superior Order/Test.asset
 - Assets/ScriptableObject/ItemGroup/Item Set/Toxic +1.asset
 - Assets/ScriptableObject/ItemGroup/Item Set/Elemenetal/Fairy Fields/Nature +1.asset
+- Assets/ScriptableObject/ItemGroup/Item Set/Elemenetal/Hard mode/Air Titan +1.asset
 - Assets/ScriptableObject/ItemGroup/Item Set/Elemenetal/Fairy Fields/Water.asset
 - Assets/ScriptableObject/ItemGroup/Item Set/Cursed Toxic.asset
+- Assets/ScriptableObject/ItemGroup/Item Set/Elemenetal/Air Titan.asset
 - Assets/ScriptableObject/ItemGroup/Item Set/Elemenetal/Frozen Shores.asset
+- Assets/ScriptableObject/ItemGroup/Item Set/Elemenetal/Hard mode/Frozen Shores +1.asset
 - Assets/ScriptableObject/ItemGroup/Item Set/Desert.asset
+- Assets/ScriptableObject/ItemGroup/Item Set/Elemenetal/Hard mode/Twillight Forest
+  +1.asset
 - Assets/ScriptableObject/ItemGroup/Item Set/Abyss +1.asset
 - Assets/ScriptableObject/ItemGroup/Item Set/Forest Cave.asset
+- Assets/ScriptableObject/ItemGroup/Item Set/Elemenetal/Hard mode/Fire Lord Cave
+  +1.asset
 - Assets/ScriptableObject/ItemGroup/Item Set/Cursed Desert.asset
 - Assets/ScriptableObject/ItemGroup/Item Set/Elemenetal/Fairy Fields/Air Fairy.asset
 - Assets/ScriptableObject/ItemGroup/Item Set/Elemenetal/Fairy Fields/Water +1.asset
+- Assets/ScriptableObject/ItemGroup/Item Set/Elemenetal/Hard mode/Fire Titan +1.asset
 - Assets/ScriptableObject/ItemGroup/Item Set/Elemenetal/Fairy Fields/Air Fairy +1.asset
 - Assets/ScriptableObject/ItemGroup/Item Set/Elemenetal/Fairy Fields/Air +1.asset
-- Assets/ScriptableObject/ItemGroup/Item Set/Insect +1.asset
+- Assets/ScriptableObject/ItemGroup/Item Set/Elemenetal/Ice Titan.asset
 - Assets/ScriptableObject/ItemGroup/Item Set/Egypt.asset
+- Assets/ScriptableObject/ItemGroup/Item Set/Insect +1.asset
+- Assets/ScriptableObject/ItemGroup/Item Set/Golden Drops +1.asset
 - Assets/ScriptableObject/ItemGroup/Item Set/Dryad +1.asset
 Dependencies:
-- D:/Unity/InfinityRPG/Assets/StreamingAssets/AssetBundles/ability
-- D:/Unity/InfinityRPG/Assets/StreamingAssets/AssetBundles/item
+- D:/Unity/Unity Projects/Assets/StreamingAssets/AssetBundles/ability
+- D:/Unity/Unity Projects/Assets/StreamingAssets/AssetBundles/item

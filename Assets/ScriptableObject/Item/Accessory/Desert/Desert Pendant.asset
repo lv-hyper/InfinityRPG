@@ -14,14 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 1414517773, guid: feaa62b01f0a4884f981869ce7a02251, type: 3}
   zone: 8
-  legacyID: 
+  legacyID: General-Desert-50000000-Desert Pendant
   level: 50000000
   order: 0
   maxStack: 10
   maxWornCount: 1
   price: 0
-  shortDesc: 
-  longDesc: 
+  shortDesc: Gain HP From Attack (80%), HP +25%
+  longDesc: Dropped from Desert Parasand. Lifesteal doesn't stack!.
   itemAbilities:
   - abilityData:
       ability: {fileID: 11400000, guid: 4741220aabfc4fb4d968b50d110d8aeb, type: 2}

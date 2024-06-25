@@ -46,7 +46,7 @@ namespace Gpm.CacheStorage
         public CacheControl(Dictionary<string, string> elements)
         {
             string getValue;
-            if (elements.TryGetValue("max-age", out getValue) == true)
+            if (elements.TryGetValue(HttpElement.MAX_AGE, out getValue) == true)
             {
                 maxAge = getValue;
             }
@@ -54,9 +54,9 @@ namespace Gpm.CacheStorage
             {
                 maxAge = null;
             }
-            noStore = elements.ContainsKey("no-store") == true;
-            noCache = elements.ContainsKey("no-cache") == true;
-            mustRevalidate = elements.ContainsKey("must-revalidate");
+            noStore = elements.ContainsKey(HttpElement.NO_STORE) == true;
+            noCache = elements.ContainsKey(HttpElement.NO_CACHE) == true;
+            mustRevalidate = elements.ContainsKey(HttpElement.MUST_REVALIDATE);
         }
     }
 }

@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9495e2426dc60cc4ba40a53a473ec155, type: 3}
-  m_Name: Great Fury of Armon
+  m_Name: Great Fury Of Armon
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 7289220833677905224, guid: 9e5c7499e4bdcf3438fc87aa9c8a5759,
     type: 3}
   zone: 6
-  legacyID: General-Abyss-333333333-Great Fury of Armon
+  legacyID: General-Abyss-333333333-Great Fury Of Armon
   level: 333333333
   order: 0
   maxStack: 10

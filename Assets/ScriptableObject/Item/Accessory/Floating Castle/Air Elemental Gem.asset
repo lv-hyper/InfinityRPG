@@ -14,13 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: -2068583068, guid: caf7821e7e8bc9e49a4ea1c4fca1f673, type: 3}
   zone: 11
-  legacyID: 
+  legacyID: General-FloatingCastle-0-Air Elemental Gem
   level: 0
   order: 0
   maxStack: 1
   maxWornCount: 1
   price: 0
-  shortDesc: 
+  shortDesc: Air damage +15%
   longDesc: 
   itemAbilities:
   - abilityData:

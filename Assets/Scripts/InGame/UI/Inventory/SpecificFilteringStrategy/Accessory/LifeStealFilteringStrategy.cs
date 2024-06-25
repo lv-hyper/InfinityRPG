@@ -19,7 +19,7 @@ namespace InGame.UI
 
         public override string GetName()
         {
-            return "LifeSteal";
+            return "Lifesteal";
         }
 
         public override bool IsApplicable(string currentInventoryChoice)

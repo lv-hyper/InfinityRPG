@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8715b00cf657c664ea5bdc3b9ae562e1, type: 3}
-  m_Name: Swiftness of Rock bunny
+  m_Name: Swiftness Of Rock Bunny
   m_EditorClassIdentifier: 
   itemSprite: {fileID: -1480075248800286707, guid: e831ee1edea549649a7aeb10a71709f6,
     type: 3}
   zone: 8
-  legacyID: Weapon-Desert-7000000000-Swiftness of Rock bunny
+  legacyID: Weapon-Desert-7000000000-Swiftness Of Rock Bunny
   level: 7000000000
   order: 0
   maxStack: 10

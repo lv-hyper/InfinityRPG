@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using InGame.Data.SaveData;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -92,6 +93,37 @@ namespace InGame.Data
             if (tiers.Count <= tier) return null;
             if (tier < 0) return null;
             return tiers[tier];
+        }
+        
+        public List<string> GetAvailableSkills(List<ElementalSoulSaveData.Perk> perks)
+        {
+            List<string> availableSkills = new List<string>();
+            foreach (var perk in perks)
+            {
+                var element = GetTier(perk.tier)?.FindElement(perk.order);
+                if (element != null)
+                {
+                    availableSkills.Add(element.GetSkill().GetSkillID());
+                }
+            }
+
+            return availableSkills;
+        }
+
+        public bool IsSkillAvailable(string skillID)
+        {
+            foreach (var tier in tiers)
+            {
+                foreach (var element in tier.elements)
+                {
+                    if (element.GetSkill().GetSkillID() == skillID)
+                    {
+                        return true;
+                    }
+                }
+            }
+
+            return false;
         }
 
         public void SetElementalTreeElementRequirement()

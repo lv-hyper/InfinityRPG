@@ -90,6 +90,35 @@ namespace InGame.Data
             return data[_elemental].PerkUnlockable(perk);
         }
 
+        public void CorrectElementalSkill()
+        {
+            for (var _elemental = EnumElemental.Air; _elemental < EnumElemental.Count; ++_elemental)
+            {
+                Data.Skill.SkillCollection.GetInstance().ClearElementalSkill(_elemental);
+                var preset = GetCurrentPreset(_elemental);
+                foreach(var perk in preset.GetPerks())
+                {
+                    var currentElementalTree = ElementalTreeCollection.GetInstance().GetElementalTree(_elemental);
+                    var skillElement = currentElementalTree.GetTier(perk.tier).elements[perk.order];
+
+                    var currentSkillUpgradeCount = 
+                        Data.Skill.SkillCollection.GetInstance()
+                            .allSkillCollection[skillElement.GetSkill().GetSkillID()].GetCount();
+                    
+                    var targetCount = skillElement.GetUpgradeCount();
+
+                    if(targetCount > currentSkillUpgradeCount)
+                    {
+                        Data.Skill.SkillCollection.GetInstance().SetSkillUpgradeCount(
+                            skillElement.GetSkill().GetSkillID(),
+                            targetCount
+                        );
+                    }
+                }
+            }
+            
+        }
+
         public void SetPreset(EnumElemental _elemental, string presetName)
         {
             if (!data.ContainsKey(_elemental))

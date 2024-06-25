@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad7ed0c8e29ed4a48a5beb08063ad646, type: 3}
+  m_Name: expertInfo000
+  m_EditorClassIdentifier: 
+  category: 0
+  order: 3
+  sectionTitle: Correlation of defence and damage reduction Ratio
+  description: Hey!
+  content: 'In battle screen, you can find defence icon and percentage!
+
+    
+
+    That
+    means how much damage you can resist from enemy''s attack! It could be increased
+    by investing into defence.
+
+    background color also changes how much damage
+    you can resist.
+
+    
+
+    But, however, the formula about defence and damage
+    reduction is quite complex:
+
+    1) Your defence requirement is propotional
+    to (Monster level) ^ 1.29. Some monsters might have additional modifier.
+
+    2)
+    If you have defence exponential 1% reduce item ability, 1.29 becomes 1.29 * 0.99.
+
+    3)
+    If you have tag resistance, defence requirement is multiplied by 0.93, multiplicative.
+
+    4)
+    You will take damage, which is divided by log2.5[(defence + 1000) / defence requirement
+    * 5.5] * 10.
+
+    4-1) dividing ratio couldn''t be lower than 1, higher than
+    10(when you have speicial item, extened to 20)
+
+
+    In short: You need at least
+    1/5.5x defence of monster level^1.29 to reduce damage. You will reduce 90% of
+    damage when you have 2.5/5.5x defence.'
+  boardSectionContent: {fileID: 0}

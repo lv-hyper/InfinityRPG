@@ -35,7 +35,7 @@ namespace InGame.UI
 
                 GetComponent<TextMeshProUGUI>().text =
                 string.Format(
-                    "{0}",
+                    "{0:N0}",
                     character.GetEnergy()
                 );
             }

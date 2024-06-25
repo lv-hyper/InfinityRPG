@@ -18,9 +18,9 @@ MonoBehaviour:
   mobClass: 0
   elementalDamage:
   - elemental: 1
-    amount: 150
+    amount: 666
   elementalDefence: []
-  integratedElementalDefence: 80
+  integratedElementalDefence: 222
   lv: 40000000000000
   difficulty: hard
   hpRate: 1
@@ -36,7 +36,7 @@ MonoBehaviour:
   customATK: -1
   maxDefenceRatio: 2
   dropTable:
-  - item: {fileID: 11400000, guid: adba908330135124ea1d722335859bac, type: 2}
+  - item: {fileID: 11400000, guid: aacc1d76ef2f8654b87391c3dfca2961, type: 2}
     probablity: 0.03
   tagList:
   - Titan

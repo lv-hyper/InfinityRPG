@@ -15,14 +15,15 @@ MonoBehaviour:
   itemSprite: {fileID: 1948252346535322220, guid: 7e69aaba1b358c54181fd0768e72db76,
     type: 3}
   zone: 0
-  legacyID: General-General-0-
+  legacyID: General-General-0-Dryad Pendant
   level: 0
   order: 0
   maxStack: 1
   maxWornCount: 1
   price: 0
   shortDesc: All stat +10,000 * Item Count (Including Stack)
-  longDesc: Your Item increases all your power!
+  longDesc: 'When equipped it increases all stats based on how many items you have
+    in total. Materials don''t count!  '
   itemAbilities:
   - abilityData:
       ability: {fileID: 11400000, guid: 33589abe791f3af49906fb74ca5fd30b, type: 2}

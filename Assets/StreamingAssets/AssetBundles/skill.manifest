@@ -1,18 +1,19 @@
 ManifestFileVersion: 0
-CRC: 3142841059
+CRC: 3554571966
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 0c2b01e5f0dbd3de7e21b84ca8fdb934
+    Hash: ff7bb2ad4c8abe78f614d6fd471247d9
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 6e7e7459765a905b38ab2d8dce752b14
+    Hash: fceaf87abc2036a6f734b88cee17f7db
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: ff7bb2ad4c8abe78f614d6fd471247d9
 HashAppended: 0
 ClassTypes:
 - Class: 28
   Script: {instanceID: 0}
-- Class: 114
-  Script: {fileID: 11500000, guid: 376b8184a7be2f14d8f04194c10c85d9, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 62c5b9e079ce82943931349fdc67ef8c, type: 3}
 - Class: 114
@@ -36,6 +37,8 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 532fcfd52ad804c4e827a9df8bce62ab, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: c623137764c9279448e01a142584229b, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: aff2027ce216ccc48b69a0ae7874fe5f, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 05a76cc01affa204197414247c1328b9, type: 3}
@@ -57,81 +60,104 @@ SerializeReferenceClassIdentifiers:
 - AssemblyName: Assembly-CSharp
   ClassName: InGame.Data.Skill.SkillType
 Assets:
+- Assets/ScriptableObject/Skill/Elemental/Air/Air Immune.asset
+- Assets/ScriptableObject/Skill/Elemental/Air/Air Combo Boost.asset
+- Assets/ScriptableObject/Skill/Elemental/Nature/Nature Elemental Defence Boost.asset
 - Assets/ScriptableObject/Skill/Warrior/Passive/Berserker.asset
-- Assets/ScriptableObject/Skill/Elemental/WAter/Water Elemental Damage Boost.asset
-- Assets/ScriptableObject/Skill/Elemental/Fire/Fire Boost.asset
-- Assets/ScriptableObject/Skill/Warrior/Active/Stone Wall.asset
-- Assets/ScriptableObject/Skill/Elemental/Air/Defence Boost -Air-.asset
-- Assets/ScriptableObject/Skill/Elemental/WAter/Attack Boost -Water-.asset
+- Assets/ScriptableObject/Skill/Elemental/Nature/Nature Critical Damage Boost.asset
+- Assets/ScriptableObject/Skill/Elemental/Water/Water Elemental Damage Boost.asset
+- Assets/ScriptableObject/Skill/Warrior/Passive/HP Boost.asset
 - Assets/ScriptableObject/Skill/Elemental/Air/Air Boost.asset
 - Assets/ScriptableObject/Skill/Elemental/Nature/Defence Boost -Nature-.asset
-- Assets/ScriptableObject/Skill/Warrior/Passive/HP Boost.asset
-- Assets/ScriptableObject/Skill/Elemental/Air/Death Resist -Air-.asset
+- Assets/ScriptableObject/Skill/Elemental/Air/Air Strike.asset
+- Assets/ScriptableObject/Skill/Elemental/Water/Water Critical Damage Boost.asset
 - Assets/ScriptableObject/Skill/Enemy/Air Blast.asset
 - Assets/ScriptableObject/Skill/Archer/Active/Archer Swift.asset
-- Assets/ScriptableObject/Skill/Elemental/WAter/Death Resist -Water-.asset
-- Assets/ScriptableObject/Skill/Warrior/Active/Heavy Slash.asset
 - Assets/ScriptableObject/Skill/Elemental/Air/Air Elemental Defence Boost.asset
-- Assets/ScriptableObject/Skill/Elemental/Nature/Goldrate Increase -Nature-.asset
 - Assets/ScriptableObject/Skill/Elemental/Fire/Fire Elemental Damage Boost.asset
-- Assets/ScriptableObject/Skill/Warrior/Active/Battle Roar.asset
-- Assets/ScriptableObject/Skill/Mage/Active/Energy Bolt.asset
+- Assets/ScriptableObject/Skill/Elemental/Water/Ice Bolt.asset
 - Assets/ScriptableObject/Skill/Elemental/Fire/Death Surpassion -Fire-.asset
-- Assets/ScriptableObject/Skill/Elemental/Air/test.asset
 - Assets/ScriptableObject/Skill/Elemental/Air/Attack Boost -Air-.asset
-- Assets/ScriptableObject/Skill/Elemental/WAter/Droprate Increase -Water-.asset
-- Assets/ScriptableObject/Skill/Mage/Active/Drain.asset
+- Assets/ScriptableObject/Skill/Elemental/Water/Droprate Increase -Water-.asset
+- Assets/ScriptableObject/Skill/Elemental/Fire/Fire Combo Boost.asset
 - Assets/ScriptableObject/Skill/Archer/Active/Perfect Critical.asset
 - Assets/ScriptableObject/Skill/Mage/Passive/Arcane Shield.asset
 - Assets/ScriptableObject/Skill/Enemy/Fire Bolt.asset
 - Assets/ScriptableObject/Skill/Mage/Passive/HP Boost.asset
-- Assets/ScriptableObject/Skill/Enemy/Ice Blizzard.asset
-- Assets/ScriptableObject/Skill/Mage/Active/Basic Mage Attack.asset
+- Assets/ScriptableObject/Skill/Mage/Active/Drain.asset
 - Assets/ScriptableObject/Skill/Elemental/Nature/Death Surpassion -Nature-.asset
 - Assets/ScriptableObject/Skill/Archer/Active/Basic Archer Attack.asset
 - Assets/ScriptableObject/Skill/Archer/Active/Quick Shot.asset
-- Assets/ScriptableObject/Skill/Elemental/WAter/Death Surpassion -Water-.asset
+- Assets/ScriptableObject/Skill/Archer/Passive/Boost Dodge.asset
+- Assets/ScriptableObject/Skill/Elemental/Nature/Death Resist -Nature-.asset
+- Assets/ScriptableObject/Skill/Elemental/Air/Air Elemental Damage Boost.asset
+- Assets/ScriptableObject/Skill/Elemental/Water/Water Shield.asset
+- Assets/ScriptableObject/Skill/Enemy/Air Strike.asset
+- Assets/ScriptableObject/Skill/Elemental/Nature/Nature Dodge Boost.asset
+- Assets/ScriptableObject/Skill/Elemental/Fire/Goldrate Increase -Fire-.asset
+- Assets/ScriptableObject/Skill/Elemental/Fire/Fire Elemental Defence Boost.asset
+- Assets/ScriptableObject/Skill/Archer/Passive/Attack Boost.asset
+- Assets/ScriptableObject/Skill/Elemental/Fire/Fire Immune.asset
+- Assets/ScriptableObject/Skill/Warrior/Active/Triple Assult.asset
+- Assets/ScriptableObject/Skill/Mage/Passive/Attack Boost.asset
+- Assets/ScriptableObject/Skill/Elemental/Water/Water Immune.asset
+- Assets/ScriptableObject/Skill/Mage/Passive/Critical Rate Boost.asset
+- Assets/ScriptableObject/Skill/Archer/Passive/Piercing Arrow.asset
+- Assets/ScriptableObject/Skill/Elemental/Air/Air HP Boost.asset
+- Assets/ScriptableObject/Skill/Elemental/Air/Air Dodge Boost.asset
+- Assets/ScriptableObject/Skill/Elemental/Nature/Attack Boost -Nature-.asset
+- Assets/ScriptableObject/Skill/Elemental/Water/Water Combo Boost.asset
+- Assets/ScriptableObject/Skill/Elemental/Water/Water Boost.asset
+- Assets/ScriptableObject/Skill/Enemy/Earthquake.asset
+- Assets/ScriptableObject/Skill/Elemental/Nature/Nature Combo Boost.asset
+- Assets/ScriptableObject/Skill/Elemental/Fire/Fire Boost.asset
+- Assets/ScriptableObject/Skill/Warrior/Active/Stone Wall.asset
+- Assets/ScriptableObject/Skill/Elemental/Air/Defence Boost -Air-.asset
+- Assets/ScriptableObject/Skill/Elemental/Water/Attack Boost -Water-.asset
+- Assets/ScriptableObject/Skill/Elemental/Air/Death Resist -Air-.asset
+- Assets/ScriptableObject/Skill/Elemental/Water/Death Resist -Water-.asset
+- Assets/ScriptableObject/Skill/Elemental/Fire/Fire Bolt.asset
+- Assets/ScriptableObject/Skill/Elemental/Fire/Fire Dodge Boost.asset
+- Assets/ScriptableObject/Skill/Elemental/Nature/Goldrate Increase -Nature-.asset
+- Assets/ScriptableObject/Skill/Warrior/Active/Battle Roar.asset
+- Assets/ScriptableObject/Skill/Mage/Active/Energy Bolt.asset
+- Assets/ScriptableObject/Skill/Warrior/Active/Heavy Slash.asset
+- Assets/ScriptableObject/Skill/Enemy/Ice Blizzard.asset
+- Assets/ScriptableObject/Skill/Mage/Active/Basic Mage Attack.asset
+- Assets/ScriptableObject/Skill/Elemental/Fire/Fire HP Boost.asset
+- Assets/ScriptableObject/Skill/Elemental/Water/Death Surpassion -Water-.asset
 - Assets/ScriptableObject/Skill/Archer/Passive/Hidden Attack.asset
 - Assets/ScriptableObject/Skill/Warrior/Passive/Defence Boost.asset
-- Assets/ScriptableObject/Skill/Elemental/WAter/Water Elemental Defence Boost.asset
+- Assets/ScriptableObject/Skill/Elemental/Water/Water Elemental Defence Boost.asset
 - Assets/ScriptableObject/Skill/Elemental/Nature/Droprate Increase -Nature-.asset
 - Assets/ScriptableObject/Skill/Warrior/Passive/Thorns.asset
 - Assets/ScriptableObject/Skill/Elemental/Nature/Nature Elemental Damage Boost.asset
-- Assets/ScriptableObject/Skill/Archer/Passive/Boost Dodge.asset
 - Assets/ScriptableObject/Skill/Elemental/Fire/Death Resist -Fire-.asset
-- Assets/ScriptableObject/Skill/Elemental/Air/Air Elemental Damage Boost.asset
+- Assets/ScriptableObject/Skill/Mage/Active/Glass Cannon.asset
 - Assets/ScriptableObject/Skill/Elemental/Air/Goldrate Increase -Air-.asset
 - Assets/ScriptableObject/Skill/Archer/Active/Headshot.asset
-- Assets/ScriptableObject/Skill/Mage/Active/Glass Cannon.asset
-- Assets/ScriptableObject/Skill/Elemental/WAter/Water Shield.asset
-- Assets/ScriptableObject/Skill/Elemental/Nature/Death Resist -Nature-.asset
-- Assets/ScriptableObject/Skill/Elemental/Fire/Goldrate Increase -Fire-.asset
-- Assets/ScriptableObject/Skill/Enemy/Air Strike.asset
-- Assets/ScriptableObject/Skill/Elemental/Fire/Fire Elemental Defence Boost.asset
-- Assets/ScriptableObject/Skill/Archer/Passive/Attack Boost.asset
-- Assets/ScriptableObject/Skill/Elemental/Air/Air Shield.asset
-- Assets/ScriptableObject/Skill/Enemy/Fire Storm.asset
+- Assets/ScriptableObject/Skill/Elemental/Air/Air Critical Damage Boost.asset
+- Assets/ScriptableObject/Skill/Elemental/Water/Water HP Boost.asset
 - Assets/ScriptableObject/Skill/Elemental/Air/Death Surpassion -Air-.asset
-- Assets/ScriptableObject/Skill/Mage/Passive/Attack Boost.asset
+- Assets/ScriptableObject/Skill/Enemy/Fire Storm.asset
+- Assets/ScriptableObject/Skill/Elemental/Air/Air Shield.asset
+- Assets/ScriptableObject/Skill/Elemental/Fire/Fire Critical Damage Boost.asset
 - Assets/ScriptableObject/Skill/Elemental/Fire/Droprate Increase -Fire-.asset
-- Assets/ScriptableObject/Skill/Warrior/Active/Triple Assult.asset
 - Assets/ScriptableObject/Skill/Elemental/Fire/Fire Shield.asset
 - Assets/ScriptableObject/Skill/Enemy/Earth Strike.asset
+- Assets/ScriptableObject/Skill/Elemental/Nature/Nature HP Boost.asset
 - Assets/ScriptableObject/Skill/Elemental/Nature/Nature Shield.asset
 - Assets/ScriptableObject/Skill/Warrior/Active/Basic Warrior Attack.asset
+- Assets/ScriptableObject/Skill/Elemental/Water/Water Dodge Boost.asset
 - Assets/ScriptableObject/Skill/Mage/Active/Magic Infusion.asset
-- Assets/ScriptableObject/Skill/Archer/Passive/Piercing Arrow.asset
-- Assets/ScriptableObject/Skill/Mage/Passive/Critical Rate Boost.asset
-- Assets/ScriptableObject/Skill/Elemental/Nature/Attack Boost -Nature-.asset
 - Assets/ScriptableObject/Skill/Enemy/Ice Bolt.asset
-- Assets/ScriptableObject/Skill/Elemental/WAter/Goldrate Increase -Water-.asset
-- Assets/ScriptableObject/Skill/Elemental/WAter/Water Boost.asset
+- Assets/ScriptableObject/Skill/Elemental/Water/Goldrate Increase -Water-.asset
 - Assets/ScriptableObject/Skill/Elemental/Air/Droprate Increase -Air-.asset
-- Assets/ScriptableObject/Skill/Enemy/Earthquake.asset
 - Assets/ScriptableObject/Skill/Elemental/Fire/Attack Boost -Fire-.asset
 - Assets/ScriptableObject/Skill/Elemental/Nature/Nature Boost.asset
+- Assets/ScriptableObject/Skill/Elemental/Water/Defence Boost -Water-.asset
 - Assets/ScriptableObject/Skill/Elemental/Fire/Defence Boost -Fire-.asset
-- Assets/ScriptableObject/Skill/Elemental/Nature/Nature Elemental Defence Boost.asset
-- Assets/ScriptableObject/Skill/Elemental/WAter/Defence Boost -Water-.asset
+- Assets/ScriptableObject/Skill/Elemental/Nature/Nature Immune.asset
+- Assets/ScriptableObject/Skill/Elemental/Nature/Earth Strike.asset
 Dependencies:
-- D:/Unity/InfinityRPG/Assets/StreamingAssets/AssetBundles/ability
+- C:/Dev/InfinityRPG/Assets/StreamingAssets/AssetBundles/ability

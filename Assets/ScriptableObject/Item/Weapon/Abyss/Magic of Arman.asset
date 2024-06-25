@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8715b00cf657c664ea5bdc3b9ae562e1, type: 3}
-  m_Name: Magic of Arman
+  m_Name: Magic Of Arman
   m_EditorClassIdentifier: 
   itemSprite: {fileID: -720528129962128146, guid: 9e5c7499e4bdcf3438fc87aa9c8a5759,
     type: 3}
   zone: 6
-  legacyID: Weapon-Abyss-333333333-Magic of Arman
+  legacyID: Weapon-Abyss-333333333-Magic Of Arman
   level: 333333333
   order: 0
   maxStack: 10

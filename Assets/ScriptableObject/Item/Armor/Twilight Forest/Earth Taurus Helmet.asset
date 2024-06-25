@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7957a1f6aedc364684aa2de1f99748c, type: 3}
   m_Name: Earth Taurus Helmet
   m_EditorClassIdentifier: 
-  itemSprite: {fileID: -479227943, guid: 789119ede2ed04942b5c247c324f7a3e, type: 3}
+  itemSprite: {fileID: -387258144, guid: 3343b71f911332942a21ad314874de03, type: 3}
   zone: 14
-  legacyID: 
+  legacyID: Helmet-TwilightForest-0-Earth Taurus Helmet
   level: 0
   order: 0
   maxStack: 10
@@ -33,6 +33,6 @@ MonoBehaviour:
     isPassive: 0
   - abilityData:
       ability: {fileID: 11400000, guid: b1317ac1d1a0dc145a39d4df1a7647dd, type: 2}
-      amount: 12
+      amount: 15
     isPassive: 0
   tagResists: []

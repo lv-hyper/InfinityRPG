@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8715b00cf657c664ea5bdc3b9ae562e1, type: 3}
+  m_Name: Absolute Fire Bow +1
+  m_EditorClassIdentifier: 
+  itemSprite: {fileID: 1729582723, guid: d444f0c6719065b4db4708515b04711f, type: 3}
+  zone: 12
+  legacyID: Weapon-FireLordCave-0-Absolute Fire Bow
+  level: 0
+  order: 0
+  maxStack: 10
+  maxWornCount: 1
+  price: 0
+  shortDesc: Bow
+  longDesc: Strong against Nature and weak against Water.
+  itemAbilities:
+  - abilityData:
+      ability: {fileID: 11400000, guid: 14973c998a968324eba5d1189dfc6ace, type: 2}
+      amount: 54000
+    isPassive: 0
+  - abilityData:
+      ability: {fileID: 11400000, guid: f52a00cab58cb8145a448eff53b20ae4, type: 2}
+      amount: 9936000000
+    isPassive: 0
+  - abilityData:
+      ability: {fileID: 11400000, guid: cec529fb1f8965a4d8145887d760e347, type: 2}
+      amount: 324
+    isPassive: 0
+  tagResists: []
+  weaponType: 2
+  elemental: 0

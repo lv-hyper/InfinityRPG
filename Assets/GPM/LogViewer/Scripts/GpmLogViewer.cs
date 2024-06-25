@@ -6,7 +6,7 @@
 
     public class GpmLogViewer : MonoBehaviour
     {
-        public const string VERSION         = "2.0.3";
+        public const string VERSION         = "2.0.4";
 
         [Header("Gesture")]
         [Space]

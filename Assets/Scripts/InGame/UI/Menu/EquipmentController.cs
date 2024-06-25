@@ -28,7 +28,7 @@ namespace InGame.UI.Menu
         [SerializeField] List<long> baseAccessorySlotCost;
         [SerializeField] ShortSetItemInformationController setItemInformation;
 
-        private void Awake()
+        protected override void Awake()
         {
             base.Awake();
             StartCoroutine(RegisterToCharacter());

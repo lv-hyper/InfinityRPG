@@ -14,13 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 21300000, guid: 525a0b780bb2ac34da7f6f9554554a22, type: 3}
   zone: 4
-  legacyID: 
+  legacyID: Material-Beach-0-Golden Egg
   level: 0
   order: 0
   maxStack: 99
   maxWornCount: 0
   price: 40000000
   shortDesc: The best bait for Golden Chickens
-  longDesc: Sacrifice it on runic altar for summon Golden Chicken
+  longDesc: Sacrifice it on runic altar to summon Golden Chicken
   itemAbilities: []
   tagResists: []

@@ -24,12 +24,12 @@
                 Info info               = new Info();
 
                 info.active             = active;
-                info.anchoredPosition   = anchoredPosition;
                 info.anchorMin          = anchorMin;
                 info.anchorMax          = anchorMax;
+                info.pivot              = pivot;
                 info.offsetMin          = offsetMin;
                 info.offsetMax          = offsetMax;
-                info.pivot              = pivot;
+                info.anchoredPosition   = anchoredPosition;
                 info.sizeDelta          = sizeDelta;
                 info.scale              = scale;
                 info.rotation           = rotation;
@@ -40,12 +40,12 @@
             public void Set(RectTransform rectTransform)
             {
                 active              = rectTransform.gameObject.activeSelf;
-                anchoredPosition    = rectTransform.anchoredPosition;
                 anchorMin           = rectTransform.anchorMin;
                 anchorMax           = rectTransform.anchorMax;
+                pivot               = rectTransform.pivot;
                 offsetMin           = rectTransform.offsetMin;
                 offsetMax           = rectTransform.offsetMax;
-                pivot               = rectTransform.pivot;
+                anchoredPosition    = rectTransform.anchoredPosition;
                 sizeDelta           = rectTransform.sizeDelta;
                 scale               = rectTransform.localScale;
                 rotation            = rectTransform.localRotation;
@@ -89,12 +89,12 @@
                     Info info = infos[layoutIndex];
 
                     rectTransform.gameObject.SetActive(info.active);
-                    rectTransform.anchoredPosition  = info.anchoredPosition;
                     rectTransform.anchorMin         = info.anchorMin;
                     rectTransform.anchorMax         = info.anchorMax;
+                    rectTransform.pivot             = info.pivot;
                     rectTransform.offsetMin         = info.offsetMin;
                     rectTransform.offsetMax         = info.offsetMax;
-                    rectTransform.pivot             = info.pivot;
+                    rectTransform.anchoredPosition  = info.anchoredPosition;
                     rectTransform.sizeDelta         = info.sizeDelta;
                     rectTransform.localScale        = info.scale;
                     rectTransform.localRotation     = info.rotation;

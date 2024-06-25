@@ -16,9 +16,12 @@ namespace InGame.Data.Skill
         [SerializeField] List<BattleEffect.Buff> buffList;
         public override void OnActive(AbstractInstance target)
         {
+            long stack = SkillCollection.GetInstance().allSkillCollection[skillID].GetCount();
             foreach (BattleEffect.Buff buff in buffList)
             {
-                target.Buff(buff);
+                var _buff = Instantiate(buff);
+                _buff.level = (int)stack;
+                target.Buff(_buff);
             }
         }
 
@@ -55,7 +58,7 @@ namespace InGame.Data.Skill
 
         public override float GetSkillPercentDamage(long stack)
         {
-            return skillPercentDamage + ((stack-defaultUpgradeCount) * 0.1f);
+            return skillPercentDamage + ((stack-defaultUpgradeCount) * skillPercentDamageIncreateRate);
         }
 
         public override string GetLongDescription(long stack)
@@ -70,7 +73,9 @@ namespace InGame.Data.Skill
 
             foreach(var buff in buffList)
             {
-                longDesc += buff.GetDescription();
+                var _buff = Instantiate(buff);
+                _buff.level = (int)stack;
+                longDesc += _buff.GetDescription();
             }
 
             longDesc += String.Format(

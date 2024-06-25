@@ -18,9 +18,9 @@ MonoBehaviour:
   mobClass: 0
   elementalDamage:
   - elemental: 3
-    amount: 66
+    amount: 388
   elementalDefence: []
-  integratedElementalDefence: 58
+  integratedElementalDefence: 150
   lv: 25500000000000
   difficulty: hard
   hpRate: 1

@@ -29,6 +29,7 @@ namespace Gpm.Manager.Constant
 
         public const string COMMON_SERVICE_NAME = "Common";
         public const string AD_FOLDER_NAME = "Ad";
+        public const string CONFIG_FOLDER_NAME = "Config";
 
         public const string NOTICE_SERVICE_NAME = "Notice";
         public const string NOTICE_FOLDER_NAME = "Notice";

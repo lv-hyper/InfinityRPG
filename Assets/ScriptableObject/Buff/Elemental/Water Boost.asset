@@ -13,9 +13,10 @@ MonoBehaviour:
   m_Name: Water Boost
   m_EditorClassIdentifier: 
   effectIcon: {fileID: 769329135, guid: 18276612bf6d8404786e10f8400729f9, type: 3}
-  duration: 15
+  duration: 9
+  level: 1
   abilities:
   - abilityData:
-      ability: {fileID: 11400000, guid: 665e3ba214c2bc742a3b27e8dbb0265e, type: 2}
-      amount: 100
+      ability: {fileID: 11400000, guid: e1901a88049d3cb47aa5d6ce5ea95748, type: 2}
+      amount: 20
     target: 1

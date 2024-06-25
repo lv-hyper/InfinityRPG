@@ -17,16 +17,17 @@ MonoBehaviour:
   elementalType: 3
   upgradeCost: 0
   defaultUpgradeCount: 0
-  maxUpgradeCount: 1
+  maxUpgradeCount: 2
   requiredLevel: 0
   skillDescription: 
   isClassSkill: 0
   skillTurnCount: 15
   skillCoolDown: 12
   manaCost: 1000
-  isAttackSkill: 0
+  isAttackSkill: 1
   skillType: 0
   skillPercentDamage: 0
+  skillPercentDamageIncreateRate: 0.1
   skillAnimation: {fileID: 0}
   buffList:
   - {fileID: 11400000, guid: 3d8a173e2a9ff774f8a5618aa0f6987a, type: 2}

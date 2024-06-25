@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e00b32403f05c674e9ca98c420707c87, type: 3}
   m_Name: Base Water Damage
   m_EditorClassIdentifier: 
-  desc: Water Damage {0:N0}%
+  desc: Water Damage {0:N0}p
   additionalStatDependency:
   - {fileID: 11400000, guid: 665e3ba214c2bc742a3b27e8dbb0265e, type: 2}
-  percentPointStatDependency: []
+  percentPointStatDependency:
+  - {fileID: 11400000, guid: e1901a88049d3cb47aa5d6ce5ea95748, type: 2}
   percentStatDependency: []

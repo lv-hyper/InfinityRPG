@@ -22,7 +22,7 @@ MonoBehaviour:
   maxWornCount: 1
   price: 0
   shortDesc: Core
-  longDesc: The black dragon might cause rampage!
+  longDesc: The black dragon might cause rampage. Resist doesn't stack.
   itemAbilities: []
   tagResists:
   - Dry

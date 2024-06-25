@@ -15,10 +15,10 @@ MonoBehaviour:
   itemSprite: {fileID: 6133055484539445214, guid: 66cc13b398c62eb43bbb5989b09ebca2,
     type: 3}
   zone: 0
-  legacyID: 
+  legacyID: Material-General-0-Crystal Fragment
   level: 0
   order: 0
-  maxStack: 30
+  maxStack: 99
   maxWornCount: 0
   price: 0
   shortDesc: Material

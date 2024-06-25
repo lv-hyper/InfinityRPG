@@ -46,6 +46,10 @@ namespace InGame.UI
                 var skillA = a.GetSkill();
                 var skillB = b.GetSkill();
 
+                if (skillA.GetElementalType() != skillB.GetElementalType())
+                {
+                    return skillA.GetElementalType().CompareTo(skillB.GetElementalType());
+                }
                 if (skillA.GetRequiredLevel() != skillB.GetRequiredLevel())
                 {
                     return skillA.GetRequiredLevel().ToString().CompareTo(skillB.GetRequiredLevel().ToString());

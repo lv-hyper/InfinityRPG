@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 205160628, guid: d00ddbdd0b39bcd47a360ae0fd9a053f, type: 3}
   zone: 14
-  legacyID: 
+  legacyID: Material-TwilightForest-0-Nature Necklace Strap
   level: 0
   order: 0
-  maxStack: 30
+  maxStack: 99
   maxWornCount: 0
   price: 0
   shortDesc: Material

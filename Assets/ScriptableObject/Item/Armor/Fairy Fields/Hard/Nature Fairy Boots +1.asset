@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 1099837395, guid: 493789e235557e140b4563c1b6b20ca7, type: 3}
   zone: 10
-  legacyID: 
+  legacyID: Greave-FairyField-330000000000-Nature Fairy Boots +1
   level: 330000000000
   order: 0
   maxStack: 10
@@ -41,6 +41,6 @@ MonoBehaviour:
     isPassive: 0
   - abilityData:
       ability: {fileID: 11400000, guid: b1317ac1d1a0dc145a39d4df1a7647dd, type: 2}
-      amount: 17
+      amount: 60
     isPassive: 0
   tagResists: []

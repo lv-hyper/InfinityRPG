@@ -14,14 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 1684805335, guid: f7f01407da19a4345bd08ac6a0597272, type: 3}
   zone: 11
-  legacyID: 
+  legacyID: Weapon-FloatingCastle-0-Wind Bunny Staff
   level: 0
   order: 0
   maxStack: 10
   maxWornCount: 1
   price: 0
   shortDesc: Staff
-  longDesc: 
+  longDesc: Strong against Water and weak against Nature.
   itemAbilities:
   - abilityData:
       ability: {fileID: 11400000, guid: 14973c998a968324eba5d1189dfc6ace, type: 2}
@@ -33,7 +33,7 @@ MonoBehaviour:
     isPassive: 0
   - abilityData:
       ability: {fileID: 11400000, guid: 9233d82060af7de458e2e6782161b13d, type: 2}
-      amount: 85
+      amount: 100
     isPassive: 0
   tagResists: []
   weaponType: 1

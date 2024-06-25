@@ -7,7 +7,6 @@ using InGame.UI;
 using System;
 using Unity.VisualScripting;
 using System.Numerics;
-using Tayx.Graphy.Advanced;
 
 namespace InGame.Data
 {

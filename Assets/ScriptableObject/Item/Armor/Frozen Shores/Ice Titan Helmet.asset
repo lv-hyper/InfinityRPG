@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7957a1f6aedc364684aa2de1f99748c, type: 3}
   m_Name: Ice Titan Helmet
   m_EditorClassIdentifier: 
-  itemSprite: {fileID: 1638339639, guid: 789119ede2ed04942b5c247c324f7a3e, type: 3}
+  itemSprite: {fileID: -393208328, guid: 07f85983dbd5b83468f5c4fbf3e826ae, type: 3}
   zone: 13
-  legacyID: 
+  legacyID: Helmet-FrozenShores-0-Ice Titan Helmet
   level: 0
   order: 1
   maxStack: 10
@@ -33,6 +33,6 @@ MonoBehaviour:
     isPassive: 0
   - abilityData:
       ability: {fileID: 11400000, guid: 48d57c3dbeeac7b41842f70a5a0807c2, type: 2}
-      amount: 15
+      amount: 27
     isPassive: 0
   tagResists: []

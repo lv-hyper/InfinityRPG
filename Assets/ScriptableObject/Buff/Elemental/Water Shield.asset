@@ -13,13 +13,10 @@ MonoBehaviour:
   m_Name: Water Shield
   m_EditorClassIdentifier: 
   effectIcon: {fileID: 1517038312, guid: 18276612bf6d8404786e10f8400729f9, type: 3}
-  duration: 15
+  duration: 9
+  level: 1
   abilities:
   - abilityData:
-      ability: {fileID: 11400000, guid: 48d57c3dbeeac7b41842f70a5a0807c2, type: 2}
-      amount: 25
-    target: 1
-  - abilityData:
-      ability: {fileID: 11400000, guid: 6e69fd54c8757ff40ade2863196c9eda, type: 2}
-      amount: 10
+      ability: {fileID: 11400000, guid: 11ba1167cb184074dabd47b6fd736629, type: 2}
+      amount: 20
     target: 1

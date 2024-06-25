@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: -310083732, guid: 4dc3a2a4b323385418d43dcbed2a01a6, type: 3}
   zone: 0
-  legacyID: 
+  legacyID: Material-General-1-Scythe Penguin Chip
   level: 1
   order: 0
-  maxStack: 10
+  maxStack: 99
   maxWornCount: 0
   price: 0
   shortDesc: Material

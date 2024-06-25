@@ -16,9 +16,7 @@ MonoBehaviour:
   imageOffset: {x: 0, y: 0}
   description: 
   mobClass: 0
-  elementalDamage:
-  - elemental: 3
-    amount: 66
+  elementalDamage: []
   elementalDefence: []
   integratedElementalDefence: 58
   lv: 255000000000

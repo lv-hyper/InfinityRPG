@@ -22,7 +22,7 @@ MonoBehaviour:
   maxWornCount: 2
   price: 0
   shortDesc: EXP +160%p
-  longDesc: Experience Massively Bursts!
+  longDesc: Cosmic Experience
   itemAbilities:
   - abilityData:
       ability: {fileID: 11400000, guid: 789afb0f8c38a904486eb4ddab4e9b2c, type: 2}

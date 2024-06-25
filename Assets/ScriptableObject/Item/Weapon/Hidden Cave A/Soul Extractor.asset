@@ -22,7 +22,7 @@ MonoBehaviour:
   maxWornCount: 1
   price: 0
   shortDesc: Sword
-  longDesc: This sword extracts soul, including you!
+  longDesc: This weapon allows you to permanently gain energy from slain bosses.
   itemAbilities:
   - abilityData:
       ability: {fileID: 11400000, guid: aebc45057930c2645bda0e6a09837dc1, type: 2}

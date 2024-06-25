@@ -1,7 +1,8 @@
 {
     "name": "gpm_ui_editor",
     "references": [
-        "gpm_ui"
+        "gpm_ui",
+        "gpm_common"
     ],
     "includePlatforms": [
         "Editor"

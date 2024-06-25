@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 1934070346, guid: d00ddbdd0b39bcd47a360ae0fd9a053f, type: 3}
   zone: 12
-  legacyID: 
+  legacyID: Material-FireLordCave-0-Fire Necklace Strap
   level: 0
   order: 1
-  maxStack: 30
+  maxStack: 99
   maxWornCount: 0
   price: 0
   shortDesc: Material

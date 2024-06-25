@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 165113443, guid: 7444df92974aff347b737b1602f63cf0, type: 3}
   zone: 0
-  legacyID: General-General-0-
+  legacyID: General-General-0-Holy Necklace
   level: 0
   order: 11
   maxStack: 1
@@ -22,7 +22,7 @@ MonoBehaviour:
   price: 0
   shortDesc: '[Passive] Gain HP From Attack (80%)'
   longDesc: Sacred object that could only be made with the material of a celestial
-    being.
+    being. Lifesteal doesn't stack!.
   itemAbilities:
   - abilityData:
       ability: {fileID: 11400000, guid: 4741220aabfc4fb4d968b50d110d8aeb, type: 2}

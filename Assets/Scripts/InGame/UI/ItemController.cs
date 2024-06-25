@@ -1,15 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using InGame.Data.Item;
-using InGame.Data;
-using System;
-using Gpm.LogViewer.Internal;
 using System.Numerics;
-using Unity.Mathematics;
 using InGame.Data.Item.Group;
-using InGame.Data.Item.Armor;
 using UnityEngine.UI;
 
 namespace InGame.UI

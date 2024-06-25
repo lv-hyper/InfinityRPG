@@ -17,16 +17,12 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 50df94cacc637c146827c8a7076d2c45, type: 2}
   - {fileID: 11400000, guid: f58e5da9b0cf3644cae0908b1e64a92f, type: 2}
   - {fileID: 11400000, guid: 24758593b27e02041b9c9472e1d4e449, type: 2}
-  - {fileID: 11400000, guid: b55b3cff7cf40d04f92125cdc8800cf3, type: 2}
-  - {fileID: 11400000, guid: 3f1433c1cfc268d4a9816e78e1b842be, type: 2}
-  - {fileID: 11400000, guid: a3a3e37acb8be8f4099d08c387edc22e, type: 2}
-  - {fileID: 11400000, guid: aa61d90a34f7f1c4f95236aab389c053, type: 2}
   itemSetEffects:
   - itemCount: 2
     itemAbilities:
     - abilityData:
         ability: {fileID: 11400000, guid: 26008c40dd9227848b65e02c7e79e1dd, type: 2}
-        amount: 16
+        amount: 10
       isPassive: 0
     - abilityData:
         ability: {fileID: 11400000, guid: 480eeac1ba90dfa408c47d451ea0cb7e, type: 2}
@@ -41,7 +37,7 @@ MonoBehaviour:
     itemAbilities:
     - abilityData:
         ability: {fileID: 11400000, guid: 26008c40dd9227848b65e02c7e79e1dd, type: 2}
-        amount: 16
+        amount: 10
       isPassive: 0
     - abilityData:
         ability: {fileID: 11400000, guid: 480eeac1ba90dfa408c47d451ea0cb7e, type: 2}

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 
 using UnityEngine.Networking;
+using Gpm.Common.Util;
 
 namespace Gpm.Common
 {
@@ -76,18 +77,39 @@ namespace Gpm.Common
 
         public void Get(string url, System.Action<Result> callback = null)
         {
-            ManagedCoroutine.Start(getRequestRoutine(url, callback));
+            StartCoroutine(getRequestRoutine(url, callback));
         }
 
         public void Post(string url, string value, System.Action<Result> callback = null)
         {
-            ManagedCoroutine.Start(postRequestRoutine(url, value, callback));
+            StartCoroutine(postRequestRoutine(url, value, callback));
         }
 
         public void Post(string url, string value, Dictionary<string, string> header, System.Action<Result> callback = null)
         {
             this.header = header;
-            ManagedCoroutine.Start(postRequestRoutine(url, value, callback));
+            StartCoroutine(postRequestRoutine(url, value, callback));
+        }
+
+
+
+        private void StartCoroutine(IEnumerator routine)
+        {
+
+#if ENABLE_MANAGED_CORUTINE
+            ManagedCoroutine.Start(routine);
+#else
+
+    #if UNITY_EDITOR
+            if (!UnityEditor.EditorApplication.isPlaying)
+            {
+                EditorCoroutine.Start(routine);
+                return;
+            }
+    #endif
+            ManagedCoroutineInstance.Instance.StartCoroutine(routine);
+
+#endif
         }
 
         private IEnumerator getRequestRoutine(string url, System.Action<Result> callback = null)

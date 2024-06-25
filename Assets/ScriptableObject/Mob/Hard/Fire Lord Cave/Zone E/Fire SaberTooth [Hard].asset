@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fd75eaf169c10cb4abd33a108262ee8f, type: 3}
-  m_Name: Fire SaberTooth [Hard]
+  m_Name: Fire Sabertooth [Hard]
   m_EditorClassIdentifier: 
   mobSprite: {fileID: 21300000, guid: aca3cd5d1be2e9d45bb18d8a863436be, type: 3}
   imageOffset: {x: 0, y: 0}
@@ -18,9 +18,9 @@ MonoBehaviour:
   mobClass: 1
   elementalDamage:
   - elemental: 3
-    amount: 120
+    amount: 411
   elementalDefence: []
-  integratedElementalDefence: 80
+  integratedElementalDefence: 200
   lv: 36000000000000
   difficulty: hard
   hpRate: 2
@@ -34,7 +34,7 @@ MonoBehaviour:
   customATK: -1
   maxDefenceRatio: 2
   dropTable:
-  - item: {fileID: 11400000, guid: e55cc0491e7fb3c4d983cec5156dc1c2, type: 2}
+  - item: {fileID: 11400000, guid: 94d5b7bed3fa13d4385ceefb61be36bf, type: 2}
     probablity: 0.03
   tagList: []
   minLv: 0

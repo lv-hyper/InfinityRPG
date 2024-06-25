@@ -13,13 +13,10 @@ MonoBehaviour:
   m_Name: Air Shield
   m_EditorClassIdentifier: 
   effectIcon: {fileID: -622903433, guid: 18276612bf6d8404786e10f8400729f9, type: 3}
-  duration: 15
+  duration: 9
+  level: 1
   abilities:
   - abilityData:
-      ability: {fileID: 11400000, guid: 62841904735c4744cab8bf4b760e269a, type: 2}
-      amount: 25
-    target: 1
-  - abilityData:
-      ability: {fileID: 11400000, guid: 6e69fd54c8757ff40ade2863196c9eda, type: 2}
-      amount: 10
+      ability: {fileID: 11400000, guid: 4716f7f01a0c2b04ab9f9233a2cc6f74, type: 2}
+      amount: 20
     target: 1

@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 30eb1083e257dec42a2a4bad8efd07d9, type: 3}
-  m_Name: Piece of Astral Lich
+  m_Name: Piece Of Astral Lich
   m_EditorClassIdentifier: 
   itemSprite: {fileID: -5319230068630021426, guid: 9e5c7499e4bdcf3438fc87aa9c8a5759,
     type: 3}
   zone: 6
-  legacyID: Material-Abyss-777777777-Piece of Astral Lich
+  legacyID: Material-Abyss-777777777-Piece Of Astral Lich
   level: 777777777
   order: 0
-  maxStack: 30
+  maxStack: 99
   maxWornCount: 0
   price: 0
   shortDesc: Lich Piece

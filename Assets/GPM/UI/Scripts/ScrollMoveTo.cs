@@ -6,16 +6,24 @@
 
     public interface IMoveScroll
     {
-        Vector2 GetScrollPostion();
+        Vector2 GetScrollPosition();
 
-        void SetScrollPostion(Vector2 postion);
+        void SetScrollPosition(Vector2 position);
 
-        Vector2 GetMovePosition(int dataIndex, MoveToType moveToType);
+        Vector2 GetMovePosition(int itemIndex, MoveToType moveToType);
+
+        Vector2 GetMovePosition(float scrollRate);
     }
 
     [DisallowMultipleComponent]
     public class ScrollMoveTo : MonoBehaviour
     {
+        public enum ScrollType
+        {
+            INDEX,
+            RATE
+        }
+
         private IMoveScroll scroll;
 
         private void OnEnable()
@@ -26,8 +34,13 @@
             }
         }
 
-        public int dataIndex;
+        public ScrollType scrollType;
+        
+        public int itemIndex;
         public MoveToType moveToType;
+
+        public float scrollRate = 0;
+
         public float time = 0.3f;
 
         public AnimationCurve curve = AnimationCurve.EaseInOut(0, 0, 1, 1);
@@ -37,6 +50,23 @@
         private float rate = 0;
         
         private Vector2 start;
+        
+        public void Set(int itemIndex, MoveToType moveToType, float time)
+        {
+            this.scrollType = ScrollType.INDEX;
+            this.itemIndex = itemIndex;
+            this.moveToType = moveToType;
+
+            this.time = time;
+        }
+
+        public void Set(float scrollRate, float time)
+        {
+            this.scrollType = ScrollType.RATE;
+            this.scrollRate = scrollRate;
+
+            this.time = time;
+        }
 
         public void Play()
         {
@@ -53,7 +83,7 @@
 
             if (rate == 0)
             {
-                start = scroll.GetScrollPostion();
+                start = scroll.GetScrollPosition();
             }
 
             if (time > 0)
@@ -65,14 +95,29 @@
                 rate = 1;
             }
 
-            Vector2 end = scroll.GetMovePosition(dataIndex, moveToType);
-            if (rate < 1)
+            Vector2 end;
+            if (scrollType == ScrollType.INDEX)
             {
-                scroll.SetScrollPostion(Vector2.Lerp(start, end, curve.Evaluate(rate)));                
+                end = scroll.GetMovePosition(itemIndex, moveToType);
+            }
+            else if (scrollType == ScrollType.RATE)
+            {
+                end = scroll.GetMovePosition(scrollRate);
             }
             else
             {
-                scroll.SetScrollPostion(end);
+                end = start;
+                rate = 1;
+
+            }
+
+            if (rate < 1)
+            {
+                scroll.SetScrollPosition(Vector2.Lerp(start, end, curve.Evaluate(rate)));                
+            }
+            else
+            {
+                scroll.SetScrollPosition(end);
                 rate = 0;
 
                 if (autoDestory == true)
@@ -82,6 +127,5 @@
                 enabled = false;
             }
         }
-
     }
 }

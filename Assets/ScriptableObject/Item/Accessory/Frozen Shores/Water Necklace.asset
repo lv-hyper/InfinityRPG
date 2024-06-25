@@ -14,13 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 829114294, guid: d00ddbdd0b39bcd47a360ae0fd9a053f, type: 3}
   zone: 13
-  legacyID: 
+  legacyID: General-FrozenShores-0-Water Necklace
   level: 0
   order: 0
   maxStack: 1
   maxWornCount: 1
   price: 0
-  shortDesc: 
+  shortDesc: Water damage +25%
   longDesc: 
   itemAbilities:
   - abilityData:

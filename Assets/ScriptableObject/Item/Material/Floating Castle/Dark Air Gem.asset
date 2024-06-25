@@ -14,13 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: -270704833, guid: caf7821e7e8bc9e49a4ea1c4fca1f673, type: 3}
   zone: 11
-  legacyID: 
+  legacyID: Material-FloatingCastle-0-Dark Air Gem
   level: 0
   order: 0
-  maxStack: 100
+  maxStack: 99
   maxWornCount: 0
   price: 0
   shortDesc: Material
-  longDesc: Life Gem of a Air Titan cursed for feaving the Tower
+  longDesc: Life Gem of a Air Titan cursed for leaving the Tower
   itemAbilities: []
   tagResists: []

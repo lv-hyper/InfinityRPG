@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 30eb1083e257dec42a2a4bad8efd07d9, type: 3}
-  m_Name: Soul of Betafish +1
+  m_Name: Soul Of Betafish +1
   m_EditorClassIdentifier: 
   itemSprite: {fileID: -288920229161934887, guid: 9b52161a09218964a91a3c02ff91fb4e,
     type: 3}
   zone: 6
-  legacyID: Material-Abyss-77777777777-Soul of Betafish +1
+  legacyID: Material-Abyss-77777777777-Soul Of Betafish +1
   level: 77777777777
   order: 0
-  maxStack: 30
+  maxStack: 99
   maxWornCount: 0
   price: 0
   shortDesc: Soul

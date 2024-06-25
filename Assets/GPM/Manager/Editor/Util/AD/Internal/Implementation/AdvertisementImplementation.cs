@@ -1,4 +1,5 @@
 ﻿using Gpm.Common.Util;
+using Gpm.Manager.Constant;
 using Gpm.Manager.Util;
 using System;
 using System.Collections.Generic;
@@ -11,8 +12,6 @@ namespace Gpm.Manager.Ad.Internal
 {
     internal class AdvertisementImplementation
     {
-        private const int KOREA_STANDARD_TIME = 9;
-
         private class AdvertisementData
         {
             public string link;
@@ -418,7 +417,7 @@ namespace Gpm.Manager.Ad.Internal
 
             return drawAdvertisementList[advertisementIndex];
         }
-
+        
         private void MakeAdvertisementList()
         {
             if(advertisements == null)
@@ -429,13 +428,15 @@ namespace Gpm.Manager.Ad.Internal
             drawAdvertisementList.Clear();
             foreach (var ad in advertisements.advertisements)
             {
-                DateTime dateTimeStart = DateTime.ParseExact(ad.timeInfo.startTime, "yyyy-MM-dd HH:mm", null).AddHours(-KOREA_STANDARD_TIME);
-                DateTime dateTimeEnd = DateTime.ParseExact(ad.timeInfo.endTime, "yyyy-MM-dd HH:mm", null).AddHours(-KOREA_STANDARD_TIME);
+                DateTime dateTimeStart = ManagerTime.ParseTimeInfo(ad.timeInfo.startTime);
+                DateTime dateTimeEnd = ManagerTime.ParseTimeInfo(ad.timeInfo.endTime);
 
-                int utcNowHour = (DateTime.UtcNow.Hour + KOREA_STANDARD_TIME) % 24;
+                DateTime now = ManagerTime.Now;
+                long ticks = now.Ticks;
+                int utcNowHour = (now.Hour) % 24;
 
-                if (DateTime.UtcNow.Ticks >= dateTimeStart.Ticks
-                    && DateTime.UtcNow.Ticks <= dateTimeEnd.Ticks)
+                if (ticks >= dateTimeStart.Ticks
+                    && ticks <= dateTimeEnd.Ticks)
                 {
                     if (utcNowHour >= int.Parse(ad.timeInfo.day.start)
                         && utcNowHour <= int.Parse(ad.timeInfo.day.end))

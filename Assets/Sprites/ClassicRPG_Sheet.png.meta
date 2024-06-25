@@ -384,7 +384,7 @@ TextureImporter:
       213: 8425112649106880314
     second: ClassicRPG_Sheet_126
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -406,7 +406,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -446,17 +446,19 @@ TextureImporter:
   ignorePngGamma: 0
   applyGammaDecoding: 0
   swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -469,6 +471,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -481,6 +484,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -493,6 +497,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -505,6 +510,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -3200,134 +3206,134 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      ClassicRPG_Sheet_115: 6233098128084669234
-      ClassicRPG_Sheet_17: 9076124797145555976
-      ClassicRPG_Sheet_20: 1365441082880435788
-      ClassicRPG_Sheet_98: 875461456714909059
-      ClassicRPG_Sheet_89: 7864026351833157893
-      ClassicRPG_Sheet_99: 7660150760163268951
-      ClassicRPG_Sheet_63: 1635302222187876899
-      ClassicRPG_Sheet_80: 25023613707469769
-      ClassicRPG_Sheet_44: 6459225822721560409
-      ClassicRPG_Sheet_66: -3003307869333291991
-      ClassicRPG_Sheet_8: -6620800281954135693
-      ClassicRPG_Sheet_46: 5198051026062185690
-      ClassicRPG_Sheet_85: 8474276882930271355
-      ClassicRPG_Sheet_52: 8094740467751224735
-      ClassicRPG_Sheet_60: 5260968773815281820
-      ClassicRPG_Sheet_19: 4799657069663646981
-      ClassicRPG_Sheet_21: 7411229593383943777
-      ClassicRPG_Sheet_16: -5165372838771143787
-      ClassicRPG_Sheet_47: -7794163573022633747
-      ClassicRPG_Sheet_75: 2315195355501889933
-      ClassicRPG_Sheet_87: -3984736093935408249
-      ClassicRPG_Sheet_100: -180556742599190019
-      ClassicRPG_Sheet_116: 35048018924139981
-      ClassicRPG_Sheet_95: -3192217715081150208
       ClassicRPG_Sheet_0: -4311222478576118281
-      ClassicRPG_Sheet_9: -3452249959417930539
-      ClassicRPG_Sheet_28: 6415123677536005906
-      ClassicRPG_Sheet_123: -3700179177410085838
-      ClassicRPG_Sheet_96: 3948095731632705116
-      ClassicRPG_Sheet_112: 8396067823490722564
-      ClassicRPG_Sheet_23: -7442134724360011578
-      ClassicRPG_Sheet_78: 285222223128329925
-      ClassicRPG_Sheet_125: -508529269329824440
-      ClassicRPG_Sheet_3: -3438813485491277264
-      ClassicRPG_Sheet_22: 2273224422134388056
-      ClassicRPG_Sheet_88: 3311016433659669882
-      ClassicRPG_Sheet_106: -3522692101360336196
-      ClassicRPG_Sheet_109: 3473312048821253065
-      ClassicRPG_Sheet_53: -3964320910853626547
-      ClassicRPG_Sheet_15: 7681212537511599161
-      ClassicRPG_Sheet_64: -2547921370175814393
-      ClassicRPG_Sheet_36: 1714171885938625036
-      ClassicRPG_Sheet_91: 829300874713243229
-      ClassicRPG_Sheet_27: -9047858153063531055
-      ClassicRPG_Sheet_24: 3783229870560103798
-      ClassicRPG_Sheet_43: -2889179100111207536
-      ClassicRPG_Sheet_81: 3689401828506468917
-      ClassicRPG_Sheet_33: -576813758305003946
-      ClassicRPG_Sheet_56: -5670187471532680317
+      ClassicRPG_Sheet_1: 885190975492938175
+      ClassicRPG_Sheet_10: 4049974769194100333
+      ClassicRPG_Sheet_100: -180556742599190019
+      ClassicRPG_Sheet_101: -1152916398758698515
+      ClassicRPG_Sheet_102: 256713476164436497
       ClassicRPG_Sheet_103: -7583409549623195204
-      ClassicRPG_Sheet_54: 3546394720604485411
-      ClassicRPG_Sheet_83: -116474075522482796
-      ClassicRPG_Sheet_50: 5982210628124719738
+      ClassicRPG_Sheet_104: 2088055507606145958
+      ClassicRPG_Sheet_105: 3598096440105395685
+      ClassicRPG_Sheet_106: -3522692101360336196
+      ClassicRPG_Sheet_107: -4186016969925143412
+      ClassicRPG_Sheet_108: -4356509086046305698
+      ClassicRPG_Sheet_109: 3473312048821253065
+      ClassicRPG_Sheet_11: 209276905923193116
+      ClassicRPG_Sheet_110: 8342730045137624871
+      ClassicRPG_Sheet_111: 7795955808086713634
+      ClassicRPG_Sheet_112: 8396067823490722564
+      ClassicRPG_Sheet_113: 5124175367619743426
+      ClassicRPG_Sheet_114: -722343337408334818
+      ClassicRPG_Sheet_115: 6233098128084669234
+      ClassicRPG_Sheet_116: 35048018924139981
+      ClassicRPG_Sheet_117: -5631315213997970367
+      ClassicRPG_Sheet_118: 774149939144419414
+      ClassicRPG_Sheet_119: -3005426588512288865
+      ClassicRPG_Sheet_12: -9182627545045516914
+      ClassicRPG_Sheet_120: -5122873074345633406
+      ClassicRPG_Sheet_121: -8475993745725979874
+      ClassicRPG_Sheet_122: -7845093096900220134
+      ClassicRPG_Sheet_123: -3700179177410085838
+      ClassicRPG_Sheet_124: 9039635516350703156
+      ClassicRPG_Sheet_125: -508529269329824440
+      ClassicRPG_Sheet_126: 8425112649106880314
+      ClassicRPG_Sheet_13: 4833521035417077746
       ClassicRPG_Sheet_14: 3499328978497251352
+      ClassicRPG_Sheet_15: 7681212537511599161
+      ClassicRPG_Sheet_16: -5165372838771143787
+      ClassicRPG_Sheet_17: 9076124797145555976
+      ClassicRPG_Sheet_18: 3217809953095375936
+      ClassicRPG_Sheet_19: 4799657069663646981
+      ClassicRPG_Sheet_2: -1458624466635194702
+      ClassicRPG_Sheet_20: 1365441082880435788
+      ClassicRPG_Sheet_21: 7411229593383943777
+      ClassicRPG_Sheet_22: 2273224422134388056
+      ClassicRPG_Sheet_23: -7442134724360011578
+      ClassicRPG_Sheet_24: 3783229870560103798
+      ClassicRPG_Sheet_25: 4585677101458173480
+      ClassicRPG_Sheet_26: 7983700852062150592
+      ClassicRPG_Sheet_27: -9047858153063531055
+      ClassicRPG_Sheet_28: 6415123677536005906
+      ClassicRPG_Sheet_29: -1557802009012787433
+      ClassicRPG_Sheet_3: -3438813485491277264
+      ClassicRPG_Sheet_30: -7836638238085722994
+      ClassicRPG_Sheet_31: -857685352031066559
+      ClassicRPG_Sheet_32: -2098604379982858139
+      ClassicRPG_Sheet_33: -576813758305003946
+      ClassicRPG_Sheet_34: -1150152487860518272
+      ClassicRPG_Sheet_35: 7326499938707161170
+      ClassicRPG_Sheet_36: 1714171885938625036
+      ClassicRPG_Sheet_37: 7882227930463308368
+      ClassicRPG_Sheet_38: 7929872198796885206
+      ClassicRPG_Sheet_39: -1751389097648782466
+      ClassicRPG_Sheet_4: 385300918033915674
+      ClassicRPG_Sheet_40: -6185372623727612733
+      ClassicRPG_Sheet_41: 4698684239367350021
+      ClassicRPG_Sheet_42: 8451893069826020712
+      ClassicRPG_Sheet_43: -2889179100111207536
+      ClassicRPG_Sheet_44: 6459225822721560409
+      ClassicRPG_Sheet_45: -3257206570091987095
+      ClassicRPG_Sheet_46: 5198051026062185690
+      ClassicRPG_Sheet_47: -7794163573022633747
+      ClassicRPG_Sheet_48: -4329465654398944963
+      ClassicRPG_Sheet_49: 5359856312095303288
+      ClassicRPG_Sheet_5: -6992083911069441394
+      ClassicRPG_Sheet_50: 5982210628124719738
+      ClassicRPG_Sheet_51: -3144784462727767549
+      ClassicRPG_Sheet_52: 8094740467751224735
+      ClassicRPG_Sheet_53: -3964320910853626547
+      ClassicRPG_Sheet_54: 3546394720604485411
+      ClassicRPG_Sheet_55: -4479014244098558837
+      ClassicRPG_Sheet_56: -5670187471532680317
+      ClassicRPG_Sheet_57: -1583122024880626107
+      ClassicRPG_Sheet_58: -2308911491094350641
+      ClassicRPG_Sheet_59: -1603345758486382488
+      ClassicRPG_Sheet_6: 7002853967769863979
+      ClassicRPG_Sheet_60: 5260968773815281820
+      ClassicRPG_Sheet_61: -702751957735148497
+      ClassicRPG_Sheet_62: -362227463797164750
+      ClassicRPG_Sheet_63: 1635302222187876899
+      ClassicRPG_Sheet_64: -2547921370175814393
+      ClassicRPG_Sheet_65: 2511878288118841288
+      ClassicRPG_Sheet_66: -3003307869333291991
+      ClassicRPG_Sheet_67: 2686080844000536536
+      ClassicRPG_Sheet_68: -5250822885755651307
+      ClassicRPG_Sheet_69: 8442993087757301157
+      ClassicRPG_Sheet_7: -2038541033936189124
+      ClassicRPG_Sheet_70: -4092886457208375071
+      ClassicRPG_Sheet_71: -9606497850621015
+      ClassicRPG_Sheet_72: 6999677970182070417
+      ClassicRPG_Sheet_73: -7778517667430909773
+      ClassicRPG_Sheet_74: -6663082177593425952
+      ClassicRPG_Sheet_75: 2315195355501889933
       ClassicRPG_Sheet_76: -8260492488241200346
       ClassicRPG_Sheet_77: -4570053432458812768
-      ClassicRPG_Sheet_93: -425133039307878667
-      ClassicRPG_Sheet_74: -6663082177593425952
-      ClassicRPG_Sheet_114: -722343337408334818
-      ClassicRPG_Sheet_59: -1603345758486382488
-      ClassicRPG_Sheet_32: -2098604379982858139
-      ClassicRPG_Sheet_38: 7929872198796885206
-      ClassicRPG_Sheet_107: -4186016969925143412
-      ClassicRPG_Sheet_110: 8342730045137624871
-      ClassicRPG_Sheet_41: 4698684239367350021
-      ClassicRPG_Sheet_12: -9182627545045516914
-      ClassicRPG_Sheet_31: -857685352031066559
+      ClassicRPG_Sheet_78: 285222223128329925
       ClassicRPG_Sheet_79: -4311054931050436857
-      ClassicRPG_Sheet_90: 5556823340616623762
-      ClassicRPG_Sheet_49: 5359856312095303288
-      ClassicRPG_Sheet_35: 7326499938707161170
-      ClassicRPG_Sheet_124: 9039635516350703156
-      ClassicRPG_Sheet_55: -4479014244098558837
-      ClassicRPG_Sheet_86: -1733362937767433391
-      ClassicRPG_Sheet_102: 256713476164436497
-      ClassicRPG_Sheet_118: 774149939144419414
-      ClassicRPG_Sheet_113: 5124175367619743426
-      ClassicRPG_Sheet_34: -1150152487860518272
-      ClassicRPG_Sheet_122: -7845093096900220134
-      ClassicRPG_Sheet_39: -1751389097648782466
-      ClassicRPG_Sheet_65: 2511878288118841288
-      ClassicRPG_Sheet_67: 2686080844000536536
-      ClassicRPG_Sheet_6: 7002853967769863979
-      ClassicRPG_Sheet_11: 209276905923193116
+      ClassicRPG_Sheet_8: -6620800281954135693
+      ClassicRPG_Sheet_80: 25023613707469769
+      ClassicRPG_Sheet_81: 3689401828506468917
       ClassicRPG_Sheet_82: -2182770304928544633
-      ClassicRPG_Sheet_97: -8289481930325655745
-      ClassicRPG_Sheet_68: -5250822885755651307
-      ClassicRPG_Sheet_25: 4585677101458173480
-      ClassicRPG_Sheet_101: -1152916398758698515
-      ClassicRPG_Sheet_119: -3005426588512288865
-      ClassicRPG_Sheet_126: 8425112649106880314
-      ClassicRPG_Sheet_29: -1557802009012787433
-      ClassicRPG_Sheet_121: -8475993745725979874
-      ClassicRPG_Sheet_42: 8451893069826020712
-      ClassicRPG_Sheet_62: -362227463797164750
-      ClassicRPG_Sheet_40: -6185372623727612733
-      ClassicRPG_Sheet_105: 3598096440105395685
-      ClassicRPG_Sheet_61: -702751957735148497
-      ClassicRPG_Sheet_13: 4833521035417077746
+      ClassicRPG_Sheet_83: -116474075522482796
       ClassicRPG_Sheet_84: 6451381510469174936
-      ClassicRPG_Sheet_117: -5631315213997970367
-      ClassicRPG_Sheet_69: 8442993087757301157
-      ClassicRPG_Sheet_120: -5122873074345633406
-      ClassicRPG_Sheet_104: 2088055507606145958
-      ClassicRPG_Sheet_5: -6992083911069441394
-      ClassicRPG_Sheet_70: -4092886457208375071
-      ClassicRPG_Sheet_4: 385300918033915674
-      ClassicRPG_Sheet_26: 7983700852062150592
-      ClassicRPG_Sheet_58: -2308911491094350641
+      ClassicRPG_Sheet_85: 8474276882930271355
+      ClassicRPG_Sheet_86: -1733362937767433391
+      ClassicRPG_Sheet_87: -3984736093935408249
+      ClassicRPG_Sheet_88: 3311016433659669882
+      ClassicRPG_Sheet_89: 7864026351833157893
+      ClassicRPG_Sheet_9: -3452249959417930539
+      ClassicRPG_Sheet_90: 5556823340616623762
+      ClassicRPG_Sheet_91: 829300874713243229
       ClassicRPG_Sheet_92: -7665056018218293829
-      ClassicRPG_Sheet_37: 7882227930463308368
-      ClassicRPG_Sheet_10: 4049974769194100333
-      ClassicRPG_Sheet_71: -9606497850621015
-      ClassicRPG_Sheet_108: -4356509086046305698
-      ClassicRPG_Sheet_7: -2038541033936189124
-      ClassicRPG_Sheet_111: 7795955808086713634
-      ClassicRPG_Sheet_48: -4329465654398944963
-      ClassicRPG_Sheet_18: 3217809953095375936
-      ClassicRPG_Sheet_73: -7778517667430909773
-      ClassicRPG_Sheet_72: 6999677970182070417
-      ClassicRPG_Sheet_1: 885190975492938175
+      ClassicRPG_Sheet_93: -425133039307878667
       ClassicRPG_Sheet_94: 6562177251188768279
-      ClassicRPG_Sheet_2: -1458624466635194702
-      ClassicRPG_Sheet_51: -3144784462727767549
-      ClassicRPG_Sheet_45: -3257206570091987095
-      ClassicRPG_Sheet_30: -7836638238085722994
-      ClassicRPG_Sheet_57: -1583122024880626107
-  spritePackingTag: 
+      ClassicRPG_Sheet_95: -3192217715081150208
+      ClassicRPG_Sheet_96: 3948095731632705116
+      ClassicRPG_Sheet_97: -8289481930325655745
+      ClassicRPG_Sheet_98: 875461456714909059
+      ClassicRPG_Sheet_99: 7660150760163268951
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
   assetBundleName: 

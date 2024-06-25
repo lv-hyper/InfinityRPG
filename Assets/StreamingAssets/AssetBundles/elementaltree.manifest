@@ -1,12 +1,15 @@
 ManifestFileVersion: 0
-CRC: 3325412891
+CRC: 2821458697
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 13b379188adcd626c29377a744b1fb09
+    Hash: e70083daa445e99845273b8435fe0fe3
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 7070f8136478a97d743a1ff23d4518c2
+    Hash: b565b16088a59af40098c0d9504cc9e2
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: e70083daa445e99845273b8435fe0fe3
 HashAppended: 0
 ClassTypes:
 - Class: 28
@@ -19,6 +22,8 @@ ClassTypes:
   Script: {fileID: 11500000, guid: 4ef2cff9f4c9a2245b2d4c258384f4b4, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 5227ba7a208f16a4b98315737fb5221f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8de72f254e5cb3945b40dfa6c421e691, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 213
@@ -40,4 +45,4 @@ Assets:
 - Assets/ScriptableObject/ElementalTree/Air.asset
 - Assets/ScriptableObject/ElementalTree/Fire.asset
 Dependencies:
-- D:/Unity/InfinityRPG/Assets/StreamingAssets/AssetBundles/skill
+- D:/Unity/Unity Projects/Assets/StreamingAssets/AssetBundles/skill

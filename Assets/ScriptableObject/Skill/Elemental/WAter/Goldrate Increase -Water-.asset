@@ -17,7 +17,7 @@ MonoBehaviour:
   elementalType: 4
   upgradeCost: 0
   defaultUpgradeCount: 0
-  maxUpgradeCount: 3
+  maxUpgradeCount: 4
   requiredLevel: 0
   skillDescription: 
   isClassSkill: 0
@@ -26,4 +26,4 @@ MonoBehaviour:
       ability: {fileID: 11400000, guid: c82d9d7f7ce757e43b9de47627e50a05, type: 2}
       amount: 10
     target: 1
-  elemental: 4
+  elemental: 1

@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 590d37b38587ebb4d8c5c14b119511ed, type: 3}
   m_Name: Fire Turtle Boots
   m_EditorClassIdentifier: 
-  itemSprite: {fileID: 1635444800, guid: 789119ede2ed04942b5c247c324f7a3e, type: 3}
+  itemSprite: {fileID: 1863725591, guid: 3343b71f911332942a21ad314874de03, type: 3}
   zone: 12
-  legacyID: 
+  legacyID: Greave-FireLordCave-0-Fire Turtle Boots
   level: 0
   order: 0
   maxStack: 10
@@ -41,6 +41,6 @@ MonoBehaviour:
     isPassive: 0
   - abilityData:
       ability: {fileID: 11400000, guid: 26008c40dd9227848b65e02c7e79e1dd, type: 2}
-      amount: 12
+      amount: 15
     isPassive: 0
   tagResists: []

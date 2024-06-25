@@ -1,16 +1,9 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using System.Linq;
-using Gpm.LogViewer.Internal;
-using InGame.Data.BattleInstance;
-using System.Xml;
 using System.Numerics;
-using System.Collections.ObjectModel;
-using System.Data.Common;
 using UnityEngine.UI;
-using InGame.Entity;
 using InGame.Data.SaveData;
 using System;
 
@@ -33,7 +26,7 @@ namespace Main.UI.Statistics
         [SerializeField] List<InGame.Data.Mob.AbstractMob> rawMobs, cachedMobs;
         [SerializeField] SoulExtractSaveData soulExtractSaveData;
 
-
+//
         private void LoadSoulExtractData()
         {
             soulExtractSaveData = SoulExtractSaveDataManager.LoadSoulExtractData();

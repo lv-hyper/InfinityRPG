@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 30eb1083e257dec42a2a4bad8efd07d9, type: 3}
-  m_Name: Essence of Octi
+  m_Name: Essence Of Octi
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 4442676178509896716, guid: 66cc13b398c62eb43bbb5989b09ebca2,
     type: 3}
   zone: 5
-  legacyID: Material-Ocean-800000000-Essence of Octi
+  legacyID: Material-Ocean-800000000-Essence Of Octi
   level: 800000000
   order: 0
-  maxStack: 30
+  maxStack: 99
   maxWornCount: 0
   price: 0
   shortDesc: Essence

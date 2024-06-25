@@ -22,7 +22,7 @@ MonoBehaviour:
   maxWornCount: 1
   price: 0
   shortDesc: DEX +1,000,000
-  longDesc: Gives you respective power
+  longDesc: Gives you respective power.
   itemAbilities:
   - abilityData:
       ability: {fileID: 11400000, guid: f453bf97e7fe4054ba64ab6f3fe940a8, type: 2}

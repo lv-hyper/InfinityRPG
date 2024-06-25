@@ -23,6 +23,16 @@
             TestItemData itemData = (TestItemData)scrollData;
             StringBuilder sb = new StringBuilder();
             sb.Append(string.Format("Item : {0} ", itemData.index));
+
+            if (itemData.index % 2 == 0)
+            {
+                sb.Append("(Even) ");
+            }
+            else
+            {
+                sb.Append("(Odd) ");
+            }
+
             sb.Append(itemData.description);
             text.text = sb.ToString();
         }
@@ -36,17 +46,7 @@
         {
             float size = Random.Range(30, 400);
 
-            Vector2 currentSize = ((RectTransform)transform).sizeDelta;
-            if (isVertical == true)
-            {
-                ((RectTransform)transform).sizeDelta = new Vector2(currentSize.x, size);
-            }
-            else
-            {
-                ((RectTransform)transform).sizeDelta = new Vector2(size, currentSize.y);
-            }
-
-            OnUpdateItemSize();
+            SetSize(size);
         }
     }
 

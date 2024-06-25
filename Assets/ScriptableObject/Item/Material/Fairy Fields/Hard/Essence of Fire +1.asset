@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 30eb1083e257dec42a2a4bad8efd07d9, type: 3}
-  m_Name: Essence of Fire +1
+  m_Name: Essence Of Fire +1
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 763688889, guid: 1c62d1a70d7af634abd47c324cf2e8f9, type: 3}
   zone: 10
-  legacyID: 
+  legacyID: Material-FairyField-330000000001-Essence Of Fire +1
   level: 330000000001
   order: 0
-  maxStack: 100
+  maxStack: 99
   maxWornCount: 0
   price: 0
   shortDesc: Material

@@ -137,6 +137,12 @@ namespace InGame.Data.Skill
         [SerializeField] public Ability.AbilityData abilityData;
         [SerializeField] bool target;
 
+        public SkillAbility(Ability.AbilityData _abilityData, bool _target)
+        {
+            abilityData = _abilityData;
+            target = _target;
+        }
+
         public string GetAbilityInString(long stack = 1)
         {
             var amount = abilityData.GetRawAmount();

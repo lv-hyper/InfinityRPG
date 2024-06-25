@@ -2,6 +2,6 @@
 {
     public static class GpmUi
     {
-        public static string VERSION = "2.6.0";
+        public static string VERSION = "2.9.0";
     }
 }

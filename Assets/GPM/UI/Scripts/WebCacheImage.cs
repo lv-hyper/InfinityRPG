@@ -5,6 +5,7 @@
     using UnityEngine.UI;
     using UnityEngine.Events;
     using Gpm.CacheStorage;
+    using Gpm.CacheStorage.Internal;
 
     [RequireComponent(typeof(RawImage))]
     public class WebCacheImage : MonoBehaviour
@@ -20,7 +21,7 @@
 
         private RawImage image;
 
-        private CacheInfo cacheInfo;
+        private CacheRequestOperation operation;
 
         private bool isInitilize = false;
 
@@ -42,16 +43,27 @@
             }
         }
 
+        public CacheRequestOperation Operation
+        {
+            get
+            {
+                return operation;
+            }
+        }
+        
+
         public CacheInfo CacheInfo
         {
             get
             {
-                return cacheInfo;
+                return operation;
             }
         }
 
         private void Awake()
         {
+            CacheStorageInternal.Initialize();
+
             if (image == null)
             {
                 image = GetComponent<RawImage>();
@@ -74,7 +86,7 @@
         {
             if (image != null)
             {
-                cacheInfo = GpmCacheStorage.GetCachedTexture(url, (cachedTexture) =>
+                operation = GpmCacheStorage.GetCachedTexture(url, (cachedTexture) =>
                 {
                     if (cachedTexture != null)
                     {
@@ -90,14 +102,9 @@
             {
                 Image.texture = null;
 
-                if (preLoad == true)
-                {
-                    Preload();
-                }
-
                 if (string.IsNullOrEmpty(this.url) == false)
                 {
-                    cacheInfo = GpmCacheStorage.RequestTexture(url, (cachedTexture) =>
+                    operation = GpmCacheStorage.RequestTexture(url, preLoad, (cachedTexture) =>
                     {
                         if (cachedTexture != null)
                         {
@@ -113,6 +120,13 @@
             if(this.url != url)
             {
                 this.url = url;
+
+                if (operation != null)
+                {
+                    operation.Cancel();
+                    operation = null;
+                }
+                
                 LoadImage();
             }
         }

@@ -18,9 +18,9 @@ MonoBehaviour:
   mobClass: 1
   elementalDamage:
   - elemental: 3
-    amount: 58
+    amount: 270
   elementalDefence: []
-  integratedElementalDefence: 50
+  integratedElementalDefence: 100
   lv: 16800000000000
   difficulty: hard
   hpRate: 1
@@ -35,10 +35,10 @@ MonoBehaviour:
   customATK: -1
   maxDefenceRatio: 2
   dropTable:
-  - item: {fileID: 11400000, guid: f58e5da9b0cf3644cae0908b1e64a92f, type: 2}
-    probablity: 0.04
-  - item: {fileID: 11400000, guid: 24758593b27e02041b9c9472e1d4e449, type: 2}
-    probablity: 0.04
+  - item: {fileID: 11400000, guid: f6e3d780606df044ba5ded54cf655670, type: 2}
+    probablity: 0.025
+  - item: {fileID: 11400000, guid: a85ca10c256829742a8b4bf662432c2c, type: 2}
+    probablity: 0.025
   tagList: []
   soulLv: 5
   progressionLevel: 0

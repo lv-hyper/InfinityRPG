@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e00b32403f05c674e9ca98c420707c87, type: 3}
   m_Name: Base Air Defence
   m_EditorClassIdentifier: 
-  desc: Air Defence {0:N0}%
+  desc: Air Defence {0:N0}p
   additionalStatDependency:
   - {fileID: 11400000, guid: 62841904735c4744cab8bf4b760e269a, type: 2}
-  percentPointStatDependency: []
+  percentPointStatDependency:
+  - {fileID: 11400000, guid: 4716f7f01a0c2b04ab9f9233a2cc6f74, type: 2}
   percentStatDependency: []

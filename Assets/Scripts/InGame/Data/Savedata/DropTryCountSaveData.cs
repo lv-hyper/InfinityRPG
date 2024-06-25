@@ -135,7 +135,6 @@ namespace InGame.Data.SaveData
         public static Dictionary<string, List<float>> LoadDropTryCountSaveData()
         {
             string jsonString = "";
-            bool isOld = false;
             try
             {
                 string encPath = string.Format("{0}/{1}.enc", Application.persistentDataPath, "DropTryCountSaveData");

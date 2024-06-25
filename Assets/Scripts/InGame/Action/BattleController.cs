@@ -280,23 +280,32 @@ namespace InGame.Action
 
             for(var _elemental = EnumElemental.Air; _elemental <= EnumElemental.Count - 1; ++_elemental)
             {
+                /*
                 if (enemyElementalBonus <= 1)
                     elementalToMobImage[_elemental].color = UnityEngine.Vector4.zero;
-                else if (battle.GetMobInstance().GetElementalDamage(_elemental) > 0)
+                else 
+                */
+                if (battle.GetMobInstance().GetElementalDamage(_elemental) > 0)
                     elementalToMobImage[_elemental].color = Color.white;
                 else
                     elementalToMobImage[_elemental].color = transparent;
 
+                /*
                 if (characterElementalBonus <= 1)
                     elementalToCharacterImage[_elemental].color = UnityEngine.Vector4.zero;
-                else if (battle.GetCharacterInstance().GetElementalDamage(_elemental) > 0)
+                else 
+                */
+                if (battle.GetCharacterInstance().GetElementalDamage(_elemental) > 0)
                     elementalToCharacterImage[_elemental].color = Color.white;
                 else
                     elementalToCharacterImage[_elemental].color = transparent;
             }
 
-            mobElemental.SetActive(enemyElementalBonus > 1);
-            characterElemental.SetActive(characterElementalBonus > 1);
+            //mobElemental.SetActive(enemyElementalBonus > 1);
+            //characterElemental.SetActive(characterElementalBonus > 1);
+            
+            mobElemental.SetActive(true);
+            characterElemental.SetActive(true);
 
             characterElementalValueText.text = string.Format(
                 "{0:0.0}%",

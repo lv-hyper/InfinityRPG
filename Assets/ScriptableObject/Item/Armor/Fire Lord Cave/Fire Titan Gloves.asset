@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0d77133b170acf49a06ed500770a584, type: 3}
   m_Name: Fire Titan Gloves
   m_EditorClassIdentifier: 
-  itemSprite: {fileID: 1751777311, guid: 789119ede2ed04942b5c247c324f7a3e, type: 3}
+  itemSprite: {fileID: -1631513743, guid: 07f85983dbd5b83468f5c4fbf3e826ae, type: 3}
   zone: 12
-  legacyID: 
+  legacyID: Glove-FireLordCave-0-Fire Titan Gloves
   level: 0
   order: 1
   maxStack: 10
@@ -37,6 +37,6 @@ MonoBehaviour:
     isPassive: 0
   - abilityData:
       ability: {fileID: 11400000, guid: 26008c40dd9227848b65e02c7e79e1dd, type: 2}
-      amount: 15
+      amount: 27
     isPassive: 0
   tagResists: []

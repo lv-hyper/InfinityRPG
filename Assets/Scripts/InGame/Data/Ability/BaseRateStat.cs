@@ -42,7 +42,7 @@ namespace InGame.Data.Ability
                 }
             }
 
-            amount *= totalMultiplier;
+            amount = ((amount + 100.0f) * totalMultiplier) - 100.0f;
 
             return amount;
         }

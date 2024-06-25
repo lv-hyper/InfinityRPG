@@ -10957,8 +10957,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efd7d131634c8384f94cb89489e88d86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minLevel: 150000000000
-  maxLevel: 160000000000
+  minLevel: 160000000000
+  maxLevel: 170000000000
   mobList:
   - {fileID: 11400000, guid: f837a0854cbfd3a48aa6c4f0c53710dc, type: 2}
   - {fileID: 11400000, guid: ae32fc8c7977c0242b3261b8d6961d5f, type: 2}

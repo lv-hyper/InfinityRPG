@@ -159,7 +159,7 @@ namespace InGame.Data
 
             foreach (var element in characterBuffList)
             {
-                buffAbilities.AddRange(element.effect.abilities);
+                buffAbilities.AddRange(element.effect.GetAbilities());
             }
 
             return buffAbilities;
@@ -171,7 +171,7 @@ namespace InGame.Data
 
             foreach (var element in characterDebuffList)
             {
-                debuffAbilities.AddRange(element.effect.abilities);
+                debuffAbilities.AddRange(element.effect.GetAbilities());
             }
 
             return debuffAbilities;

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9495e2426dc60cc4ba40a53a473ec155, type: 3}
+  m_Name: Mythic Water Core
+  m_EditorClassIdentifier: 
+  itemSprite: {fileID: -1892102680, guid: d3b6d49a44280b6438812c6ba88d3a9a, type: 3}
+  zone: 13
+  legacyID: General-General-0-
+  level: 0
+  order: 0
+  maxStack: 1
+  maxWornCount: 1
+  price: 0
+  shortDesc: EXP x1.2 (Passive), Water Damage +40p
+  longDesc: Powerful Accessory
+  itemAbilities:
+  - abilityData:
+      ability: {fileID: 11400000, guid: 83b80519d6da7f14c830d34b8b8ceda0, type: 2}
+      amount: 1.2
+    isPassive: 1
+  - abilityData:
+      ability: {fileID: 11400000, guid: 665e3ba214c2bc742a3b27e8dbb0265e, type: 2}
+      amount: 40
+    isPassive: 0
+  tagResists: []

@@ -10,19 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8715b00cf657c664ea5bdc3b9ae562e1, type: 3}
-  m_Name: True Power of Mermaid
+  m_Name: True Power Of Mermaid
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 8210508010921693563, guid: f7201659d0658e6489f4c29f5e04b8f8,
     type: 3}
   zone: 5
-  legacyID: Weapon-Ocean-0-True Power of Mermaid
+  legacyID: Weapon-Ocean-0-True Power Of Mermaid
   level: 0
   order: 11
   maxStack: 10
   maxWornCount: 1
   price: 0
   shortDesc: Staff
-  longDesc: The True Power of Mermaid Inside This!
+  longDesc: The True Power Of Mermaid inside this!
   itemAbilities:
   - abilityData:
       ability: {fileID: 11400000, guid: 14973c998a968324eba5d1189dfc6ace, type: 2}

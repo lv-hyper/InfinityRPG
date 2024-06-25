@@ -15,14 +15,14 @@ MonoBehaviour:
   itemSprite: {fileID: 2102080071684236895, guid: 27ab6101698fc114fa4d34cc2c2f7d92,
     type: 3}
   zone: 0
-  legacyID: 
+  legacyID: General-General-1-EXP Book +8
   level: 1
   order: 0
   maxStack: 2
   maxWornCount: 2
   price: 0
   shortDesc: EXP +180%p
-  longDesc: Experience Massively Bursts!
+  longDesc: Universal Experience
   itemAbilities:
   - abilityData:
       ability: {fileID: 11400000, guid: 789afb0f8c38a904486eb4ddab4e9b2c, type: 2}

@@ -13,9 +13,10 @@ MonoBehaviour:
   m_Name: Air Boost
   m_EditorClassIdentifier: 
   effectIcon: {fileID: -386798972, guid: 18276612bf6d8404786e10f8400729f9, type: 3}
-  duration: 15
+  duration: 9
+  level: 1
   abilities:
   - abilityData:
-      ability: {fileID: 11400000, guid: 9233d82060af7de458e2e6782161b13d, type: 2}
-      amount: 100
+      ability: {fileID: 11400000, guid: c7ef18a7a9a084c4aae71ab009e8cb11, type: 2}
+      amount: 20
     target: 1

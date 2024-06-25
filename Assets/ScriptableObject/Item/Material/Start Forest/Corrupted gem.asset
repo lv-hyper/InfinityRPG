@@ -15,13 +15,13 @@ MonoBehaviour:
   itemSprite: {fileID: 3743985612990017919, guid: 66cc13b398c62eb43bbb5989b09ebca2,
     type: 3}
   zone: 1
-  legacyID: 
+  legacyID: Material-StartForest-2555555-Corrupted Gem
   level: 2555555
   order: 0
-  maxStack: 99
+  maxStack: 999
   maxWornCount: 0
   price: 2400000
   shortDesc: This dangerous gem can corrupt anyone who consumes it
-  longDesc: Sacrifice it on runic altar for summon Corrupted bosses
+  longDesc: Sacrifice it on runic altar to summon Corrupted bosses
   itemAbilities: []
   tagResists: []

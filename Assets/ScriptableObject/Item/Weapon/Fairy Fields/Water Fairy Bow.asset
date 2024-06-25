@@ -15,14 +15,14 @@ MonoBehaviour:
   itemSprite: {fileID: 2305597011736604531, guid: 825c5c162bf7f934eaa8a6d6b54691db,
     type: 3}
   zone: 10
-  legacyID: 
+  legacyID: Weapon-FairyField-330000000000-Water Fairy Bow
   level: 330000000000
   order: 0
   maxStack: 10
   maxWornCount: 1
   price: 0
   shortDesc: Bow
-  longDesc: 
+  longDesc: Strong against Fire and weak against Air.
   itemAbilities:
   - abilityData:
       ability: {fileID: 11400000, guid: 14973c998a968324eba5d1189dfc6ace, type: 2}
@@ -34,7 +34,7 @@ MonoBehaviour:
     isPassive: 0
   - abilityData:
       ability: {fileID: 11400000, guid: 665e3ba214c2bc742a3b27e8dbb0265e, type: 2}
-      amount: 70
+      amount: 80
     isPassive: 0
   tagResists: []
   weaponType: 2

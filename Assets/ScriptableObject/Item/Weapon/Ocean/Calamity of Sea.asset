@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8715b00cf657c664ea5bdc3b9ae562e1, type: 3}
-  m_Name: Calamity of Sea
+  m_Name: Calamity Of Sea
   m_EditorClassIdentifier: 
   itemSprite: {fileID: -3656842711880369748, guid: f7201659d0658e6489f4c29f5e04b8f8,
     type: 3}
   zone: 5
-  legacyID: Weapon-Ocean-0-Calamity of Sea
+  legacyID: Weapon-Ocean-0-Calamity Of Sea
   level: 0
   order: 10
   maxStack: 10

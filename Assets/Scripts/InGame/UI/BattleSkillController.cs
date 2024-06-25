@@ -59,9 +59,12 @@ namespace InGame.UI
 
         public bool ValidateSkill(int slot)
         {
-            var currentEquipmentSet = Entity.Character.GetInstance().GetCurrentEquipmentSet();
+            var character = Entity.Character.GetInstance();
+            var currentEquipmentSet = character.GetCurrentEquipmentSet();
 
-            if (currentEquipmentSet.GetSkill(slot) == null)
+            var skill = currentEquipmentSet.GetSkill(slot);
+
+            if (!skill)
                 return false;
 
             Data.Skill.SkillCollection.SkillStatus skillStatus = null;
@@ -77,7 +80,40 @@ namespace InGame.UI
             // if skill is in cooldown
             if (GetSlot(slot).GetCool() > 0)
                 return false;
+            
+            // if elemental damage amount is not enough to activate skill
+            /*
+            if (skill.GetElementalType() != EnumElemental.None)
+            {
+                if (skill.IsAttackSkill())
+                {
+                    if(
+                        character.elementalStatus.ContainsKey(skill.GetElementalType()) &&
+                        character.elementalStatus[skill.GetElementalType()] <= 0)
+                        return false;
 
+                    
+                }
+                else
+                {
+                    if(
+                        Action.BattleController.GetInstance().
+                            GetBattle().GetCharacterInstance().GetElementalDefence(skill.GetElementalType()) <= 0)
+                        return false;
+                }
+                
+            }
+            */
+            
+            /*
+            if (skill.GetElementalType() != EnumElemental.None &&
+                !ElementalTreeCollection.GetInstance().GetElementalTree(skill.GetElementalType())
+                .IsSkillAvailable(skill.GetSkillID()))
+            {
+                return false;
+            }
+            */
+            
             // if mana is not enough to activate skill
             if (
                 GetSlot(slot).GetSkill().GetManaCost(skillStatus.GetCount()) >

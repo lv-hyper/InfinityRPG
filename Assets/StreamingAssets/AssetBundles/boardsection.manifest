@@ -1,12 +1,15 @@
 ManifestFileVersion: 0
-CRC: 1862541525
+CRC: 1418356624
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: cb9672c84262cf7bf94cddf84da1bbf3
+    Hash: 0e687379ed938c3f6c7c1ab51dae8c46
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 3e1b70bae3bfc6acf7c05348137ff931
+    Hash: dd9cb065bd65cd906bbc8b231e0662a8
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 0e687379ed938c3f6c7c1ab51dae8c46
 HashAppended: 0
 ClassTypes:
 - Class: 114
@@ -17,6 +20,7 @@ SerializeReferenceClassIdentifiers:
 - AssemblyName: Assembly-CSharp
   ClassName: InGame.UI.BoardSection/BoardSectionCategory
 Assets:
+- Assets/ScriptableObject/BoardSection/tutorial/expertInfo000.asset
 - Assets/ScriptableObject/BoardSection/tutorial/tutorial001.asset
 - Assets/ScriptableObject/BoardSection/tutorial/tutorial000.asset
 - Assets/ScriptableObject/BoardSection/tutorial/tutorial002.asset

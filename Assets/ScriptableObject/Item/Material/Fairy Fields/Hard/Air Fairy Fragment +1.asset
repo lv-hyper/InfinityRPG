@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 1931946934, guid: 493789e235557e140b4563c1b6b20ca7, type: 3}
   zone: 10
-  legacyID: 
+  legacyID: Material-FairyField-330000000000-Air Fairy Fragment +1
   level: 330000000000
   order: 0
-  maxStack: 100
+  maxStack: 99
   maxWornCount: 0
   price: 0
   shortDesc: Material

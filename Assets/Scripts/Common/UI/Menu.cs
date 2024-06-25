@@ -13,7 +13,7 @@ namespace Common.UI
         
         MenuComponent openedMenu;
         
-        protected void Awake()
+        protected virtual void Awake()
         {
             menus = new List<MenuComponent>();
             var childTabs = pagesTransform.GetComponentsInChildren<MenuComponent>(true);

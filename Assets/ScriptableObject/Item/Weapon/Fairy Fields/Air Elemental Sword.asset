@@ -15,14 +15,14 @@ MonoBehaviour:
   itemSprite: {fileID: -6102903116553177283, guid: 825c5c162bf7f934eaa8a6d6b54691db,
     type: 3}
   zone: 10
-  legacyID: 
+  legacyID: Weapon-FairyField-130000000000-Air Elemental Sword
   level: 130000000000
   order: 0
   maxStack: 10
   maxWornCount: 1
   price: 0
   shortDesc: Sword
-  longDesc: 
+  longDesc: Strong against Water and weak against Nature.
   itemAbilities:
   - abilityData:
       ability: {fileID: 11400000, guid: 14973c998a968324eba5d1189dfc6ace, type: 2}

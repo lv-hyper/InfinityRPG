@@ -25,10 +25,17 @@ namespace Gpm.CacheStorage
             }
         }
 
-        public GpmCacheResult(CacheInfo info = null, byte[] data = null)
+        public bool UpdateData
+        {
+            get;
+            private set;
+        }
+
+        public GpmCacheResult(CacheInfo info = null, byte[] data = null, bool updateData = true)
         {
             this.Info = info;
             this.Data = data;
+            this.UpdateData = updateData;
         }
 
         public bool IsSuccess()

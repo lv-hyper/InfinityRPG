@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e00b32403f05c674e9ca98c420707c87, type: 3}
   m_Name: Base Nature Defence
   m_EditorClassIdentifier: 
-  desc: Nature Defence {0:N0}%
+  desc: Nature Defence {0:N0}p
   additionalStatDependency:
   - {fileID: 11400000, guid: b1317ac1d1a0dc145a39d4df1a7647dd, type: 2}
-  percentPointStatDependency: []
+  percentPointStatDependency:
+  - {fileID: 11400000, guid: 4e3316de176e97b46aa15acd0d9b99c1, type: 2}
   percentStatDependency: []

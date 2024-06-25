@@ -12,16 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8715b00cf657c664ea5bdc3b9ae562e1, type: 3}
   m_Name: Plant Sword
   m_EditorClassIdentifier: 
-  itemSprite: {fileID: -1082632685, guid: 0e1e09e7e1f6496489a3509e8f9faf5e, type: 3}
+  itemSprite: {fileID: 1785288181, guid: 502664808239cf7489fede50eb729c08, type: 3}
   zone: 14
-  legacyID: 
+  legacyID: Weapon-TwilightForest-0-Plant Sword
   level: 0
   order: 0
   maxStack: 10
   maxWornCount: 1
   price: 0
   shortDesc: Sword
-  longDesc: 
+  longDesc: Strong against Air and weak against Fire.
   itemAbilities:
   - abilityData:
       ability: {fileID: 11400000, guid: 14973c998a968324eba5d1189dfc6ace, type: 2}
@@ -33,7 +33,7 @@ MonoBehaviour:
     isPassive: 0
   - abilityData:
       ability: {fileID: 11400000, guid: 39a205e34d7241d488da80b475bfc527, type: 2}
-      amount: 85
+      amount: 100
     isPassive: 0
   tagResists: []
   weaponType: 0

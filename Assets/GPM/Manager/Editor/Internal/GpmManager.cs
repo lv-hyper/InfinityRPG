@@ -5,6 +5,7 @@ using Gpm.Common.Util;
 using Gpm.Manager.Ad;
 using Gpm.Manager.Notice;
 using Gpm.Manager.Constant;
+using Gpm.Manager.Util;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -68,12 +69,13 @@ namespace Gpm.Manager.Internal
         [InitializeOnLoadMethod]
         private static void OnActivation()
         {
-            int today = System.DateTime.Today.Subtract(new System.DateTime(1970, 1, 1, 0, 0, 0)).Days;
-            int lastActivation = EditorPrefs.GetInt(ManagerInfos.LAST_ACTIVATION_KEY, 0);
-            if (lastActivation != today)
+            DateTime now = ManagerTime.Now;
+            int today = now.Subtract(new DateTime(1970, 1, 1, 0, 0, 0)).Days;
+            if (ManagerInfos.LastActivation < today)
             {
+                ManagerInfos.LastActivation = today;
+
                 GpmManagerIndicator.SendActivation();
-                EditorPrefs.SetInt(ManagerInfos.LAST_ACTIVATION_KEY, today);
             }
         }
 

@@ -14,14 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: -1654354368, guid: 911724a8469d396448b7dc12379967cf, type: 3}
   zone: 0
-  legacyID: 
+  legacyID: Greave-General-7000000000-Golden Shoes
   level: 7000000000
   order: 0
   maxStack: 10
   maxWornCount: 1
   price: 7000000000
   shortDesc: Shoes
-  longDesc: 
+  longDesc: Shiny Shoes
   itemAbilities:
   - abilityData:
       ability: {fileID: 11400000, guid: 64f80202e2c317948ba4bf877525d183, type: 2}

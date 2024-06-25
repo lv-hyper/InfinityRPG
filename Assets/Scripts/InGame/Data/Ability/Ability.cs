@@ -44,7 +44,11 @@ namespace InGame.Data.Ability
     {
         [SerializeField] Ability ability;
         [SerializeField] double amount;
-        
+
+        public static AbilityData operator *(AbilityData _abilityData, int multiplier)
+        {
+            return new AbilityData(_abilityData.GetAbility(), _abilityData.GetRawAmount() * multiplier);
+        }
         public AbilityData(Ability ability, double amount)
         {
             this.ability = ability;

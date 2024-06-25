@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f5122020541a8e4191df2daefc1dd8d, type: 3}
+  m_Name: Absolute Fire Bow +1
+  m_EditorClassIdentifier: 
+  ingredients:
+  - item: {fileID: 11400000, guid: 48cf0a8a3b75bc649bd6b97b0507c40c, type: 2}
+    quantity: 1
+  - item: {fileID: 11400000, guid: 763d48dbf04b6ca4b907947912770532, type: 2}
+    quantity: 1
+  result: {fileID: 11400000, guid: 528277d11e32f1346907be6ab1d12ca9, type: 2}

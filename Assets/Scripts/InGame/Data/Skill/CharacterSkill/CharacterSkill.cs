@@ -38,6 +38,6 @@ namespace InGame.Data.Skill
         public string GetSkillID() { return skillID; }
         public bool IsClassSkill() { return isClassSkill; }
 
-        public EnumElemental GetElementalType() { return elementalType; }
+        public virtual EnumElemental GetElementalType() { return elementalType; }
     }
 }

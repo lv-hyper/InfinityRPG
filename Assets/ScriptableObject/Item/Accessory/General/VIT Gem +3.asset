@@ -22,7 +22,7 @@ MonoBehaviour:
   maxWornCount: 1
   price: 0
   shortDesc: VIT +20,000,000
-  longDesc: Gives you respective power
+  longDesc: Gives you respective power.
   itemAbilities:
   - abilityData:
       ability: {fileID: 11400000, guid: 2f5cdc4e3a87fd3479d1a25ce5ce7edf, type: 2}

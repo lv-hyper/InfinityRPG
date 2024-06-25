@@ -22,7 +22,7 @@ MonoBehaviour:
   maxWornCount: 1
   price: 0
   shortDesc: Core
-  longDesc: Cursed Hydra's core
+  longDesc: Cursed Hydra's core. Resist doesn't stack.
   itemAbilities: []
   tagResists:
   - Cursed

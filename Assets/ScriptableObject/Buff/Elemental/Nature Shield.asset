@@ -13,13 +13,10 @@ MonoBehaviour:
   m_Name: Nature Shield
   m_EditorClassIdentifier: 
   effectIcon: {fileID: -34868022, guid: 18276612bf6d8404786e10f8400729f9, type: 3}
-  duration: 15
+  duration: 9
+  level: 1
   abilities:
   - abilityData:
-      ability: {fileID: 11400000, guid: b1317ac1d1a0dc145a39d4df1a7647dd, type: 2}
-      amount: 25
-    target: 1
-  - abilityData:
-      ability: {fileID: 11400000, guid: 6e69fd54c8757ff40ade2863196c9eda, type: 2}
-      amount: 10
+      ability: {fileID: 11400000, guid: 4e3316de176e97b46aa15acd0d9b99c1, type: 2}
+      amount: 20
     target: 1

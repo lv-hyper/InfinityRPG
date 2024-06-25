@@ -61,7 +61,7 @@ namespace Gpm.Manager.Ui
             minSize = new Vector2(800, 380);
             Initialize();
 
-            openTime = DateTime.UtcNow.AddHours(9).Ticks;
+            openTime = ManagerTime.Now.Ticks;
 
         }
 
@@ -74,10 +74,10 @@ namespace Gpm.Manager.Ui
 
         private void SendRuntimeLog()
         {
-            long endTime = DateTime.UtcNow.AddHours(9).Ticks;
-
-            string startTimeText = new DateTime(openTime, DateTimeKind.Utc).ToString("yyyy-MM-dd HH:mm:ss");
-            string endTimeText = new DateTime(endTime, DateTimeKind.Utc).ToString("yyyy-MM-dd HH:mm:ss");
+            long endTime = ManagerTime.Now.Ticks;
+            
+            string startTimeText = ManagerTime.ToLogString(openTime);
+            string endTimeText = ManagerTime.ToLogString(endTime);
 
             string totalText;
             long totalSecond = (long)TimeSpan.FromTicks(endTime - openTime).TotalSeconds;

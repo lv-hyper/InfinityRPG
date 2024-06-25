@@ -1,14 +1,29 @@
-﻿namespace Gpm.CacheStorage.Sample
+namespace Gpm.CacheStorage.Sample
 {
+    using Internal;
+    using Common.Log;
+
+    using System;
     using System.Collections.Generic;
     using UnityEngine;
     using UnityEngine.UI;
-    using Gpm.CacheStorage;
     using System.Collections;
     using UnityEngine.Networking;
 
     public class CacheStorageSample : MonoBehaviour
     {
+        public const string NAME = "CacheStorageSample";
+
+        public GameObject initializeObject;
+        public GameObject cacheStorageObject;
+
+        public InputField cacheMaxCountInputField;
+        public InputField cacheMaxSizeInputField;
+        public InputField cacheReRequestTimeInputField;
+        public Dropdown   cacheReqeustType;
+        public InputField cacheUnusedPeriodTimeInputField;
+        public InputField cacheRemoveCycleInputField;
+
         public InputField url;
 
         public RawImage testUnityWebRequestImage;
@@ -19,58 +34,110 @@
         public Text testCacheStorageTime;
         public Text testCacheStorageResponseSize;
 
-        public RawImage testCacheStorage_LocalImage;
-        public Text testCacheStorage_LocalTime;
-        public Text testCacheStorage_LocalResponseSize;
+        public RawImage testCacheStorageLocalImage;
+        public Text testCacheStorageLocalTime;
+        public Text testCacheStorageLocalResponseSize;
 
         public Dropdown removeCacheIndex;
 
         public Text cacheSizeText;
-        public Text cacheMaxSizeText;
         public Text cacheCountText;
-        public Text cacheMaxCountText;
-
-        public InputField cacheMaxSizeInputField;
-        public InputField cacheMaxCountInputField;
-
+        public Text cachReRequestTimeText;
+        public Text cacheReqeustTypeText;
+        public Text cacheUnusedPeriodTimeText;
+        public Text cacheRemoveCycleText;
 
         public void Start()
         {
-            cacheSizeText.text = SizeString(GpmCacheStorage.GetCacheSize());
-            cacheCountText.text = GpmCacheStorage.GetCacheCount().ToString();
+            int maxCount = 10000;
+            int maxSize = 5 * 1024 * 1024;
+            double reRequestTime = 0;
+            CacheRequestType defaultRequestType = CacheRequestType.FIRSTPLAY;
+            double unusedPeriodTime = 0;
+            double removeCycle = 1;
 
-            cacheMaxSizeInputField.text = GpmCacheStorage.GetMaxSize().ToString();
-            cacheMaxCountInputField.text = GpmCacheStorage.GetMaxCount().ToString();
+            cacheMaxCountInputField.text = maxCount.ToString();
+            cacheMaxSizeInputField.text = maxSize.ToString();
 
-            cacheMaxSizeInputField.onEndEdit.RemoveAllListeners();
-            cacheMaxSizeInputField.onEndEdit.AddListener((value) =>
-            {
-                long size = 0;
-                if (long.TryParse(value, out size) == true)
-                {
-                    GpmCacheStorage.SetMaxSize(size);
-                }
-            });
+            cacheReRequestTimeInputField.text = reRequestTime.ToString();
 
-            cacheMaxCountInputField.onEndEdit.RemoveAllListeners();
-            cacheMaxCountInputField.onEndEdit.AddListener((value) =>
-            {
-                int count = 0;
-                if (int.TryParse(value, out count) == true)
-                {
-                    GpmCacheStorage.SetMaxCount(count);
-                }
-            });
+            List<string> cacheReqeustTypeList = new List<string>(Enum.GetNames(typeof(CacheRequestType)));
+            cacheReqeustType.AddOptions(cacheReqeustTypeList);
+            cacheReqeustType.value = (int)defaultRequestType;
+
+            cacheUnusedPeriodTimeInputField.text = unusedPeriodTime.ToString();
+            cacheRemoveCycleInputField.text = removeCycle.ToString();
+
+            initializeObject.SetActive(true);
+            cacheStorageObject.SetActive(false);
+        }
+
+        public void Initialize()
+        {
+            int maxCount = int.Parse(cacheMaxCountInputField.text);
+            int maxSize = int.Parse(cacheMaxSizeInputField.text);
+            double reRequestTime = double.Parse(cacheReRequestTimeInputField.text);
+            CacheRequestType defaultRequestType = (CacheRequestType)Enum.Parse(typeof(CacheRequestType), cacheReqeustType.options[cacheReqeustType.value].text);
+            double unusedPeriodTime = double.Parse(cacheUnusedPeriodTimeInputField.text);
+            double removeCycle = double.Parse(cacheRemoveCycleInputField.text);
+
+            GpmCacheStorage.Initialize(maxCount, maxSize, reRequestTime, defaultRequestType, unusedPeriodTime, removeCycle);
+
+            OnInitialized();
+        }
+
+        private void OnInitialized()
+        {
+            cacheCountText.text = GetCacheCountText();
+            cacheSizeText.text = GetCacheSizeText();
+            cachReRequestTimeText.text = cacheReRequestTimeInputField.text;
+            cacheReqeustTypeText.text = cacheReqeustType.options[cacheReqeustType.value].text;
+            cacheUnusedPeriodTimeText.text = cacheUnusedPeriodTimeInputField.text;
+            cacheRemoveCycleText.text = cacheRemoveCycleInputField.text;
 
             SettingScroll();
 
-            GpmCacheStorage.onChangeCache += () =>
+            GpmCacheStorage.AddChangeCacheEvnet( () =>
             {
-                cacheSizeText.text = SizeString(GpmCacheStorage.GetCacheSize());
-                cacheCountText.text = GpmCacheStorage.GetCacheCount().ToString();
+                cacheCountText.text = GetCacheCountText();
+                cacheSizeText.text = GetCacheSizeText();
 
                 SettingScroll();
-            };
+            });
+
+            initializeObject.SetActive(false);
+            cacheStorageObject.SetActive(true);
+
+        }
+
+        private string GetCacheCountText()
+        {
+            int maxCount = GpmCacheStorage.GetMaxCount();
+            if (maxCount > 0)
+            {
+                return string.Format("{0}/{1}", GpmCacheStorage.GetCacheCount(), maxCount);
+            }
+
+            return GpmCacheStorage.GetCacheCount().ToString();
+        }
+
+        private string GetCacheSizeText()
+        {
+            long cacheSize = GpmCacheStorage.GetCacheSize() + GpmCacheStorage.GetRemoveCacheSize();
+            long maxSize = GpmCacheStorage.GetMaxSize();
+            if (maxSize > 0)
+            {
+                if (maxSize > 1024)
+                {
+                    return string.Format("{0}/{1} ({2}/{3})", Util.Utility.GetSizeText(cacheSize), Util.Utility.GetSizeText(maxSize), cacheSize, maxSize);
+                }
+                else
+                {
+                    return string.Format("{0}/{1}", cacheSize, maxSize);
+                }
+            }
+
+            return Util.Utility.GetSizeText(cacheSize);
         }
 
         private void SettingScroll()
@@ -116,21 +183,24 @@
                 }
 
                 sw.Stop();
-
+#if UNITY_2020_2_OR_NEWER
+                if (request.result == UnityWebRequest.Result.ConnectionError ||
+                    request.result == UnityWebRequest.Result.ProtocolError)
+#else
                 if (request.isNetworkError || request.isHttpError)
+#endif
                 {
-                    Debug.Log(request.error);
+                    GpmLogger.Error(request.error, NAME, typeof(CacheStorageSample), "TestUnityWebRequest");
                 }
                 else
                 {
                     Texture2D texture = new Texture2D(1, 1);
-                    texture.LoadImage(request.downloadHandler.data);
-                    texture.Apply();
+                    texture.LoadImage(request.downloadHandler.data, true);
 
                     testUnityWebRequestImage.texture = texture;
 
                     testUnityWebRequestTime.text = sw.ElapsedMilliseconds.ToString();
-                    testUnityWebRequestResponseSize.text = SizeString((long)request.downloadedBytes);
+                    testUnityWebRequestResponseSize.text = Util.Utility.GetSizeText((long)request.downloadedBytes);
                 }
             }
         }
@@ -142,7 +212,7 @@
             System.Diagnostics.Stopwatch sw = new System.Diagnostics.Stopwatch();
             sw.Start();
 
-            CacheInfo cacheInfo = GpmCacheStorage.RequestHttpCache(url.text, (result) =>
+            CacheRequestOperation request = GpmCacheStorage.Request(url.text, (result) =>
             {
                 sw.Stop();
 
@@ -156,19 +226,19 @@
 
 
                     testCacheStorageTime.text = sw.ElapsedMilliseconds.ToString();
-                    testCacheStorageResponseSize.text = SizeString(result.Info.contentLength);
+                    testCacheStorageResponseSize.text = Util.Utility.GetSizeText(result.Info.contentLength);
                 }
             });
         }
 
         public void ReuqestCacheInfo_Local()
         {
-            testCacheStorage_LocalImage.texture = null;
+            testCacheStorageLocalImage.texture = null;
 
             System.Diagnostics.Stopwatch sw = new System.Diagnostics.Stopwatch();
             sw.Start();
 
-            CacheInfo cacheInfo = GpmCacheStorage.RequestLocalCache(url.text, (result_local) =>
+            CacheRequestOperation request = GpmCacheStorage.RequestLocalCache(url.text, (result_local) =>
             {
                 if (result_local.IsSuccess() == true)
                 {
@@ -177,14 +247,14 @@
                     texture.LoadImage(result_local.Data);
                     texture.Apply();
 
-                    testCacheStorage_LocalImage.texture = texture;
+                    testCacheStorageLocalImage.texture = texture;
 
-                    testCacheStorage_LocalTime.text = sw.ElapsedMilliseconds.ToString();
-                    testCacheStorageResponseSize.text = SizeString(result_local.Info.contentLength);
+                    testCacheStorageLocalTime.text = sw.ElapsedMilliseconds.ToString();
+                    testCacheStorageResponseSize.text = Util.Utility.GetSizeText(result_local.Info.contentLength);
                 }
                 else
                 {
-                    cacheInfo = GpmCacheStorage.RequestHttpCache(url.text, (result) =>
+                    request = GpmCacheStorage.RequestHttpCache(url.text, (result) =>
                     {
                         sw.Stop();
 
@@ -194,42 +264,29 @@
                             texture.LoadImage(result.Data);
                             texture.Apply();
 
-                            testCacheStorage_LocalImage.texture = texture;
+                            testCacheStorageLocalImage.texture = texture;
 
-                            testCacheStorage_LocalTime.text = sw.ElapsedMilliseconds.ToString();
-                            testCacheStorageResponseSize.text = SizeString(result.Info.contentLength);
+                            testCacheStorageLocalTime.text = sw.ElapsedMilliseconds.ToString();
+                            testCacheStorageResponseSize.text = Util.Utility.GetSizeText(result.Info.contentLength);
                         }
                     });
                 }
             });
         }
 
-        private string SizeString(long bytes)
-        {
-            double kb = bytes / 1024.0;
-            double mb = kb / 1024.0;
-            if (mb > 1)
-            {
-                return string.Format("{0}\n({1:0.00}) mb", bytes, mb);
-            }
-            else if (kb > 1)
-            {
-                return string.Format("{0}\n({1:0.00}) kb", bytes, kb);
-            }
-            else
-            {
-                return string.Format("{0} byte", bytes);
-            }
-        }
-
         public void RemoveData()
         {
             int removeIIndex = removeCacheIndex.value;
-            GpmCacheStorage.Package.RemoveCacheData(GpmCacheStorage.Package.cacheStorage[removeIIndex]);
 
-            removeCacheIndex.options.RemoveAt(removeIIndex);
-            removeCacheIndex.RefreshShownValue();
+            List<CacheInfo> cacheInfoList = CacheStorageInternal.GetCacheList();
+            if(removeIIndex < cacheInfoList.Count)
+            {
+                CacheStorageInternal.RemoveCacheData(cacheInfoList[removeIIndex]);
+
+                removeCacheIndex.RefreshShownValue();
+            }
         }
+
         public void ClearCache()
         {
             GpmCacheStorage.ClearCache();
@@ -240,16 +297,7 @@
 
         public void OpenCacheFolder()
         {
-            Application.OpenURL(GpmCacheStorage.GetCachePath());
-        }
-
-        public void SecuringStorage()
-        {
-            long maxSize = GpmCacheStorage.GetMaxSize();
-            if (maxSize > 0)
-            {
-                GpmCacheStorage.Package.SecuringStorage(maxSize, 0);
-            }
+            Application.OpenURL(CacheStorageInternal.GetCachePath());
         }
     }
 }

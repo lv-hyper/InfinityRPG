@@ -1,12 +1,15 @@
 ManifestFileVersion: 0
-CRC: 3538982440
+CRC: 721493034
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 4ec77b536bbc97c6c9afb4a7e5f50b3f
+    Hash: 3b488b3cc28dceb6887db58f95328d85
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 49d160ea5ea4f1157214adf1fe83c5e1
+    Hash: 1bb3943a92252ff43b65fd73695ee849
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 3b488b3cc28dceb6887db58f95328d85
 HashAppended: 0
 ClassTypes:
 - Class: 114
@@ -49,14 +52,19 @@ Assets:
 - Assets/ScriptableObject/Ability/Elemental Stat/Defence/Additional Water Defence.asset
 - Assets/ScriptableObject/Ability/ETC/Stamina.asset
 - Assets/ScriptableObject/Ability/Primary Stat/Endurance/Additional Endurance.asset
+- Assets/ScriptableObject/Ability/ETC/EXP Multiplier.asset
+- Assets/ScriptableObject/Ability/Elemental Stat/Defence/Fire Defence Percent Point.asset
 - Assets/ScriptableObject/Ability/Primary Stat/Intelligence/Intelligence Percent
   Point.asset
 - Assets/ScriptableObject/Ability/Elemental Stat/Defence/Base Fire Defence.asset
 - Assets/ScriptableObject/Ability/Primary Stat/Attack/Attack.asset
 - Assets/ScriptableObject/Ability/ETC/Surpass Death.asset
-- Assets/ScriptableObject/Ability/Primary Stat/Defence/Melee/Melee Defence.asset
+- Assets/ScriptableObject/Ability/Elemental Stat/Damage/Nature Damage Percent Point.asset
 - Assets/ScriptableObject/Ability/Primary Stat/All Stat/Additional All Stat.asset
+- Assets/ScriptableObject/Ability/Primary Stat/Defence/Melee/Melee Defence.asset
+- Assets/ScriptableObject/Ability/Elemental Stat/Defence/Air Defence Percent Point.asset
 - Assets/ScriptableObject/Ability/Utility Stat/Droprate/Droprate Multiplier.asset
+- Assets/ScriptableObject/Ability/Elemental Stat/Defence/Nature Defence Percent Point.asset
 - Assets/ScriptableObject/Ability/ETC/Additional Critical Rate.asset
 - Assets/ScriptableObject/Ability/Primary Stat/Dexiterity/Dexiterity.asset
 - Assets/ScriptableObject/Ability/ETC/Recover by HP.asset
@@ -76,6 +84,7 @@ Assets:
 - Assets/ScriptableObject/Ability/ETC/Delay Death.asset
 - Assets/ScriptableObject/Ability/Primary Stat/Defence/Ranged/Ranged Defence Percent
   Point.asset
+- Assets/ScriptableObject/Ability/Elemental Stat/Damage/Fire Damage Percent Point.asset
 - Assets/ScriptableObject/Ability/Primary Stat/Strength/Strength Percent Point.asset
 - Assets/ScriptableObject/Ability/ETC/Base Rate Stat/Critical Rate.asset
 - Assets/ScriptableObject/Ability/Primary Stat/Defence/Ranged/Additional Ranged Defence.asset
@@ -83,12 +92,14 @@ Assets:
 - Assets/ScriptableObject/Ability/Utility Stat/Gold/Base Gold Rate.asset
 - Assets/ScriptableObject/Ability/Primary Stat/Defence/Magical/Additional Magical
   Defence.asset
+- Assets/ScriptableObject/Ability/Elemental Stat/Defence/Water Defence Percent Point.asset
 - Assets/ScriptableObject/Ability/ETC/Defence Break.asset
 - Assets/ScriptableObject/Ability/Primary Stat/Defence/Melee/Additional Melee Defence.asset
 - Assets/ScriptableObject/Ability/Utility Stat/Droprate/Additional Droprate.asset
 - Assets/ScriptableObject/Ability/ETC/Recover by Damage.asset
 - Assets/ScriptableObject/Ability/Elemental Stat/Defence/Additional Fire Defence.asset
 - Assets/ScriptableObject/Ability/Utility Stat/Gold/Gold Rate Multiplier.asset
+- Assets/ScriptableObject/Ability/Elemental Stat/Damage/Air Damage Percent Point.asset
 - Assets/ScriptableObject/Ability/Primary Stat/Intelligence/Additional Intelligence.asset
 - Assets/ScriptableObject/Ability/Primary Stat/Defence/Magical/Magical Defence Percent
   Point.asset
@@ -130,6 +141,7 @@ Assets:
 - Assets/ScriptableObject/Ability/ETC/Movement Speed.asset
 - Assets/ScriptableObject/Ability/Primary Stat/Defence/Melee/Melee Defence Percent
   Point.asset
+- Assets/ScriptableObject/Ability/Elemental Stat/Damage/Water Damage Percent Point.asset
 - Assets/ScriptableObject/Ability/Primary Stat/All Stat/All Stat Percent.asset
 - Assets/ScriptableObject/Ability/Primary Stat/Strength/Strength.asset
 - Assets/ScriptableObject/Ability/ETC/Base Rate Stat/EXP.asset

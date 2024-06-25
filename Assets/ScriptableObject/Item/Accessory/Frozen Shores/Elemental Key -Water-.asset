@@ -14,14 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: -448039048, guid: fd332b99117f6b44cb73c3b777c07431, type: 3}
   zone: 13
-  legacyID: General-General-0-
+  legacyID: General-FrozenShores-0-Elemental Key -Water-
   level: 0
   order: 0
   maxStack: 10
   maxWornCount: 1
   price: 0
-  shortDesc: 
-  longDesc: 
+  shortDesc: Water Key
+  longDesc: Gives resistence to Titans. Resist doesn't stack.
   itemAbilities:
   - abilityData:
       ability: {fileID: 11400000, guid: 665e3ba214c2bc742a3b27e8dbb0265e, type: 2}

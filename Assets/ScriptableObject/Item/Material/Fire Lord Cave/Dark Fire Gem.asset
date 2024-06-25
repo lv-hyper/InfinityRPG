@@ -14,13 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 1094045384, guid: caf7821e7e8bc9e49a4ea1c4fca1f673, type: 3}
   zone: 12
-  legacyID: 
+  legacyID: Material-FireLordCave-0-Dark Fire Gem
   level: 0
   order: 0
-  maxStack: 100
+  maxStack: 99
   maxWornCount: 0
   price: 0
   shortDesc: Material
-  longDesc: Life Gem of a Fire Titan cursed for feaving the Tower
+  longDesc: Life Gem of a Fire Titan cursed for leaving the Tower
   itemAbilities: []
   tagResists: []

@@ -20,7 +20,7 @@ namespace InGame.Data.BattleEffect
             foreach (SkillAbility ability in abilities)
             {
                 desc += String.Format("{0}\n",
-                    ability.GetAbilityInString()
+                    ability.GetAbilityInString(level)
                 );
             }
             desc += String.Format("Duration : {0}s\n", duration);

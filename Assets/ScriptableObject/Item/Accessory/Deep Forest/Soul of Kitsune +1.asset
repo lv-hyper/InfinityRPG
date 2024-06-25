@@ -10,19 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9495e2426dc60cc4ba40a53a473ec155, type: 3}
-  m_Name: Soul of Kitsune +1
+  m_Name: Soul Of Kitsune +1
   m_EditorClassIdentifier: 
   itemSprite: {fileID: -924110218162717616, guid: 38b583c06ef440242bdb7faf1a4de221,
     type: 3}
   zone: 2
-  legacyID: General-DeepForest-2100000-Soul of Kitsune +1
+  legacyID: General-DeepForest-2100000-Soul Of Kitsune +1
   level: 2100000
   order: 0
   maxStack: 1
   maxWornCount: 1
   price: 0
   shortDesc: All Stat +1,222,222
-  longDesc: Kitsune's power gives you power
+  longDesc: Kitsune's soul gives you power
   itemAbilities:
   - abilityData:
       ability: {fileID: 11400000, guid: 577b4532284206842ab2b756f5a50619, type: 2}

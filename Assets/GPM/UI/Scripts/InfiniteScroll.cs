@@ -1,341 +1,124 @@
 namespace Gpm.Ui
 {
     using System;
-    using System.Collections.Generic;
     using UnityEngine;
-    using UnityEngine.Events;
     using UnityEngine.UI;
+    using UnityEngine.Events;
 
-    public class InfiniteScroll : MonoBehaviour, IItemContainer, IMoveScroll
+    public partial class InfiniteScroll : MonoBehaviour
     {
-        public enum MoveToType
-        {
-            MOVE_TO_TOP = 0,
-            MOVE_TO_CENTER,
-            MOVE_TO_BOTTOM
-        }
-
-        public InfiniteScrollItem               itemPrefab              = null;
-        public int                              padding                 = 0;
-        public int                              space                   = 0;
-        public bool                             dynamicItemSize         = false;
-
-        public ScrollLayout                     layout                  = new ScrollLayout();
-
         protected bool                          isInitialize            = false;
-        protected ScrollRect                    scrollRect              = null;
+
         protected RectTransform                 content                 = null;
-        protected RectTransform                 viewport                = null;
-        protected bool                          isVertical              = false;
-        protected Vector2                       anchorMin               = Vector2.zero;
-        protected Vector2                       anchorMax               = Vector2.zero;
-        protected List<InfiniteScrollData>      dataList                = new List<InfiniteScrollData>();
-        protected float                         defaultItemSize         = 0.0f;
-        protected int                           needItemNumber          = -1;
-        protected int                           madeItemNumber          = 0;
-        protected List<InfiniteScrollItem>      items                   = new List<InfiniteScrollItem>();
-        protected float                         firstItemPosition       = 0.0f;
-        protected int                           selectDataIndex         = -1;
-        protected Action<InfiniteScrollData>    selectCallback          = null;
-        protected float                         sizeInterpolationValue  = 0.0001f; // 0.01%
-        protected List<float>                   itemSizeList            = new List<float>();
-        protected float                         minItemSize             = 0.0f;
-        protected bool                          processing              = false;
-        protected bool                          isDirty = true;
-
-
-        protected float                         contentsPostion         = 0;
-
-        private int                             firstDataIndex      = 0;
-        private int                             lastDataIndex       = 0;
-        private bool                            isStartLine           = true;
-        private bool                            isEndLine             = true;
 
         private bool                            changeValue             = false;
 
+        [Header("Event", order = 4)]
         public ChangeValueEvent                 onChangeValue           = new ChangeValueEvent();
         public ItemActiveEvent                  onChangeActiveItem      = new ItemActiveEvent();
+        public StateChangeEvent                 onStartLine             = new StateChangeEvent();
+        public StateChangeEvent                 onEndLine               = new StateChangeEvent();
 
-        public StateChangeEvent                 onStartLine           = new StateChangeEvent();
-        public StateChangeEvent                 onEndLine            = new StateChangeEvent();
-        
-        public Vector2 GetScrollPostion()
+        private Predicate<InfiniteScrollData>   onFilter                = null;
+
+        private void Awake()
         {
-            return content.anchoredPosition;
+            Initialize();
         }
 
-        public void SetScrollPostion(Vector2 postion)
+        protected void Initialize()
         {
-            content.anchoredPosition = postion;
+            if (isInitialize == false)
+            {
+                scrollRect = GetComponent<ScrollRect>();
+                content = scrollRect.content;
+                viewport = scrollRect.viewport;
+
+                CheckScrollAxis();
+                ClearScrollContent();
+
+                RectTransform itemTransform = (RectTransform)itemPrefab.transform;
+                defaultItemPrefabSize = itemTransform.sizeDelta;
+
+                itemObjectList.Clear();
+                dataList.Clear();
+
+                scrollRect.onValueChanged.AddListener(OnValueChanged);
+
+                CreateNeedItem();
+
+                CheckScrollData();
+
+                isInitialize = true;
+
+                needReBuildLayout = true;
+            }
         }
 
-        public bool IsMoveToFirstData()
+        public void InsertData(InfiniteScrollData data, bool immediately = false)
         {
             if (isInitialize == false)
             {
                 Initialize();
             }
 
-            float viewportSize = GetViewportSize();
-            float contentSize = GetContentSize();
-            float position = GetContentPosition();
+            AddData(data);
 
-            return IsMoveToFirstData(position, viewportSize, contentSize);
+            UpdateAllData(immediately);
         }
 
-        private bool IsMoveToFirstData(float position, float viewportSize, float contentSize)
+        public void InsertData(InfiniteScrollData data, int insertIndex, bool immediately = false)
         {
-            bool isShow = false;
-
-            if (viewportSize > contentSize)
+            if (insertIndex < 0 || insertIndex > dataList.Count)
             {
-                isShow = true;
-            }
-            else
-            {
-                float interpolation = contentSize * sizeInterpolationValue;
-                if (-position > -interpolation)
-                {
-                    isShow = true;
-                }
+                throw new ArgumentOutOfRangeException();
             }
 
-            return isShow;
+            if (isInitialize == false)
+            {
+                Initialize();
+            }
+
+            InsertData(data, insertIndex);
+
+            UpdateAllData(immediately);
         }
 
-        public bool IsMoveToLastData()
+        public void InsertData(InfiniteScrollData[] datas, bool immediately = false)
         {
             if (isInitialize == false)
             {
                 Initialize();
             }
 
-            float viewportSize = GetViewportSize();
-            float contentSize = GetContentSize();
-            float position = GetContentPosition();
-
-            return IsMoveToLastData(position, viewportSize, contentSize);
-        }
-
-        private bool IsMoveToLastData(float position, float viewportSize, float contentSize)
-        {
-            bool isShow = false;
-
-            if (viewportSize > contentSize)
+            foreach (InfiniteScrollData data in datas)
             {
-                isShow = true;
-            }
-            else
-            {
-                float interpolation = contentSize * sizeInterpolationValue;
-
-                if (-(viewportSize + position - contentSize) <= interpolation)
-                {
-                    isShow = true;
-                }
+                AddData(data);
             }
 
-            return isShow;
+            UpdateAllData(immediately);
         }
-
-        public void ResizeScrollView()
+        public void InsertData(InfiniteScrollData[] datas, int insertIndex, bool immediately = false)
         {
+            if (insertIndex < 0 || insertIndex > dataList.Count)
+            {
+                throw new ArgumentOutOfRangeException();
+            }
+
             if (isInitialize == false)
             {
                 Initialize();
             }
 
-            CheckNeedMoreItem();
+            foreach (InfiniteScrollData data in datas)
+            {
+                InsertData(data, insertIndex++);
+            }
+
+            UpdateAllData(immediately);
         }
 
-        public void MoveTo(InfiniteScrollData data, MoveToType moveToType, float time = 0)
-        {
-            MoveTo(GetDataIndex(data), moveToType, time);
-        }
-
-        public void MoveTo(int dataIndex, MoveToType moveToType, float time = 0)
-        {
-            if (isInitialize == false)
-            {
-                Initialize();
-            }
-
-            if (IsValidDataIndex(dataIndex) == true)
-            {
-                if (time > 0)
-                {
-                    Control.MoveTo(this, dataIndex, moveToType, time);
-                }
-                else
-                {
-                    Vector2 prevPosition = content.anchoredPosition;
-                    float move = 0.0f;
-
-                    if (isVertical == true)
-                    {
-                        move = GetMovePosition(dataIndex, viewport.rect.height, content.rect.height, moveToType);
-                        content.anchoredPosition = new Vector2(prevPosition.x, move);
-                    }
-                    else
-                    {
-                        move = GetMovePosition(dataIndex, viewport.rect.width, content.rect.width, moveToType);
-                        content.anchoredPosition = new Vector2(-move, prevPosition.y);
-                    }
-                }
-            }
-        }
-
-        public Vector2 GetMovePosition(int dataIndex, MoveToType moveToType)
-        {
-            Vector2 position = content.anchoredPosition;
-
-            float move = GetMovePosition(dataIndex, isVertical, moveToType);
-            if (isVertical == true)
-            {
-                position.y = move;
-            }
-            else
-            {
-                position.x = -move;
-            }
-
-            return position;
-        }
-
-        internal float GetMovePosition(int dataIndex, bool isVertical, MoveToType moveToType)
-        {
-            if (isVertical == true)
-            {
-                return GetMovePosition(dataIndex, viewport.rect.height, content.rect.height, moveToType);
-            }
-            else
-            {
-                return GetMovePosition(dataIndex, viewport.rect.width, content.rect.width, moveToType);
-            }
-        }
-
-        internal float GetMovePosition(int dataIndex, float viewportSize, float contentSize, MoveToType moveToType)
-        {
-            float move = 0.0f;
-            float moveItemSize = GetItemSize(dataIndex);
-            float passingItemSize = GetItemSizeSumToIndex(dataIndex);
-
-            move = passingItemSize + padding;
-
-            switch (moveToType)
-            {
-                case MoveToType.MOVE_TO_CENTER:
-                    {
-                        move -= viewportSize * 0.5f - moveItemSize * 0.5f;
-                        break;
-                    }
-                case MoveToType.MOVE_TO_BOTTOM:
-                    {
-                        move -= viewportSize - moveItemSize;
-                        break;
-                    }
-            }
-
-            move = Mathf.Clamp(move, 0.0f, contentSize - viewportSize);
-            move = Math.Max(0.0f, move);
-
-            return move;
-        }
-
-        public void MoveToFirstData()
-        {
-            if (isInitialize == false)
-            {
-                Initialize();
-            }
-
-            if (isVertical == true)
-            {
-                scrollRect.normalizedPosition = Vector2.one;
-            }
-            else
-            {
-                scrollRect.normalizedPosition = Vector2.zero;
-            }
-        }
-
-        public void MoveToLastData()
-        {
-            if (isInitialize == false)
-            {
-                Initialize();
-            }
-
-            if (isVertical == true)
-            {
-                scrollRect.normalizedPosition = Vector2.zero;
-            }
-            else
-            {
-                scrollRect.normalizedPosition = Vector2.one;
-            }
-        }
-
-        public void AddSelectCallback(Action<InfiniteScrollData> callback)
-        {
-            if (isInitialize == false)
-            {
-                Initialize();
-            }
-
-            selectCallback += callback;
-        }
-
-        public void RemoveSelectCallback(Action<InfiniteScrollData> callback)
-        {
-            if (isInitialize == false)
-            {
-                Initialize();
-            }
-
-            selectCallback -= callback;
-        }
-
-        public void AddScrollValueChangedLisnter(UnityAction<Vector2> listener)
-        {
-            if (isInitialize == false)
-            {
-                Initialize();
-            }
-
-            scrollRect.onValueChanged.AddListener(listener);
-        }
-
-        public void InsertData(InfiniteScrollData data)
-        {
-            if (isInitialize == false)
-            {
-                Initialize();
-            }
-
-            dataList.Add(data);
-
-            CreateNeedItem(data);
-
-            float itemSize = 0;
-            if (dynamicItemSize == true)
-            {
-                itemSize = minItemSize;
-            }
-            else
-            {
-                itemSize = defaultItemSize;
-            }
-            itemSizeList.Add(itemSize);
-
-            ResizeContent();
-
-            UpdateShowItem();
-
-            isDirty = true;
-        }
-
-        public void RemoveData(InfiniteScrollData data)
+        public void RemoveData(InfiniteScrollData data, bool immediately = false)
         {
             if (isInitialize == false)
             {
@@ -344,12 +127,10 @@ namespace Gpm.Ui
 
             int dataIndex = GetDataIndex(data);
 
-            RemoveData(dataIndex);
-
-            isDirty = true;
+            RemoveData(dataIndex, immediately);
         }
 
-        public void RemoveData(int dataIndex)
+        public void RemoveData(int dataIndex, bool immediately = false)
         {
             if (isInitialize == false)
             {
@@ -359,28 +140,85 @@ namespace Gpm.Ui
             if (IsValidDataIndex(dataIndex) == true)
             {
                 selectDataIndex = -1;
+
+                int removeShowIndex = -1;
+                
+                if(dataList[dataIndex].itemIndex != -1)
+                {
+                    removeShowIndex = dataList[dataIndex].itemIndex;
+                }
+                dataList[dataIndex].UnlinkItem(true);
                 dataList.RemoveAt(dataIndex);
-                itemSizeList.RemoveAt(dataIndex);
-                ResizeContent();
-                UpdateShowItem(true);
+                for(int i= dataIndex; i< dataList.Count;i++)
+                {
+                    dataList[i].index--;
+
+                    if(removeShowIndex != -1)
+                    {
+                        if (dataList[i].itemIndex != -1)
+                        {
+                            dataList[i].itemIndex--;
+                        }
+                    }
+                }
+
+                if (removeShowIndex != -1)
+                {
+                    if (removeShowIndex < firstItemIndex)
+                    {
+                        firstItemIndex--;
+                    }
+                    if (removeShowIndex < lastItemIndex)
+                    {
+                        lastItemIndex--;
+                    }
+
+                    itemCount--;
+                }
+
+                needReBuildLayout = true;
+
+                UpdateAllData(immediately);
             }
         }
 
-        public void ClearData()
+        public void ClearData(bool immediately = false)
         {
             if (isInitialize == false)
             {
                 Initialize();
             }
 
+            itemCount = 0;
             selectDataIndex = -1;
+
             dataList.Clear();
-            itemSizeList.Clear();
+            lineLayout.Clear();
+            layoutSize = 0;
+            lineCount = 0;
 
-            ClearItems();
+            ClearItemsData();
 
-            ResizeContent();
-            UpdateShowItem(true);
+            lastItemIndex = 0;
+            firstItemIndex = 0;
+
+            showLineIndex = 0;
+            showLineCount = 0;
+
+            isStartLine = false;
+            isEndLine = false;
+
+            needUpdateItemList = true;
+            needReBuildLayout = true;
+            isUpdateArea = true;
+
+            onFilter = null;
+
+            ClearScrollContent();
+
+            cachedData.Clear();
+
+            UpdateAllData(immediately);
         }
 
         public void Clear()
@@ -390,40 +228,33 @@ namespace Gpm.Ui
                 Initialize();
             }
 
+            itemCount = 0;
+            selectDataIndex = -1;
             dataList.Clear();
-            itemSizeList.Clear();
-            ResizeContent();
+            lineLayout.Clear();
+            layoutSize = 0;
+            lineCount = 0;
 
             ClearItems();
 
-            selectDataIndex = -1;
-        }
+            lastItemIndex = 0;
+            firstItemIndex = 0;
 
-        public int GetDataCount()
-        {
-            if (isInitialize == false)
-            {
-                Initialize();
-            }
+            showLineIndex = 0;
+            showLineCount = 0;
 
-            return dataList.Count;
-        }
+            isStartLine = false;
+            isEndLine = false;
 
-        public InfiniteScrollData GetData(int index)
-        {
-            if (isInitialize == false)
-            {
-                Initialize();
-            }
+            needUpdateItemList = true;
+            needReBuildLayout = true;
+            isUpdateArea = true;
 
-            if (IsValidDataIndex(index) == true)
-            {
-                return dataList[index];
-            }
-            else
-            {
-                return null;
-            }
+            onFilter = null;
+
+            cachedData.Clear();
+
+            ClearScrollContent();
         }
 
         public void UpdateData(InfiniteScrollData data)
@@ -433,807 +264,161 @@ namespace Gpm.Ui
                 Initialize();
             }
 
-            int dataIndex = GetDataIndex(data);
-            if (IsValidDataIndex(dataIndex) == true)
+            var context = GetDataContext(data);
+            if (context != null)
             {
-                if (IsShowDataIndex(dataIndex) == true)
-                {
-                    InfiniteScrollItem item = GetItemByDataIndex(dataIndex);
-                    if (item != null)
-                    {
-                        item.UpdateData(data);
-                    }
-                }
+                context.UpdateData(data);
+
+                needReBuildLayout = true;
             }
         }
 
-        public void UpdateAllData()
+        public void UpdateAllData(bool immediately = true)
         {
             if (isInitialize == false)
             {
                 Initialize();
             }
 
-            UpdateShowItem(true);
-        }
+            needReBuildLayout = true;
+            isUpdateArea = true;
 
-        public int GetDataIndex(InfiniteScrollData data)
-        {
-            if (isInitialize == false)
+            CreateNeedItem();
+
+            if (immediately == true)
             {
-                Initialize();
-            }
-
-            return dataList.FindIndex(p =>
-            {
-                return p.Equals(data);
-            });
-        }
-
-        private void Awake()
-        {
-            Initialize();
-        }
-
-        protected virtual void Initialize()
-        {
-            if (isInitialize == false)
-            {
-                scrollRect = GetComponent<ScrollRect>();
-                content = scrollRect.content;
-                viewport = scrollRect.viewport;
-                isVertical = scrollRect.vertical;
-
-                layout.Initialize(this, isVertical);
-
-                if (isVertical == true)
-                {
-                    anchorMin = new Vector2(content.anchorMin.x, 1.0f);
-                    anchorMax = new Vector2(content.anchorMax.x, 1.0f);
-
-                    content.anchorMin = anchorMin;
-                    content.anchorMax = anchorMax;
-                    content.pivot = new Vector2(0.5f, 1.0f);
-                }
-                else
-                {
-                    anchorMin = new Vector2(0, content.anchorMin.y);
-                    anchorMax = new Vector2(0, content.anchorMax.y);
-
-                    content.anchorMin = anchorMin;
-                    content.anchorMax = anchorMax;
-                    content.pivot = new Vector2(0.0f, 0.5f);
-                }
-
-                dataList.Clear();
-                itemSizeList.Clear();
-
-                scrollRect.onValueChanged.AddListener(OnValueChanged);
-
-                isInitialize = true;
-                isDirty = true;
-            }
-        }
-
-        private void OnSelectItem(InfiniteScrollData data)
-        {
-            int dataIndex = GetDataIndex(data);
-            if (IsValidDataIndex(dataIndex) == true)
-            {
-                selectDataIndex = dataIndex;
-
-                if (selectCallback != null)
-                {
-                    selectCallback(data);
-                }
-            }
-        }
-
-        private bool IsValidDataIndex(int index)
-        {
-            return (index >= 0 && index < dataList.Count) ? true : false;
-        }
-
-        private void CreateNeedItem(InfiniteScrollData data)
-        {
-            if (madeItemNumber > itemSizeList.Count)
-            {
-                return;
-            }
-            if (dynamicItemSize == true)
-            {
-                float itemSizeSum = 0;
-                float needItemSize = 0;
-                if (isVertical == true)
-                {
-                    needItemSize = viewport.rect.height * 2;
-                }
-                else
-                {
-                    needItemSize = viewport.rect.width * 2;
-                }
-
-                if (layout.IsGrid() == true)
-                {
-                    int lineCount = layout.GetLineCount();
-                    for (int lineIndex = 0; lineIndex < lineCount; ++lineIndex)
-                    {
-                        itemSizeSum += layout.GetLineSize(lineIndex);
-
-                        if (lineIndex + 1 < lineCount)
-                        {
-                            itemSizeSum += space;
-                        }
-
-                        if (itemSizeSum > needItemSize)
-                        {
-                            return;
-                        }
-                    }
-                }
-                else
-                {
-                    for (int sizeIndex = 0; sizeIndex < itemSizeList.Count; ++sizeIndex)
-                    {
-                        itemSizeSum += itemSizeList[sizeIndex];
-
-                        if (sizeIndex + 1 < itemSizeList.Count)
-                        {
-                            itemSizeSum += space;
-                        }
-
-                        if (itemSizeSum > needItemSize)
-                        {
-                            return;
-                        }
-                    }
-                }
-            }
-            else
-            {
-                if (madeItemNumber > 0 &&
-                    madeItemNumber == needItemNumber)
-                {
-                    return;
-                }
-
-                if (madeItemNumber > dataList.Count)
-                {
-                    return;
-                }
-            }
-
-            CreateItem(data);
-        }
-
-        private InfiniteScrollItem CreateItem(InfiniteScrollData data)
-        {   
-            InfiniteScrollItem  item            = Instantiate(itemPrefab);
-            RectTransform       itemTransform   = (RectTransform)item.transform;
-            
-            itemTransform.anchorMin = anchorMin;
-            itemTransform.anchorMax = anchorMax;
-            itemTransform.pivot                 = content.pivot;
-            
-            if (isVertical == true)
-            {
-                itemTransform.sizeDelta = new Vector2(0, itemTransform.sizeDelta.y);
-            }
-            else
-            {
-                itemTransform.sizeDelta = new Vector2(itemTransform.sizeDelta.x, 0);
-            }
-            
-            itemTransform.SetParent(content, false);
-            
-            if (madeItemNumber == 0)
-            {
-                InitializeItemInformation(itemTransform);
-            }
-
-            ++madeItemNumber;
-
-            items.Add(item);
-            item.Initalize(this, items.Count - 1);
-            item.SetActive(false, false);
-            item.AddSelectCallback(OnSelectItem);
-
-            if (dynamicItemSize == true)
-            {
-                item.AddUpdateSizeCallback(OnUpdateItemSize);
-            }
-
-            return item;
-        }
-
-        private void InitializeItemInformation(RectTransform itemTransform)
-        {
-            if (isVertical == true)
-            {
-                defaultItemSize     = itemTransform.rect.height;
-            }
-            else
-            {
-                defaultItemSize     = itemTransform.rect.width;
-            }
-
-            SetFirstItemPosition(defaultItemSize, itemTransform.pivot);
-
-            minItemSize     = defaultItemSize;
-            needItemNumber  = GetNeedItemNumber();
-
-            items.Clear();
-        }
-
-        private void CheckNeedMoreItem()
-        {
-            int itemNumber  = GetNeedItemNumber();
-
-            if (needItemNumber < itemNumber)
-            {
-                int gap = itemNumber - needItemNumber;
-                needItemNumber = itemNumber;
-
-                if (dataList.Count > 0)
-                {
-                    int firstDataIndex  = GetShowFirstDataIndex() + madeItemNumber;
-                    int dataIndex       = 0;
-
-                    for (int count = 0; count < gap; ++count)
-                    {
-                        dataIndex = firstDataIndex + count;
-                        if (IsValidDataIndex(dataIndex) == true)
-                        {
-                            CreateNeedItem(dataList[dataIndex]);
-                        }
-                        else
-                        {
-                            CreateNeedItem(dataList[0]);
-                        }
-                    }
-                }
-                
                 UpdateShowItem(true);
             }
         }
 
-        private void ClearItems()
+        public void SetFilter(Predicate<InfiniteScrollData> onFilter)
         {
-            for (int index = 0; index < items.Count; ++index)
+            this.onFilter = onFilter;
+            needUpdateItemList = true;
+        }
+
+        public float GetViewportSize()
+        {
+            return layout.GetMainSize(viewport);
+        }
+
+        public float GetContentSize()
+        {
+            UpdateContentSize();
+
+            return layout.GetMainSize(content);
+        }
+
+        public float GetContentPosition()
+        {
+            return layout.GetAxisPosition(content);
+        }
+
+        public void ResizeScrollView()
+        {
+            if (isInitialize == false)
             {
-                items[index].ClearData(false);
+                Initialize();
             }
+
+            UpdateContentSize();
         }
         
-        private void ResizeContent()
+        public float GetItemPosition(int itemIndex)
         {
-            Vector2 currentSize = content.sizeDelta;
-            float   size        = GetContentSize();
+            float distance = GetItemDistance(itemIndex);
 
-            if (isVertical == true)
-            {
-                content.sizeDelta = new Vector2(currentSize.x, size);
-            }
-            else
-            {
-                content.sizeDelta = new Vector2(size, currentSize.y);
-            }
-
-            isDirty = true;
+            return -layout.GetAxisPostionFromOffset(distance);
         }
 
-        private float GetContentSize()
+        public void RefreshScroll()
         {
-            float itemTotalSize = GetItemSizeSum(itemSizeList.Count);
+            if (isInitialize == false)
+            {
+                Initialize();
+            }
 
-            return itemTotalSize + padding * 2.0f;
+            if (needUpdateItemList == true)
+            {
+                BuildItemList();
+
+                needUpdateItemList = false;
+            }
+            if (NeedUpdateItem() == true)
+            {
+                UpdateShowItem();
+            }
         }
 
-        private float GetViewportSize()
+        protected float GetCrossSize()
         {
-            float size = 0;
-            if (isVertical == true)
-            {
-                size = viewport.rect.height;
-            }
-            else
-            {
-                size = viewport.rect.width;
-            }
-
-            return size;
+            return layout.GetCrossSize(content.rect);
         }
 
-        private float GetGetContentSize()
+        protected void ResizeContent()
         {
-            float size = 0;
-            if (isVertical == true)
-            {
-                size = content.rect.height;
-            }
-            else
-            {
-                size = content.rect.width;
-            }
-
-            return size;
+            cachedData.contentSize = GetItemTotalSize();
+            content.sizeDelta = layout.GetAxisVector(-layout.padding, cachedData.contentSize);
         }
 
-        private float GetContentPosition()
+        protected void UpdateContentSize()
         {
-            float position = 0;
-            if (isVertical == true)
+            if (needReBuildLayout == true)
             {
-                position = content.anchoredPosition.y;
+                BuildLayout();
+                needReBuildLayout = false;
             }
-            else
-            {
-                position = -content.anchoredPosition.x;
-            }
-
-            return position;
         }
 
-        private void UpdateShowItem(bool forceUpdateData = false)
+        protected bool NeedUpdateItem()
         {
-            if (forceUpdateData == false &&
-                processing == true)
-            {
-                return;
-            }
+            CheckScrollData();
 
-            float firstPosition = -GetContentPosition();
-
-            float viewSize = GetViewportSize();
-            if (contentsPostion != firstPosition)
-            {
-                contentsPostion = firstPosition;
-                isDirty = true;
-            }
-
-            if (isDirty == false)
-            {
-                return;
-            }
-            
-            processing = true;
-
-            int prevFirstDataIndex = firstDataIndex;
-            int prevLastDataIndex = lastDataIndex;
-
-            firstDataIndex = GetShowFirstDataIndex();
-            
-            int lineIndex = 0;
-
-            float position = firstPosition;
-            float lineSize = layout.GetLineSize(lineIndex);
-
-            for (int dataIndex = 0; dataIndex < firstDataIndex; ++dataIndex)
-            {
-                int dataLineIndex = layout.GetLineIndex(dataIndex);
-                if (lineIndex != dataLineIndex)
-                {
-                    position += lineSize + space;
-
-                    lineIndex = dataLineIndex;
-                    lineSize = layout.GetLineSize(lineIndex);
-                }
-            }
-
-            if (prevFirstDataIndex != firstDataIndex)
-            {
-                for (int dataIndex = prevFirstDataIndex; dataIndex < firstDataIndex; dataIndex++)
-                {
-                    InfiniteScrollItem item = GetItemByDataIndex(dataIndex);
-                    if (item != null)
-                    {
-                        item.ClearData();
-                    }
-                }
-
-                changeValue = true;
-            }
-            
-            for (int dataIndex = firstDataIndex; dataIndex < dataList.Count; ++dataIndex)
-            {
-                int dataLineIndex = layout.GetLineIndex(dataIndex);
-                if (lineIndex != dataLineIndex)
-                {   
-                    position += lineSize + space;
-
-                    lineIndex = dataLineIndex;
-                    lineSize = layout.GetLineSize(lineIndex);                    
-                }
-
-                if (viewSize < position)
-                {
-                    break;
-                }
-
-                InfiniteScrollItem item = PullItemByDataIndex(dataIndex);
- 
-                bool needUpdateData = false;
-
-                if (item.IsActiveItem == false ||
-                    item.dataIndex != dataIndex)
-                {
-                    item.SetData(dataIndex);
-
-                    needUpdateData = true;
-
-                    changeValue = true;
-                }
-
-                if (needUpdateData == true || forceUpdateData == true)
-                {
-                    item.UpdateData(dataList[dataIndex]);
-                }
-
-                RectTransform itemTransform = (RectTransform)item.transform;
-                layout.SetItemSizeAndPosition(itemTransform, dataIndex);
-
-                lastDataIndex = dataIndex;
-            }
-            
-            if (prevLastDataIndex != lastDataIndex)
-            {
-                for (int dataIndex = lastDataIndex + 1; dataIndex <= prevLastDataIndex; dataIndex++)
-                {
-                    InfiniteScrollItem item = GetItemByDataIndex(dataIndex);
-                    if (item != null)
-                    {
-                        item.ClearData();
-                    }
-                }
-
-                changeValue = true;
-            }
-
-            if (changeValue == true)
-            {
-                onChangeValue.Invoke(firstDataIndex, lastDataIndex, isStartLine, isEndLine);
-                changeValue = false;
-            }
-
-            processing = false;
-        }
-
-        private InfiniteScrollItem PullItemByDataIndex(int dataIndex)
-        {
-            InfiniteScrollItem item = null;
-
-            int itemIndex = GetItemIndexByDataIndex(dataIndex, true);
-            if (itemIndex == -1)
-            {
-                item = CreateItem(dataList[dataIndex]);
-            }
-            else
-            {
-                item = items[itemIndex];
-            }
-
-            return item;
-        }
-
-        private InfiniteScrollItem GetItemByDataIndex(int dataIndex)
-        {
-            int itemIndex = GetItemIndexByDataIndex(dataIndex, false);
-            if (itemIndex != -1)
-            {
-                return items[itemIndex];
-            }
-
-            return null;
-        }
-
-        private int GetItemIndexByDataIndex(int dataIndex, bool findEmptyIndex = false)
-        {
-            int emptyIndex = -1;
-            for (int index = 0; index < items.Count; ++index)
-            {
-                if (items[index].dataIndex == dataIndex)
-                {
-                    return index;
-                }
-
-                if (findEmptyIndex == true)
-                {
-                    if (emptyIndex == -1 &&
-                     items[index].dataIndex == -1)
-                    {
-                        emptyIndex = index;
-                    }
-                }
-            }
-
-            return emptyIndex;
-        }
-     
-        private bool IsShowDataIndex(int dataIndex)
-        {
-            if (dataIndex >= firstDataIndex && dataIndex <= lastDataIndex)
+            if (needReBuildLayout == true ||
+                isRebuildLayout == true ||
+                isUpdateArea == true)
             {
                 return true;
             }
-            else
-            {
-                return false;
-            }
-        }
-        
-        private int GetShowFirstDataIndex()
-        {
-            int     index           = -1;
-            float   contentPosition = GetContentPosition();
-            float   itemSizeSum     = 0.0f;
-          
-            int lineCount = layout.GetLineCount();
-            for (int lineIndex = 0; lineIndex < lineCount; lineIndex++)
-            {
-                itemSizeSum += layout.GetLineSize(lineIndex);
 
-                if (itemSizeSum >= contentPosition)
-                {
-                    index = layout.GetLineFirstItemIndex(lineIndex);
-                    break;
-                }
-
-                itemSizeSum += space;
-            }
-
-            if (index < 0)
-            {
-                index = 0;
-            }
-
-            return index;
-        }    
-        
-        private void OnValueChanged(Vector2 value)
-        {
-            bool prevIsStartLine = isStartLine;
-            isStartLine = IsMoveToFirstData();
-            if (prevIsStartLine != isStartLine)
-            {
-                onStartLine.Invoke(isStartLine);
-
-                changeValue = true;
-            }
-
-            bool prevIsEndLine = isEndLine;
-            isEndLine = IsMoveToLastData();
-            if (prevIsEndLine != isEndLine)
-            {
-                onEndLine.Invoke(isEndLine);
-
-                changeValue = true;
-            }
-
-            UpdateShowItem();            
+            return false;
         }
 
-        private void OnUpdateItemSize(InfiniteScrollData data, RectTransform itemTransform)
+        protected bool IsShowBeforePosition(float position, float contentPosition)
         {
-            int dataIndex = GetDataIndex(data);
-
-            if (IsValidDataIndex(dataIndex) == true)
+            float viewPosition = position - contentPosition;
+            if (viewPosition < 0)
             {
-                float size = 0.0f;
-
-                if (isVertical == true)
-                {
-                    size = itemTransform.rect.height;
-                }
-                else
-                {
-                    size = itemTransform.rect.width;
-                }
-
-                if (itemSizeList[dataIndex] == size)
-                {
-                    return;
-                }
-
-                if (dataIndex == 0)
-                {
-                    SetFirstItemPosition(size, itemTransform.pivot);
-                }
-
-                itemSizeList[dataIndex] = size;
-
-                ResizeContent();
-
-                if (minItemSize == 0 ||
-                    minItemSize > size)
-                {
-                    minItemSize = size;
-                    CheckNeedMoreItem();
-                }
-                else
-                {
-                    UpdateShowItem();
-                }
-            }
-        }
-         
-        private float GetItemSizeSum(int toIndex)
-        {
-            if (toIndex >= itemSizeList.Count)
-            {
-                toIndex = itemSizeList.Count - 1;
+                return true;
             }
 
-            float sizeSum = 0.0f;
-
-            int lineCount = layout.GetLineCount(toIndex);
-            if (dynamicItemSize == true)
-            {
-                for (int lineIdx = 0; lineIdx < lineCount; lineIdx++)
-                {
-                    sizeSum += layout.GetLineSize(lineIdx);
-                }
-            }
-            else
-            {
-                sizeSum = defaultItemSize * lineCount;
-            }
-
-            if (lineCount > 0)
-            {
-                int spaceCount = lineCount;
-
-                int maxLineCount = layout.GetLineCount();
-                if (lineCount == maxLineCount)
-                {
-                    spaceCount--;
-                }
-
-                sizeSum = sizeSum + space * spaceCount;
-            }
-
-            return sizeSum;
+            return false;
         }
 
-        public float GetItemSizeSumToIndex(int toIndex)
+        protected bool IsShowAfterPosition(float position, float contentPosition, float viewportSize)
         {
-            if (toIndex >= itemSizeList.Count)
+            float viewPosition = position - contentPosition;
+            if (viewPosition >= viewportSize)
             {
-                toIndex = itemSizeList.Count - 1;
+                return true;
             }
 
-            float sizeSum = 0.0f;
-
-            int lineCount = layout.GetLineCount(toIndex) - 1;
-            if (dynamicItemSize == true)
-            {
-                for (int lineIdx = 0; lineIdx < lineCount; lineIdx++)
-                {
-                    sizeSum += layout.GetLineSize(lineIdx);
-                }
-            }
-            else
-            {
-                sizeSum = defaultItemSize * lineCount;
-            }
-
-            if (lineCount > 0)
-            {
-                int spaceCount = lineCount;
-
-                int maxLineCount = layout.GetLineCount();
-                if (lineCount == maxLineCount)
-                {
-                    spaceCount--;
-                }
-
-                sizeSum = sizeSum + space * spaceCount;
-            }
-
-            return sizeSum;
+            return false;
         }
 
-        public float GetItemSize(int dataIndex)
+        private void Update()
         {
-            float size = minItemSize;
-
-            if (dynamicItemSize == true)
+            if (isInitialize == true)
             {
-                if (dataIndex < itemSizeList.Count)
-                {
-                    size = itemSizeList[dataIndex];
-                }
+                RefreshScroll();
             }
-            else
-            {
-                size = defaultItemSize;
-            }
-
-            return size;
-        }
-
-        public float GetItemPostion(int dataIndex)
-        {
-            float firstItemPosition = GetFirstItemPosition();
-            float passingItemSize = GetItemSizeSumToIndex(dataIndex);
-
-            if (isVertical == true)
-            {
-                return firstItemPosition - passingItemSize;
-            }
-            else
-            {
-                return firstItemPosition + passingItemSize;
-            }
-        }
-
-        public int GetItemCount()
-        {
-            return itemSizeList.Count;
-        }
-
-        public bool IsDynamicItemSize()
-        {
-            return dynamicItemSize;
-        }
-
-        private void SetFirstItemPosition(float itemSize, Vector2 pivot)
-        {
-            if (isVertical == true)
-            {
-                firstItemPosition = itemSize * pivot.y - itemSize - padding;
-            }
-            else
-            {
-                firstItemPosition = itemSize * pivot.x + padding;
-            }
-        }
-
-        public float GetFirstItemPosition()
-        {
-            return firstItemPosition;
-        }
-
-        private int GetNeedItemNumber()
-        {
-            int needItemNumber = 0;
-
-            float itemSize = 0.0f;
-            if (dynamicItemSize == true)
-            {
-                itemSize = minItemSize;
-            }
-            else
-            {
-                itemSize = defaultItemSize;
-            }
-
-            if (itemSize > 0)
-            {
-                if (isVertical == true)
-                {
-                    needItemNumber = (int)(viewport.rect.height / itemSize);
-                }
-                else
-                {
-                    needItemNumber = (int)(viewport.rect.width / itemSize);
-                }
-                needItemNumber += 1;
-
-                if(layout.IsGrid() == true)
-                {
-                   needItemNumber = needItemNumber * layout.values.Count;
-                }
-
-                needItemNumber += 2;
-            }
-
-            return needItemNumber;
         }
 
         private void OnValidate()
         {
             layout.SetDefaults();
         }
+
 
         [Serializable]
         public class ChangeValueEvent : UnityEvent<int, int, bool, bool>
@@ -1256,27 +441,6 @@ namespace Gpm.Ui
         {
             public StateChangeEvent()
             {
-            }
-        }
-
-        public static class Control
-        {
-            public static void MoveTo(InfiniteScroll scroll, int dataIndex, MoveToType moveToType, float time = 0)
-            {
-                ScrollMoveTo spring = scroll.gameObject.GetComponent<ScrollMoveTo>();
-                if (spring == null)
-                {
-                    spring = scroll.gameObject.AddComponent<ScrollMoveTo>();
-                }
-
-                spring.dataIndex = dataIndex;
-                spring.moveToType = moveToType;
-                spring.time = time;
-                spring.curve = AnimationCurve.EaseInOut(0, 0, 1, 1);
-
-                spring.autoDestory = true;
-
-                spring.Play();
             }
         }
     }

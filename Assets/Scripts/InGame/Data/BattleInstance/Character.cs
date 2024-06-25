@@ -273,8 +273,13 @@ namespace InGame.Data.BattleInstance
             float sum = 0;
             for (var _elemental = EnumElemental.Air; _elemental <= EnumElemental.Count - 1; ++_elemental)
             {
-                var diff = GetElementalDamage(_elemental) * (1 - (instance.GetElementalDefence(_elemental) / 100.0f));
+                var diff = GetElementalDamage(_elemental) - instance.GetElementalDefence(_elemental);
+
+
                 if (diff < 0) diff = 0;
+
+                // sigmoid
+                //diff = 100.0f / (1 + Mathf.Exp(-(diff - 50.0f) / 8.33f));
                 sum += diff;
             }
 

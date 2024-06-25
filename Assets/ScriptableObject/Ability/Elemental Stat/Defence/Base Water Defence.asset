@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e00b32403f05c674e9ca98c420707c87, type: 3}
   m_Name: Base Water Defence
   m_EditorClassIdentifier: 
-  desc: Water Defence {0:N0}%
+  desc: Water Defence {0:N0}p
   additionalStatDependency:
   - {fileID: 11400000, guid: 48d57c3dbeeac7b41842f70a5a0807c2, type: 2}
-  percentPointStatDependency: []
+  percentPointStatDependency:
+  - {fileID: 11400000, guid: 11ba1167cb184074dabd47b6fd736629, type: 2}
   percentStatDependency: []

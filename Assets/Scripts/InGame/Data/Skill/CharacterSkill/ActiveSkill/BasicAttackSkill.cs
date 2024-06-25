@@ -51,7 +51,7 @@ namespace InGame.Data.Skill
 
         public override float GetSkillPercentDamage(long stack)
         {
-            return skillPercentDamage + ((stack-defaultUpgradeCount) * 0.1f);
+            return skillPercentDamage + ((stack-defaultUpgradeCount) * skillPercentDamageIncreateRate);
         }
     }
 }

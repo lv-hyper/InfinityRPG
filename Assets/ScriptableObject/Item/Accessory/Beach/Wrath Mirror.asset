@@ -15,13 +15,13 @@ MonoBehaviour:
   itemSprite: {fileID: -4244344029664949793, guid: 7e69aaba1b358c54181fd0768e72db76,
     type: 3}
   zone: 4
-  legacyID: 
+  legacyID: General-Beach-6000000-Wrath Mirror
   level: 6000000
   order: 0
-  maxStack: 1
+  maxStack: 10
   maxWornCount: 1
   price: 0
-  shortDesc: 
+  shortDesc: Attack percent -99
   longDesc: Penalty to your attack
   itemAbilities:
   - abilityData:

@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e00b32403f05c674e9ca98c420707c87, type: 3}
   m_Name: Base Fire Damage
   m_EditorClassIdentifier: 
-  desc: Fire Damage {0:N0}%
+  desc: Fire Damage {0:N0}p
   additionalStatDependency:
   - {fileID: 11400000, guid: cec529fb1f8965a4d8145887d760e347, type: 2}
-  percentPointStatDependency: []
+  percentPointStatDependency:
+  - {fileID: 11400000, guid: 5648ae62f8d3ab941ba5739e1de26c5c, type: 2}
   percentStatDependency: []

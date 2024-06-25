@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 1572450965, guid: 493789e235557e140b4563c1b6b20ca7, type: 3}
   zone: 10
-  legacyID: 
+  legacyID: Robe-FairyField-135000000000-Water Elemental Armor +1
   level: 135000000000
   order: 0
   maxStack: 10
@@ -37,6 +37,6 @@ MonoBehaviour:
     isPassive: 0
   - abilityData:
       ability: {fileID: 11400000, guid: 48d57c3dbeeac7b41842f70a5a0807c2, type: 2}
-      amount: 16
+      amount: 40
     isPassive: 0
   tagResists: []

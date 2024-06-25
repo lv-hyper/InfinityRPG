@@ -8,32 +8,33 @@ namespace Gpm.Common
 {
     public class ManagedCoroutine : CustomYieldInstruction
     {
+        private Coroutine coRoroutine = null;
+#if UNITY_EDITOR
+        private EditorCoroutine coEditorCoroutine = null;
+#endif
+
+#if ENABLE_MANAGED_CORUTINE
+        public System.Type type;
+
+        public string name;
+
+        public ManagedCoroutine parent;
+
+    #if RECORD_CORUTINE_STACK
+        public System.Diagnostics.StackTrace stackTrace = null;
+    #endif
         public class EnumeratorStack
         {
             public EnumeratorStack(IEnumerator enumerator) { this.enumerator = enumerator; }
             public int count = 0;
             public IEnumerator enumerator;
         }
-
-        private Coroutine coRoroutine = null;
-#if UNITY_EDITOR
-        private EditorCoroutine coEditorCoroutine = null;
-#endif
-
-        public System.Type type;
-
-        public string name;
-
-        public ManagedCoroutine parent;
-#if RECORD_CORUTINE_STACK
-        public System.Diagnostics.StackTrace stackTrace = null;
-#endif
         public Stack<EnumeratorStack> enumeratorStack = new Stack<EnumeratorStack>();
 
         public IEnumerator currentEnumerator;
 
         static private Stack<ManagedCoroutine> currentManagedCoroutine = new Stack<ManagedCoroutine>();
-
+#endif
         public override bool keepWaiting
         {
             get
@@ -57,22 +58,20 @@ namespace Gpm.Common
 #if ENABLE_MANAGED_CORUTINE
             type = routine.GetType();
             name = type.ToString();
-#endif
 
-#if RECORD_CORUTINE_STACK
-
-#if UNITY_EDITOR
+    #if RECORD_CORUTINE_STACK
+        #if UNITY_EDITOR
             stackTrace = new System.Diagnostics.StackTrace(skipFrames, true);
-#else
+        #else
             stackTrace = new System.Diagnostics.StackTrace(skipFrames, false);
-#endif
-
-#endif
+        #endif
+    #endif
             if (currentManagedCoroutine.Count > 0)
             {
                 parent = currentManagedCoroutine.Peek();
             }
-#if RECORD_CORUTINE_STACK
+
+    #if RECORD_CORUTINE_STACK
             if(parent != null)
             {
                 foreach(var frame in stackTrace.GetFrames())
@@ -85,8 +84,9 @@ namespace Gpm.Common
                 }
             
             }
-#endif
+    #endif
 
+#endif
             StartCoroutine(routine);
         }
 
@@ -97,15 +97,21 @@ namespace Gpm.Common
 
         public void StartCoroutine(IEnumerator routine)
         {
+#if ENABLE_MANAGED_CORUTINE
+            IEnumerator runRoutine = Run(routine);
+#else
+            IEnumerator runRoutine = routine;
+#endif
+
 #if UNITY_EDITOR
             if (!UnityEditor.EditorApplication.isPlaying)
             {
-                coEditorCoroutine = EditorCoroutine.Start(routine);
+                coEditorCoroutine = EditorCoroutine.Start(runRoutine);
                 return;
             }
 #endif
 
-            coRoroutine = ManagedCoroutineInstance.StartCoroutine(Run(routine));
+            coRoroutine = ManagedCoroutineInstance.Instance.StartCoroutine(runRoutine);
         }
 
         public void StopCoroutine()
@@ -119,12 +125,12 @@ namespace Gpm.Common
 #endif
             if (coRoroutine != null)
             {
-                ManagedCoroutineInstance.StopCoroutine(coRoroutine);
+                ManagedCoroutineInstance.Instance.StopCoroutine(coRoroutine);
                 coRoroutine = null;
             }
         }
 
-        private IEnumerator Run(IEnumerator routine)
+        public IEnumerator Run(IEnumerator routine)
         {
 #if ENABLE_MANAGED_CORUTINE
             ManagedCoroutineInstance.managedList.Add(this);
@@ -152,11 +158,11 @@ namespace Gpm.Common
                 }
                 catch(System.Exception ex)
                 {
-#if RECORD_CORUTINE_STACK
+    #if RECORD_CORUTINE_STACK
                     throw new ManagedCoroutineException(this, ex);
-#else
+    #else
                     throw ex;
-#endif
+    #endif
 
                     break;
                 }
@@ -179,9 +185,9 @@ namespace Gpm.Common
                 }
             }
 
-#if UNITY_EDITOR
+    #if UNITY_EDITOR
             coEditorCoroutine = null;
-#endif
+    #endif
             coRoroutine = null;
 
             ManagedCoroutineInstance.managedList.Remove(this);
@@ -192,7 +198,7 @@ namespace Gpm.Common
     }
 
 
-    internal class ManagedCoroutineInstance : MonoBehaviour
+    public class ManagedCoroutineInstance : MonoBehaviour
     {
         static private ManagedCoroutineInstance instance;
         static private bool initialized;
@@ -200,7 +206,7 @@ namespace Gpm.Common
 
         public static List<ManagedCoroutine> managedList = new List<ManagedCoroutine>();
 
-        internal static ManagedCoroutineInstance Instance
+        public static ManagedCoroutineInstance Instance
         {
             get
             {
@@ -242,35 +248,6 @@ namespace Gpm.Common
                 {
                     manager.Awake(); // force awake
                 }
-            }
-        }
-
-        new internal static Coroutine StartCoroutine(IEnumerator routine)
-        {
-#if UNITY_EDITOR
-            if (!UnityEditor.EditorApplication.isPlaying)
-            {
-                EditorCoroutine.Start(routine); return null;
-            }
-#endif
-
-            var dispatcher = Instance;
-            if (dispatcher != null)
-            {
-                return (dispatcher as MonoBehaviour).StartCoroutine(routine);
-            }
-            else
-            {
-                return null;
-            }
-        }
-
-        new internal static void StopCoroutine(Coroutine routine)
-        {
-            var dispatcher = Instance;
-            if (dispatcher != null)
-            {
-                (dispatcher as MonoBehaviour).StopCoroutine(routine);
             }
         }
 

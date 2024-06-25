@@ -78,7 +78,6 @@ namespace InGame.Entity
         bool uiTouched = false;
 
         bool movementBlocked = false;
-        bool collisionWithWall = false;
 
         Signpost currentSignpost;
 
@@ -159,6 +158,7 @@ namespace InGame.Entity
                 LoadEquipmentData();
                 LoadElementalSoulDropData();
                 LoadSoulExtractData();
+                ElementalSoulData.GetInstance().CorrectElementalSkill();
 
                 UI.Menu.AutoStatManager.GetInstance().LoadStatData();
 
@@ -461,14 +461,9 @@ namespace InGame.Entity
 
         public void Teleport(string destMap, string triggerID)
         {
-            bool initTeleport = true;
             if (LoadingLayer.GetInstance() != null)
             {
                 LoadingLayer.GetInstance().gameObject.SetActive(true);
-            }
-            if (SceneManager.GetActiveScene().name != "Ingame")
-            {
-                initTeleport = false;
             }
 
             follower.SuspendFunction();
@@ -625,12 +620,6 @@ namespace InGame.Entity
                 Action.BattleController.GetInstance().InitBattle(boss);
             }
 
-
-            else if (other.transform.tag == "Wall")
-            {
-                collisionWithWall = true;
-            }
-
             else if (other.transform.tag == "NPC")
             {
                 AbstractNPC npc = other.transform.GetComponent<AbstractNPC>();
@@ -643,14 +632,6 @@ namespace InGame.Entity
             )
             {
                 TeleportWithoutMapMovement(triggerWithoutMovement.GetTriggerID());
-            }
-        }
-
-        private void OnCollisionExit2D(Collision2D other)
-        {
-            if (other.transform.tag == "Wall")
-            {
-                collisionWithWall = false;
             }
         }
 
@@ -1195,26 +1176,6 @@ namespace InGame.Entity
         public Color GetDefenceColor(BigInteger _lv)
         {
             return Color.black;
-
-            float defenceRatio = 10;
-
-            if (defenceRatio == 10)
-            {
-                return maxDefColor;
-            }
-            else if (defenceRatio >= 8)
-            {
-                return highDefColor;
-            }
-            else if (defenceRatio >= 5)
-            {
-                return midDefColor;
-            }
-            else if (defenceRatio >= 1.1f)
-            {
-                return lowDefColor;
-            }
-            else return minDefColor;
         }
 
         public int GetGameSpeed() { return gameSpeed; }

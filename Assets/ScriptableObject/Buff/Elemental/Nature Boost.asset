@@ -13,9 +13,10 @@ MonoBehaviour:
   m_Name: Nature Boost
   m_EditorClassIdentifier: 
   effectIcon: {fileID: 1122598084, guid: 18276612bf6d8404786e10f8400729f9, type: 3}
-  duration: 15
+  duration: 9
+  level: 1
   abilities:
   - abilityData:
-      ability: {fileID: 11400000, guid: 39a205e34d7241d488da80b475bfc527, type: 2}
-      amount: 100
+      ability: {fileID: 11400000, guid: c9e3d29555679a34ebfee18956c06dff, type: 2}
+      amount: 20
     target: 1

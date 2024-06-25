@@ -15,4 +15,5 @@ MonoBehaviour:
   desc: Additional EXP {0:N0}%
   additionalRateDependency:
   - {fileID: 11400000, guid: 789afb0f8c38a904486eb4ddab4e9b2c, type: 2}
-  multipliyRateDependency: []
+  multipliyRateDependency:
+  - {fileID: 11400000, guid: 83b80519d6da7f14c830d34b8b8ceda0, type: 2}

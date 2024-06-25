@@ -22,7 +22,7 @@ MonoBehaviour:
   maxWornCount: 1
   price: 0
   shortDesc: Tail
-  longDesc: Bunny bunny.
+  longDesc: Bunny bunny. Resist doesn't stack.
   itemAbilities: []
   tagResists:
   - Myth

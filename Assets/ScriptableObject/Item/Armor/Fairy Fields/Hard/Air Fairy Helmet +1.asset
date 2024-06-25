@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: -1337680053, guid: 493789e235557e140b4563c1b6b20ca7, type: 3}
   zone: 10
-  legacyID: 
+  legacyID: Helmet-FairyField-330000000000-Air Fairy Helmet +1
   level: 330000000000
   order: 0
   maxStack: 10
@@ -33,6 +33,6 @@ MonoBehaviour:
     isPassive: 0
   - abilityData:
       ability: {fileID: 11400000, guid: 62841904735c4744cab8bf4b760e269a, type: 2}
-      amount: 17
+      amount: 60
     isPassive: 0
   tagResists: []

@@ -105,7 +105,7 @@ TextureImporter:
       213: -916284677265705987
     second: elemental_33
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -122,7 +122,6 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
@@ -166,7 +165,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
-  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -206,6 +205,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -944,42 +955,43 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      elemental_3: -3276326017948643056
-      elemental_25: 3328060556590895987
-      elemental_8: -5428751932934309824
-      elemental_16: 573813069464848057
-      elemental_27: -6660005084095207619
-      elemental_13: 924805335517082173
-      elemental_10: -6183570790091957818
-      elemental_5: -8535209269857356228
-      elemental_32: -8219444458146681602
-      elemental_15: 2435756508423726686
-      elemental_26: 5080078143389312156
-      elemental_9: -1159329482476866350
-      elemental_14: 426120144985928224
-      elemental_18: -2408044338868833822
-      elemental_6: -4843517845641692448
-      elemental_19: 5026629278175237765
-      elemental_11: -597630674788373263
-      elemental_24: -875032247691796775
-      elemental_30: -1081954683137563482
-      elemental_29: -6316508370857365548
-      elemental_31: -6654344963076148994
-      elemental_1: 4799119503133408509
-      elemental_4: 7336399372187010669
-      elemental_22: 671338545257440717
       elemental_0: -1766255054667296384
-      elemental_7: -7339533501470664506
-      elemental_20: 5965569212887925796
-      elemental_17: 8245712242837104330
-      elemental_2: 2732004015167206498
-      elemental_33: -916284677265705987
-      elemental_28: 7367037057400436951
-      elemental_23: 967773070254398588
+      elemental_1: 4799119503133408509
+      elemental_10: -6183570790091957818
+      elemental_11: -597630674788373263
       elemental_12: 4566042545730541426
+      elemental_13: 924805335517082173
+      elemental_14: 426120144985928224
+      elemental_15: 2435756508423726686
+      elemental_16: 573813069464848057
+      elemental_17: 8245712242837104330
+      elemental_18: -2408044338868833822
+      elemental_19: 5026629278175237765
+      elemental_2: 2732004015167206498
+      elemental_20: 5965569212887925796
       elemental_21: -5512062171266793505
+      elemental_22: 671338545257440717
+      elemental_23: 967773070254398588
+      elemental_24: -875032247691796775
+      elemental_25: 3328060556590895987
+      elemental_26: 5080078143389312156
+      elemental_27: -6660005084095207619
+      elemental_28: 7367037057400436951
+      elemental_29: -6316508370857365548
+      elemental_3: -3276326017948643056
+      elemental_30: -1081954683137563482
+      elemental_31: -6654344963076148994
+      elemental_32: -8219444458146681602
+      elemental_33: -916284677265705987
+      elemental_4: 7336399372187010669
+      elemental_5: -8535209269857356228
+      elemental_6: -4843517845641692448
+      elemental_7: -7339533501470664506
+      elemental_8: -5428751932934309824
+      elemental_9: -1159329482476866350
   spritePackingTag: 
   pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

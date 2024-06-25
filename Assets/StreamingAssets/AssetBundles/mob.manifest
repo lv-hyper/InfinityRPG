@@ -1,12 +1,15 @@
 ManifestFileVersion: 0
-CRC: 1820780787
+CRC: 1616451487
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 9725f0a442b79f6b6c6b022141598494
+    Hash: cc2dc462ede6e2ada197a51f5a5e3bc3
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 912ce858ed6f6526a80084614c8c99ad
+    Hash: 7247ab8a0269ce9a243b9ced3f261077
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: cc2dc462ede6e2ada197a51f5a5e3bc3
 HashAppended: 0
 ClassTypes:
 - Class: 28
@@ -120,7 +123,7 @@ Assets:
 - Assets/ScriptableObject/Mob/Hard/Toxic Swamp/Zone A/Toxic Cactus [Hard].asset
 - Assets/ScriptableObject/Mob/Instance Boss/Toxic Swamp/Toxic Slime [Hard] [Hidden].asset
 - Assets/ScriptableObject/Mob/Normal/Twillight Forest/Zone E/Earth Scorpion.asset
-- Assets/ScriptableObject/Mob/Hard/Floating Castle/Boss/GemStone Dragon Wind [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Floating Castle/Boss/Wind Gemstone Dragon [Hard].asset
 - Assets/ScriptableObject/Mob/Normal/Elemental/Castle Bridge/Magical Spear Soldier.asset
 - Assets/ScriptableObject/Mob/Normal/Ocean/Zone C/Fatoad.asset
 - Assets/ScriptableObject/Mob/Hard/Start Forest/Zone 4/Grasshopper [Hard].asset
@@ -285,7 +288,7 @@ Assets:
 - Assets/ScriptableObject/Mob/Normal/Dragon Cave/Zone G/Blue Dragon.asset
 - Assets/ScriptableObject/Mob/Hard/Dragon Cave/Zone E/Red Dragon [Hard].asset
 - Assets/ScriptableObject/Mob/Hard/Twillight Forest/Zone E/Earth Spider [Hard].asset
-- Assets/ScriptableObject/Mob/Normal/Floating Castle/Boss/GemStone Dragon Wind.asset
+- Assets/ScriptableObject/Mob/Normal/Floating Castle/Boss/Wind Gemstone Dragon.asset
 - Assets/ScriptableObject/Mob/Normal/Christmas Map/Zone C/Christmas Cookie.asset
 - Assets/ScriptableObject/Mob/Hard/Elemental/Fairy Fields/Light/Light Gemstone B
   [Hard].asset
@@ -300,11 +303,12 @@ Assets:
 - Assets/ScriptableObject/Mob/Normal/Start Forest/Zone 1/Red Flower.asset
 - Assets/ScriptableObject/Mob/Normal/Toxic Swamp/Zone D/Toxic Root.asset
 - Assets/ScriptableObject/Mob/Hard/Dragon Cave/Zone A/Dragon Egg C [Hard].asset
-- Assets/ScriptableObject/Mob/Hard/Frozen Shores/Boss/Gemstone Dragon Water [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Frozen Shores/Boss/Water Gemstone Dragon [Hard].asset
 - Assets/ScriptableObject/Mob/Normal/Deep Forest/Zone I/Colossal Bat.asset
 - Assets/ScriptableObject/Mob/Hard/Ocean/Zone B/Octopus [Hard].asset
 - Assets/ScriptableObject/Mob/Instance Boss/Twilight Forest/Metal Golem [Hard] [Hidden].asset
 - Assets/ScriptableObject/Mob/Hard/Frozen Shores/Zone A/Water Gem [Hard].asset
+- Assets/ScriptableObject/Mob/Normal/Fire Lord Cave/Boss/Greater Mimic.asset
 - Assets/ScriptableObject/Mob/Normal/Floating Castle/Zone D/Wind Dodo.asset
 - Assets/ScriptableObject/Mob/Normal/Twillight Forest/Zone B/Earth Bull.asset
 - Assets/ScriptableObject/Mob/Hard/Start Forest/Zone 4/Waterstrider [Hard].asset
@@ -368,7 +372,7 @@ Assets:
 - Assets/ScriptableObject/Mob/Hard/Floating Castle/Boss/Air Guardian [Hard].asset
 - Assets/ScriptableObject/Mob/Hard/Beach/Zone B/Star Shell [Hard].asset
 - Assets/ScriptableObject/Mob/Hard/Elemental/Fairy Fields/Fire/Fire Pumice Rock [Hard].asset
-- Assets/ScriptableObject/Mob/Normal/Frozen Shores/Boss/Gemstone Dragon Water.asset
+- Assets/ScriptableObject/Mob/Normal/Frozen Shores/Boss/Water Gemstone Dragon.asset
 - Assets/ScriptableObject/Mob/Normal/Deep Forest/Zone A/Blue Seeker.asset
 - Assets/ScriptableObject/Mob/Hard/Beach/Zone A/Spore [Hard].asset
 - Assets/ScriptableObject/Mob/Normal/Deep Forest/Zone I/Ice Mantis.asset
@@ -588,7 +592,7 @@ Assets:
 - Assets/ScriptableObject/Mob/Hard/Deep Forest/Zone I/Ice Mantis [Hard].asset
 - Assets/ScriptableObject/Mob/Hard/Fire Lord Cave/Zone E/Fire Maiden [Hard].asset
 - Assets/ScriptableObject/Mob/Hard/Start Forest/Boss/Forest Panda [Hard].asset
-- Assets/ScriptableObject/Mob/Hard/Fire Lord Cave/Boss/Gemstone Dragon Fire [Hard].asset
+- Assets/ScriptableObject/Mob/Hard/Fire Lord Cave/Boss/Fire Gemstone Dragon [Hard].asset
 - Assets/ScriptableObject/Mob/Normal/Start Forest/Zone 5/Panda.asset
 - Assets/ScriptableObject/Mob/Normal/Twillight Forest/Zone C/Earth Griphon.asset
 - Assets/ScriptableObject/Mob/Normal/Dragon Cave/Zone F/Green Wyvern.asset
@@ -666,7 +670,7 @@ Assets:
 - Assets/ScriptableObject/Mob/Hard/Beach/Zone C/Dark Shell [Hard].asset
 - Assets/ScriptableObject/Mob/Hard/Floating Castle/Zone A/Wind Razor [Hard].asset
 - Assets/ScriptableObject/Mob/Hard/Ocean/Boss/Abismos [Hard].asset
-- Assets/ScriptableObject/Mob/Normal/Fire Lord Cave/Boss/Gemstone Dragon Fire.asset
+- Assets/ScriptableObject/Mob/Normal/Fire Lord Cave/Boss/Fire Gemstone Dragon.asset
 - Assets/ScriptableObject/Mob/Normal/Abyss/Zone C/Arman.asset
 - Assets/ScriptableObject/Mob/Hard/Elemental/Fairy Fields/Nature/Earth Wisp [Hard].asset
 - Assets/ScriptableObject/Mob/Normal/Dragon Cave/Zone A/Dragon Egg C.asset
@@ -878,5 +882,5 @@ Assets:
 - Assets/ScriptableObject/Mob/Hard/Dragon Cave/Zone A/Dragon Egg E [Hard].asset
 - Assets/ScriptableObject/Mob/Normal/Start Forest/Zone 3/Shroomy.asset
 Dependencies:
-- D:/Unity/InfinityRPG/Assets/StreamingAssets/AssetBundles/item
-- D:/Unity/InfinityRPG/Assets/StreamingAssets/AssetBundles/skill
+- C:/Dev/InfinityRPG/Assets/StreamingAssets/AssetBundles/item
+- C:/Dev/InfinityRPG/Assets/StreamingAssets/AssetBundles/skill

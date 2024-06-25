@@ -22,7 +22,8 @@ MonoBehaviour:
   maxWornCount: 1
   price: 0
   shortDesc: Khronos' Powerful Clock
-  longDesc: The Ultimate Clock
+  longDesc: When equipped it increases all stats based on how many items you have
+    in total. Materials don't count!.
   itemAbilities:
   - abilityData:
       ability: {fileID: 11400000, guid: 33589abe791f3af49906fb74ca5fd30b, type: 2}

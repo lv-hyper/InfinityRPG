@@ -34,9 +34,7 @@ MonoBehaviour:
   customHP: -1
   customATK: -1
   maxDefenceRatio: 2
-  dropTable:
-  - item: {fileID: 11400000, guid: c99f09133da6428499e12104b039424d, type: 2}
-    probablity: 0.03
+  dropTable: []
   tagList: []
   soulLv: 5
   progressionLevel: 0

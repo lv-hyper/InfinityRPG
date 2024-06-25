@@ -25,6 +25,7 @@ namespace InGame.Data.Skill
         [SerializeField] protected SkillType skillType;
 
         [SerializeField] protected float skillPercentDamage;
+        [SerializeField] protected float skillPercentDamageIncreateRate = 0.1f;
 
         [SerializeField] protected AnimationClip skillAnimation;
         public abstract void OnActive(BattleInstance.AbstractInstance target);
@@ -43,7 +44,7 @@ namespace InGame.Data.Skill
             float sum = 0;
             for (var _elemental = EnumElemental.Air; _elemental <= EnumElemental.Count - 1; ++_elemental)
             {
-                var diff = from.GetElementalDamage(_elemental) * (1 - (instance.GetElementalDefence(_elemental) / 100.0f));
+                var diff = from.GetElementalDamage(_elemental) - instance.GetElementalDefence(_elemental);
                 if (diff < 0) diff = 0;
                 sum += diff;
             }
@@ -74,7 +75,7 @@ namespace InGame.Data.Skill
 
         public bool IsAttackSkill() { return isAttackSkill; }
 
-        public EnumElemental GetElementalType()
+        public override EnumElemental GetElementalType()
         {
             return elementalType;
         }

@@ -14,14 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 1384126420, guid: 213138e1ba645f7408061f4b43a6be59, type: 3}
   zone: 7
-  legacyID: 
+  legacyID: General-DragonCave-50000000-Earth Pendant
   level: 50000000
   order: 0
   maxStack: 10
   maxWornCount: 1
   price: 0
-  shortDesc: 
-  longDesc: 
+  shortDesc: Gain HP From Attack (80%), HP +25%
+  longDesc: Dropped from Earth Dragon. Lifesteal doesn't stack!.
   itemAbilities:
   - abilityData:
       ability: {fileID: 11400000, guid: 4741220aabfc4fb4d968b50d110d8aeb, type: 2}

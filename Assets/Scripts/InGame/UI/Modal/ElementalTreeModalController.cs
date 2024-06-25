@@ -3,6 +3,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using Common.UI;
+using InGame.Data.SaveData;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.UI.Extensions;
@@ -211,12 +212,16 @@ namespace InGame.UI
         {
             if(currentElementView != null)
             {
-                titleText.text = currentElementView.GetElement().GetSkill().name;
-                titleText.text += " " + ToRoman(currentElementView.GetElement().GetUpgradeCount());
+                var element = currentElementView.GetElement();
+                titleText.text = string.Format("<nobr>{0} {1}</nobr> ",
+                    element.GetSkill().name,
+                    ToRoman(element.GetUpgradeCount())
+                );
 
                 descText.text = currentElementView.GetElement().GetSkill().GetLongDescription(
                     currentElementView.GetElement().GetUpgradeCount()
                 );
+                
                 unlockButton.interactable = Data.ElementalSoulData.GetInstance().IsPerkUnlockable(
                     currentElementalTree.GetElemental(),
                     new Data.SaveData.ElementalSoulSaveData.Perk(currentElementView.GetTier(), currentElementView.GetOrder())

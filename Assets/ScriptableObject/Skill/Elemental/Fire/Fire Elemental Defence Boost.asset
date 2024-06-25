@@ -17,12 +17,12 @@ MonoBehaviour:
   elementalType: 3
   upgradeCost: 0
   defaultUpgradeCount: 0
-  maxUpgradeCount: 2
+  maxUpgradeCount: 3
   requiredLevel: 0
   skillDescription: 
   isClassSkill: 0
   skillAbilities:
   - abilityData:
-      ability: {fileID: 11400000, guid: 26008c40dd9227848b65e02c7e79e1dd, type: 2}
+      ability: {fileID: 11400000, guid: 0231692c9744bba448f04998315df2cc, type: 2}
       amount: 7
     target: 1

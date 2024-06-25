@@ -21,10 +21,6 @@ MonoBehaviour:
   - itemCount: 2
     itemAbilities:
     - abilityData:
-        ability: {fileID: 11400000, guid: b1317ac1d1a0dc145a39d4df1a7647dd, type: 2}
-        amount: 10
-      isPassive: 0
-    - abilityData:
         ability: {fileID: 11400000, guid: 480eeac1ba90dfa408c47d451ea0cb7e, type: 2}
         amount: 1000
       isPassive: 0
@@ -35,10 +31,6 @@ MonoBehaviour:
     tagResists: []
   - itemCount: 4
     itemAbilities:
-    - abilityData:
-        ability: {fileID: 11400000, guid: b1317ac1d1a0dc145a39d4df1a7647dd, type: 2}
-        amount: 10
-      isPassive: 0
     - abilityData:
         ability: {fileID: 11400000, guid: 480eeac1ba90dfa408c47d451ea0cb7e, type: 2}
         amount: 1000

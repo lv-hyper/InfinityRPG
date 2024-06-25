@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 30eb1083e257dec42a2a4bad8efd07d9, type: 3}
-  m_Name: Scale of Karkinos
+  m_Name: Scale Of Karkinos
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 6008043063952748963, guid: 66cc13b398c62eb43bbb5989b09ebca2,
     type: 3}
   zone: 4
-  legacyID: Material-Beach-666666600-Scale of Karkinos
+  legacyID: Material-Beach-666666600-Scale Of Karkinos
   level: 666666600
   order: 0
-  maxStack: 30
+  maxStack: 99
   maxWornCount: 0
   price: 0
   shortDesc: Scale

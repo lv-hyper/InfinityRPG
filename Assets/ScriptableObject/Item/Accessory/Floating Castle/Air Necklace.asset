@@ -14,13 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 1223431998, guid: d00ddbdd0b39bcd47a360ae0fd9a053f, type: 3}
   zone: 11
-  legacyID: 
+  legacyID: General-FloatingCastle-0-Air Necklace
   level: 0
   order: 0
   maxStack: 1
   maxWornCount: 1
   price: 0
-  shortDesc: 
+  shortDesc: Air damage +25%
   longDesc: 
   itemAbilities:
   - abilityData:

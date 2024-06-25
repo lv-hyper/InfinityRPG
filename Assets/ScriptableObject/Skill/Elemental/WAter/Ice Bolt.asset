@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8de72f254e5cb3945b40dfa6c421e691, type: 3}
+  m_Name: Ice Bolt
+  m_EditorClassIdentifier: 
+  skillSprite: {fileID: 769329135, guid: 18276612bf6d8404786e10f8400729f9, type: 3}
+  targetCharacterClassType: 2147483647
+  elementalType: 4
+  upgradeCost: 0
+  defaultUpgradeCount: 0
+  maxUpgradeCount: 1
+  requiredLevel: 0
+  skillDescription: 
+  isClassSkill: 0
+  skillTurnCount: 0
+  skillCoolDown: 2
+  manaCost: 2000
+  isAttackSkill: 1
+  skillType: 1
+  skillPercentDamage: 2.5
+  skillPercentDamageIncreateRate: 1
+  skillAnimation: {fileID: 0}
+  criticalMode: -1

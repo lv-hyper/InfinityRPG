@@ -10,19 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9495e2426dc60cc4ba40a53a473ec155, type: 3}
-  m_Name: Feather of King Parrot +1
+  m_Name: Feather Of King Parrot +1
   m_EditorClassIdentifier: 
   itemSprite: {fileID: -8883386206398998774, guid: 38b583c06ef440242bdb7faf1a4de221,
     type: 3}
   zone: 2
-  legacyID: General-DeepForest-1350000-Feather of King Parrot +1
+  legacyID: General-DeepForest-1350000-Feather Of King Parrot +1
   level: 1350000
   order: 0
   maxStack: 10
   maxWornCount: 1
   price: 200000000
   shortDesc: Gain HP From Attack (70%)
-  longDesc: Dropped from King Parrot. Gives Vampiric Power.
+  longDesc: Dropped from King Parrot, gives vampiric power. Lifesteal doesn't stack!.
   itemAbilities:
   - abilityData:
       ability: {fileID: 11400000, guid: 4741220aabfc4fb4d968b50d110d8aeb, type: 2}

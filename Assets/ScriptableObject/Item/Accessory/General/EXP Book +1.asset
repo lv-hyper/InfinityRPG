@@ -22,7 +22,7 @@ MonoBehaviour:
   maxWornCount: 2
   price: 1000000
   shortDesc: EXP +40%p
-  longDesc: Gives you a lot of intelligence
+  longDesc: Greatly increase your additional experience
   itemAbilities:
   - abilityData:
       ability: {fileID: 11400000, guid: 789afb0f8c38a904486eb4ddab4e9b2c, type: 2}

@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e00b32403f05c674e9ca98c420707c87, type: 3}
   m_Name: Base Air Damage
   m_EditorClassIdentifier: 
-  desc: Air Damage {0:N0}%
+  desc: Air Damage {0:N0}p
   additionalStatDependency:
   - {fileID: 11400000, guid: 9233d82060af7de458e2e6782161b13d, type: 2}
-  percentPointStatDependency: []
+  percentPointStatDependency:
+  - {fileID: 11400000, guid: c7ef18a7a9a084c4aae71ab009e8cb11, type: 2}
   percentStatDependency: []

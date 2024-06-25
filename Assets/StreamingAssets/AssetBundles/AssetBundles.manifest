@@ -1,32 +1,32 @@
 ManifestFileVersion: 0
-CRC: 248015893
+CRC: 1624087730
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
-      Name: ability
-      Dependencies: {}
-    Info_1:
       Name: itemgroup
       Dependencies:
         Dependency_0: ability
         Dependency_1: item
+    Info_1:
+      Name: skill
+      Dependencies:
+        Dependency_0: ability
     Info_2:
       Name: mob
       Dependencies:
-        Dependency_0: item
-        Dependency_1: skill
+        Dependency_0: skill
+        Dependency_1: item
     Info_3:
       Name: elementaltree
       Dependencies:
         Dependency_0: skill
     Info_4:
-      Name: item
-      Dependencies:
-        Dependency_0: ability
-    Info_5:
       Name: boardsection
       Dependencies: {}
+    Info_5:
+      Name: ability
+      Dependencies: {}
     Info_6:
-      Name: skill
+      Name: item
       Dependencies:
         Dependency_0: ability

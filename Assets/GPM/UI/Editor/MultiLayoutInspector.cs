@@ -149,8 +149,8 @@ namespace Gpm.Ui
                 {
                     GUILayout.BeginHorizontal();
 
-                    var rectTransformOrigin = targets[index].rectTransform;
-                    var rectTransformNew = EditorGUILayout.ObjectField(rectTransformOrigin, typeof(RectTransform), true) as RectTransform;
+                    RectTransform rectTransformOrigin = targets[index].rectTransform;
+                    RectTransform rectTransformNew = EditorGUILayout.ObjectField(rectTransformOrigin, typeof(RectTransform), true) as RectTransform;
 
                     if (rectTransformNew != null && rectTransformNew.Equals(rectTransformOrigin) == false)
                     {

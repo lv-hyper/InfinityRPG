@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 30eb1083e257dec42a2a4bad8efd07d9, type: 3}
-  m_Name: Leaf of Dryad
+  m_Name: Leaf Of Dryad
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 6966992308141429127, guid: f2230cf6bbe9dd043972e3b437ad9a83,
     type: 3}
   zone: 2
-  legacyID: Material-DeepForest-132000-Leaf of Dryad
+  legacyID: Material-DeepForest-132000-Leaf Of Dryad
   level: 132000
   order: 0
   maxStack: 99

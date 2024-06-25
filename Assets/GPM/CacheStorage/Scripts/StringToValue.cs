@@ -4,7 +4,7 @@ using UnityEngine;
 namespace Gpm.CacheStorage
 {
     [Serializable]
-    public struct StringToValue<T>
+    public class StringToValue<T> where T : struct
     {
         [SerializeField]
         private string text;
@@ -13,38 +13,13 @@ namespace Gpm.CacheStorage
 
         private bool converted;
 
-        public string GetText()
-        {
-            return text;
-        }
-
-        public T GetValue()
-        {
-            if (converted == false)
-            {
-                return ConvertValue();
-            }
-
-            return value;
-        }
-
-        private T ConvertValue()
-        {
-            try
-            {
-                value = (T)Convert.ChangeType(text, typeof(T));
-                converted = true;
-            }
-            catch
-            {
-                SetText("");
-            }
-
-            return value;
-        }
-
         public StringToValue(string text = "")
         {
+            if (string.IsNullOrEmpty(text) == true)
+            {
+                text = string.Empty;
+            }
+
             this.text = text;
 
             this.value = default(T);
@@ -54,15 +29,53 @@ namespace Gpm.CacheStorage
 
         public StringToValue(T value)
         {
-            this.text = value.ToString();
+            this.text = string.Empty;
 
             this.value = value;
 
             this.converted = true;
         }
 
+        public string GetText()
+        {
+            if (converted == true)
+            {
+                if (string.IsNullOrEmpty(text) == true)
+                {
+                    text = ConvertText(value);
+                }
+            }
+            return text;
+        }
+
+        public T GetValue()
+        {
+            if (converted == false)
+            {
+                try
+                {
+                    if (string.IsNullOrEmpty(text) == false)
+                    {
+                        value = ConvertValue(text);
+                        converted = true;
+                    }
+                }
+                catch
+                {
+                    SetText(string.Empty);
+                }
+            }
+
+            return value;
+        }
+
         public void SetText(string text)
         {
+            if (string.IsNullOrEmpty(text) == true)
+            {
+                text = string.Empty;
+            }
+
             if (text.Equals(this.text) == false)
             {
                 this.text = text;
@@ -75,40 +88,87 @@ namespace Gpm.CacheStorage
 
         public void SetValue(T value)
         {
-            this.text = value.ToString();
-
+            if (value.Equals(this.value) == false)
+            {
+                this.text = string.Empty;
+            }
             this.value = value;
 
             this.converted = true;
         }
-
-        public bool IsValid()
+        
+        public override bool Equals(object other)
         {
-            if (string.IsNullOrEmpty(text) == false)
+            if (other is null)
             {
-                if (converted == false)
+                return false;
+            }
+            else if (other is T value)
+            {
+                return GetValue().Equals(value);
+            }
+            else if (other is StringToValue<T> stringToValue)
+            {
+                if (System.Object.ReferenceEquals(this, other) == true)
                 {
-                    ConvertValue();
+                    return true;
                 }
 
-                return converted;
+                return GetValue().Equals(stringToValue.GetValue());
             }
-
+            
             return false;
         }
 
+        public override int GetHashCode()
+        {
+            return GetValue().GetHashCode();
+        }
+
+        public static bool operator ==(StringToValue<T> lhs, StringToValue<T> rhs)
+        {
+            if (lhs is null)
+            {
+                if (rhs is null)
+                {
+                    return true;
+                }
+                
+                return false;
+            }
+
+            return lhs.Equals(rhs);
+        }
+
+        public static bool operator !=(StringToValue<T> lhs, StringToValue<T> rhs) => !(lhs == rhs);
+
         public static implicit operator T(StringToValue<T> data)
         {
+            if (data == null)
+            {
+                return default(T);
+            }
+
             return data.GetValue();
         }
 
         public static implicit operator string(StringToValue<T> data)
         {
-            return data.text;
-        }
+            if (data == null)
+            {
+                return string.Empty;
+            }
 
+            return data.GetText();
+        }
+        
         public static implicit operator StringToValue<T>(string value)
         {
+            if (string.IsNullOrEmpty(value) == true)
+            {
+                return null;
+            }
+
             return new StringToValue<T>(value);
         }
 
@@ -119,7 +179,17 @@ namespace Gpm.CacheStorage
 
         public override string ToString()
         {
-            return text;
+            return GetText();
+        }
+
+        protected virtual string ConvertText(T value)
+        {
+            return value.ToString();
+        }
+
+        protected virtual T ConvertValue(string text)
+        {
+            return (T)Convert.ChangeType(text, typeof(T));
         }
     }
 }

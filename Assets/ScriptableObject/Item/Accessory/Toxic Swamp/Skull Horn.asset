@@ -22,7 +22,7 @@ MonoBehaviour:
   maxWornCount: 1
   price: 0
   shortDesc: Horn
-  longDesc: An ancient skull horn
+  longDesc: An ancient skull horn. Resist doesn't stack.
   itemAbilities: []
   tagResists:
   - Ancient

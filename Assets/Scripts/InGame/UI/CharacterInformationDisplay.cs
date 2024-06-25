@@ -159,6 +159,8 @@ namespace InGame.UI
                         ((long)Data.Character.CharacterStat.GetAbilityAmount("Critical Damage") / 100.0f + 0.9f) * 100.0f,
                         ((long)Data.Character.CharacterStat.GetAbilityAmount("Critical Damage") / 100.0f + 1.1f) * 100.0f
                     );
+                    content.text += string.Format("Additional EXP : +{0:N0}%\n",
+                        (long)Data.Character.CharacterStat.GetAbilityAmount("EXP"));
                     break;
                 default:
                     break;

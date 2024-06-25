@@ -17,7 +17,6 @@ public class ItemBundleLoader : MonoBehaviour
         Application.targetFrameRate = 60;
         Time.fixedDeltaTime = 1f / 60f;
         Time.maximumDeltaTime = 1f / 3f;
-        Shader.WarmupAllShaders();
 
         string recentVersion = PlayerPrefs.GetString("recentVersion", "none");
         if(recentVersion != Application.version)

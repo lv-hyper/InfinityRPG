@@ -40,4 +40,6 @@ MonoBehaviour:
   tagList: []
   soulLv: 4
   progressionLevel: 0
-  elementalSoulDrops: []
+  elementalSoulDrops:
+  - elementalType: 4
+    count: 5

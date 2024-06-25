@@ -29,10 +29,15 @@
             GpmWebRequest request = new GpmWebRequest();
             request.Get("https://www.google.com/search?q=" + searchText.text + "&source=lnms&tbm=isch", result=>
             {
+                byte[] resultBytes = result.request.downloadHandler.data;
+
+                Encoding enc = new UTF8Encoding();
+                string resultText = enc.GetString(resultBytes);
+
                 List<string> images = new List<string>();
                 string pattern = @"<(img)\b[^>]*>";
                 Regex rgx = new Regex(pattern, RegexOptions.IgnoreCase);
-                MatchCollection matches = rgx.Matches(result.request.downloadHandler.text);
+                MatchCollection matches = rgx.Matches(resultText);
 
                 for (int i = 0, l = matches.Count; i < l; i++)
                 {

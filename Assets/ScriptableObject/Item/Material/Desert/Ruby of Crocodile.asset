@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 30eb1083e257dec42a2a4bad8efd07d9, type: 3}
-  m_Name: Ruby of Crocodile
+  m_Name: Ruby Of Crocodile
   m_EditorClassIdentifier: 
   itemSprite: {fileID: -6017134472381283854, guid: e831ee1edea549649a7aeb10a71709f6,
     type: 3}
   zone: 7
-  legacyID: Material-DragonCave-10555555555-Ruby of Crocodile
+  legacyID: Material-DragonCave-10555555555-Ruby Of Crocodile
   level: 10555555555
   order: 0
-  maxStack: 30
+  maxStack: 99
   maxWornCount: 0
   price: 0
   shortDesc: Ruby

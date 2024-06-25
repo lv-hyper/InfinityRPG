@@ -9,6 +9,10 @@ namespace Gpm.CacheStorage
 {
     using Common;
     using Common.Util;
+    using Common.Log;
+    using Internal;
+
+    using RequestCallback = Action<GpmCacheResult>;
 
     public enum CacheRequestType
     { 
@@ -16,6 +20,21 @@ namespace Gpm.CacheStorage
         FIRSTPLAY,
         ONCE,
         LOCAL,
+    }
+
+    public enum CacheValidType
+    {
+        VALID = 0,
+        NO_CACHED,
+        NO_EXIST,
+        OTHER_SIZE,
+    }
+
+    public enum CacheUpdateType
+    {
+        NONE = 0,
+        NEW,
+        RESTORE
     }
 
     [Serializable]
@@ -27,13 +46,13 @@ namespace Gpm.CacheStorage
         public List<CacheInfo> cacheStorage = new List<CacheInfo>();
 
         [SerializeField]
-        internal int lastIndex = 0;
+        internal ulong lastIndex = 0;
 
         [SerializeField]
         internal long cachedSize = 0;
 
         [SerializeField]
-        private List<int> spaceIdx = new List<int>();
+        internal long removeCacheSize = 0;
 
         [SerializeField]
         public List<CacheInfo> removeCache = new List<CacheInfo>();
@@ -42,9 +61,11 @@ namespace Gpm.CacheStorage
 
         private bool dirty = false;
 
-        public DateTime lastRemoveTime;
+        public StringToValueHttpTime lastRemoveTime;
+        
+        static private string cachePath;
 
-        public void OnAfterDeserialize()
+        private void OnAfterDeserialize()
         {
             foreach (var info in cacheStorage)
             {
@@ -57,7 +78,7 @@ namespace Gpm.CacheStorage
             }
         }
 
-        internal CacheInfo GetCacheInfo(string url)
+        public CacheInfo GetCacheInfo(string url)
         {
             foreach (CacheInfo cachInfo in cacheStorage)
             {
@@ -70,21 +91,7 @@ namespace Gpm.CacheStorage
             return null;
         }
 
-        public CacheInfo RequestLocal(string url, Action<GpmCacheResult> onResult)
-        {
-            CacheInfo info = GetCacheInfo(url);
-
-            byte[] datas = null;
-            if (info != null)
-            {
-                datas = GetCacheData(info);
-            }
-            onResult(new GpmCacheResult(info, datas));
-
-            return info;
-        }
-
-        public CacheInfo Request(string url, CacheRequestType requestType, double reRequestTime, Action<GpmCacheResult> onResult)
+        internal CacheInfo GetRequestCache(string url)
         {
             foreach (var rq in requestCache)
             {
@@ -94,74 +101,79 @@ namespace Gpm.CacheStorage
                 }
             }
 
+            return null;
+        }
+
+        public CacheRequestOperation RequestLocal(string url, RequestCallback onResult)
+        {
             CacheInfo info = GetCacheInfo(url);
+
+            if (onResult != null)
+            {
+                byte[] datas = null;
+                if (info != null &&
+                    IsValidCacheData(info) == true)
+                {
+                    datas = GetCacheData(info);
+                }
+                onResult.SafeCallback(new GpmCacheResult(info, datas, false));
+            }
+
+            return new CacheRequestOperation(info);
+        }
+
+        public CacheRequestOperation Request(string url, CacheRequestType requestType, double reRequestTime, RequestCallback onResult)
+        {
+            bool onlyLocalCache = false;
+
+            if (requestType == CacheRequestType.LOCAL ||
+                Application.internetReachability == NetworkReachability.NotReachable)
+            {
+                onlyLocalCache = true;
+            }
+            else
+            {
+                CacheInfo requestInfo = GetRequestCache(url);
+                if (requestInfo != null)
+                {
+                    requestInfo.AddCallback(onResult);
+                    return new CacheRequestOperation(requestInfo, true, onResult);
+                }
+            }
+
             bool useCache = true;
+            CacheInfo info = GetCacheInfo(url);
             if (info == null)
             {
                 info = new CacheInfo(this, url);
                 useCache = false;
             }
-
-            System.Action<byte[]> OnData = (datas) =>
+            
+            if (onlyLocalCache == true)
             {
-                info.lastAccess = DateTime.UtcNow.Ticks;
-                GpmCacheStorage.UpdatePackage();
+                byte[] datas = null;
+                if (IsValidCacheData(info) == true)
+                {
+                    datas = GetCacheData(info);
+                }
 
-                onResult(new GpmCacheResult(info, datas));
-            };
-
-            if (requestType == CacheRequestType.LOCAL ||
-                Application.internetReachability == NetworkReachability.NotReachable)
-            {
-                byte[] datas = GetCacheData(info);
-                OnData(datas);
-                return info;
+                return info.ReturnResult(datas, false, onResult);
             }
 
             if (useCache == true &&
-                requestType != CacheRequestType.ALWAYS &&
-                info.NeedRequest() == false)
+                info.NeedRequest(requestType, reRequestTime) == false)
             {
-                bool useLocalCache = false;
-                if (requestType == CacheRequestType.FIRSTPLAY)
+                if (IsValidCacheData(info) == true)
                 {
-                    if (info.requestInPlay == true)
+                    byte[] datas = GetCacheData(info);
+                    if (datas != null)
                     {
-                        useLocalCache = true;
+                        return info.ReturnResult(datas, false, onResult);
                     }
                 }
-                else if (requestType == CacheRequestType.ONCE)
-                {
-                    useLocalCache = true;
-                }
 
-                if (reRequestTime == 0)
-                {
-                    reRequestTime = GpmCacheStorage.GetReRequestTime();
-                }
-                if (GpmCacheStorage.CheckReRequest(reRequestTime, info.responseTime) == true)
-                {
-                    useLocalCache = true;
-                }
-
-                if (useLocalCache == true)
-                {
-                    if (IsValidCacheData(info) == true)
-                    {
-                        byte[] datas = GetCacheData(info);
-                        if (datas != null)
-                        {
-                            OnData(datas);
-                            return info;
-                        }
-                    }
-
-                    useCache = false;
-                }
+                useCache = false;
             }
-
-            info.state = CacheInfo.State.REQUEST;
-            requestCache.Add(info);
 
             GpmWebRequest request = new GpmWebRequest();
             if (useCache == true)
@@ -172,12 +184,18 @@ namespace Gpm.CacheStorage
                 }
                 if (string.IsNullOrEmpty(info.lastModified) == false)
                 {
-                    request.SetRequestHeader("If-Modified-Since", info.lastModified.GetValue().ToUniversalTime().ToString("r"));
+                    request.SetRequestHeader("If-Modified-Since", info.lastModified);
                 }
             }
 
-            info.requestTime = DateTime.UtcNow;
+            info.AddCallback(onResult);
+
             info.requestInPlay = true;
+            info.requestTime = DateTime.UtcNow.Ticks;
+            info.state = CacheInfo.State.REQUEST;
+
+            requestCache.Add(info);
+            
             request.Get(url, (requestResult) =>
             {
                 info.state = CacheInfo.State.NONE;
@@ -187,84 +205,196 @@ namespace Gpm.CacheStorage
                 {
                     if (requestResult.responseCode == (long)HttpStatusCode.NotModified)
                     {
-                        byte[] datas = GetCacheData(info);
-                        if (datas != null)
+                        byte[] cachedDatas = null;
+                        if (IsValidCacheData(info) == true)
+                        {
+                            cachedDatas = GetCacheData(info);
+                        }
+                        
+                        if (cachedDatas != null)
                         {
                             info.state = CacheInfo.State.CACHED;
-                            OnData(datas);
+                            
+                            Dictionary<string, string> cacheControlElements = CacheControl.GetElements(requestResult.request.GetResponseHeader(HttpElement.CACHE_CONTROL));
+
+                            CacheControl cacheControl = null;
+                            bool noStore = false;
+                            if (cacheControlElements.Count > 0)
+                            {
+                                noStore = cacheControlElements.ContainsKey(HttpElement.NO_STORE) == true;
+                                cacheControl = new CacheControl(cacheControlElements);
+
+                                info.cacheControl = cacheControl;
+                            }
+
+                            string expires = requestResult.request.GetResponseHeader(HttpElement.EXPIRES);
+                            if (string.IsNullOrEmpty(expires) == false)
+                            {
+                                info.expires = expires;
+                            }
+
+                            string age = requestResult.request.GetResponseHeader(HttpElement.AGE);
+                            if (string.IsNullOrEmpty(age) == false)
+                            {
+                                info.age = age;
+                            }
+
+                            string date = requestResult.request.GetResponseHeader(HttpElement.DATE);
+                            if (string.IsNullOrEmpty(date) == false)
+                            { 
+                                info.date = date;
+                            }
+
+                            info.responseTime = DateTime.UtcNow.Ticks;
+                            info.needCaculateAge = true;
+                            info.needCaculateLifetime = true;
+
+                            info.SendResultAll(cachedDatas, false);
                         }
                         else
                         {
-                            // Request again if no data
                             info.eTag = string.Empty;
-                            Request(url, CacheRequestType.ALWAYS, 0, onResult);
+                            info.lastModified = string.Empty;
+                            Request(url, CacheRequestType.ALWAYS, 0, null);
                         }
                     }
                     else if (requestResult.responseCode == (long)HttpStatusCode.OK)
                     {
-                        CacheControl cacheControl = null;
+                        info.responseTime = DateTime.UtcNow.Ticks;
 
-                        Dictionary<string, string> cacheControlElements = CacheControl.GetElements(requestResult.request.GetResponseHeader("cache-control"));
+                        CacheControl cacheControl = null;
+                        Dictionary<string, string> cacheControlElements = CacheControl.GetElements(requestResult.request.GetResponseHeader(HttpElement.CACHE_CONTROL));
 
                         bool noStore = false;
                         if (cacheControlElements.Count > 0)
                         {
-                            noStore = cacheControlElements.ContainsKey("no-store") == true;
+                            noStore = cacheControlElements.ContainsKey(HttpElement.NO_STORE) == true;
                             cacheControl = new CacheControl(cacheControlElements);
                         }
-                        info.cacheControl = cacheControl;
-                        
-                        info.eTag = requestResult.request.GetResponseHeader("ETag");
-                        info.expires = requestResult.request.GetResponseHeader("Expires");
-                        info.expires = info.expires.GetValue().ToUniversalTime();
-                        info.lastModified = requestResult.request.GetResponseHeader("Last-Modified");
 
-                        info.age = requestResult.request.GetResponseHeader("Age");
-                        info.date = requestResult.request.GetResponseHeader("Date");
-                        info.date = info.date.GetValue().ToUniversalTime();
-
-                        info.contentLength = requestResult.request.GetResponseHeader("Content-Length");
-
-                        info.cacheControl = cacheControl;
-
-                        info.responseTime = DateTime.UtcNow;
-
-                        info.CaculateCacheInfo();
-
+                        CacheUpdateType updateType = CacheUpdateType.NEW;
                         byte[] datas = requestResult.request.downloadHandler.data;
 
-                        if (datas != null)
+                        if (noStore == true)
                         {
-                            if (noStore == true)
+                            if (info.IsCached() == true)
                             {
-                                if(info.IsCached() == true)
+                                RemoveCacheData(info);
+                            }
+                        }
+                        else
+                        {
+                            if (info.IsCached() == true)
+                            {
+                                if(info.contentLength == datas.Length)
+                                {
+                                    CacheValidType vaildType = CheckValidCacheData(info);
+
+                                    if (vaildType == CacheValidType.VALID)
+                                    {
+                                        byte[] cachedDatas = GetCacheData(info);
+
+                                        if (ByteArraysEqual(cachedDatas, datas) == true)
+                                        {
+                                            updateType = CacheUpdateType.NONE;
+                                        }
+                                    }
+                                    else if(vaildType == CacheValidType.NO_EXIST)
+                                    {
+                                        updateType = CacheUpdateType.RESTORE;
+                                    }
+                                    else
+                                    {
+                                        updateType = CacheUpdateType.NEW;
+                                    }
+                                }
+
+                                if (updateType.Equals(CacheUpdateType.NEW) == true)
                                 {
                                     RemoveCacheData(info);
                                 }
                             }
-                            else
+
+                            info.cacheControl = cacheControl;
+
+                            info.eTag = requestResult.request.GetResponseHeader(HttpElement.ETAG);
+                            info.lastModified = requestResult.request.GetResponseHeader(HttpElement.LAST_MODIFIED);
+
+                            info.expires = requestResult.request.GetResponseHeader(HttpElement.EXPIRES);
+
+                            info.age = requestResult.request.GetResponseHeader(HttpElement.AGE);
+                            info.date = requestResult.request.GetResponseHeader(HttpElement.DATE);
+
+                            info.needCaculateAge = true;
+                            info.needCaculateLifetime = true;
+
+                            info.contentLength = 0;
+                            if (datas != null)
                             {
-                                AddCacheData(info, datas);
+                                info.contentLength = datas.LongLength;
+
+                                if (updateType == CacheUpdateType.NEW)
+                                {
+                                    AddCacheData(info, datas);
+                                }
+                                else if (updateType == CacheUpdateType.RESTORE)
+                                {
+                                    SaveCacheData(info, datas);
+                                }
+                                else
+                                {
+                                    CacheStorageImplement.SetDirty();
+                                }
                             }
-                            
                         }
 
-                        OnData(datas);
+                        bool updateData = updateType == CacheUpdateType.NEW;
+                        info.SendResultAll(datas, updateData);
                     }
                     else
                     {
-                        OnData(null);
+                        info.SendResultAll(null, false);
                     }
                 }
                 else
                 {
-                    OnData(null);
+                    info.SendResultAll(null, false);
                 }
             });
-            return info;
+
+            return new CacheRequestOperation(info, true, onResult);
         }
 
-        public bool IsCached(CacheInfo info)
+        private bool ByteArraysEqual(byte[] b1, byte[] b2)
+        {
+            if (b1 == b2)
+            {
+                return true;
+            }
+            if (b1 == null || b2 == null)
+            {
+                return false;
+            }
+            if (b1.Length != b2.Length)
+            {
+                return false;
+            }
+            for (int i = 0; i < b1.Length; i++)
+            {
+                if (b1[i] != b2[i])
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
+
+        internal bool IsRequest(CacheInfo info)
+        {
+            return requestCache.Contains(info);
+        }
+
+        private bool IsCached(CacheInfo info)
         {
             return info.index > 0;
         }
@@ -273,79 +403,108 @@ namespace Gpm.CacheStorage
         {
             if (IsCached(info) == true)
             {
-                return Path.Combine(GpmCacheStorage.GetCachePath(), info.index.ToString());
+                return Path.Combine(GetCachePath(), info.index.ToString());
             }
 
-            return "";
+            return string.Empty;
         }
 
-        public void SaveCacheData(CacheInfo info, byte[] data)
+        private void SaveCacheData(CacheInfo info, byte[] data)
         {
-            if (Directory.Exists(GpmCacheStorage.GetCachePath()) == false)
+            if (IsCached(info) == true)
             {
-                Directory.CreateDirectory(GpmCacheStorage.GetCachePath());
-            }
-            string filePath = GetCacheDataPath(info);
+                if (Directory.Exists(GetCachePath()) == false)
+                {
+                    Directory.CreateDirectory(GetCachePath());
+                }
+                string filePath = GetCacheDataPath(info);
 
-            File.WriteAllBytes(filePath, data);
+                File.WriteAllBytes(filePath, data);
+            }   
+        }
+        
+        public CacheValidType CheckValidCacheData(CacheInfo info)
+        {
+            if (IsCached(info) == true)
+            {
+                string filePath = GetCacheDataPath(info);
+
+                FileInfo fileInfo = new FileInfo(filePath);
+                if (fileInfo.Exists == false)
+                {
+                    return CacheValidType.NO_EXIST;
+                }
+                else if (fileInfo.Length != info.contentLength)
+                {
+                    return CacheValidType.OTHER_SIZE;
+                }
+                else
+                {
+                    return CacheValidType.VALID;
+                }
+            }
+            else
+            {
+                return CacheValidType.NO_CACHED;
+            }   
         }
 
         public bool IsValidCacheData(CacheInfo info)
         {
-            string filePath = GetCacheDataPath(info);
-
-            FileInfo fileInfo = new FileInfo(filePath);
-            if (fileInfo.Exists == true &&
-                fileInfo.Length == info.contentLength)
-            {
-                return true;
-            }
-
-            return false;
+            return CheckValidCacheData(info).Equals(CacheValidType.VALID);
         }
 
         public byte[] GetCacheData(CacheInfo info)
         {
-            string filePath = GetCacheDataPath(info);
+            byte[] data = null;
+            if (IsCached(info) == true)
+            {
+                try
+                {
+                    string filePath = GetCacheDataPath(info);
+                    data = File.ReadAllBytes(filePath);
+                }
+                catch (Exception exception)
+                {
+                    GpmLogger.Warn(exception.Message, GpmCacheStorage.NAME, typeof(CachePackage), "GetCacheData");
+                }
+            }  
 
-            return File.ReadAllBytes(filePath);
+            return data;
         }
 
         public string GetCacheData(CacheInfo info, System.Text.Encoding encoding = null)
         {
             byte[] data = GetCacheData(info);
 
-            if (encoding == null)
+            if(data != null)
             {
-                encoding = System.Text.Encoding.Default;
+                if (encoding == null)
+                {
+                    encoding = System.Text.Encoding.Default;
+                }
+
+                return encoding.GetString(data);
             }
 
-            return encoding.GetString(data);
+            return string.Empty;
         }
 
-        public void AddCacheData(CacheInfo info, byte[] datas)
+        private void AddCacheData(CacheInfo info, byte[] datas)
         {
-            long maxCount = GpmCacheStorage.GetMaxCount();
+            long maxCount = CacheStorageImplement.GetMaxCount();
             if (maxCount > 0)
             {
                 SecuringStorageCount(1);
             }
 
-            long maxSize = GpmCacheStorage.GetMaxSize();
+            long maxSize = CacheStorageImplement.GetMaxSize();
             if(maxSize > 0)
             {
                 SecuringStorage(maxSize, datas.LongLength);
             }
 
-            if (spaceIdx.Count > 0)
-            {
-                info.index = spaceIdx[0];
-                spaceIdx.RemoveAt(0);
-            }
-            else
-            {
-                info.index = ++lastIndex;
-            }
+            info.index = ++lastIndex;
 
             cachedSize += info.contentLength;
             info.state = CacheInfo.State.CACHED;
@@ -354,25 +513,30 @@ namespace Gpm.CacheStorage
 
             cacheStorage.Add(info);
 
-            GpmCacheStorage.UpdatePackage();
+            CacheStorageImplement.SetDirty();
         }
 
-        public void CacheSort()
+        private void CacheSort()
         {
             cacheStorage.Sort();
         }
 
-        public bool IsDirty()
+        internal ulong GetLastIndex()
+        {
+            return lastIndex;
+        }
+
+        internal bool IsDirty()
         {
             return dirty;
         }
 
-        public void SetDirty(bool dirty = true)
+        internal void SetDirty(bool value = true)
         {
-            this.dirty = dirty;
+            this.dirty = value;
         }
 
-        public void SecuringStorageLastAccess(double unusedTime)
+        internal void SecuringStorageLastAccess(double unusedTime)
         {
             List<CacheInfo> newExpired = new List<CacheInfo>();
             for (int i = 0; i < cacheStorage.Count; i++)
@@ -392,9 +556,9 @@ namespace Gpm.CacheStorage
             }
         }
 
-        public void SecuringStorageCount(int addCount = 0)
+        private void SecuringStorageCount(int addCount = 0)
         {
-            long maxCount = GpmCacheStorage.GetMaxCount();
+            long maxCount = CacheStorageImplement.GetMaxCount();
             if (maxCount <= 0)
             {
                 return;
@@ -415,55 +579,68 @@ namespace Gpm.CacheStorage
         }
 
 
-        public void SecuringStorage(long maxSize, long addSize = 0)
+        private void SecuringStorage(long maxSize, long addSize = 0)
         {
             if(maxSize == 0)
             {
                 return;
             }
 
-            if (addSize > maxSize)
+            if (cachedSize + removeCacheSize + addSize > maxSize)
             {
-                return;
-            }
-
-            if (cacheStorage.Count > 0 &&
-                cachedSize + addSize > maxSize)
-            {
-                CacheSort();
-
-                while ( cacheStorage.Count > 0 &&
-                        cachedSize + addSize > maxSize)
+                if (removeCache.Count > 0)
                 {
-                    if (RemoveCacheData(cacheStorage.Last<CacheInfo>(), true) == false)
+                    while (removeCache.Count > 0 &&
+                            cachedSize + removeCacheSize + addSize > maxSize)
                     {
-                        break;
+                        DeleteRemoveCache();
+                    }
+
+                    if(removeCache.Count == 0)
+                    {
+                        removeCacheSize = 0;
+                    }
+                }
+
+                if (cacheStorage.Count > 0)
+                {
+                    CacheSort();
+
+                    while (cacheStorage.Count > 0 &&
+                            cachedSize + addSize > maxSize)
+                    {
+                        if (RemoveCacheData(cacheStorage.Last<CacheInfo>(), true) == false)
+                        {
+                            break;
+                        }
                     }
                 }
             }
         }
 
-        public bool RemoveCacheData(CacheInfo info, bool immediately = false)
+        internal bool RemoveCacheData(CacheInfo info, bool immediately = false)
         {
-            if (info.IsCached() == false)
-            {
-                return true;
-            }
-
             if (cacheStorage.Remove(info) == true)
             {
-                if (immediately == true)
+                if (info.IsCached() == true)
                 {
-                    DeleteCacheData(info);
-                }
-                else
-                {
-                    removeCache.Add(info);
-                }
+                    if (immediately == true)
+                    {
+                        DeleteCacheData(info);
+                    }
+                    else
+                    {
+                        CacheInfo removeInfo = new CacheInfo(info);
+                        removeInfo.state = CacheInfo.State.REMOVE;
+                        removeCache.Add(removeInfo);
 
-                cachedSize -= info.contentLength;
+                        removeCacheSize += removeInfo.contentLength;
+                    }
 
-                GpmCacheStorage.UpdatePackage();
+                    cachedSize -= info.contentLength;
+
+                    CacheStorageImplement.SetDirty();
+                }
 
                 return true;
             }
@@ -480,136 +657,162 @@ namespace Gpm.CacheStorage
                 if (info.IsCached() == true)
                 {
                     string filePath = GetCacheDataPath(info);
+
                     File.Delete(filePath);
-                    spaceIdx.Add(info.index);
-                    spaceIdx.Sort();
-
-                    while (spaceIdx.Count > 0 &&
-                            spaceIdx[spaceIdx.Count - 1] >= lastIndex)
-                    {
-                        spaceIdx.RemoveAt(spaceIdx.Count - 1);
-                        lastIndex--;
-                    }
-
-                    GpmCacheStorage.UpdatePackage();
                 }
 
                 return true;
             }
-            catch (Exception e)
+            catch (DirectoryNotFoundException)
             {
-                Debug.LogWarning(e.Message);
+                return true;
+            }
+            catch (Exception exception)
+            {
+                GpmLogger.Warn(exception.Message, GpmCacheStorage.NAME, typeof(CachePackage), "DeleteCacheData");
             }
 
             return false;
         }
 
-
-        public void Remove()
-        {
-            Directory.Delete(GpmCacheStorage.GetCachePath());
-
-            lastIndex = 0;
-            cachedSize = 0;
-            cacheStorage.Clear();
-            spaceIdx.Clear();
-        }
-
-        public void RemoveAll()
+        internal void RemoveAll()
         {
             foreach (CacheInfo info in cacheStorage)
             {
-                try
-                {
-                    string filePath = GetCacheDataPath(info);
-                    File.Delete(filePath);
-                }
-                catch (Exception e)
-                {
-                    Debug.LogWarning(e.Message);
-                }
+                DeleteCacheData(info);
             }
 
             lastIndex = 0;
             cachedSize = 0;
             cacheStorage.Clear();
-            spaceIdx.Clear();
 
-            GpmCacheStorage.UpdatePackage();
+            CacheStorageImplement.SetDirty();
         }
 
-        public void Update()
+        internal void Update()
         {
             if (CanRemove() == true)
             {
-                int removeIndex = 0;
-                for (int idx = 0; idx < removeCache.Count; idx++)
-                {
-                    if (removeCache[removeIndex].index < removeCache[idx].index)
-                    {
-                        removeIndex = idx;
-                    }
-                }
-
-                DeleteCacheData(removeCache[removeIndex]);
-
-                removeCache.RemoveAt(removeIndex);
-                lastRemoveTime = DateTime.UtcNow;
+                DeleteRemoveCache();
             }
         }
 
-        public bool CanRemove()
+        private CacheInfo DeleteRemoveCache()
+        {
+            int removeIndex = 0;
+            for (int idx = 0; idx < removeCache.Count; idx++)
+            {
+                if (removeCache[removeIndex].index < removeCache[idx].index)
+                {
+                    removeIndex = idx;
+                }
+            }
+
+            CacheInfo removeInfo = null;
+
+            if (removeIndex < removeCache.Count)
+            {
+                removeInfo = removeCache[removeIndex];
+
+                DeleteCacheData(removeInfo);
+                removeCache.RemoveAt(removeIndex);
+                removeCacheSize -= removeInfo.contentLength;
+
+                lastRemoveTime = DateTime.UtcNow;
+
+                CacheStorageImplement.SetDirty();
+            }
+
+            return removeInfo;
+        }
+
+        private bool CanRemove()
         {
             if (removeCache.Count > 0)
             {
-                double removePeriodTime = GpmCacheStorage.GetRemoveCycle();
+                double removePeriodTime = CacheStorageImplement.GetRemoveCycle();
                 if (removePeriodTime > 0)
                 {
-                    if ((DateTime.UtcNow - lastRemoveTime).TotalSeconds > removePeriodTime)
+                    if( lastRemoveTime == null ||
+                        (DateTime.UtcNow - lastRemoveTime).TotalSeconds > removePeriodTime)
                     {
                         return true;
                     }
                 }
+                else
+                {
+                    return true;
+                }
             }
 
             return false;
         }
 
-        private static string PackagePath()
+        internal static string GetCachePath()
         {
-            return Path.Combine(GpmCacheStorage.GetCachePath(), PACKAGE_NAME);
-        }        
-
-        public static CachePackage Load()
-        {
-            CachePackage cachePackage = null;
-
-            string path = PackagePath();
-            if (File.Exists(path) == true)
+            if (string.IsNullOrEmpty(cachePath) == true)
             {
-                try
-                {
-                    cachePackage = GpmJsonMapper.ToObject<CachePackage>(File.ReadAllText(path));
-
-                    cachePackage.OnAfterDeserialize();
-                }
-                catch (Exception e)
-                {
-                    Debug.LogWarning(e.Message);
-                }
+                cachePath = Path.Combine(Application.persistentDataPath, GpmCacheStorage.NAME);
+#if UNITY_IOS
+                UnityEngine.iOS.Device.SetNoBackupFlag(cachePath);
+#endif
             }
 
-            return cachePackage;
+            return cachePath;
         }
 
-        public void Save()
+        internal static string PackagePath()
         {
-            if(Directory.Exists(GpmCacheStorage.GetCachePath()) == false)
+            return Path.Combine(GetCachePath(), PACKAGE_NAME);
+        }
+
+        internal static CachePackage Load()
+        {
+            try
             {
-                Directory.CreateDirectory(GpmCacheStorage.GetCachePath());
+                string path = PackagePath();
+
+                byte[] bytes = File.ReadAllBytes(path);
+                
+                CachePackage cachePackage = GpmMessagePackMapper.Deserialize<CachePackage>(bytes);
+                cachePackage.OnAfterDeserialize();
+
+                return cachePackage;
+            }
+            catch (FileNotFoundException)
+            {
+            }
+            catch (Exception exception)
+            {
+                GpmLogger.Warn(exception.Message, GpmCacheStorage.NAME, typeof(CachePackage), "Load");
             }
             
-            File.WriteAllText(PackagePath(), GpmJsonMapper.ToJson(this));
+
+            return null;
+        }
+
+        internal void Save()
+        {
+            try
+            {
+                string cachePath = GetCachePath();
+                if (Directory.Exists(cachePath) == false)
+                {
+                    Directory.CreateDirectory(cachePath);
+                }
+
+                string path = PackagePath();
+
+                byte[] bytes = GpmMessagePackMapper.SerializeUnsafe<CachePackage>(this);
+
+                File.WriteAllBytes(path, bytes);
+
+                dirty = false;
+            }
+            catch (Exception exception)
+            {
+                GpmLogger.Warn(exception.Message, GpmCacheStorage.NAME, typeof(CachePackage), "Save");
+            }
         }
     }
 }

@@ -11,11 +11,11 @@ namespace InGame.Data.SaveData
     [Serializable]
     public struct ElementalSoulSaveData
     {
-        static List<int> perkCost
+        public static List<int> perkCost
         {
             get
             {
-                return new List<int> { 2, 3, 5, 7, 11 };
+                return new List<int> { 2, 3, 5, 10, 20 };
             }
         }
 

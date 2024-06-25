@@ -1,17 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
-using System.Linq;
-using Gpm.LogViewer.Internal;
-using InGame.Data.BattleInstance;
-using System.Xml;
-using System.Numerics;
-using InGame.Data;
 using Main.UI.Statistics;
-using System.Collections.ObjectModel;
-using Unity.Services.Analytics;
-using UnityEngine.UI;
 
 namespace Ingame.UI
 {

@@ -166,24 +166,24 @@ public class WrapLayoutGroup : LayoutGroup
                     float crossOffsetSize = childCrossSize - crossSizeList[lineIndex];
                     float crossStartOffset = GetStartOffset(crossAxis, crossOffsetSize + crossPerferredSize);
 
-                    float crossPostion = crossOffset;
+                    float crossPosition = crossOffset;
                     if (crossInverse == true)
                     {
-                        crossPostion = crossPerferredSize - crossSizeList[lineIndex] - crossOffset;
+                        crossPosition = crossPerferredSize - crossSizeList[lineIndex] - crossOffset;
                     }
-                    base.SetChildAlongAxis(child, crossAxis, crossStartOffset + crossPostion);
+                    base.SetChildAlongAxis(child, crossAxis, crossStartOffset + crossPosition);
                 }
                 else
                 {
                     float maxOffsetSize = Mathf.Min(mainMaxSize, mainSizeList[lineIndex]);
                     float inlineStartOffset = GetStartOffset(mainAxis, maxOffsetSize);
 
-                    float mainPostion = mainOffset;
+                    float mainPosition = mainOffset;
                     if (mainInverse == true)
                     {
-                        mainPostion = (maxOffsetSize - mainOffset - childMainSize);
+                        mainPosition = (maxOffsetSize - mainOffset - childMainSize);
                     }
-                    base.SetChildAlongAxis(child, mainAxis, inlineStartOffset + mainPostion);
+                    base.SetChildAlongAxis(child, mainAxis, inlineStartOffset + mainPosition);
                 }
 
                 mainOffset += childMainSize + this.spacing[mainAxis];

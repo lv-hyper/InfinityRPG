@@ -4,12 +4,11 @@ using System;
 
 namespace Gpm.Manager.Constant
 {
+    using Util;
 
     [XmlRoot("noticeInfo")]
     public class NoticeInfo
     {
-        private const int KOREA_STANDARD_TIME = 9;
-
         public class Day
         {
             [XmlElement("start")]
@@ -43,13 +42,15 @@ namespace Gpm.Manager.Constant
 
                 public bool IsActiveTime()
                 {
-                    DateTime dateTimeStart = DateTime.ParseExact(timeInfo.startTime, "yyyy-MM-dd HH:mm", null).AddHours(-KOREA_STANDARD_TIME);
-                    DateTime dateTimeEnd = DateTime.ParseExact(timeInfo.endTime, "yyyy-MM-dd HH:mm", null).AddHours(-KOREA_STANDARD_TIME);
+                    DateTime dateTimeStart = ManagerTime.ParseTimeInfo(timeInfo.startTime);
+                    DateTime dateTimeEnd = ManagerTime.ParseTimeInfo(timeInfo.endTime);
 
-                    int utcNowHour = (DateTime.UtcNow.Hour + KOREA_STANDARD_TIME) % 24;
+                    DateTime now = ManagerTime.Now;
+                    long ticks = now.Ticks;
+                    int utcNowHour = now.Hour % 24;
 
-                    if (DateTime.UtcNow.Ticks >= dateTimeStart.Ticks
-                        && DateTime.UtcNow.Ticks <= dateTimeEnd.Ticks)
+                    if (ticks >= dateTimeStart.Ticks
+                        && ticks <= dateTimeEnd.Ticks)
                     {
                         if (utcNowHour >= int.Parse(timeInfo.day.start)
                             && utcNowHour <= int.Parse(timeInfo.day.end))

@@ -22,7 +22,7 @@ MonoBehaviour:
     itemAbilities:
     - abilityData:
         ability: {fileID: 11400000, guid: 26008c40dd9227848b65e02c7e79e1dd, type: 2}
-        amount: 18
+        amount: 20
       isPassive: 0
     - abilityData:
         ability: {fileID: 11400000, guid: 480eeac1ba90dfa408c47d451ea0cb7e, type: 2}

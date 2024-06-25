@@ -17,18 +17,22 @@ MonoBehaviour:
     angleOffset: 0
     elements:
     - dependency: []
+      requirement: []
       category: 2
       skill: {fileID: 11400000, guid: a7f7cd170a2f0e14ba5dc1bfc3b57054, type: 2}
       upgradeCount: 1
     - dependency: []
+      requirement: []
       category: 5
       skill: {fileID: 11400000, guid: 3c7e55c801741ef478e65e2162aed859, type: 2}
       upgradeCount: 1
     - dependency: []
+      requirement: []
       category: 4
       skill: {fileID: 11400000, guid: 3b202991b737bf04aa5d9b7a0e6646e1, type: 2}
       upgradeCount: 1
     - dependency: []
+      requirement: []
       category: 5
       skill: {fileID: 11400000, guid: 691cc38af8f4be341aba68ed9505db18, type: 2}
       upgradeCount: 1
@@ -38,48 +42,56 @@ MonoBehaviour:
     - dependency:
       - tier: 0
         order: 0
+      requirement: []
       category: 2
       skill: {fileID: 11400000, guid: a7f7cd170a2f0e14ba5dc1bfc3b57054, type: 2}
       upgradeCount: 2
     - dependency:
       - tier: 0
         order: 0
+      requirement: []
       category: 5
       skill: {fileID: 11400000, guid: e88d1a16e42873d438aa6ea713184726, type: 2}
       upgradeCount: 1
     - dependency:
       - tier: 0
         order: 1
+      requirement: []
       category: 2
       skill: {fileID: 11400000, guid: 58d0ac9a7d1bff14d9d423b2254e6d0c, type: 2}
       upgradeCount: 1
     - dependency:
       - tier: 0
         order: 1
+      requirement: []
       category: 5
       skill: {fileID: 11400000, guid: 3c7e55c801741ef478e65e2162aed859, type: 2}
       upgradeCount: 2
     - dependency:
       - tier: 0
         order: 2
+      requirement: []
       category: 4
       skill: {fileID: 11400000, guid: 3b202991b737bf04aa5d9b7a0e6646e1, type: 2}
       upgradeCount: 2
     - dependency:
       - tier: 0
         order: 2
+      requirement: []
       category: 5
       skill: {fileID: 11400000, guid: f723a4ef359676145bc85a83ae14d2a0, type: 2}
       upgradeCount: 1
     - dependency:
       - tier: 0
         order: 3
+      requirement: []
       category: 4
       skill: {fileID: 11400000, guid: c43afec0003c37d45a066a10ae121c84, type: 2}
       upgradeCount: 1
     - dependency:
       - tier: 0
         order: 3
+      requirement: []
       category: 5
       skill: {fileID: 11400000, guid: 691cc38af8f4be341aba68ed9505db18, type: 2}
       upgradeCount: 2
@@ -91,6 +103,7 @@ MonoBehaviour:
         order: 0
       - tier: 1
         order: 1
+      requirement: []
       category: 1
       skill: {fileID: 11400000, guid: 8c14d718e209e8e489fb21b85f74e188, type: 2}
       upgradeCount: 1
@@ -99,6 +112,7 @@ MonoBehaviour:
         order: 1
       - tier: 1
         order: 2
+      requirement: []
       category: 5
       skill: {fileID: 11400000, guid: e88d1a16e42873d438aa6ea713184726, type: 2}
       upgradeCount: 2
@@ -107,6 +121,7 @@ MonoBehaviour:
         order: 2
       - tier: 1
         order: 3
+      requirement: []
       category: 2
       skill: {fileID: 11400000, guid: 58d0ac9a7d1bff14d9d423b2254e6d0c, type: 2}
       upgradeCount: 2
@@ -115,6 +130,7 @@ MonoBehaviour:
         order: 3
       - tier: 1
         order: 4
+      requirement: []
       category: 5
       skill: {fileID: 11400000, guid: 3c7e55c801741ef478e65e2162aed859, type: 2}
       upgradeCount: 3
@@ -123,6 +139,7 @@ MonoBehaviour:
         order: 4
       - tier: 1
         order: 5
+      requirement: []
       category: 3
       skill: {fileID: 11400000, guid: aa412e89cec5ffc48b83a8b77146f383, type: 2}
       upgradeCount: 1
@@ -131,6 +148,7 @@ MonoBehaviour:
         order: 5
       - tier: 1
         order: 6
+      requirement: []
       category: 5
       skill: {fileID: 11400000, guid: f723a4ef359676145bc85a83ae14d2a0, type: 2}
       upgradeCount: 2
@@ -139,6 +157,7 @@ MonoBehaviour:
         order: 6
       - tier: 1
         order: 7
+      requirement: []
       category: 4
       skill: {fileID: 11400000, guid: c43afec0003c37d45a066a10ae121c84, type: 2}
       upgradeCount: 2
@@ -147,9 +166,125 @@ MonoBehaviour:
         order: 7
       - tier: 1
         order: 0
+      requirement: []
       category: 5
       skill: {fileID: 11400000, guid: 691cc38af8f4be341aba68ed9505db18, type: 2}
       upgradeCount: 3
+  - radius: 512
+    angleOffset: -11.25
+    elements:
+    - dependency:
+      - tier: 2
+        order: 0
+      requirement: []
+      category: 1
+      skill: {fileID: 11400000, guid: 246d21343231ce742b595a67dee4ef40, type: 2}
+      upgradeCount: 1
+    - dependency:
+      - tier: 2
+        order: 0
+      requirement: []
+      category: 1
+      skill: {fileID: 11400000, guid: 8c14d718e209e8e489fb21b85f74e188, type: 2}
+      upgradeCount: 2
+    - dependency:
+      - tier: 2
+        order: 1
+      requirement: []
+      category: 2
+      skill: {fileID: 11400000, guid: b3fa036da5d04164a9137c8e1922527e, type: 2}
+      upgradeCount: 1
+    - dependency:
+      - tier: 2
+        order: 1
+      requirement: []
+      category: 5
+      skill: {fileID: 11400000, guid: e88d1a16e42873d438aa6ea713184726, type: 2}
+      upgradeCount: 3
+    - dependency:
+      - tier: 2
+        order: 2
+      requirement: []
+      category: 5
+      skill: {fileID: 11400000, guid: f3b766827fe835c49819cc24d700a1ef, type: 2}
+      upgradeCount: 1
+    - dependency:
+      - tier: 2
+        order: 2
+      requirement: []
+      category: 2
+      skill: {fileID: 11400000, guid: 58d0ac9a7d1bff14d9d423b2254e6d0c, type: 2}
+      upgradeCount: 3
+    - dependency:
+      - tier: 2
+        order: 3
+      requirement: []
+      category: 4
+      skill: {fileID: 11400000, guid: 3b202991b737bf04aa5d9b7a0e6646e1, type: 2}
+      upgradeCount: 3
+    - dependency:
+      - tier: 2
+        order: 3
+      requirement: []
+      category: 5
+      skill: {fileID: 11400000, guid: 3c7e55c801741ef478e65e2162aed859, type: 2}
+      upgradeCount: 4
+    - dependency:
+      - tier: 2
+        order: 4
+      requirement: []
+      category: 3
+      skill: {fileID: 11400000, guid: 764a132f159fcfd4c9474a5bd63d23f0, type: 2}
+      upgradeCount: 1
+    - dependency:
+      - tier: 2
+        order: 4
+      requirement: []
+      category: 3
+      skill: {fileID: 11400000, guid: aa412e89cec5ffc48b83a8b77146f383, type: 2}
+      upgradeCount: 2
+    - dependency:
+      - tier: 2
+        order: 5
+      requirement: []
+      category: 5
+      skill: {fileID: 11400000, guid: da456abf02dd32643a723f52f2efafc6, type: 2}
+      upgradeCount: 1
+    - dependency:
+      - tier: 2
+        order: 5
+      requirement: []
+      category: 5
+      skill: {fileID: 11400000, guid: f723a4ef359676145bc85a83ae14d2a0, type: 2}
+      upgradeCount: 3
+    - dependency:
+      - tier: 2
+        order: 6
+      requirement: []
+      category: 5
+      skill: {fileID: 11400000, guid: bd7d2328a054f8c4b93b5f6d1fb45ba3, type: 2}
+      upgradeCount: 1
+    - dependency:
+      - tier: 2
+        order: 6
+      requirement: []
+      category: 4
+      skill: {fileID: 11400000, guid: c43afec0003c37d45a066a10ae121c84, type: 2}
+      upgradeCount: 3
+    - dependency:
+      - tier: 2
+        order: 7
+      requirement: []
+      category: 2
+      skill: {fileID: 11400000, guid: a7f7cd170a2f0e14ba5dc1bfc3b57054, type: 2}
+      upgradeCount: 3
+    - dependency:
+      - tier: 2
+        order: 7
+      requirement: []
+      category: 5
+      skill: {fileID: 11400000, guid: 691cc38af8f4be341aba68ed9505db18, type: 2}
+      upgradeCount: 4
   elemental: 2
   mainIcon: {fileID: 759703976, guid: 47c2c0d06e58f124396c7c7ea680060b, type: 3}
   offensiveSkillIcon: {fileID: 1122598084, guid: 18276612bf6d8404786e10f8400729f9,
