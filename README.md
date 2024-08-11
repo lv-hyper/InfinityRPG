@@ -4,7 +4,7 @@
 InfinityRPG는 Inflation RPG을 모티브로 개발된 2D 로그라이트 게임입니다. 
 
 ### 링크
-- [Play Store](play.google.com/store/apps/details?id=com.levelhyper.InfinityRPG)
+- [Play Store](https://play.google.com/store/apps/details?id=com.levelhyper.InfinityRPG)
 - [공식 디스코드](https://discord.gg/64KeXY52Qx)
 
 ## 주의사항
