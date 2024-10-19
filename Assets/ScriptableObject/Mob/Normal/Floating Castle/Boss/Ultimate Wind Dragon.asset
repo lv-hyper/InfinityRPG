@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: Ultimate Wind Dragon
   m_EditorClassIdentifier: 
   mobSprite: {fileID: 21300000, guid: 95c6d77dc51bf934b837c172f4f9f7e5, type: 3}
+  mobSpriteRef:
+    m_AssetGUID: 95c6d77dc51bf934b837c172f4f9f7e5
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   imageOffset: {x: 0, y: 0}
   description: 
   mobClass: 0
@@ -31,6 +36,11 @@ MonoBehaviour:
   hidden: 0
   skills:
   - {fileID: 11400000, guid: c807ad6a25f67274a9c90c1d2ba04692, type: 2}
+  skillRefs:
+  - m_AssetGUID: c807ad6a25f67274a9c90c1d2ba04692
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   customHP: -1
   customATK: -1
   maxDefenceRatio: 2

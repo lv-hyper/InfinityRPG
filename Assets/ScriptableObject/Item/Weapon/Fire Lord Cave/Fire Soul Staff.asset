@@ -13,6 +13,12 @@ MonoBehaviour:
   m_Name: Fire Soul Staff
   m_EditorClassIdentifier: 
   itemSprite: {fileID: -1569124660, guid: b950c00c0dffe90459edfe2b8f957e2f, type: 3}
+  itemSpriteRef:
+    m_AssetGUID: b950c00c0dffe90459edfe2b8f957e2f
+    m_SubObjectName: Fire Soul Staff
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 12
   legacyID: Weapon-FireLordCave-0-Fire Soul Staff
   level: 0

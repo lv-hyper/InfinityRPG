@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: Earth Bull
   m_EditorClassIdentifier: 
   mobSprite: {fileID: 21300000, guid: 942607cf538e9e24bb334ce4eb5c9ba4, type: 3}
+  mobSpriteRef:
+    m_AssetGUID: 942607cf538e9e24bb334ce4eb5c9ba4
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   imageOffset: {x: 0, y: 0}
   description: 
   mobClass: 2
@@ -30,6 +35,7 @@ MonoBehaviour:
   defReqRate: 1.5
   hidden: 0
   skills: []
+  skillRefs: []
   customHP: -1
   customATK: -1
   maxDefenceRatio: 2

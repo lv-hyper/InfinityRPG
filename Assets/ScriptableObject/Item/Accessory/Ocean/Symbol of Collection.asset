@@ -14,6 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: -2204474540472889606, guid: f2230cf6bbe9dd043972e3b437ad9a83,
     type: 3}
+  itemSpriteRef:
+    m_AssetGUID: f2230cf6bbe9dd043972e3b437ad9a83
+    m_SubObjectName: farFroest_31
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 5
   legacyID: General-Ocean-0-Symbol Of Collection
   level: 0

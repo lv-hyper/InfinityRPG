@@ -13,6 +13,12 @@ MonoBehaviour:
   m_Name: Limit Breaker
   m_EditorClassIdentifier: 
   itemSprite: {fileID: -260292612, guid: 58f49bfdf7b6d2f47a05f306987c7cb0, type: 3}
+  itemSpriteRef:
+    m_AssetGUID: 58f49bfdf7b6d2f47a05f306987c7cb0
+    m_SubObjectName: pixel_items8_11
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 0
   legacyID: General-General-500000000000-Limit Breaker
   level: 500000000000

@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcd0cba9d37c1734f97da892cf4257e6, type: 3}
+  m_Name: Dryad Yggdrasil
+  m_EditorClassIdentifier: 
+  mobSprite: {fileID: 21300000, guid: 5b40973bc49aba34f963dc5f4073ac81, type: 3}
+  mobSpriteRef:
+    m_AssetGUID: 5b40973bc49aba34f963dc5f4073ac81
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  imageOffset: {x: 0, y: 0}
+  description: 
+  mobClass: 1
+  elementalDamage: []
+  elementalDefence: []
+  integratedElementalDefence: -1
+  lv: 135000
+  difficulty: normal
+  hpRate: 1.05
+  atkRate: 1.05
+  expRate: 1
+  goldRate: 1
+  defReqRate: 1
+  hidden: 0
+  skills: []
+  skillRefs: []
+  customHP: -1
+  customATK: -1
+  maxDefenceRatio: 2
+  dropTable:
+  - item: {fileID: 11400000, guid: 5969c20b11e12be4d839cf27db79fd2c, type: 2}
+    probablity: 0.17999999
+  - item: {fileID: 11400000, guid: 9393a65ec8ea4a24b90f72af8da39a7f, type: 2}
+    probablity: 0.17999999
+  tagList: []
+  soulLv: 1
+  progressionLevel: 0
+  elementalSoulDrops: []

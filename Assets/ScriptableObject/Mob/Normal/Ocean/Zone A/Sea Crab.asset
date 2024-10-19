@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: Sea Crab
   m_EditorClassIdentifier: 
   mobSprite: {fileID: 21300000, guid: 9c3962da2d971434e93c6e66e30cf2e3, type: 3}
+  mobSpriteRef:
+    m_AssetGUID: 9c3962da2d971434e93c6e66e30cf2e3
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   imageOffset: {x: 0, y: 0}
   description: 
   mobClass: 0
@@ -28,6 +33,7 @@ MonoBehaviour:
   defReqRate: 1
   hidden: 0
   skills: []
+  skillRefs: []
   customHP: 0
   customATK: 0
   maxDefenceRatio: 2

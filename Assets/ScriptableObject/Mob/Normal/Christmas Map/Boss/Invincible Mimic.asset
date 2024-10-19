@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: Invincible Mimic
   m_EditorClassIdentifier: 
   mobSprite: {fileID: 21300000, guid: 835b74ca89d67d6479ea41cdc043db04, type: 3}
+  mobSpriteRef:
+    m_AssetGUID: 835b74ca89d67d6479ea41cdc043db04
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   imageOffset: {x: 0, y: 0}
   description: 
   mobClass: 0
@@ -28,6 +33,7 @@ MonoBehaviour:
   defReqRate: 1
   hidden: 0
   skills: []
+  skillRefs: []
   customHP: -1
   customATK: -1
   maxDefenceRatio: 2

@@ -14,6 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 4787528527978275672, guid: 0bd776ca42ec5564bafe52e585833f99,
     type: 3}
+  itemSpriteRef:
+    m_AssetGUID: 0bd776ca42ec5564bafe52e585833f99
+    m_SubObjectName: dragon_2
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 7
   legacyID: Weapon-DragonCave-5200000000-Darkness Bow
   level: 5200000000

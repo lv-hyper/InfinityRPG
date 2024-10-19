@@ -14,6 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 7802192391360646400, guid: 6701e73ba5afed84692416f5c35473ed,
     type: 3}
+  itemSpriteRef:
+    m_AssetGUID: 6701e73ba5afed84692416f5c35473ed
+    m_SubObjectName: upper_zone_8
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 3
   legacyID: Greave-HiddenCave1-660000-Daidarabotchi Boots
   level: 660000

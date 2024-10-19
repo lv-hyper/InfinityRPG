@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f5122020541a8e4191df2daefc1dd8d, type: 3}
+  m_Name: Corrupted Boots +1
+  m_EditorClassIdentifier: 
+  ingredients:
+  - item: {fileID: 11400000, guid: 18fb72c8e8cb4914a8ed7bb8e1f02e87, type: 2}
+    quantity: 1
+  - item: {fileID: 11400000, guid: 87bc0e220486f7c4b80f5f9b6491a493, type: 2}
+    quantity: 90
+  - item: {fileID: 11400000, guid: 44ed8183291561c4ca422bb68467b245, type: 2}
+    quantity: 1
+  result: {fileID: 11400000, guid: 96dba8d6de3f8b2428c3b77f51a574b3, type: 2}

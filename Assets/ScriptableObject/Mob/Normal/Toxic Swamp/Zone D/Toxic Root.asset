@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: Toxic Root
   m_EditorClassIdentifier: 
   mobSprite: {fileID: 21300000, guid: f2f84a0b315c4104ea78a0cd7455d622, type: 3}
+  mobSpriteRef:
+    m_AssetGUID: f2f84a0b315c4104ea78a0cd7455d622
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   imageOffset: {x: 0, y: 0}
   description: 
   mobClass: 2
@@ -28,6 +33,7 @@ MonoBehaviour:
   defReqRate: 1
   hidden: 0
   skills: []
+  skillRefs: []
   customHP: -1
   customATK: -1
   maxDefenceRatio: 2

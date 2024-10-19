@@ -14,6 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 1383490121738271219, guid: 64b34be4e390f194bab79c0a7a0bd808,
     type: 3}
+  itemSpriteRef:
+    m_AssetGUID: 64b34be4e390f194bab79c0a7a0bd808
+    m_SubObjectName: 6bf6bc2617eb8c9d_1
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 7
   legacyID: General-DragonCave-5400000000-Hydra Core
   level: 5400000000

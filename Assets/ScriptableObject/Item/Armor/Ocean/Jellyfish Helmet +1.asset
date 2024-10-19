@@ -14,6 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 3248118836117364034, guid: 7a345af3453bda040a8bdac37e532463,
     type: 3}
+  itemSpriteRef:
+    m_AssetGUID: 7a345af3453bda040a8bdac37e532463
+    m_SubObjectName: KakaoTalk_20220811_023134207_1
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 5
   legacyID: Helmet-Ocean-1350000000-Jellyfish Helmet +1
   level: 1350000000

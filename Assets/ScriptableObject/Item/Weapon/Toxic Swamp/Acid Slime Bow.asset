@@ -13,6 +13,12 @@ MonoBehaviour:
   m_Name: Acid Slime Bow
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 591109721, guid: f5100b68b8aaaec44926eefaf0816b2e, type: 3}
+  itemSpriteRef:
+    m_AssetGUID: f5100b68b8aaaec44926eefaf0816b2e
+    m_SubObjectName: Acid Slime Bow
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 0
   legacyID: Weapon-General-50000000-Acid Slime Bow
   level: 50000000

@@ -180,7 +180,7 @@ EditorBuildSettings:
     path: Assets/Scenes/InGameMaps/Hard/Forest Lake/ForestLakeH_002.unity
     guid: 5b965de23d7041c43a758e85bf844def
   - enabled: 1
-    path: Assets/Scenes/InGameMaps/Normal/Christmas_000.unity
+    path: Assets/Scenes/InGameMaps/Normal/Christmas/Christmas_000.unity
     guid: 2d7953d828ad72d4597822492260b29b
   - enabled: 1
     path: Assets/Scenes/InGameMaps/Hard/Bridge/bridge_h_000.unity
@@ -221,4 +221,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/InGameMaps/Hard/Twilight Forest/twillightForestH_001.unity
     guid: 1269e409cf403fe479796abf51de94f0
-  m_configObjects: {}
+  - enabled: 1
+    path: Assets/Scenes/InGameMaps/Hard/Hidden Maps/Corrupted Map.unity
+    guid: a9524a497b6a0cf488732ea49210dabe
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: 559933b54c2b26848ac550d3d7cce362,
+      type: 2}

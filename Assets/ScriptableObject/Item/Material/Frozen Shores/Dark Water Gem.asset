@@ -13,6 +13,12 @@ MonoBehaviour:
   m_Name: Dark Water Gem
   m_EditorClassIdentifier: 
   itemSprite: {fileID: -206076022, guid: caf7821e7e8bc9e49a4ea1c4fca1f673, type: 3}
+  itemSpriteRef:
+    m_AssetGUID: caf7821e7e8bc9e49a4ea1c4fca1f673
+    m_SubObjectName: elemental_gem_4
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 13
   legacyID: Material-FrozenShores-0-Dark Water Gem
   level: 0

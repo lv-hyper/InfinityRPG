@@ -14,6 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: -4983420043223936347, guid: 3fed2af330b324141a7881c8c73d0635,
     type: 3}
+  itemSpriteRef:
+    m_AssetGUID: 3fed2af330b324141a7881c8c73d0635
+    m_SubObjectName: just_equipment_9
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 0
   legacyID: Weapon-General-1-Blue Runed Bow
   level: 1

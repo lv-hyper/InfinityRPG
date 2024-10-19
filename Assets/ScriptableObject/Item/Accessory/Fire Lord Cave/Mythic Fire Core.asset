@@ -13,6 +13,12 @@ MonoBehaviour:
   m_Name: Mythic Fire Core
   m_EditorClassIdentifier: 
   itemSprite: {fileID: -1766147353, guid: d3b6d49a44280b6438812c6ba88d3a9a, type: 3}
+  itemSpriteRef:
+    m_AssetGUID: d3b6d49a44280b6438812c6ba88d3a9a
+    m_SubObjectName: EXP Core_1
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 12
   legacyID: General-General-0-
   level: 0

@@ -14,6 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 697817598604000450, guid: f7201659d0658e6489f4c29f5e04b8f8,
     type: 3}
+  itemSpriteRef:
+    m_AssetGUID: f7201659d0658e6489f4c29f5e04b8f8
+    m_SubObjectName: sea_0
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 5
   legacyID: Weapon-Ocean-17500000-Abismos Trident
   level: 17500000

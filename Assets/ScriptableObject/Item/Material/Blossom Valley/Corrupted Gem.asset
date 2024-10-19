@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eb1083e257dec42a2a4bad8efd07d9, type: 3}
+  m_Name: Corrupted Gem
+  m_EditorClassIdentifier: 
+  itemSprite: {fileID: 3743985612990017919, guid: 66cc13b398c62eb43bbb5989b09ebca2,
+    type: 3}
+  itemSpriteRef:
+    m_AssetGUID: 66cc13b398c62eb43bbb5989b09ebca2
+    m_SubObjectName: resources_basic_20
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
+  zone: 1
+  legacyID: Material-StartForest-2555555-Corrupted Gem
+  level: 2555555
+  order: 0
+  maxStack: 999
+  maxWornCount: 0
+  price: 2400000
+  shortDesc: This dangerous gem can corrupt anyone who consumes it
+  longDesc: Sacrifice it on runic altar to summon Corrupted bosses
+  itemAbilities: []
+  tagResists: []

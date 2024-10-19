@@ -14,6 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 5134520411342863455, guid: e0cd4bc2b624e8f469118ec4ac4f5d1d,
     type: 3}
+  itemSpriteRef:
+    m_AssetGUID: e0cd4bc2b624e8f469118ec4ac4f5d1d
+    m_SubObjectName: parasand_stone_0
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 8
   legacyID: Glove-Desert-4600000000-Parasand Glove
   level: 4600000000

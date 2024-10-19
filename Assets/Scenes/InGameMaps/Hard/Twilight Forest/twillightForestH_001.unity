@@ -173,7 +173,7 @@ MonoBehaviour:
   boss: {fileID: 11400000, guid: 3f186ea860607cb45a3475ba35dcece6, type: 2}
   scaleToZoneLevel: 0
   scaleRatio: 1
-  additionalEnergy: 67
+  additionalEnergy: 168
   isUnextractable: 1
   bossID: metalGolem
   returnPoint: {fileID: 156652631}

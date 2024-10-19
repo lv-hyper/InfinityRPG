@@ -3,6 +3,7 @@ using InGame;
 using InGame.UI;
 using System.Collections;
 using System.Collections.Generic;
+using System.Numerics;
 
 namespace InGame.Data
 {
@@ -37,7 +38,12 @@ namespace InGame.Data
             
             displayComponents = new List<IDisplayComponent>();
 
-            currentTurn = 1 - character.GetDelayDeath();
+            currentTurn = 1;
+        }
+
+        public void DelayDeath()
+        {
+            currentTurn -= character.GetDelayDeath();
         }
 
         public List<IDisplayComponent> displayComponents{get; set;}

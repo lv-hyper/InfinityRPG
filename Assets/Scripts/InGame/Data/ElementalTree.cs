@@ -58,7 +58,7 @@ namespace InGame.Data
 
         public void AddRequirement(Dependency req)
         {
-            Debug.Log("Added: " + req.tier + " / " + req.order);
+            //Debug.Log("Added: " + req.tier + " / " + req.order);
             requirement.Add(req);
         }
     }
@@ -136,7 +136,7 @@ namespace InGame.Data
                     foreach (var dep in dependencies)
                     {
                         GetTier(dep.tier).FindElement(dep.order).AddRequirement(dep);
-                        Debug.Log(dep.tier + " / " + dep.order);
+                        //Debug.Log(dep.tier + " / " + dep.order);
                     } 
                 }
             }

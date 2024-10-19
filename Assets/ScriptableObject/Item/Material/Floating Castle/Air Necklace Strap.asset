@@ -13,6 +13,12 @@ MonoBehaviour:
   m_Name: Air Necklace Strap
   m_EditorClassIdentifier: 
   itemSprite: {fileID: -161625372, guid: d00ddbdd0b39bcd47a360ae0fd9a053f, type: 3}
+  itemSpriteRef:
+    m_AssetGUID: d00ddbdd0b39bcd47a360ae0fd9a053f
+    m_SubObjectName: elemental_pendant_3
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 11
   legacyID: Material-FloatingCastle-0-Air Necklace Strap
   level: 0

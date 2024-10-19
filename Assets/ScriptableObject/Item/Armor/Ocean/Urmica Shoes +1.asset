@@ -14,6 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 4856400649373395433, guid: 7a345af3453bda040a8bdac37e532463,
     type: 3}
+  itemSpriteRef:
+    m_AssetGUID: 7a345af3453bda040a8bdac37e532463
+    m_SubObjectName: KakaoTalk_20220811_023134207_2
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 5
   legacyID: Greave-Ocean-1700000000-Urmica Shoes +1
   level: 1700000000

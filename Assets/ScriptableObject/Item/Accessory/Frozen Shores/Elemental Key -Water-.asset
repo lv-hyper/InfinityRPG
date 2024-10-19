@@ -13,6 +13,12 @@ MonoBehaviour:
   m_Name: Elemental Key -Water-
   m_EditorClassIdentifier: 
   itemSprite: {fileID: -448039048, guid: fd332b99117f6b44cb73c3b777c07431, type: 3}
+  itemSpriteRef:
+    m_AssetGUID: fd332b99117f6b44cb73c3b777c07431
+    m_SubObjectName: New Piskel (20)_0
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 13
   legacyID: General-FrozenShores-0-Elemental Key -Water-
   level: 0

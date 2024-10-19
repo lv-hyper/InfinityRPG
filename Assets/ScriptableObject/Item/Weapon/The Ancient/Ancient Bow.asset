@@ -14,6 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: -2928533869275632095, guid: c7f413cba82001d46b93ae1e3339f0e1,
     type: 3}
+  itemSpriteRef:
+    m_AssetGUID: c7f413cba82001d46b93ae1e3339f0e1
+    m_SubObjectName: ancient_weapon_2
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 0
   legacyID: Weapon-General-55555555555-Ancient Bow
   level: 55555555555

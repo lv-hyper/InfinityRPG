@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: Frost Gorilla
   m_EditorClassIdentifier: 
   mobSprite: {fileID: 21300000, guid: 76cbde749e55e494197f8f657a2aeb6b, type: 3}
+  mobSpriteRef:
+    m_AssetGUID: 76cbde749e55e494197f8f657a2aeb6b
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   imageOffset: {x: 0, y: 0}
   description: 
   mobClass: 0
@@ -30,6 +35,7 @@ MonoBehaviour:
   defReqRate: 1.7
   hidden: 0
   skills: []
+  skillRefs: []
   customHP: -1
   customATK: -1
   maxDefenceRatio: 2

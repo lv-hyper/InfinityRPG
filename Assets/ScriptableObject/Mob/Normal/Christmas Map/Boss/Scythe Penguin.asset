@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: Scythe Penguin
   m_EditorClassIdentifier: 
   mobSprite: {fileID: 21300000, guid: 3337e5a5ff55e684ba0f3f9c3a37bb4b, type: 3}
+  mobSpriteRef:
+    m_AssetGUID: 3337e5a5ff55e684ba0f3f9c3a37bb4b
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   imageOffset: {x: 0, y: 0}
   description: 
   mobClass: 2
@@ -28,6 +33,7 @@ MonoBehaviour:
   defReqRate: 1
   hidden: 0
   skills: []
+  skillRefs: []
   customHP: -1
   customATK: -1
   maxDefenceRatio: 2

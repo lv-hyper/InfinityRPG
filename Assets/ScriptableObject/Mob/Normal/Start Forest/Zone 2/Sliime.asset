@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: Sliime
   m_EditorClassIdentifier: 
   mobSprite: {fileID: 21300000, guid: a406a0e12ca930e4eb3a426bbb5dedd6, type: 3}
+  mobSpriteRef:
+    m_AssetGUID: a406a0e12ca930e4eb3a426bbb5dedd6
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   imageOffset: {x: 0, y: 0}
   description: 
   mobClass: 0
@@ -28,6 +33,7 @@ MonoBehaviour:
   defReqRate: 1
   hidden: 0
   skills: []
+  skillRefs: []
   customHP: 0
   customATK: 0
   maxDefenceRatio: 2

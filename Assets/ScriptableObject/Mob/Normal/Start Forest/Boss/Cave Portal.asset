@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: Cave Portal
   m_EditorClassIdentifier: 
   mobSprite: {fileID: 21300000, guid: e8fb49444c2808743bd5fb5d1d4525bc, type: 3}
+  mobSpriteRef:
+    m_AssetGUID: e8fb49444c2808743bd5fb5d1d4525bc
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   imageOffset: {x: 0, y: 0}
   description: 
   mobClass: 1
@@ -28,6 +33,7 @@ MonoBehaviour:
   defReqRate: 1
   hidden: 1
   skills: []
+  skillRefs: []
   customHP: -1
   customATK: -1
   maxDefenceRatio: 2

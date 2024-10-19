@@ -93,7 +93,7 @@ namespace InGame.Entity
 
         public Data.Mob.AbstractMob GenerateBattleInstance()
         {
-            return boss.newMobInstance(GetLV());
+            return boss.SummonNewMobInstance(GetLV());
         }
 
         public void Kill()

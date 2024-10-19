@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: Christmas Gift B
   m_EditorClassIdentifier: 
   mobSprite: {fileID: 21300000, guid: 96ac816666993dc4b8efb6b6beddc62c, type: 3}
+  mobSpriteRef:
+    m_AssetGUID: 96ac816666993dc4b8efb6b6beddc62c
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   imageOffset: {x: 0, y: 0}
   description: 
   mobClass: 1
@@ -28,6 +33,7 @@ MonoBehaviour:
   defReqRate: 1
   hidden: 0
   skills: []
+  skillRefs: []
   customHP: 0
   customATK: 0
   maxDefenceRatio: 2

@@ -14,6 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 1070383461865635271, guid: 65d2dd7b9b04811408cdffd8588da9db,
     type: 3}
+  itemSpriteRef:
+    m_AssetGUID: 65d2dd7b9b04811408cdffd8588da9db
+    m_SubObjectName: start_new_2
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 1
   legacyID: Weapon-StartForest-2500-Shroomy Bow
   level: 2500

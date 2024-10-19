@@ -13,6 +13,12 @@ MonoBehaviour:
   m_Name: Blue Lobster Wand
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 1560143630, guid: e346c14bb38360b4881367661a8fb1d9, type: 3}
+  itemSpriteRef:
+    m_AssetGUID: e346c14bb38360b4881367661a8fb1d9
+    m_SubObjectName: pixel_items6_40
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 4
   legacyID: Weapon-Beach-3000000-Blue Lobster Wand
   level: 3000000

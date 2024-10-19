@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: Wind Dodo
   m_EditorClassIdentifier: 
   mobSprite: {fileID: 21300000, guid: 8368c85ba7ee9f243ba3e9e58a434e6f, type: 3}
+  mobSpriteRef:
+    m_AssetGUID: 8368c85ba7ee9f243ba3e9e58a434e6f
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   imageOffset: {x: 0, y: 0}
   description: 
   mobClass: 0
@@ -30,6 +35,7 @@ MonoBehaviour:
   defReqRate: 1.5
   hidden: 0
   skills: []
+  skillRefs: []
   customHP: -1
   customATK: -1
   maxDefenceRatio: 2

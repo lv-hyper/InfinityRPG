@@ -12,7 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0d77133b170acf49a06ed500770a584, type: 3}
   m_Name: Ice Titan Gloves
   m_EditorClassIdentifier: 
-  itemSprite: {fileID: 520618408, guid: 789119ede2ed04942b5c247c324f7a3e, type: 3}
+  itemSprite: {fileID: 1832925487, guid: 07f85983dbd5b83468f5c4fbf3e826ae, type: 3}
+  itemSpriteRef:
+    m_AssetGUID: 07f85983dbd5b83468f5c4fbf3e826ae
+    m_SubObjectName: Ice TItan Gloves
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 13
   legacyID: Glove-FrozenShores-0-Ice Titan Gloves
   level: 0
@@ -20,7 +26,7 @@ MonoBehaviour:
   maxStack: 10
   maxWornCount: 1
   price: 0
-  shortDesc: 
+  shortDesc: Gloves
   longDesc: 
   itemAbilities:
   - abilityData:

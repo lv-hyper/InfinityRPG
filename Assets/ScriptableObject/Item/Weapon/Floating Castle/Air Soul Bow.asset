@@ -13,6 +13,12 @@ MonoBehaviour:
   m_Name: Air Soul Bow
   m_EditorClassIdentifier: 
   itemSprite: {fileID: -757167312, guid: f7f01407da19a4345bd08ac6a0597272, type: 3}
+  itemSpriteRef:
+    m_AssetGUID: f7f01407da19a4345bd08ac6a0597272
+    m_SubObjectName: Air Soul Bow
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 11
   legacyID: Weapon-FloatingCastle-0-Air Soul Bow
   level: 0

@@ -50,28 +50,6 @@ namespace InGame.Data.Mob
         {
             return base.GetGold() * 2;
         }
-
-        public override AbstractMob newMobInstance(BigInteger level)
-        {
-            Boss newMobInstance = CreateInstance<Boss>();
-
-            newMobInstance.InitNewMob(
-                name,
-                mobSprite, imageOffset,
-                description,
-                mobClass,
-                elementalDamage, elementalDefence,
-                level, hpRate, atkRate, expRate, goldRate, defReqRate, customHP, customATK,
-                integratedElementalDefence,
-                dropTable,
-                tagList,
-                skills
-            );
-            newMobInstance.SetSoulLevel(soulLv);
-            newMobInstance.SetProgressionLevel(progressionLevel);
-
-            return newMobInstance;
-        }
         public override bool IsBoss()
         {
             return true;

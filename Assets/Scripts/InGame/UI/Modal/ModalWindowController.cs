@@ -70,10 +70,13 @@ namespace InGame.UI
             if (boardSectionContentPrefab == null)
             {
                 content = Instantiate(defaultModalPrefab, contentTransform, false);
-                content.GetComponentInChildren<TMPro.TextMeshProUGUI>().text = boardSection.GetContent();
-                content.GetComponentInChildren<UnityEngine.UI.Button>().onClick.AddListener(() => {
+                content.GetComponent<SimpleTextBoardSectionView>().Init(boardSection.GetContent(), () => {
                     CloseWindow();
                 });
+                //content.GetComponentInChildren<TMPro.TextMeshProUGUI>().text = boardSection.GetContent();
+                /*content.GetComponentInChildren<UnityEngine.UI.Button>().onClick.AddListener(() => {
+                    CloseWindow();
+                });*/
             }
             else
             {

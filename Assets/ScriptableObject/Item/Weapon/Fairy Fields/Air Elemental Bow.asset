@@ -14,6 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 5367232016601605461, guid: 825c5c162bf7f934eaa8a6d6b54691db,
     type: 3}
+  itemSpriteRef:
+    m_AssetGUID: 825c5c162bf7f934eaa8a6d6b54691db
+    m_SubObjectName: Air Elemental Bow
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 10
   legacyID: Weapon-FairyField-130000000000-Air Elemental Bow
   level: 130000000000

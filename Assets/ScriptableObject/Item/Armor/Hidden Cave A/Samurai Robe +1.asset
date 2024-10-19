@@ -14,6 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: -5641784200142231503, guid: 39ac8d342677e524896169bbdc190f76,
     type: 3}
+  itemSpriteRef:
+    m_AssetGUID: 39ac8d342677e524896169bbdc190f76
+    m_SubObjectName: upper zone +1_7
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 3
   legacyID: Robe-HiddenCave1-122000000-Samurai Robe +1
   level: 122000000

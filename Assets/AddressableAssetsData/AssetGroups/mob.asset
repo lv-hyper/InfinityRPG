@@ -1,0 +1,4963 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: mob
+  m_EditorClassIdentifier: 
+  m_GroupName: mob
+  m_Data:
+    m_SerializedData: []
+  m_GUID: a82322e680f711e4ea0f23d13879eecb
+  m_SerializeEntries:
+  - m_GUID: e40283edb27791a48b3934cd5c0e4395
+    m_Address: Abyss Dragon (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 02297a6eedf1cdb4ea013deb7c59cdc9
+    m_Address: Big Fish (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b10f9d826ec9e4b40a3fb35c06cf3497
+    m_Address: Father Time (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: feda38dbc93b9b64692c43e77687dcd6
+    m_Address: Khronos (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f951e60ba863e6e448711076e53d5e8c
+    m_Address: Titan Aquos (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bda269138cfd751418fd7dafd4fa1b85
+    m_Address: Ice Slime (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b30e93ba1fbd811428d2e6e62298dc3d
+    m_Address: Water Slime A (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 77f2afd3c77807442b4f5a8a29f2a505
+    m_Address: Water Slime B (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1de98a657345c214baaa8a54c8c207fe
+    m_Address: Abyss Blue Dragon (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 32552a0ebc5eaa946b5d9787472a4ce7
+    m_Address: Biofish (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0fca2101dc5db074381e919e72966532
+    m_Address: Piranos (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c0d8e873ebc6c97468f9ec8450600664
+    m_Address: Arman (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 11dab5ddf349a754892a9daeba7bb587
+    m_Address: Armes (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 78865af39e929264e9ab98e664b9f19a
+    m_Address: Armon (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f0a01623bd3617445ad19a9143345be7
+    m_Address: Astral Lich (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f99f7e81f824d954186821100f3f1686
+    m_Address: Betafish (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f3543161cf4183941b8affbdfee53187
+    m_Address: Electroctopus (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ac5acad6392cc6d478b4e413f5b01d66
+    m_Address: Blue Emperor Crab (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 541c40ad3a2914845a005c6945c45886
+    m_Address: Blue Lobster (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 30b10fdb349a0a24c9fa066f6512401a
+    m_Address: Crab King Karkinos (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 36a24d3606cfadd4bb29360944ce8654
+    m_Address: Desert Portal (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2db817138d163e942a4cc15b32c38ae5
+    m_Address: Green Emperor Crab (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 431a4384541fc99418f3f9543f0e1035
+    m_Address: Green Lobster (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 68a8e3d78837e8b4b8b6765fefdb2fb7
+    m_Address: Red Emperor Crab (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7e820674b999d3541b0a3b1625f716a7
+    m_Address: Red Lobster (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a945dc94538c9b845a62234ab2cb58e3
+    m_Address: Turtle Golem (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 807f3a733c8ed834dad3ea589290e28f
+    m_Address: Hermit Crab (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d0f69f903f7e3b949b1dfe7b9cccbe6a
+    m_Address: Pelican (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1defd5503ef65cc48a2c8a98b623485f
+    m_Address: Seagull (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 83dace3004d3bef40b1522585a1dddbd
+    m_Address: Spore (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c45707cab5990844cb0039369e06a7d9
+    m_Address: Blue Spider Crab (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1e3cde45ae127334e97f18d7d8bbaf2a
+    m_Address: Green Spider Crab (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 674c44a30426c804d88bc5904449fe58
+    m_Address: Red Spider Crab (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e1ed246dee55f8e4da364bc80a121aab
+    m_Address: Spikestar (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 67a5d87f04d118e468cfb400430244ef
+    m_Address: Star Shell (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f6d87f5af9ad07f47941f74000780848
+    m_Address: Stars (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 72deab18a32209441912c117843a6c6b
+    m_Address: Water Turtle (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 05857bedd0a490f42b93ab1f49f76471
+    m_Address: Blue Shell Claw (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2bbd4225915516946a32471ff9a2b798
+    m_Address: Dark Shell (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 26a2ae0d34739a34d8238b62d8f4eca0
+    m_Address: Dark Star (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 64483576e99f59e49b59674e9528b355
+    m_Address: Green Shell Claw (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0f3cadf5382b12e44901c87f41aa5d4b
+    m_Address: Red Shell Claw (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2684b2aeb1c57824c969896e58e4e6e3
+    m_Address: Urchin (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cb1118d45c8deb44c9eb12a3a8c5cfe8
+    m_Address: Desert Parasand (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7e687ff0a05faa14cb6c1ea88b2dd1b8
+    m_Address: Egypt Crocodile (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 44fb16409bcf3cd4b960005ebc42df9d
+    m_Address: Rock Bunny (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a6a2830eaf0b02348aa24681b4c15129
+    m_Address: Rock Lizard (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d1fe61746faffae4192fee12d3dae8d2
+    m_Address: The Hieracosphinx (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0f27d5b8beea223409ab05458bc9f388
+    m_Address: Triple Cactus (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 752f6d13c0c16a542a025ba2cd67c81e
+    m_Address: Cactus (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 698c229aeccbaa24d87f34386108798d
+    m_Address: Sand Snake (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8add1b1b592e78148be57fb450c2db56
+    m_Address: Sand Tentacle (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b4277ff0988648b41b7cbee4c75171e8
+    m_Address: Junior Rock Bunny (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 88c625776e37b2c4380bd70fc9913b1a
+    m_Address: Junior Rock Lizard (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: af70d5a225dfcfe4895ddabb0970953d
+    m_Address: Desert Cobra (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a560514c140227644b492141392b8a5e
+    m_Address: Desert Lickitoad (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2025afe22e157c14181dc5936ab4c718
+    m_Address: Junior Egypt Crocodile (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3fa713cb53c57ef4eaa788188a79cc1f
+    m_Address: Egypt Mage (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 84f3be5fd8b86b94ab6c0c9ed729da63
+    m_Address: Junior Hieracosphinx (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f8bc1d35275e0e84d943c674a9ec0026
+    m_Address: Small Sphinx (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: db4dd6dff9ebbc34cab11d2d3bce3871
+    m_Address: Earth Dragon (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 642dadc747c9b1846980ee7c7a5e1748
+    m_Address: Emperor Hydra (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: be44b14f9e4c998488cbda712c8ab89e
+    m_Address: Kouryuu (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 926ddfc5a9a91004ab37f7d81ebe2181
+    m_Address: Leviathan (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cc7de28886fdb224d894337be047e6b5
+    m_Address: Tiamat (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 134dcd03d715f864d83c60e0c1b046b4
+    m_Address: Zalaras (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cbe0f105490479546b0ea9d1b970835b
+    m_Address: Dragon Egg A (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 540ac26ac94b96d4ba02d5be7b0c1032
+    m_Address: Dragon Egg B (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 692bfafdbf40e6f47886dce8e4f2b3e5
+    m_Address: Dragon Egg C (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6d9c01edf52760e4284fac80865d0f63
+    m_Address: Dragon Egg D (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 50b19adf46fd48f4488831d3ae512846
+    m_Address: Dragon Egg E (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4d1bb80c7395f5848bb0b05ce7cde2c3
+    m_Address: Brown Dragon (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0701c3c4ef1a8ef419a1e06a7dec2ef8
+    m_Address: Brown Wyvern (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cacc78c63b045b642af983b8ea37b5bb
+    m_Address: Darkness Dragon (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1a884f4f511495940b222db7ffbb9041
+    m_Address: Venom Dragon (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b510efd8661eed743bd567d2e235b54d
+    m_Address: Gargoyle Grifos (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 77f7fea4d041a3646a40252689e29429
+    m_Address: Roaming Salamander (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 47ea0f95f696a044490aabace668078f
+    m_Address: Wingless Dragon (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 98580f12969b81f4499063dff66ee28e
+    m_Address: Red Dragon (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 964134421de176b40b79d14438be4670
+    m_Address: Red Wyvern (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8fef5272937d67c4281915ba84c7f3d6
+    m_Address: Green Dragon (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 17651fd9d5287ba418f9c187f6afb5d3
+    m_Address: Green Wyvern (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7fcbf84d1a6914d45aefb089536b2064
+    m_Address: Blue Dragon (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4f589b96f9bd7154fafb3a6f21d54f4b
+    m_Address: Blue Wyvern (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bd7ec0363e424d04f867065599ec21f8
+    m_Address: White Dragon (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f31655eccd4b5c640bd22aa0ea538904
+    m_Address: White Dragon Lord (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 32b928ed5edf01c47a0b6c1f32ea8925
+    m_Address: Archer Guardian (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 782afd6de86004741812a8b275f07132
+    m_Address: Fairy Field Portal (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8b36f26b008464644865e98ed4ca5c30
+    m_Address: Magical Spear Guardian (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2160738587e968241b8cb50d67a41c5b
+    m_Address: Warrior Guardian (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 848b8954644a4d74ba74aa0e301a4dfa
+    m_Address: Air Slime (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eb007c8e56bc8a045a39aa77e0140796
+    m_Address: Air Spirit (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7ffdaae3f555f234c8150bb7f49f997f
+    m_Address: Gale Slime (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c82e10766cca66644b932fcc3bdef401
+    m_Address: Storm Slime (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 61ead0cf059d40a49a3654a06349c37e
+    m_Address: Wind Avian (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b9e9fee984263504aa0788f5f897cbf1
+    m_Address: Wind Snake (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e9a61cba08c03c24ab23c7393818451d
+    m_Address: Wind Wisp (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 33deb1c7e08d41947b8db7723cacb45b
+    m_Address: Air Fairy (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0cb0c3cf22e18cc418c3d631ab295a40
+    m_Address: Air Orb (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f8426ed6493360b4f9d23d66679f734d
+    m_Address: Fire Fairy (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c753dccbeeb124e4a9e051ceaffba0e2
+    m_Address: Fire Orb (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 46477650357d4d447abb969c03c7281b
+    m_Address: Nature Fairy (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1abb46de32794dd4cb17f3d88a3035d5
+    m_Address: Nature Orb (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7378e4277c3153449830a0e45aa2538f
+    m_Address: Water Fairy (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b1a6cfcbc33e3ef4d80b9f06f5c2ac0a
+    m_Address: Water Orb (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eb03ad2f2302b3145bbc30e4e1a86070
+    m_Address: Blaze Slime (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2b68835af03a1e448a4757e300ffa547
+    m_Address: Fire Dragonspawn (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c78cb5348e16f7a47af2ae6d3c689d71
+    m_Address: Fire Pumice Rock (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e2b8c44586527d14b94482a8f69ef254
+    m_Address: Fire Slime (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2dceaf1a7c71e1549ab78ac16f96e744
+    m_Address: Fire Snake (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 36a98a7b9936372499c93d37d77b2c46
+    m_Address: Fire Wisp (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ad3a76119c0fd0944b98e4fb6f1711bb
+    m_Address: Flare Slime (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 76f1bb90a91bfae4cb2924a463004202
+    m_Address: Light Gemstone A (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d68c6b1a57aaca2469de3a72a675084f
+    m_Address: Light Gemstone B (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c684fc000a505f544812e4561b891f6a
+    m_Address: Light Gemstone C (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3a49ce2e3dd3a1f45973552d965488c1
+    m_Address: Diamond Slime (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7ac28af38f3debf44b7a8be0df4382c2
+    m_Address: Earth Bush Wisp (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3ebed51eb770c5f41801f7ab707119dc
+    m_Address: Earth Leaf Imp (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e73ecfa2c3f9407459340886d5c40083
+    m_Address: Earth Snake (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d8716723409a71b41a9122a6ad516a21
+    m_Address: Earth Wisp (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 643f8cf2ffb50cb48a2f84933073bca0
+    m_Address: Gemstone Slime (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e94ffa75d80e2b04bbfeb92f91645f6f
+    m_Address: Nature Slime (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 89178feb031dca2499d2c2c00eef73a2
+    m_Address: Cold Slime (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 59f292b8af9af4b46a7d1fb9e9af9c19
+    m_Address: Frost Slime (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7a3bc94859e82b14c8a4328c45699197
+    m_Address: Ice Cave Bat (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ceea2b342f0b75b4bb706b66db3e1241
+    m_Address: Ice Slime (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a043d4f8eb20d164885e5a8003c84a57
+    m_Address: Ice Snake (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ad036a60d1a8f994cb6b8af8bf59d2fa
+    m_Address: Ice Spike (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 55dd78818422aee478d5129aa2cc504c
+    m_Address: Ice Wisp (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 64f241775c3c3774889582041a36fcf9
+    m_Address: Fire Gemstone Dragon (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8af37d79f268a9646a31e402a2b4c6bf
+    m_Address: Fire Lion (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aa4849db32b6fb94ba1297a36cbfbc3f
+    m_Address: Fire Lord Titan (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8f2f1bd3b7fefa143b00de1fff6d6a25
+    m_Address: Fire Turtle (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ae8db081ef2e4ea4081bbe64fe569586
+    m_Address: Ifrit (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1a6e3d710b974684280b7dc5788c3039
+    m_Address: Fire Bat (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ed3c297999f0e0c408ed1b5972aba7a2
+    m_Address: Fire Gem (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6a24665af772ee34983f93a4402bbdb6
+    m_Address: Fire Sheep (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0f6f2f238958075479ee4ae8a3762932
+    m_Address: Fire Bull (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a3de9d94985ae6247a69ceb3ffcf878e
+    m_Address: Fire Golem (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b0f9546eadf86ef40804288ac87f4b83
+    m_Address: Fire Kindred (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6479c47c97586b849952eaef32655cb1
+    m_Address: Fire Gazer (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 02a3608bfe5fece439ba8c7b7da6afa2
+    m_Address: Fire Ghost A (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 64e803359e9431844b8762713f029f28
+    m_Address: Fire Ghost B (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 697138fea0a6cf642bd1e53662c48845
+    m_Address: Fire Elemental Wolf (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1995315de3c4ef144a2ca403d9638c58
+    m_Address: Fire Mushroom (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 81bd0f69be44f8c48bf92288ed241bf5
+    m_Address: Fire Salamander (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 80c4ec4cb7e046f478ffef651a786e9a
+    m_Address: Fire Maiden (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 955f33fdde0581f4faac98b140446121
+    m_Address: Fire SaberTooth (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 289a52d98b8125c47bb021735b5d24ab
+    m_Address: Flame Knight (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2000b859fca11194fae51ced40629705
+    m_Address: Air Guardian (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 446316404f8606849966f1501bdde82b
+    m_Address: Ultimate Wind Dragon (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 62296c7b68e21ae43b29eb53c782bcf2
+    m_Address: Wind Gemstone Dragon (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0e98c47b6bfdc4548b8583db82b5ed3a
+    m_Address: Wind Lion (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7da9c257659c49441bbaf8293c87ceb4
+    m_Address: Wind Titan (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2f8d7f68bb38cff4db95cb4e20a97312
+    m_Address: Wind Fairy (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5a59fced8d4756b4e9b8557ab8873a21
+    m_Address: Wind Gem (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9bba0f42f5bcb7b469b9e599b8a4d79b
+    m_Address: Wind Razor (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c6e00d7b6a712c04a875d11f616a5091
+    m_Address: Wind Bunny (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d65592ab59a1da84c82fdc21a65018ad
+    m_Address: Wind Harpy (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5a3c9a6ba36984341875ca712401263e
+    m_Address: Wind Mantis (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a26ac9028f9f6eb4cb8c66c6bab7f89c
+    m_Address: Wind Gazer (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ea50153809b6f9745be2ca6b8f5bbe40
+    m_Address: Wind Orb (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 96b09c58566a9a44280ca99853703324
+    m_Address: Wind Willowisp (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ca81e3bbb309885468db600d32df5b95
+    m_Address: Air Harpy (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0c9830fc2a8502244ab80b8054310df3
+    m_Address: Storm Hawl (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9df863120daf3224d9857ac656d709fe
+    m_Address: Wind Dodo (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6c38b4f6e3852bd4794d58caeebc9e69
+    m_Address: Forest Dryad (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 510d8d6a18f581344af95433ca1a0df5
+    m_Address: Wind Golem (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 64b2261021cde2c419e2ca411589eeb6
+    m_Address: Wind Manticore (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0791943e7b8bd3a44867d710379d57ad
+    m_Address: Ant Queen (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a0191db431b507e499c48b97ca740e5f
+    m_Address: Colossal Dark Crow (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ec1cb509eeda2814a9e83e3439a1aef5
+    m_Address: Corrupted Stone Bear (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 003b9f61fc466af4aa930db09d243f55
+    m_Address: Dragon Cave Portal (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 221caac820793314f8bce4cf4ae20b67
+    m_Address: Dryad Queen (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e726fcedd6a9c9b4799e3656913d5bc0
+    m_Address: Dryad Yggdrasil (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0876b772bcffe894aaffb5f8c32219ac
+    m_Address: Feral Kitsune (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e5cb1b6541e58384bbe3ff7a5bd9a74b
+    m_Address: Junior Hydra (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ab794304588b4d0469f52f5ecb7b8257
+    m_Address: Parrot King (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0c1e8f2b125c26e40b978cc74502129a
+    m_Address: Slime Golem (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9c8b798a7068a1441a5c879281c1b730
+    m_Address: Superior Fire Wolf (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2e7b4ad7f3866d447918de009d460862
+    m_Address: Superior Ice Mantis (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fa7ef0bfd44520d4488d7ece3de9cb94
+    m_Address: Toxic Swamp Portal (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: be909fa69044cc348907549846aba747
+    m_Address: Turtle Rukkha (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 123799981e96cf74cb1560d36adfd6b5
+    m_Address: Zeograth (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 97a98cdf76b7b42409d9ac6c8673a0ce
+    m_Address: Avian (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7f70bfd4358d18141bde7e6904f710ac
+    m_Address: Avian Elephant (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 559420c5409a5f54b857aa54448c6af8
+    m_Address: Blue Seeker (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bbac13d88d5ea6045aae52fe21432d83
+    m_Address: Garuda Guarunix (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6adb7e18ba353044d9d3839998be2e6e
+    m_Address: Silver Avian (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 588c3727ba520294891c1dddddf7859e
+    m_Address: Forest Darkluff (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d3daa298676e4aa4e81859e92dfd5a62
+    m_Address: Forest Golem (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1b05ae27bab68ee4aa4b0ca204e418ba
+    m_Address: Forest Ogre (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a45fe57997fc1d5439ab3a66bb8161c2
+    m_Address: Forest Sprout (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 94f401754917b954bacff930b9ce32d1
+    m_Address: Horn Willow (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dcc4aa567e29e0b4d8fbc7dacc72c26c
+    m_Address: Tridentpupa (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ebdc7c023b293c04eaa8af8a627899ff
+    m_Address: Centipede (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e79f266b88c5aa84784ab06febbdafbb
+    m_Address: Death Worm A (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fed1c44a9fee12a43b00ecce0f448020
+    m_Address: Death Worm B (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d38bd6c0ba203f946b08e3ffeeb84b9a
+    m_Address: Forest Fairy Dragon (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 23a853f42d01331418511412fdd6902f
+    m_Address: Insect Dragon (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 615fd523152fd8a438e203c513ab9ae9
+    m_Address: Spiked Caterpillar (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bc1e9278915d3d54d867ed9a32229237
+    m_Address: Black Colossal Snake (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2a97b8dd9b209ee42bb8e989bc54a04a
+    m_Address: Colossal Scorpion (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2763a30bc2aeea645b47aa80abdfeca2
+    m_Address: Colossal Snake (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 47515e29cd7a7014b9b13b994a39bde8
+    m_Address: Lamia (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b7c1060847d16e74dbe635f174db7b7f
+    m_Address: Red Colossal Snake (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2a24fee1832d0b24c805e67c67696f9f
+    m_Address: Ant Lion (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a775107db04dc504cb2cae98ac0963be
+    m_Address: Black Ant Archer (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e1635745da26cb74ebb065a4f99a590b
+    m_Address: Black Ant Berserker (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 37688052b9eb55e4e99cd1ed22ecb951
+    m_Address: Black Ant Knight (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 37bac55cfba9d16499e3979083b8fc4d
+    m_Address: Black Ant Mage (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 43a0845323590ef41ad49c952bc7cb44
+    m_Address: Black Ant Protector (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4b3cb9289f33d6740b4f9aa5839eb697
+    m_Address: Red Ant Knight (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4c878562b272f9143bff6eff3b3256d3
+    m_Address: Eyehopper (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 79b037da3f6218b45ae3c6b7b3acfcd3
+    m_Address: Hercules (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e85b87cba37e40c4e92eca4f9f972d75
+    m_Address: Hornet Warrior (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: adc4648bf2bb3124c9f610d829367584
+    m_Address: Lunar Butterfly (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 35373aff6920f8a4bb858f5bed7f854f
+    m_Address: Spike Hopper (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 122639030d4d0de4d8c5b2b706f48265
+    m_Address: Cape Sundew (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 424c27001af15484daea74fb9516e5c6
+    m_Address: Dryad Archer (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fa6dc09e774e58043b5b3407bb7dc3db
+    m_Address: Dryad Mage (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d25e4f7e7566a2848bb1d098ec15df15
+    m_Address: Dryad Warrior (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 035eb417ac9e43140b79f89a6955fe21
+    m_Address: Screamer Mandrake (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ad050b414cbeffa4087523cca7f222e8
+    m_Address: Bug Originator (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 408374c938dee074ead7290bfe0efb1d
+    m_Address: Dryad Mini (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6787c5afbf37b8347a4c09bb44e51f77
+    m_Address: Forest Spora (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b2c7f098314610445a138657a01f40f8
+    m_Address: Forest Uzu (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7926392835d527c48b5913fcd9869954
+    m_Address: Rose Knight (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bd45619254a671645984fad7ed528d48
+    m_Address: Cave Dweller Worm (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a6484ea1ef092d04ba069cf6798ab167
+    m_Address: Colossal Bat (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4570c306f7ec7b04ead3848c91e70e21
+    m_Address: Dark Crow (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cb7775431f70d9f4aa4496b34c68f011
+    m_Address: Fire Wolf (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2492796bbaf8fa54687535806759c1fa
+    m_Address: Forest Catermoth (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6bc10d70fb41b7f499fdb758585db641
+    m_Address: Ice Mantis (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b8fa11bf25058aa45884481765336ddc
+    m_Address: Mini Hydra (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 33345cfab44d8ba41a0fd2153ae5979f
+    m_Address: Frost Wolf (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 347afbc67a50d3344b16a87d192f783a
+    m_Address: Ice Lion (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3aa2e66ac3cc83d4a885a94dd5cb5c51
+    m_Address: Ice Titan (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 09afc43526368d2438725963fe86b3f5
+    m_Address: Ice Turtle (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6e073b0eabdebb34eb1d5ee2fa98d376
+    m_Address: Water Gemstone Dragon (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 937c46c8f35846f4d81d3b890ec8409a
+    m_Address: Ice Avian (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 48cae493a4724d940a40a37177bbdb54
+    m_Address: Ice Glacier (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e5663ed3f8a65f44da871893765091e3
+    m_Address: Water Gem (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 864d18125f4315f4c99ffccfc16f255c
+    m_Address: Ice Bull (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bd876227390a3ad49a504dbed545a67f
+    m_Address: Ice Golem (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bd366d6f95d2117458d8087cbbaa84a7
+    m_Address: Ice Kindred (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d4c02ca71981c4b4a8305fd2f23bdbe5
+    m_Address: Water Boitata (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 25d3a6a5086df274286c6b092785b113
+    m_Address: Water Gazer (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6c843d3a7b2ece64cb848ff659083f20
+    m_Address: Water Willowisp (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9212c0367b3a5544c9ea12693a14f2e2
+    m_Address: Ice Ape (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 850241228d35ec548bde120af3010725
+    m_Address: Ice Mushroom (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8abab7a6f221f9247af05f6a87860fc0
+    m_Address: Ice Wolf (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d654cfe637b4e2744a9d044cd0c1bf20
+    m_Address: Frost Gorilla (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 66ccbbff41222e64b863a62cdbba69cc
+    m_Address: Ice Maiden (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a91f8a71bca2ffc4fb1921af935b4ada
+    m_Address: Ice Ogre (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 850b4534decba284f823f011d81ba98e
+    m_Address: Assassin Garland (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 15a2c2ba6ea547d47be170c371fdd246
+    m_Address: Behemoth (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a537b78dd0cb7f441b62dc14fced2c44
+    m_Address: Cerberus Ptolemaios (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6f3d184f2e784e24397a9ab6d556dc83
+    m_Address: Crystal Golem (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7647ba1070e35fd4d8541c85df9b3250
+    m_Address: Daidarabotchi (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6fe01eee352e30d4c938d77d0af333d9
+    m_Address: Diamond Dog (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 234c351e0e5029b4681bc76edc76ceb6
+    m_Address: Divine Portal (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8bb24b2975d0601479dcc4d21066b660
+    m_Address: Mage Dagon (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 07f8975bc8d5dcf42b7cfb15460893b5
+    m_Address: Radulac The Voildvod (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 783c547795127ee40935af5a7cb3864f
+    m_Address: Samurai Skeleton (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7db0c8759a332bf46a344ff7d2ec6a2d
+    m_Address: Undead King Berthelot (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1dd61eeb834b17e4db19a25274c1e2f2
+    m_Address: Blue Wyvern (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9cbe849e9bc454a478635b72ff9569a6
+    m_Address: Brown Wyvern (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1c74a01aade8c9045a8eade4e98673b2
+    m_Address: Green Wyvern (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2bd80750fde690e4580e66593fc85124
+    m_Address: Red Wyvern (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a40caac5ce686894ebdd0b0cf7ad84e1
+    m_Address: Yellow Wyvern (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5782e94a6d9a6374d82ee776192467c4
+    m_Address: Abismos (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: adfd0b7bf4bfc8140bcbfe59c46b0f7e
+    m_Address: Calamity Urmica (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a432e1a0d7a586e438914f47f7d8fde1
+    m_Address: Mermaid Warrior Undeen (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1a7ffd8290d965e48b6becefc823ee04
+    m_Address: Superior Spheria (Hard) (Hidden)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ad74ee3188e6f52478a271de33dedb34
+    m_Address: Sea Crab (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 81ad15f3ad738744fb6a19cb7b153c94
+    m_Address: Sea Horse (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 398d863cc8006a1479b65e5c3ef1e34a
+    m_Address: Sea Lurker (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0c005436f4bf5e143a7aae0896a415bf
+    m_Address: Octi (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 60a4d4d34c3ee1046836e017163b8443
+    m_Address: Octopus (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 92d491daa69f07e4b9fed7663a017254
+    m_Address: Shark (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 96ca68e279a64aa47a249857370aa3a4
+    m_Address: Fatoad (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 97243276f659eef46aa953860542aaaf
+    m_Address: Horntle (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7d53639ac389d354ba120b7507823d62
+    m_Address: Sea Turtle (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 462d41d5d53757143b2c5be6de8ae09e
+    m_Address: Tortoad (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2c299a124d33d7040b9bb8f334f36810
+    m_Address: Jellyfish (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d20745c93cb2b1e43b39538f66fbea38
+    m_Address: Shelltacke (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8513bfcd4369e584cb3237d8e26ca86b
+    m_Address: Spheria (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5abc6db8f934b1144999abeed9dd8889
+    m_Address: Mermaid (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 36b68684ac5231c4ab98064c34f04e22
+    m_Address: Mermaid Warrior Arliette (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 87793612bb3a6344780c9a355f630651
+    m_Address: Mermaid Warrior Sasha (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5a180c36e7c0cf94fb0e56b744539911
+    m_Address: Mermaid Warrior Sion (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6c008ba84d9960742bd78a2bf4a4b4aa
+    m_Address: Fish A (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7cb5378eea1115d4c9bb484af3c1a20c
+    m_Address: Fish B (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fbe0de736406ffc4ab0b3216812f8f5e
+    m_Address: Fish C (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 25db77e7df813b44db57b9f0c2375c0d
+    m_Address: Cave Portal (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e295e9178df92114c9af489dd53968ce
+    m_Address: Forest Panda (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cc9f75e2232050b43904f0a73c19a2dd
+    m_Address: Forest Tree (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 96724a7293c474342830cd386ce87930
+    m_Address: Slime King (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 815da09c09784df44822da602bdd1c06
+    m_Address: Superior Fairy (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 72cd5191381e5504ba853b1087d83631
+    m_Address: Superior Shroomy (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4e3dfc34759688a489d19c5754b43dc5
+    m_Address: Blue Flower (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9a26f1b609ec403498478779f5b140fa
+    m_Address: Blue Slime (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 75485f8e06e06384e9c3982bc32363ce
+    m_Address: Mobun (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 128c25a3252960d4fbfa49cbef00c0bb
+    m_Address: Noxluff (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d55aa49e15aa07548951900bbbb55a13
+    m_Address: Red Flower (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e26f3da02281f814b8559c711732918c
+    m_Address: White Flower (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 48002d20bf510cc449621685fa617bfc
+    m_Address: Fairy Filia (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 33444d31bfd233d44af62f852010a296
+    m_Address: Fangrot (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0e4d26c82c51fda48b3d92aa5cff2f06
+    m_Address: Kawabun (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 51987dd1ccc1b1349afe445eb08ba35d
+    m_Address: Sliime (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 920e4f3a052e3614cb0d52e33ff563a4
+    m_Address: Slime (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8307116b8f75981459f38fb6c7dd6cc9
+    m_Address: Slime Caster (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a736ed4ee0fe0fe4dbbcb1df49e4cd3b
+    m_Address: Deer (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7235b56d0f8f8ae4e9d1fdbb4e19b3d8
+    m_Address: Green Spider (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5f5d317f43fc6834ea34e90553ecb49b
+    m_Address: Mothy (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 173b22d05899dec4c99d471e32116607
+    m_Address: Shroom (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1e14fc1f5ee8c1a4b9c2b11dbe3fffe9
+    m_Address: Shroomy (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 233e89ad84207824f93c3777072dcb64
+    m_Address: Sliiime (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cc10ca89b83a4c942af1eddd14986609
+    m_Address: Grasshopper (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3ab2905dc83482c4f9fcabcb2a9d5d7e
+    m_Address: Imperial Widow (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e24ce234ed3d15847839e21ab66f0754
+    m_Address: Mantis (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9bf2afc3459f172468dcda90663b2c99
+    m_Address: Spider (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8a65d6e0592c83640b714d17cb3cca0a
+    m_Address: Tree (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bd4149ce1b406644fb2a083c3ce08acd
+    m_Address: Waterstrider (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 57deb11aa7e00554ca54aed319231830
+    m_Address: Caterpillar A (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c15bbbde3a17d3c4dbe25ca342aaaf1d
+    m_Address: Caterpillar B (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4e21f7799d12a6546878c8352974e801
+    m_Address: Dragonfly A (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aafd1a1863c7f894faac22f6fd7d1dd8
+    m_Address: Dragonfly B (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6dd625cb9e027ea418f52c00da0365d6
+    m_Address: Panda (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6b108af7e23387740b69112e5662251b
+    m_Address: Sliiiime (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bc39dcb989b5fe8488e22e3f2ba5161a
+    m_Address: Acid Slime (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 22e275b53bb7dea41930f2787d799a1e
+    m_Address: Giant Toxic Root (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4e48ded9cb62baa4ba33ede6bcea6178
+    m_Address: Superior Maneater Plant (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c68032742f9a57348bd8846d6801561a
+    m_Address: Superior Skull (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eaa6feb77878b414b8e020a9428f31de
+    m_Address: Superior Toxic Carnivorous Plant (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 866fff9a12a8d974cb0e79d2f5a1fe98
+    m_Address: Superior Toxic Shroom (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 901091941a1a6d643b89bc48b0c59163
+    m_Address: Toxic Cactus (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5c6b3fb45419c584fa23ef4cc70a5e3c
+    m_Address: Toxic Carnivorous Plant (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e57d0f21082348145959566df7b0dd6a
+    m_Address: Toxic Maneater Plant (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e904183ff82e4cc47924edf6e8b266c3
+    m_Address: Toxic Shroom A (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 57ffc0f842d5b9f4eb9e51e039e25172
+    m_Address: Toxic Shroom B (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 61b491f07d2d3af42abeab37781f53a3
+    m_Address: Toxic Shroom C (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 42876b63c86b7c74cb8e34243c65008a
+    m_Address: Toxic Feathered Snake (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bb27be072f92839449722b8dab70223a
+    m_Address: Toxic Frog A (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 20a4a264ecbb0814dad0ad5897aa432f
+    m_Address: Toxic Frog B (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5bb568a05756007409c9c1978c60dfe0
+    m_Address: Toxic Frog C (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0428ffb1ec6d4e24b9fb05ba5ba96097
+    m_Address: Toxic Root (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0c182bce896a6e24c9c089c44b864c21
+    m_Address: Earth Dragon Terraos (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2d5ad6b061ee0bd4b9a5a2556ec6b1be
+    m_Address: Earth Drake (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e64516da5397d36458e4dbe4f94d4a52
+    m_Address: Earth Gemstone Golem (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 68749f98167377c47a2a473c63e40a50
+    m_Address: Earth Taurus (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a6e73156817e6604e8846cc7a963af83
+    m_Address: Earth Turtle (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 872ad39b0b5582840a9e8f799a86e2e9
+    m_Address: Earth Bat (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 64697ee16e900684eac257dcc30264f3
+    m_Address: Earth Mandrake (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 977afd80e84d50b4da157056c279d0a8
+    m_Address: Nature Gem (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ec7b4a14f21382b4bb7e65b8ed880dbf
+    m_Address: Earth Bull (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 04caf63fcda7b194ca2f7b7a40f92aa1
+    m_Address: Earth Lion (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8050b67c25abf984db7b5f091aff8c11
+    m_Address: Earth Rock Golem (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6e7b48f55a0286940b9c8c00cab6f9a6
+    m_Address: Earth Griphon (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1fadf473eecc05b448caa3d11e52368d
+    m_Address: Earth Wolf (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d3129dd25148ffb4dbda154eb0faba4b
+    m_Address: Forest Turtle (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8caee9b2049c44642b9105472aa706d4
+    m_Address: Constrictor Boa (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: be526100234dcf545856cecb775b29f3
+    m_Address: Death Worm (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 83ac9f3c8cd9f514e90ae8743947f030
+    m_Address: Hellhound Garm (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8251bea9b35fb37409437382ee03f1c1
+    m_Address: Earth Giant Lobster (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 91084877c8698f248af37228a860d366
+    m_Address: Earth Scorpion (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 968e4eb7c3afa514c9443972fca8ca52
+    m_Address: Earth Spider (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f54e84023332e8d4e9333e34090759d2
+    m_Address: Swarm of Books (Hard)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7143a1b9b3b624543ab123121678df7f
+    m_Address: Corrupted Titan Aquos (Hard) (Hidden)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d48cd9dff7b1f394a863ac6a502068f1
+    m_Address: Mutant Fish (Hidden)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c6480b28a2024d646816b10a528e92e6
+    m_Address: Warden of Hell Fire (Hard) (Hidden)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: af9bfda5eb6019548933758d5eb199cc
+    m_Address: Arcane Golem (Hard) (Hidden)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a0580b46c3cc94a4d84d767905b10e2b
+    m_Address: Corrupted Mushroom (Hidden)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a97cb45c86829924c920638930fbbca4
+    m_Address: Corrupted Tree (Hard) (Hidden)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2337af7a3d44be444883109bb7d20e73
+    m_Address: Golden Slime King (Hidden)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 739aa0ca054cba4468665f80fab48c71
+    m_Address: Crystal Slime (Hidden)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 36e86c5a52a8625428772d05c1e14ef5
+    m_Address: Gemstone Kraken (Hidden)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: edbaa8f7109d75f458a64a26cde809cd
+    m_Address: Golden Chicken (Hidden)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d689552dd64c90b40896b3a738fb3463
+    m_Address: Mirror Mimic (Hidden)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e49cbcbcc2ed4a9478059b13e6578474
+    m_Address: Corrupted Crow (Hidden)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b2c9e600f1d1e0a4d9c4f6a9d81d3d91
+    m_Address: Wolfbull Demon (Hidden)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 20341ce4837e28047905bcaf10e194eb
+    m_Address: Desert Skeleton Drake (Hard) (Hidden)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: df00d477913587740ae82e63a7d4f123
+    m_Address: Sand Slime (Hard) (Hidden)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7372bf5cb6a112a45b1569006bd9bf80
+    m_Address: Skeleton Dragon Quolot (Hard) (Hidden)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1e4235e5d8e5f3945a2cb84718bb3dcc
+    m_Address: Tiger Dragon (Hard) (Hidden)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7ad22709e656dfb4bb833351f23cc67f
+    m_Address: Fallen Angel (Hard) (Hidden)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f2dad20f472489242a673f76d8675b6d
+    m_Address: Light Angel (Hidden)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a1d212eec34280c40af245d271d6ab5f
+    m_Address: Fire Demon (Hidden)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b426fc29b30ab3642a2a6916bbe88e98
+    m_Address: Fire Greek (Hard) (Hidden)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c3eb55f2a38b3bb4fada5c6b4ace6644
+    m_Address: Fire Harpy (Hidden)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: afc9fcb7b05a15b45bda1c97de1a0235
+    m_Address: Fire Spirit Tsuki (Hard) (Hidden)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 926a90316126d5f45b3bbb3566fe11ee
+    m_Address: Flare Fairy (Hard) (Hidden)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f54e93753cefacf43af53cd1f41d7d6f
+    m_Address: Greater Mimic (Hidden)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c4110e890affd764bb51f5e6cead3cf2
+    m_Address: Magma Golem (Hard) (Hidden)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fb99a133c562bf04ba209f8f7a54e725
+    m_Address: Mimic (Hard) (Hidden)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 867bf33d509a0cb46980c5f35dbc10ab
+    m_Address: Mimic (Hidden)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 295f44f9e993d0f44bd56bcebc15153b
+    m_Address: Pacific Kobold (Hidden)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f0247966ffd40d640bbc170a36e163a2
+    m_Address: Titan Vaporio (Hard) (Hidden)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1d0214f38fcddd841907d4f47827fd80
+    m_Address: Warden of Hell Wind (Hard) (Hidden)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9a7de8edfee91464fa953ea54c1060d8
+    m_Address: Wind Cyclops (Hard) (Hidden)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6f2cd5d2a54a25f4c9fad3364dc2e528
+    m_Address: Wind Delusion (Hidden)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 051a9341c2918ab4db38cfa0a4b117e1
+    m_Address: Wind Kitsune (Hard) (Hidden)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 96a7c7f3e838a554eb658ffdceb8c083
+    m_Address: Corrupted Slime Golem (Hard) (Hidden)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7971a86618d9ce5459dc1d8f5700e3b5
+    m_Address: Digital Witch (Hidden)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 700dd4a0abbd3124fba13eee727b6c57
+    m_Address: Dryad Tree (Hidden)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6e776de5a9d344440996e8864869bd55
+    m_Address: Lake Witch (Hard) (Hidden)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 783c9ed194322aa44aae8e1bff668283
+    m_Address: Sacred Owl (Hard) (Hidden)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dcff227e7683db94cbc7fb8bb81fd71f
+    m_Address: Frozen Werewolf (Hard) (Hidden)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ba93af00639f96149846a3a7ee445679
+    m_Address: Ice Yeti (Hard) (Hidden)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6dce598aebb13e24a9f041bb65d89d22
+    m_Address: Pisces (Hard) (Hidden)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3d7f84a9e1890264195c7fc193a07b73
+    m_Address: Poseidon (Hidden)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c8cba71b41bd52645a6597e084684bcd
+    m_Address: Ydro Dragon (Hidden)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f05a20041c3cf0046a7aa190a999c576
+    m_Address: Yukino (Hard) (Hidden)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a1a0218f684f74249b1099184faa2b73
+    m_Address: Corrupted Wood Golem (Hard) (Hidden)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 769e6913008399246bf18477dbc13d41
+    m_Address: Corrupted Eldritch God (Hard) (Hidden)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 75fbd6ea5a427fd46b0df92738b79a78
+    m_Address: Warrior Shark (Hard) (Hidden)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 75fdeb2b05171be4e96af10f6cb005ed
+    m_Address: Toxic Skeleton Lord (Hard) (Hidden)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 89f4b622748bb674e9f6dbce4e3fe676
+    m_Address: Toxic Slime (Hard) (Hidden)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 94a84bf4c46166e4db3b5a91458f6ea4
+    m_Address: Diamond Golem (Hard) (Hidden)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dfbbbc9cf6dfd9147addfbd8ae6b11a9
+    m_Address: Earth Capricorn (Hidden)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 22fc04240537fa642a13c1bd3cd8dbae
+    m_Address: Jubokko Tree (Hidden)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3f186ea860607cb45a3475ba35dcece6
+    m_Address: Metal Golem (Hard) (Hidden)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 21783615f20bf034da196683aa242770
+    m_Address: Moon Golem (Hard) (Hidden)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6a8ee2c7c7abf7b459620476536372bb
+    m_Address: Obsidian Golem (Hard) (Hidden)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 743118e1874dee34d9ef2c499bfcc7b7
+    m_Address: Abomination Gazer
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 877e4c4e8c9127f4e84ab0acf1894be4
+    m_Address: Abomination Hound
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2ab8f56a61b904344ad55f220fd4c002
+    m_Address: Abomination Rat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 51be6d31bdf40184cb2f129cbd9e7623
+    m_Address: Abyss Dragon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 48687fddc536cc54698b7abc3ae586e7
+    m_Address: Big Fish
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 04b0ac8ff4520db49adee6a9bdb2d5a6
+    m_Address: Khronos
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e506fe63535de8f40b80d5deebc6b74a
+    m_Address: Titan Aquos
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4cdafe8d27855474b9162c7026d791cd
+    m_Address: Ice Slime
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: afa10932d4663fd4ab0c2a87a79335fe
+    m_Address: Water Slime A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3cde63b0784f16b43b0b4c2478c588be
+    m_Address: Water Slime B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ac096b3a3684fb240abcb795df723af3
+    m_Address: Abyss Blue Dragon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fc9831a007c7aeb499df98339b6b6599
+    m_Address: Biofish
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5d3a06620be045441a29786cc182fd4b
+    m_Address: Piranos
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ea591712ad7ae8b49afebf0d7af793d1
+    m_Address: Arman
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 24fbb77f3265ca4499fbcc084fdf77d7
+    m_Address: Armes
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1b0b50903bd681d4b8916fea29764bbb
+    m_Address: Armon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a5d4feb4cc60c3c4d9ed754f017e0324
+    m_Address: Astral Lich
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a47cb62d7592b094a975c78fa455e650
+    m_Address: Betafish
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8650575801c0508409e99e49bc88a78a
+    m_Address: Electroctopus
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 390fd1df15d4b93458586335edc3658b
+    m_Address: Darkness Claus
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: df0158288a3613c46ae3687000e3b12d
+    m_Address: Flying Deer
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ad50f3a0fa57d4141b7f9625950997d4
+    m_Address: Ginger Bomber
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 853144f8d450caa46ab0bd6de8affa4b
+    m_Address: Invincible Mimic
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0fd6ea742af152e48b9741ca60635908
+    m_Address: Polar Bear
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0fdb13bcb84b5f14392561d3f0663251
+    m_Address: Scythe Penguin
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 41fae15a112af65478131b0487613ca4
+    m_Address: Sled Goblin
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 14e76da8ff24ee64bb9ab9639c87c506
+    m_Address: Fighter Snowman
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a75f5efb1979d054e8a6a5bfc3a62e14
+    m_Address: Magic Swordman
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6f1e76de6fa4c2e43bce710754a5f3df
+    m_Address: Thrower Bear
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f6c074c8d1101a14cbccfab39cf797ac
+    m_Address: Christmas Gift A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a6f8d38856bdca44aaa1b6e7a21d55ce
+    m_Address: Christmas Gift B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 98dcbc965c7a2cb45a8d92b6a719dc40
+    m_Address: Christmas Gift C
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: afa9344a25925df43b45c8a1b3183e17
+    m_Address: Christmas Cookie
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 51c3626074ae54d4391e7a75247706d1
+    m_Address: Gingerbread Golem
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0a7fb1e499d0bfc43afec7bd81440919
+    m_Address: Gingerbread Thrower
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f1ee21a7e543eae4f8c28c75368f129a
+    m_Address: Hunter Penguin
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4b7debd08b5b1744c86516f370e031d4
+    m_Address: Rifle Soldier
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4f56dc52c59f34342b2e77c4f28bb3c3
+    m_Address: Saber Soldier
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9eb354f55c17aed4592bb7625c552a8f
+    m_Address: Hunter Penguin
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 25f4381d7e9fab84d8234d926b2c4f3d
+    m_Address: Rifle Soldier
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c997599c47fe55747a4075c4a9c5f8b2
+    m_Address: Saber Soldier
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4f6b634e00227eb4aa699b9c7790c1c3
+    m_Address: Blue Emperor Crab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 901fd946a8380b04e878d0160307ee2d
+    m_Address: Blue Lobster
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dd89ef152e5cf8546b9bb5817840b51b
+    m_Address: Crab King Karkinos
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4f013630d05d00b479bc9894b1c73181
+    m_Address: Desert Portal
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 88e5879b59456704a9c5b5c76d08d657
+    m_Address: Green Emperor Crab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1aebb47ad5d6c844baf0ebb62efbf5e3
+    m_Address: Green Lobster
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3aad2f332b4205148bd5a0ea9bcc91b2
+    m_Address: Red Emperor Crab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0300d838afda38245823d0a7f36c3ad2
+    m_Address: Red Lobster
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fc313fc1ec7bc164c9f4849a465f55fe
+    m_Address: Turtle Golem
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3858b6c982d089a46878bcf48de19e66
+    m_Address: Hermit Crab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 850da1a0dd1e403429712f57ecb83ad9
+    m_Address: Pelican
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 134b2bb8a7decec4cbc7a94d6e4ad0e7
+    m_Address: Seagull
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8d215e0fbccffcc4fb230358ea44ef69
+    m_Address: Spore
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 40b6e591c6f6d5b4981eb73b2dd251ab
+    m_Address: Blue Spider Crab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f0e5e841d8069914887fc70e0948fb2d
+    m_Address: Green Spider Crab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1b8a9ed199b6095459780e3558176dfe
+    m_Address: Red Spider Crab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 793ccfcb1d0129643b355409ce49de9b
+    m_Address: Spikestar
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9524569358416084e93395e1a8ec9102
+    m_Address: Star Shell
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 84dc1352d8d0cc84ab5bb44fca069b5f
+    m_Address: Stars
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c0cd3dd4f714ce84a82fc020eaa9ef63
+    m_Address: Water Turtle
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dcfdb09e0d0541b4ab1506ea61b1608f
+    m_Address: Blue Shell Claw
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9b5419e1b215c834fa3fc92e23e8b9f7
+    m_Address: Dark Shell
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aa8ba805a744672449bb64bd61554bbd
+    m_Address: Dark Star
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1fea89a4b88c05f43854b284f3406b36
+    m_Address: Green Shell Claw
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 715ca435f96be2747a21530c59e34c9b
+    m_Address: Red Shell Claw
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ac4a976b812ba6b478d128c0e90a6886
+    m_Address: Urchin
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 66c40c62030b3514da1fb3fb539b8117
+    m_Address: Sea Shrimp
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3426652f7d204e649a8a152f056ed7ff
+    m_Address: Desert Parasand
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2ec5325bb1200ec45a6df8b3520d43e1
+    m_Address: Egypt Crocodile
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: adb6e8d606aa73f4abc875a13f117985
+    m_Address: Rock Bunny
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 43f29a404263f7a479d0c4da59fe07f2
+    m_Address: Rock Lizard
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5b4232d2e04444b408278d92339168de
+    m_Address: The Hieracosphinx
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 54ca379ab6547c64ab2c25dc71213696
+    m_Address: Triple Cactus
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 92cd15cea20acac49b97b88cfb570a24
+    m_Address: Cactus
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f3f37bb5582d0c441abc0ee7e6b905ee
+    m_Address: Sand Snake
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bf7482e9134e3e14bb576585cc6fdc06
+    m_Address: Sand Tentacle
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c61916d765aa9c544ad403a1cebd52b4
+    m_Address: Junior Rock Bunny
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 12c883f944fd4154db8ccdddbd69b705
+    m_Address: Junior Rock Lizard
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6863e87e1ff8d4449ac2e1da4bb43026
+    m_Address: Desert Cobra
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9ca2dd72b2f2ba5419a026d6977d035b
+    m_Address: Desert Lickitoad
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a7231911aaa7e8c4c91fae955b1d7f64
+    m_Address: Junior Egypt Crocodile
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a3d09643d4a5535499d0b27a60d53759
+    m_Address: Egypt Mage
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 66f28cae2113b2e489149fecdfdb8c7c
+    m_Address: Junior Hieracosphinx
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c6fb22253eff9474a90f539c0a1485d4
+    m_Address: Small Sphinx
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6dea3e862047f0b47868e090fe01c4b5
+    m_Address: Earth Dragon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a50f02da03038794da055fee2b1ea4ef
+    m_Address: Emperor Hydra
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b3dad89f6cca991459630fbe814b9929
+    m_Address: Kouryuu
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fcec973ddf82c03478c735b6683cc10b
+    m_Address: Leviathan
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4eb5929efa472204fb259a212edaadbc
+    m_Address: Tiamat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 905ed528574796d4998197e8c872357c
+    m_Address: Zalaras
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aceca107f2fb80948aba6536da94a580
+    m_Address: Dragon Egg A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 169ac72cc5d3c7242a2e86c58c25a27f
+    m_Address: Dragon Egg B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: df027d64049abed4198f1948b2cbdb6b
+    m_Address: Dragon Egg C
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 560ac9d853ab76f4bb796377ee22a03d
+    m_Address: Dragon Egg D
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e9e34af362c7279449a19f0d0a2e4fc8
+    m_Address: Dragon Egg E
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3b4b2fdda9de6df41b2be4e50eae83a4
+    m_Address: Brown Dragon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9a683259dc609054583eae90e881e834
+    m_Address: Brown Wyvern
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: af1d98a641e30464598cb0448434621b
+    m_Address: Darkness Dragon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1ddbb11b3ff1a7c41a8b448a67543e10
+    m_Address: Venom Dragon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 004b596825ed6ba4388841ac18d04f6a
+    m_Address: Gargoyle Grifos
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9a74f3d3084ac444b8795650d61044f3
+    m_Address: Roaming Salamander
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4f3c968e554b32547b27e6d14dd183d1
+    m_Address: Wingless Dragon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 05a9e6a25fa0d3449bc785d636f8afbf
+    m_Address: Red Dragon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 060e7177d10dcfd4487d9589555cbf50
+    m_Address: Red Wyvern
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 841c31dd93f6be141bf43416713f7371
+    m_Address: Green Dragon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f8831bbebb2f12e43a955ee6e499bedb
+    m_Address: Green Wyvern
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a660cb661a0074447bf5dc8d2439e2de
+    m_Address: Blue Dragon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 072f9c96f63b2a746802ea52f43f5f45
+    m_Address: Blue Wyvern
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bdd4d019fdef08642a89d6b4b031c3ad
+    m_Address: White Dragon Lord
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 583808bf6ae10264db552c308c239242
+    m_Address: White Dragon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: caed5f1fcfdc3e043a1a1ea054491581
+    m_Address: Archer Guardian
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b7aa1cb7949ab8144bbf494adc925b46
+    m_Address: Fairy Field Portal
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fac9b1cc6301b56419ec4d5fd512db17
+    m_Address: Magical Spear Guardian
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 33c219f3ff95b3a4992ac0f1af28c263
+    m_Address: Warrior Guardian
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3d0089b1414a18148bc93663bb0e7205
+    m_Address: Archer Soldier
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 23614b6bcacc816439b2c24774ce5e01
+    m_Address: Magical Spear Soldier
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8700599f6e328f54993c1de7acc5c72f
+    m_Address: Warrior Soldier
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c11fc51efc4cae84ca41842442e4d1e1
+    m_Address: Air Slime
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7c2b49613a0e72844a0e34e55bfe4502
+    m_Address: Air Spirit
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8951dbe28b314874bb0c54df91ddcdb3
+    m_Address: Gale Slime
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3c9cac790d4383441af80807f965ec9b
+    m_Address: Storm Slime
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 07f9702cabbb0874bb73286b75359ea0
+    m_Address: Wind Avian
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7d12e05b6213559439c665b0361b368b
+    m_Address: Wind Snake
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: deab52e41589ff241b11525fc2dd7c12
+    m_Address: Wind Wisp
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d7eacf5043521b24c899710417433a90
+    m_Address: Air Fairy
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 252b159e5419a574aae3c67b9b63248a
+    m_Address: Air Orb
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 007de948deefbe048ac92a2cca99f923
+    m_Address: Fire Fairy
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5d258ee005b66fc4fa49e433bbf86822
+    m_Address: Fire Orb
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8a8c5f77caeea094194a6fb91dde77e8
+    m_Address: Nature Fairy
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 242127668e2a7c5438362b92bc7e24a0
+    m_Address: Nature Orb
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6530ab9d5e69f1f418b170343fcc1068
+    m_Address: Water Fairy
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9adacfd1219d1424291a0fa1d7001036
+    m_Address: Water Orb
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 40f3a61eafb43974b9545ec47cbb1d99
+    m_Address: Blaze Slime
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ae427adb69271df4c87cb593eb5beab8
+    m_Address: Fire Dragonspawn
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 64589b5135659da4dbbb5bf69b1d03b9
+    m_Address: Fire Pumice Rock
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c9c9196077b819748ab4e868783fecd7
+    m_Address: Fire Slime
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e4f2b73a3ad17db42a2245d538c446e0
+    m_Address: Fire Snake
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 029487e221835aa4f83136583fa76916
+    m_Address: Fire Wisp
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 34f961c50a9b4984bb7e9177fd46b981
+    m_Address: Flare Slime
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d7260519ceb0bf0439fb078245209d20
+    m_Address: Light Gemstone A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bb54b48ea65a3ec4a8d445a7ae2b20a2
+    m_Address: Light Gemstone B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4ddc4f0175c38f8489b8d3c66b9c6ce0
+    m_Address: Light Gemstone C
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 28a48d294101cb048a3df51c22612d09
+    m_Address: Diamond Slime
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 650e1d8fe0c479841a22380caf7e5622
+    m_Address: Earth Bush Wisp
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ad5630d7f00c52746a226d1fa4b737e9
+    m_Address: Earth Leaf Imp
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 034f21b90c3d19e45a83cfde7d1bc0f0
+    m_Address: Earth Snake
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2690c313dba9d144fbdcf5975a1010b8
+    m_Address: Earth Wisp
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fcbb4d4d8d44fcc498d19c51fb59af8f
+    m_Address: Gemstone Slime
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 62665650f81b5fc4cae3cbc18e88b351
+    m_Address: Nature Slime
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4766ab5483a81e54db6fb63f23debde6
+    m_Address: Cold Slime
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 091352cf91e74cd4d842d8596465d30d
+    m_Address: Frost Slime
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f4285a761289aab4faaa648bb48501cd
+    m_Address: Ice Cave Bat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3adaba69a42978c4896196c8727cc99c
+    m_Address: Ice Slime
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b1002107c3cb263429dbf4ddb3649248
+    m_Address: Ice Snake
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: db197792a2d0ccf448542c5e38418d71
+    m_Address: Ice Spike
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f58ce3ca988811443913804d67b6e617
+    m_Address: Ice Wisp
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4e19f956d55d45d498a3de905c094423
+    m_Address: Fire Gemstone Dragon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 895fd4a8b492c694fa17aa6347d41259
+    m_Address: Fire Lion
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0a417562b99de2d4dbb9fa2be48aa955
+    m_Address: Fire Lord Titan
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 91f2c0300d0ff064f97a34fdea064b64
+    m_Address: Fire Turtle
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 819eff925936dd445905cad05e30cc3c
+    m_Address: Ifrit
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0872ee45054f1864badfbb2b9640b00f
+    m_Address: Fire Bat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2645f3af1e982b4498d4ab85548dda74
+    m_Address: Fire Gem
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 084d7b666bee19247b70d8c68c1b1e39
+    m_Address: Fire Sheep
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e2cf079f24bd67241823b6163119934c
+    m_Address: Fire Bull
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d38bf46298763dc488b3e336b214fd18
+    m_Address: Fire Golem
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 784751f5f42cfb649a13e50cf8ac6bbf
+    m_Address: Fire Kindred
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cbbd30a452a0b194c93ebaffa0f02fb2
+    m_Address: Fire Gazer
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8bbb751da1381a749aaf96b361431c5b
+    m_Address: Fire Ghost A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0b0561401272fd14b9fbf59a371df306
+    m_Address: Fire Ghost B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 49342562a7098dd4cbdc1ba39652ef48
+    m_Address: Fire Elemental Wolf
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d38feb28c6cf395478d1bf216693e830
+    m_Address: Fire Mushroom
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 540adc2cf6b907a47bd0589f2c744eba
+    m_Address: Fire Salamander
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ac86f7fbfeaeed64981c61d7152f8e30
+    m_Address: Fire Maiden
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c3f58c3d76bb83c4eb5d74c89cdf2b07
+    m_Address: Fire SaberTooth
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 64836e1f8b7add749af47f6d75bd696d
+    m_Address: Flame Knight
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1c5efda2a6ababf4fb66ba1db515cd40
+    m_Address: Air Guardian
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 391c5865e8c858c4e9100fcbd72f8f42
+    m_Address: Ultimate Wind Dragon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6c29cd6747d3d7943962ee89e1b797c8
+    m_Address: Wind Gemstone Dragon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9b2f4ae2fea63174a9f0277469fd47d9
+    m_Address: Wind Lion
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ac131105d66ea2c4ab7fa081dda3eee4
+    m_Address: Wind Titan
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f837a0854cbfd3a48aa6c4f0c53710dc
+    m_Address: Wind Fairy
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ae32fc8c7977c0242b3261b8d6961d5f
+    m_Address: Wind Gem
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e168b52c7b70f364db368f0dbeab457e
+    m_Address: Wind Razor
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e3e677faeb590eb4b9fe268364f89a42
+    m_Address: Wind Bunny
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4fcc17cc4e79a544ea987e0e64b4bfb8
+    m_Address: Wind Harpy
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e9825c9a8a3a80c4192b21d8137708ea
+    m_Address: Wind Mantis
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9243e4bf30ea7f14cba42d48ecf3de65
+    m_Address: Wind Gazer
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1fc0e2c14f2defe4c8173bd30ac6e7de
+    m_Address: Wind Orb
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 89229cbc06f145b4cab5878bfb49fc43
+    m_Address: Wind Willowisp
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b1230c36d19a1c34b88d7b90e0024523
+    m_Address: Air Harpy
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 98969d64b06b1f8469d69b27b8fef6e4
+    m_Address: Storm Hawl
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 457efdbeda331ad4bbf0dbe2b44cb8a7
+    m_Address: Wind Dodo
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ddaeded2c73e5b84587cf5342af24cae
+    m_Address: Forest Dryad
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9557bb0285461ea41bdfb0ec0a6597d4
+    m_Address: Wind Golem
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 28de791841635ee4b90d1d81f61673ae
+    m_Address: Wind Manticore
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0fd5fe65ed7e85848aa5af5b8b4dfcff
+    m_Address: Ant Queen
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cac1edbd1691fa84dae38c18b64eeda7
+    m_Address: Colossal Dark Crow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cd4f27b377366fb49bad9792ff8e3a55
+    m_Address: Corrupted Stone Bear
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 254dfc472d5ad4e4fb3d73a029630229
+    m_Address: Dragon Cave Portal
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: af5c988cc5849924a962fc0dfbd0cf17
+    m_Address: Dryad Queen
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4f60d2f96bcfbee4a8fa2ee32d638492
+    m_Address: Dryad Yggdrasil
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cac4da75a6790844681b99197852de3a
+    m_Address: Feral Kitsune
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2f237daba8f23fe4e8394454761b3f7b
+    m_Address: Junior Hydra
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e5036562df309284eae142a0cbd9487d
+    m_Address: Parrot King
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0edce47e6ee81cb49af7c7f97dbfc370
+    m_Address: Slime Golem
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d712a203549fb924db687ae45201624d
+    m_Address: Superior Fire Wolf
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ec89aaa7828e62f4ea8a7f7abc3cbf1a
+    m_Address: Superior Ice Mantis
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6ff91d272c2a2ec4686e40de1004e461
+    m_Address: Toxic Swamp Portal
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a71903a969de2ca418443e47c9ce0720
+    m_Address: Turtle Rukkha
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fd7e60085123d7547a128e6cc1e3d197
+    m_Address: Zeograth
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d47ff8e676f699340811feea4ca24843
+    m_Address: Avian Elephant
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2baf9823174dfb74e9d50e4b50822f20
+    m_Address: Avian
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5c77983952d26c5418feeabd8916b85a
+    m_Address: Blue Seeker
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 670091d1b0b45144f864b0db561cd796
+    m_Address: Garuda Guarunix
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b2c4d3192044be4468db0669df22cf56
+    m_Address: Silver Avian
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b4319d3c8841bbb44bba4ed31ec8d471
+    m_Address: Forest Darkluff
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4c11535799752cc48aa1a24685cb9143
+    m_Address: Forest Golem
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7177e2e97b820f644a79a71380ba4fb6
+    m_Address: Forest Ogre
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: af184922d217610439160a8e308ca0e3
+    m_Address: Forest Sprout
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 336717f11aaf13341be06a52f9171153
+    m_Address: Horn Willow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 96eb5e0de4ce6e9448df93c6fb55b233
+    m_Address: Tridentpupa
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d8cf38dacea6aa34bbaef194600efec3
+    m_Address: Centipede
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 39a7ae5eb4c55504c89babbcaf8d97fa
+    m_Address: Death Worm A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 25c487043110e964788b283dadd7a842
+    m_Address: Death Worm B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b92f27586341e3c4ba22697590beb2a4
+    m_Address: Forest Fairy Dragon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 99c295df864eace409576de67e0667c5
+    m_Address: Insect Dragon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d4941a6799f579149999da770af90c12
+    m_Address: Spiked Caterpillar
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 62fd53dde781d8a4087a681b90c2abac
+    m_Address: Black Colossal Snake
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c8f6555aa667dda41a01e6cde9e4a104
+    m_Address: Colossal Scorpion
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4d5b6c36d7e8f7541a187e4f4b2b8d1b
+    m_Address: Colossal Snake
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d767f4f95f80cb649a55dcf9a7f76716
+    m_Address: Lamia
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 40eafe961e70b924caffa4865631de02
+    m_Address: Red Colossal Snake
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0d332d86866e38a43a8ecbe7514e14e6
+    m_Address: Ant Lion
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 310ccbad748749e4cb2fbfedfc82def7
+    m_Address: Black Ant Archer
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 13b07246ff81dfb4d8416476d528d94e
+    m_Address: Black Ant Berserker
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ac09bc45be5bbc048b98706f53f3b07b
+    m_Address: Black Ant Knight
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cd2f2760c56521346a0403a9a0b78d49
+    m_Address: Black Ant Mage
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 74d35de8d6cdf1845aee28b6f1636016
+    m_Address: Black Ant Protector
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 36acd180898135d4c89e9f7ff5d6f5ce
+    m_Address: Red Ant Knight
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ec5663c0bb27ec4439164df2f6bf581e
+    m_Address: Eyehopper
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a09683a09e214a94aa73605a94265df2
+    m_Address: Hercules
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 04fe629fafb72134f84a0c5f24352574
+    m_Address: Hornet Warrior
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 025095fab18b17c438dfcaa916b243b3
+    m_Address: Lunar Butterfly
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 367dcdcddcb87d74193c7295016b379d
+    m_Address: Spike Hopper
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 57039383c08a54647bd4549e4feba9bf
+    m_Address: Cape Sundew
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 70c3abc73e5018c4f95ba1781124f0ed
+    m_Address: Dryad Archer
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 32a8a037d1214e446a94a2b8e7078285
+    m_Address: Dryad Mage
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6c4e65b5f9563e648967c461c85af1a9
+    m_Address: Dryad Warrior
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 921cb677a4fd32644a162213b938395c
+    m_Address: Screamer Mandrake
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e97c385fdb5567f45af5c12a59e8ebaf
+    m_Address: Bug Originator
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b5ed7f5a012126d4fbc332c2d138656f
+    m_Address: Dryad Mini
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bbce48b0ae6f80b44a87439dd74126f8
+    m_Address: Forest Spora
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d7e8bdc47f2ed3442923401b07d17879
+    m_Address: Forest Uzu
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 01c69bb4c718cfc4e8a1e010470925fd
+    m_Address: Rose Knight
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5dc2b8f2a2c3db140aa3de43faaeb8f6
+    m_Address: Cave Dweller Worm
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9b5a6e63342e2484abe1c3a6b0169d88
+    m_Address: Colossal Bat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d61a699cc9636ed4c9cec08b1071dac3
+    m_Address: Dark Crow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7d66b26235f6328419d092e6dd0b0eda
+    m_Address: Fire Wolf
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 57e5b9efeefbf3b408e52885fba5ba85
+    m_Address: Forest Catermoth
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 67b56075d035ae0458d5eaa7be4948ab
+    m_Address: Ice Mantis
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9b5a7eb9aa395ca4e8673423754f2e41
+    m_Address: Mini Hydra
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 38a542ed2dcc9104080027d1a202b680
+    m_Address: Frost Wolf
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bd2a82f8342495b49b0c0bec4ad98891
+    m_Address: Ice Lion
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9f0526db610024b43ab7431837afb5ba
+    m_Address: Ice Titan
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 01f6e625446f8d64c8dfbb1b94018c77
+    m_Address: Ice Turtle
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eaa6f50f53583294186bbda13b97a722
+    m_Address: Water Gemstone Dragon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6652208188aa65e43bdf09e54f95c38f
+    m_Address: Ice Avian
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 147b536f7c2d8984f933f2914ef4d5cb
+    m_Address: Ice Glacier
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5396ffb673c2eac44a42e78191a8612e
+    m_Address: Water Gem
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 332ff9d8fb9e9b94a831003c06582b96
+    m_Address: Ice Bull
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6cbd528ceba2a3c4a90957edda482d8d
+    m_Address: Ice Golem
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a88086f45d57b7348b5de668358ce4b2
+    m_Address: Ice Kindred
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b981b2c7484a6c740b0ac3d8034b5dbc
+    m_Address: Water Boitata
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 970d134a0a1f9294aada055dfbea4ebf
+    m_Address: Water Gazer
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 04ae0fb28492a914997b8e04709971e0
+    m_Address: Water Willowisp
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8c03ceba49663b84a8860e432f8acdaa
+    m_Address: Ice Ape
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dbaea98afc4b36f4c8c18918acdf1560
+    m_Address: Ice Mushroom
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aef641f3099dab9419350f73844d0b2b
+    m_Address: Ice Wolf
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 680daa2b4bcdbd54e88c30201e6eefec
+    m_Address: Frost Gorilla
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 535f8d9f396ea8c4a8ac7e3544ddf303
+    m_Address: Ice Maiden
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e7f6b146ba4343c41816266dd8dd1539
+    m_Address: Ice Ogre
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 71f45c1a3441f4d458d4b3cec3c2fff0
+    m_Address: Assassin Garland
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ee4772a6437777947a96398a77c06a0b
+    m_Address: Behemoth
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 164d6ec508ca94b46be03f470df30562
+    m_Address: Cerberus Ptolemaios
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e2408a84f93d13247a323281820d5998
+    m_Address: Crystal Golem
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a8ea5090d6972394daa37e689e9a1d33
+    m_Address: Daidarabotchi
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6244ee89d16fff74696eb2ba31386605
+    m_Address: Diamond Dog
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ac6a2a11196a5e64ea53160c2c2cc7cc
+    m_Address: Divine Portal
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c2413f6339e0c5c42a04baa73099f135
+    m_Address: Mage Dagon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 60a809e616b2370449fe9e73dde150f3
+    m_Address: Radulac The Voildvod
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f4ded3d16c151e04290a25ee917fb2f4
+    m_Address: Samurai Skeleton
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 23cad4ad3801e3941a6acd25010afa68
+    m_Address: Undead King Berthelot
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: df077c418edb74f45bc7ae376b9a9676
+    m_Address: Blue Wyvern
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f928ac85999a42e40b4214f9a5709232
+    m_Address: Brown Wyvern
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4e77863140366bb4b9be338f9c9c285a
+    m_Address: Green Wyvern
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5dacd831dd8ea96428a35a47c0e5cbf1
+    m_Address: Red Wyvern
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 22afd163d84c8504fbc365b1685b4dd9
+    m_Address: Yellow Wyvern
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7d0fafe8ac789d2438936ea2debcc2bc
+    m_Address: Abismos
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 42f7c9aa87c9b1c48bf73d87fab7a4d9
+    m_Address: Calamity Urmica
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7f8d2f30ee723f34abd4bbd17b91a5fa
+    m_Address: Mermaid Warrior Undeen
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 35e9aee829c17d8419b0189d6a77db2d
+    m_Address: Superior Spheria (Hidden)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 136347dc3ae6586418b655087e94215e
+    m_Address: Sea Crab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cde3bb9d9c9501f4bbe4d72cc508cc7e
+    m_Address: Sea Horse
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1960b69c76c72ba4e85227a8cc2d3363
+    m_Address: Sea Lurker
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0c03f33f95dbf254984165555de32d3e
+    m_Address: Octi
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6474ce4dc5b9b744f808137488d3a52a
+    m_Address: Octopus
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 80b994f9c3fe6c94f80435dd549a47a1
+    m_Address: Shark
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 907865bedba830744a717883cc8b4ef6
+    m_Address: Fatoad
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d4985ddf0517f9047b3336c91bf4afb4
+    m_Address: Horntle
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1c5d00dd897553545ae631cd9a4d7f4b
+    m_Address: Sea Turtle
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e5dac1dd05078584ba7b215f2111b4fe
+    m_Address: Tortoad
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8dca022a6dac9ca40aa62c81df20d717
+    m_Address: Jellyfish
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: affc77cd7056b894da3626ed7a274c0a
+    m_Address: Shelltacke
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0082e5389bb0dee498eb80c0c3673371
+    m_Address: Spheria
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 56a05eebb9684b54ba766d13c5e3e8c7
+    m_Address: Mermaid Warrior Arliette
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5bcc2b02e76b02741940e3be928ae1fe
+    m_Address: Mermaid Warrior Sasha
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 81b2aff258d24b742a431a13ef27274e
+    m_Address: Mermaid Warrior Sion
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f467d8c5d092364499e0f3db6c45f02c
+    m_Address: Mermaid
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fea4dccc753773f46add00b23acb573b
+    m_Address: Fish A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bee6a35b67b79d64eb9ccbab72aeed4c
+    m_Address: Fish B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 00d0bc730f60c194e80a25e0e31ea144
+    m_Address: Fish C
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c10e25f2107e3f642950bfd6c0756588
+    m_Address: Arcane Golem (Hidden)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 62375c7aa6f8cf64c8f9754dedc676b4
+    m_Address: Cave Portal
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: de91e934d966ef44b87b933e47ee3db4
+    m_Address: Forest Panda
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cc3889030cf58094881ebb11e2064171
+    m_Address: Forest Tree
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1fe08c54fd3c9a74598b6a99c70985e2
+    m_Address: Slime King
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 982dd2c4b93e19b4ebc3445a405a4388
+    m_Address: Superior Fairy
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c2b6c64a8e964504d9386cd50c53d983
+    m_Address: Superior Shroomy
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fd11415888ec26f4081d806bd62e7a64
+    m_Address: Blue Flower
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 23acc0e2c19eb034caae23d4ab9e4e3b
+    m_Address: Blue Slime
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 41dee10e66e980b40b0a818a3d169460
+    m_Address: Mobun
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 182db33b2fa47e84ca715568b536682a
+    m_Address: Noxluff
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a11cad8da2ca14b4eb6c99ba6e3d73b0
+    m_Address: Red Flower
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1ca139e23d76c194db4928032a31a0d5
+    m_Address: White Flower
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 925d709aa9cbefb47953ac22c687a673
+    m_Address: Fairy Filia
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d690413cdb31b13489a824e6b2b3919b
+    m_Address: Fangrot
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 18790daebafa55d4d97b0dbd0bb84243
+    m_Address: Kawabun
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7fa08dd41f3028245801c48934f21373
+    m_Address: Sliime
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4114c59baca2a394191fd93aba818fdc
+    m_Address: Slime Caster
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f3e574fab8c88294780b54d0b99ef70c
+    m_Address: Slime
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 13bdd452a06ae6e4c889fcc3be2a1b78
+    m_Address: Deer
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b02ca2ab58cd6544ea172285485dd644
+    m_Address: Green Spider
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 432e0fc8c12da934e88aea4d19a05683
+    m_Address: Mothy
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ed62e484719c7ed4785901172b2ec1f0
+    m_Address: Shroom
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8e5e07e6ed74998419c566d4918ad491
+    m_Address: Shroomy
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 853f2af8bfc153348b4cede265e36743
+    m_Address: Sliiime
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8bae91bd5e053504f8e30258b328c139
+    m_Address: Grasshopper
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 23e76c4c18d15824b8c2e5a747a4d71a
+    m_Address: Imperial Widow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 49cbfd361b690d7419a6daab9df90a1e
+    m_Address: Mantis
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d80ba21ef619f934faa4fb70e8387505
+    m_Address: Spider
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 92fc256ab6f918f438d4e3a725d0d78b
+    m_Address: Tree
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 28a4faf702cd08f42a8f9b2e54ba7bcf
+    m_Address: Waterstrider
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 02cd169267cf9104d8648eec36f4dffa
+    m_Address: Caterpillar A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d025e6485c10c0349aaf448f28043612
+    m_Address: Caterpillar B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1c12d8592d1594e43a86f6da2c63feb3
+    m_Address: Dragonfly A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6ded39f553c04194385b7856aaa9d63e
+    m_Address: Dragonfly B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2e428fde9ab2aa74f8d2b676f2d2c92f
+    m_Address: Panda
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2ca772bf1a2a17044b32c9b25b3e335a
+    m_Address: Sliiiime
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e16ba0c21ba781f4e96d94be65005d73
+    m_Address: Acid Slime
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a6393c6680eedfc4b9cb69080e20969d
+    m_Address: Giant Toxic Root
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9e0c1d9b45a1982479a0863da81f1179
+    m_Address: Superior Maneater Plant
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ab2469e2d02171a489efdadd85b75b1f
+    m_Address: Superior Skull
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8585801730dcfa8489f037c1114c56fd
+    m_Address: Superior Toxic Carnivorous Plant
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5678422824b9a844a8b9b6ffa9cfc794
+    m_Address: Superior Toxic Shroom
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 31d81b69167f5e247a8642af136d2c23
+    m_Address: Toxic Cactus
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3087e4df071bc8147be457d37ec75d9d
+    m_Address: Toxic Carnivorous Plant
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e8a326e55c7afd34c863ced4129f3ed2
+    m_Address: Toxic Maneater Plant
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3bb3b59b8e88f50499eb7578ca0a7d8e
+    m_Address: Toxic Shroom A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c46ca6589a608e74b9716def92183709
+    m_Address: Toxic Shroom B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 73255203a0cdb6843a4c1fc27acb80d0
+    m_Address: Toxic Shroom C
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b1f0dc132600bd448973a8b8fa0ec8df
+    m_Address: Toxic Feathered Snake
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: edda7d22c2e91604183d1735ad2913fa
+    m_Address: Toxic Frog A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b55afd256024e96449f411e5a74e14d7
+    m_Address: Toxic Frog B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d22d3ced442092d4b897c8fcc40d08df
+    m_Address: Toxic Frog C
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 62965330ef35a154789b7fc44a4aea80
+    m_Address: Toxic Root
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b06f1e433c026584f9de4ca9df4f16e7
+    m_Address: Earth Dragon Terraos
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 13356cbdb62cd624c90b5030aff8bd46
+    m_Address: Earth Drake
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 75b66656ab5b5db4882cc4cf72f90b09
+    m_Address: Earth Gemstone Golem
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a7886858f2b78414c9456a9853e6cb84
+    m_Address: Earth Taurus
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1d9d79a6291228f4e99164d0e7c74101
+    m_Address: Earth Turtle
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3809a481e0503f545acef7765f7a811c
+    m_Address: Earth Bat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 648336d5fef1571468b44ef54344c9e2
+    m_Address: Earth Mandrake
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 67ba2a7d744ac4e4fba1e9e5e412c094
+    m_Address: Nature Gem
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f5802e54d5bdbdc4cb021426eecf075d
+    m_Address: Earth Bull
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 912b3fa1b896a034b92ba5fa1e1d8345
+    m_Address: Earth Lion
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7a1cfe21d35d378449d1013e5e021d81
+    m_Address: Earth Rock Golem
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e0531c21b5bb8184381a7bed14c2a93d
+    m_Address: Earth Griphon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ee727b016a8fc7b4fb5e714ebdd0561a
+    m_Address: Earth Wolf
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 24f5c0345902410408c97be96209f707
+    m_Address: Forest Turtle
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9c3db0434c481474e94b64a94d8fe971
+    m_Address: Constrictor Boa
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 839b18bc775eab449841d62fdc1cd13c
+    m_Address: Death Worm
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fa9865599a3942b4f80a90f04799a27f
+    m_Address: Hellhound Garm
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b72f1297a566a78439ca1aa07ae3dfc5
+    m_Address: Earth Giant Lobster
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 280a5ddcffd2c2448ad5c9cc49c02ca6
+    m_Address: Earth Scorpion
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5e59e9a8ebebaf94cbd2f1969dc898b5
+    m_Address: Earth Spider
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1b4c6bdebcd00e74dbfed2e3afe9da1f
+    m_Address: Swarm of Books
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - mob
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 482d79c217fd56d4285aa89a01160bdf, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: c473a9a365d86f54e823ca22974aaeb2, type: 2}
+    - {fileID: 11400000, guid: 434ab3cda1c699d46af24863888a0fd2, type: 2}

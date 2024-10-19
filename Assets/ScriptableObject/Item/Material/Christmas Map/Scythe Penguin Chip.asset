@@ -13,6 +13,12 @@ MonoBehaviour:
   m_Name: Scythe Penguin Chip
   m_EditorClassIdentifier: 
   itemSprite: {fileID: -310083732, guid: 4dc3a2a4b323385418d43dcbed2a01a6, type: 3}
+  itemSpriteRef:
+    m_AssetGUID: 4dc3a2a4b323385418d43dcbed2a01a6
+    m_SubObjectName: pixel_items3_33
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 0
   legacyID: Material-General-1-Scythe Penguin Chip
   level: 1

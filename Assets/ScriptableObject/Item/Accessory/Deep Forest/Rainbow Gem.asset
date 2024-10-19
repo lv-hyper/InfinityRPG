@@ -14,6 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: -1151204304160054224, guid: e264130262aa74b43abaa59091cb5bc0,
     type: 3}
+  itemSpriteRef:
+    m_AssetGUID: e264130262aa74b43abaa59091cb5bc0
+    m_SubObjectName: Rainbow Gem_0
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 2
   legacyID: General-DeepForest-100000-Rainbow Gem
   level: 100000

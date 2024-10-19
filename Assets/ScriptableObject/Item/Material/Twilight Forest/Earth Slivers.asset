@@ -13,6 +13,12 @@ MonoBehaviour:
   m_Name: Earth Slivers
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 1616896215, guid: bfc09cd9c76526c4995ce8298926ed66, type: 3}
+  itemSpriteRef:
+    m_AssetGUID: bfc09cd9c76526c4995ce8298926ed66
+    m_SubObjectName: pixel_items2_10
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 14
   legacyID: Material-TwilightForest-0-Earth Slivers
   level: 0

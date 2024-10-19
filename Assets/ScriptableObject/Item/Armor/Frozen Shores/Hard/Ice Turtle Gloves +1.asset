@@ -13,6 +13,12 @@ MonoBehaviour:
   m_Name: Ice Turtle Gloves +1
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 1712030442, guid: 7dd87105d9f68da41b697ede28940815, type: 3}
+  itemSpriteRef:
+    m_AssetGUID: 7dd87105d9f68da41b697ede28940815
+    m_SubObjectName: Ice Turtle Gloves +1
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 13
   legacyID: Glove-FrozenShores-0-Ice Turtle Gloves +1
   level: 0
@@ -20,7 +26,7 @@ MonoBehaviour:
   maxStack: 10
   maxWornCount: 1
   price: 0
-  shortDesc: 
+  shortDesc: Gloves
   longDesc: 
   itemAbilities:
   - abilityData:

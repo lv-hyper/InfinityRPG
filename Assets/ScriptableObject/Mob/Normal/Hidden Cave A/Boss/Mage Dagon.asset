@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: Mage Dagon
   m_EditorClassIdentifier: 
   mobSprite: {fileID: 21300000, guid: a23caee399fc7f14d8f4fcfbb08c3a83, type: 3}
+  mobSpriteRef:
+    m_AssetGUID: a23caee399fc7f14d8f4fcfbb08c3a83
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   imageOffset: {x: 0, y: 0}
   description: 
   mobClass: 1
@@ -28,6 +33,7 @@ MonoBehaviour:
   defReqRate: 1
   hidden: 0
   skills: []
+  skillRefs: []
   customHP: -1
   customATK: -1
   maxDefenceRatio: 2

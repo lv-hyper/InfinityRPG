@@ -10,9 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fd75eaf169c10cb4abd33a108262ee8f, type: 3}
-  m_Name: Fire Sabertooth
+  m_Name: Fire SaberTooth
   m_EditorClassIdentifier: 
   mobSprite: {fileID: 21300000, guid: aca3cd5d1be2e9d45bb18d8a863436be, type: 3}
+  mobSpriteRef:
+    m_AssetGUID: aca3cd5d1be2e9d45bb18d8a863436be
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   imageOffset: {x: 0, y: 0}
   description: 
   mobClass: 1
@@ -30,6 +35,7 @@ MonoBehaviour:
   defReqRate: 1.7
   hidden: 0
   skills: []
+  skillRefs: []
   customHP: -1
   customATK: -1
   maxDefenceRatio: 2

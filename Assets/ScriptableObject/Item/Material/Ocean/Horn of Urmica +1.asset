@@ -14,6 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 7752914746541585796, guid: f00d70c7385ec054098e2bfc3336cc71,
     type: 3}
+  itemSpriteRef:
+    m_AssetGUID: f00d70c7385ec054098e2bfc3336cc71
+    m_SubObjectName: ocean+1_0
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 5
   legacyID: Material-Ocean-1700000000-Horn Of Urmica +1
   level: 1700000000

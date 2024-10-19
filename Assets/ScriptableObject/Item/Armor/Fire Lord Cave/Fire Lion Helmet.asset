@@ -13,6 +13,12 @@ MonoBehaviour:
   m_Name: Fire Lion Helmet
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 1781007675, guid: 3343b71f911332942a21ad314874de03, type: 3}
+  itemSpriteRef:
+    m_AssetGUID: 3343b71f911332942a21ad314874de03
+    m_SubObjectName: Fire Lion Helmet
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 12
   legacyID: Helmet-FireLordCave-0-Fire Lion Helmet
   level: 0
@@ -20,7 +26,7 @@ MonoBehaviour:
   maxStack: 10
   maxWornCount: 1
   price: 0
-  shortDesc: 
+  shortDesc: Helmet
   longDesc: 
   itemAbilities:
   - abilityData:

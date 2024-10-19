@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcd0cba9d37c1734f97da892cf4257e6, type: 3}
+  m_Name: Fire Gemstone Dragon (Hard)
+  m_EditorClassIdentifier: 
+  mobSprite: {fileID: 21300000, guid: f094e275d8724f74d97cd23032d63406, type: 3}
+  mobSpriteRef:
+    m_AssetGUID: f094e275d8724f74d97cd23032d63406
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  imageOffset: {x: 0, y: 0}
+  description: 
+  mobClass: 1
+  elementalDamage:
+  - elemental: 3
+    amount: 420
+  elementalDefence: []
+  integratedElementalDefence: 180
+  lv: 27000000000000
+  difficulty: hard
+  hpRate: 1
+  atkRate: 0.9
+  expRate: 1
+  goldRate: 1
+  defReqRate: 1.5
+  hidden: 0
+  skills:
+  - {fileID: 11400000, guid: 73e9399bc7324184d9e444d750235e69, type: 2}
+  skillRefs:
+  - m_AssetGUID: 73e9399bc7324184d9e444d750235e69
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  customHP: -1
+  customATK: -1
+  maxDefenceRatio: 2
+  dropTable:
+  - item: {fileID: 11400000, guid: 6fe684890236a14488c95c3dc977322a, type: 2}
+    probablity: 0.03
+  - item: {fileID: 11400000, guid: 6b17e21240f2bbc408d21888a8d05ec3, type: 2}
+    probablity: 0.03
+  - item: {fileID: 11400000, guid: 0d1b3dd552659af41a666001ac47c202, type: 2}
+    probablity: 0.03
+  tagList: []
+  soulLv: 5
+  progressionLevel: 0
+  elementalSoulDrops:
+  - elementalType: 3
+    count: 11

@@ -14,6 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: -662871286125015502, guid: f00d70c7385ec054098e2bfc3336cc71,
     type: 3}
+  itemSpriteRef:
+    m_AssetGUID: f00d70c7385ec054098e2bfc3336cc71
+    m_SubObjectName: ocean+1_2
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 5
   legacyID: Material-Ocean-1750000000-Scale Of Abismos +1
   level: 1750000000

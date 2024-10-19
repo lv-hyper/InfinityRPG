@@ -285,7 +285,7 @@ MonoBehaviour:
       category: 5
       skill: {fileID: 11400000, guid: 6ae22a283b9bede448cb4aa2f151f613, type: 2}
       upgradeCount: 4
-  elemental: 1
+  elemental: 5
   mainIcon: {fileID: 1429780580, guid: 47c2c0d06e58f124396c7c7ea680060b, type: 3}
   offensiveSkillIcon: {fileID: -386798972, guid: 18276612bf6d8404786e10f8400729f9,
     type: 3}

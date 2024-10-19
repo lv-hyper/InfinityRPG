@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: Blue Wyvern
   m_EditorClassIdentifier: 
   mobSprite: {fileID: 21300000, guid: 96098100bb6acb04f9667866d7f3c8ec, type: 3}
+  mobSpriteRef:
+    m_AssetGUID: 96098100bb6acb04f9667866d7f3c8ec
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   imageOffset: {x: 0, y: 0}
   description: 
   mobClass: 0
@@ -28,6 +33,7 @@ MonoBehaviour:
   defReqRate: 1
   hidden: 0
   skills: []
+  skillRefs: []
   customHP: -1
   customATK: -1
   maxDefenceRatio: 2

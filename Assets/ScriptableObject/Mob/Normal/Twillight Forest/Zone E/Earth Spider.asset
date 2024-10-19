@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: Earth Spider
   m_EditorClassIdentifier: 
   mobSprite: {fileID: 21300000, guid: d0deb5e7942f9f74ba114e5548ca9810, type: 3}
+  mobSpriteRef:
+    m_AssetGUID: d0deb5e7942f9f74ba114e5548ca9810
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   imageOffset: {x: 0, y: 0}
   description: 
   mobClass: 2
@@ -30,6 +35,7 @@ MonoBehaviour:
   defReqRate: 1.7
   hidden: 0
   skills: []
+  skillRefs: []
   customHP: -1
   customATK: -1
   maxDefenceRatio: 2

@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: Water Fairy
   m_EditorClassIdentifier: 
   mobSprite: {fileID: 21300000, guid: 385a57b4e70df03408f3e21f247b276b, type: 3}
+  mobSpriteRef:
+    m_AssetGUID: 385a57b4e70df03408f3e21f247b276b
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   imageOffset: {x: 0, y: 0}
   description: 
   mobClass: 2147483647
@@ -39,6 +44,11 @@ MonoBehaviour:
   hidden: 0
   skills:
   - {fileID: 11400000, guid: 883c64c1da102444684b973ace75ef9c, type: 2}
+  skillRefs:
+  - m_AssetGUID: 883c64c1da102444684b973ace75ef9c
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   customHP: -1
   customATK: -1
   maxDefenceRatio: 2

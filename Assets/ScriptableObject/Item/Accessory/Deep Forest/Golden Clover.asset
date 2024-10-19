@@ -13,6 +13,12 @@ MonoBehaviour:
   m_Name: Golden Clover
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 386692830, guid: 7eed70f66e1ff144ab27d11f8cac96c6, type: 3}
+  itemSpriteRef:
+    m_AssetGUID: 7eed70f66e1ff144ab27d11f8cac96c6
+    m_SubObjectName: Golden Clover_0
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 2
   legacyID: General-DeepForest-0-Golden Clover
   level: 0

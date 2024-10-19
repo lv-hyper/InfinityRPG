@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: Dragon Egg A
   m_EditorClassIdentifier: 
   mobSprite: {fileID: 21300000, guid: 4f7199903df970b45ac1e0f4f40029cc, type: 3}
+  mobSpriteRef:
+    m_AssetGUID: 4f7199903df970b45ac1e0f4f40029cc
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   imageOffset: {x: 0, y: 0}
   description: 
   mobClass: 0
@@ -28,6 +33,7 @@ MonoBehaviour:
   defReqRate: 1
   hidden: 0
   skills: []
+  skillRefs: []
   customHP: -1
   customATK: -1
   maxDefenceRatio: 2

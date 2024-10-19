@@ -14,6 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 471547630193455843, guid: ff8446263742eaa4898952ed92345ad3,
     type: 3}
+  itemSpriteRef:
+    m_AssetGUID: ff8446263742eaa4898952ed92345ad3
+    m_SubObjectName: Toxic_Forest_16
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 9
   legacyID: General-VenomousForest-5400000000-Skull Horn
   level: 5400000000

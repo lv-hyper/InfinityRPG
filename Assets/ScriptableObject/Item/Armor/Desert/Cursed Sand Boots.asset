@@ -13,6 +13,12 @@ MonoBehaviour:
   m_Name: Cursed Sand Boots
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 472538520, guid: feaa62b01f0a4884f981869ce7a02251, type: 3}
+  itemSpriteRef:
+    m_AssetGUID: feaa62b01f0a4884f981869ce7a02251
+    m_SubObjectName: Cursed Sand Boots
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 8
   legacyID: Greave-Desert-50000000-Cursed Sand Boots
   level: 50000000
@@ -20,7 +26,7 @@ MonoBehaviour:
   maxStack: 10
   maxWornCount: 1
   price: 0
-  shortDesc: 
+  shortDesc: Boots
   longDesc: 
   itemAbilities:
   - abilityData:

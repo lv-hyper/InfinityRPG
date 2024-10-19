@@ -13,6 +13,12 @@ MonoBehaviour:
   m_Name: Fire Soul Sword +1
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 921640840, guid: d444f0c6719065b4db4708515b04711f, type: 3}
+  itemSpriteRef:
+    m_AssetGUID: d444f0c6719065b4db4708515b04711f
+    m_SubObjectName: Fire Soul Sword +1
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 12
   legacyID: Weapon-FireLordCave-0-Fire Soul Sword
   level: 0

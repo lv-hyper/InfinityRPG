@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: Turtle Golem Pendant
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 21300000, guid: 31d44a79a156ae1409974d7966023926, type: 3}
+  itemSpriteRef:
+    m_AssetGUID: 31d44a79a156ae1409974d7966023926
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   zone: 4
   legacyID: General-Beach-370000000-Turtle Golem Pendant
   level: 370000000

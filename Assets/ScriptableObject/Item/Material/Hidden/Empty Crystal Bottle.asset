@@ -14,6 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 4582170749429412959, guid: 66cc13b398c62eb43bbb5989b09ebca2,
     type: 3}
+  itemSpriteRef:
+    m_AssetGUID: 66cc13b398c62eb43bbb5989b09ebca2
+    m_SubObjectName: resources_basic_64
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 0
   legacyID: Material-General-0-Empty Crystal Bottle
   level: 0

@@ -14,6 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 3739072819515373850, guid: 3166a4428764ae44d86d60d73c84b780,
     type: 3}
+  itemSpriteRef:
+    m_AssetGUID: 3166a4428764ae44d86d60d73c84b780
+    m_SubObjectName: ocean+1-2_0
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 5
   legacyID: Weapon-Ocean-2000000000-Spheria Staff +1
   level: 2000000000

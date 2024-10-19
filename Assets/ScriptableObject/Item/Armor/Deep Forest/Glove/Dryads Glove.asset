@@ -14,6 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 2669219891523302391, guid: f2230cf6bbe9dd043972e3b437ad9a83,
     type: 3}
+  itemSpriteRef:
+    m_AssetGUID: f2230cf6bbe9dd043972e3b437ad9a83
+    m_SubObjectName: farFroest_17
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 2
   legacyID: Glove-DeepForest-135000-Dryads Glove
   level: 135000

@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: Abyss Dragon
   m_EditorClassIdentifier: 
   mobSprite: {fileID: 21300000, guid: 1ddf46c2406f11447b159db9ad4f57d7, type: 3}
+  mobSpriteRef:
+    m_AssetGUID: 1ddf46c2406f11447b159db9ad4f57d7
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   imageOffset: {x: 0, y: 0}
   description: 
   mobClass: 0
@@ -28,6 +33,7 @@ MonoBehaviour:
   defReqRate: 1
   hidden: 0
   skills: []
+  skillRefs: []
   customHP: -1
   customATK: -1
   maxDefenceRatio: 2

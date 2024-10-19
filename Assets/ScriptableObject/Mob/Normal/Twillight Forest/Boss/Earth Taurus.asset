@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: Earth Taurus
   m_EditorClassIdentifier: 
   mobSprite: {fileID: 21300000, guid: 4fbffa66ed9dfca4b9f36751bf9cfc6f, type: 3}
+  mobSpriteRef:
+    m_AssetGUID: 4fbffa66ed9dfca4b9f36751bf9cfc6f
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   imageOffset: {x: 0, y: 0}
   description: 
   mobClass: 2
@@ -31,6 +36,11 @@ MonoBehaviour:
   hidden: 0
   skills:
   - {fileID: 11400000, guid: 96f17c49d180ae8439f61fc62b90b7ac, type: 2}
+  skillRefs:
+  - m_AssetGUID: 96f17c49d180ae8439f61fc62b90b7ac
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   customHP: -1
   customATK: -1
   maxDefenceRatio: 2

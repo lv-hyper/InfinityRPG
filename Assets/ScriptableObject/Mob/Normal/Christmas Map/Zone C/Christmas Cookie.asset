@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: Christmas Cookie
   m_EditorClassIdentifier: 
   mobSprite: {fileID: 21300000, guid: 25ff53d91b1e57b43bf24fb5b8d06996, type: 3}
+  mobSpriteRef:
+    m_AssetGUID: 25ff53d91b1e57b43bf24fb5b8d06996
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   imageOffset: {x: 0, y: 0}
   description: 
   mobClass: 1
@@ -28,6 +33,7 @@ MonoBehaviour:
   defReqRate: 1
   hidden: 0
   skills: []
+  skillRefs: []
   customHP: 0
   customATK: 0
   maxDefenceRatio: 2

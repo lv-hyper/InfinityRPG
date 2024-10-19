@@ -13,6 +13,12 @@ MonoBehaviour:
   m_Name: Ancient Armor
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 1593361142, guid: cb62b4930030c5c4193ae410754e8986, type: 3}
+  itemSpriteRef:
+    m_AssetGUID: cb62b4930030c5c4193ae410754e8986
+    m_SubObjectName: ancient__2
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 0
   legacyID: Robe-General-44444444444-Ancient Armor
   level: 44444444444
@@ -20,7 +26,7 @@ MonoBehaviour:
   maxStack: 10
   maxWornCount: 1
   price: 0
-  shortDesc: Breastplate
+  shortDesc: Armor
   longDesc: Obtained from Toxic Slime
   itemAbilities:
   - abilityData:

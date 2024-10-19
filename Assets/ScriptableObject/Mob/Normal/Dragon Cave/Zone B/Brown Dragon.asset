@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: Brown Dragon
   m_EditorClassIdentifier: 
   mobSprite: {fileID: 21300000, guid: 496b1e076468a684d9af66525b98dd3a, type: 3}
+  mobSpriteRef:
+    m_AssetGUID: 496b1e076468a684d9af66525b98dd3a
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   imageOffset: {x: 0, y: 0}
   description: 
   mobClass: 0
@@ -28,6 +33,7 @@ MonoBehaviour:
   defReqRate: 1
   hidden: 0
   skills: []
+  skillRefs: []
   customHP: -1
   customATK: -1
   maxDefenceRatio: 2

@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0d77133b170acf49a06ed500770a584, type: 3}
+  m_Name: Corrupted Glove +1
+  m_EditorClassIdentifier: 
+  itemSprite: {fileID: -690494089, guid: 5f4ccae0329e5cb4f8c40b94450bdcc8, type: 3}
+  itemSpriteRef:
+    m_AssetGUID: 5f4ccae0329e5cb4f8c40b94450bdcc8
+    m_SubObjectName: Corrupted Glove +1
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
+  zone: 0
+  legacyID: 
+  level: 1750000000
+  order: 0
+  maxStack: 10
+  maxWornCount: 1
+  price: 0
+  shortDesc: Glove
+  longDesc: Made with the power of the Corrutpted Eldritch God
+  itemAbilities:
+  - abilityData:
+      ability: {fileID: 11400000, guid: 14973c998a968324eba5d1189dfc6ace, type: 2}
+      amount: 345
+    isPassive: 0
+  - abilityData:
+      ability: {fileID: 11400000, guid: 480eeac1ba90dfa408c47d451ea0cb7e, type: 2}
+      amount: 345
+    isPassive: 0
+  - abilityData:
+      ability: {fileID: 11400000, guid: a0f41aa27f0cbdb45b0805d531073d8c, type: 2}
+      amount: 345
+    isPassive: 0
+  tagResists: []

@@ -14,6 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: -1878309322880126620, guid: 66cc13b398c62eb43bbb5989b09ebca2,
     type: 3}
+  itemSpriteRef:
+    m_AssetGUID: 66cc13b398c62eb43bbb5989b09ebca2
+    m_SubObjectName: resources_basic_87
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 11
   legacyID: Material-FloatingCastle-0-Air Soul
   level: 0

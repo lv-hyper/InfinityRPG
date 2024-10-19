@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: Slime Caster
   m_EditorClassIdentifier: 
   mobSprite: {fileID: 21300000, guid: 1a370c8f65195ce44b4aff074a415041, type: 3}
+  mobSpriteRef:
+    m_AssetGUID: 1a370c8f65195ce44b4aff074a415041
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   imageOffset: {x: 0, y: 0}
   description: 
   mobClass: 1
@@ -28,6 +33,7 @@ MonoBehaviour:
   defReqRate: 1
   hidden: 0
   skills: []
+  skillRefs: []
   customHP: 0
   customATK: 0
   maxDefenceRatio: 2

@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: Fire Gemstone Dragon
   m_EditorClassIdentifier: 
   mobSprite: {fileID: 21300000, guid: f094e275d8724f74d97cd23032d63406, type: 3}
+  mobSpriteRef:
+    m_AssetGUID: f094e275d8724f74d97cd23032d63406
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   imageOffset: {x: 0, y: 0}
   description: 
   mobClass: 1
@@ -31,6 +36,11 @@ MonoBehaviour:
   hidden: 0
   skills:
   - {fileID: 11400000, guid: 73e9399bc7324184d9e444d750235e69, type: 2}
+  skillRefs:
+  - m_AssetGUID: 73e9399bc7324184d9e444d750235e69
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   customHP: -1
   customATK: -1
   maxDefenceRatio: 2

@@ -14,6 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: -4706415463413810417, guid: e831ee1edea549649a7aeb10a71709f6,
     type: 3}
+  itemSpriteRef:
+    m_AssetGUID: e831ee1edea549649a7aeb10a71709f6
+    m_SubObjectName: desert_17
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 8
   legacyID: Greave-Desert-6200000000-Rock Boots
   level: 6200000000

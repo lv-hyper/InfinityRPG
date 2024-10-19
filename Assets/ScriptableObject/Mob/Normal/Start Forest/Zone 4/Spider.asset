@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: Spider
   m_EditorClassIdentifier: 
   mobSprite: {fileID: 21300000, guid: ddf71fa8354d4da49b5c217e99f59f0e, type: 3}
+  mobSpriteRef:
+    m_AssetGUID: ddf71fa8354d4da49b5c217e99f59f0e
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   imageOffset: {x: 0, y: 0}
   description: 
   mobClass: 2
@@ -28,6 +33,7 @@ MonoBehaviour:
   defReqRate: 1
   hidden: 0
   skills: []
+  skillRefs: []
   customHP: 0
   customATK: 0
   maxDefenceRatio: 2

@@ -14,6 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: -346009676770994188, guid: 6701e73ba5afed84692416f5c35473ed,
     type: 3}
+  itemSpriteRef:
+    m_AssetGUID: 6701e73ba5afed84692416f5c35473ed
+    m_SubObjectName: upper_zone_6
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 3
   legacyID: Helmet-HiddenCave1-1300000-Golden Crown
   level: 1300000

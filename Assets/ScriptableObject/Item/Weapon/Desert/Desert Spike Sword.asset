@@ -14,6 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 603645287242772497, guid: e831ee1edea549649a7aeb10a71709f6,
     type: 3}
+  itemSpriteRef:
+    m_AssetGUID: e831ee1edea549649a7aeb10a71709f6
+    m_SubObjectName: desert_0
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 8
   legacyID: Weapon-Desert-5200000000-Desert Spike Sword
   level: 5200000000

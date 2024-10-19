@@ -13,6 +13,12 @@ MonoBehaviour:
   m_Name: Water Soul Staff +1
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 1951975119, guid: c3e19b14429ed34449f9b7d1fd10cf01, type: 3}
+  itemSpriteRef:
+    m_AssetGUID: c3e19b14429ed34449f9b7d1fd10cf01
+    m_SubObjectName: Water Soul Staff +1
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 13
   legacyID: Weapon-FrozenShores-0-Water Soul Staff
   level: 0

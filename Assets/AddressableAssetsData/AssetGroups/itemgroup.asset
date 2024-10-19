@@ -1,0 +1,391 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: itemgroup
+  m_EditorClassIdentifier: 
+  m_GroupName: itemgroup
+  m_Data:
+    m_SerializedData: []
+  m_GUID: c07fead378c474840b74f75fdfce005a
+  m_SerializeEntries:
+  - m_GUID: 040c388b3755da24184d1e956fc91a1b
+    m_Address: Abyss +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - itemGroup
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 964ae42d276078b4592a840565e48cb0
+    m_Address: Abyss
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - itemGroup
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1ee799fa41e00ac4bb3cd8adc20792e0
+    m_Address: Beach
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - itemGroup
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 68de1d56f86dc1548ba6ab2b5e147aa4
+    m_Address: Cursed Desert
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - itemGroup
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 79a795a0365f9a349a9eeb0f28e8224b
+    m_Address: Cursed Dragon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - itemGroup
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9256a4cb63c000047820e479fb167e0b
+    m_Address: Cursed Toxic
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - itemGroup
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7551d283149c65e4b97eb5eb83455d3e
+    m_Address: Deep Abyss
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - itemGroup
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 030c5e4bc74819845999942f6274c0a5
+    m_Address: Desert
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - itemGroup
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e0b06e9c2a7f28f4cad68d2d0dd150aa
+    m_Address: Dragon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - itemGroup
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dc7599dff7deec744abe7cda39b0f541
+    m_Address: Dryad +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - itemGroup
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2abf5f9c2bfaa2d41ae6cf5bf58d4729
+    m_Address: Dryad
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - itemGroup
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 63ab5bbc161f487429da2424e5bda5a3
+    m_Address: Egypt
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - itemGroup
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c761cb7ec733ac74a9d235b6a89d711e
+    m_Address: Air Titan
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - itemGroup
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 80c301d4406a5a547bc4ffd16b5729a5
+    m_Address: Air +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - itemGroup
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 381a0e0820695e44089c01519df926d1
+    m_Address: Air Fairy +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - itemGroup
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d55a0686049c31b4c81bf927986d2191
+    m_Address: Air Fairy
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - itemGroup
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4dcad0853ab07414f8b77a67ccd9980d
+    m_Address: Air
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - itemGroup
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 577cff2f46c695c41b3b1479319f49ef
+    m_Address: Fire +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - itemGroup
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 11c10ac097e2e084f9dbf7b0b6990015
+    m_Address: Fire Fairy +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - itemGroup
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 071d7002bc315164a9afd67550b25225
+    m_Address: Fire Fairy
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - itemGroup
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 50d380b7fb1955b4a887db170021d22a
+    m_Address: Fire
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - itemGroup
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eb90d2c3a06bcb7498e557804e4b12ac
+    m_Address: Nature +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - itemGroup
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e426905edd6e3bc47a6a71027ff27a81
+    m_Address: Nature Fairy +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - itemGroup
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 57d859f25e586144eb5bdce1097fd3f1
+    m_Address: Nature Fairy
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - itemGroup
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 99545fe981c09a44e8de47325c507b5c
+    m_Address: Nature
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - itemGroup
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 77a627f03e6f3274299223d56bbf4316
+    m_Address: Water +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - itemGroup
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ec91feb0f0a1e5744b555ccc166f1378
+    m_Address: Water Fairy +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - itemGroup
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 96bc017ad53225b42ac01f8c8d1ed532
+    m_Address: Water Fairy
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - itemGroup
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 53829a2e4d89bdb48ba35c71822288f0
+    m_Address: Water
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - itemGroup
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 55b7002c76164d845862bd8a9ffc678a
+    m_Address: Fire Lord Cave
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - itemGroup
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c4daaed33ed306b4eb9d2462592967ec
+    m_Address: Fire Titan
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - itemGroup
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d70723c515770214d8e67cedfd086deb
+    m_Address: Floating Castle
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - itemGroup
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 88b1bf9ff6e699b4695c406f5e2c44b4
+    m_Address: Frozen Shores
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - itemGroup
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8ec12f4448cc55b4f8e69e8a707719e3
+    m_Address: Gemstone
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - itemGroup
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c916a5091e4e377469f584e382b50646
+    m_Address: Air Titan +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - itemGroup
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: af324808d33cecc48a1caa449c534685
+    m_Address: Fire Lord Cave +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - itemGroup
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: faa29cb3d1756e04a96ac985c41ba24a
+    m_Address: Fire Titan +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - itemGroup
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c521a15737c81e74f989873958f28d84
+    m_Address: Floating Castle +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - itemGroup
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aebcda8d076a68740b9fe78e4fb85fb7
+    m_Address: Frozen Shores +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - itemGroup
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 29491e6fdc99b7c418a43b6875f43475
+    m_Address: Gemstone +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - itemGroup
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4342d140498f5b540997a11839647c8c
+    m_Address: Ice Titan +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - itemGroup
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 03d525ebcc3e27b42a5c334a592db407
+    m_Address: Twillight Forest +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - itemGroup
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 07aad6bd5ae80c340a22cb01e3778b07
+    m_Address: Ice Titan
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - itemGroup
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a850e9c2a680a5348b2bacba0ecc6e17
+    m_Address: Twillight Forest
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - itemGroup
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c415ff63117be7f4696150b239a7110f
+    m_Address: Forest +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - itemGroup
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ad19bd492e813554b9642990f814b617
+    m_Address: Forest Cave +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - itemGroup
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f06b1ca827796764a881c945ef8af1d5
+    m_Address: Forest Cave
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - itemGroup
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9ab53429e0e6f4940b5c75f55cb26c9c
+    m_Address: Forest
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - itemGroup
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 35154215983650f4097719f8b415ec3a
+    m_Address: Golden Drops +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - itemGroup
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 28b39405020b29a4d9eb769b3ed2582c
+    m_Address: Golden Drops
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - itemGroup
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 55a0646fd9a55524f96f03e93770dc7e
+    m_Address: Corrupted +1 (Hidden)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - itemGroup
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fbcc3835a9a2af94ea50fd5abbefab2f
+    m_Address: Corrupted (Hidden)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - itemGroup
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 73d6c08829b6a7b4bb1b4690f41f4c47
+    m_Address: Insect +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - itemGroup
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7cb945e9b579e41438b1fc63348efaeb
+    m_Address: Insect
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - itemGroup
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a709004f7e3918240bce939f73acdcf3
+    m_Address: Leviathan
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - itemGroup
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 32b872a1af9f10945950935bbc76b402
+    m_Address: The Ancient
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - itemGroup
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b67e4119871bcca43847a17a7cad41e2
+    m_Address: Toxic +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - itemGroup
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 10e2592d082a93e499c299d141eb6acc
+    m_Address: Toxic
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - itemGroup
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9839cd4990760e1449175386836df170
+    m_Address: Upper Cave +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - itemGroup
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 299d48d0978e6114b894ccba314e5b33
+    m_Address: Upper Cave
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - itemGroup
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 61cb69b2ae2d4c04cb4b5387f5e9c6eb
+    m_Address: Test
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - itemGroup
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 482d79c217fd56d4285aa89a01160bdf, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 58c89be999676014a835235bad914580, type: 2}
+    - {fileID: 11400000, guid: 0c62a8d8d4e8d544a99c0a6cf8917119, type: 2}

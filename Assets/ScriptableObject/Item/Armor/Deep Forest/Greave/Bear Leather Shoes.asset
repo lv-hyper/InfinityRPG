@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: Bear Leather Shoes
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 21300000, guid: 0fdd12b5a8d480645ab1c7646f8c47a9, type: 3}
+  itemSpriteRef:
+    m_AssetGUID: 0fdd12b5a8d480645ab1c7646f8c47a9
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   zone: 2
   legacyID: Greave-DeepForest-42222-Bear Leather Shoes
   level: 42222

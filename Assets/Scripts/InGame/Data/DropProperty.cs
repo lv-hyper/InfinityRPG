@@ -1,6 +1,7 @@
 using UnityEngine;
 using System;
 using InGame.Data.Item;
+using UnityEngine.AddressableAssets;
 
 namespace InGame.Data
 {

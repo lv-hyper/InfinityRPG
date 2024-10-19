@@ -1,0 +1,619 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: skill
+  m_EditorClassIdentifier: 
+  m_GroupName: skill
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 3dbbb7c7d8957e44bbdd508cdc4a0c79
+  m_SerializeEntries:
+  - m_GUID: 3b3f85c1b6bb1674480edb80d32d9867
+    m_Address: Archer Swift
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cac7d0e5e1a1276419ffc827859098a7
+    m_Address: Basic Archer Attack
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8c563393c6f464e4e89aba048ada8e28
+    m_Address: Headshot
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5543f4d15b7de314484e1ad6cde36d76
+    m_Address: Perfect Critical
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3d6045ee508ffa543bd6b2e3b6e4b2c1
+    m_Address: Quick Shot
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d14d808dc89eb1044a153c0a3021c47b
+    m_Address: Attack Boost
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9b8f864b76345704497d9a052a4a8d2e
+    m_Address: Boost Dodge
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b25d0278ddbb5f948b4e1ca16a37d6fb
+    m_Address: Hidden Attack
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a918cc619788f36438228294f36b84dd
+    m_Address: Piercing Arrow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3796c6ba846bc2a47acf6704015cbf26
+    m_Address: Air Boost
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 19e4c322d3d2f84488b2403d56411c10
+    m_Address: Air Combo Boost
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0288de8c04ac89c4e98cc7fa8a497ed0
+    m_Address: Air Critical Damage Boost
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 218da60371db2404a944b0bedf616ca5
+    m_Address: Air Dodge Boost
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 162faa6bb4199aa4b8826f23414fe81b
+    m_Address: Air Elemental Damage Boost
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c3f4addcf38a3064b8af2b039f21c8f6
+    m_Address: Air Elemental Defence Boost
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8a354db39ca5ffe4f883b6fcab684b8a
+    m_Address: Air HP Boost
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0257b009498244f42bfa2e360660b6dc
+    m_Address: Air Immune
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 577809ed7f3ce444486032078114e88a
+    m_Address: Air Shield
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c71bace82970dcc43a27f2106cf9662b
+    m_Address: Air Strike
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dd25fa8c49a79804da98b05c92de49e7
+    m_Address: Attack Boost -Air-
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fea7e3835d373274ebd9f979181de728
+    m_Address: Death Resist -Air-
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d75f5277be2c7a942ac87bb8f5e9a008
+    m_Address: Death Surpassion -Air-
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9b9927c5ed34b914b804ef20db99d742
+    m_Address: Defence Boost -Air-
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cc8b59d99b124864286f31459e723769
+    m_Address: Droprate Increase -Air-
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6ae22a283b9bede448cb4aa2f151f613
+    m_Address: Goldrate Increase -Air-
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bb5f4ebede3542141a19f1cf595f3d99
+    m_Address: Attack Boost -Fire-
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e5bc4e4d5985b174187885af13564610
+    m_Address: Death Resist -Fire-
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e84bfa31d8a6d5e449259ed6e2101176
+    m_Address: Death Surpassion -Fire-
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2c3a4a1aaa24eae408e4668bb7de61c4
+    m_Address: Defence Boost -Fire-
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e2dc11d8982e3194dbc19d3cc9cec6d8
+    m_Address: Droprate Increase -Fire-
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8edfa9e63cd26ef42ac179ac832f6798
+    m_Address: Fire Bolt
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0b1a4d69798175a47a08d9bddbb61c0a
+    m_Address: Fire Boost
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6f8f3cb6a2e816344901e856b7352839
+    m_Address: Fire Combo Boost
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b173af9ea6b178b41ae6a301f121430d
+    m_Address: Fire Critical Damage Boost
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8faa483d632706749ac6c7770e1819e1
+    m_Address: Fire Dodge Boost
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 05820789c4aee1b43bab5b3f56bd4324
+    m_Address: Fire Elemental Damage Boost
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2468cdd618e81c04fb46ea5594afe611
+    m_Address: Fire Elemental Defence Boost
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5e816b7e5bc44e3419b0c5b5837ee5b0
+    m_Address: Fire HP Boost
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 84be5a129c1a80842a8ca043f978b0dc
+    m_Address: Fire Immune
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 77004934c1b1a724bbc0b89c1709ec64
+    m_Address: Fire Shield
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f47e766f28e7ce84693b1b2869ccb32f
+    m_Address: Goldrate Increase -Fire-
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 58d0ac9a7d1bff14d9d423b2254e6d0c
+    m_Address: Attack Boost -Nature-
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e88d1a16e42873d438aa6ea713184726
+    m_Address: Death Resist -Nature-
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f723a4ef359676145bc85a83ae14d2a0
+    m_Address: Death Surpassion -Nature-
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c43afec0003c37d45a066a10ae121c84
+    m_Address: Defence Boost -Nature-
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3c7e55c801741ef478e65e2162aed859
+    m_Address: Droprate Increase -Nature-
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 246d21343231ce742b595a67dee4ef40
+    m_Address: Earth Strike
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 691cc38af8f4be341aba68ed9505db18
+    m_Address: Goldrate Increase -Nature-
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8c14d718e209e8e489fb21b85f74e188
+    m_Address: Nature Boost
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f3b766827fe835c49819cc24d700a1ef
+    m_Address: Nature Combo Boost
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b3fa036da5d04164a9137c8e1922527e
+    m_Address: Nature Critical Damage Boost
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bd7d2328a054f8c4b93b5f6d1fb45ba3
+    m_Address: Nature Dodge Boost
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a7f7cd170a2f0e14ba5dc1bfc3b57054
+    m_Address: Nature Elemental Damage Boost
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3b202991b737bf04aa5d9b7a0e6646e1
+    m_Address: Nature Elemental Defence Boost
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: da456abf02dd32643a723f52f2efafc6
+    m_Address: Nature HP Boost
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 764a132f159fcfd4c9474a5bd63d23f0
+    m_Address: Nature Immune
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aa412e89cec5ffc48b83a8b77146f383
+    m_Address: Nature Shield
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d5a863eecb449754e96033bbc024a532
+    m_Address: Attack Boost -Water-
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0dff27f7c1747f94e83b22e848197f92
+    m_Address: Death Resist -Water-
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b14f4f2a88c1be64c900666357e52170
+    m_Address: Death Surpassion -Water-
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5ffeb8094532f944f801360984956049
+    m_Address: Defence Boost -Water-
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d2d4d750ec9d2624aaf2da6119f7087a
+    m_Address: Droprate Increase -Water-
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 46e8b93c83285e340b538181bacae13e
+    m_Address: Goldrate Increase -Water-
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 52f8d83e94211a24f8409ceb34a8a989
+    m_Address: Ice Bolt
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b7dcb4a213db15140b6ca1fee74c883b
+    m_Address: Water Boost
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d49bcbcd3ff36744682e75c0b08ca28e
+    m_Address: Water Combo Boost
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b0542deb47e7b0e428b48cf7ed71702b
+    m_Address: Water Critical Damage Boost
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e688ba0442cb05f438fc2efc75610972
+    m_Address: Water Dodge Boost
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6b77e969c79f26f4197a65ede6c21f90
+    m_Address: Water Elemental Damage Boost
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fb7aa1c9e441e104d83e63a448b2875d
+    m_Address: Water Elemental Defence Boost
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d86562a63738c61458bb489b49f21533
+    m_Address: Water HP Boost
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4542d83800998544da83af9ebb1ed659
+    m_Address: Water Immune
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5c5d002a04721184a885e187aaa950ec
+    m_Address: Water Shield
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c807ad6a25f67274a9c90c1d2ba04692
+    m_Address: Air Blast
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 502ef475b37762a4bab8a560cc395775
+    m_Address: Air Strike
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 96f17c49d180ae8439f61fc62b90b7ac
+    m_Address: Earth Strike
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: acf3bf459e109794bbaa4bf9c121c4cd
+    m_Address: Earthquake
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 781efb22e5f3146418b198c673224121
+    m_Address: Fire Bolt
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 73e9399bc7324184d9e444d750235e69
+    m_Address: Fire Storm
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4e8a4d0e68fb56c4a8da0a104f8a1bfd
+    m_Address: Ice Blizzard
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 883c64c1da102444684b973ace75ef9c
+    m_Address: Ice Bolt
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d564eae399faeb64d857a590261ff4d5
+    m_Address: Basic Mage Attack
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 971745b907b1a0141a0313eb26a2ac29
+    m_Address: Drain
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f22720a02d1041b4885818ec394f9f84
+    m_Address: Energy Bolt
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2d2f26912759b9f4fb43436647574649
+    m_Address: Glass Cannon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1943ed1242de80f4687b77c144e3dfa8
+    m_Address: Magic Infusion
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c95efb10cefa0a345866766adb22bc8b
+    m_Address: Arcane Shield
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: de595519d2da8934085ea7e0c26ebbcd
+    m_Address: Attack Boost
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 661bffaee1c439443a14511f030d1e99
+    m_Address: Critical Rate Boost
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 55049031fa5a6d745b03a6cc7df96a04
+    m_Address: HP Boost
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b206511f449b99945a8ef46a7438daf2
+    m_Address: Basic Warrior Attack
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 68959d8b5abc48542b10cf704471a347
+    m_Address: Battle Roar
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 65e0d7dc5cc409f4ca22c0675752d423
+    m_Address: Heavy Slash
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a6ddcba83cd89c6428b7a98c20dfc6c8
+    m_Address: Stone Wall
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4a18eaff3557054499c9269f791dd428
+    m_Address: Triple Assult
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b1b4883254817d74ebd5765638e1c4c4
+    m_Address: Berserker
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fc9f748bac8b0664ba77eb98cb28015e
+    m_Address: Defence Boost
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2063c46a83a14554eb869f30bc9e7803
+    m_Address: HP Boost
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fd302985a5c50c8469e8b3fe6767d2a8
+    m_Address: Thorns
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - skill
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 482d79c217fd56d4285aa89a01160bdf, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 6583af80ad447874ba67219a14e8b4e3, type: 2}
+    - {fileID: 11400000, guid: 2bfedcf8720492f4a85623f7fc1eaab5, type: 2}

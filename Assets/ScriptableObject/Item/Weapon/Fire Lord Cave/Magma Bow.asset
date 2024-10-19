@@ -13,6 +13,12 @@ MonoBehaviour:
   m_Name: Magma Bow
   m_EditorClassIdentifier: 
   itemSprite: {fileID: -1343277374, guid: b950c00c0dffe90459edfe2b8f957e2f, type: 3}
+  itemSpriteRef:
+    m_AssetGUID: b950c00c0dffe90459edfe2b8f957e2f
+    m_SubObjectName: Magma Bow
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 12
   legacyID: Weapon-FireLordCave-0-Magma Bow
   level: 0

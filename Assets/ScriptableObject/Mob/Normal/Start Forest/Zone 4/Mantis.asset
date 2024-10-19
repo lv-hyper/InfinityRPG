@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: Mantis
   m_EditorClassIdentifier: 
   mobSprite: {fileID: 21300000, guid: 999fbb2465037c343ac0a18aafc435b7, type: 3}
+  mobSpriteRef:
+    m_AssetGUID: 999fbb2465037c343ac0a18aafc435b7
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   imageOffset: {x: 0, y: 0}
   description: 
   mobClass: 0
@@ -28,6 +33,7 @@ MonoBehaviour:
   defReqRate: 1
   hidden: 0
   skills: []
+  skillRefs: []
   customHP: 0
   customATK: 0
   maxDefenceRatio: 2

@@ -14,6 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: -1800400093918382542, guid: f96e9252624dee34593712f4721cf162,
     type: 3}
+  itemSpriteRef:
+    m_AssetGUID: f96e9252624dee34593712f4721cf162
+    m_SubObjectName: Deep Abyss_0
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 6
   legacyID: Weapon-Abyss-188888888-Deep Abyss Staff
   level: 188888888

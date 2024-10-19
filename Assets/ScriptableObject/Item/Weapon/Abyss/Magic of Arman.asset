@@ -14,6 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: -720528129962128146, guid: 9e5c7499e4bdcf3438fc87aa9c8a5759,
     type: 3}
+  itemSpriteRef:
+    m_AssetGUID: 9e5c7499e4bdcf3438fc87aa9c8a5759
+    m_SubObjectName: abyss_2
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 6
   legacyID: Weapon-Abyss-333333333-Magic Of Arman
   level: 333333333

@@ -14,6 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: -1659371466187309981, guid: 6b15bf20c5a2a604b945d058c786dcf3,
     type: 3}
+  itemSpriteRef:
+    m_AssetGUID: 6b15bf20c5a2a604b945d058c786dcf3
+    m_SubObjectName: weapon001_6
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 2
   legacyID: Weapon-DeepForest-1050000000-Witch Staff
   level: 1050000000

@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: Water Orb
   m_EditorClassIdentifier: 
   mobSprite: {fileID: 21300000, guid: 7ff2d581601130e4faa91476ccc22894, type: 3}
+  mobSpriteRef:
+    m_AssetGUID: 7ff2d581601130e4faa91476ccc22894
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   imageOffset: {x: 0, y: 0}
   description: 
   mobClass: 2147483647
@@ -39,6 +44,11 @@ MonoBehaviour:
   hidden: 0
   skills:
   - {fileID: 11400000, guid: 883c64c1da102444684b973ace75ef9c, type: 2}
+  skillRefs:
+  - m_AssetGUID: 883c64c1da102444684b973ace75ef9c
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   customHP: -1
   customATK: -1
   maxDefenceRatio: 2

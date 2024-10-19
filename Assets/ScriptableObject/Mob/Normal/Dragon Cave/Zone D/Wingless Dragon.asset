@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: Wingless Dragon
   m_EditorClassIdentifier: 
   mobSprite: {fileID: 21300000, guid: fbbf14dd24db94541be6c00bd735ee8b, type: 3}
+  mobSpriteRef:
+    m_AssetGUID: fbbf14dd24db94541be6c00bd735ee8b
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   imageOffset: {x: 0, y: 0}
   description: 
   mobClass: 0
@@ -28,6 +33,7 @@ MonoBehaviour:
   defReqRate: 1
   hidden: 0
   skills: []
+  skillRefs: []
   customHP: -1
   customATK: -1
   maxDefenceRatio: 2

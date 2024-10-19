@@ -14,6 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: -7185701324670626016, guid: 9b52161a09218964a91a3c02ff91fb4e,
     type: 3}
+  itemSpriteRef:
+    m_AssetGUID: 9b52161a09218964a91a3c02ff91fb4e
+    m_SubObjectName: abyss 1_5
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 6
   legacyID: Material-Abyss-77777777777-Piece Of Astral Lich +1
   level: 77777777777

@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: Panda
   m_EditorClassIdentifier: 
   mobSprite: {fileID: 21300000, guid: 8e985ea7481d9f9418a6ef0ea1ec8867, type: 3}
+  mobSpriteRef:
+    m_AssetGUID: 8e985ea7481d9f9418a6ef0ea1ec8867
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   imageOffset: {x: 0, y: 0}
   description: 
   mobClass: 0
@@ -28,6 +33,7 @@ MonoBehaviour:
   defReqRate: 1
   hidden: 0
   skills: []
+  skillRefs: []
   customHP: 0
   customATK: 0
   maxDefenceRatio: 2

@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: Earth Turtle
   m_EditorClassIdentifier: 
   mobSprite: {fileID: 21300000, guid: b1727b0c284dee545a1a52d00f1668d6, type: 3}
+  mobSpriteRef:
+    m_AssetGUID: b1727b0c284dee545a1a52d00f1668d6
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   imageOffset: {x: 0, y: 0}
   description: 
   mobClass: 2
@@ -31,6 +36,11 @@ MonoBehaviour:
   hidden: 0
   skills:
   - {fileID: 11400000, guid: 96f17c49d180ae8439f61fc62b90b7ac, type: 2}
+  skillRefs:
+  - m_AssetGUID: 96f17c49d180ae8439f61fc62b90b7ac
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   customHP: -1
   customATK: -1
   maxDefenceRatio: 2

@@ -12,6 +12,10 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using System.Numerics;
 using Ingame.UI;
+using UnityEditor.VersionControl;
+using UnityEngine.AddressableAssets;
+using UnityEngine.Events;
+using UnityEngine.ResourceManagement.AsyncOperations;
 
 namespace InGame.Action
 {
@@ -32,8 +36,7 @@ namespace InGame.Action
 
         string teleportDestMap, teleportTargetID;
         bool isBattleOngoing;
-
-        Sprite mobSprite, characterSprite;
+        
         [SerializeField] Image mobImage, characterImage;
         [SerializeField] CharacterBattleHealthBar characterHPBar;
         [SerializeField] MobBattleHealthBar mobHPBar;
@@ -75,19 +78,24 @@ namespace InGame.Action
         [SerializeField] Data.BattleEffect.Debuff deathReaperEffect;
 
         [SerializeField] Data.BattleEffect.Debuff airDisadvantage, natureDisadvantage, fireDisadvantage, waterDisadvantage;
+        
+        [SerializeField] private float transitionSpeed = 5.0f;
 
-
+        private AsyncOperationHandle<Sprite> mobSpriteHandle;
 
         Battle battle;
         UnityEngine.Vector2 mobImageOffset;
         UnityEngine.Vector2 originalImagePos;
 
-
-        public delegate void TransitionAction();
-
         public static BattleController GetInstance()
         {
             return instance;
+        }
+
+        private IEnumerator WaitForLoadingSprites(UnityAction onFinish)
+        {
+            yield return new WaitUntil(() => currentMob.GetSprite() != null && mobImage.sprite != null);
+            onFinish?.Invoke();
         }
 
         private void Awake() {
@@ -116,7 +124,7 @@ namespace InGame.Action
             var entity = gameZone.GetNewMob();
             Debug.Log(gameZone.getRandomLv()+"/"+entity);
 
-            InitBattle(entity.newMobInstance(gameZone.getRandomLv()));
+            InitBattle(entity.SummonNewMobInstance(gameZone.getRandomLv()));
         }
 
         public void InitBattle(BossEncounter bossData)
@@ -152,16 +160,23 @@ namespace InGame.Action
                 character.SaveCharacterData();
             }
 
-            characterSprite = character.GetDefaultImage();
-            mobSprite = currentMob.GetSprite();
-            mobImageOffset = currentMob.GetImageOffset();
+            currentMob.GetSpriteAsync(()=>
+            {
+                originalImagePos = mobImage.GetComponent<RectTransform>().anchoredPosition;
+                
+                mobImageOffset = currentMob.GetImageOffset();
+                mobImage.GetComponent<RectTransform>().anchoredPosition += mobImageOffset;
+                mobImage.sprite = currentMob.GetSprite();
+                mobImage.color = new Color(1,1,1,1);
+                
+                mobImage.GetComponent<BobbingAnimation>().enabled = true;
+            });
 
             if (mob.GetDescription() != null && mob.GetDescription() != "")
             {
                 mobDescription.GetComponent<MobDescriptionController>().Open(mob);
             }
 
-            mobImage.GetComponent<BobbingAnimation>().enabled = true;
             
             character.GetComponent<Animator>().SetBool("isBattle", true);
             character.GetComponent<Animator>().Update(0);
@@ -170,12 +185,7 @@ namespace InGame.Action
 
             characterImage.sprite = character.GetComponent<SpriteRenderer>().sprite;
             characterImage.color = new Color(1,1,1,1);
-
             
-            originalImagePos = mobImage.GetComponent<RectTransform>().anchoredPosition;
-            mobImage.GetComponent<RectTransform>().anchoredPosition += mobImageOffset;
-            mobImage.sprite = mobSprite;
-            mobImage.color = new Color(1,1,1,1);
             mobTypeImage.color = new Color(1, 1, 1, 1);
 
             if(currentMob.GetEntityClass() == EnumEntityClass.Warrior)
@@ -208,7 +218,6 @@ namespace InGame.Action
             }
 
             battle = new Battle(character, currentMob);
-
             characterManaBar.RegisterToBattle(battle);
 
             battle.AddDisplayComponent(characterTurnCounter);
@@ -221,29 +230,34 @@ namespace InGame.Action
 
             battle.UpdateBattleStatus();
             dropItemBar.Refresh(currentMob);//Make enemy item drop list UI
+            
+            character.ApplySkillAbilities(battle);
+            battle.DelayDeath();
+            battle.GetCharacterInstance().SetDeathSurpass(
+                (BigInteger)Data.Character.CharacterStat.GetAbilityAmount("Surpass Death"));
+
 
             RefreshUI();
 
+            encounterButton.SetActive(false);
+            
+            StartCoroutine(StartBattleScreenTransition(TransitionDirection.LeftToRight, transitionSpeed));
+            
 
+            StartCoroutine(WaitForLoadingSprites(() =>
+            {
+                StartCoroutine(EndBattleScreenTransition(TransitionDirection.LeftToRight, transitionSpeed));
 
-            StartCoroutine(StartTransition(
-                () =>
+                
+                playModeCanvas.SetActive(false);
+                battleModeCanvas.SetActive(true);
+                
+                battleStartButton.SetActive(true);
+                if (currentMob.GetType() == typeof(Data.Mob.Boss))
                 {
-                    encounterButton.SetActive(false);
-                },
-                ()=>{
-                    playModeCanvas.SetActive(false);
-                    battleModeCanvas.SetActive(true);
-                },
-                ()=>{
-                    battleStartButton.SetActive(true);
-                    if (currentMob.GetType() == typeof(Data.Mob.Boss))
-                    {
-                        battleRetreatButton.SetActive(true);
-                    }
-                },
-                TransitionDirection.LeftToRight, 5.0f
-            ));
+                    battleRetreatButton.SetActive(true);
+                }
+            }));
         }
 
         private void RefreshUI()
@@ -360,38 +374,36 @@ namespace InGame.Action
 
             if (!debug)
                 character.GainEnergy(energyRate);
+            
+            
+            StartCoroutine(StartBattleScreenTransition(TransitionDirection.RightToLeft, transitionSpeed));
+            
+            BattleDamageTextController.GetInstance().ClearDamageTexts();
+            BattleBuffController.GetInstance().OnEnd();
 
-            StartCoroutine(StartTransition(
-                null,
-                () => {
-                    BattleDamageTextController.GetInstance().ClearDamageTexts();
-                    BattleBuffController.GetInstance().OnEnd();
+            playModeCanvas.SetActive(true);
+            battleModeCanvas.SetActive(false);
 
-                    playModeCanvas.SetActive(true);
-                    battleModeCanvas.SetActive(false);
+            mobImage.GetComponent<BobbingAnimation>().enabled = false;
+            mobImage.GetComponent<RectTransform>().anchoredPosition = originalImagePos;
 
-                    mobImage.GetComponent<BobbingAnimation>().enabled = false;
-                    mobImage.GetComponent<RectTransform>().anchoredPosition = originalImagePos;
+            if (bossData != null && bossData.GetReturnPoint() != null)
+                character.transform.position = bossData.GetReturnPoint().position;
 
-                    if (bossData != null && bossData.GetReturnPoint() != null)
-                        character.transform.position = bossData.GetReturnPoint().position;
+            character.EnableMovement();
+            character.SetEnergyPending(false);
 
-                    character.EnableMovement();
-                    character.SetEnergyPending(false);
-
-
-                    battle = null;
-                },
-                () => {
-                    isBattleOngoing = false;
-                    character.GetComponent<Animator>().SetBool("isBattle", false);
-                    character.GetComponent<Animator>().Update(0);
-                    character.GetComponent<SpriteRenderer>().color = new Color(1,1,1,1);
-                    encounterButton.SetActive(true);
-
-                },
-                TransitionDirection.RightToLeft, 5.0f
-            ));
+            battle = null;
+            
+            StartCoroutine(EndBattleScreenTransition(TransitionDirection.RightToLeft, transitionSpeed));
+            
+            isBattleOngoing = false;
+            character.GetComponent<Animator>().SetBool("isBattle", false);
+            character.GetComponent<Animator>().Update(0);
+            character.GetComponent<SpriteRenderer>().color = new Color(1,1,1,1);
+            encounterButton.SetActive(true);
+            
+            Addressables.Release(mobSpriteHandle);
         }
 
         IEnumerator OnBattle()
@@ -664,78 +676,74 @@ namespace InGame.Action
 
         public void EndBattle()
         {
-            StartCoroutine(StartTransition(
-                null,
-                () => {
-                    BattleDamageTextController.GetInstance().ClearDamageTexts();
-                    BattleBuffController.GetInstance().OnEnd();
+            StartCoroutine(StartBattleScreenTransition(TransitionDirection.RightToLeft, transitionSpeed));
+            
+            BattleDamageTextController.GetInstance().ClearDamageTexts();
+            BattleBuffController.GetInstance().OnEnd();
 
-                    playModeCanvas.SetActive(true);
-                    battleModeCanvas.SetActive(false);
+            playModeCanvas.SetActive(true);
+            battleModeCanvas.SetActive(false);
 
-                    mobImage.GetComponent<BobbingAnimation>().enabled = false;
-                    mobImage.GetComponent<RectTransform>().anchoredPosition = originalImagePos;
+            mobImage.GetComponent<BobbingAnimation>().enabled = false;
+            mobImage.GetComponent<RectTransform>().anchoredPosition = originalImagePos;
 
 
-                    if (currentMob.GetType() == typeof(Data.Mob.Boss))
-                    {
-                        if (battle.GetBattleResult().IsSuccess() == false)
-                        {
-                            if(bossData != null && bossData.GetReturnPoint() != null)
-                                character.transform.position = bossData.GetReturnPoint().position;
-                        }
-                        else if(teleportDestMap != null && teleportTargetID != null)
-                        {
-                            character.Teleport(teleportDestMap, teleportTargetID);
-                            teleportDestMap = null;
-                            teleportTargetID = null;
-                        }
-                    }
+            if (currentMob.GetType() == typeof(Data.Mob.Boss))
+            {
+                if (battle.GetBattleResult().IsSuccess() == false)
+                {
+                    if(bossData != null && bossData.GetReturnPoint() != null)
+                        character.transform.position = bossData.GetReturnPoint().position;
+                }
+                else if(teleportDestMap != null && teleportTargetID != null)
+                {
+                    character.Teleport(teleportDestMap, teleportTargetID);
+                    teleportDestMap = null;
+                    teleportTargetID = null;
+                }
+            }
 
-                    else if(battle.GetBattleResult().IsSuccess())
-                    {
-                        if (teleportDestMap != null && teleportTargetID != null)
-                        {
-                            character.Teleport(teleportDestMap, teleportTargetID);
-                            teleportDestMap = null;
-                            teleportTargetID = null;
-                        }
-                    }
+            else if(battle.GetBattleResult().IsSuccess())
+            {
+                if (teleportDestMap != null && teleportTargetID != null)
+                {
+                    character.Teleport(teleportDestMap, teleportTargetID);
+                    teleportDestMap = null;
+                    teleportTargetID = null;
+                }
+            }
 
-                    character.EnableMovement();
-                    character.SetEnergyPending(false);
+            character.EnableMovement();
+            character.SetEnergyPending(false);
                     
-                    battle = null;
-                },
-                ()=> {
-                    
-                    if (PlayerPrefs.GetInt("playCount", 1) <= 1)
-                    {
-                        if (character.GetWinCount() == 1)
-                        {
-                            ModalWindowController.GetInstnace().SetContent(
-                                BoardSectionCollection.GetInstance().boardSections["tutorial001"]
-                            );
-                            ModalWindowController.GetInstnace().SetTitle("Tutorial");
-                            ModalWindowController.GetInstnace().OpenWindow();
-                        }
-                        else if (character.GetWinCount() == 2)
-                        {
-                            ModalWindowController.GetInstnace().SetContent(
-                                BoardSectionCollection.GetInstance().boardSections["tutorial002"]
-                            );
-                            ModalWindowController.GetInstnace().SetTitle("Tutorial");
-                            ModalWindowController.GetInstnace().OpenWindow();
-                        }
-                    }
-                    isBattleOngoing = false;
-                    character.GetComponent<Animator>().SetBool("isBattle", false);
-                    character.GetComponent<Animator>().Update(0);
-                    character.GetComponent<SpriteRenderer>().color = new Color(1,1,1,1);
-                    encounterButton.SetActive(true);
-                },
-                TransitionDirection.RightToLeft, 5.0f
-            ));
+            battle = null;
+            
+            StartCoroutine(EndBattleScreenTransition(TransitionDirection.RightToLeft, transitionSpeed));
+            
+            if (PlayerPrefs.GetInt("playCount", 1) <= 1)
+            {
+                if (character.GetWinCount() == 1)
+                {
+                    ModalWindowController.GetInstnace().SetContent(
+                        BoardSectionCollection.GetInstance().boardSections["tutorial001"]
+                    );
+                    ModalWindowController.GetInstnace().SetTitle("Tutorial");
+                    ModalWindowController.GetInstnace().OpenWindow();
+                }
+                else if (character.GetWinCount() == 2)
+                {
+                    ModalWindowController.GetInstnace().SetContent(
+                        BoardSectionCollection.GetInstance().boardSections["tutorial002"]
+                    );
+                    ModalWindowController.GetInstnace().SetTitle("Tutorial");
+                    ModalWindowController.GetInstnace().OpenWindow();
+                }
+            }
+            isBattleOngoing = false;
+            character.GetComponent<Animator>().SetBool("isBattle", false);
+            character.GetComponent<Animator>().Update(0);
+            character.GetComponent<SpriteRenderer>().color = new Color(1,1,1,1);
+            encounterButton.SetActive(true);
         }
 
         enum TransitionDirection{
@@ -745,30 +753,23 @@ namespace InGame.Action
             RightToLeft
         }
 
-        IEnumerator StartTransition(
-            TransitionAction onStart, 
-            TransitionAction transition, 
-            TransitionAction onEnd,
-            TransitionDirection direction,
-            float speed
-        )
+        IEnumerator StartBattleScreenTransition(TransitionDirection direction, float speed)
         {
             Image transitionLayerImage = transitionLayer.GetComponent<Image>();
-            if(onStart!=null) onStart();
             switch(direction)
             {
                 case TransitionDirection.BottomToTop:
-                transitionLayerImage.fillOrigin = (int)Image.OriginVertical.Bottom;
-                break;
+                    transitionLayerImage.fillOrigin = (int)Image.OriginVertical.Bottom;
+                    break;
                 case TransitionDirection.TopToBottom:
-                transitionLayerImage.fillOrigin = (int)Image.OriginVertical.Top;
-                break;
+                    transitionLayerImage.fillOrigin = (int)Image.OriginVertical.Top;
+                    break;
                 case TransitionDirection.LeftToRight:
-                transitionLayerImage.fillOrigin = (int)Image.OriginHorizontal.Left;
-                break;
+                    transitionLayerImage.fillOrigin = (int)Image.OriginHorizontal.Left;
+                    break;
                 case TransitionDirection.RightToLeft:
-                transitionLayerImage.fillOrigin = (int)Image.OriginHorizontal.Right;
-                break;
+                    transitionLayerImage.fillOrigin = (int)Image.OriginHorizontal.Right;
+                    break;
             }
             for(float i=0;i<1;i+=(Time.deltaTime*speed))
             {
@@ -777,21 +778,25 @@ namespace InGame.Action
                 yield return null;
             }
             transitionLayer.GetComponent<Image>().fillAmount = 1;
-            if(transition!=null) transition();
+        }
+
+        IEnumerator EndBattleScreenTransition(TransitionDirection direction, float speed)
+        {
+            Image transitionLayerImage = transitionLayer.GetComponent<Image>();
             switch(direction)
             {
                 case TransitionDirection.BottomToTop:
-                transitionLayerImage.fillOrigin = (int)Image.OriginVertical.Top;
-                break;
+                    transitionLayerImage.fillOrigin = (int)Image.OriginVertical.Top;
+                    break;
                 case TransitionDirection.TopToBottom:
-                transitionLayerImage.fillOrigin = (int)Image.OriginVertical.Bottom;
-                break;
+                    transitionLayerImage.fillOrigin = (int)Image.OriginVertical.Bottom;
+                    break;
                 case TransitionDirection.LeftToRight:
-                transitionLayerImage.fillOrigin = (int)Image.OriginHorizontal.Right;
-                break;
+                    transitionLayerImage.fillOrigin = (int)Image.OriginHorizontal.Right;
+                    break;
                 case TransitionDirection.RightToLeft:
-                transitionLayerImage.fillOrigin = (int)Image.OriginHorizontal.Left;
-                break;
+                    transitionLayerImage.fillOrigin = (int)Image.OriginHorizontal.Left;
+                    break;
             }
             for(float i=1;i>0;i-=(Time.deltaTime*speed))
             {
@@ -800,9 +805,8 @@ namespace InGame.Action
                 yield return null;
             }
             transitionLayer.GetComponent<Image>().fillAmount = 0;
-            if(onEnd!=null) onEnd();
         }
-
+        
         public Battle GetBattle() { return battle; }
     }
 }

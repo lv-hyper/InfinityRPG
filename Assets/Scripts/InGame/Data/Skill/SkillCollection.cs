@@ -371,16 +371,39 @@ namespace InGame.Data.Skill
                     if(passiveSkill.activateCondition(battle))
                     {
                         isPassiveSkillActivated[passiveSkill.GetSkillID()] = true;
-                        for(int i=0;i<SkillCollection.GetInstance().allSkillCollection[passiveSkill.GetSkillID()].GetCount();++i)
-                            skillAbilities.AddRange(passiveSkill.skillAbilities);
+                        
+                        var skillCount = SkillCollection.GetInstance()
+                            .allSkillCollection[passiveSkill.GetSkillID()].GetCount();
+                        
+                        var adjustedSkillAbilities = new List<SkillAbility>();
+
+                        for (int i = 0; i < passiveSkill.skillAbilities.Count; ++i)
+                        {
+                            var skillAbility = passiveSkill.skillAbilities[i];
+                            skillAbility.abilityData *= (int)skillCount;
+                            adjustedSkillAbilities.Add(skillAbility);
+                        }
+                        
+                        skillAbilities.AddRange(adjustedSkillAbilities);
                     }
                 }
                 else
                 {
                     if (!passiveSkill.deactivateCondition(battle))
                     {
-                        for (int i = 0; i < SkillCollection.GetInstance().allSkillCollection[passiveSkill.GetSkillID()].GetCount(); ++i)
-                            skillAbilities.AddRange(passiveSkill.skillAbilities);
+                        var skillCount = SkillCollection.GetInstance()
+                            .allSkillCollection[passiveSkill.GetSkillID()].GetCount();
+                        
+                        var adjustedSkillAbilities = new List<SkillAbility>();
+
+                        for (int i = 0; i < passiveSkill.skillAbilities.Count; ++i)
+                        {
+                            var skillAbility = passiveSkill.skillAbilities[i];
+                            skillAbility.abilityData *= (int)skillCount;
+                            adjustedSkillAbilities.Add(skillAbility);
+                        }
+                        
+                        skillAbilities.AddRange(adjustedSkillAbilities);
                     }
                     else
                     {

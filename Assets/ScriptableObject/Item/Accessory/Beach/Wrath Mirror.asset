@@ -14,6 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: -4244344029664949793, guid: 7e69aaba1b358c54181fd0768e72db76,
     type: 3}
+  itemSpriteRef:
+    m_AssetGUID: 7e69aaba1b358c54181fd0768e72db76
+    m_SubObjectName: ancient_1
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 4
   legacyID: General-Beach-6000000-Wrath Mirror
   level: 6000000
@@ -22,7 +28,8 @@ MonoBehaviour:
   maxWornCount: 1
   price: 0
   shortDesc: Attack percent -99
-  longDesc: Penalty to your attack
+  longDesc: Penalty to your attack, having it equipped will allow you to open a hidden
+    path by killing a specific boss.
   itemAbilities:
   - abilityData:
       ability: {fileID: 11400000, guid: 1ad4901e483f59f42a84b9dfea5d1c8e, type: 2}

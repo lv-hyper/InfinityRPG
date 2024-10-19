@@ -13,6 +13,12 @@ MonoBehaviour:
   m_Name: Nature Elemental Gem
   m_EditorClassIdentifier: 
   itemSprite: {fileID: -1945842235, guid: caf7821e7e8bc9e49a4ea1c4fca1f673, type: 3}
+  itemSpriteRef:
+    m_AssetGUID: caf7821e7e8bc9e49a4ea1c4fca1f673
+    m_SubObjectName: elemental_gem_2
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 14
   legacyID: General-TwilightForest-0-Nature Elemental Gem
   level: 0

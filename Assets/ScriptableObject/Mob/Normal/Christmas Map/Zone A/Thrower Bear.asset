@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: Thrower Bear
   m_EditorClassIdentifier: 
   mobSprite: {fileID: 21300000, guid: fe16676ad4fe06444936d60d47493cc3, type: 3}
+  mobSpriteRef:
+    m_AssetGUID: fe16676ad4fe06444936d60d47493cc3
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   imageOffset: {x: 0, y: 0}
   description: 
   mobClass: 2
@@ -28,6 +33,7 @@ MonoBehaviour:
   defReqRate: 1
   hidden: 0
   skills: []
+  skillRefs: []
   customHP: 0
   customATK: 0
   maxDefenceRatio: 2

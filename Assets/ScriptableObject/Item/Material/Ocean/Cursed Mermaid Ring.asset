@@ -14,6 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 5372729730675008571, guid: f7201659d0658e6489f4c29f5e04b8f8,
     type: 3}
+  itemSpriteRef:
+    m_AssetGUID: f7201659d0658e6489f4c29f5e04b8f8
+    m_SubObjectName: sea_22
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 5
   legacyID: Material-Ocean-13555555-Cursed Mermaid Ring
   level: 13555555

@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: Superior Toxic Carnivorous Plant
   m_EditorClassIdentifier: 
   mobSprite: {fileID: 21300000, guid: f818f3f25ea8c6a48b37a6ef44fd9f4b, type: 3}
+  mobSpriteRef:
+    m_AssetGUID: f818f3f25ea8c6a48b37a6ef44fd9f4b
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   imageOffset: {x: 0, y: 0}
   description: 
   mobClass: 2
@@ -28,6 +33,7 @@ MonoBehaviour:
   defReqRate: 1
   hidden: 0
   skills: []
+  skillRefs: []
   customHP: -1
   customATK: -1
   maxDefenceRatio: 2

@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: Ice Lion
   m_EditorClassIdentifier: 
   mobSprite: {fileID: 21300000, guid: 56737467df4bbc04b9cf74eaaf8a1d25, type: 3}
+  mobSpriteRef:
+    m_AssetGUID: 56737467df4bbc04b9cf74eaaf8a1d25
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   imageOffset: {x: 0, y: 0}
   description: 
   mobClass: 0
@@ -31,6 +36,11 @@ MonoBehaviour:
   hidden: 0
   skills:
   - {fileID: 11400000, guid: 883c64c1da102444684b973ace75ef9c, type: 2}
+  skillRefs:
+  - m_AssetGUID: 883c64c1da102444684b973ace75ef9c
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   customHP: -1
   customATK: -1
   maxDefenceRatio: 2

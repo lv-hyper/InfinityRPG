@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: Fish B
   m_EditorClassIdentifier: 
   mobSprite: {fileID: 21300000, guid: 159427b8dda694140a72284e8ba5dc1b, type: 3}
+  mobSpriteRef:
+    m_AssetGUID: 159427b8dda694140a72284e8ba5dc1b
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   imageOffset: {x: 0, y: 0}
   description: 
   mobClass: 0
@@ -28,6 +33,7 @@ MonoBehaviour:
   defReqRate: 1
   hidden: 0
   skills: []
+  skillRefs: []
   customHP: 0
   customATK: 0
   maxDefenceRatio: 2

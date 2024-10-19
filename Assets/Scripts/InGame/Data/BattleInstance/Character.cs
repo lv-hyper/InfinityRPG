@@ -300,5 +300,10 @@ namespace InGame.Data.BattleInstance
             }
             else return 1;
         }
+
+        public void SetDeathSurpass(BigInteger amount)
+        {
+            currentDeathSurpass = amount;
+        }
     }
 }

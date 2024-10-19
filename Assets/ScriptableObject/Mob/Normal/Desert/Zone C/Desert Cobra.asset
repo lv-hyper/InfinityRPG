@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: Desert Cobra
   m_EditorClassIdentifier: 
   mobSprite: {fileID: 21300000, guid: e3f2d923355dfb743874f0d990a9577a, type: 3}
+  mobSpriteRef:
+    m_AssetGUID: e3f2d923355dfb743874f0d990a9577a
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   imageOffset: {x: 0, y: 0}
   description: 
   mobClass: 1
@@ -28,6 +33,7 @@ MonoBehaviour:
   defReqRate: 1
   hidden: 0
   skills: []
+  skillRefs: []
   customHP: -1
   customATK: -1
   maxDefenceRatio: 2

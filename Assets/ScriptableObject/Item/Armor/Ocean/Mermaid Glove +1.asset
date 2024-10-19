@@ -14,6 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: -8383171576653536872, guid: 7a345af3453bda040a8bdac37e532463,
     type: 3}
+  itemSpriteRef:
+    m_AssetGUID: 7a345af3453bda040a8bdac37e532463
+    m_SubObjectName: KakaoTalk_20220811_023134207_3
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 5
   legacyID: Glove-Ocean-1355555500-Mermaid Glove +1
   level: 1355555500

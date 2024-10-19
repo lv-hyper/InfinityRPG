@@ -13,6 +13,12 @@ MonoBehaviour:
   m_Name: Earth Drake Staff
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 1185036670, guid: 502664808239cf7489fede50eb729c08, type: 3}
+  itemSpriteRef:
+    m_AssetGUID: 502664808239cf7489fede50eb729c08
+    m_SubObjectName: Earth Drake Staff
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 14
   legacyID: Weapon-TwilightForest-0-Earth Drake Staff
   level: 0

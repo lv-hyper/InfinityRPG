@@ -14,6 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 5618115270663316887, guid: 66cc13b398c62eb43bbb5989b09ebca2,
     type: 3}
+  itemSpriteRef:
+    m_AssetGUID: 66cc13b398c62eb43bbb5989b09ebca2
+    m_SubObjectName: resources_basic_62
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 5
   legacyID: Material-Ocean-1200000000-Scale Of Mermaid
   level: 1200000000

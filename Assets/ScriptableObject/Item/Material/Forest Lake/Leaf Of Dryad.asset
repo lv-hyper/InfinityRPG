@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30eb1083e257dec42a2a4bad8efd07d9, type: 3}
+  m_Name: Leaf Of Dryad
+  m_EditorClassIdentifier: 
+  itemSprite: {fileID: 6966992308141429127, guid: f2230cf6bbe9dd043972e3b437ad9a83,
+    type: 3}
+  itemSpriteRef:
+    m_AssetGUID: f2230cf6bbe9dd043972e3b437ad9a83
+    m_SubObjectName: farFroest_22
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
+  zone: 2
+  legacyID: Material-DeepForest-132000-Leaf Of Dryad
+  level: 132000
+  order: 0
+  maxStack: 99
+  maxWornCount: 0
+  price: 0
+  shortDesc: Leaf
+  longDesc: Obtained from Dryad mobs.
+  itemAbilities: []
+  tagResists: []

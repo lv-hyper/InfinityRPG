@@ -13,6 +13,12 @@ MonoBehaviour:
   m_Name: Critical Dice
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 1304278719, guid: e346c14bb38360b4881367661a8fb1d9, type: 3}
+  itemSpriteRef:
+    m_AssetGUID: e346c14bb38360b4881367661a8fb1d9
+    m_SubObjectName: pixel_items6_48
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 0
   legacyID: General-General-20000000-Critical Dice
   level: 20000000

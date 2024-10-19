@@ -14,6 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: -6007364446914162133, guid: db3bdcc3981fd9c4c89d79ee1c341665,
     type: 3}
+  itemSpriteRef:
+    m_AssetGUID: db3bdcc3981fd9c4c89d79ee1c341665
+    m_SubObjectName: crystal 5_3
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 1
   legacyID: General-StartForest-0-Green Crystal
   level: 0

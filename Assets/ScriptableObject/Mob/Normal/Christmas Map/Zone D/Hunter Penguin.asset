@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: Hunter Penguin
   m_EditorClassIdentifier: 
   mobSprite: {fileID: 21300000, guid: 765aacc782aea0a439f37ee963610239, type: 3}
+  mobSpriteRef:
+    m_AssetGUID: 765aacc782aea0a439f37ee963610239
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   imageOffset: {x: 0, y: 0}
   description: 
   mobClass: 2
@@ -28,6 +33,7 @@ MonoBehaviour:
   defReqRate: 1
   hidden: 0
   skills: []
+  skillRefs: []
   customHP: 0
   customATK: 0
   maxDefenceRatio: 2

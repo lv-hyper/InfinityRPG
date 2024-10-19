@@ -14,6 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 6665091895343725728, guid: e0cd4bc2b624e8f469118ec4ac4f5d1d,
     type: 3}
+  itemSpriteRef:
+    m_AssetGUID: e0cd4bc2b624e8f469118ec4ac4f5d1d
+    m_SubObjectName: parasand_stone_1
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 8
   legacyID: Helmet-Desert-6200000000-Rock Helmet
   level: 6200000000

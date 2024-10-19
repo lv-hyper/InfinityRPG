@@ -14,6 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 7980404816445113212, guid: db3bdcc3981fd9c4c89d79ee1c341665,
     type: 3}
+  itemSpriteRef:
+    m_AssetGUID: db3bdcc3981fd9c4c89d79ee1c341665
+    m_SubObjectName: crystal 5_0
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 6
   legacyID: General-Abyss-222222222222-Red Crystal
   level: 222222222222

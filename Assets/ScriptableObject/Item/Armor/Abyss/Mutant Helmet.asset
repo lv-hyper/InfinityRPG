@@ -14,6 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: -6556249115497743908, guid: 8bd7652bd67cefd439aab7488786b25d,
     type: 3}
+  itemSpriteRef:
+    m_AssetGUID: 8bd7652bd67cefd439aab7488786b25d
+    m_SubObjectName: Divine Helmet +1
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 6
   legacyID: Helmet-Abyss-777777777-Mutant Helmet
   level: 777777777

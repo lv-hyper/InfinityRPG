@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f5122020541a8e4191df2daefc1dd8d, type: 3}
+  m_Name: Corrupted Pendant
+  m_EditorClassIdentifier: 
+  ingredients:
+  - item: {fileID: 11400000, guid: 384054268a44548429857075f7ad2758, type: 2}
+    quantity: 1
+  - item: {fileID: 11400000, guid: 4739a7a59a7ba0b458418367e57766f9, type: 2}
+    quantity: 1
+  - item: {fileID: 11400000, guid: 87bc0e220486f7c4b80f5f9b6491a493, type: 2}
+    quantity: 2
+  result: {fileID: 11400000, guid: b88d2fc6036631f4ab3bc43d0b95e987, type: 2}

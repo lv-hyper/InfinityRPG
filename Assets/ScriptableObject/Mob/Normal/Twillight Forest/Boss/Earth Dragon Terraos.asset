@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: Earth Dragon Terraos
   m_EditorClassIdentifier: 
   mobSprite: {fileID: 21300000, guid: b65c0db5eb053454087e956bbb51fd5f, type: 3}
+  mobSpriteRef:
+    m_AssetGUID: b65c0db5eb053454087e956bbb51fd5f
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   imageOffset: {x: 0, y: 0}
   description: 
   mobClass: 2
@@ -31,6 +36,11 @@ MonoBehaviour:
   hidden: 0
   skills:
   - {fileID: 11400000, guid: acf3bf459e109794bbaa4bf9c121c4cd, type: 2}
+  skillRefs:
+  - m_AssetGUID: acf3bf459e109794bbaa4bf9c121c4cd
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   customHP: -1
   customATK: -1
   maxDefenceRatio: 2

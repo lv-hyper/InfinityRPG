@@ -14,6 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: -3659253432981061226, guid: 0bd776ca42ec5564bafe52e585833f99,
     type: 3}
+  itemSpriteRef:
+    m_AssetGUID: 0bd776ca42ec5564bafe52e585833f99
+    m_SubObjectName: dragon_1
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 7
   legacyID: Weapon-DragonCave-7000000000-Emperor Hydra Staff
   level: 7000000000

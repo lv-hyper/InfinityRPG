@@ -13,6 +13,12 @@ MonoBehaviour:
   m_Name: Fire Titan Boots
   m_EditorClassIdentifier: 
   itemSprite: {fileID: -374280562, guid: 07f85983dbd5b83468f5c4fbf3e826ae, type: 3}
+  itemSpriteRef:
+    m_AssetGUID: 07f85983dbd5b83468f5c4fbf3e826ae
+    m_SubObjectName: Fire Titan Boots
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 12
   legacyID: Greave-FireLordCave-0-Fire Titan Boots
   level: 0
@@ -20,7 +26,7 @@ MonoBehaviour:
   maxStack: 10
   maxWornCount: 1
   price: 0
-  shortDesc: 
+  shortDesc: Boots
   longDesc: 
   itemAbilities:
   - abilityData:

@@ -14,6 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: -8387695303841107715, guid: 8bd7652bd67cefd439aab7488786b25d,
     type: 3}
+  itemSpriteRef:
+    m_AssetGUID: 8bd7652bd67cefd439aab7488786b25d
+    m_SubObjectName: Parrot Hat
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 2
   legacyID: Helmet-DeepForest-13500-Parrot Hat
   level: 13500

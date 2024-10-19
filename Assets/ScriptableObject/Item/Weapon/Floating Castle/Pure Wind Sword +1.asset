@@ -13,6 +13,12 @@ MonoBehaviour:
   m_Name: Pure Wind Sword +1
   m_EditorClassIdentifier: 
   itemSprite: {fileID: -161347174, guid: 93248a83ceafcca46801c4012a2a4c5c, type: 3}
+  itemSpriteRef:
+    m_AssetGUID: 93248a83ceafcca46801c4012a2a4c5c
+    m_SubObjectName: Pure Wind Sword +1
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 11
   legacyID: Weapon-FloatingCastle-0-Pure Wind Sword
   level: 0

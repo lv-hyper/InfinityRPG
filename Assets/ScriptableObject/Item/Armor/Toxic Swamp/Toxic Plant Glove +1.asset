@@ -14,6 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: -5900763250921177026, guid: ff8446263742eaa4898952ed92345ad3,
     type: 3}
+  itemSpriteRef:
+    m_AssetGUID: ff8446263742eaa4898952ed92345ad3
+    m_SubObjectName: Toxic_Forest_28
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 9
   legacyID: Glove-VenomousForest-14000000000-Toxic Plant Glove +1
   level: 14000000000

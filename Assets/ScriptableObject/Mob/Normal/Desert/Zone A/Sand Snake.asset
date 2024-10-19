@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: Sand Snake
   m_EditorClassIdentifier: 
   mobSprite: {fileID: 21300000, guid: 21b094443c8ef0c4d850008df7edc417, type: 3}
+  mobSpriteRef:
+    m_AssetGUID: 21b094443c8ef0c4d850008df7edc417
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   imageOffset: {x: 10, y: 0}
   description: 
   mobClass: 1
@@ -28,6 +33,7 @@ MonoBehaviour:
   defReqRate: 1
   hidden: 0
   skills: []
+  skillRefs: []
   customHP: -1
   customATK: -1
   maxDefenceRatio: 2

@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: Diamond Dog
   m_EditorClassIdentifier: 
   mobSprite: {fileID: 21300000, guid: b080b224403488e41b460e65e8af6594, type: 3}
+  mobSpriteRef:
+    m_AssetGUID: b080b224403488e41b460e65e8af6594
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   imageOffset: {x: 0, y: 0}
   description: 
   mobClass: 2
@@ -28,6 +33,7 @@ MonoBehaviour:
   defReqRate: 1
   hidden: 0
   skills: []
+  skillRefs: []
   customHP: -1
   customATK: -1
   maxDefenceRatio: 2

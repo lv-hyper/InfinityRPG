@@ -14,6 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 971541413115640443, guid: 825c5c162bf7f934eaa8a6d6b54691db,
     type: 3}
+  itemSpriteRef:
+    m_AssetGUID: 825c5c162bf7f934eaa8a6d6b54691db
+    m_SubObjectName: Nature Fairy Staff
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 10
   legacyID: Weapon-FairyField-330000000000-Nature Fairy Staff
   level: 330000000000

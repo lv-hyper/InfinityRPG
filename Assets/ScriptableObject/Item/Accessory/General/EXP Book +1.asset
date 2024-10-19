@@ -14,6 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: -1928903532616774146, guid: 27ab6101698fc114fa4d34cc2c2f7d92,
     type: 3}
+  itemSpriteRef:
+    m_AssetGUID: 27ab6101698fc114fa4d34cc2c2f7d92
+    m_SubObjectName: exp_0-10_and_Necronomicon_7
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 0
   legacyID: General-General-1-EXP Book +1
   level: 1

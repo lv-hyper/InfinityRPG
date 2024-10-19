@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: Ice Titan
   m_EditorClassIdentifier: 
   mobSprite: {fileID: 21300000, guid: 3b386ac598684e541b1c2db4835436e1, type: 3}
+  mobSpriteRef:
+    m_AssetGUID: 3b386ac598684e541b1c2db4835436e1
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   imageOffset: {x: 0, y: 0}
   description: 
   mobClass: 0
@@ -32,6 +37,15 @@ MonoBehaviour:
   skills:
   - {fileID: 11400000, guid: 883c64c1da102444684b973ace75ef9c, type: 2}
   - {fileID: 11400000, guid: 4e8a4d0e68fb56c4a8da0a104f8a1bfd, type: 2}
+  skillRefs:
+  - m_AssetGUID: 883c64c1da102444684b973ace75ef9c
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  - m_AssetGUID: 4e8a4d0e68fb56c4a8da0a104f8a1bfd
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   customHP: -1
   customATK: -1
   maxDefenceRatio: 2

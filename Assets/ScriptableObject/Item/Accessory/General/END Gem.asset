@@ -14,6 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: -3139573349872584211, guid: 166373342ab7c1349a6bfe7cc1189287,
     type: 3}
+  itemSpriteRef:
+    m_AssetGUID: 166373342ab7c1349a6bfe7cc1189287
+    m_SubObjectName: gem full_9
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 0
   legacyID: General-General-1-END Gem
   level: 1

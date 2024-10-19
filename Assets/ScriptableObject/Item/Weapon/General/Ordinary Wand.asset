@@ -14,6 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: -1176910504816116367, guid: 6b15bf20c5a2a604b945d058c786dcf3,
     type: 3}
+  itemSpriteRef:
+    m_AssetGUID: 6b15bf20c5a2a604b945d058c786dcf3
+    m_SubObjectName: weapon001_7
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 0
   legacyID: Weapon-General-1-Ordinary Wand
   level: 1

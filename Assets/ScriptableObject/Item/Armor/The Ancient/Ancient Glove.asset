@@ -13,6 +13,12 @@ MonoBehaviour:
   m_Name: Ancient Glove
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 621909612, guid: cb62b4930030c5c4193ae410754e8986, type: 3}
+  itemSpriteRef:
+    m_AssetGUID: cb62b4930030c5c4193ae410754e8986
+    m_SubObjectName: ancient__3
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 0
   legacyID: Glove-General-44444444444-Ancient Glove
   level: 44444444444

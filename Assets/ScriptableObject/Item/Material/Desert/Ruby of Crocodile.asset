@@ -14,6 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: -6017134472381283854, guid: e831ee1edea549649a7aeb10a71709f6,
     type: 3}
+  itemSpriteRef:
+    m_AssetGUID: e831ee1edea549649a7aeb10a71709f6
+    m_SubObjectName: desert_30
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 7
   legacyID: Material-DragonCave-10555555555-Ruby Of Crocodile
   level: 10555555555

@@ -13,6 +13,12 @@ MonoBehaviour:
   m_Name: Toxic Pendant
   m_EditorClassIdentifier: 
   itemSprite: {fileID: -1380431940, guid: f5100b68b8aaaec44926eefaf0816b2e, type: 3}
+  itemSpriteRef:
+    m_AssetGUID: f5100b68b8aaaec44926eefaf0816b2e
+    m_SubObjectName: Toxic Pendant
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 9
   legacyID: General-VenomousForest-50000000-Toxic Pendant
   level: 50000000

@@ -14,6 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: -4470210533976794854, guid: 404ae6736e460264c847228c22685bdb,
     type: 3}
+  itemSpriteRef:
+    m_AssetGUID: 404ae6736e460264c847228c22685bdb
+    m_SubObjectName: additional_equipments_1_13
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 2
   legacyID: Glove-DeepForest-100000-Zeograth Glove
   level: 100000

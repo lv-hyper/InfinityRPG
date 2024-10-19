@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: boardsection
+  m_EditorClassIdentifier: 
+  m_GroupName: boardsection
+  m_Data:
+    m_SerializedData: []
+  m_GUID: c0d4c033c4630534eba010fd293db4c0
+  m_SerializeEntries:
+  - m_GUID: 8bd727ecee34cfc49b11d425bfa29259
+    m_Address: expertInfo000
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - boardSection
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6bee4badc6fbd9742bb4173f6471b618
+    m_Address: HiddenNpcPage
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - boardSection
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dd7a75f09e2d44a4cb18772e7f497351
+    m_Address: tutorial000
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - boardSection
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d91da4dc2f88445419a98f88b165f316
+    m_Address: tutorial001
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - boardSection
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9dbe115b396a28743bc2e05599e69880
+    m_Address: tutorial002
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - boardSection
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 482d79c217fd56d4285aa89a01160bdf, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 452f0888b7b3dc949a6c8058404cae76, type: 2}
+    - {fileID: 11400000, guid: 1adfc62d245e40c489011b30dd1d1ddb, type: 2}

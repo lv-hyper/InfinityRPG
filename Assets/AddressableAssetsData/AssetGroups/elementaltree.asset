@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: elementaltree
+  m_EditorClassIdentifier: 
+  m_GroupName: elementaltree
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 52cdebeb69788d44388fcf2abded9af7
+  m_SerializeEntries:
+  - m_GUID: 7c7d6c920f211ed458f4602aceb75322
+    m_Address: Air
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - elementalTree
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e03825ebd1f4b444aabde379b15c1f2e
+    m_Address: Fire
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - elementalTree
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 40124f5d9d213664ea348fa6c27bd61a
+    m_Address: Nature
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - elementalTree
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e688135a5811bf848a7242591adf6219
+    m_Address: Water
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - elementalTree
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 482d79c217fd56d4285aa89a01160bdf, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 19717cef713ab214a83af10ba39955e6, type: 2}
+    - {fileID: 11400000, guid: d37d09022d337da498078e7ab81525f3, type: 2}

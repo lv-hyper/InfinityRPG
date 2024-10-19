@@ -1,11 +1,15 @@
 ﻿using InGame.Data.BattleInstance;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
+using UnityEngine.AddressableAssets;
+using UnityEngine.Events;
+using UnityEngine.ResourceManagement.AsyncOperations;
 using Random = UnityEngine.Random;
 
 #if UNITY_EDITOR
@@ -21,7 +25,9 @@ namespace InGame.Data.Mob
 #else
         static bool debug = false;
 #endif
-        [SerializeField] protected Sprite mobSprite;
+        public bool IsLoadingSprite { get; protected set; }
+        protected Sprite mobSprite;
+        [SerializeField] public AssetReferenceT<Sprite> mobSpriteRef;
         [SerializeField] protected UnityEngine.Vector2 imageOffset;
 
         [TextArea(5, 10)]
@@ -211,7 +217,43 @@ namespace InGame.Data.Mob
         }
 
         public virtual BigInteger GetLV() { return lv; }
-        public Sprite GetSprite() { return mobSprite; }
+        public AsyncOperationHandle<Sprite>? GetSpriteAsync(UnityAction onComplete)
+        {
+            if (mobSprite == null)
+            {
+                var handle = mobSpriteRef.LoadAssetAsync<Sprite>();
+                handle.Completed += (operationHandle =>
+                {
+                    if (handle.Status == AsyncOperationStatus.Succeeded)
+                    {
+                        mobSprite = handle.Result;
+                        onComplete?.Invoke();
+                        IsLoadingSprite = true;
+                    }
+                    else
+                    {
+                        Debug.LogError("Failed to load mob sprite");
+                    }
+                });
+                
+                return handle;
+            }
+
+            return null;
+        }
+
+        public void UnloadSprite()
+        {
+            mobSprite = null;
+            mobSpriteRef.ReleaseAsset();
+            IsLoadingSprite = false;
+        }
+
+        public Sprite GetSprite()
+        {
+            return mobSprite;
+        }
+        
         public UnityEngine.Vector2 GetImageOffset() { return imageOffset; }
         public List<DropProperty> GetDropTable() { return dropTable; }
         //temp
@@ -324,62 +366,11 @@ namespace InGame.Data.Mob
             return itemList;
         }
 
-        public void InitNewMob(
-            string name,
-            Sprite mobSprite,
-            UnityEngine.Vector2 imageOffset,
-            string description,
-            EnumEntityClass entityClass,
-            List<ElementalElement> elementalDamage, List<ElementalElement> elementalDefence,
-            BigInteger lv, float hpRate, float atkRate, float expRate, float goldRate, float defReqRate, long customHP, long customAtk,
-            long integratedElementalDefence,
-            List<DropProperty> dropTable,
-            List<string> tagList,
-            List<Skill.EnemyActiveSkill> skills
-        )
+        public AbstractMob SummonNewMobInstance(BigInteger level)
         {
-            this.name = name;
-            this.mobSprite = mobSprite;
-            this.imageOffset = imageOffset;
-            this.description = description;
-
-            mobClass = entityClass;
-
-            this.elementalDamage = elementalDamage;
-            this.elementalDefence = elementalDefence;
-
-            this.lv = (long)lv; //TODO : change this to BigInteger
-
-            this.hpRate = hpRate;
-            this.atkRate = atkRate;
-            this.expRate = expRate;
-            this.goldRate = goldRate;
-            this.defReqRate = defReqRate;
-            this.customHP = customHP;
-            this.customATK = customAtk;
-            this.integratedElementalDefence = integratedElementalDefence;
-
-            this.dropTable = dropTable;
-            this.tagList = tagList;
-
-            this.skills= skills;
-        }
-
-        public virtual AbstractMob newMobInstance(BigInteger level)
-        {
-            AbstractMob newMobInstance = CreateInstance<AbstractMob>();
-            newMobInstance.InitNewMob(
-                name,
-                mobSprite, imageOffset,
-                description,
-                mobClass,
-                elementalDamage, elementalDefence,
-                level, hpRate, atkRate, expRate, goldRate, defReqRate, customHP, customATK,
-                integratedElementalDefence,
-                dropTable,
-                tagList,
-                skills
-            );
+            AbstractMob newMobInstance = Instantiate(this);
+            newMobInstance.lv = (long)level;
+            newMobInstance.name = this.name;
             return newMobInstance;
         }
 
@@ -404,6 +395,8 @@ namespace InGame.Data.Mob
         {
             lv = _lv;
         }
+        
+        
 
         public virtual int GetSoulLevel()
         {

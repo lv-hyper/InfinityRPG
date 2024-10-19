@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: Blue Dragon
   m_EditorClassIdentifier: 
   mobSprite: {fileID: 21300000, guid: ffec493fb105d8e419a3a7b8a4b52eab, type: 3}
+  mobSpriteRef:
+    m_AssetGUID: ffec493fb105d8e419a3a7b8a4b52eab
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   imageOffset: {x: 0, y: 0}
   description: 
   mobClass: 0
@@ -28,6 +33,7 @@ MonoBehaviour:
   defReqRate: 1
   hidden: 0
   skills: []
+  skillRefs: []
   customHP: -1
   customATK: -1
   maxDefenceRatio: 2

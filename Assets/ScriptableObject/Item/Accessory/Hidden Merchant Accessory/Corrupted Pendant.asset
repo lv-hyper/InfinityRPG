@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9495e2426dc60cc4ba40a53a473ec155, type: 3}
+  m_Name: Corrupted Pendant
+  m_EditorClassIdentifier: 
+  itemSprite: {fileID: 644547045, guid: 0193e024958f0004ba9e6f21e556efe6, type: 3}
+  itemSpriteRef:
+    m_AssetGUID: 0193e024958f0004ba9e6f21e556efe6
+    m_SubObjectName: Corrupted Pendant
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
+  zone: 0
+  legacyID: 
+  level: 45000
+  order: 0
+  maxStack: 10
+  maxWornCount: 1
+  price: 0
+  shortDesc: Gain HP From Attack (45%).
+  longDesc: Made from a corrupted gem, it allows you to taint some bosses, making
+    them more powerful.  Lifesteal doesn't stack!.
+  itemAbilities:
+  - abilityData:
+      ability: {fileID: 11400000, guid: 4741220aabfc4fb4d968b50d110d8aeb, type: 2}
+      amount: 45
+    isPassive: 0
+  tagResists: []

@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: Fire Turtle
   m_EditorClassIdentifier: 
   mobSprite: {fileID: 21300000, guid: dace5e34cde42534e9b06f9cc4920fe7, type: 3}
+  mobSpriteRef:
+    m_AssetGUID: dace5e34cde42534e9b06f9cc4920fe7
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   imageOffset: {x: 0, y: 0}
   description: 
   mobClass: 1
@@ -31,6 +36,11 @@ MonoBehaviour:
   hidden: 0
   skills:
   - {fileID: 11400000, guid: 781efb22e5f3146418b198c673224121, type: 2}
+  skillRefs:
+  - m_AssetGUID: 781efb22e5f3146418b198c673224121
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   customHP: -1
   customATK: -1
   maxDefenceRatio: 2

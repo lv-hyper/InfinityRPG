@@ -14,6 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 3937458843442380805, guid: 38b583c06ef440242bdb7faf1a4de221,
     type: 3}
+  itemSpriteRef:
+    m_AssetGUID: 38b583c06ef440242bdb7faf1a4de221
+    m_SubObjectName: farForest+1_25
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 2
   legacyID: General-DeepForest-17500000-Petal Of Dryad Queen +1
   level: 17500000

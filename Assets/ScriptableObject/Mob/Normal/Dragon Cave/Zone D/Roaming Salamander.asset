@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: Roaming Salamander
   m_EditorClassIdentifier: 
   mobSprite: {fileID: 21300000, guid: d9e2c7a22e039ae4fba58691fafbfc64, type: 3}
+  mobSpriteRef:
+    m_AssetGUID: d9e2c7a22e039ae4fba58691fafbfc64
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   imageOffset: {x: 0, y: 0}
   description: 
   mobClass: 0
@@ -28,6 +33,7 @@ MonoBehaviour:
   defReqRate: 1
   hidden: 0
   skills: []
+  skillRefs: []
   customHP: -1
   customATK: -1
   maxDefenceRatio: 2

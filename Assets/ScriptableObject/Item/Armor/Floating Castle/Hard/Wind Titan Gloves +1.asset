@@ -13,6 +13,12 @@ MonoBehaviour:
   m_Name: Wind Titan Gloves +1
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 2142991684, guid: bb70b82c57695e44ea5ed9da5d635a5f, type: 3}
+  itemSpriteRef:
+    m_AssetGUID: bb70b82c57695e44ea5ed9da5d635a5f
+    m_SubObjectName: Wind Titan Gloves +1
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 11
   legacyID: Glove-FloatingCastle-0-Wind Titan Gloves +1
   level: 0
@@ -20,7 +26,7 @@ MonoBehaviour:
   maxStack: 10
   maxWornCount: 1
   price: 0
-  shortDesc: 
+  shortDesc: Gloves
   longDesc: 
   itemAbilities:
   - abilityData:

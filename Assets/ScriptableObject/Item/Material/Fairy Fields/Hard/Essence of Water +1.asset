@@ -13,6 +13,12 @@ MonoBehaviour:
   m_Name: Essence Of Water +1
   m_EditorClassIdentifier: 
   itemSprite: {fileID: -1692559704, guid: 1c62d1a70d7af634abd47c324cf2e8f9, type: 3}
+  itemSpriteRef:
+    m_AssetGUID: 1c62d1a70d7af634abd47c324cf2e8f9
+    m_SubObjectName: Essence of Water +1
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 10
   legacyID: Material-FairyField-330000000001-Essence Of Water +1
   level: 330000000001

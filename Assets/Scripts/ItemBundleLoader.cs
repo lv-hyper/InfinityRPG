@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using InGame.Data.Item.Group;
+using InGame.Data.Mob;
 using UnityEngine;
 using UnityEngine.Networking;
 
@@ -60,18 +61,18 @@ public class ItemBundleLoader : MonoBehaviour
             {
                 UnityWebRequest www = UnityWebRequest.Get(path);
 
-                Debug.Log(path);
+                //Debug.Log(path);
 
                 yield return www.SendWebRequest();
 
                 if (www.isDone)
                 {
                     bytes = www.downloadHandler.data;
-                    Debug.Log(bytes.LongLength);
+                    //Debug.Log(bytes.LongLength);
                 }
                 else
                 {
-                    Debug.Log(www.error);
+                    Debug.LogError(www.error);
                 }
 
             }
@@ -165,7 +166,7 @@ public class ItemBundleLoader : MonoBehaviour
     {
         var mobs = bundle.LoadAllAssets<InGame.Data.Mob.AbstractMob>();
 
-        InGame.Data.Mob.MobCollection.GetInstance().SetList(
+        MobCollection.GetInstance().SetList(
             new List<InGame.Data.Mob.AbstractMob>(mobs)
         );
     }
@@ -208,9 +209,9 @@ public class ItemBundleLoader : MonoBehaviour
             InGame.Data.ElementalTreeCollection.GetInstance().AddElementalTree(elementalTree);
         }
 
-        Debug.Log("Wahoo");
+        //Debug.Log("Wahoo");
         InGame.Data.ElementalTreeCollection.GetInstance().SetElementalTreeElementRequirement();
-        Debug.Log("asdf");
+        //Debug.Log("asdf");
     }
 
 }

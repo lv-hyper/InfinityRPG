@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: Shroomy
   m_EditorClassIdentifier: 
   mobSprite: {fileID: 21300000, guid: 7450fe35aef27a446a776d97e3c74d25, type: 3}
+  mobSpriteRef:
+    m_AssetGUID: 7450fe35aef27a446a776d97e3c74d25
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   imageOffset: {x: 0, y: 0}
   description: 
   mobClass: 2
@@ -28,6 +33,7 @@ MonoBehaviour:
   defReqRate: 1
   hidden: 0
   skills: []
+  skillRefs: []
   customHP: 0
   customATK: 0
   maxDefenceRatio: 2

@@ -14,6 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: -8595959123585964936, guid: a89df09e323db974fae7c89c440f858b,
     type: 3}
+  itemSpriteRef:
+    m_AssetGUID: a89df09e323db974fae7c89c440f858b
+    m_SubObjectName: blossom_weapon_0
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 0
   legacyID: Weapon-General-1-Blossom Staff
   level: 1

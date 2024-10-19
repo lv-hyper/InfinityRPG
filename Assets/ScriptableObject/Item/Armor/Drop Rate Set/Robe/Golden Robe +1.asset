@@ -12,7 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a690dbe85943d2a4484a199a8b9f45af, type: 3}
   m_Name: Golden Robe +1
   m_EditorClassIdentifier: 
-  itemSprite: {fileID: -1657613054, guid: 911724a8469d396448b7dc12379967cf, type: 3}
+  itemSprite: {fileID: 1541315410, guid: 5555483f8ff45ba43a302fd7721fad99, type: 3}
+  itemSpriteRef:
+    m_AssetGUID: 5555483f8ff45ba43a302fd7721fad99
+    m_SubObjectName: Golden Robe +1
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 0
   legacyID: Robe-General-70000000000-Golden Robe
   level: 70000000000

@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: Ifrit
   m_EditorClassIdentifier: 
   mobSprite: {fileID: 21300000, guid: 501dc0e1e4353de4193eeffc76d0bb30, type: 3}
+  mobSpriteRef:
+    m_AssetGUID: 501dc0e1e4353de4193eeffc76d0bb30
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   imageOffset: {x: 0, y: 0}
   description: 
   mobClass: 1
@@ -31,6 +36,11 @@ MonoBehaviour:
   hidden: 0
   skills:
   - {fileID: 11400000, guid: 73e9399bc7324184d9e444d750235e69, type: 2}
+  skillRefs:
+  - m_AssetGUID: 73e9399bc7324184d9e444d750235e69
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   customHP: -1
   customATK: -1
   maxDefenceRatio: 2

@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: Ice Wisp
   m_EditorClassIdentifier: 
   mobSprite: {fileID: 21300000, guid: 8ebecdb4fbb08fe478c1e0a4cc659db5, type: 3}
+  mobSpriteRef:
+    m_AssetGUID: 8ebecdb4fbb08fe478c1e0a4cc659db5
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   imageOffset: {x: 0, y: 0}
   description: 
   mobClass: 2147483647
@@ -30,6 +35,7 @@ MonoBehaviour:
   defReqRate: 1
   hidden: 0
   skills: []
+  skillRefs: []
   customHP: -1
   customATK: -1
   maxDefenceRatio: 2

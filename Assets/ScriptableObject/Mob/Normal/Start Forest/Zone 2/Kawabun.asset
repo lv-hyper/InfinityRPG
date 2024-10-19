@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: Kawabun
   m_EditorClassIdentifier: 
   mobSprite: {fileID: 21300000, guid: ee3ef2f807b3bc740b2d81733c62ba39, type: 3}
+  mobSpriteRef:
+    m_AssetGUID: ee3ef2f807b3bc740b2d81733c62ba39
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   imageOffset: {x: 0, y: 0}
   description: 
   mobClass: 0
@@ -28,6 +33,7 @@ MonoBehaviour:
   defReqRate: 1
   hidden: 0
   skills: []
+  skillRefs: []
   customHP: 0
   customATK: 0
   maxDefenceRatio: 2

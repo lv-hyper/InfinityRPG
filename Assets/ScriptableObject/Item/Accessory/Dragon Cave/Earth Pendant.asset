@@ -13,6 +13,12 @@ MonoBehaviour:
   m_Name: Earth Pendant
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 1384126420, guid: 213138e1ba645f7408061f4b43a6be59, type: 3}
+  itemSpriteRef:
+    m_AssetGUID: 213138e1ba645f7408061f4b43a6be59
+    m_SubObjectName: Earth Pendant
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 7
   legacyID: General-DragonCave-50000000-Earth Pendant
   level: 50000000

@@ -1,0 +1,631 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: ability
+  m_EditorClassIdentifier: 
+  m_GroupName: ability
+  m_Data:
+    m_SerializedData: []
+  m_GUID: a28c763b8ad759f4dba36909b119ec36
+  m_SerializeEntries:
+  - m_GUID: 9233d82060af7de458e2e6782161b13d
+    m_Address: Additional Air Damage
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cec529fb1f8965a4d8145887d760e347
+    m_Address: Additional Fire Damage
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 39a205e34d7241d488da80b475bfc527
+    m_Address: Additional Nature Damage
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 665e3ba214c2bc742a3b27e8dbb0265e
+    m_Address: Additional Water Damage
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c7ef18a7a9a084c4aae71ab009e8cb11
+    m_Address: Air Damage Percent Point
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ae18c9490439c8448a7d819e1d3d58f7
+    m_Address: Base Air Damage
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3f23a4b3d8f3e2745a8c89d04561138e
+    m_Address: Base Fire Damage
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e6c8e9dfc64062448a194ca600b04e47
+    m_Address: Base Nature Damage
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d5e636f0aa1d0d145be4ebfb9c3e032b
+    m_Address: Base Water Damage
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5648ae62f8d3ab941ba5739e1de26c5c
+    m_Address: Fire Damage Percent Point
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c9e3d29555679a34ebfee18956c06dff
+    m_Address: Nature Damage Percent Point
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e1901a88049d3cb47aa5d6ce5ea95748
+    m_Address: Water Damage Percent Point
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 62841904735c4744cab8bf4b760e269a
+    m_Address: Additional Air Defence
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 26008c40dd9227848b65e02c7e79e1dd
+    m_Address: Additional Fire Defence
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b1317ac1d1a0dc145a39d4df1a7647dd
+    m_Address: Additional Nature Defence
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 48d57c3dbeeac7b41842f70a5a0807c2
+    m_Address: Additional Water Defence
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4716f7f01a0c2b04ab9f9233a2cc6f74
+    m_Address: Air Defence Percent Point
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d73e0b5bcee5b12459decde20f46848a
+    m_Address: Base Air Defence
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e98f01783a5f0fd41b053ff46966d6b7
+    m_Address: Base Fire Defence
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c0c60e6057c22cf49b3e03a698f69e24
+    m_Address: Base Nature Defence
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5fa84a42dcbe16746b0d45aec3c9670b
+    m_Address: Base Water Defence
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0231692c9744bba448f04998315df2cc
+    m_Address: Fire Defence Percent Point
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4e3316de176e97b46aa15acd0d9b99c1
+    m_Address: Nature Defence Percent Point
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 11ba1167cb184074dabd47b6fd736629
+    m_Address: Water Defence Percent Point
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a4a8f3741314eca439e48292e718829f
+    m_Address: Additional Avoid Damage
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5d692101370ec7c4cb9b3b0d529bc4bd
+    m_Address: Additional Avoid Rate
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9777b228126a0174d9f51238f1e88c7d
+    m_Address: Additional Combo Rate
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ef586ba338566e6468099f41931ba41e
+    m_Address: Additional Critical Damage
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f1248d63585cf814e9093fe35267e4ca
+    m_Address: Additional Critical Rate
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b22af07908ece0f4898bc86591d64d9f
+    m_Address: Additional Double Hit
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 789afb0f8c38a904486eb4ddab4e9b2c
+    m_Address: Additional EXP Rate
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ff6900d1adbd99f45b0a9429da33059c
+    m_Address: Additional Max Defence
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7adf7319e4c7feb49b2905b9bdb33da6
+    m_Address: Additional Reflect Damage
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a17bc760a478d704aa9081bbdae1956a
+    m_Address: Additional Stat Point
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 24af0757f1b686f488a1bc491d1a9139
+    m_Address: Additional Total Damage Reduction
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 383f606bc3022b84380df7037458ee1b
+    m_Address: Avoid Damage
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1317d97231ceeae41a8f0d8857beec67
+    m_Address: Avoid Rate
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6b5472c2fda1cc94fb829deec85fb83a
+    m_Address: Combo Rate
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c46f23f2b27e45c40bd52ac8b23353b5
+    m_Address: Critical Damage
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d036be713dd8396449fa7fb3c7165842
+    m_Address: Critical Rate
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 18403eb31cab25f498d63c0ff9cd8cdc
+    m_Address: Double Hit
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 38886ca0b89ed37479b712bdb4cb6068
+    m_Address: EXP
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2fce2ad1e10110f40a62523b8696f9e8
+    m_Address: Reflect Damage
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 671f220738f5af34888eb9e1d9c4d3e8
+    m_Address: Total Damage Reduction
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ababd474e891aa1408b1964680e71c39
+    m_Address: Defence Break
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5f2b8bec19d88514cb63976a4704812f
+    m_Address: Defence Formula Exponential
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 463bd9970de37b54b84b9fb83b2330ed
+    m_Address: Delay Death
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 83b80519d6da7f14c830d34b8b8ceda0
+    m_Address: EXP Multiplier
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 00d41f330a8f0c349b2a0eda1a85f858
+    m_Address: Movement Speed
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4741220aabfc4fb4d968b50d110d8aeb
+    m_Address: Recover by Damage
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f1cf6bbc53f44624da181d7181553aa4
+    m_Address: Recover by HP
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aebc45057930c2645bda0e6a09837dc1
+    m_Address: Soul Extract
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 64f80202e2c317948ba4bf877525d183
+    m_Address: Stamina
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b48f06c85446611469b861950f481bd1
+    m_Address: Surpass Death
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 577b4532284206842ab2b756f5a50619
+    m_Address: Additional All Stat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 33589abe791f3af49906fb74ca5fd30b
+    m_Address: All Stat by Collection Count
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3bb43ca1f277f034a8cd1fba30332c77
+    m_Address: All Stat Percent Point
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 31d1fb08458b12841beb71919ea63e99
+    m_Address: All Stat Percent
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f52a00cab58cb8145a448eff53b20ae4
+    m_Address: Additional Attack
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 14973c998a968324eba5d1189dfc6ace
+    m_Address: Attack Percent Point
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1ad4901e483f59f42a84b9dfea5d1c8e
+    m_Address: Attack Percent
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7313d91db8e2bfc48b271a612cd9e524
+    m_Address: Attack
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 756cac895ca8e1a429adde75bdfbfc63
+    m_Address: Additional Defence
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 480eeac1ba90dfa408c47d451ea0cb7e
+    m_Address: All Defence Percent Point
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 57fa74d3d3b821f448dc6d78fab380b0
+    m_Address: Defence Percent
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 51fdc31591946ee48bb0a5023915665d
+    m_Address: Defence
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8af735dcb2192454c9edc84349b2b4e8
+    m_Address: Additional Magical Defence
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 97c795f861134eb4985cd45c70fb8fac
+    m_Address: Magical Defence Percent Point
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 36a9d2ab3242179478fdbc742f5d1941
+    m_Address: Magical Defence
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a85a2268399364042aa3155ec0a2270f
+    m_Address: Additional Melee Defence
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fc176a57560ccfa4b812a85bebb6c113
+    m_Address: Melee Defence Percent Point
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 174d8e786e8112f49bff0052ce841679
+    m_Address: Melee Defence
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eeda02dcf6f260141bd8531aecda36dd
+    m_Address: Additional Ranged Defence
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 11d3240bdb2a07f43bb088919165b6e0
+    m_Address: Ranged Defence Percent Point
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5aeb22aeab2709b49880f29b29357b57
+    m_Address: Ranged Defence
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f453bf97e7fe4054ba64ab6f3fe940a8
+    m_Address: Additional Dexiterity
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2626e6bd1d0b7f64092eec7acec8eaf9
+    m_Address: Dexiterity Percent Point
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 40743308b3929a9498ee4cb4423b7b8f
+    m_Address: Dexiterity Percent
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b1fb84573ecff914fbcb179cad60b049
+    m_Address: Dexiterity
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1e5287b90b2253e4d8c72a9f23c8bee7
+    m_Address: Additional Endurance
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 09c2db37b885b21488d80a2cbfe838aa
+    m_Address: Endurance Percent Point
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ce06bcbcb636aaf498b8307e90d6d06a
+    m_Address: Endurance Percent
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ea9627b0d9806ca4dab015e56eaa87a8
+    m_Address: Endurance
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 933d1d99147d9dc4bb23f45c4b3466f9
+    m_Address: Additional Intelligence
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7ea2ce57b2cebec4487256dc4f1ddc72
+    m_Address: Intelligence Percent Point
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ca93f8e724dd02d498fc70309d0fb3f9
+    m_Address: Intelligence Percent
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 45c820c82445aa841abe2ec353ca3548
+    m_Address: Intelligence
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 514815e8f1ecac84da9e874a14548929
+    m_Address: Additional Strength
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7d421f9d9da240d4b8fced360445ac3f
+    m_Address: Strength Percent Point
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7722585d3f6c1604a839f3198a98809d
+    m_Address: Strength Percent
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 223887c5647bf74499855023bf1ea732
+    m_Address: Strength
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2f5cdc4e3a87fd3479d1a25ce5ce7edf
+    m_Address: Additional Vitality
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a0f41aa27f0cbdb45b0805d531073d8c
+    m_Address: Vitality Percent Point
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6e69fd54c8757ff40ade2863196c9eda
+    m_Address: Vitality Percent
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 65b7da78c8d91724a873b34d08a716c6
+    m_Address: Vitality
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 477140b58d92b9b4493f58a0c7b38854
+    m_Address: Additional Droprate
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9868ecc086ac55f4fafccdda76d575a9
+    m_Address: Base Droprate
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 429fc375828263a479a04d9a807bf1c3
+    m_Address: Droprate Multiplier
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c82d9d7f7ce757e43b9de47627e50a05
+    m_Address: Additional Gold Rate
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4e749fc59d36fb1418a9309e96f9c0a9
+    m_Address: Base Gold Rate
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 77714c2d7dd0c4b44a864ba0106cca1c
+    m_Address: Gold Rate Multiplier
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ability
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 482d79c217fd56d4285aa89a01160bdf, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 488ff52a5fce34a4296938cd851e37e3, type: 2}
+    - {fileID: 11400000, guid: 979a1a60a927bb94285fbfd18eab97ac, type: 2}

@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: Fire Lord Titan
   m_EditorClassIdentifier: 
   mobSprite: {fileID: 21300000, guid: faec12d28e0a80e4d98240d4f67c594e, type: 3}
+  mobSpriteRef:
+    m_AssetGUID: faec12d28e0a80e4d98240d4f67c594e
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   imageOffset: {x: 0, y: 0}
   description: 
   mobClass: 1
@@ -32,6 +37,15 @@ MonoBehaviour:
   skills:
   - {fileID: 11400000, guid: 781efb22e5f3146418b198c673224121, type: 2}
   - {fileID: 11400000, guid: 73e9399bc7324184d9e444d750235e69, type: 2}
+  skillRefs:
+  - m_AssetGUID: 781efb22e5f3146418b198c673224121
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  - m_AssetGUID: 73e9399bc7324184d9e444d750235e69
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   customHP: -1
   customATK: -1
   maxDefenceRatio: 2

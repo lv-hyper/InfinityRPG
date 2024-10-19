@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: Crystal Golem
   m_EditorClassIdentifier: 
   mobSprite: {fileID: 21300000, guid: 7ee29cc55cc21a747a36dcc1db0283a0, type: 3}
+  mobSpriteRef:
+    m_AssetGUID: 7ee29cc55cc21a747a36dcc1db0283a0
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   imageOffset: {x: 0, y: 0}
   description: 
   mobClass: 0
@@ -28,6 +33,7 @@ MonoBehaviour:
   defReqRate: 1
   hidden: 0
   skills: []
+  skillRefs: []
   customHP: -1
   customATK: -1
   maxDefenceRatio: 2

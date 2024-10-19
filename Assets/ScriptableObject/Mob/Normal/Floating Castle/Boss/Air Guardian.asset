@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: Air Guardian
   m_EditorClassIdentifier: 
   mobSprite: {fileID: 21300000, guid: bf69845e82c356b46b52e3f3658312f3, type: 3}
+  mobSpriteRef:
+    m_AssetGUID: bf69845e82c356b46b52e3f3658312f3
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   imageOffset: {x: 0, y: 0}
   description: 
   mobClass: 0
@@ -31,6 +36,11 @@ MonoBehaviour:
   hidden: 0
   skills:
   - {fileID: 11400000, guid: 502ef475b37762a4bab8a560cc395775, type: 2}
+  skillRefs:
+  - m_AssetGUID: 502ef475b37762a4bab8a560cc395775
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   customHP: -1
   customATK: -1
   maxDefenceRatio: 2

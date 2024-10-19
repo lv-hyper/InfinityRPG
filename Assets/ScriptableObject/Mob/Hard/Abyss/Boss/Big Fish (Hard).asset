@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcd0cba9d37c1734f97da892cf4257e6, type: 3}
+  m_Name: Big Fish (Hard)
+  m_EditorClassIdentifier: 
+  mobSprite: {fileID: 21300000, guid: 224ef2b9a75eafb4d8b2e3caae8f98d3, type: 3}
+  mobSpriteRef:
+    m_AssetGUID: 224ef2b9a75eafb4d8b2e3caae8f98d3
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  imageOffset: {x: 0, y: 0}
+  description: 
+  mobClass: 1
+  elementalDamage: []
+  elementalDefence: []
+  integratedElementalDefence: -1
+  lv: 56333333300
+  difficulty: hard
+  hpRate: 1
+  atkRate: 1
+  expRate: 1
+  goldRate: 1
+  defReqRate: 1
+  hidden: 0
+  skills: []
+  skillRefs: []
+  customHP: -1
+  customATK: -1
+  maxDefenceRatio: 2
+  dropTable:
+  - item: {fileID: 11400000, guid: 5a27b7c572dc6e04ab74cd9f8f53e93d, type: 2}
+    probablity: 0.05
+  - item: {fileID: 11400000, guid: c6ef0f9703af1f643869447ab2a02be1, type: 2}
+    probablity: 0.05
+  - item: {fileID: 11400000, guid: b7f6d6b75eaa56243a13c92f0b166ee0, type: 2}
+    probablity: 0.05
+  tagList: []
+  soulLv: 3
+  progressionLevel: 0
+  elementalSoulDrops: []

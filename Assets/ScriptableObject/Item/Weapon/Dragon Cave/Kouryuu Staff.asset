@@ -14,6 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 2254030885399765951, guid: 79193870ec622ea4497884da55d55a90,
     type: 3}
+  itemSpriteRef:
+    m_AssetGUID: 79193870ec622ea4497884da55d55a90
+    m_SubObjectName: dragon_new_6
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 7
   legacyID: Weapon-DragonCave-10555555555-Kouryuu Staff
   level: 10555555555

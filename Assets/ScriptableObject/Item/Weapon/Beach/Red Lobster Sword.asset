@@ -13,6 +13,12 @@ MonoBehaviour:
   m_Name: Red Lobster Sword
   m_EditorClassIdentifier: 
   itemSprite: {fileID: -1363636052, guid: 711b15312ddb2b54b9ad2d4632db530b, type: 3}
+  itemSpriteRef:
+    m_AssetGUID: 711b15312ddb2b54b9ad2d4632db530b
+    m_SubObjectName: pixel_items4_40
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 4
   legacyID: Weapon-Beach-3000000-Red Lobster Sword
   level: 3000000

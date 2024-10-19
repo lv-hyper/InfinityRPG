@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: Giant Toxic Root
   m_EditorClassIdentifier: 
   mobSprite: {fileID: 21300000, guid: be08c9f5c2e926640af9b75a451b5b5d, type: 3}
+  mobSpriteRef:
+    m_AssetGUID: be08c9f5c2e926640af9b75a451b5b5d
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   imageOffset: {x: 0, y: 0}
   description: 
   mobClass: 2
@@ -28,6 +33,7 @@ MonoBehaviour:
   defReqRate: 1
   hidden: 0
   skills: []
+  skillRefs: []
   customHP: -1
   customATK: -1
   maxDefenceRatio: 2

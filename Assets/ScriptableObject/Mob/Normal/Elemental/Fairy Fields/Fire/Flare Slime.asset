@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: Flare Slime
   m_EditorClassIdentifier: 
   mobSprite: {fileID: 21300000, guid: 78e58ba8fd65153469e434d1c72d1ff6, type: 3}
+  mobSpriteRef:
+    m_AssetGUID: 78e58ba8fd65153469e434d1c72d1ff6
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
   imageOffset: {x: 0, y: 0}
   description: 
   mobClass: 2147483647
@@ -30,6 +35,7 @@ MonoBehaviour:
   defReqRate: 1
   hidden: 0
   skills: []
+  skillRefs: []
   customHP: -1
   customATK: -1
   maxDefenceRatio: 2

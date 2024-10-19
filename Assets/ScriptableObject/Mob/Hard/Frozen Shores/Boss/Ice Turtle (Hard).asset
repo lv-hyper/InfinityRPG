@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcd0cba9d37c1734f97da892cf4257e6, type: 3}
+  m_Name: Ice Turtle (Hard)
+  m_EditorClassIdentifier: 
+  mobSprite: {fileID: 21300000, guid: 20c75f75340848c41a402fde0118635c, type: 3}
+  mobSpriteRef:
+    m_AssetGUID: 20c75f75340848c41a402fde0118635c
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  imageOffset: {x: 0, y: 0}
+  description: 
+  mobClass: 0
+  elementalDamage:
+  - elemental: 4
+    amount: 270
+  elementalDefence: []
+  integratedElementalDefence: 100
+  lv: 16800000000000
+  difficulty: hard
+  hpRate: 1
+  atkRate: 0.9
+  expRate: 1
+  goldRate: 1
+  defReqRate: 1.5
+  hidden: 0
+  skills:
+  - {fileID: 11400000, guid: 883c64c1da102444684b973ace75ef9c, type: 2}
+  skillRefs:
+  - m_AssetGUID: 883c64c1da102444684b973ace75ef9c
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  customHP: -1
+  customATK: -1
+  maxDefenceRatio: 2
+  dropTable:
+  - item: {fileID: 11400000, guid: 7ac40b3a0ab468947af7f0ffff8be981, type: 2}
+    probablity: 0.025
+  - item: {fileID: 11400000, guid: 774747de2a813e842a5e4c95c4c4fc09, type: 2}
+    probablity: 0.025
+  tagList: []
+  soulLv: 5
+  progressionLevel: 0
+  elementalSoulDrops:
+  - elementalType: 4
+    count: 5

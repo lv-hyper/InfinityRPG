@@ -14,6 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: -1996578577766772005, guid: 9b52161a09218964a91a3c02ff91fb4e,
     type: 3}
+  itemSpriteRef:
+    m_AssetGUID: 9b52161a09218964a91a3c02ff91fb4e
+    m_SubObjectName: abyss 1_3
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 6
   legacyID: General-Abyss-66666666666-Great Fury Of Armon +1
   level: 66666666666

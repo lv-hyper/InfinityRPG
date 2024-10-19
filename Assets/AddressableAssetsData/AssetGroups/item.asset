@@ -1,0 +1,4429 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: item
+  m_EditorClassIdentifier: 
+  m_GroupName: item
+  m_Data:
+    m_SerializedData: []
+  m_GUID: f2f0226c95f4c9049a260395efaa4d28
+  m_SerializeEntries:
+  - m_GUID: 9da8aa9738f839c4cbfc54bf6e249795
+    m_Address: Abyss Clock +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ec1fa53166b59514fa6e943dd9d6c87c
+    m_Address: Abyss Clock
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f4e4493e2594a954bb1412d3074a6b1b
+    m_Address: Blue Crystal
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 34f3164697733d04398d10d42d6cd089
+    m_Address: Dark Blue Crystal
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b7f6d6b75eaa56243a13c92f0b166ee0
+    m_Address: Great Fury of Arman +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ee23404dfd537414286052ad58390246
+    m_Address: Great Fury of Arman
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c6ef0f9703af1f643869447ab2a02be1
+    m_Address: Great Fury of Armes +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7832775bccebe3248acc5bafe435fd23
+    m_Address: Great Fury of Armes
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5a27b7c572dc6e04ab74cd9f8f53e93d
+    m_Address: Great Fury of Armon +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aa01226ede0328448a371556a68062fc
+    m_Address: Great Fury of Armon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 312762d5448ef0644b39e24c4a23ec5d
+    m_Address: Limit Breaker
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d1797f96dc911684b9894cf5765dba16
+    m_Address: Rainbow Crystal
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0351bf90949b41b47ad317dce9d4a46f
+    m_Address: Red Crystal
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2001d5b98d38fb7469cdde0fdf5bd20b
+    m_Address: Soul Shield
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9f83a26b63fc79641b55ae7c9dbb6cb3
+    m_Address: Ultimate Abyss Clock
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9b10be2261941ca4eb674157235124b4
+    m_Address: Golden Clover +2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 634bd124f7e41914ca044ca600501364
+    m_Address: Turtle Golem Pendant
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 73c65900025661c4cae7b351606f054c
+    m_Address: Wrath Mirror
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d69abb73c1781134a804b16f03ac1464
+    m_Address: Yellow Crystal
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0e8ab64cb6e79dc4e846492a2d81fdab
+    m_Address: Critical Dice
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b39e7e1b51ff677459c0c83215d68a1c
+    m_Address: Dryad Pendant
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c3aabf19e93f7b44599c6f84575e2385
+    m_Address: Feather of King Parrot +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4739a7a59a7ba0b458418367e57766f9
+    m_Address: Feather of King Parrot
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f5567127f3daf124aa685e24d51d60f5
+    m_Address: Forest Pendant +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6898298e6f7e29a46b56a404cf183308
+    m_Address: Forest Pendant
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e5af35b382879b5438b60909591bfde2
+    m_Address: Golden Clover
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d66131b00cb1dbd40b32be8c00d1b322
+    m_Address: Petal of Dryad Queen +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e43b67ba2312c194f96f277473fcf103
+    m_Address: Petal of Dryad Queen
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c0babbf1cff7c5a419a03afad29d65c8
+    m_Address: Rainbow Gem
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7ef96da00a2ec4f4c894790734500390
+    m_Address: Slime Core +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: de0903e7507c02c45b714041ba021a7c
+    m_Address: Soul of Kitsune +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9d6806f3f7de02a4e9645da2db5ebadd
+    m_Address: Soul of Kitsune
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 43363aab616302845bd7fcb025a1c36a
+    m_Address: Cactus Spike
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 81927a868e6e1594db39c7d67dfb7e08
+    m_Address: Desert Pendant
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1d1bffa974bdc454486a38f2184fc6dc
+    m_Address: Hieracosphinx Chocker
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9248f380805c40648bf60e2e4fc67b30
+    m_Address: Rock Bunny Tail
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 29a47866dd23d314f9b2836a8fb08790
+    m_Address: Dark Dragon Core
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7175bf3c1d0cb7941a39980dbfcbb6ae
+    m_Address: Earth Pendant
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 554b91aed4278c2449a88b1a938d2585
+    m_Address: Hydra Core
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7b67868508180064e9ce3e4a78d8d599
+    m_Address: Holy Necklace
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6f4b0f460378e2b4196fc03299945aec
+    m_Address: Elemental Key -Fire-
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f5af1f3624501d7419d88d8e02a434a0
+    m_Address: Fire Elemental Gem
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 57248b20adf97954c9225f3e02df186d
+    m_Address: Fire Necklace
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 493275bc00ea1d24085d5ef2783fee10
+    m_Address: Fire Shard
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 778fea31f938f294cb9f75d2fecd8ad8
+    m_Address: Mythic Fire Core
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 39ce2c157c07b54418aa1f2cd1178e5a
+    m_Address: Air Elemental Gem
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f1301acaec068f149af3c1c9161c86da
+    m_Address: Air Necklace
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aacc1d76ef2f8654b87391c3dfca2961
+    m_Address: Air Shard
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b9738e35e4cd5484f8ac0ca363e67fb9
+    m_Address: Elemental Key -Air-
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f559ce1edccdf3b4da9cc893ad82e712
+    m_Address: Mythic Air Core
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d88549c8a1af4a54992f8b74c6d63d53
+    m_Address: Elemental Key -Water-
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f9c29e923e16f5a49bba9200d4897e60
+    m_Address: Mythic Water Core
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9893e5e3efe9d1449b18d1353238b46c
+    m_Address: Water Elemental Gem
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7b40219fc62381e4198390d25a091582
+    m_Address: Water Necklace
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b0dd30824916a834ba5a8261e238b68f
+    m_Address: Water Shard
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7bcf863cf0d01d14ab6d211058c52dde
+    m_Address: DEX Gem +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9a9f9653d7ed780459cb1589f4e442f2
+    m_Address: DEX Gem +2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8ce882dbe6f7fd2468256f10a1d70ef8
+    m_Address: DEX Gem +3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e07ccbec180dbee40ae0a2813bdf78ff
+    m_Address: DEX Gem
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9cd129d3317916c42bd9d44a663eb640
+    m_Address: END Gem +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 13ac738bbd4f72348ab87ed8e4965d6c
+    m_Address: END Gem +2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8afe5ee6bf8c24f409a29a4d914f268e
+    m_Address: END Gem +3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 26e203ba36a8c9946b0ca86a8ba21b19
+    m_Address: END Gem +4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8a72dfb73bced1f45ab6623ae0724189
+    m_Address: END Gem
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0cadafa28023b6c4bb47abd7a6f9d4a1
+    m_Address: EXP Book +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 129b7f001b4c47840bc1ec43cb02612d
+    m_Address: EXP Book +2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c785da71dc4d48c449f7a109655b218d
+    m_Address: EXP Book +3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9d059cd9bd285494b9e5e541dadf87a7
+    m_Address: EXP Book +4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c8758c74a2a647546a0fe7c57ab6fedb
+    m_Address: EXP Book +5
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0762c5fc1975a7f4e8fe09b8813177e0
+    m_Address: EXP Book +6
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c21c351c30e802846a9f51ec2a46ce4d
+    m_Address: EXP Book +7
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6a4a0d3ce5c5abe41931f8457a3503d5
+    m_Address: EXP Book +8
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4fdfdad837b91c44aa128b550bda4b48
+    m_Address: EXP Book
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 57f71a789509bab4285f131d6cfd2dfe
+    m_Address: INT Gem +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 78b290113a154dc458f254c96678209c
+    m_Address: INT Gem +2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9ab9ab5ce82bf6c47ac783b995772f52
+    m_Address: INT Gem +3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8ff2f4bdee44fb342b0c328dd630011c
+    m_Address: INT Gem
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 86e25c7e644dd6d42b28088a09f279e8
+    m_Address: Lucky Clover +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3bbd42106e6b53a4bac32c4be18ca47e
+    m_Address: Lucky Clover +2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 10f31a29410eeb6428f5e25529535a10
+    m_Address: Lucky Clover
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 71bb0d21c4e25b64db7d4115758083a7
+    m_Address: Special Exp Book
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d718843098ad15840be3970e7efb8580
+    m_Address: STR Gem +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8d304b97d51d21e418a9e2bc7cc25928
+    m_Address: STR Gem +2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7a3e24ec06e1ca24da0a32f8a6b9f7b3
+    m_Address: STR Gem +3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c6df4cfd6b769fc4b8f6af5bba16d269
+    m_Address: STR Gem
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c624a2d299f557740b9f54e7bfa21936
+    m_Address: VIT Gem +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 10aa3c76110ae2842a77cee6d5e2291d
+    m_Address: VIT Gem +2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d13769ed8fe005e46823494ba796a312
+    m_Address: VIT Gem +3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9e841f87f2a76024cb709732a6b9f4b7
+    m_Address: VIT Gem +4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8efb4e47b7e15d743a1e05fe41a16847
+    m_Address: VIT Gem
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3b5cf0c51ece28b458052a68bae939a5
+    m_Address: Rainbow Gem +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 723764806aaa6b542b15c36d2d224b42
+    m_Address: Rainbow Gem +2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b88d2fc6036631f4ab3bc43d0b95e987
+    m_Address: Corrupted Pendant
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 14180560c6c5f5c449c50a05d97dabda
+    m_Address: Mermaid Ring
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b9e303bfd4fc36245bb29aa0d963ebec
+    m_Address: Rainbow Gem +3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 171eb9b0f0ee9ec499b952e1b0cc2c44
+    m_Address: Rainbow Gem +4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8287bcfa491ee7b428128b272014b116
+    m_Address: Symbol of Collection
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4ba6d8a2a9d922f4fa42485fe12d85ad
+    m_Address: Flower Ring
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4d85affce99491e41900e0a7df9f1129
+    m_Address: Golden Clover +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0b3ea6be5de6a284987adf3aef39cb68
+    m_Address: Green Crystal
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 384054268a44548429857075f7ad2758
+    m_Address: Recovery Gem
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dff86b8a9da56934ebef543db2786744
+    m_Address: Slime Core
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a8a34cab887eda14e82bbd6fbde65073
+    m_Address: Maneater eye
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 45ca0ed8db7f79744871c5edaf8695df
+    m_Address: Skull Horn
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0e3cd4ddba9ca964f865468f9109233a
+    m_Address: Toxic Pendant
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0d9511939d79a524b9c6030734546192
+    m_Address: Elemental Key -Nature-
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b8fb2a516afd1f64eb27130c4d4e5695
+    m_Address: Mythic Nature Core
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: acbf49f7b5498a447952cb78c4233b1e
+    m_Address: Nature Elemental Gem
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6e3cd5b477588974aa29956deddf1802
+    m_Address: Nature Necklace
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1fd6dcad5e3e2b44cb66098ef646b07f
+    m_Address: Nature Shard
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e4ea31997f9b57b4cb4dd390a6d4def6
+    m_Address: Aquos Helmet
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 74429ffc42cc6694d82183ed59bfa7cc
+    m_Address: Barrier of Khronos
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1be85ead0f322784e852ca3e5bf27a7b
+    m_Address: Destruction of Big Fish
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8faaf6b1023f91641afc93a4a96a7961
+    m_Address: Mutant Helmet
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 65870d57695c6b44da1d49dfd81e1991
+    m_Address: Swiftness of Abyss
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9611e576ca84bbf43bf444b7255d7dd1
+    m_Address: Emperor Crab Glove
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3dc6c3285ed65e04faf3cd0cfcf12f9a
+    m_Address: Sea Shrimp Shoes
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a3926a949cbdc2e47bd73376901b7899
+    m_Address: Turtle Helmet
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c374343f9ea06834780c458ac0d00822
+    m_Address: Karkinos Breastplate
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d1f611602056f2f4e8c0a4baf8c293ee
+    m_Address: Dryads Glove +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9393a65ec8ea4a24b90f72af8da39a7f
+    m_Address: Dryads Glove
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8cfe799ede8e0d842b321f3526709d9f
+    m_Address: Turtle Glove +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f4916326cf76bb348bc74843511dbfaa
+    m_Address: Turtle Glove
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 06678b17bd5d1f04f96fd8d64395f897
+    m_Address: Void Flame +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1da33e6b3ec48c24989715c3bf0a95e2
+    m_Address: Void Flame
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5120fbd12e878144cbcb070f332e61e4
+    m_Address: Zeograth Glove +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b494ea623739731489004f5f3f0cf734
+    m_Address: Zeograth Glove
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f34e6c7870df05a468c5eec38b95e7aa
+    m_Address: Ant Shoes +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cbaf7f76b116bc74aba1368ea55242b1
+    m_Address: Ant Shoes
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a89a6d0c325183045b653bd0a7eeb064
+    m_Address: Bear Leather Shoes +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e30f92d4ba14599428a65bead5b8cd46
+    m_Address: Bear Leather Shoes
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c36b96f2ff2befc419412ae89d7d3dc0
+    m_Address: Dryads Shoes +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c12d988ee51618e4d89929c8be71decf
+    m_Address: Dryads Shoes
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7b4b54f13a40a274d8598f5af1c7a813
+    m_Address: Frozen Step +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2838d280951b3094e924e96e4ffa99c9
+    m_Address: Frozen Step
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 652a353371aea0146a524bdbb1955f48
+    m_Address: Wolfbull Boots
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 411a72ae76ed6df4a9d5894ab3ad8924
+    m_Address: Ant Cap +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3e2fa32b213b8af4b9f6019203c26f73
+    m_Address: Ant Cap
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ee8927a9df36b2b49889a768b0450687
+    m_Address: Dryads Horn +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5969c20b11e12be4d839cf27db79fd2c
+    m_Address: Dryads Horn
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 325e3b3fba9a362468aeade41e46761a
+    m_Address: Hydra Cap +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 743204fc7dfc84e45bffa8512bc98c07
+    m_Address: Hydra Cap
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4777e9da2bb63a5449c1299abd1f0fb4
+    m_Address: Parrot Hat +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fa018654a9769164d92d0c50c8dbe2c7
+    m_Address: Parrot Hat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9f32dc7c826166942befb91f8615bef5
+    m_Address: Dark Crow Armor +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4aeb38e0895e1f5408590f066fb6fddd
+    m_Address: Dark Crow Armor
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 46dc9e5c74f76e442817ac85b16d0ad3
+    m_Address: Dryads Clothes +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5a7a22ada68180a49ab81af516e67580
+    m_Address: Dryads Clothes
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8b9dd5f810ff3bc48924b27b9a8c57e2
+    m_Address: Kitsune Armor +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 980a30789b41ec04db4f09f7c9827eea
+    m_Address: Kitsune Armor
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0e395bd8850654842902d1af260a016e
+    m_Address: Zeograth Breastplate +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 247db61d96649a44ea77b12944499c11
+    m_Address: Zeograth Breastplate
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 137d4fbc64afdde458c36ac00e89e340
+    m_Address: Cursed Rock Armor
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 435bc17ef1038d14783b372588906f36
+    m_Address: Cursed Rock Helmet
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3fb12dcbb7f3f2441a680b3a1b36d40f
+    m_Address: Cursed Sand Boots
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f3d6f0815ce58ba41877ff5133eb4635
+    m_Address: Cursed Sand Gloves
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cf56b6b3272aa7c4e980041674acc98b
+    m_Address: Egypt Armor
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9a3a89482d5faca4ba042ca250e11ed7
+    m_Address: Egypt Boots
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 422bad641dc513f4a85cb243f2d81061
+    m_Address: Egypt Glove
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d1dde6b3cb2b4de479b11685b7f4a2f2
+    m_Address: Egypt Helm
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cb5c99270f7e66247a218c6c0e2908b5
+    m_Address: Parasand Barrier
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e9e66d946ca36264d8cfb5544d1582a8
+    m_Address: Parasand Glove
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6c5c24d2186342b409588ac4f63aba5e
+    m_Address: Rock Boots
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b4810f16693b7124eb36cd7e4fed8551
+    m_Address: Rock Helmet
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 780d7aafa3b2e414fa81714dd7e2b993
+    m_Address: Cursed Hydra Armor
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 39a05ec432a9e7d4287e95a84066ff5e
+    m_Address: Cursed Hydra Helmet
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 87f744431561f434e88c67583cc7b0b2
+    m_Address: Cursed Zalaras Boots
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e9e7e8a10cd60c24e90aa2683c726ed8
+    m_Address: Cursed Zalaras Gloves
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 93c4d037d7c449245bbda87a3e17a955
+    m_Address: Dragon Glove
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 480ea14fef72ecf4098977da8db16dce
+    m_Address: Dragon Robe
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: feb7e79e1a7579843bef37b869b2fccf
+    m_Address: Leviathan Boots
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9fb1e9860dd8e2c4a8ee10dc273c66c3
+    m_Address: Leviathan Glove
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ceb389d66ca7bb94ca49d39f9e93421d
+    m_Address: Leviathan Helm
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ba52567402ca69241885d5005dffbecb
+    m_Address: Leviathan Robe
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ee6bcabe7695c6842992f3d77fceacfd
+    m_Address: Tiamat Boots
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3d520c2cab1151347a326e6c66bb291d
+    m_Address: Tiamat Helm
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f1220d8794d876b4596227be0476a2df
+    m_Address: Golden Glove +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2ded1e079145d494cab8d5c677923f11
+    m_Address: Golden Glove
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cd2cfc3fb4314f14aaf9611dcf0c52e7
+    m_Address: Golden Shoes +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d057ca1b5c9ecdb4ab022d846210aa02
+    m_Address: Golden Shoes
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1f6cc69f38f9a0f4f980d95c36b41004
+    m_Address: Golden Cap +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 77e02ccfcf2e3b543bd0a9df647b3e1b
+    m_Address: Golden Cap
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 32c1dc525c12bf0449d00cbea2fcd04d
+    m_Address: Golden Robe +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 314a8e0f38dee8b4c91e9b43f4e565ea
+    m_Address: Golden Robe
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 466b71a0429934048b8362973a8044da
+    m_Address: Air Elemental Armor
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 76050183c64ff2c46b10148cbc1b125c
+    m_Address: Air Elemental Boots
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0fa118a530af26b4f894a3c5cc4cda7e
+    m_Address: Air Elemental Gloves
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a71c2dd22a538bd4297931113ffdf10d
+    m_Address: Air Elemental Helmet
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bd0e1b078ae48cb4f89791a079f35bf2
+    m_Address: Air Fairy Armor
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a5a96d761f5463945aa7fd07cb21057e
+    m_Address: Air Fairy Boots
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 06ecedb7dd6718d42a905bb2e9c84fff
+    m_Address: Air Fairy Gloves
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8e661090ffd6c4747842a19ade467fdd
+    m_Address: Air Fairy Helmet
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 97cef914a6a75c34492e8b70886c9e64
+    m_Address: Fire Elemental Armor
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e11632244af5b2241a08221e901c5153
+    m_Address: Fire Elemental Boots
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c60ea4f7cee7d48458eebd1816874791
+    m_Address: Fire Elemental Gloves
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e633807a192af484e94fb5d80050cd1a
+    m_Address: Fire Elemental Helmet
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8f51f5195dfb54c41ba4dc8ecc8145b8
+    m_Address: Fire Fairy Armor
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 331cc49824feb5c46b8bc078f316b684
+    m_Address: Fire Fairy Boots
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0acd9019b6320074f837184c47259a62
+    m_Address: Fire Fairy Gloves
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fc671b70b3b258846a1fdadab6f62470
+    m_Address: Fire Fairy Helmet
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 34e7d6dbac7e12a488c3f82778672078
+    m_Address: Air Elemental Armor +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f126f4e20c43b3a4da93464e7632cafa
+    m_Address: Air Elemental Boots +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c9490af58185a584e98f41dc91242333
+    m_Address: Air Elemental Gloves +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3266ebc94cc4acb489c68bf8b9ed4015
+    m_Address: Air Elemental Helmet +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0e43f71e98f69534aa5bab18042d1918
+    m_Address: Air Fairy Armor +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7e75053ad93427f4e965fbe14663dad5
+    m_Address: Air Fairy Boots +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f34480d286bcbe448b9b5203c0c275e3
+    m_Address: Air Fairy Gloves +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b6eaf874daa0d0a47af81dd1a6fc8ec4
+    m_Address: Air Fairy Helmet +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: caaed88eeb1a04144bec8c56c71395f5
+    m_Address: Fire Elemental Armor +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 779f149693171ba40b7f8bbd742c2678
+    m_Address: Fire Elemental Boots +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 69b54db26340ac44b9f261988401424f
+    m_Address: Fire Elemental Gloves  +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dc223795a947e0f4fafcbe02691c26c0
+    m_Address: Fire Elemental Helmet +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 58cbdc2f663dc5547a3d0714fce0cf7f
+    m_Address: Fire Fairy Armor +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4507c34d15ec0cc4f8b33e1681a884e3
+    m_Address: Fire Fairy Boots +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9a69676687a8dec47ba019f77de8d522
+    m_Address: Fire Fairy Gloves +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 68caf1ddc931fb744a90f266e17b522e
+    m_Address: Fire Fairy Helmet +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c5d51b6000e4eee439dc5ed0555d6020
+    m_Address: Nature Elemental Armor +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7a1d9e824e230524a823b2338b1b478a
+    m_Address: Nature Elemental Boots +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a11150564c4544d4c95a3e20dc0d7712
+    m_Address: Nature Elemental Gloves +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d3225b1de766cef4a845c5e0f232d3f1
+    m_Address: Nature Elemental Helmet +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cb391796e0a27c14b8c230e85510a473
+    m_Address: Nature Fairy Armor +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7f1004248e4a0e245bbeb029165fe575
+    m_Address: Nature Fairy Boots +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 798aebc23e73f9c4f9fcb3c6950a5d0a
+    m_Address: Nature Fairy Gloves +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2a31ba243a8b60044a2911496183343f
+    m_Address: Nature Fairy Helmet +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 67649af018d7d1b47b7dec442e5b83d5
+    m_Address: Water Elemental Armor +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fddf9fc98b86dfa45bc64f70f9a7c006
+    m_Address: Water Elemental Boots +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a7a6b6c68515cae40a9854f1c6d404a7
+    m_Address: Water Elemental Gloves +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f64af987c78de814a979da9a2a09b5ae
+    m_Address: Water Elemental Helmet +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: caa61afa40f2b144287899103c6154ef
+    m_Address: Water Fairy Armor +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e34985551a97d074aa93487e3950bde9
+    m_Address: Water Fairy Boots +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 71795cecca990fd46a5014436b66b563
+    m_Address: Water Fairy Gloves +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 944abee90b33ba547809c6ace93811bc
+    m_Address: Water Fairy Helmet +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 18ccc99598b81914ab984791d99530a6
+    m_Address: Nature Elemental Armor
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0c645fe38d1ff8e449986aef13298f68
+    m_Address: Nature Elemental Boots
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: efba961bd161c9947bcc22ab361ac4d4
+    m_Address: Nature Elemental Gloves
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 518dda37ce3070e4e9234867de3768bf
+    m_Address: Nature Elemental Helmet
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dfd4309ead2f8454ea0c7d42080ee1d3
+    m_Address: Nature Fairy Armor
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 436ea0c61a8097448a87687da52765d2
+    m_Address: Nature Fairy Boots
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 88c3032e4f107db4890200c191afca74
+    m_Address: Nature Fairy Gloves
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8cff90e21779dff48998c03e1afc7925
+    m_Address: Nature Fairy Helmet
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f0db69cf0323538488c6254fc3f6bc5e
+    m_Address: Water Elemental Armor
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3a18212f03cf9ea4e8a6cc762612d16b
+    m_Address: Water Elemental Boots
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0debc7421ee30694fbb67ddbb0c440e9
+    m_Address: Water Elemental Gloves
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7e2693db2ac607c4b9c0a67d15b1e64c
+    m_Address: Water Elemental Helmet
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d57a262a26d485648a041cf47ca63b28
+    m_Address: Water Fairy Armor
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8558225a436dd6e4eb59ed810c5d7e5b
+    m_Address: Water Fairy Boots
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9d7f85deaa5aa704b83bcf7047f9217a
+    m_Address: Water Fairy Gloves
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a884697a94e25ff4487924afb07e4fc6
+    m_Address: Water Fairy Helmet
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c4498e3422179b943b5fdc9daa6a036c
+    m_Address: Fire Lion Armor
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 50df94cacc637c146827c8a7076d2c45
+    m_Address: Fire Lion Helmet
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b55b3cff7cf40d04f92125cdc8800cf3
+    m_Address: Fire Titan Armor
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3f1433c1cfc268d4a9816e78e1b842be
+    m_Address: Fire Titan Boots
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a3a3e37acb8be8f4099d08c387edc22e
+    m_Address: Fire Titan Gloves
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aa61d90a34f7f1c4f95236aab389c053
+    m_Address: Fire Titan Helmet
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f58e5da9b0cf3644cae0908b1e64a92f
+    m_Address: Fire Turtle Boots
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 24758593b27e02041b9c9472e1d4e449
+    m_Address: Fire Turtle Gloves
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 85d3d842062c0fb41a55f84c788b7762
+    m_Address: Fire Lion Armor +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2aac5f7f89534044db9abd6ef7ae240c
+    m_Address: Fire Lion Helmet +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 616d04f7c8454b04987c64f04f8f0e8f
+    m_Address: Fire Titan Armor +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4ec32cf0e1e775f46a717913446c2b61
+    m_Address: Fire Titan Boots +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 78ef16b31cbd70c49b70635ea45987fa
+    m_Address: Fire Titan Gloves +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 95e46a7aaec0a26498da54373967754f
+    m_Address: Fire Titan Helmet +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f6e3d780606df044ba5ded54cf655670
+    m_Address: Fire Turtle Boots +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a85ca10c256829742a8b4bf662432c2c
+    m_Address: Fire Turtle Gloves +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 45c77c6a8ceb4a545aec8cd2dabc34f0
+    m_Address: Air Guardian Boots
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1df28de740c6db548a3eb0fa799c0a77
+    m_Address: Air Guardian Gloves
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: da2a88f620c1c9644b09bee1e0ffd990
+    m_Address: Air Guardian Boots +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a7679a46f8bea8f46be71c318e623c80
+    m_Address: Air Guardian Gloves +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5ae5744f9ef170747980274179393c11
+    m_Address: Wind Lion Armor +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3448e68ea14b7cb4d83802340e7bb542
+    m_Address: Wind Lion Helmet +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 338db864d12aea246aa2ae295000dcae
+    m_Address: Wind Titan Armor +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2bc464e9ddfc45240b9a47db334132ba
+    m_Address: Wind Titan Boots +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9a6f3fbcbf04ce34fad0bdf941c9ce4b
+    m_Address: Wind Titan Gloves +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5b7342f61481b484d848f02c355032be
+    m_Address: Wind Titan Helmet +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4d0216c52f4872949b680dad591fbf35
+    m_Address: Wind Lion Armor
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5675f4ec606501843bbe498b571e440d
+    m_Address: Wind Lion Helmet
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bac2480eb87ea1443a027a939f087b91
+    m_Address: Wind Titan Armor
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 19fef5c847916ca47a65de24d0e5da54
+    m_Address: Wind Titan Boots
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d4a8496bd782c5549b2f9d5a02e838f0
+    m_Address: Wind Titan Gloves
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e68bc3e9ce3dc5a4a951322abab3b913
+    m_Address: Wind Titan Helmet
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a7c9307c5ecbf844a9843d128bc10af3
+    m_Address: Ice Lion Armor +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 88622821c21daf1438ad3c0d792d8b19
+    m_Address: Ice Lion Helmet +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 92548cd97b584f844a4ab9c67dbff86a
+    m_Address: Ice Titan Armor +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d5efcedf8c930a948ab8dda77ca10b55
+    m_Address: Ice Titan Boots +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3e6100466cf427747ab09554624e4234
+    m_Address: Ice Titan Gloves +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5ec5cbecb01674147b40abcfdfcc45d3
+    m_Address: Ice Titan Helmet +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7ac40b3a0ab468947af7f0ffff8be981
+    m_Address: Ice Turtle Boots +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 774747de2a813e842a5e4c95c4c4fc09
+    m_Address: Ice Turtle Gloves +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9f7a6703ad0a56e4fa99483b3e83546e
+    m_Address: Ice Lion Armor
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2da17bb9f2e8b1f4bb3c901311d0bf65
+    m_Address: Ice Lion Helmet
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f6099f00edc8199498210185eeb7a67a
+    m_Address: Ice Titan Armor
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 564b23e0339a8d241bed1c95842376b0
+    m_Address: Ice Titan Boots
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5ba25eebd4962b94ca0895d3b9f47340
+    m_Address: Ice Titan Gloves
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 463daf025c4bdf446bcac1f575c6b38b
+    m_Address: Ice Titan Helmet
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8a4adcaf1440b02488ba5be5e39a4aa3
+    m_Address: Ice Turtle Boots
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 02384b88b73fdbe4ab55e69036a79186
+    m_Address: Ice Turtle Gloves
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 28a8f17f5b9578f4e9d61c7d1ef7a543
+    m_Address: Daidarabotchi Boots +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1fd0a2fd3b9b17648b52cc992bbdb378
+    m_Address: Daidarabotchi Boots
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4abc3607dca7ebe409ace4936d0d9567
+    m_Address: Golden Crown +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7397fb26732ff744397f42056677144e
+    m_Address: Golden Crown
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d78bf7876eb772e4a9c875cfe3049c98
+    m_Address: Samurai Robe +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0b40a21166cbd064aa522277dddaa4b4
+    m_Address: Samurai Robe
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 59ca2825da4929c4c9d6adf3bd65ad39
+    m_Address: Voidvod Glove +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b9c4a02dfc6fb234392a2c861f080d45
+    m_Address: Voidvod Glove
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e78ef2e6bb47b0e48895c60a64bd6bd6
+    m_Address: Corrupted Glove +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b5825f089ed289c4c99314fe52bd0e62
+    m_Address: Corrupted Glove
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 96dba8d6de3f8b2428c3b77f51a574b3
+    m_Address: Corrupted Boots +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 18fb72c8e8cb4914a8ed7bb8e1f02e87
+    m_Address: Corrupted Boots
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 21b7f35f0df39884c89f46ecada67c3f
+    m_Address: Corrupted Cap +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3d8a22705ff4f2d4a9a0c5c22c7dd2bc
+    m_Address: Corrupted Cap
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b00dbe4758e5fb241b6dd98bd11a33e0
+    m_Address: Corrupted Robe +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3db946dd631d3714ab82df253e104fad
+    m_Address: Corrupted Robe
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b4bd6bb5cd59dac4cbc4f9a28e981c11
+    m_Address: Aqua Armor
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 85200d15af6090646a9ae5d27dcc3321
+    m_Address: Jellyfish Helmet +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 193cba9630925644db7e676da8aa8444
+    m_Address: Jellyfish Helmet
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6eb0b1d35c814bc448df3a414f1d8c3b
+    m_Address: Mermaid Glove +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ef81da67cf875fb469f9d102e3ed8886
+    m_Address: Mermaid Glove
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4b5a8eee158c49d4f87b70b341aa07c4
+    m_Address: Mermaid Plate +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 498f289aa75221a43b26bff9b3a27699
+    m_Address: Mermaid Plate
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d55c935324d4b2447b313d46eebe697b
+    m_Address: Shark Shoes
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0a86885a82c44c042971683ac2ec44e1
+    m_Address: Urmica Shoes +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 699d3498450c61f4c80b408cd880c133
+    m_Address: Urmica Shoes
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d7ba1063e01c95747a7a9f0d3b65801a
+    m_Address: Arcane Glove
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ca9de5204f40d5442b52e1f9da23e194
+    m_Address: Fairy Glove
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f66f3459ed24e9442abe49becd590728
+    m_Address: Slime Glove
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3c99013034c411542953a9c86a864282
+    m_Address: Root Boots
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a785ac59a0743184194fe5588b98edc2
+    m_Address: Slime Boots
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: af04d00247c49d2488edb1363e6522f0
+    m_Address: Mushroom Cap
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7efa125a9a571344ba268929bdd7965b
+    m_Address: Slime Helmet
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9d6f93a242dd7c24cbfe0e6924efedf4
+    m_Address: Slime Breastplate
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 853d1fa20b3f35f4dab087f222fdc398
+    m_Address: Wooden Breastplate
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ec6d54b5e9a5d8347b490933037c65b5
+    m_Address: Ancient Armor
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a3867cde85cb01b4d844d8c38c9d41e3
+    m_Address: Ancient Boots
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5d5069707684a254ba0844170d519edd
+    m_Address: Ancient Glove
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0c8e9f129cb1940408b8af83905ebabc
+    m_Address: Ancient Helmet
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c14fb9d0d92dc2e4fac4bf534d725c58
+    m_Address: Cursed Skull Armor
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b37aa66cc7196d344b50306f84979083
+    m_Address: Cursed Skull Helmet
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9d83b143a885cf14eadfe48323b4b806
+    m_Address: Cursed Toxic Boots
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dbd1729eb4e58ff428b72670c2401cff
+    m_Address: Cursed Toxic Gloves
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 759393cd40d06394baffe147110462b4
+    m_Address: Toxic Plant Boots +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 374c4e44c17cee14c85de93745f14792
+    m_Address: Toxic Plant Boots
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8394d30ae4ab0894c9c88eec3bbdcae0
+    m_Address: Toxic Plant Breastplate +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ebda49c2edb1a0c43a89c4b4893f329e
+    m_Address: Toxic Plant Breastplate
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6d35bee1fb19dbb41956c38af0eff128
+    m_Address: Toxic Plant Glove +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1892a0c26954c64409a426eb48d7db30
+    m_Address: Toxic Plant Glove
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0c82d0fb63a775d4fa48038413fcaf25
+    m_Address: Toxic Plant Helmet +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b3686616bda8c1c4685d8ada98ac679c
+    m_Address: Toxic Plant Helmet
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5adbb5fdb4d825141826c28e158ba787
+    m_Address: Earth Taurus Armor
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 73ba4e9342f16a64c8183c8128efb02f
+    m_Address: Earth Taurus Helmet
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4b356a04834e0f54a808b1c5d031093f
+    m_Address: Earth Turtle Boots
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 97681517bb29d4943bde715ab5cfb179
+    m_Address: Earth Turtle Gloves
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d42d0475af67d204db29ad97738224dc
+    m_Address: Gemstone Armor
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0918de24a75f0d147adb7bf3107c7861
+    m_Address: Gemstone Boots
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d70d612b6eb467344841fac10fcff35e
+    m_Address: Gemstone Gloves
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: de6aeaf954cb0fd4ea249c87b2364c7f
+    m_Address: Gemstone Helmet
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 138f347d40016a84daac7cc613022f39
+    m_Address: Earth Taurus Armor +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e9813c9c86badf046acde681952d33ec
+    m_Address: Earth Taurus Helmet +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 64f633d45ee0e8c418103c3bc629950c
+    m_Address: Earth Turtle Boots +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cbddd671deed1fe469b29905dd2043f1
+    m_Address: Earth Turtle Gloves +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5fddf556b3812794781179f3fb55b596
+    m_Address: Gemstone Armor +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ffc77fd5718131c44bba5ed16cffc38a
+    m_Address: Gemstone Boots +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8f31db0d3366ee84888dd792e76d89bd
+    m_Address: Gemstone Gloves +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dc66ab463352fb642be7203d560813e1
+    m_Address: Gemstone Helmet +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f4529898472ae1344b485d49e8cc6d07
+    m_Address: Abyss Stone
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 405226795b704ff4a9db25fd00ece8e3
+    m_Address: Electrical Energy +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dc967091ce3a4944eadb0547858d017f
+    m_Address: Electrical Energy
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fec1312ba958d994980c4b351378b1af
+    m_Address: Hourglass
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 307379b9584e3914f890a132490098aa
+    m_Address: Piece of Astral Lich +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1c3dbb92112432642b49bd0a3cb74a33
+    m_Address: Piece of Astral Lich
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0b97e9da2df7ac94ea6588ea48baea1c
+    m_Address: Soul of Betafish +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5dae2795188b1634ca83123a4fb5ca78
+    m_Address: Arcane Material +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ee580f2882eb91c4383004df953bf599
+    m_Address: Arcane Material
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 87bc0e220486f7c4b80f5f9b6491a493
+    m_Address: Corrupted Gem
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4411302cef4f3a84881cafd4d5ceb091
+    m_Address: Divine Material
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0ff2b53543929944e8042cd8e3d15c14
+    m_Address: Christmas Invitation
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 44b9f17a0704e804dbdfa4dc0dcde7b6
+    m_Address: Darkness Claus Chip
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 74abd3d0fd8ccc54e8043bf8633a0a45
+    m_Address: Flying Deer Chip
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e0c42d78b18d7c248b804ab63d5fe474
+    m_Address: Ginger Bomber Chip
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0eea6747d2fabed46bf9badfe3e61524
+    m_Address: Polar Bear Chip
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 04cd264643f71d143ae57f83d735ecd3
+    m_Address: Scythe Penguin Chip
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 62347624b81cf2d47b071dec1f7f7640
+    m_Address: Sled Goblin Chip
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dd23eab02d8a9c24183e5fcd806ad204
+    m_Address: Blue Emperor Essence
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 01a543d7d09b25a40820d56d6d63c7b5
+    m_Address: Golden Egg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ee426b4aecb3f9e47aa5d0a1f736dcd9
+    m_Address: Green Emperor Essence
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9c16333cb4c155d42a0b83d2828c8135
+    m_Address: Pelican Feather
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8a8443d04d279334fb5fac8dbf024d0b
+    m_Address: Red Emperor Essence
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ee5444013110f9340b17e204350bef9c
+    m_Address: Scale Of Karkinos
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 356eea639f5f1834ba2b68308e102820
+    m_Address: Sea Beach Star
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b7a8fede5ae4e444190afd4ace2c4e88
+    m_Address: Water Turtle Soul
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5a0b2d61867437d4a8bab6cd3fa14084
+    m_Address: Ruby of Crocodile
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0e8255fc0c89d964096e132c0d22f0c3
+    m_Address: Core of Kouryuu
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 20f9d33ac4cca724a9a10bb32fef7ceb
+    m_Address: Leviathan Scale
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9c5c0ba70ffb1924e886b32a666cb369
+    m_Address: Air Fairy Fragment
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2343b71c1353ae1488d8cb1f80400aae
+    m_Address: Angel fragment
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a056222b318c76845a82635d351cbda0
+    m_Address: Essence of Air
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5d22a44ba0940d148bb3e96d8bed2ea2
+    m_Address: Essence of Fire
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 599c64c07a7b5734880fdaf96a624202
+    m_Address: Essence of Nature
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7f55bb196f94ae04e824cc39f9e9de7b
+    m_Address: Essence of Water
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 39988038e2e06cb429325404639cbb57
+    m_Address: Fire Fairy Fragment
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4cdff51ff9fdcb148a6c66d9468fa69f
+    m_Address: Air Fairy Fragment +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8d7e4338375111447880b350afa7ffd9
+    m_Address: Essence of Air +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5a0e2cd6b305e7342b8ae310f2512140
+    m_Address: Essence of Fire +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4c6110cbe132ff046b0aebdc9c91214d
+    m_Address: Essence of Nature +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 85a62c9f8c3e2a440b1667b25ed2900d
+    m_Address: Essence of Water +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b699fc4d63454c6498863534e4ef01c7
+    m_Address: Fire Fairy Fragment +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 585a9d051d04d444ea2e10974a5d014a
+    m_Address: Nature Fairy Fragment +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 741175441d3b7214e897b18ac6f2773d
+    m_Address: Water Fairy Fragment +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 129bfb7a2e505a649b1832bab9724853
+    m_Address: Nature Fairy Fragment
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8a85539360b6677419c546d646a82609
+    m_Address: Water Fairy Fragment
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8bac2d0c04d44144995697d0ef9ef036
+    m_Address: Dark Fire Gem
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cdff3780626f9ec4bbf2614f40291376
+    m_Address: Fire Necklace Strap
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ce1181ee06e019f4785b13e1081f1a68
+    m_Address: Fire Slivers
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ca5147119c56c114d9ca8a02f1feac8c
+    m_Address: Fire Soul
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 48cf0a8a3b75bc649bd6b97b0507c40c
+    m_Address: Red Vial
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ff515c58dfb08224090af6684ad91347
+    m_Address: Air Necklace Strap
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c9647600500720c4c95b78a9f0d941ba
+    m_Address: Air Soul
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a49cf6ef6666c3d45babb77262488040
+    m_Address: Cyan Vial
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: adba908330135124ea1d722335859bac
+    m_Address: Dark Air Gem
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d809d51c4fc8e2d4687f5f21f6ab9f12
+    m_Address: Wind Slivers
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2e89947d531e3be4e94b9c37c29b4d0f
+    m_Address: Leaf Of Dryad +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eae2e74f9d9ce7c4a8abef3a0acdeb90
+    m_Address: Leaf Of Dryad
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 748d12b9ca998a547b1aebdf8596f0e1
+    m_Address: Silver Avian Feather
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fe92f1134a9d161479a6516fd23f1539
+    m_Address: Stone Bear Piece
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e24f0ab4d59bfad4ca263f157147b192
+    m_Address: Blue Vial
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c99f09133da6428499e12104b039424d
+    m_Address: Crystal Fragment
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6089429370d381247a5436518c228d2b
+    m_Address: Dark Water Gem
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0f7209362b7d4394690d55bb59fba94b
+    m_Address: Water Necklace Strap
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d80a379f6c71660429dbda3053b38d4e
+    m_Address: Water Slivers
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aed6d987d82b6744d9ff3c0cdf962a79
+    m_Address: Water Soul
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 82252404b5e2a2c499ee1db0fa553446
+    m_Address: Corrupted Eye
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ce46381505197414ead299c67a6f074a
+    m_Address: Corrupted Slime Gem
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c9276b0f523190f48b452747d1768511
+    m_Address: Earth Crystal Bottle
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 44ed8183291561c4ca422bb68467b245
+    m_Address: Eldritch God Gem
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 27cd3c80c672ee04da730a7611e7c39c
+    m_Address: Empty Crystal Bottle
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 18455fa13b48f45498abb89f8353c516
+    m_Address: Enchanted Coal
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3897bc51c5c182642b850c8f22506b98
+    m_Address: Sacred Crystal Bottle
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2c370037f39ee8e49a821467918a7e9f
+    m_Address: Sand Crystal Bottle
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 65e7462909f654a4a80e65724b2356b0
+    m_Address: Toxic Crystal Bottle
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9d29e232ed127ae4fad1635dcb70b501
+    m_Address: Cursed Mermaid Ring
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0c32d531789991747a85649938cb24de
+    m_Address: Essence of Octi
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d64fc31eda4f874418b5ce76b253fb91
+    m_Address: Horn of Urmica +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 667aa8d93f2897045b464ea7fdbf1bd4
+    m_Address: Horn of Urmica
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d3a6bde363a3a3643b57feba09408f2a
+    m_Address: Jellyfish Tentacle +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 25c06101a6fa9be4781bacddc9456a40
+    m_Address: Jellyfish Tentacle
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 962e37ce0e3c0f7469d7ae214fae3b33
+    m_Address: Piece of Sea Horse
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 330a4bf8683067d46a3c655554dcdd01
+    m_Address: Scale of Abismos +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6cb3d5291b8705b44be555b807e741b6
+    m_Address: Scale of Abismos
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 36757053fe6f4b44a9a09c2f540459a5
+    m_Address: Scale of Mermaid
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b728631ee1990b940be69115b0e97c91
+    m_Address: Shark Fin
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 209e20689014808469fed9790176fa95
+    m_Address: Acid Slime Core
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 18869466b9346f341a1e74a0b64a561a
+    m_Address: Dark Nature Gem
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1665df3803369f648a929bc7e838cd79
+    m_Address: Earth Slivers
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 08aed9aa05e3a714b8b36a32b02c3d43
+    m_Address: Green Vial
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 25498229176237d4899166995c9fc00f
+    m_Address: Nature Necklace Strap
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bd0db6d658d25a64aa2ac6a89c51b714
+    m_Address: Nature Soul
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0c8a43bc27b795246ad2a5a51267f144
+    m_Address: Abyss Soul Blade
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a5221d5b78f4a4448accf4209646f543
+    m_Address: Anger of Big Fish
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 92425ebd30312484c9ad20601e76801d
+    m_Address: Deep Abyss Bow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d7de31f4c0d3d0b49b8f6229a34ad127
+    m_Address: Deep Abyss Staff
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8056ce356a240cf41970076793f6bf3d
+    m_Address: Eye of Armon +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e467df64aa3343e4abe775f5555482bc
+    m_Address: Eye of Armon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 22dbba4e0f76b5040a066b8907396b97
+    m_Address: Hell Blade
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 98a88b726b7002243a36d6ccecce3c08
+    m_Address: Magic of Arman +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 772e5bcb8e30df349aa735633c874190
+    m_Address: Magic of Arman
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ce4104e5b4e905845a67e8f45b7f4052
+    m_Address: Sword of Armes +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 92855e427390c5e47b892c7e8ccbab1f
+    m_Address: Sword of Armes
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7014faf868e12324fb10815198b279f6
+    m_Address: Time of Khronos
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d844b97bd6cee8547b51f17ab6e326fd
+    m_Address: Blue Lobster Wand
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4856c347dd8f27a4da00d9a9e8a91395
+    m_Address: Dark Star Staff +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3f5c517f193b2ce45ba8f63c00eb6165
+    m_Address: Dark Star Staff
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e84b8702b393e9a4aa151a4e2f6a63c3
+    m_Address: Green Lobster Bow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 81940ac562cfd25428401a257fa51f55
+    m_Address: Kraken Staff
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7e46eb43ab0b386478c819f61098718b
+    m_Address: Red Lobster Sword
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3824739b62124f14bb6220c04f4cc60f
+    m_Address: Shell Claw Bow +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0847a37cf10003f4f921925a701bdb96
+    m_Address: Shell Claw Bow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5d5bc2bedcc31ad42947f88235dd1a0d
+    m_Address: Soul Destructor
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ac00eebb3418589468370d70e3002fc5
+    m_Address: Spikestar Fragment +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 698ead63368705649b567e7c41ea379b
+    m_Address: Spikestar Fragment
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3ca1a36de5c257841bd8a54a7b47eb3f
+    m_Address: Star Bow +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3de53435314a18c42a72340fa9d5fce6
+    m_Address: Star Bow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b1b0d4a6a80dedf4da8cb72f3e7c25e1
+    m_Address: Star Shell Wand +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 530d1536d701f7a46b24d4c0115ca1c9
+    m_Address: Star Shell Wand
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7d8a3011e694a544893fc8a3f2cfae63
+    m_Address: Turtle Golem Bow +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e4029ed3d5a9d5445879896f2a2612fb
+    m_Address: Turtle Golem Bow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4e758ad0a670aae4da9401adc397afee
+    m_Address: Urchin Spike +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2295e0c691460dc4488e42af1bbd5084
+    m_Address: Urchin Spike
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 511725b92d4f5344db2d1a51cf93487d
+    m_Address: Ant Archer Bow +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6603ffb7825e51240b8c776dfac510cf
+    m_Address: Ant Archer Bow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b3324edb1852fab48932ff8fa9ddabe7
+    m_Address: Ant Knight Sword +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 735d453ac56d9d14498e185924bf0c0e
+    m_Address: Ant Knight Sword
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 95980ff7dab7c69479849210e46ce095
+    m_Address: Ant Mage Wand +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 05b6424f2d30dad40b22376b5697d8c8
+    m_Address: Ant Mage Wand
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a0a66899fad65e84a9ed2e894d7353b5
+    m_Address: Blue Seeker Bow +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 957db6292adaefb4e9da6ec157b449bf
+    m_Address: Blue Seeker Bow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a950811e4b39475408d67939975860b1
+    m_Address: Dark Crow Bow +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f048b4fd6ca178e4eb01ac1ffaf4449e
+    m_Address: Dark Crow Bow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d1cfa7f7605bec44785143a86c95b34f
+    m_Address: Dark Crow Dagger +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5bbe69c811a12f841a9902ea44abdb0d
+    m_Address: Dark Crow Dagger
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f8d44a29503542944ae5ca494b86d52d
+    m_Address: Dryad Bow +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a1fccda77a7d60f4598e2306562a0731
+    m_Address: Dryad Bow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9595601fc37bfff4e853dd65e621664a
+    m_Address: Dryad Scythe +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 572b92c379fa28947bee1b33639c9f99
+    m_Address: Dryad Scythe
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 961e4d58a5a60164b8f157d84ab3a6fe
+    m_Address: Dryad Staff +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 29c95f005915d98449c8480585b6a319
+    m_Address: Dryad Staff
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7aec8bd1d1933d7439634371cc5da973
+    m_Address: Fire Blade +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ca9f11217c382f1468ff23788a4c5b1f
+    m_Address: Fire Blade
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f67491c9e8e3eef44b561b705210688a
+    m_Address: Fire Wand +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c28cb344465c0a745b90db12cd85ed53
+    m_Address: Fire Wand
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1832f860a92c412499d71b4e06151edd
+    m_Address: Forest Staff +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ee91e376acbcbde40807f697bedd1cb5
+    m_Address: Forest Staff
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bd7b503639e82944fa31b55115f48f21
+    m_Address: Ice Mantis Blade +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 68f14290d26651b4bba8a0031418488a
+    m_Address: Ice Mantis Blade
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c758bd97b03c3bb46a9c1b0840679d43
+    m_Address: Ice Mantis Bow +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5063b266cbed6b84193d4f17407cb8e5
+    m_Address: Ice Mantis Bow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f1826db10adf61546bd084352aab4cbc
+    m_Address: Parrot King Bow +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 444fd585ab0bd784492dd9c22316c6c5
+    m_Address: Parrot King Bow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 67fbf93afb4357645ae12101db0f7ee4
+    m_Address: Rose Sword +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a930f203f0fb2d942b2b3c8da2d88af1
+    m_Address: Rose Sword
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c963396e12eee9d45922fac85420c9cc
+    m_Address: Spore Bow +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5881f98a167f9544db8d542580aeda68
+    m_Address: Spore Bow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 61cf5ade3b48d374ca93b7bfd6f1926d
+    m_Address: Stone Bear Bow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2a20d21491a6b3949b7ff4adf020d0e0
+    m_Address: Toxic Bow +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d904693d0ac6f7f4d9dc922c322f5146
+    m_Address: Toxic Bow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0704adb9c91f36043a6d966daf6729b5
+    m_Address: Toxic Staff +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 77a37800a3ca75549b5f7f70ea299e56
+    m_Address: Toxic Staff
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e10e3c2fe7b5ff84fbb83a38af650f0d
+    m_Address: Witch Staff
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4492faad21b93c84bb81672353f8d4b8
+    m_Address: Cursed Rock Staff
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2530afb6eda42a34c939fc10e2f7604d
+    m_Address: Desert Spike Sword
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 969bbcef71acf174f92201e7f6f53435
+    m_Address: Luxury Staff
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7fd1602463ea08143bbe6fe45ea1da1d
+    m_Address: Swiftness of Rock Bunny
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bbce6e73811a38745875f327f08cc676
+    m_Address: Cursed Tiamat Sword
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 094d135d4b54a1449bba4153ea1c8b69
+    m_Address: Darkness Bow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0e376d67753167d4cb9b57910a51f839
+    m_Address: Emperor Hydra Staff
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c20794788894bbf4fa6943abfda82c5c
+    m_Address: Kouryuu Bow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 17fa0261675a87c46815edf8d9c15d23
+    m_Address: Kouryuu Staff
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 987d709ff55c9ec4690eedab76cc3158
+    m_Address: Kouryuu Sword
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: efdf7c81c602b6c4aba22f822f5e13b6
+    m_Address: Leviathan Sword
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1efa384786a9d6b46957e2f334b26696
+    m_Address: Air Elemental Bow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 360c772a0bee28c46b8bd5abbbf9ad75
+    m_Address: Air Elemental Staff
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 33dbb385b01447843982ec4ac15f19b5
+    m_Address: Air Elemental Sword
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0503ea884a427624bb4ea655ffe14071
+    m_Address: Air Fairy Bow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 838f3768bdf7aee47ac31bcab27dd7f1
+    m_Address: Air Fairy Staff
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bf4d9b4aa8750b34089b16db18835757
+    m_Address: Air Fairy Sword
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 00e4a24d3a81e55478cc5ae10a4194ce
+    m_Address: Fire Elemental Bow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 77a14c36ad33fe64491c79f07d8efdc3
+    m_Address: Fire Elemental Staff
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: daf3f3d6a184ea641b9e137dcbd6ab30
+    m_Address: Fire Elemental Sword
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7ac47c7e4fa4ac0439210be950eb624f
+    m_Address: Fire Fairy Bow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 80144210155acea41b74ad777c28d96c
+    m_Address: Fire Fairy Staff
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fcc4a1c6c54d8b446b40f8d597e6b274
+    m_Address: Fire Fairy Sword
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 32ee382772cb7094da29d367d676f804
+    m_Address: Air Elemental Bow +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b33a68757e243924a811321a2580d1e7
+    m_Address: Air Elemental Staff +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6de12ce2a835dad449e6c55824e82b37
+    m_Address: Air Elemental Sword +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 74150e3a1332af84b8eb46eca84afb29
+    m_Address: Air Fairy Bow +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b29b9232920910c41ad17cf7fe44a4d5
+    m_Address: Air Fairy Staff +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9fec54a96299ed94a864254b0bfdfb96
+    m_Address: Air Fairy Sword +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a19fded8adde1d64d9b565db55dec621
+    m_Address: Fire Elemental Bow +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 02005b19c8b9394468b072f990cd728b
+    m_Address: Fire Elemental Staff +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 762f9dbc8b13ce345987d1648b56e53a
+    m_Address: Fire Elemental Sword +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 28d2af4dd69852341b18e15473afbd65
+    m_Address: Fire Fairy Bow +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 79b7d6c1332dff74297739f7b998c415
+    m_Address: Fire Fairy Staff +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0a24ccb6c33761c4c89cc30281786e7f
+    m_Address: Fire Fairy Sword +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ee46ff59650136c4995df8e71ca02818
+    m_Address: Nature Elemental Bow +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5a68754e7a7b75a45b1d5006f733f607
+    m_Address: Nature Elemental Staff +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0b778d33dcf5931439f0d2b5da02f184
+    m_Address: Nature Elemental Sword +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 833260d2753e40d46ab62de69c49ccff
+    m_Address: Nature Fairy Bow +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d0c1c2bc80e9a6d448d5b4ee21a4678f
+    m_Address: Nature Fairy Staff +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e918f3f30aa9adc46951022c15a15b21
+    m_Address: Nature Fairy Sword +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 288360fad2616f149b765ff56c61c814
+    m_Address: Water Elemental Bow +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8b5f5a7c3efda864ba474df0a7401780
+    m_Address: Water Elemental Staff +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cdb8a6a3554b55e4695841d22dc68576
+    m_Address: Water Elemental Sword +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8cc17250e8fdb014eb00ac9bff4eb5d0
+    m_Address: Water Fairy Bow +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 47b1552dd36bc9448bac4dbdba02f9c3
+    m_Address: Water Fairy Staff +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 74be34829153ed840b24c42212c141c8
+    m_Address: Water Fairy Sword +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 53c4f9d4debe13244b36e40d5af16ddb
+    m_Address: Nature Elemental Bow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6b4989eb73ad37d4d82e2acd1b13e778
+    m_Address: Nature Elemental Staff
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8e39e27173accd143b6e0cd93f166cae
+    m_Address: Nature Elemental Sword
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f765144c351778b4fa71de58db859d33
+    m_Address: Nature Fairy Bow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fb9a4652f4908f54eb56233f98930b15
+    m_Address: Nature Fairy Staff
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f74e2e819f464ce449fc9d8f20f6a717
+    m_Address: Nature Fairy Sword
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aaab22eca23fb594c8de02985c30c034
+    m_Address: Water Elemental Bow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2d3efa9a98677b84abbf6f21ddd58d9f
+    m_Address: Water Elemental Staff
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f06b108d45a3d7b43b2b14ba33846173
+    m_Address: Water Elemental Sword
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4f0e3db8658b900418327bfa900817b6
+    m_Address: Water Fairy Bow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eb323e15fa1fc7247a50ae618283a1f5
+    m_Address: Water Fairy Staff
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6f3bb534dac30f245910f6da2d91f0e3
+    m_Address: Water Fairy Sword
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a9626c0708a5d5c46801857f80f269ef
+    m_Address: Absolute Fire Bow +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 528277d11e32f1346907be6ab1d12ca9
+    m_Address: Absolute Fire Bow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0c89c3d3581c1404498384e4e364cbdf
+    m_Address: Absolute Fire Staff +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 40a59919ebe74f841a0aab3e615d88aa
+    m_Address: Absolute Fire Staff
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a5a4fccb0e719df4db517707efb1b9dd
+    m_Address: Absolute Fire Sword +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8dd391e8aa07037488e1bc37099de691
+    m_Address: Absolute Fire Sword
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6fe684890236a14488c95c3dc977322a
+    m_Address: Fire Soul Bow +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f0c0c4385f75f81498a3255f42bb3693
+    m_Address: Fire Soul Bow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6b17e21240f2bbc408d21888a8d05ec3
+    m_Address: Fire Soul Staff +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 204ded08cfa8ea040a5b63f76df5baf3
+    m_Address: Fire Soul Staff
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0d1b3dd552659af41a666001ac47c202
+    m_Address: Fire Soul Sword +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4ed2dd720083ebc438eed5e94ec76bea
+    m_Address: Fire Soul Sword
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5e38932241d6b3f459a9cd1d6a558c45
+    m_Address: Magma Bow +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ca6ba63601a92d144a0bbe012c91a51c
+    m_Address: Magma Bow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6398cf01485fef44287f973a6aca5707
+    m_Address: Magma Staff +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0354300a3605da44494ce5dd1ee86131
+    m_Address: Magma Staff
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 99549126cc5e3d54aa343d2e52ec4e14
+    m_Address: Magma Sword +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6429a80e7df1b2d468cff8ae223a9b98
+    m_Address: Magma Sword
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 763d48dbf04b6ca4b907947912770532
+    m_Address: Pure Fire Bow +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5348801fc572c5941885dfbc49da4492
+    m_Address: Pure Fire Bow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 94d5b7bed3fa13d4385ceefb61be36bf
+    m_Address: Pure Fire Staff +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e55cc0491e7fb3c4d983cec5156dc1c2
+    m_Address: Pure Fire Staff
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d1881ea832203a541a3a789f4ae2e3e6
+    m_Address: Pure Fire Sword +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aec614139deb3fe42882d4ee2505ad70
+    m_Address: Pure Fire Sword
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a5d3874707cb8ee4e91aa3ea4a6159f4
+    m_Address: Absolute Air Bow +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 49b65a679797dee47ae2af3331dc2f08
+    m_Address: Absolute Air Bow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0cf36302c16cad24e81189325395ebe4
+    m_Address: Absolute Air Staff +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e774a35787a156d4a960b8f672086cbf
+    m_Address: Absolute Air Staff
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5c42c940595990e47a357e8da0a3289e
+    m_Address: Absolute Air Sword +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e5e24562384323a45afe828f7e9106b2
+    m_Address: Absolute Air Sword
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1849796d956d4eb40872ba346ac7df65
+    m_Address: Air Soul Bow +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bc0f9308d61d81c4f8292c54192d1098
+    m_Address: Air Soul Bow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 87d6fedd810b2bb4e8eff0633dae87df
+    m_Address: Air Soul Staff +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8735f079a15f99547a10ef986abd7980
+    m_Address: Air Soul Staff
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9ac546146e00c1e4388fc41f9a49ac5e
+    m_Address: Air Soul Sword +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 441a696d15511734bbf24058f012b5ac
+    m_Address: Air Soul Sword
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 48754bc9b3f8a5a4cbbfddbdc29d728e
+    m_Address: Pure Wind Bow +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 533dd60e791a9704a8a7da032aae2fe2
+    m_Address: Pure Wind Bow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0de5d487f184d134b84b9f2945a59804
+    m_Address: Pure Wind Staff +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b4003c89570e69b41b18977a4d2ed2b0
+    m_Address: Pure Wind Staff
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6947c618cdd9b8742aba440bf6cf53da
+    m_Address: Pure Wind Sword +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2df57cb6b880dc440a7ecfce5e661f15
+    m_Address: Pure Wind Sword
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a60b8100be5b5a74a9d2d78052773f72
+    m_Address: Wind Bunny Staff +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8d4f5e2c5876eae41aaa369d04cca64a
+    m_Address: Wind Bunny Staff
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6c2f11d5a05a3b74bb9f71059428a410
+    m_Address: Wind Harpy Bow +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8c92dba29ed94384781e4c15d6b1d53c
+    m_Address: Wind Harpy Bow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 55da0eb059c8e084d84403747a57ccb5
+    m_Address: Wind Mantis Sword +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 575e4306baf1d424ca02413ea0147bc1
+    m_Address: Wind Mantis Sword
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5367ea7b6a424854c82ed16738cc7fcb
+    m_Address: Absolute Ice Bow +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 27fc550a6f54f8d40a5d79a9fdd5ec42
+    m_Address: Absolute Ice Bow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c86b9193ec55e0548b1770785fb6b278
+    m_Address: Absolute Ice Staff +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d187fa441e720854081028b5c9b1d227
+    m_Address: Absolute Ice Staff
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bf209cc13f2225f4285e7782f1b84140
+    m_Address: Absolute Ice Sword +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0b4a0b4f40fc38e4eb4eb6c168df0f49
+    m_Address: Absolute Ice Sword
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 74580867b3a76234cb4bfe85b90ed721
+    m_Address: Ice Bull Bow +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bcf879255bbe0cc4fbd68c507a0cab80
+    m_Address: Ice Bull Bow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 86b61128c69d0054faf43df90b82aee7
+    m_Address: Ice Golem Staff +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 199582cd35846fc4ead6b6335b567cff
+    m_Address: Ice Golem Staff
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5d683811b7f2f6b4ea33fd2a206f6cf8
+    m_Address: Ice Kindred Sword +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dd0b3390bbf17354da4aba5622a4a449
+    m_Address: Ice Kindred Sword
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a0d0efe7a5ea7d14c93c6c3fe2a034db
+    m_Address: Pure Ice Bow +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4a531e146f3a9b048ad8816b1de378f5
+    m_Address: Pure Ice Bow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c30c9a05542dae54b89e6ec9744b15c7
+    m_Address: Pure Ice Staff +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 22079122470bcaf4faa7daad02cfd806
+    m_Address: Pure Ice Staff
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 65828576033909447ba7176bf34c5100
+    m_Address: Pure Ice Sword +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 347f35d5134955c4da50e9eca7a7f9b7
+    m_Address: Pure Ice Sword
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a02ca1b9991911646b314e0b11769277
+    m_Address: Water Soul Bow +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0a61000a726c02a4dbe323c4d5a38f67
+    m_Address: Water Soul Bow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e054b4006fa315b449ec657cc4e82e7c
+    m_Address: Water Soul Staff +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e839e0606dd77724d93ab039e96a56a7
+    m_Address: Water Soul Staff
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 76a0373db055d6240b326aee20a998e9
+    m_Address: Water Soul Sword +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3298e9b4ceb8b91429aa5f50f6a35ba4
+    m_Address: Water Soul Sword
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 31dd8ba8eb2a30c46a0d63dee5be6e0b
+    m_Address: Blossom Bow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b7b3406bd9254ee4bb4529f1f869d3e6
+    m_Address: Blossom Staff
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ac80e0f42fa79af4ab59a06fef9fe6dc
+    m_Address: Blossom Sword
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 17adf9c6cd8e2ce40a3c7a240fcb994d
+    m_Address: Blue Runed Bow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fe97f2665263b27429bdc3282ece639d
+    m_Address: Dark Bow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: da2e5f784430977498c33d0355532434
+    m_Address: Dark Sword
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aede9c7b4f7b7a94d8582c6ad679f3d0
+    m_Address: Dark Wand
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4e5a0beac1544a548a94dac4596f503b
+    m_Address: Gold Runed Bow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4d9abd4ff5bdd504e839f4cc69bfea7e
+    m_Address: Golden Sword
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ebebc4c373091fe469688d52bf92e984
+    m_Address: Green Runed Bow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: db39500d16a3ac344b55b0521bed2c3d
+    m_Address: Magic Orb
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aba97e2eea86fc24bad30c09fe693bda
+    m_Address: Ordinary Bow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cacea90d28e1de04bb044925c02deddd
+    m_Address: Ordinary Sword
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0a528541a7fe14c40ade37d95a21e2bd
+    m_Address: Ordinary Wand
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 746492ef8206cf64e8f3bda89d5ffc3e
+    m_Address: Red Wand
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9cf12ff72983e0745adbbf8664c75479
+    m_Address: Sharp Axe
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 99fd17726c7f04f42b2395c1956f1109
+    m_Address: Sharp Spear
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 480135907fe48464a85780d8dee15a98
+    m_Address: Superior Sword
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 56c9cc211f389404291e88ec78107ebe
+    m_Address: Assassin Sword +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 541c5776c93f8744ebe454bd91534a1f
+    m_Address: Assassin Sword
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bb73b024088b86a45ae0817f8ae3c1d4
+    m_Address: Behemoth Bow +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 229af1a50e4c590428ed3748e3768779
+    m_Address: Behemoth Bow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 486072cc28dda0b4f92f6d695bf53285
+    m_Address: Dagon Wand +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b9b97a131683f0248abfe2aa581ec79a
+    m_Address: Dagon Wand
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c764609f1ad6b1b48847e22badd3335d
+    m_Address: Soul Extractor
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4eb9d0ad0ec036143aab523e3366bb92
+    m_Address: Abismos Trident +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aa4c64fddef13504b82c8f8814ce1054
+    m_Address: Abismos Trident
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 91cd2846e67406346ab0a0238d59e254
+    m_Address: Calamity Bow +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 06d9107a706bdb4458a15c4ec27b1e11
+    m_Address: Calamity Bow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 142a9a6e68c7ed74082a765a43900de2
+    m_Address: Calamity of Sea
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 20a0f40fe95f89747b98d6dc78c47a5f
+    m_Address: Mermaid Axe
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c840aeac94513a84993fa73127180c1e
+    m_Address: Mermaid Staff
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c785b2ef8f8aa6b4f88dad693603edf4
+    m_Address: Mermaid Sword
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 36aeca55d133b704f98b6fae393856a3
+    m_Address: Octi Bow +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f52f734bb374da6479c75dd71a4257ee
+    m_Address: Octi Bow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b143f5dd026543a429fc85d283178473
+    m_Address: Spheria Staff +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 25b9d87fa2b2b6b45962158a89a7025c
+    m_Address: Spheria Staff
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f391f161de11f9646b4ef6e5580edf36
+    m_Address: True Power of Mermaid
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a886bf6376035c549893610e61551717
+    m_Address: Bamboo Sword
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 663d27942b048d44cb6843bb88eea7a5
+    m_Address: Dark Slimy Staff
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 723bc23e403de2f42a5c1477c49012df
+    m_Address: Fairy Wand
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7960f3a240f5ced47a4ace41eb64e998
+    m_Address: Flower Mace
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 43141fc819eb0f9429e4cd2e44dc84cd
+    m_Address: Forest Bow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8d469b1d4d941794bbf601beeb0419d2
+    m_Address: Shroomy Bow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3aef8f35bd3a00544a1cb5c6096c72e9
+    m_Address: Tree Sword
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dca59f78b314ba649a43e76349fcdc14
+    m_Address: Wooden Bow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 20d5ed38a93ae514b9cb7a04893ebb0b
+    m_Address: Ancient Bow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d71339ec11dc2ce4e86f8782be0f3bcc
+    m_Address: Ancient Staff
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5d69f1aa3133b2940abaf2ca3cb8ea3d
+    m_Address: Ancient Sword
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8a5375a014441db41846e19bbabf5566
+    m_Address: Acid Slime Bow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 85cba3f45afa0c64898d3f61c00f55c1
+    m_Address: Cursed Toxic Mushroom Bow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9ba8e23aa9cb10b4e866a25a0377b736
+    m_Address: Maneater Wand
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c7be82efb25c46f4ab9cb6f646de0c22
+    m_Address: Skull Sword
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6465c809b9223f64f81a7176f50b668f
+    m_Address: Earth Drake Bow +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c09585f9b31dfe240b8f9daee4dbfb5b
+    m_Address: Earth Drake Bow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a4ce0201e27bf2b4d9a83782d05463cb
+    m_Address: Earth Drake Staff +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0d65dc6ba7bc6ce4b8f9a0c3bd8969e2
+    m_Address: Earth Drake Staff
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5116539da46246649859b6c22d9a796f
+    m_Address: Earth Drake Sword +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e0d75eb832dc03f409dad914af992d6a
+    m_Address: Earth Drake Sword
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1b5e70a051d78ce4c840c7e34c1f1adc
+    m_Address: Hard Stone Bow +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2b21e52d3edea3a4bac51e98e86532b5
+    m_Address: Hard Stone Bow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e7c11fad2bbf4c84a816c9aaefc5c54f
+    m_Address: Hard Stone Staff +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ad62efab26392ec4faa8ffb0088d5095
+    m_Address: Hard Stone Staff
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d3b3b8520ef3c884687ad522b862d8f8
+    m_Address: Hard Stone Sword +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0648395f39bc47746b97bd298ff28b93
+    m_Address: Hard Stone Sword
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8e0d4eb2776950a41ae910a314385229
+    m_Address: Plant Bow +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: afc87f0090523784c84552715b9fcf4c
+    m_Address: Plant Bow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 09ecd65b8f670b342a8368db5b4cc9e7
+    m_Address: Plant Staff +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0307a9a3f5d570b408c277373e378dcf
+    m_Address: Plant Staff
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4e58d8bcd3b907647aba370e4f310d87
+    m_Address: Plant Sword +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 27fc65080a633fc48bbf17929f1ac0b5
+    m_Address: Plant Sword
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 94c4765421bb3f7459f00c8b7eaab50c
+    m_Address: Ultimate Gemstone Bow +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 86b1fd9c4f84dd94394c82a8fdd55f23
+    m_Address: Ultimate Gemstone Bow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0907d45b543f25d4baf37f615f45cb20
+    m_Address: Ultimate Gemstone Staff +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ecb19966cbf01e5428da378d5458b934
+    m_Address: Ultimate Gemstone Staff
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 42c890dd559d4e04b8281f2633d22a08
+    m_Address: Ultimate Gemstone Sword +1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5838bffccce34814c93ff9eb9f72304c
+    m_Address: Ultimate Gemstone Sword
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - item
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 482d79c217fd56d4285aa89a01160bdf, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 506c882a10ff72445b44da244e796bef, type: 2}
+    - {fileID: 11400000, guid: 045b4228dc4b2af47a0897de2b772db0, type: 2}

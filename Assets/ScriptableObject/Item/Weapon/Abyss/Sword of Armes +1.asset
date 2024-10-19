@@ -14,6 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: -6299004563504894693, guid: 9e5c7499e4bdcf3438fc87aa9c8a5759,
     type: 3}
+  itemSpriteRef:
+    m_AssetGUID: 9e5c7499e4bdcf3438fc87aa9c8a5759
+    m_SubObjectName: abyss_17
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 6
   legacyID: Weapon-Abyss-54555555555-Sword Of Armes +1
   level: 54555555555

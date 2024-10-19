@@ -13,6 +13,12 @@ MonoBehaviour:
   m_Name: Desert Pendant
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 1414517773, guid: feaa62b01f0a4884f981869ce7a02251, type: 3}
+  itemSpriteRef:
+    m_AssetGUID: feaa62b01f0a4884f981869ce7a02251
+    m_SubObjectName: Desert Pendant
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 8
   legacyID: General-Desert-50000000-Desert Pendant
   level: 50000000

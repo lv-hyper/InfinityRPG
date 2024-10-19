@@ -14,6 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: -1159329482476866350, guid: e2139081da95b9b4dbd5ee8ad9aa9029,
     type: 3}
+  itemSpriteRef:
+    m_AssetGUID: e2139081da95b9b4dbd5ee8ad9aa9029
+    m_SubObjectName: elemental_9
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 6
   legacyID: Weapon-Abyss-123456789012-Hell Blade
   level: 123456789012

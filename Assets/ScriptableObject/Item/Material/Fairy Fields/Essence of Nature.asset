@@ -13,6 +13,12 @@ MonoBehaviour:
   m_Name: Essence Of Nature
   m_EditorClassIdentifier: 
   itemSprite: {fileID: -416861269, guid: 5ec0ab1f3e194174c8c250e0aa24adf7, type: 3}
+  itemSpriteRef:
+    m_AssetGUID: 5ec0ab1f3e194174c8c250e0aa24adf7
+    m_SubObjectName: Essence Of Nature
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 10
   legacyID: Material-FairyField-330000000001-Essence Of Nature
   level: 330000000001

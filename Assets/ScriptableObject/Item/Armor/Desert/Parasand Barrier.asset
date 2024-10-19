@@ -14,6 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: -4426951511347678944, guid: e831ee1edea549649a7aeb10a71709f6,
     type: 3}
+  itemSpriteRef:
+    m_AssetGUID: e831ee1edea549649a7aeb10a71709f6
+    m_SubObjectName: desert_16
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 8
   legacyID: Robe-Desert-4600000000-Parasand Barrier
   level: 4600000000

@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcd0cba9d37c1734f97da892cf4257e6, type: 3}
+  m_Name: Light Angel (Hidden)
+  m_EditorClassIdentifier: 
+  mobSprite: {fileID: 21300000, guid: 4ecff9dc31e4d234dba2f2d46322a074, type: 3}
+  mobSpriteRef:
+    m_AssetGUID: 4ecff9dc31e4d234dba2f2d46322a074
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  imageOffset: {x: 0, y: 0}
+  description: 
+  mobClass: 2
+  elementalDamage: []
+  elementalDefence:
+  - elemental: 1
+    amount: 500
+  - elemental: 2
+    amount: 500
+  - elemental: 3
+    amount: 500
+  - elemental: 4
+    amount: 500
+  integratedElementalDefence: -1
+  lv: 500000000000
+  difficulty: normal
+  hpRate: 2.5
+  atkRate: 1
+  expRate: 1
+  goldRate: 1
+  defReqRate: 1
+  hidden: 0
+  skills: []
+  skillRefs: []
+  customHP: -1
+  customATK: -1
+  maxDefenceRatio: 3
+  dropTable:
+  - item: {fileID: 11400000, guid: 2343b71c1353ae1488d8cb1f80400aae, type: 2}
+    probablity: 0.025
+  tagList: []
+  soulLv: 4
+  progressionLevel: 0
+  elementalSoulDrops: []

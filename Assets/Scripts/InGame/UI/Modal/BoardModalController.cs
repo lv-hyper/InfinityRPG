@@ -83,21 +83,23 @@ namespace InGame.UI
             if (boardSectionContentPrefab == null)
             {
                 boardSectionContentInstance = Instantiate(defaultBoardSectionModalPrefab, transform.parent, false);
-                boardSectionContentInstance.GetComponentInChildren<TMPro.TextMeshProUGUI>().text = selectedBoardSection.GetContent();
-                boardSectionContentInstance.GetComponentInChildren<UnityEngine.UI.Button>().onClick.AddListener(() => { 
-                    gameObject.SetActive(true); 
-                    boardSectionContentInstance.SetActive(false);
-                });
+                boardSectionContentInstance.GetComponent<SimpleTextBoardSectionView>().Init(
+                    selectedBoardSection.GetContent(),
+                    () => { 
+                        gameObject.SetActive(true); 
+                        Destroy(boardSectionContentInstance);
+                    }
+                );
                 gameObject.SetActive(false);
             }
             else
             {
                 boardSectionContentInstance = Instantiate(boardSectionContentPrefab, transform.parent, false);
                 // TODO : Init Modal
-                boardSectionContentInstance.transform.Find("ConfirmButton").GetComponent<UnityEngine.UI.Button>().onClick.AddListener(
+                boardSectionContentInstance.GetComponent<BoardSectionView>().Init(
                     () => {
                         gameObject.SetActive(true);
-                        boardSectionContentInstance.SetActive(false);
+                        Destroy(boardSectionContentInstance);
                     }
                 );
                 gameObject.SetActive(false);

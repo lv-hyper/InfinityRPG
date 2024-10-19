@@ -1,11 +1,15 @@
 using UnityEngine;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using Unity.VisualScripting;
 using System.Numerics;
 using System.Runtime.InteropServices;
 using InGame.Data.Item.Group;
+using UnityEngine.AddressableAssets;
+using UnityEngine.Events;
+using UnityEngine.ResourceManagement.AsyncOperations;
 
 namespace InGame.Data.Item
 {
@@ -14,7 +18,8 @@ namespace InGame.Data.Item
     [CreateAssetMenu(fileName = "Data", menuName = "ScriptableObjects/Item/Item")]
     public class Item : ScriptableObject
     {
-        [SerializeField] public Sprite itemSprite;
+        public Sprite itemSprite;
+        [SerializeField] public AssetReferenceT<Sprite> itemSpriteRef;
         [SerializeField] public ItemCategory.Zone zone;
         [SerializeField] public string legacyID;
         [SerializeField] public long level = 0;
@@ -115,7 +120,35 @@ namespace InGame.Data.Item
         public int GetMaxStack(){return maxStack;}
         public int GetMaxWornCount(){return maxWornCount;}
 
-        public Sprite GetSprite(){return itemSprite; }
+        public IEnumerator GetSpriteAsync()
+        {
+            if (itemSprite == null)
+            {
+                var handle = itemSpriteRef.LoadAssetAsync<Sprite>(); // Start loading the sprite
+                yield return handle; // Wait for the loading to complete
+
+                if (handle.Status == AsyncOperationStatus.Succeeded)
+                {
+                    itemSprite = handle.Result;
+                }
+                else
+                {
+                    Debug.LogError("Failed to load item sprite");
+                }
+            }
+        }
+
+        public void UnloadSprite()
+        {
+            itemSprite = null;
+            itemSpriteRef.ReleaseAsset();
+        }
+
+        public Sprite GetSprite()
+        {
+            return itemSprite;
+        }
+
         private void Reset()
         {
             maxStack = 10;

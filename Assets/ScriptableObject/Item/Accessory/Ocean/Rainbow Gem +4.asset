@@ -14,6 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 5216255635648370458, guid: e264130262aa74b43abaa59091cb5bc0,
     type: 3}
+  itemSpriteRef:
+    m_AssetGUID: e264130262aa74b43abaa59091cb5bc0
+    m_SubObjectName: Rainbow Gem_3
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
   zone: 6
   legacyID: General-Abyss-999999999999-Rainbow Gem +4
   level: 999999999999
